@@ -35,6 +35,7 @@ const site = readJson(join(CONTENT, 'site.json'));
 // (published / not published) can be built and verified without editing data.
 if (process.env.PRODUCT_URL && site.product) site.product.url = process.env.PRODUCT_URL;
 const terms = readJson(join(CONTENT, 'i18n', 'terms.json'));
+site.feedback = terms.feedback;
 const architecturesDoc = readJson(join(CONTENT, 'catalog', 'retrofit-architectures.json'));
 const standardsDoc = readJson(join(CONTENT, 'catalog', 'standards.json'));
 const devicesDoc = readJson(join(CONTENT, 'catalog', 'smart-locks.json'));

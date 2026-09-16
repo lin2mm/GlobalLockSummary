@@ -54,6 +54,36 @@ export function layout(opts) {
       }
     : null;
 
+  const feedbackTerms = site.feedback || {};
+  const feedbackI18n = {
+    title: feedbackTerms.title?.[lang] || feedbackTerms.title?.en || 'Engineer feedback',
+    hint: feedbackTerms.hint?.[lang] || feedbackTerms.hint?.en || '',
+    category: feedbackTerms.category?.[lang] || feedbackTerms.category?.en || 'Feedback type',
+    categories: Object.fromEntries(Object.entries(feedbackTerms.categories || {}).map(([key, value]) => [key, value[lang] || value.en || key])),
+    message: feedbackTerms.message?.[lang] || feedbackTerms.message?.en || 'Message',
+    openIssue: feedbackTerms.openIssue?.[lang] || feedbackTerms.openIssue?.en || 'Open GitHub issue',
+    copy: feedbackTerms.copy?.[lang] || feedbackTerms.copy?.en || 'Copy feedback',
+    copied: feedbackTerms.copied?.[lang] || feedbackTerms.copied?.en || 'Copied',
+    note: feedbackTerms.note?.[lang] || feedbackTerms.note?.en || '',
+  };
+  const feedbackData = JSON.stringify(feedbackI18n).replace(/'/g, '&#39;');
+  const feedback = `<section class="feedback" id="feedback" data-feedback
+    data-page-title="${esc(title)}" data-page-path="${esc(path)}" data-issues-url="${esc(site.urls.issues)}"
+    data-i18n='${feedbackData}'>
+    <h2>${esc(feedbackI18n.title)}</h2>
+    <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
+    <div class="feedback__fields">
+      <label>${esc(feedbackI18n.category)} <select data-feedback-category></select></label>
+      <label>${esc(feedbackI18n.message)} <textarea data-feedback-message rows="5"></textarea></label>
+    </div>
+    <div class="feedback__actions">
+      <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
+      <button class="feedback__copy" data-feedback-copy type="button">${esc(feedbackI18n.copy)}</button>
+      <span class="feedback__status" data-feedback-status aria-live="polite"></span>
+    </div>
+    <p class="feedback__note">${esc(feedbackI18n.note)}</p>
+  </section>`;
+
   const langLinks = alternates.map((alt) => {
     const label = site.languages[alt.lang]?.label || alt.lang;
     const isCurrent = alt.lang === lang;
@@ -128,6 +158,7 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
     ${crumbs}
     ${toc ? `<div class="page__grid"><article class="page__body">\n${body}\n</article><aside class="toc" aria-label="On this page"><p class="toc__title">${esc(site.ui.onThisPage[lang] || 'On this page')}</p><nav>${toc}</nav></aside></div>`
          : `<article class="page__body">\n${body}\n</article>`}
+    ${feedback}
   </main>
 
   <footer class="site-footer">
@@ -160,6 +191,7 @@ ${product ? `      <div>
     </div>
   </footer>
   <script src="/assets/js/site.js" defer></script>
+  <script src="/assets/js/feedback.js" defer></script>
 </body>
 </html>
 `;

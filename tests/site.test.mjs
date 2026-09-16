@@ -11,6 +11,7 @@
  */
 
 import { execFileSync } from 'node:child_process';
+import vm from 'node:vm';
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, dirname, normalize, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -59,6 +60,47 @@ for (const file of defaultFiles) {
 }
 check('no empty href or src attributes when the product site is unconfigured', emptyAttrs === 0, `${emptyAttrs} found`);
 check('no product link renders when the product site is unconfigured', productInDefault === 0, `${productInDefault} found`);
+
+let feedbackPages = 0;
+for (const file of defaultFiles) {
+  const html = read(file);
+  if (html.includes('id="feedback"') && html.includes('/assets/js/feedback.js')) feedbackPages++;
+}
+check('every page has the engineer feedback widget', feedbackPages === defaultFiles.length, `${feedbackPages}/${defaultFiles.length}`);
+
+/* Run the browser script against a tiny DOM stub, without uploading anything. */
+const feedbackSource = read(join(ROOT, 'assets/js/feedback.js'));
+const feedbackDocument = { addEventListener() {}, querySelectorAll() { return []; } };
+const feedbackContext = { document: feedbackDocument, window: {}, location: { pathname: '/locks/example.html' }, navigator: {} };
+vm.runInNewContext(feedbackSource, feedbackContext);
+const feedbackApi = feedbackContext.window.GlobalLockFeedback;
+const nodes = {};
+function node(name) {
+  return {
+    name, attrs: {}, value: '', href: '', textContent: '', children: [], listeners: {},
+    getAttribute(key) { return this.attrs[key] || null; },
+    setAttribute(key, value) { this.attrs[key] = value; },
+    appendChild(child) { this.children.push(child); },
+    addEventListener(event, fn) { this.listeners[event] = fn; },
+  };
+}
+const root = node('root');
+root.attrs = {
+  'data-page-title': 'Example lock', 'data-page-path': 'locks/example.html',
+  'data-issues-url': 'https://github.com/example/repo/issues',
+  'data-i18n': JSON.stringify({ copied: 'Copied', categories: { correction: 'Correction', other: 'Other' } }),
+};
+nodes.category = node('category'); nodes.message = node('message'); nodes.issue = node('issue');
+nodes.copy = node('copy'); nodes.status = node('status');
+root.querySelector = (selector) => ({
+  '[data-feedback-category]': nodes.category, '[data-feedback-message]': nodes.message,
+  '[data-feedback-issue]': nodes.issue, '[data-feedback-copy]': nodes.copy,
+  '[data-feedback-status]': nodes.status,
+}[selector]);
+feedbackDocument.createElement = () => node('option');
+feedbackApi.init(root);
+nodes.category.value = 'correction'; nodes.message.value = 'Backset is wrong'; nodes.category.listeners.change(); nodes.message.listeners.input();
+check('feedback script runs with a DOM stub and builds the issue URL', nodes.issue.href.includes('/issues/new?title=') && nodes.issue.href.includes(encodeURIComponent('Backset is wrong')) && nodes.issue.href.includes(encodeURIComponent('locks/example.html')));
 
 /* ---------- link and anchor integrity ---------- */
 
