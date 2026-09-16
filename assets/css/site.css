@@ -311,6 +311,24 @@ details p { margin: .6rem 0 .2rem; color: var(--fg-muted); }
 }
 .result__section a.product-link { display: inline-block; margin-top: .25rem; }
 
+/* ---------- engineer feedback ---------- */
+
+.feedback { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-alt); padding: 1.1rem 1.25rem; margin: 2rem 0 0; }
+.feedback h2 { margin: 0 0 .35rem; font-size: 1.2rem; }
+.feedback__hint, .feedback__note { color: var(--fg-muted); font-size: .88rem; }
+.feedback__fields { display: grid; gap: .75rem; margin: 1rem 0; }
+.feedback label { display: grid; gap: .3rem; font-size: .88rem; font-weight: 600; }
+.feedback select, .feedback textarea { box-sizing: border-box; width: 100%; font: inherit; font-weight: 400; padding: .5rem .6rem; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); }
+.feedback textarea { resize: vertical; min-height: 7rem; }
+.feedback select:focus, .feedback textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.feedback__actions { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem; }
+.feedback__issue, .feedback__copy { font: inherit; font-size: .9rem; padding: .45rem .8rem; border-radius: 6px; cursor: pointer; }
+.feedback__issue { background: var(--accent); color: var(--accent-ink); text-decoration: none; font-weight: 600; }
+.feedback__copy { background: var(--bg); color: var(--fg-muted); border: 1px solid var(--line); }
+.feedback__issue:hover, .feedback__copy:hover { filter: brightness(1.08); border-color: var(--accent); }
+.feedback__status { color: var(--fg-muted); font-size: .85rem; }
+.feedback__note { margin: .8rem 0 0; }
+
 /* ---------- print ---------- */
 
 @media print {

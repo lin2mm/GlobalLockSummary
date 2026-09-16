@@ -109,6 +109,22 @@
       "zh": "暂时无法判定。请先测量锁芯中心距与中心距——有这两个数字，锁匠或本站索引通常就能定位。"
     }
   },
+  "feedback": {
+    "title": { "en": "Engineer feedback", "zh": "工程师反馈" },
+    "hint": { "en": "Found a missing lock family, correction, or retrofit detail? This form stays in your browser and opens a pre-filled GitHub issue.", "zh": "发现缺少的锁型、错误或改造细节？表单内容只留在浏览器中，并打开预填的 GitHub Issue。" },
+    "category": { "en": "Feedback type", "zh": "反馈类型" },
+    "categories": {
+      "new-family": { "en": "New lock family", "zh": "新增锁型" },
+      "correction": { "en": "Correction", "zh": "纠错" },
+      "retrofit": { "en": "Retrofit detail", "zh": "改造细节" },
+      "other": { "en": "Other", "zh": "其他" }
+    },
+    "message": { "en": "Message", "zh": "留言" },
+    "openIssue": { "en": "Open GitHub issue", "zh": "打开 GitHub Issue" },
+    "copy": { "en": "Copy feedback", "zh": "复制反馈" },
+    "copied": { "en": "Copied", "zh": "已复制" },
+    "note": { "en": "Nothing is uploaded by this site. Review the text before opening GitHub.", "zh": "本站不会上传任何内容。打开 GitHub 前请先检查文字。" }
+  },
   "photo": {
     "title": { "en": "Photo measure", "zh": "拍照量尺寸" },
     "drop": { "en": "Take or choose a photo of your lock", "zh": "拍摄或选择一张锁的照片" },
