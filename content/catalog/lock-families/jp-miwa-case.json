@@ -1,0 +1,57 @@
+{
+  "id": "jp-miwa-case",
+  "status": "needs-review",
+  "regions": ["Japan"],
+  "title": {
+    "en": "Japanese mortise case and cylinder (MIWA / GOAL style)",
+    "zh": "日式插芯锁体与锁芯（MIWA / GOAL 类）"
+  },
+  "aliases": {
+    "en": ["MIWA lock", "GOAL lock", "Japanese door lock"],
+    "zh": ["美和锁", "GOAL 锁", "日式门锁"]
+  },
+  "summary": {
+    "en": "Japan has its own dominant makers and its own case geometry, with a backset commonly around 64 mm rather than the European 55/60 mm. Replacement parts are matched by maker part number far more often than by a published standard dimension.",
+    "zh": "日本有自己主导的厂商与锁体几何，背距常见约 64 mm，而非欧式的 55/60 mm。更换件更多按厂商料号匹配，而不是按公开标准尺寸。"
+  },
+  "anatomy": {
+    "en": [
+      "Mortise case, often with a maker-specific faceplate",
+      "Replaceable cylinder, sometimes a knob-integrated type",
+      "Handle or knob set",
+      "Optional electronic unit already fitted on apartment doors"
+    ],
+    "zh": [
+      "插芯锁体，面板常为厂商专用",
+      "可更换锁芯，部分为旋钮一体式",
+      "把手或球形把手组",
+      "公寓门上常已装有电子单元"
+    ]
+  },
+  "measurements": [
+    { "key": "backset", "typical": { "en": "64 mm common; 51 and 64 mm appear most often", "zh": "常见 64 mm；以 51 与 64 mm 最常见" }, "tolerance": { "en": "Match exactly", "zh": "必须完全一致" }, "how": { "en": "Door edge to the cylinder centre.", "zh": "门边到锁芯中心。" } },
+    { "key": "centreDistance", "typical": { "en": "Varies by maker; record the actual value", "zh": "因厂商而异；请记录实测值" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Spindle centre to cylinder centre.", "zh": "方轴中心到锁芯中心。" } },
+    { "key": "doorThickness", "typical": { "en": "33–42 mm on apartment doors", "zh": "公寓门 33–42 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "At the lock.", "zh": "在锁位处量。" } },
+    { "key": "faceplateSize", "typical": { "en": "Maker-specific; record width × length rather than assuming a size", "zh": "因厂商而异；请记录宽 × 长，不要假定尺寸" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure the strip on the door edge and photograph the maker's marking on it.", "zh": "量门边金属条，并拍下上面的厂商标记。" } }
+  ],
+  "measureOrder": ["backset", "centreDistance", "faceplateSize", "doorThickness"],
+  "standards": ["jp-jis-a4702"],
+  "retrofit": {
+    "architectures": ["full-lock-replacement", "surface-deadbolt-motor", "interior-handle-motor"],
+    "notes": {
+      "en": "Japanese apartments are the one market where smart locks arrived as a default fitting rather than a retrofit, so the aftermarket is thinner. Record maker part numbers — they are more reliable than dimensions here.",
+      "zh": "日本公寓是智能锁作为标配而非改造品进入的市场，因此后装市场较薄。请记录厂商料号——在这里它比尺寸更可靠。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Can a euro-cylinder smart lock fit a Japanese door?", "a": "Rarely. The backset, the cylinder profile and the case geometry all differ; a euro clamp assumes a 17 × 33 mm profile cylinder." }
+    ],
+    "zh": [
+      { "q": "欧标锁芯的智能锁能装日本门吗？", "a": "很少能。背距、锁芯槽型与锁体几何都不同；欧标夹具默认是 17 × 33 mm 槽型锁芯。" }
+    ]
+  },
+  "sources": [
+    { "title": "Contributor request: confirm Japanese case dimensions and the applicable JIS designation", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+  ]
+}

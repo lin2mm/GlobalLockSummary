@@ -1,0 +1,61 @@
+{
+  "id": "sg-hdb-mortise",
+  "status": "needs-review",
+  "regions": ["Singapore", "Malaysia", "Southern China"],
+  "title": {
+    "en": "Singapore HDB main-door mortise set and metal gate lock",
+    "zh": "新加坡 HDB 主门插芯锁组与铁闸锁"
+  },
+  "aliases": {
+    "en": ["HDB digital lock", "Main door mortise", "Gate lock"],
+    "zh": ["组屋数字锁", "主门插芯锁", "铁闸锁"]
+  },
+  "summary": {
+    "en": "A two-door entrance: a fire-rated timber main door with a mortise lock set, and a metal security gate with its own latch. Most Singaporean retrofits are full lock replacements sized to the existing mortise, and the constraint nobody expects is the clearance between the door handle and the gate handle.",
+    "zh": "双门入口：带插芯锁组的耐火木门主门，加上带独立锁舌的金属防盗闸。新加坡多数改造是按现有锁孔做整体换锁，而最容易被忽视的约束是门把手与铁闸把手之间的净空。"
+  },
+  "anatomy": {
+    "en": [
+      "Fire-rated timber leaf, commonly 42–50 mm thick",
+      "Mortise lock case, often a 2-bolt or 3-bolt set",
+      "Push-pull or lever handle set",
+      "Metal gate with a separate latch, opening onto the corridor"
+    ],
+    "zh": [
+      "耐火木门扇，常见厚度 42–50 mm",
+      "插芯锁体，常见为二舌或三舌结构",
+      "推拉式或把手式锁组",
+      "金属铁闸，带独立锁舌，朝走廊开启"
+    ]
+  },
+  "measurements": [
+    { "key": "backset", "typical": { "en": "60 mm typical on HDB timber doors; 55 and 70 mm occur", "zh": "HDB 木门常见 60 mm；也有 55 与 70 mm" }, "tolerance": { "en": "Match exactly or use an adjustable case", "zh": "必须完全一致，或使用可调锁体" }, "how": { "en": "Door edge to the centre of the cylinder or keyhole.", "zh": "门边到锁芯（或钥匙孔）中心。" } },
+    { "key": "centreDistance", "typical": { "en": "85 mm or 92 mm on many Asian mortise sets", "zh": "亚洲多数插芯锁组为 85 mm 或 92 mm" }, "tolerance": { "en": "None", "zh": "无公差" }, "how": { "en": "Handle spindle centre to cylinder centre.", "zh": "把手方轴中心到锁芯中心。" } },
+    { "key": "doorThickness", "typical": { "en": "40 mm minimum for most digital lock fittings; fire-rated leaves 42–50 mm", "zh": "多数数字锁要求门厚至少 40 mm；耐火门扇 42–50 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure the leaf at the lock.", "zh": "在锁位处量门扇。" } },
+    { "key": "clearanceToGate", "typical": { "en": "Often only 20–35 mm between handles", "zh": "两个把手之间常常只有 20–35 mm" }, "tolerance": { "en": "Decides whether a deep handle is possible at all", "zh": "决定厚把手到底能不能装" }, "how": { "en": "Close the gate, then measure from the door handle to the gate handle.", "zh": "关上铁闸，量门把手到铁闸把手的距离。" } },
+    { "key": "fireRating", "typical": { "en": "30 minutes, 60 minutes for units near lift lobbies or staircases", "zh": "30 分钟；靠近电梯厅或楼梯的单位为 60 分钟" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Check the label on the door leaf and the doorset certificate.", "zh": "查看门扇上的标签与门组认证证书。" } }
+  ],
+  "measureOrder": ["doorThickness", "backset", "centreDistance", "clearanceToGate", "fireRating"],
+  "standards": ["sg-scdf-coc", "en-12209", "en-1634-1"],
+  "retrofit": {
+    "architectures": ["full-lock-replacement", "interior-handle-motor", "gate-actuator"],
+    "notes": {
+      "en": "Slim-profile locks exist specifically for the gate-clearance problem. On a fire-rated leaf the replacement must carry an SCDF-recognised Certificate of Conformity for the doorset — a lock certificate alone is not the same thing. The gate is usually automated separately.",
+      "zh": "超薄外形的锁正是为解决净空问题而设计的。在耐火门扇上，替换件必须持有 SCDF 认可的门组 CoC（符合性证书）——只有锁的证书并不等同。铁闸通常单独做自动化。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Do I need HDB approval to fit a digital lock?", "a": "A routine lock replacement is treated as maintenance, but you must not compromise the door's fire certification and must not obstruct the escape route or the common corridor." },
+      { "q": "Why does my new handle hit the gate?", "a": "Because the new handle is deeper than the old one and the gate swings close to the door face. Measure the clearance before ordering and choose a slim profile." }
+    ],
+    "zh": [
+      { "q": "装数字锁需要 HDB 批准吗？", "a": "常规换锁视为维护，但不得破坏门的耐火认证，也不得妨碍逃生通道或公共走廊。" },
+      { "q": "为什么新把手会撞到铁闸？", "a": "因为新把手比旧的厚，而铁闸贴近门面开合。下单前先量净空，选择超薄外形。" }
+    ]
+  },
+  "sources": [
+    { "title": "HDB door lock upgrade guide — fire rating, 40 mm minimum thickness, gate clearance", "url": "https://andigitallock.com/blogs/latest-updates/upgrade-hdb-door-lock-the-ultimate-2026-singapore-homeowner-s-guide" },
+    { "title": "Kaadas Singapore — HDB fire-rated door and gate lock compatibility", "url": "https://kaadassg.com/shop/door-lock/" }
+  ]
+}

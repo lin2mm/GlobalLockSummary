@@ -1,0 +1,69 @@
+{
+  "id": "euro-cylinder-mortise",
+  "status": "verified",
+  "regions": ["Germany", "Austria", "Switzerland", "Netherlands", "Nordics", "Middle East", "China (imported hardware)"],
+  "title": {
+    "en": "Euro profile cylinder in a mortise case (DIN)",
+    "zh": "欧标槽型锁芯 + 插芯锁体（DIN）"
+  },
+  "aliases": {
+    "en": ["Euro cylinder", "DIN cylinder", "Profilzylinder", "PZ cylinder"],
+    "zh": ["欧标锁芯", "DIN 锁芯", "欧标插芯锁", "PZ 锁芯"]
+  },
+  "summary": {
+    "en": "The most standardised lock family on earth. A 17 mm × 33 mm profile cylinder sits in a mortise case built to DIN 18251, driven by an 8 mm square spindle, with a 72 mm centre distance on interior doors. If you design one adapter well, you cover most of continental Europe.",
+    "zh": "全球标准化程度最高的锁族。17 × 33 mm 槽型锁芯装在符合 DIN 18251 的插芯锁体内，由 8 mm 方轴驱动，室内门中心距为 72 mm。把一个适配件做好，就能覆盖欧洲大陆的绝大部分门。"
+  },
+  "anatomy": {
+    "en": [
+      "Profile cylinder — the replaceable keyed barrel, keyed both sides or with a thumb-turn inside",
+      "Mortise case — the box mortised into the door edge, holding the latch and deadbolt",
+      "Cam — the tab on the cylinder that throws the deadbolt",
+      "Follower — the 8 mm square hole the spindle passes through to retract the latch",
+      "Faceplate — the strip visible on the door edge",
+      "Strike plate — the pocket in the frame"
+    ],
+    "zh": [
+      "锁芯：可更换的带钥匙圆筒，可双钥匙，也可内侧带旋钮",
+      "锁体：嵌入门边的盒体，容纳斜舌与方舌",
+      "凸轮：锁芯上拨动方舌的拨片",
+      "方轴孔（follower）：方轴穿过以 retract 斜舌的 8 mm 方孔",
+      "面板：门边可见的金属条",
+      "扣板：门框上的孔槽"
+    ]
+  },
+  "measurements": [
+    { "key": "backset", "typical": { "en": "55 mm (interior), 60 mm; 65 / 70 / 80 mm on exterior and older doors", "zh": "55 mm（室内）、60 mm；外门与旧门为 65 / 70 / 80 mm" }, "tolerance": { "en": "±1 mm still fits most cases", "zh": "±1 mm 内多数锁体仍可装" }, "how": { "en": "Door edge to the centre of the cylinder hole.", "zh": "从门边到锁芯孔中心的距离。" } },
+    { "key": "centreDistance", "typical": { "en": "72 mm interior, 92 mm exterior; 78 / 85 mm on older doors", "zh": "室内门 72 mm，外门 92 mm；旧门为 78 / 85 mm" }, "tolerance": { "en": "None — this is the number that decides handle fit", "zh": "无公差——把手能否装上由它决定" }, "how": { "en": "Centre of the spindle hole to centre of the cylinder hole.", "zh": "方轴孔中心到锁芯孔中心的距离。" } },
+    { "key": "faceplateSize", "typical": { "en": "20 × 235 mm or 24 × 235 mm; 24 × 280 mm on fire doors", "zh": "20 × 235 mm 或 24 × 235 mm；防火门为 24 × 280 mm" }, "tolerance": { "en": "±2 mm", "zh": "±2 mm" }, "how": { "en": "Width and length of the strip on the door edge.", "zh": "门边金属条的宽与长。" } },
+    { "key": "cylinderLength", "typical": { "en": "30/10, 35/35, 40/40, 45/45 mm halves; total 60–90 mm", "zh": "两段为 30/10、35/35、40/40、45/45 mm；总长 60–90 mm" }, "tolerance": { "en": "Must be exact, in 5 mm steps", "zh": "必须精确，以 5 mm 为步进" }, "how": { "en": "From the centre screw to each end, measured on the installed cylinder.", "zh": "在装好的锁芯上，从中央固定螺钉向两端分别测量。" } },
+    { "key": "spindleSize", "typical": { "en": "8 mm square (7 mm exists on older hardware)", "zh": "8 mm 方形（旧五金有 7 mm）" }, "tolerance": { "en": "None", "zh": "无公差" }, "how": { "en": "Calliper across the square.", "zh": "用卡尺量方形对边。" } },
+    { "key": "doorThickness", "typical": { "en": "38–50 mm interior, 40–68 mm exterior", "zh": "室内门 38–50 mm，外门 40–68 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure at the lock, not at the corner.", "zh": "在锁的位置测量，不要在门角。" } }
+  ],
+  "measureOrder": ["centreDistance", "backset", "cylinderLength", "faceplateSize", "spindleSize", "doorThickness"],
+  "standards": ["din-18251", "din-18252", "en-12209", "en-1303", "en-1634-1"],
+  "retrofit": {
+    "architectures": ["motor-on-thumbturn", "integrated-cylinder", "interior-handle-motor"],
+    "notes": {
+      "en": "This is the best-served family for retrofit because the cylinder is a separate, standardised, replaceable part. Check two things first: does the cylinder have an emergency (double-clutch) function, and does the thumb-turn protrude enough to clamp.",
+      "zh": "这是改造生态最完善的锁族，因为锁芯是独立、标准化、可更换的部件。先确认两件事：锁芯是否为双离合应急功能，以及内侧旋钮是否突出到足以夹持。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Why does 72 mm matter so much?", "a": "Because the handle is drilled at that spacing. A 72 mm handle on a 92 mm case cannot be fitted without redrilling the door, which on a fire door is not allowed." },
+      { "q": "What does 30/10 mean on a cylinder?", "a": "The distance from the central fixing screw to each end: 30 mm outside, 10 mm inside. Order the two numbers separately, never just the total." },
+      { "q": "What is an emergency function cylinder?", "a": "A double-clutch cylinder that can still be opened from outside with a key even when a key is inserted inside. Every retrofit motor that leaves a key in the cylinder needs one." }
+    ],
+    "zh": [
+      { "q": "为什么 72 mm 这么重要？", "a": "因为把手是按这个孔距钻孔的。72 mm 的把手装不到 92 mm 的锁体上，除非重新钻孔——而防火门上不允许这样做。" },
+      { "q": "锁芯上的 30/10 是什么意思？", "a": "指从中央固定螺钉到两端的距离：外侧 30 mm，内侧 10 mm。下单要分别写两个数，不能只写总长。" },
+      { "q": "什么是应急功能锁芯？", "a": "即双离合锁芯：即使内侧插着钥匙，外侧仍能用钥匙开启。凡是会在锁芯里留钥匙的改造电机，都必须配这种锁芯。" }
+    ]
+  },
+  "sources": [
+    { "title": "Mortise lock dimensions: backset and centre distance (blue-id)", "url": "https://www.blue-id.com/en/blog/mortise-lock-mass" },
+    { "title": "DIN 18251 mortise lock standard overview", "url": "https://sdhhardware.com/2025-03-06/unlocking-security-a-deep-dive-into-mortise-locks-according-to-din-18251/" },
+    { "title": "CES mortise lock datasheet — backsets, 72 mm distance, 8 mm follower, 24×235 faceplate", "url": "https://www.ces.eu/en_us/cesmedia/bf8e5664-665d-40ee-a3e8-3b0a31c076d4/en" }
+  ]
+}

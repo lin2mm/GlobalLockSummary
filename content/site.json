@@ -1,0 +1,70 @@
+{
+  "name": "GlobalLockSummary",
+  "defaultLang": "en",
+  "languages": {
+    "en": { "label": "English", "code": "en", "dir": "" },
+    "zh": { "label": "中文", "code": "zh", "dir": "zh" }
+  },
+  "description": {
+    "en": "Open knowledge base of the world's mechanical door locks: identify the lock you have, record its dimensions, and design the smart-lock retrofit that fits it.",
+    "zh": "全球机械门锁开放知识库：识别你现有的锁、记录它的尺寸参数，并设计与之匹配的智能锁改造方案。"
+  },
+  "license": "CC BY 4.0",
+  "urls": {
+    "repository": "https://github.com/lin2mm/GlobalLockSummary",
+    "issues": "https://github.com/lin2mm/GlobalLockSummary/issues"
+  },
+  "product": {
+    "_comment": "Set `url` to publish a link to the commercial retrofit product site in the header, the footer and the identification result. Leave it empty and nothing renders — no empty hrefs, no placeholder link. Can be overridden at build time with PRODUCT_URL=… for testing.",
+    "url": "",
+    "label": { "en": "Retrofit hardware", "zh": "智能改造产品" },
+    "note": {
+      "en": "This site is an independent public reference. Adapters and retrofit kits are made by the maintainers.",
+      "zh": "本站是独立的公益参考资料。适配件与改造套件由维护者生产。"
+    }
+  },
+  "navigation": {
+    "en": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Identify", "href": "identify.html" },
+      { "label": "Measure", "href": "measure.html" },
+      { "label": "Retrofit", "href": "retrofit.html" },
+      { "label": "Locks", "href": "locks/index.html" },
+      { "label": "Standards", "href": "standards/index.html" },
+      { "label": "Contribute", "href": "contribute.html" }
+    ],
+    "zh": [
+      { "label": "首页", "href": "zh/index.html" },
+      { "label": "识别我的锁", "href": "zh/identify.html" },
+      { "label": "测量", "href": "zh/measure.html" },
+      { "label": "改造方案", "href": "zh/retrofit.html" },
+      { "label": "锁型库", "href": "zh/locks/index.html" },
+      { "label": "标准", "href": "zh/standards/index.html" },
+      { "label": "贡献", "href": "zh/contribute.html" }
+    ]
+  },
+  "ui": {
+    "skipToContent": { "en": "Skip to content", "zh": "跳到正文" },
+    "search": { "en": "Search", "zh": "搜索" },
+    "onThisPage": { "en": "On this page", "zh": "本页目录" },
+    "searchPlaceholder": { "en": "Search locks, standards, dimensions…", "zh": "搜索锁型、标准、尺寸…" },
+    "noResults": { "en": "No matches. Try a standard code (DIN 18251), a dimension (backset) or a brand.", "zh": "没有匹配结果。可以试试标准号（DIN 18251）、尺寸名（backset 锁芯中心距）或品牌名。" }
+  },
+  "footer": {
+    "tagline": {
+      "en": "A public-benefit reference for lock designers retrofitting the world's existing mechanical locks.",
+      "zh": "面向锁具设计师的公益参考资料，用于改造全球现存的机械门锁。"
+    },
+    "resourcesLabel": { "en": "Machine-readable", "zh": "机器可读" },
+    "licenseLabel": { "en": "License", "zh": "许可" },
+    "licenseText": {
+      "en": "Text and data are CC BY 4.0. Cite as “GlobalLockSummary” with a link. Brand names and standards codes belong to their owners.",
+      "zh": "文字与数据采用 CC BY 4.0 许可，引用请注明 “GlobalLockSummary” 并附链接。品牌名与标准编号归各自权利人所有。"
+    },
+    "disclaimer": {
+      "en": "Reference data only. Verify against the original standard and a physical measurement before manufacturing, installing, or relying on any lock. Fire-rated and escape-route doors must keep a certified, mechanically operable egress path.",
+      "zh": "本站内容仅供参考。在制造、安装或依赖任何锁具前，请对照原始标准并实测确认。防火门与疏散通道门必须保留经认证的、可机械开启的逃生通道。"
+    },
+    "repository": { "en": "Source on GitHub", "zh": "GitHub 源码" }
+  }
+}

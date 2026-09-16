@@ -1,0 +1,56 @@
+{
+  "id": "au-deadlatch",
+  "status": "needs-review",
+  "regions": ["Australia", "New Zealand"],
+  "title": {
+    "en": "Australian deadlatch and deadlock",
+    "zh": "澳洲活舌锁与死锁"
+  },
+  "aliases": {
+    "en": ["Deadlatch", "Lockwood-type latch", "Night latch (AU)"],
+    "zh": ["活舌锁", "澳洲夜锁"]
+  },
+  "summary": {
+    "en": "A surface deadlatch with a key outside and a knob or slide inside, plus a separate deadlock on many doors. Mechanically close to the UK nightlatch but with its own case geometry and a strong local brand ecosystem.",
+    "zh": "外装活舌锁，外侧钥匙、内侧旋钮或拨片，许多门上另有一把死锁。机构与英式夜锁接近，但锁体几何自成一套，本地品牌生态很强。"
+  },
+  "anatomy": {
+    "en": [
+      "Surface case with a spring deadlatch",
+      "Rim cylinder through the door face",
+      "Inside knob, slide or snib",
+      "Optional separate deadlock below"
+    ],
+    "zh": [
+      "带弹簧活舌的贴面锁体",
+      "穿过门面的外装锁芯",
+      "内侧旋钮、拨片或卡扣",
+      "下方可选配独立死锁"
+    ]
+  },
+  "measurements": [
+    { "key": "caseSize", "typical": { "en": "Survey locally — cases vary widely", "zh": "需本地测绘——锁体差异很大" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Width and height of the surface case.", "zh": "量贴面锁体的宽与高。" } },
+    { "key": "backset", "typical": { "en": "60 mm common", "zh": "常见 60 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Door edge to the cylinder centre.", "zh": "门边到锁芯中心。" } },
+    { "key": "doorThickness", "typical": { "en": "35–45 mm", "zh": "35–45 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "At the cylinder.", "zh": "在锁芯处量。" } }
+  ],
+  "measureOrder": ["caseSize", "backset", "doorThickness"],
+  "standards": ["au-as4174"],
+  "retrofit": {
+    "architectures": ["rim-lock-motor", "surface-deadbolt-motor", "interior-handle-motor"],
+    "notes": {
+      "en": "The inside control is often a slide or a snib rather than a rotatable knob, which no clamp adapter handles. Design an adapter that pulls, not just one that turns.",
+      "zh": "内侧控制件常是拨片或卡扣，而不是可旋转的旋钮，夹持式适配件完全无法处理。设计时要有“拉动”型适配件，而不只是“旋转”型。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Is a deadlatch secure on its own?", "a": "A deadlocked deadlatch resists slipping, but most Australian insurers still expect a keyed deadlock on an external timber door." }
+    ],
+    "zh": [
+      { "q": "只用一把活舌锁安全吗？", "a": "带死锁功能的活舌锁能防拨开，但澳洲多数保险公司仍要求木门外门另配带钥匙的死锁。" }
+    ]
+  },
+  "sources": [
+    { "title": "Australian locking device standard reference (designation to be confirmed by a contributor)", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+  ]
+}

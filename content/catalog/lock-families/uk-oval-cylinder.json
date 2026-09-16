@@ -1,0 +1,59 @@
+{
+  "id": "uk-oval-cylinder",
+  "status": "verified",
+  "regions": ["United Kingdom", "Ireland", "Commonwealth hardware markets"],
+  "title": {
+    "en": "UK oval cylinder (uPVC and composite doors)",
+    "zh": "英标椭圆锁芯（uPVC 与复合门）"
+  },
+  "aliases": {
+    "en": ["Oval cylinder", "British oval", "Yale-type oval"],
+    "zh": ["英标椭圆锁芯", "椭圆槽锁芯"]
+  },
+  "summary": {
+    "en": "The cylinder on most British uPVC and composite doors. It is oval rather than round-profiled, sits in a multipoint gearbox, and is the component that gets snapped by attackers — which is why TS007 star ratings exist.",
+    "zh": "英国 uPVC 与复合门上的锁芯。它是椭圆而非圆形槽型，装在多点联动齿轮箱里，也是攻击者最常折断的部件——TS007 星级评定因此存在。"
+  },
+  "anatomy": {
+    "en": [
+      "Oval profile body, longer and flatter than a euro cylinder",
+      "Multipoint gearbox behind it, driving hooks and rollers up and down the door edge",
+      "Full-length handle that must be lifted to throw the bolts"
+    ],
+    "zh": [
+      "椭圆槽体，比欧标锁芯更长更扁",
+      "其后是多点齿轮箱，带动门边上下的钩与滚轮",
+      "长把手，需要上抬才能上锁"
+    ]
+  },
+  "measurements": [
+    { "key": "cylinderLength", "typical": { "en": "Oval cylinders are specified by overall length and the screw position; common totals 62–92 mm", "zh": "椭圆锁芯按总长与螺钉位置标注；常见总长 62–92 mm" }, "tolerance": { "en": "Exact — order to the millimetre", "zh": "必须精确——按毫米下单" }, "how": { "en": "Overall length plus the offset of the fixing screw from one end.", "zh": "总长，加上固定螺钉距一端的偏移量。" } },
+    { "key": "centreDistance", "typical": { "en": "92 mm on most British uPVC and composite doors; 85 mm and 72 mm also exist", "zh": "英国多数 uPVC 与复合门为 92 mm；也有 85 mm 与 72 mm" }, "tolerance": { "en": "None — this decides whether a handle fits", "zh": "无公差——把手能否装上由它决定" }, "how": { "en": "Spindle centre to cylinder centre, measured on the gearbox face (the PZ dimension).", "zh": "在齿轮箱端面上量方轴中心到锁芯中心（即 PZ 尺寸）。" } },
+    { "key": "handleScrewSpacing", "typical": { "en": "205 / 215 mm screw centres are the two common values", "zh": "常见螺钉孔距为 205 / 215 mm 两种" }, "tolerance": { "en": "None for handle replacement", "zh": "更换把手时无公差" }, "how": { "en": "Top screw hole to bottom screw hole on the handle.", "zh": "量把手上螺钉孔到下螺钉孔的距离。" } },
+    { "key": "gearboxSize", "typical": { "en": "Gearbox width 16 / 20 mm; centre distance 92 mm most common", "zh": "齿轮箱宽 16 / 20 mm；中心距以 92 mm 最常见" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Remove the handle and measure the gearbox face.", "zh": "拆下把手，量齿轮箱端面。" } },
+    { "key": "doorThickness", "typical": { "en": "uPVC 24–30 mm; composite 44–70 mm", "zh": "uPVC 24–30 mm；复合门 44–70 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure the leaf only, not the frame.", "zh": "只量门扇，不含门框。" } }
+  ],
+  "measureOrder": ["cylinderLength", "handleScrewSpacing", "centreDistance", "doorThickness"],
+  "standards": ["ts-007", "ss-312", "en-1303", "en-12209", "bs-8621"],
+  "retrofit": {
+    "architectures": ["motor-on-thumbturn", "integrated-cylinder"],
+    "notes": {
+      "en": "Retrofit motors must rotate the cylinder far enough to lift the handle and throw the multipoint bolts — that is several turns, not the single turn of a simple deadlock. If the door only latches on closing, a single-throw motor is enough.",
+      "zh": "改造电机必须把锁芯转到足以抬起把手并上锁多点钩舌——这是数圈旋转，而不是简单插销锁的一圈。如果门只是关门即锁，单圈电机就够。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "What does TS007 3-star mean?", "a": "The cylinder passed independent attack testing for snapping, picking, drilling and bumping on its own. A 1-star cylinder is only acceptable when paired with a 2-star handle." },
+      { "q": "Can I keep my old cylinder and add a motor?", "a": "Yes mechanically, but if the old cylinder is unrated you keep the weakest part of the door. Upgrade to a 3-star cylinder at the same time." }
+    ],
+    "zh": [
+      { "q": "TS007 三星是什么意思？", "a": "该锁芯单独通过了针对折断、技术开启、钻孔与撞击的独立攻击测试。一星锁芯只有在配二星把手时才可接受。" },
+      { "q": "能保留旧锁芯只加电机吗？", "a": "机械上可以，但如果旧锁芯没有等级，你就保留了门上最薄弱的一环。建议同时升级为三星锁芯。" }
+    ]
+  },
+  "sources": [
+    { "title": "British Standard locks explained: BS3621, BS8621, TS007", "url": "https://cornwalllocksmiths.co.uk/blog/british-standard-locks-explained/" },
+    { "title": "Best smart locks for UK euro/oval cylinder doors (2026)", "url": "https://www.1control.eu/blog/en/best-smart-lock-euro-cylinder-uk" }
+  ]
+}

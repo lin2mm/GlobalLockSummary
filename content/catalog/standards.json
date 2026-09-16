@@ -1,0 +1,456 @@
+{
+  "_comment": "Standards reference. `status` is either 'verified' (cross-checked against a published source listed in sources) or 'needs-review'. A needs-review record is published deliberately — a knowledge base that hides its gaps is worse than one that marks them.",
+  "standards": [
+    {
+      "id": "din-18251",
+      "code": "DIN 18251",
+      "status": "verified",
+      "origin": "Germany",
+      "title": { "en": "Mortise locks for doors — case dimensions and requirements", "zh": "门用插芯锁——锁体尺寸与要求" },
+      "scope": { "en": "Mortise lock cases for timber, steel and tubular-frame doors. Defines case dimensions, backsets, follower size and classes 1–8 by duty.", "zh": "木门、钢门与管框门用插芯锁体。规定锁体尺寸、背距、方轴尺寸，并按用途分为 1–8 级。" },
+      "decides": {
+        "en": [
+          "Backset values — 55 mm and 60 mm are the standard ones; 45, 65, 70 and 80 mm also exist",
+          "Centre distance — 72 mm for interior doors, 92 mm for exterior doors; 78 mm on some series",
+          "Follower (spindle) size — 8 mm square",
+          "Faceplate sizes — 20 × 235 mm and 24 × 235 mm are the common ones",
+          "Duty class, which drives cycle life and fire performance"
+        ],
+        "zh": [
+          "背距数值——55 mm 与 60 mm 为标准值，另有 45、65、70、80 mm",
+          "中心距——室内门 72 mm，外门 92 mm，部分系列为 78 mm",
+          "方轴尺寸——8 mm 方形",
+          "面板尺寸——常见 20 × 235 mm 与 24 × 235 mm",
+          "用途等级，决定循环寿命与耐火性能"
+        ]
+      },
+      "appliesTo": ["euro-cylinder-mortise", "multipoint-upvc"],
+      "whyItMattersForRetrofit": {
+        "en": "This is the single most useful document for anyone designing a European retrofit adapter, because it is what makes the parts interchangeable in the first place.",
+        "zh": "对任何设计欧标改造适配件的人来说，这是最有用的文件，因为正是它让零件具备互换性。"
+      },
+      "sources": [
+        { "title": "DIN 18251 deep dive — backsets, 72 mm centre distance, cylinder dimensions", "url": "https://sdhhardware.com/2025-03-06/unlocking-security-a-deep-dive-into-mortise-locks-according-to-din-18251/" },
+        { "title": "CES datasheet citing DIN 18251-1 class 3 with 45–80 mm backsets", "url": "https://www.ces.eu/en_us/cesmedia/bf8e5664-665d-40ee-a3e8-3b0a31c076d4/en" }
+      ]
+    },
+    {
+      "id": "din-18252",
+      "code": "DIN 18252",
+      "status": "verified",
+      "origin": "Germany",
+      "title": { "en": "Profile cylinders for doors", "zh": "门用槽型锁芯" },
+      "scope": { "en": "The profile cylinder that plugs into a DIN 18251 case — the part every euro-cylinder retrofit grabs onto.", "zh": "插入 DIN 18251 锁体的槽型锁芯——所有欧标锁芯改造方案都要夹持的部件。" },
+      "decides": {
+        "en": [
+          "Profile cross-section, roughly 17 × 33 mm",
+          "Length in 5 mm steps, quoted as two halves from the fixing screw (30/10, 35/35, …)",
+          "Cam type and cam clock position",
+          "Double-clutch (emergency / hazard) function availability"
+        ],
+        "zh": [
+          "槽型截面，约 17 × 33 mm",
+          "长度以 5 mm 递增，按中央固定螺钉分两段标注（30/10、35/35……）",
+          "凸轮型式与角度位置",
+          "是否具备双离合（应急）功能"
+        ]
+      },
+      "appliesTo": ["euro-cylinder-mortise", "uk-oval-cylinder", "multipoint-upvc"],
+      "whyItMattersForRetrofit": {
+        "en": "Every clamp-on retrofit motor needs a cylinder that protrudes enough and has an emergency function. Both are decided here.",
+        "zh": "每个夹持式改造电机都需要突出足够且具备应急功能的锁芯，两者都由本标准决定。"
+      },
+      "sources": [
+        { "title": "DIN 18251/18252 cylinder dimensions 17 × 33 × 10 mm", "url": "https://umaylocks.com/din-18251/" }
+      ]
+    },
+    {
+      "id": "en-12209",
+      "code": "EN 12209",
+      "status": "verified",
+      "origin": "Europe (harmonised)",
+      "title": { "en": "Mechanically operated locks and latching devices", "zh": "机械操作锁具与锁扣装置" },
+      "scope": { "en": "The European umbrella standard for lock cases and latches, with an eight-digit classification code covering durability, door mass, suitability for fire doors, security, corrosion and operating temperature.", "zh": "欧洲锁体与锁扣装置的总括标准，用八位分类码表示耐久性、门重、防火门适用性、安全性、耐腐蚀与工作温度。" },
+      "decides": {
+        "en": [
+          "Cycle grades (0–8) and the corresponding duty",
+          "Whether the lock is suitable for use on fire/smoke door assemblies",
+          "Security grade and corrosion resistance",
+          "Centre distance and backset ranges recognised across Europe"
+        ],
+        "zh": [
+          "循环等级（0–8）及其对应的使用强度",
+          "该锁是否适用于防火/防烟门组",
+          "安全等级与耐腐蚀等级",
+          "欧洲范围内认可的中心距与背距范围"
+        ]
+      },
+      "appliesTo": ["euro-cylinder-mortise", "multipoint-upvc", "kr-pushpull-mortise", "sg-hdb-mortise"],
+      "whyItMattersForRetrofit": {
+        "en": "If the replacement lock loses the fire-door suitability of the original, the doorset's certification is broken even though everything fits mechanically.",
+        "zh": "如果替换锁失去了原锁的防火门适用性，即使机械上完全装得上，门组的认证也已失效。"
+      },
+      "sources": [
+        { "title": "Mortise locks: 72/85/92 mm centre distance, 45–80 mm backsets, fire ratings", "url": "https://www.dirock.com/Mortise-Lock-pl47667787.html" }
+      ]
+    },
+    {
+      "id": "en-1303",
+      "code": "EN 1303",
+      "status": "verified",
+      "origin": "Europe (harmonised)",
+      "title": { "en": "Cylinders for locks", "zh": "锁用锁芯" },
+      "scope": { "en": "Classification for cylinder durability, key differing, corrosion, temperature and — importantly for retrofit — attack resistance.", "zh": "规定锁芯耐久性、钥匙差异数、耐腐蚀、温度，以及对改造尤为重要的抗攻击能力分级。" },
+      "decides": {
+        "en": [
+          "Attack resistance class, which is what a TS007 or Sold Secure rating sits on top of",
+          "Key differing and key control",
+          "Durability grade"
+        ],
+        "zh": [
+          "抗攻击等级——TS007 与 Sold Secure 评级建立在其之上",
+          "钥匙差异数与钥匙管控",
+          "耐久性等级"
+        ]
+      },
+      "appliesTo": ["euro-cylinder-mortise", "uk-oval-cylinder", "multipoint-upvc"],
+      "whyItMattersForRetrofit": {
+        "en": "An integrated-cylinder smart lock must state its EN 1303 classification, otherwise the buyer cannot compare it with the cylinder it replaces.",
+        "zh": "集成式锁芯智能锁必须标明 EN 1303 分级，否则买家无法与它替换掉的原锁芯作比较。"
+      },
+      "sources": [
+        { "title": "Euro profile cylinder compliant with EN 1303", "url": "https://www.1control.eu/blog/en/best-smart-lock-euro-cylinder-uk" }
+      ]
+    },
+    {
+      "id": "en-1634-1",
+      "code": "EN 1634-1",
+      "status": "verified",
+      "origin": "Europe (harmonised)",
+      "title": { "en": "Fire resistance and smoke control tests for door and shutter assemblies", "zh": "门与卷帘门组的耐火与防烟试验" },
+      "scope": { "en": "How a complete doorset — leaf, frame, hardware, seals — is fire tested. The lock is tested as part of the assembly, not alone.", "zh": "规定整套门组（门扇、门框、五金、密封）如何进行耐火试验。锁是作为整体的一部分受测，而非单独测试。" },
+      "decides": {
+        "en": [
+          "Whether a given lock is allowed on a fire-rated doorset",
+          "The fire rating of the assembly (30, 60, 90, 120 minutes)",
+          "That changing hardware changes the tested configuration"
+        ],
+        "zh": [
+          "某款锁是否允许用于耐火门组",
+          "门组的耐火等级（30、60、90、120 分钟）",
+          "更换五金即改变了受测配置这一事实"
+        ]
+      },
+      "appliesTo": ["euro-cylinder-mortise", "multipoint-upvc", "sg-hdb-mortise"],
+      "whyItMattersForRetrofit": {
+        "en": "The number one way a well-intentioned smart lock retrofit becomes a liability: it fits perfectly and invalidates the door's certificate.",
+        "zh": "这是好心的智能锁改造最常变成责任问题的地方：装得完美，却让门的认证失效。"
+      },
+      "sources": [
+        { "title": "Fire-rated mortise locks: 30–240 minute requirements", "url": "https://www.dirock.com/Mortise-Lock-pl47667787.html" }
+      ]
+    },
+    {
+      "id": "bs-3621",
+      "code": "BS 3621",
+      "status": "verified",
+      "origin": "United Kingdom",
+      "title": { "en": "Thief resistant locks operated by key from both sides", "zh": "双面钥匙操作的防盗锁" },
+      "scope": { "en": "The lock standard most UK home insurers name. Applies to 5-lever mortice deadlocks and rim nightlatches on timber doors.", "zh": "英国多数家庭保险条款中点名的锁具标准。适用于木门上的五杆插芯锁与外装夜锁。" },
+      "decides": {
+        "en": [
+          "Minimum five levers — a three-lever lock can never comply",
+          "At least 1,000 key differs",
+          "Minimum 20 mm bolt throw into the frame",
+          "Hardened anti-drill plates and anti-pick features",
+          "Key required on both sides (no thumb-turn)"
+        ],
+        "zh": [
+          "至少五片杠杆——三杆锁永远无法合规",
+          "至少 1,000 个钥匙差异",
+          "方舌伸入门框至少 20 mm",
+          "硬化防钻板与防技术开启结构",
+          "两面都需钥匙（无旋钮）"
+        ]
+      },
+      "appliesTo": ["uk-5-lever-mortice", "rim-nightlatch"],
+      "whyItMattersForRetrofit": {
+        "en": "The Kitemark is stamped on the faceplate, so a photo of the door edge answers the question. That makes this the easiest compliance check to automate from a photo.",
+        "zh": "Kitemark 印在面板上，因此一张门边照片就能回答问题。这使它成为最容易通过照片自动化的合规检查。"
+      },
+      "sources": [
+        { "title": "What are BS3621 locks? — Master Locksmiths Association", "url": "https://www.locksmiths.co.uk/faq/what-are-bs3621-british-standard-locks/" },
+        { "title": "British Standard locks explained", "url": "https://cornwalllocksmiths.co.uk/blog/british-standard-locks-explained/" }
+      ]
+    },
+    {
+      "id": "bs-8621",
+      "code": "BS 8621",
+      "status": "verified",
+      "origin": "United Kingdom",
+      "title": { "en": "Thief resistant locks with keyless egress (thumb-turn or push-pad)", "zh": "带免钥匙逃生的防盗锁（旋钮或按钮）" },
+      "scope": { "en": "Same attack resistance as BS 3621 but with keyless exit from inside. Expected on commercial premises, HMOs and flats where an escape route applies.", "zh": "抗攻击能力与 BS 3621 相同，但内侧可免钥匙开启。适用于有逃生通道要求的商业场所、合租屋与公寓。" },
+      "decides": {
+        "en": [
+          "Keyless egress from inside without a key",
+          "Same forced-entry resistance as BS 3621",
+          "Suitability where fire-escape rules apply"
+        ],
+        "zh": [
+          "内侧免钥匙逃生",
+          "与 BS 3621 相同的抗强制开启能力",
+          "适用于消防逃生规则要求的场所"
+        ]
+      },
+      "appliesTo": ["uk-5-lever-mortice", "uk-oval-cylinder"],
+      "whyItMattersForRetrofit": {
+        "en": "Any smart retrofit on an escape route must preserve keyless egress. This standard is the clearest statement of that requirement in a lock specification.",
+        "zh": "任何位于逃生通道上的智能改造都必须保留免钥匙逃生能力。在锁具规范中，本标准对该要求表述得最清晰。"
+      },
+      "sources": [
+        { "title": "BS3621 vs BS8621 vs BS10621", "url": "https://cornwalllocksmiths.co.uk/blog/british-standard-locks-explained/" }
+      ]
+    },
+    {
+      "id": "bs-10621",
+      "code": "BS 10621",
+      "status": "verified",
+      "origin": "United Kingdom",
+      "title": { "en": "Thief resistant locks lockable from outside only", "zh": "仅可从外侧上锁的防盗锁" },
+      "scope": { "en": "A niche variant: the lock can be secured with a key from outside but not locked from inside. Used where internal locking must be prevented.", "zh": "较小众的变体：可从外侧用钥匙上锁，但不能从内侧上锁。用于必须防止内侧上锁的场所。" },
+      "decides": {
+        "en": ["Outside key locking only", "Same attack resistance family as BS 3621 / BS 8621"],
+        "zh": ["仅外侧钥匙上锁", "与 BS 3621 / BS 8621 同一抗攻击体系"]
+      },
+      "appliesTo": ["uk-5-lever-mortice"],
+      "whyItMattersForRetrofit": {
+        "en": "Rare, but it explains why some doors cannot accept a motor that also locks: the specification deliberately forbids inside locking.",
+        "zh": "较少见，但它解释了为什么有些门不能装带自动上锁功能的电机：规范本身就禁止内侧上锁。"
+      },
+      "sources": [
+        { "title": "British Standard locks explained", "url": "https://cornwalllocksmiths.co.uk/blog/british-standard-locks-explained/" }
+      ]
+    },
+    {
+      "id": "ts-007",
+      "code": "TS 007",
+      "status": "verified",
+      "origin": "United Kingdom",
+      "title": { "en": "Enhanced security cylinder standard (1, 2 or 3 star)", "zh": "增强安全锁芯标准（一星、二星、三星）" },
+      "scope": { "en": "The Kitemark standard for cylinders on uPVC and composite doors, aimed at lock snapping. Current edition cited as DHF TS 007-1:2024.", "zh": "用于 uPVC 与复合门锁芯的 Kitemark 标准，主要针对锁芯折断攻击。当前版本被引用为 DHF TS 007-1:2024。" },
+      "decides": {
+        "en": [
+          "Star rating for snapping, picking, bumping and drilling resistance",
+          "That a 1-star cylinder needs a 2-star handle to be an acceptable combination",
+          "That a 3-star cylinder is compliant on its own"
+        ],
+        "zh": [
+          "针对折断、技术开启、撞击与钻孔的星级评定",
+          "一星锁芯需搭配二星把手才构成可接受的组合",
+          "三星锁芯单独即合规"
+        ]
+      },
+      "appliesTo": ["uk-oval-cylinder", "multipoint-upvc"],
+      "whyItMattersForRetrofit": {
+        "en": "Retrofitting a smart lock onto an unrated cylinder keeps the weakest component. The right advice pairs the motor with a 3-star cylinder.",
+        "zh": "在没有等级的锁芯上加装智能锁，等于保留最薄弱的部件。正确的建议是电机搭配三星锁芯。"
+      },
+      "sources": [
+        { "title": "TS007 explained, including the 1-star + 2-star combination", "url": "https://cornwalllocksmiths.co.uk/blog/british-standard-locks-explained/" },
+        { "title": "TS 007-1:2024 referenced as the current edition", "url": "https://city-locksmith.co.uk/blog/best-front-door-locks-uk/" }
+      ]
+    },
+    {
+      "id": "ss-312",
+      "code": "Sold Secure SS312",
+      "status": "verified",
+      "origin": "United Kingdom",
+      "title": { "en": "Sold Secure cylinder scheme (Bronze, Silver, Diamond)", "zh": "Sold Secure 锁芯认证（铜、银、钻石）" },
+      "scope": { "en": "An independent testing scheme for cylinders. Diamond passes attack tests beyond what TS007 3-star covers and is referenced by Secured by Design.", "zh": "独立的锁芯测试认证。钻石级通过的测试超出 TS007 三星范围，并被 Secured by Design 引用。" },
+      "decides": {
+        "en": ["Attack resistance beyond TS007", "Recognition by police Secured by Design schemes", "Often required alongside or instead of TS007 by insurers"],
+        "zh": ["超出 TS007 的抗攻击能力", "被警方 Secured by Design 体系认可", "保险公司常要求与 TS007 并列或替代"]
+      },
+      "appliesTo": ["uk-oval-cylinder", "euro-cylinder-mortise"],
+      "whyItMattersForRetrofit": {
+        "en": "Two certification marks can appear on one cylinder. Record both — they are not interchangeable.",
+        "zh": "同一把锁芯上可能出现两种认证标记。两者都要记录，它们不可互换。"
+      },
+      "sources": [
+        { "title": "Sold Secure SS312 Diamond explained", "url": "https://cornwalllocksmiths.co.uk/blog/british-standard-locks-explained/" }
+      ]
+    },
+    {
+      "id": "ansi-a156-2",
+      "code": "ANSI/BHMA A156.2",
+      "status": "verified",
+      "origin": "United States",
+      "title": { "en": "Bored and preassembled locks and latches", "zh": "开孔式与预装锁具及锁扣" },
+      "scope": { "en": "The knob and lever sets fitted through a cross bore. Grades 1, 2 and 3 by durability and strength.", "zh": "通过横孔安装的球形锁与把手锁。按耐久与强度分为 1、2、3 级。" },
+      "decides": {
+        "en": [
+          "Cycle life by grade. Allegion lists 1,000,000 / 400,000 / 200,000; other published tables give 800,000 for Grade 1 — cite the edition when quoting",
+          "Impact resistance (hammer blows) by grade",
+          "Backset 2-3/8 in or 2-3/4 in, cross bore 2-1/8 in",
+          "Function designations (passage, privacy, entry, storeroom, classroom)"
+        ],
+        "zh": [
+          "按等级的循环寿命。Allegion 给出 1,000,000 / 400,000 / 200,000；另有公开表格给出 Grade 1 为 800,000——引用时须注明版本",
+          "按等级的抗冲击（锤击）能力",
+          "背距 2-3/8 或 2-3/4 英寸，横孔 2-1/8 英寸",
+          "功能代号（通道、隐私、入户、库房、教室）"
+        ]
+      },
+      "appliesTo": ["us-bored-lever", "us-deadbolt"],
+      "whyItMattersForRetrofit": {
+        "en": "Because the bores are standardised, this is the family where a smart lockset can be specified without seeing the door.",
+        "zh": "由于孔位标准化，这是唯一可以不看门就指定智能锁组的锁族。"
+      },
+      "sources": [
+        { "title": "Allegion — ANSI/BHMA grade cycle counts (A156.2: 1,000,000 / 400,000 / 200,000)", "url": "https://kc.allegion.com/kb/article/what-are-ansi-bhma-hardware-grades/" },
+        { "title": "ANSI/BHMA grades explained, backset and cross bore (Grade 1 quoted as 800,000)", "url": "https://superarbor.io/blogs/blogs/door-hardware-grades-ansi-bhma-grade-1-2-3-explained" }
+      ]
+    },
+    {
+      "id": "ansi-a156-13",
+      "code": "ANSI/BHMA A156.13",
+      "status": "verified",
+      "origin": "United States",
+      "title": { "en": "Mortise locks", "zh": "美式插芯锁" },
+      "scope": { "en": "Commercial mortise locksets. Allegion lists 1,000,000 cycles at Grade 1 and 800,000 at Grades 2 and 3.", "zh": "商用插芯锁组。Allegion 给出 Grade 1 为 1,000,000 次循环，Grade 2 与 3 均为 800,000 次。" },
+      "decides": {
+        "en": ["Cycle life by grade", "Case dimensions and prep", "Function range, which is far wider than residential"],
+        "zh": ["按等级的循环寿命", "锁体尺寸与开孔", "功能范围，远宽于住宅用"]
+      },
+      "appliesTo": ["us-mortise"],
+      "whyItMattersForRetrofit": {
+        "en": "Commercial doors usually already have access control. Retrofit means integrating, not replacing.",
+        "zh": "商用门通常已有门禁系统。改造意味着集成，而不是替换。"
+      },
+      "sources": [
+        { "title": "Allegion — A156.13 cycle counts", "url": "https://kc.allegion.com/kb/article/what-are-ansi-bhma-hardware-grades/" }
+      ]
+    },
+    {
+      "id": "ansi-a156-36",
+      "code": "ANSI/BHMA A156.36",
+      "status": "verified",
+      "origin": "United States",
+      "title": { "en": "Auxiliary locks and associated products (deadbolts)", "zh": "辅助锁及相关产品（插销锁）" },
+      "scope": { "en": "The standard behind the American deadbolt — the lock that most retrofit smart locks are built around.", "zh": "美制插销锁背后的标准——多数改造型智能锁正是围绕它设计的。" },
+      "decides": {
+        "en": [
+          "Minimum 1 in (25.4 mm) bolt throw for bored locks, all grades",
+          "Maximum key / turn / knob torque of 11 lbf·in (1.2 N·m), all grades",
+          "Maximum lever force of 3.6 N; force to latch 24 N",
+          "Cycle counts — dead locks 250,000 / 150,000 / 100,000; dead latches 500,000 / 300,000 / 200,000",
+          "Endurance load: dead bolt 6,000 / 5,000 / 3,000 N by grade"
+        ],
+        "zh": [
+          "开孔式锁的最小方舌行程 1 英寸（25.4 mm），各级相同",
+          "钥匙 / 旋钮最大扭矩 11 lbf·in（1.2 N·m），各级相同",
+          "把手最大作用力 3.6 N；上锁力 24 N",
+          "循环次数——方舌锁 250,000 / 150,000 / 100,000；活舌锁 500,000 / 300,000 / 200,000",
+          "耐久载荷：方舌按等级 6,000 / 5,000 / 3,000 N"
+        ]
+      },
+      "appliesTo": ["us-deadbolt", "us-bored-lever"],
+      "whyItMattersForRetrofit": {
+        "en": "The 1.2 N·m torque cap is the number a retrofit motor's gearbox is designed against. Exceeding it on a compliant lock means the design is wrong, not the lock.",
+        "zh": "1.2 N·m 的扭矩上限正是改造电机减速箱的设计依据。在合规锁上超过它，说明设计有问题，而不是锁有问题。"
+      },
+      "sources": [
+        { "title": "ANSI/BHMA A156.36-2010 text — torque, force, cycle and endurance tables", "url": "https://homehardening.wordpress.com/wp-content/uploads/2017-01-268875626-bhma-a156-36-aux-locks-36publication2010.pdf" }
+      ]
+    },
+    {
+      "id": "ansi-a156-25",
+      "code": "ANSI/BHMA A156.25",
+      "status": "needs-review",
+      "origin": "United States",
+      "title": { "en": "Electrified locking devices", "zh": "电动化锁具装置" },
+      "scope": { "en": "Electrified locksets, strikes and exit devices — the correct path when a door already has power and access control. Designation to be re-confirmed against the current BHMA catalogue.", "zh": "电动锁组、电插与逃生装置——当门已有供电与门禁时的正确路径。标准编号需对照 BHMA 现行目录再次确认。" },
+      "decides": {
+        "en": ["Fail-safe versus fail-secure behaviour", "Electrical ratings and monitoring", "Egress compliance for electrified hardware"],
+        "zh": ["失电开启与失电上锁行为", "电气额定值与状态监测", "电动五金的逃生合规性"]
+      },
+      "appliesTo": ["us-mortise", "us-bored-lever"],
+      "whyItMattersForRetrofit": {
+        "en": "A battery motor on a door that already has power is usually the wrong answer.",
+        "zh": "在已有供电的门上使用电池电机，通常是错误答案。"
+      },
+      "sources": [
+        { "title": "To be confirmed — BHMA standards list", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+      ]
+    },
+    {
+      "id": "sg-scdf-coc",
+      "code": "SCDF CoC (Singapore)",
+      "status": "verified",
+      "origin": "Singapore",
+      "title": { "en": "Certificate of Conformity for fire-rated doorsets", "zh": "耐火门组符合性证书（CoC）" },
+      "scope": { "en": "Singapore's fire authority requires a Certificate of Conformity for fire-rated doorsets, commonly tested by SETSCO or TÜV SÜD. HDB units near lift lobbies or staircases commonly require 30 or 60 minutes.", "zh": "新加坡消防机构要求耐火门组具备符合性证书，常由 SETSCO 或 TÜV SÜD 测试。靠近电梯厅或楼梯的 HDB 单位通常要求 30 或 60 分钟。" },
+      "decides": {
+        "en": [
+          "Whether the doorset keeps its fire rating after a lock change",
+          "30 or 60 minute rating for HDB main doors",
+          "That the certificate covers the doorset, not the lock in isolation"
+        ],
+        "zh": [
+          "换锁后门组是否仍保持耐火等级",
+          "HDB 主门的 30 或 60 分钟等级",
+          "证书覆盖的是整套门组，而非单独的锁"
+        ]
+      },
+      "appliesTo": ["sg-hdb-mortise"],
+      "whyItMattersForRetrofit": {
+        "en": "A lock supplier claiming 'fire certified' may hold a component certificate only. Ask for the doorset CoC number and the issuing body.",
+        "zh": "声称“防火认证”的锁具供应商可能只持有部件证书。要索取门组 CoC 编号与发证机构。"
+      },
+      "sources": [
+        { "title": "HDB digital lock guide — SETSCO / TÜV SÜD certification, 30-minute rating", "url": "https://andigitallock.com/blogs/latest-updates/the-ultimate-bto-digital-lock-guide-securing-your-new-singapore-home-in-2026" },
+        { "title": "HDB door lock upgrade — Certificate of Conformity and 42–50 mm fire-rated leaves", "url": "https://andigitallock.com/blogs/latest-updates/upgrade-hdb-door-lock-the-ultimate-2026-singapore-homeowner-s-guide" }
+      ]
+    },
+    {
+      "id": "au-as4174",
+      "code": "AS 4174 (designation to be confirmed)",
+      "status": "needs-review",
+      "origin": "Australia",
+      "title": { "en": "Australian mechanical locking device standard", "zh": "澳洲机械锁具标准" },
+      "scope": { "en": "Published as a placeholder: Australian locking devices are covered by an AS/NZS standard whose exact designation we have not yet cross-checked. Do not cite this record until a contributor confirms it.", "zh": "此条为占位：澳洲锁具由某项 AS/NZS 标准覆盖，其确切编号我们尚未交叉核对。在贡献者确认前请勿引用本条目。" },
+      "decides": {
+        "en": ["To be confirmed by a contributor familiar with AS/NZS hardware standards"],
+        "zh": ["待熟悉 AS/NZS 五金标准的贡献者确认"]
+      },
+      "appliesTo": ["au-deadlatch", "padlock-hasppad"],
+      "whyItMattersForRetrofit": {
+        "en": "Australia is a large market with its own case geometry; the gap here is a priority for contributors.",
+        "zh": "澳洲市场大且有自成一套的锁体几何；此处的空缺是贡献者优先项。"
+      },
+      "sources": [
+        { "title": "Open issue: confirm the AS/NZS designation for mechanical locking devices", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+      ]
+    },
+    {
+      "id": "jp-jis-a4702",
+      "code": "JIS A 4702 (designation to be confirmed)",
+      "status": "needs-review",
+      "origin": "Japan",
+      "title": { "en": "Japanese door and hardware standard", "zh": "日本门与五金标准" },
+      "scope": { "en": "Published as a placeholder. Japanese lock cases are usually specified by maker part number; the applicable JIS designation for the hardware itself is not yet confirmed in this catalog.", "zh": "此条为占位。日本锁体通常按厂商料号指定；适用于五金本身的 JIS 编号在本目录中尚未确认。" },
+      "decides": {
+        "en": ["To be confirmed by a contributor in Japan"],
+        "zh": ["待日本贡献者确认"]
+      },
+      "appliesTo": ["jp-miwa-case"],
+      "whyItMattersForRetrofit": {
+        "en": "Until the designation is confirmed, use maker part numbers as the interchange key for Japanese doors.",
+        "zh": "在编号确认前，日本门请以厂商料号作为互换依据。"
+      },
+      "sources": [
+        { "title": "Open issue: confirm the JIS designation covering door hardware", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+      ]
+    }
+  ]
+}

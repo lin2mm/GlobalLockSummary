@@ -1,0 +1,61 @@
+{
+  "id": "us-deadbolt",
+  "status": "verified",
+  "regions": ["United States", "Canada"],
+  "title": {
+    "en": "Single-cylinder deadbolt (ANSI/BHMA A156.36)",
+    "zh": "单缸插销锁（ANSI/BHMA A156.36）"
+  },
+  "aliases": {
+    "en": ["Deadbolt", "Auxiliary lock", "Thumbturn deadbolt"],
+    "zh": ["插销锁", "辅助锁", "旋钮插销"]
+  },
+  "summary": {
+    "en": "A separate round lock above the handle: key outside, thumb-turn inside, 1 in bolt throw. It is the single most retrofit-friendly lock in the world because the thumb-turn is accessible, standardised, and the door is already drilled.",
+    "zh": "把手上方那个独立的圆形锁：外侧钥匙、内侧旋钮、方舌行程 1 英寸。它是全球最适合改造的锁，因为旋钮外露、标准化，而且门已经开好孔了。"
+  },
+  "anatomy": {
+    "en": [
+      "Cylinder on the outside face",
+      "Thumb-turn on the inside face — the part a retrofit motor grabs",
+      "Bolt with 1 in (25 mm) minimum throw",
+      "Strike and reinforcement plate in the frame"
+    ],
+    "zh": [
+      "外侧锁芯",
+      "内侧旋钮——改造电机抓取的部分",
+      "方舌，最小行程 1 英寸（25 mm）",
+      "门框上的扣板与加强板"
+    ]
+  },
+  "measurements": [
+    { "key": "backset", "typical": { "en": "2-3/4 in (70 mm) standard; 2-3/8 in (60 mm) also sold", "zh": "标准为 2-3/4 英寸（70 mm）；也有 2-3/8 英寸（60 mm）" }, "tolerance": { "en": "Both are supported by most smart locks", "zh": "多数智能锁同时支持两种" }, "how": { "en": "Door edge to the centre of the bore.", "zh": "门边到孔中心。" } },
+    { "key": "crossBore", "typical": { "en": "2-1/8 in (54 mm)", "zh": "2-1/8 英寸（54 mm）" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Across the round hole.", "zh": "量圆孔直径。" } },
+    { "key": "boltThrow", "typical": { "en": "1 in (25.4 mm) all grades", "zh": "各等级均为 1 英寸（25.4 mm）" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Throw the bolt fully and measure past the faceplate.", "zh": "把方舌完全旋出后量突出量。" } },
+    { "key": "turnPieceSize", "typical": { "en": "Round knob, T-bar or coin-slot, 20–30 mm across", "zh": "圆钮、T 形杆或硬币槽，宽 20–30 mm" }, "tolerance": { "en": "This is the dimension adapter kits are built around", "zh": "适配件就是围绕这个尺寸设计的" }, "how": { "en": "Measure across the widest part and note the shape.", "zh": "量最宽处并记录形状。" } },
+    { "key": "doorThickness", "typical": { "en": "1-3/8 to 2 in (35–51 mm)", "zh": "1-3/8 至 2 英寸（35–51 mm）" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "At the bore.", "zh": "在孔位处量。" } }
+  ],
+  "measureOrder": ["turnPieceSize", "backset", "doorThickness", "boltThrow"],
+  "standards": ["ansi-a156-36"],
+  "retrofit": {
+    "architectures": ["surface-deadbolt-motor", "interior-handle-motor"],
+    "notes": {
+      "en": "Adhesive motor on the thumb-turn is a 5-minute install and needs no tools beyond a screwdriver. The engineering work is all in the turn-piece adapter library and in adhesive that survives a hot door in summer.",
+      "zh": "把背胶电机贴在旋钮上是 5 分钟的安装，除了螺丝刀不需要工具。工程难点全在旋钮适配件库，以及能在夏季高温门面上存活的背胶。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Why do US smart locks not fit European doors?", "a": "They are built around a round bore with a thumb-turn. A euro cylinder door has neither, so the motor has nothing to grab and no bore to sit in." },
+      { "q": "What happens when the battery dies?", "a": "The outside key still works — that is the point of keeping a single-cylinder deadbolt rather than a keyless one." }
+    ],
+    "zh": [
+      { "q": "为什么美制智能锁装不上欧洲的门？", "a": "它是围绕带旋钮的圆孔设计的。欧标锁芯门两者都没有，电机既无处抓取，也无处安装。" },
+      { "q": "电池没电会怎样？", "a": "外侧钥匙仍能开——这正是保留单缸（外侧带钥匙孔）插销而不是纯无钥匙插销的意义。" }
+    ]
+  },
+  "sources": [
+    { "title": "ANSI/BHMA A156.36 auxiliary locks: 1 in bolt throw, 1.2 N·m turn torque", "url": "https://homehardening.wordpress.com/wp-content/uploads/2017-01-268875626-bhma-a156-36-aux-locks-36publication2010.pdf" },
+    { "title": "Aqara U200 — US deadbolt compatibility at both 60 mm and 70 mm backsets", "url": "https://mightygadget.com/aqara-smart-lock-u200-review/" }
+  ]
+}

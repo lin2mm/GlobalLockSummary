@@ -1,0 +1,61 @@
+{
+  "id": "multipoint-upvc",
+  "status": "verified",
+  "regions": ["United Kingdom", "Ireland", "Netherlands", "Belgium", "Nordics"],
+  "title": {
+    "en": "Multipoint locking system (uPVC / composite)",
+    "zh": "多点联动锁（uPVC / 复合门）"
+  },
+  "aliases": {
+    "en": ["Multipoint lock", "MPL", "Gearbox lock", "Hook and roller lock"],
+    "zh": ["多点锁", "联动锁", "齿轮箱锁"]
+  },
+  "summary": {
+    "en": "One cylinder and one handle drive hooks and rollers at three or more points along the door edge through a gearbox. The handle must be lifted to throw the bolts, which is the fact that breaks most naive retrofit motors.",
+    "zh": "一个锁芯与一个把手通过齿轮箱带动门边上三处或更多的钩与滚轮。把手必须上抬才能上锁——这一点会让大多数简单的改造电机失效。"
+  },
+  "anatomy": {
+    "en": [
+      "Gearbox (centre case) holding the cylinder and spindle",
+      "Extension strips above and below carrying hooks or rollers",
+      "Full-length handle",
+      "Oval or euro cylinder depending on door age"
+    ],
+    "zh": [
+      "齿轮箱（中央锁体），容纳锁芯与方轴",
+      "上下延伸条，承载钩或滚轮",
+      "长把手",
+      "视门的年代使用椭圆或欧标锁芯"
+    ]
+  },
+  "measurements": [
+    { "key": "centreDistance", "typical": { "en": "92 mm most common; 85 mm and 72 mm also exist", "zh": "以 92 mm 最常见；也有 85 mm 与 72 mm" }, "tolerance": { "en": "None", "zh": "无公差" }, "how": { "en": "Spindle centre to cylinder centre on the gearbox face.", "zh": "在齿轮箱端面上量方轴中心到锁芯中心。" } },
+    { "key": "backset", "typical": { "en": "35 / 40 / 45 / 50 mm", "zh": "35 / 40 / 45 / 50 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Door edge to cylinder centre.", "zh": "门边到锁芯中心。" } },
+    { "key": "handleScrewSpacing", "typical": { "en": "205 mm or 215 mm screw centres", "zh": "螺钉孔距为 205 mm 或 215 mm" }, "tolerance": { "en": "None for handle replacement", "zh": "更换把手时无公差" }, "how": { "en": "Top screw hole to bottom screw hole.", "zh": "上螺钉孔到下螺钉孔。" } },
+    { "key": "faceplateSize", "typical": { "en": "Extension strip width 16 / 20 / 24 mm", "zh": "延伸条宽 16 / 20 / 24 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure the strip width on the door edge.", "zh": "量门边延伸条宽度。" } },
+    { "key": "cylinderLength", "typical": { "en": "Oval cylinders 62–92 mm total; euro profile on newer doors in 5 mm steps", "zh": "椭圆锁芯总长 62–92 mm；较新的门用欧标槽型，以 5 mm 为步进" }, "tolerance": { "en": "Exact", "zh": "必须精确" }, "how": { "en": "Remove the central screw, take the cylinder out and measure both halves.", "zh": "拆下中央螺钉取出锁芯，分别量两段。" } }
+  ],
+  "measureOrder": ["centreDistance", "handleScrewSpacing", "backset", "cylinderLength"],
+  "standards": ["en-12209", "en-1303", "ts-007", "en-1634-1"],
+  "retrofit": {
+    "architectures": ["motor-on-thumbturn", "integrated-cylinder"],
+    "notes": {
+      "en": "The motor must rotate the cylinder enough to retract the hooks AND the user must still lift the handle. Designs that ignore the lift step produce a lock that appears to work in the lab and fails on every real door.",
+      "zh": "电机必须把锁芯转到足以收回钩舌，而用户仍需上抬把手。忽略上抬这一步的设计，会在实验室里看似成功，却在每一扇真实门上失败。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "How do I find the centre distance without removing the handle?", "a": "Look at the gearbox face through the handle opening, or measure from the spindle centre to the cylinder centre with the handle off — usually 92 mm on a British door." },
+      { "q": "Is the gearbox replaceable on its own?", "a": "Yes, and it is the part that fails first. Match centre distance, backset, strip width and the number of locking points." }
+    ],
+    "zh": [
+      { "q": "不拆把手怎么知道中心距？", "a": "从把手开口看齿轮箱端面，或拆下把手后量方轴中心到锁芯中心——英式门通常是 92 mm。" },
+      { "q": "齿轮箱能单独更换吗？", "a": "可以，而且它是最先坏的部件。要匹配中心距、背距、延伸条宽度与锁点数量。" }
+    ]
+  },
+  "sources": [
+    { "title": "UK smart locks for multipoint and euro cylinder doors", "url": "https://smarthomeassistant.co.uk/works-with-home-assistant/smart-locks" },
+    { "title": "Mortise and multipoint dimensions reference", "url": "https://www.blue-id.com/en/blog/mortise-lock-mass" }
+  ]
+}

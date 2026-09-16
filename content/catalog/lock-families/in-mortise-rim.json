@@ -1,0 +1,64 @@
+{
+  "id": "in-mortise-rim",
+  "status": "verified",
+  "regions": ["India", "South Asia", "diaspora hardware markets"],
+  "title": {
+    "en": "Indian mortise handle set, rim nightlatch and cylindrical lock",
+    "zh": "印度插芯把手锁、外装夜锁与球形锁"
+  },
+  "aliases": {
+    "en": ["Godrej-type mortise", "Indian rim lock", "9 inch lock body"],
+    "zh": ["Godrej 型插芯锁", "印度外装锁", "9 英寸锁体"]
+  },
+  "summary": {
+    "en": "India is the clearest example of why a retrofit cannot be designed per country. Three incompatible interfaces share one market: a euro-profile mortise set with a 50 mm backset, a rim nightlatch with a 69 mm backset, and a cylindrical lock with a 60 mm backset. A single adapter library has to cover all three, and the backsets do not overlap.",
+    "zh": "印度最清楚地说明了为什么改造方案不能按国家设计。同一个市场里并存三种互不兼容的接口：背距 50 mm 的欧标槽型插芯锁组、背距 69 mm 的外装夜锁，以及背距 60 mm 的球形锁。一套适配件库必须同时覆盖三者，而这三种背距互不重叠。"
+  },
+  "anatomy": {
+    "en": [
+      "Mortise set: a 240 mm (9 inch) euro-profile lock body, a euro-profile pin cylinder, and a handle rose set",
+      "Rim nightlatch: a surface case with a profiled latch bolt, a rim cylinder through the door, and a knob inside",
+      "Cylindrical lock: a bored lockset, the same family as the North American A156.2 set",
+      "Commonly 5-pin brass tumbler cylinders with three keys"
+    ],
+    "zh": [
+      "插芯锁组：240 mm（9 英寸）欧标槽型锁体、欧标销形锁芯，以及把手圆盖组",
+      "外装夜锁：贴面锁体带成形斜舌、穿过门扇的外装锁芯，以及内侧旋钮",
+      "球形锁：开孔式锁组，与北美 A156.2 属同一族",
+      "常见为 5 销铜弹子锁芯，配 3 把钥匙"
+    ]
+  },
+  "measurements": [
+    { "key": "backset", "typical": { "en": "50 mm on mortise handle sets, 69 mm on rim nightlatches, 60 mm on cylindrical locks", "zh": "插芯把手锁 50 mm，外装夜锁 69 mm，球形锁 60 mm" }, "tolerance": { "en": "None — the three values do not overlap, so identifying the type comes first", "zh": "无公差——三个数值互不重叠，因此先判定类型" }, "how": { "en": "Door edge to the centre of the keyhole or cylinder.", "zh": "门边到钥匙孔或锁芯中心。" } },
+    { "key": "doorThickness", "typical": { "en": "28–40 mm for mortise sets; rim nightlatches accept 25–60 mm", "zh": "插芯锁组 28–40 mm；外装夜锁适用 25–60 mm" }, "tolerance": { "en": "Wide on rim locks, narrow on mortise sets", "zh": "外装锁范围宽，插芯锁范围窄" }, "how": { "en": "Measure the leaf at the lock.", "zh": "在锁位处量门扇。" } },
+    { "key": "faceplateSize", "typical": { "en": "Mortise lock body commonly 240 mm (9 inch) long", "zh": "插芯锁体常见长 240 mm（9 英寸）" }, "tolerance": { "en": "Record the actual length", "zh": "请记录实际长度" }, "how": { "en": "Measure the strip on the door edge.", "zh": "量门边金属条。" } },
+    { "key": "cylinderLength", "typical": { "en": "60 mm euro-profile cylinder supplied with most mortise sets", "zh": "多数插芯锁组配 60 mm 欧标槽型锁芯" }, "tolerance": { "en": "Exact", "zh": "必须精确" }, "how": { "en": "Remove the central screw and measure both halves.", "zh": "拆下中央螺钉，分别量两段。" } },
+    { "key": "keyProfile", "typical": { "en": "Euro profile on mortise sets; proprietary on many rim and cylindrical locks", "zh": "插芯锁组为欧标槽型；许多外装锁与球形锁为专用槽型" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Compare the key blade profile against a euro profile sample.", "zh": "将钥匙片槽型与欧标样品对比。" } }
+  ],
+  "measureOrder": ["backset", "keyProfile", "doorThickness", "faceplateSize", "cylinderLength"],
+  "standards": ["en-1303", "din-18252"],
+  "retrofit": {
+    "architectures": ["integrated-cylinder", "interior-handle-motor", "rim-lock-motor", "full-lock-replacement"],
+    "notes": {
+      "en": "The good news is that the mortise side is genuinely euro profile, so the whole European cylinder ecosystem applies — including integrated-cylinder smart locks. The bad news is that a large share of the installed base is the 69 mm rim nightlatch, where the case geometry varies and the inside control may be a knob rather than a turnable thumb-turn. Design for the rim case survey first; it is the harder half of this market.",
+      "zh": "好消息是插芯一侧确实是欧标槽型，因此整个欧洲锁芯生态都适用——包括电子集成锁芯。坏消息是大量存量是背距 69 mm 的外装夜锁，其锁体几何差异大，内侧控制件可能是旋钮而非可旋转的拇指钮。应优先做外装锁体的测绘，那是这个市场里更难的一半。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Which of the three types is most common on an Indian main door?", "a": "The mortise handle set on newer and higher-spec doors, the rim nightlatch on the older installed base. Measure the backset to tell them apart: 50 mm points to mortise, 69 mm to rim." },
+      { "q": "Can a euro-cylinder smart lock fit an Indian mortise set?", "a": "Potentially yes, because the mortise set uses a euro-profile cylinder. Check the cylinder length, whether it has an emergency function, and how far it protrudes past the rose." },
+      { "q": "Is there a national Indian standard for these locks?", "a": "Not confirmed in this catalog. The dimensions recorded here come from manufacturer specifications rather than a published standard, so treat them as market practice and verify by measurement." }
+    ],
+    "zh": [
+      { "q": "印度主门上三种类型哪种最常见？", "a": "较新与较高规格的门多为插芯把手锁，存量老门多为外装夜锁。量背距即可区分：50 mm 指向插芯，69 mm 指向外装。" },
+      { "q": "欧标锁芯智能锁能装印度的插芯锁组吗？", "a": "有可能，因为该锁组使用欧标槽型锁芯。需确认锁芯长度、是否具备应急功能，以及它突出圆盖多少。" },
+      { "q": "印度有这类锁的国家标准吗？", "a": "本目录尚未确认。这里记录的尺寸来自厂商规格而非公开标准，因此应视为市场惯例，并以实测为准。" }
+    ]
+  },
+  "sources": [
+    { "title": "Godrej mortise handle lock set — backset 50 mm, door thickness 28–40 mm, 240 mm europrofile body, 60 mm cylinder", "url": "https://www.amazon.in/Godrej-Mortise-Lock-Eligio_Eco-Pin/dp/B0DKP9GZ72" },
+    { "title": "Godrej rim lock / night latch — 69 mm backset, door thickness 25–60 mm", "url": "https://www.amazon.in/Godrej-Locks-Premium-Cylinder-Technology/dp/B00RMOSBBC" },
+    { "title": "Godrej cylindrical lock — 60 mm backset, internal wooden doors", "url": "https://www.amazon.in/Godrej-Locking-Solutions-and-Systems/dp/B0D664LSXT" }
+  ]
+}

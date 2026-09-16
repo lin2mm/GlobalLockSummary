@@ -1,0 +1,347 @@
+{
+  "_comment": "Retrofit architectures. This is the design reference for engineers building adapters. Every numeric target carries a `basis` so a reader can tell a standard requirement from our engineering guidance. Sources at the bottom of the page.",
+  "architectures": [
+    {
+      "id": "motor-on-thumbturn",
+      "termKey": "motor-on-thumbturn",
+      "difficulty": 1,
+      "doorUntouched": true,
+      "keepsMechanicalKey": true,
+      "principle": {
+        "en": "A geared motor clamps over the existing cylinder body on the inside of the door and turns the thumb-turn (or a key left in the cylinder). The lock case, cylinder, faceplate, keys and door prep are all untouched.",
+        "zh": "带减速箱的电机在门内侧夹住现有锁芯体，驱动内侧旋钮（或插在锁芯里的钥匙）旋转。锁体、锁芯、面板、钥匙与门孔全部不改动。"
+      },
+      "worksWith": ["euro-cylinder-mortise", "uk-oval-cylinder", "multipoint-upvc"],
+      "requiredMeasurements": ["cylinderLength", "cylinderProtrusion", "turnPieceSize", "doorThickness", "camType"],
+      "adapterInterfaces": [
+        { "en": "Clamp inner diameter range and clamping force that does not mark a brass cylinder", "zh": "夹持内径范围与夹持力（不得压伤铜锁芯）" },
+        { "en": "Turn-piece adapters: knurled knob, lever knob, key-slot carrier", "zh": "旋钮适配件：滚花圆钮、拨杆钮、钥匙槽载体" },
+        { "en": "Axial compliance so the drive train absorbs cylinder length tolerance", "zh": "轴向补偿，用于吸收锁芯长度公差" },
+        { "en": "Rotation range and hard-stop detection (current spike or encoder)", "zh": "旋转角度范围与硬限位检测（电流突升或编码器）" }
+      ],
+      "targets": [
+        { "label": { "en": "Output torque at the turn-piece", "zh": "旋钮处输出扭矩" }, "value": "≥ 1.2 N·m continuous, ≥ 2.5 N·m stall", "basis": "practice", "note": { "en": "A156.36 caps key/turn torque at 1.2 N·m for a compliant new lock; existing worn or stiff locks need margin above that.", "zh": "A156.36 规定合规新锁的钥匙/旋钮扭矩上限为 1.2 N·m；现存的磨损或发涩的锁需要留出余量。" } },
+        { "label": { "en": "Rotation range", "zh": "旋转角度范围" }, "value": "±180° typical, 360°+ for multi-throw", "basis": "practice" },
+        { "label": { "en": "Cylinder protrusion needed", "zh": "所需锁芯突出量" }, "value": "3–10 mm past the escutcheon", "basis": "practice" },
+        { "label": { "en": "Back-drive resistance", "zh": "反向驱动阻力" }, "value": "Must not be back-drivable by hand from the outside knob", "basis": "practice" }
+      ],
+      "blockers": {
+        "en": [
+          "Cylinder without emergency function: a key left inside blocks the outside key. Specify a double-clutch (emergency/hazard) cylinder.",
+          "Flush or recessed thumb-turn gives the clamp nothing to grip.",
+          "Multi-throw and multipoint gearing needs several turns — check rotation range and battery budget.",
+          "Cylinder total length over ~90 mm pushes the motor body far off the door face."
+        ],
+        "zh": [
+          "锁芯无双离合（应急）功能时，内侧留钥匙会挡住外侧钥匙，必须配双离合/应急锁芯。",
+          "旋钮与面板齐平或内凹，夹爪无处着力。",
+          "多圈方舌与多点联动需要多圈旋转——需确认角度范围与电池续航。",
+          "锁芯总长约超过 90 mm 时，电机会突出门面过多。"
+        ]
+      },
+      "designChecklist": {
+        "en": [
+          "Measure the cylinder halves and confirm the clamp fits the largest and smallest in the family.",
+          "Confirm the cylinder is emergency-function before shipping the kit.",
+          "Test on a lock at end of life: dirt, worn cams and cold weather all raise torque.",
+          "Design a mechanical free-wheel or clutch so the manual key always works when the battery dies.",
+          "Keep egress legal: the inside must still open by hand without a tool or a phone."
+        ],
+        "zh": [
+          "实测锁芯两段长度，确认夹爪在该锁型的最大与最小尺寸下都能装。",
+          "出货前确认锁芯为双离合应急功能。",
+          "在寿命末期（脏污、凸轮磨损、低温）的锁上测试，扭矩会明显升高。",
+          "设计机械离合或自由轮，确保断电时机械钥匙仍可开启。",
+          "保持逃生合法：门内侧必须仍能徒手开启，不需要工具或手机。"
+        ]
+      },
+      "examples": ["nuki-smart-lock", "yale-linus-l2", "switchbot-lock-pro", "august-smart-lock"]
+    },
+    {
+      "id": "integrated-cylinder",
+      "termKey": "integrated-cylinder",
+      "difficulty": 3,
+      "doorUntouched": true,
+      "keepsMechanicalKey": true,
+      "principle": {
+        "en": "The cylinder itself is replaced by a cylinder with the motor, battery and radio inside. The outside keeps a mechanical keyway; the inside is a motorised knob. Nothing else on the door changes.",
+        "zh": "直接更换锁芯，把电机、电池与无线模块集成在锁芯内部。外侧保留机械钥匙孔，内侧为电动旋钮，门上其他部件不变。"
+      },
+      "worksWith": ["euro-cylinder-mortise", "uk-oval-cylinder"],
+      "requiredMeasurements": ["cylinderLength", "keyProfile", "camType", "handing"],
+      "adapterInterfaces": [
+        { "en": "Full cylinder length matrix (e.g. 30/10 up to 45/55) and the extendable-cylinder mechanism", "zh": "锁芯长度矩阵（例如 30/10 到 45/55）与可伸缩锁芯机构" },
+        { "en": "Profile variants: euro DIN, UK oval, Scandinavian round/oval", "zh": "槽型变体：欧标 DIN、英标椭圆、斯堪的纳维亚圆形/椭圆" },
+        { "en": "Cam clock positions and cam thickness for the target lock case", "zh": "凸轮角度位置与厚度，需匹配目标锁体" }
+      ],
+      "targets": [
+        { "label": { "en": "Battery life", "zh": "电池续航" }, "value": "≥ 12 months at 8 cycles/day", "basis": "practice", "note": { "en": "The main reason this architecture exists: the motor turns only the cam, not a knob through a clamp, so it is far more efficient.", "zh": "该架构存在的主要原因：电机只驱动凸轮而非通过夹爪带动旋钮，效率高得多。" } },
+        { "label": { "en": "Security rating", "zh": "安全等级" }, "value": "EN 1303 class 6 / TS007 3-star where the door needs it", "basis": "standard", "note": { "en": "Replacing the cylinder gives up the existing anti-snap cylinder unless the replacement carries the same rating.", "zh": "换锁芯会放弃原有的防折断锁芯，除非替换件具备同等等级。" } }
+      ],
+      "blockers": {
+        "en": [
+          "Sacrifices the security rating of the cylinder it replaces unless the replacement is equally certified.",
+          "Keyway and key control change — a real objection for keyed-alike estates.",
+          "Electronics inside a part exposed to weather and attack needs potting and a hardened body."
+        ],
+        "zh": [
+          "除非替换件同样通过认证，否则牺牲了原锁芯的安全等级。",
+          "钥匙槽与钥匙管控随之改变——对于需要通开的楼盘是实际问题。",
+          "电子件置于易受气候与暴力攻击的部位，需要灌封与硬化壳体。"
+        ]
+      },
+      "designChecklist": {
+        "en": [
+          "Cover the length matrix, or offer a measuring gauge and ship the right size.",
+          "Keep a permanent mechanical override that works with zero battery.",
+          "Do not weaken anti-snap: if the old cylinder was 3-star, the new one must be too."
+        ],
+        "zh": [
+          "覆盖长度矩阵，或提供量规并按尺寸发货。",
+          "保留在零电量下仍能工作的永久机械应急开启。",
+          "不降低防折断能力：原锁芯若是三星，新锁芯也必须是三星。"
+        ]
+      },
+      "examples": ["tedee-smart-lock", "1control-dory"]
+    },
+    {
+      "id": "interior-handle-motor",
+      "termKey": "interior-handle-motor",
+      "difficulty": 2,
+      "doorUntouched": true,
+      "keepsMechanicalKey": true,
+      "principle": {
+        "en": "The interior lever or knob is replaced by a motor unit that drives the 8 mm spindle directly. The outside keeps the original key cylinder and handle. This is the cleanest fit for mortise locks where the bolt is thrown by the key and the handle only retracts the latch.",
+        "zh": "用电动单元替换内侧把手，直接驱动 8 mm 方轴。外侧保留原锁芯与把手。对于由钥匙上锁、把手仅 retract 斜舌的插芯锁，这是最干净的方案。"
+      },
+      "worksWith": ["euro-cylinder-mortise", "sg-hdb-mortise", "au-deadlatch", "kr-pushpull-mortise"],
+      "requiredMeasurements": ["spindleSize", "centreDistance", "backset", "handleScrewSpacing", "doorThickness", "escutcheonSize"],
+      "adapterInterfaces": [
+        { "en": "Spindle coupler for 8 mm square (EU), 7 mm / 5/16 in (US), and worn or chamfered spindles", "zh": "方轴联轴器：8 mm（欧标）、7 mm / 5/16 英寸（美标），以及磨损或倒角的旧方轴" },
+        { "en": "Handle screw-spacing plates covering 38–70 mm pitch", "zh": "把手螺钉孔距适配板，覆盖 38–70 mm 孔距" },
+        { "en": "Clutch that decouples the motor from the outside handle in the locked state", "zh": "离合：上锁状态下断开电机与外侧把手" }
+      ],
+      "targets": [
+        { "label": { "en": "Spindle torque", "zh": "方轴扭矩" }, "value": "≥ 1.5 N·m", "basis": "practice" },
+        { "label": { "en": "Spindle travel", "zh": "方轴行程" }, "value": "45–90° for latch retraction", "basis": "practice" },
+        { "label": { "en": "Lever force equivalent", "zh": "等效把手下压力" }, "value": "A156.36 caps lever force at 3.6 N; the motor must stay under the door hardware's own limit", "basis": "standard" }
+      ],
+      "blockers": {
+        "en": [
+          "Does not throw the deadbolt on locks where only the key can — so it is a latch opener, not a full lock.",
+          "Split-spindle or free-turning outside handle changes the clutch design entirely.",
+          "Fire doors with panic hardware: never interfere with the escape function."
+        ],
+        "zh": [
+          "在只有钥匙能上锁的锁体上无法上锁方舌——因此它只是开门器，不是完整的锁。",
+          "对开方轴或外侧把手空转时，离合设计完全不同。",
+          "带逃生推杆的防火门：绝不能影响逃生功能。"
+        ]
+      },
+      "designChecklist": {
+        "en": [
+          "Decide the security model explicitly: does the motor lock, or only unlock?",
+          "Test with a worn spindle — chamfered corners slip in a fresh coupler.",
+          "Verify the escutcheon footprint hides the old handle's screw marks."
+        ],
+        "zh": [
+          "明确安全模型：电机是负责上锁，还是只负责开锁？",
+          "用磨损方轴测试——倒角的方角会在全新联轴器里打滑。",
+          "确认面板能遮住旧把手留下的螺孔痕迹。"
+        ]
+      },
+      "examples": ["aqara-u200"]
+    },
+    {
+      "id": "surface-deadbolt-motor",
+      "termKey": "surface-deadbolt-motor",
+      "difficulty": 1,
+      "doorUntouched": true,
+      "keepsMechanicalKey": true,
+      "principle": {
+        "en": "An adhesive or screw-fixed motor sits on the door face and rotates the existing deadbolt turn-piece. Nothing is drilled. This is the standard approach for North American single-cylinder deadbolts and for many Asian rim deadbolts.",
+        "zh": "用背胶或螺钉把电机贴在门面上，驱动现有插销的旋钮。不打孔。这是北美单缸插销与许多亚洲外装插销的通用做法。"
+      },
+      "worksWith": ["us-deadbolt", "rim-nightlatch", "jp-miwa-case"],
+      "requiredMeasurements": ["turnPieceSize", "doorThickness", "clearanceToGate"],
+      "adapterInterfaces": [
+        { "en": "Turn-piece adapters: round knob, T-bar, thumb latch, coin-slot", "zh": "旋钮适配件：圆钮、T 形杆、拇指拨片、硬币槽" },
+        { "en": "Adhesive that survives 40–60 °C door surface temperature and 90% humidity", "zh": "背胶需耐受门表面 40–60 °C 与 90% 湿度" },
+        { "en": "Alignment tolerance for a knob that is not centred on the bore", "zh": "旋钮相对孔位偏心时的对中容差" }
+      ],
+      "targets": [
+        { "label": { "en": "Output torque", "zh": "输出扭矩" }, "value": "≥ 1.2 N·m", "basis": "standard", "note": { "en": "A156.36 maximum key/turn torque for auxiliary locks.", "zh": "A156.36 对辅助锁规定的钥匙/旋钮扭矩上限。" } },
+        { "label": { "en": "Adhesive peel strength", "zh": "背胶剥离强度" }, "value": "Design for a 60 N door-slam reaction without creep", "basis": "practice" }
+      ],
+      "blockers": {
+        "en": [
+          "Painted or textured doors defeat adhesive — offer a screw mount.",
+          "Turn-piece geometry varies more than any other interface; this is where adapter SKUs multiply.",
+          "Tropical humidity is the main cause of adhesive failure in Southeast Asia."
+        ],
+        "zh": [
+          "喷漆或有纹理的门面会让背胶失效——需提供螺钉安装方式。",
+          "旋钮形状的差异比其他任何接口都大，适配件 SKU 会在这里成倍增加。",
+          "东南亚的高湿是背胶失效的主因。"
+        ]
+      },
+      "designChecklist": {
+        "en": [
+          "Ship a physical turn-piece gauge, not a printed ruler.",
+          "Age-test the adhesive at 60 °C / 90% RH for the target market.",
+          "Make sure the motor body clears the frame stop when the door closes."
+        ],
+        "zh": [
+          "随货提供实体旋钮量规，而不是印刷尺。",
+          "按目标市场在 60 °C / 90% RH 下做背胶老化测试。",
+          "确认关门时电机本体不会撞到门框止口。"
+        ]
+      },
+      "examples": ["switchbot-lock-pro", "august-smart-lock"]
+    },
+    {
+      "id": "full-lock-replacement",
+      "termKey": "full-lock-replacement",
+      "difficulty": 4,
+      "doorUntouched": false,
+      "keepsMechanicalKey": false,
+      "principle": {
+        "en": "The old lock case is removed and a smart lock with the same footprint takes its place. This is the dominant approach in East and Southeast Asia, where push-pull digital locks replace mortise sets on HDB, condo and apartment doors.",
+        "zh": "拆掉旧锁体，用同孔位的智能锁取代。这是东亚与东南亚的主流做法：推拉式数字锁替换 HDB、公寓门上的插芯锁组。"
+      },
+      "worksWith": ["sg-hdb-mortise", "kr-pushpull-mortise", "jp-miwa-case", "us-mortise", "au-deadlatch"],
+      "requiredMeasurements": ["backset", "centreDistance", "faceplateSize", "caseSize", "doorThickness", "handing", "fireRating"],
+      "adapterInterfaces": [
+        { "en": "Lock case replacement matrix: backset × centre distance × faceplate length", "zh": "锁体替换矩阵：背距 × 中心距 × 面板长度" },
+        { "en": "Strike and frame pocket alignment shims", "zh": "扣板与门框孔槽对位垫片" },
+        { "en": "Fire-rated door compatibility: certification of the whole doorset, not just the lock", "zh": "防火门兼容性：需要整套门组的认证，而不只是锁" },
+        { "en": "Gate-clearance slim profiles for doors opening onto a metal gate", "zh": "面向铁闸的门需要超薄外形以保证净空" }
+      ],
+      "targets": [
+        { "label": { "en": "Cycle life", "zh": "循环寿命" }, "value": "A156.13 Grade 2 = 800,000; Grade 3 = 800,000; Grade 1 = 1,000,000", "basis": "standard", "note": { "en": "Allegion's published table. Some vendor literature quotes 800,000 for Grade 1 bored locks under A156.2 — check which standard edition is being cited.", "zh": "Allegion 公布的数值。部分厂商资料引用 A156.2 的 Grade 1 为 800,000——请确认引用的是哪一版标准。" } },
+        { "label": { "en": "Fire rating", "zh": "耐火等级" }, "value": "30 or 60 minutes per local code; in Singapore the doorset needs an SCDF-recognised Certificate of Conformity", "basis": "standard" }
+      ],
+      "blockers": {
+        "en": [
+          "Fire-rated doors: an uncertified lock can void the door's rating and, in a claim, the insurance.",
+          "Old doors have non-standard pockets; every 'standard' has three local variants.",
+          "Gate clearance: a deep handle hits the gate handle on many Asian entrances."
+        ],
+        "zh": [
+          "防火门：未经认证的锁可能使门的耐火等级失效，理赔时也会牵连保险。",
+          "老门的孔槽非标；每种“标准”都有若干本地变体。",
+          "净空问题：许多亚洲入口门，把手过深会撞到铁闸把手。"
+        ]
+      },
+      "designChecklist": {
+        "en": [
+          "Publish the exact footprint envelope you replace, not a marketing photo.",
+          "Offer a paper or cardboard template the installer can hold against the door.",
+          "For fire doors, state the certificate the replacement carries and who issues it.",
+          "Keep a mechanical key or a powered-off egress path."
+        ],
+        "zh": [
+          "公布你实际替换的孔位包络尺寸，而不是宣传图。",
+          "提供纸质或纸板模板，让安装工能贴在门上比对。",
+          "防火门上要写明替换件持有的认证证书与发证机构。",
+          "保留机械钥匙或断电可开启的逃生通道。"
+        ]
+      },
+      "examples": ["asia-pushpull-digital"]
+    },
+    {
+      "id": "rim-lock-motor",
+      "termKey": "rim-lock-motor",
+      "difficulty": 2,
+      "doorUntouched": true,
+      "keepsMechanicalKey": true,
+      "principle": {
+        "en": "A motor unit is fixed to the surface-mounted rim lock case or to its knob, driving the latch or the deadbolt. Common on UK nightlatches and on Asian surface-mounted deadlocks.",
+        "zh": "把电动单元固定在外装锁体或其旋钮上，驱动斜舌或方舌。常见于英式夜锁与亚洲的外装锁。"
+      },
+      "worksWith": ["rim-nightlatch", "au-deadlatch", "padlock-hasppad"],
+      "requiredMeasurements": ["caseSize", "turnPieceSize", "doorThickness"],
+      "adapterInterfaces": [
+        { "en": "Case geometry survey — rim cases vary far more than mortise cases", "zh": "锁体外形测绘——外装锁体的差异远大于插芯锁体" },
+        { "en": "Knob-to-case clearance so the motor does not foul the door stop", "zh": "旋钮与锁体间隙，避免电机干涉门止口" }
+      ],
+      "targets": [
+        { "label": { "en": "Output torque", "zh": "输出扭矩" }, "value": "≥ 1.5 N·m for a spring-loaded deadlatch", "basis": "practice" }
+      ],
+      "blockers": {
+        "en": [
+          "Spring-loaded deadlatches need high torque and give poor battery life.",
+          "Old rim cases are often out of square; the drive train needs radial tolerance.",
+          "Surface-mounted electronics are easier to attack — consider the case as part of the security system."
+        ],
+        "zh": [
+          "弹簧式活舌锁需要较大扭矩，电池续航较差。",
+          "老式外装锁体常有不方正，传动需要径向容差。",
+          "表面安装的电子件更易被破坏——应把壳体纳入安防体系考虑。"
+        ]
+      },
+      "designChecklist": {
+        "en": [
+          "Survey at least 20 real cases before freezing the adapter geometry.",
+          "Confirm the door still opens by hand with no power."
+        ],
+        "zh": [
+          "在冻结适配件几何前，至少测绘 20 个真实锁体。",
+          "确认断电时仍能徒手开门。"
+        ]
+      },
+      "examples": []
+    },
+    {
+      "id": "gate-actuator",
+      "termKey": "gate-actuator",
+      "difficulty": 3,
+      "doorUntouched": true,
+      "keepsMechanicalKey": true,
+      "principle": {
+        "en": "Metal security gates get a dedicated actuator: a motor pulls a lever or a chain, or an electromagnet releases the gate latch. Very common in Singapore, Malaysia and Southern Europe where the gate is a second door.",
+        "zh": "金属防盗闸需要专用执行器：电机拉动拨杆或链条，或电磁铁释放闸门锁舌。在新加坡、马来西亚与南欧非常常见——闸门相当于第二道门。"
+      },
+      "worksWith": ["sg-hdb-mortise"],
+      "requiredMeasurements": ["clearanceToGate", "stapleSize", "doorThickness"],
+      "adapterInterfaces": [
+        { "en": "Lever clamp range for gate latch bars of 6–16 mm", "zh": "闸门锁杆夹持范围 6–16 mm" },
+        { "en": "Weather sealing for a fully exposed outdoor actuator", "zh": "完全外露的室外执行器需要防水密封" },
+        { "en": "Power: battery versus doorbell wiring", "zh": "供电：电池或门铃线" }
+      ],
+      "targets": [
+        { "label": { "en": "Pull force", "zh": "拉力" }, "value": "≥ 40 N with 20 mm travel", "basis": "practice" },
+        { "label": { "en": "Ingress protection", "zh": "防护等级" }, "value": "IP65 minimum for an outdoor gate", "basis": "practice" }
+      ],
+      "blockers": {
+        "en": [
+          "Gate bar spacing and frame thickness vary by building project, even within one country.",
+          "Sun exposure kills batteries and adhesives; tropical rain kills unsealed electronics.",
+          "Never actuate anything that forms part of a fire escape route."
+        ],
+        "zh": [
+          "闸杆间距与框厚因楼盘而异，同一国家内部也不同。",
+          "暴晒会损耗电池与背胶，热带雨水会损坏未密封的电子件。",
+          "绝不能驱动任何属于消防逃生通道的部件。"
+        ]
+      },
+      "designChecklist": {
+        "en": [
+          "Measure bar spacing, bar diameter and latch travel on real gates.",
+          "Fail-safe direction: a dead battery must leave the gate openable by hand from inside."
+        ],
+        "zh": [
+          "在真实闸门上测量杆距、杆径与锁舌行程。",
+          "失效安全方向：断电时必须能从内侧徒手开启闸门。"
+        ]
+      },
+      "examples": []
+    }
+  ],
+  "sources": [
+    { "title": "ANSI/BHMA A156.36 Auxiliary Locks — torque and force requirements", "url": "https://homehardening.wordpress.com/wp-content/uploads/2017/01/268875626-bhma-a156-36-aux-locks-36publication2010.pdf" },
+    { "title": "Allegion — ANSI/BHMA hardware grade cycle counts", "url": "https://kc.allegion.com/kb/article/what-are-ansi-bhma-hardware-grades/" },
+    { "title": "Aqara Smart Lock U200 compatibility (euro mortise, US deadbolt, emergency function)", "url": "https://homekitnews.com/2024-07-09/aqaras-u200-retrofit-smart-lock-w-matter-over-thread-now-available/" },
+    { "title": "Smart locks that work with UK doors — retrofit architectures", "url": "https://smarthomeassistant.co.uk/works-with-home-assistant/smart-locks" }
+  ]
+}

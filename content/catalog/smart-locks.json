@@ -1,0 +1,186 @@
+{
+  "_comment": "Reference retrofit devices, recorded as engineering examples — not endorsements and not a shop. Product data changes fast, so every record carries a status. Verified records were cross-checked against a source listed below on the date in `checkedOn`.",
+  "devices": [
+    {
+      "id": "nuki-smart-lock",
+      "name": "Nuki Smart Lock",
+      "vendor": "Nuki (AT)",
+      "architecture": "motor-on-thumbturn",
+      "status": "verified",
+      "checkedOn": "2026-09-16",
+      "fits": ["euro-cylinder-mortise", "multipoint-upvc"],
+      "keyConstraints": {
+        "en": [
+          "Clamps over the existing euro cylinder and turns the thumb-turn or a key left in the cylinder",
+          "Requires an emergency-function (double-clutch) cylinder if a key is left inside",
+          "Optional keypad adds PIN and fingerprint access",
+          "AA battery powered; expect 1–3 months between charges depending on use"
+        ],
+        "zh": [
+          "夹在现有欧标锁芯上，驱动内侧旋钮或留在锁芯里的钥匙",
+          "若内侧留钥匙，锁芯必须为双离合应急功能",
+          "可选键盘，提供密码与指纹",
+          "使用 AA 电池，视使用情况约 1–3 个月需更换"
+        ]
+      }
+    },
+    {
+      "id": "yale-linus-l2",
+      "name": "Yale Linus L2",
+      "vendor": "Yale / Assa Abloy",
+      "architecture": "motor-on-thumbturn",
+      "status": "verified",
+      "checkedOn": "2026-09-16",
+      "fits": ["euro-cylinder-mortise", "uk-oval-cylinder", "multipoint-upvc"],
+      "keyConstraints": {
+        "en": [
+          "Thumb-turn retrofit that keeps the original cylinder and keys",
+          "Matter support; strong retail availability in the UK",
+          "Same emergency-function cylinder requirement as any clamp-on motor"
+        ],
+        "zh": [
+          "旋钮式改造，保留原锁芯与钥匙",
+          "支持 Matter，英国零售渠道覆盖强",
+          "与所有夹持式电机相同：锁芯需具备应急功能"
+        ]
+      }
+    },
+    {
+      "id": "switchbot-lock-pro",
+      "name": "SwitchBot Lock Pro",
+      "vendor": "SwitchBot",
+      "architecture": "surface-deadbolt-motor",
+      "status": "verified",
+      "checkedOn": "2026-09-16",
+      "fits": ["us-deadbolt", "euro-cylinder-mortise", "rim-nightlatch"],
+      "keyConstraints": {
+        "en": [
+          "Adhesive mount on the door face; roughly a five-minute install",
+          "Sold with different kits for euro cylinders and for US deadbolts",
+          "Adhesive is the weak point on painted, textured or hot doors",
+          "Rechargeable, around six months per charge"
+        ],
+        "zh": [
+          "背胶贴装在门面，安装约五分钟",
+          "分为欧标锁芯与美制插销等不同套件",
+          "在喷漆、有纹理或高温的门面上，背胶是薄弱环节",
+          "可充电，单次约六个月"
+        ]
+      }
+    },
+    {
+      "id": "aqara-u200",
+      "name": "Aqara Smart Lock U200",
+      "vendor": "Aqara",
+      "architecture": "interior-handle-motor",
+      "status": "verified",
+      "checkedOn": "2026-09-16",
+      "fits": ["euro-cylinder-mortise", "uk-oval-cylinder", "us-deadbolt"],
+      "keyConstraints": {
+        "en": [
+          "Replaces the interior thumb-turn rather than clamping over it",
+          "Documented compatibility: euro profile, select Scandinavian cylinders, UK oval cylinders, and single-cylinder US deadbolts",
+          "Works at both 2-3/8 in (60 mm) and 2-3/4 in (70 mm) backsets on deadbolts",
+          "Requires an emergency-function cylinder for euro mortise locks",
+          "Matter over Thread; separate IPX5 keypad with fingerprint"
+        ],
+        "zh": [
+          "替换内侧旋钮，而不是夹在其上",
+          "官方兼容范围：欧标槽型、部分斯堪的纳维亚锁芯、英标椭圆锁芯，以及美制单缸插销",
+          "插销上同时支持 2-3/8 英寸（60 mm）与 2-3/4 英寸（70 mm）背距",
+          "欧标插芯锁需配应急功能锁芯",
+          "Matter over Thread；另配 IPX5 指纹键盘"
+        ]
+      }
+    },
+    {
+      "id": "august-smart-lock",
+      "name": "August Smart Lock (Pro / Wi-Fi)",
+      "vendor": "August / Assa Abloy",
+      "architecture": "surface-deadbolt-motor",
+      "status": "verified",
+      "checkedOn": "2026-09-16",
+      "fits": ["us-deadbolt"],
+      "keyConstraints": {
+        "en": [
+          "Built around the North American deadbolt thumb-turn; not designed for euro cylinders",
+          "The clearest example of why US retrofit products do not transfer to European doors"
+        ],
+        "zh": [
+          "围绕北美插销旋钮设计，不适用于欧标锁芯",
+          "最清楚地说明了为何美制改造产品无法迁移到欧洲门"
+        ]
+      }
+    },
+    {
+      "id": "tedee-smart-lock",
+      "name": "Tedee smart lock",
+      "vendor": "Tedee / Gerda",
+      "architecture": "integrated-cylinder",
+      "status": "verified",
+      "checkedOn": "2026-09-16",
+      "fits": ["euro-cylinder-mortise"],
+      "keyConstraints": {
+        "en": [
+          "Clamps over a euro profile cylinder; sold as a set with a compatible high-security cylinder",
+          "The compact-body approach: the motor sits close to the door because the cylinder is designed for it"
+        ],
+        "zh": [
+          "夹持欧标槽型锁芯，通常与配套的高安全锁芯成套销售",
+          "紧凑机身思路：锁芯为电机专门设计，因此电机可贴近门面"
+        ]
+      }
+    },
+    {
+      "id": "1control-dory",
+      "name": "1Control DORY",
+      "vendor": "1Control (UK)",
+      "architecture": "integrated-cylinder",
+      "status": "verified",
+      "checkedOn": "2026-09-16",
+      "fits": ["euro-cylinder-mortise", "uk-oval-cylinder"],
+      "keyConstraints": {
+        "en": [
+          "Replaces the cylinder entirely, so a mechanical key is always retained",
+          "Roughly a year of battery life on two CR2 cells — the main advantage of integrating the motor in the cylinder",
+          "No drilling, no wiring, no door modification"
+        ],
+        "zh": [
+          "整体更换锁芯，因此始终保留机械钥匙",
+          "两颗 CR2 电池约一年续航——这是把电机集成进锁芯的主要优势",
+          "不打孔、不布线、不改门"
+        ]
+      }
+    },
+    {
+      "id": "asia-pushpull-digital",
+      "name": "Push-pull digital lock sets (Asian market category)",
+      "vendor": "Multiple — Samsung, Kaadas, Philips, Solity, Igloohome, Xiaomi/Aqara and others",
+      "architecture": "full-lock-replacement",
+      "status": "needs-review",
+      "checkedOn": "2026-09-16",
+      "fits": ["sg-hdb-mortise", "kr-pushpull-mortise", "jp-miwa-case", "au-deadlatch"],
+      "keyConstraints": {
+        "en": [
+          "Recorded as a category, not as specific models, because model availability differs by country and changes yearly",
+          "Requires matching the existing mortise footprint: backset, centre distance, faceplate and door thickness",
+          "On fire-rated leaves, ask for the doorset Certificate of Conformity, not only a lock certificate",
+          "Slim profiles exist specifically for doors that open onto a metal gate"
+        ],
+        "zh": [
+          "作为品类而非具体型号记录，因为型号的可得性因国而异且逐年变化",
+          "需匹配现有锁孔：背距、中心距、面板与门厚",
+          "在耐火门扇上，要索取门组 CoC，而不只是锁的证书",
+          "针对面向铁闸的门，市场上有专门的超薄外形"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    { "title": "Best smart locks 2026 (UK): euro cylinder picks compared — Nuki, Yale, August, SwitchBot, Aqara, DORY", "url": "https://www.1control.eu/blog/en/best-smart-lock-euro-cylinder-uk" },
+    { "title": "Aqara U200 launch — euro mortise, US deadbolt, emergency function requirement", "url": "https://homekitnews.com/2024-07-09/aqaras-u200-retrofit-smart-lock-w-matter-over-thread-now-available/" },
+    { "title": "Aqara U200 review — 60 mm and 70 mm backsets, UK oval and Scandi cylinders", "url": "https://mightygadget.com/aqara-smart-lock-u200-review/" },
+    { "title": "Smart locks that work with Home Assistant (UK) — retrofit architectures", "url": "https://smarthomeassistant.co.uk/works-with-home-assistant/smart-locks" },
+    { "title": "Singapore HDB digital lock market and gate clearance problem", "url": "https://andigitallock.com/blogs/latest-updates/upgrade-hdb-door-lock-the-ultimate-2026-singapore-homeowner-s-guide" }
+  ]
+}
