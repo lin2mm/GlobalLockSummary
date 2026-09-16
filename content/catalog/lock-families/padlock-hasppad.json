@@ -1,0 +1,55 @@
+{
+  "id": "padlock-hasppad",
+  "status": "verified",
+  "regions": ["Worldwide"],
+  "title": {
+    "en": "Padlock, hasp and staple",
+    "zh": "挂锁、搭扣与锁鼻"
+  },
+  "aliases": {
+    "en": ["Padlock", "Hasp lock", "Shed lock"],
+    "zh": ["挂锁", "搭扣锁"]
+  },
+  "summary": {
+    "en": "The oldest interface on this site and still the most common lock on outbuildings, gates and shutters. Retrofit here is not about the lock at all — it is about the hasp, the staple diameter and the weather.",
+    "zh": "本站最古老的接口，仍是储物房、闸门与卷帘上最常见的锁。这里的改造与锁本身无关——关键在于搭扣、锁鼻直径与户外气候。"
+  },
+  "anatomy": {
+    "en": [
+      "Padlock body and shackle",
+      "Hasp plate hinged on one side",
+      "Staple (loop) that the shackle passes through",
+      "Often hidden-shroud padlocks for cutting resistance"
+    ],
+    "zh": [
+      "锁体与锁梁",
+      "一侧铰接的搭扣板",
+      "锁梁穿过的锁鼻（环）",
+      "常使用隐藏锁梁挂锁以提高抗剪能力"
+    ]
+  },
+  "measurements": [
+    { "key": "stapleSize", "typical": "Staple inner diameter 8–12 mm; shackle 8–14 mm", "tolerance": "Decides which smart padlock fits", "how": { "en": "Measure the inner width of the loop and the shackle diameter.", "zh": "量锁环内宽与锁梁直径。" } },
+    { "key": "holePattern", "typical": "Hasp fixing screws 30–60 mm apart", "tolerance": "—", "how": { "en": "Screw hole to screw hole on the hasp.", "zh": "量搭扣上的螺钉孔距。" } }
+  ],
+  "measureOrder": ["stapleSize", "holePattern"],
+  "standards": ["au-as4174"],
+  "retrofit": {
+    "architectures": ["rim-lock-motor"],
+    "notes": {
+      "en": "The practical answer for a gate or a shed is usually a smart padlock, not a motor on the existing one. Check IP rating and how the battery is charged with the staple in place.",
+      "zh": "对于闸门或储物房，实用答案通常是智能挂锁，而不是给现有挂锁加电机。要确认防护等级，以及在锁鼻穿过的情况下如何给电池充电。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "What is the weak point?", "a": "Almost always the hasp or its screws, not the padlock. Upgrading the lock while keeping a thin hasp gains nothing." }
+    ],
+    "zh": [
+      { "q": "薄弱环节在哪里？", "a": "几乎总是搭扣或其螺钉，而不是挂锁。保留薄搭扣只换锁，没有任何意义。" }
+    ]
+  },
+  "sources": [
+    { "title": "Contributor request: add published padlock security grades by region", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+  ]
+}

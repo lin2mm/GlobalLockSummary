@@ -1,0 +1,60 @@
+{
+  "id": "kr-pushpull-mortise",
+  "status": "needs-review",
+  "regions": ["South Korea", "Japan (imported sets)", "Southeast Asia (imported sets)"],
+  "title": {
+    "en": "Korean push-pull digital lock base (mortise)",
+    "zh": "韩系推拉式数字锁基座（插芯锁体）"
+  },
+  "aliases": {
+    "en": ["Push-pull lock", "Digital door lock", "Korean mortise"],
+    "zh": ["推拉锁", "数字门锁", "韩式插芯锁"]
+  },
+  "summary": {
+    "en": "The design language that dominated Asian smart locks for a decade: a tall push-pull handle set replacing an entire mortise lock set. It is a full-replacement architecture, so the retrofit problem is not adapters — it is the lock case matrix.",
+    "zh": "主导亚洲智能锁十余年的设计语言：用高大的推拉把手组整体替换插芯锁组。它属于整体替换架构，所以改造难点不在适配件，而在锁体尺寸矩阵。"
+  },
+  "anatomy": {
+    "en": [
+      "Tall push-pull handle units inside and outside",
+      "Mortise case with latch and one or two deadbolts",
+      "Battery compartment inside the inner unit",
+      "Often a separate remote or keypad"
+    ],
+    "zh": [
+      "内外两侧的高大推拉把手单元",
+      "带斜舌与一到两个方舌的插芯锁体",
+      "内侧单元的电池仓",
+      "常配独立遥控器或键盘"
+    ]
+  },
+  "measurements": [
+    { "key": "backset", "typical": "60 mm and 70 mm are the two that matter", "tolerance": "Match exactly", "how": { "en": "Door edge to the case centre line.", "zh": "门边到锁体中心线。" } },
+    { "key": "centreDistance", "typical": "85 mm common; 72 and 92 mm occur", "tolerance": "None", "how": { "en": "Spindle centre to cylinder centre.", "zh": "方轴中心到锁芯中心。" } },
+    { "key": "faceplateSize", "typical": "Case faceplate 24 mm wide, 240–300 mm long", "tolerance": "—", "how": { "en": "Measure the strip on the door edge.", "zh": "量门边金属条。" } },
+    { "key": "holePattern", "typical": "Handle screw pitch 38–70 mm depending on set", "tolerance": "—", "how": { "en": "Screw hole to screw hole on the handle.", "zh": "量把手螺钉孔距。" } },
+    { "key": "doorThickness", "typical": "38–50 mm", "tolerance": "—", "how": { "en": "At the lock.", "zh": "在锁位处量。" } }
+  ],
+  "measureOrder": ["backset", "centreDistance", "faceplateSize", "holePattern", "doorThickness"],
+  "standards": ["en-12209"],
+  "retrofit": {
+    "architectures": ["full-lock-replacement", "interior-handle-motor"],
+    "notes": {
+      "en": "Because the handle is replaced wholesale, the interface that needs engineering is the lock case matrix and the strike alignment, not a clamp. Publish the exact envelope you replace and ship a cardboard template.",
+      "zh": "由于把手是整体更换，需要工程化的是锁体尺寸矩阵与扣板对位，而不是夹具。请公布实际替换的孔位包络，并随货提供纸板模板。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Why are Asian smart locks rarely 'retrofit'?", "a": "Because the market standardised on replacing the whole lock set at installation time, so nobody needed a clamp-over adapter. Retrofit clamps are a European answer to a European lock." },
+      { "q": "What fails first on these sets?", "a": "The motor gearbox and the battery contacts, followed by the keypad membrane in humid climates." }
+    ],
+    "zh": [
+      { "q": "为什么亚洲智能锁很少做“改造”？", "a": "因为市场在安装环节就标准化为整套换锁，没人需要夹持式适配件。夹持改造是欧洲锁催生的欧洲答案。" },
+      { "q": "这类锁最先坏什么？", "a": "电机减速箱与电池触点，其次是潮湿气候下的键盘膜。" }
+    ]
+  },
+  "sources": [
+    { "title": "Singapore/Asia digital lock retrofit practice on HDB doors", "url": "https://andigitallock.com/blogs/latest-updates/the-ultimate-bto-digital-lock-guide-securing-your-new-singapore-home-in-2026" }
+  ]
+}

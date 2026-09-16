@@ -1,0 +1,59 @@
+{
+  "id": "rim-nightlatch",
+  "status": "verified",
+  "regions": ["United Kingdom", "Ireland", "Australia", "New Zealand", "Southeast Asia"],
+  "title": {
+    "en": "Rim nightlatch (surface-mounted)",
+    "zh": "外装夜锁（贴面安装）"
+  },
+  "aliases": {
+    "en": ["Yale lock", "Night latch", "Rim lock"],
+    "zh": ["夜锁", "外装锁", "Yale 锁"]
+  },
+  "summary": {
+    "en": "A surface-mounted case on the inside of the door with a cylinder through the door face. Pulling the inside knob retracts the latch; the outside is key-only. Universally fitted, cheap, and mechanically simple — but the case geometry varies more than any other family.",
+    "zh": "门内侧贴面安装的锁体，锁芯穿过门面。拉内侧旋钮收回斜舌，外侧只能用钥匙。安装极普遍、便宜、机构简单——但锁体外形的差异比其他任何锁族都大。"
+  },
+  "anatomy": {
+    "en": [
+      "Surface case on the inside face",
+      "Rim cylinder screwed through the door",
+      "Inside knob or handle",
+      "Spring latch, sometimes deadlocking"
+    ],
+    "zh": [
+      "内侧贴面锁体",
+      "用螺钉穿过门扇固定的外装锁芯",
+      "内侧旋钮或把手",
+      "弹簧斜舌，部分带自动死锁"
+    ]
+  },
+  "measurements": [
+    { "key": "caseSize", "typical": "Case widths 60–90 mm; heights 60–100 mm", "tolerance": "Survey before designing", "how": { "en": "Width and height of the surface case.", "zh": "量贴面锁体的宽与高。" } },
+    { "key": "backset", "typical": "60 mm typical", "tolerance": "—", "how": { "en": "Door edge to the centre of the rim cylinder.", "zh": "门边到外装锁芯中心。" } },
+    { "key": "turnPieceSize", "typical": "Round knob 25–35 mm, or a lever", "tolerance": "—", "how": { "en": "Measure across the knob and note the fixing.", "zh": "量旋钮直径并记录固定方式。" } },
+    { "key": "doorThickness", "typical": "35–55 mm", "tolerance": "—", "how": { "en": "At the cylinder.", "zh": "在锁芯处量。" } }
+  ],
+  "measureOrder": ["caseSize", "backset", "turnPieceSize", "doorThickness"],
+  "standards": ["bs-3621", "en-12209"],
+  "retrofit": {
+    "architectures": ["rim-lock-motor", "surface-deadbolt-motor"],
+    "notes": {
+      "en": "The spring is the enemy: retracting a spring latch under motor drive takes more torque than turning a deadbolt, and the duty cycle is high. Expect poor battery life unless the design adds a clutch.",
+      "zh": "弹簧是敌人：用电动收回弹簧斜舌比旋转方舌需要更大扭矩，且动作频繁。除非加入离合设计，否则电池续航会很差。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Is a nightlatch enough on its own?", "a": "No. Insurers expect it alongside a 5-lever deadlock on a timber front door, because a spring latch can be slipped with a card." },
+      { "q": "Can a motor drive the inside knob?", "a": "Yes, that is the usual approach — a clamp and motor on the knob. The adapter must tolerate the knob being off-centre relative to the case." }
+    ],
+    "zh": [
+      { "q": "只用一把夜锁够吗？", "a": "不够。保险公司通常要求木门主门同时装五杆锁，因为弹簧斜舌可以用卡片拨开。" },
+      { "q": "电机能驱动内侧旋钮吗？", "a": "可以，这是常见做法——在旋钮上装夹具与电机。适配件必须容忍旋钮相对锁体偏心。" }
+    ]
+  },
+  "sources": [
+    { "title": "British Standard locks and nightlatch requirements", "url": "https://cornwalllocksmiths.co.uk/blog/british-standard-locks-explained/" }
+  ]
+}

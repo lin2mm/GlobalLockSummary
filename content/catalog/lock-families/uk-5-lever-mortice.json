@@ -1,0 +1,60 @@
+{
+  "id": "uk-5-lever-mortice",
+  "status": "verified",
+  "regions": ["United Kingdom", "Ireland"],
+  "title": {
+    "en": "5-lever mortice deadlock (BS 3621)",
+    "zh": "五拨杆插芯锁（BS 3621）"
+  },
+  "aliases": {
+    "en": ["5 lever deadlock", "Chubb lock", "British Standard deadlock"],
+    "zh": ["五杆锁", "英标插芯死锁"]
+  },
+  "summary": {
+    "en": "A lever lock keyed from both sides, with no cylinder at all: the key moves the levers directly through a keyhole in the faceplate. BS 3621 certification requires at least five levers, hardplates and a 20 mm bolt throw. Retrofit is hard here — there is no cylinder and no spindle to drive.",
+    "zh": "双面钥匙的拨杆锁，完全没有锁芯：钥匙直接穿过面板上的钥匙孔拨动杠杆。BS 3621 认证要求至少五片杠杆、防钻硬板与 20 mm 方舌行程。这类锁改造最难——既没有锁芯，也没有方轴可驱动。"
+  },
+  "anatomy": {
+    "en": [
+      "Lever stack — the gate pattern that gives the key its differs",
+      "Deadbolt only, no spring latch",
+      "Faceplate with a keyhole on each side",
+      "Kitemark stamp on the faceplate when certified"
+    ],
+    "zh": [
+      "杠杆组：形成钥匙差异的槽口排列",
+      "只有方舌，没有弹簧斜舌",
+      "面板两侧各有一个钥匙孔",
+      "通过认证时面板上有 Kitemark 印记"
+    ]
+  },
+  "measurements": [
+    { "key": "caseSize", "typical": "Case sizes commonly 76 mm or 64 mm (3 in / 2.5 in nominal)", "tolerance": "—", "how": { "en": "Measure the case width across the door edge.", "zh": "沿门边量锁体宽度。" } },
+    { "key": "backset", "typical": "44 mm (76 mm case) or 57 mm, varies by maker", "tolerance": "—", "how": { "en": "Door edge to the centre of the keyhole.", "zh": "门边到钥匙孔中心。" } },
+    { "key": "leverCount", "typical": "5 for BS 3621; 2 or 3 on older and interior locks", "tolerance": "—", "how": { "en": "Count through the keyhole or from the case edge.", "zh": "从钥匙孔或锁体侧面数。" } },
+    { "key": "boltThrow", "typical": "20 mm minimum for BS 3621", "tolerance": "—", "how": { "en": "Key the bolt fully out and measure how far it projects past the faceplate.", "zh": "把方舌完全旋出，量它突出面板的距离。" } }
+  ],
+  "measureOrder": ["leverCount", "caseSize", "backset", "boltThrow"],
+  "standards": ["bs-3621", "bs-8621", "bs-10621"],
+  "retrofit": {
+    "architectures": [],
+    "notes": {
+      "en": "There is no clean retrofit for a lever lock. The honest options are: (1) replace the case with a euro-cylinder mortise deadlock, which needs a new door prep and, on a fire door, a certified doorset; (2) keep the lever lock and add a separate smart deadbolt above or below; (3) leave it alone — a BS 3621 lever lock is already a good lock. Never design a retrofit that leaves the door unable to be opened by hand from inside.",
+      "zh": "拨杆锁没有干净的改造方案。诚实的选项是：（1）把锁体换成欧标锁芯插芯死锁，这需要重新开孔，防火门上还需整套门组认证；（2）保留原锁，在其上方或下方另加一把智能插销；（3）不改——BS 3621 拨杆锁本身已是好锁。绝不要设计出内侧无法徒手开启的改造方案。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "How do I know if my lock is really BS 3621?", "a": "Look for the Kitemark and the words BS 3621 stamped on the faceplate — the strip visible on the door edge when the door is open. Some 5-lever locks are not certified, and a 3-lever lock can never be." },
+      { "q": "What is the difference between BS 3621 and BS 8621?", "a": "Same attack resistance. BS 3621 needs a key on both sides; BS 8621 has a thumb-turn or push-pad inside for keyless escape. BS 10621 locks from outside only." }
+    ],
+    "zh": [
+      { "q": "怎么确认我的锁真的是 BS 3621？", "a": "看面板（开门时门边可见的金属条）上是否有 Kitemark 印记与 BS 3621 字样。部分五杆锁并未认证，而三杆锁永远不可能通过。" },
+      { "q": "BS 3621 与 BS 8621 有什么区别？", "a": "抗攻击能力相同。BS 3621 两面都要钥匙；BS 8621 内侧带旋钮或按钮，可免钥匙逃生；BS 10621 只能从外侧上锁。" }
+    ]
+  },
+  "sources": [
+    { "title": "What are BS3621 locks? (Master Locksmiths Association)", "url": "https://www.locksmiths.co.uk/faq/what-are-bs3621-british-standard-locks/" },
+    { "title": "UK front door locks by door type and standard", "url": "https://city-locksmith.co.uk/blog/best-front-door-locks-uk/" }
+  ]
+}

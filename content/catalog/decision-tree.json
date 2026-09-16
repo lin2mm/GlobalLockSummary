@@ -1,0 +1,75 @@
+{
+  "_comment": "The identification wizard's decision data. Options award points to candidate lock families; the client sorts by score. Add a question or an option here and the wizard changes — no JavaScript edits needed.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "region",
+      "prompt": { "en": "Where is the door?", "zh": "这扇门在哪里？" },
+      "hint": { "en": "Lock standards follow the market the hardware was bought in, not the language on the box.", "zh": "锁具标准跟随购买市场，而不是包装盒上的语言。" },
+      "options": [
+        { "id": "eu", "label": { "en": "Continental Europe", "zh": "欧洲大陆" }, "add": { "euro-cylinder-mortise": 4, "multipoint-upvc": 1 } },
+        { "id": "uk", "label": { "en": "United Kingdom or Ireland", "zh": "英国或爱尔兰" }, "add": { "uk-oval-cylinder": 3, "multipoint-upvc": 3, "uk-5-lever-mortice": 3, "rim-nightlatch": 2 } },
+        { "id": "na", "label": { "en": "United States or Canada", "zh": "美国或加拿大" }, "add": { "us-deadbolt": 4, "us-bored-lever": 4, "us-mortise": 2 } },
+        { "id": "sg", "label": { "en": "Singapore, Malaysia or Southern China", "zh": "新加坡、马来西亚或中国南方" }, "add": { "sg-hdb-mortise": 5, "kr-pushpull-mortise": 2 } },
+        { "id": "jpkr", "label": { "en": "Japan or South Korea", "zh": "日本或韩国" }, "add": { "jp-miwa-case": 4, "kr-pushpull-mortise": 3 } },
+        { "id": "anz", "label": { "en": "Australia or New Zealand", "zh": "澳大利亚或新西兰" }, "add": { "au-deadlatch": 5, "rim-nightlatch": 2 } },
+        { "id": "other", "label": { "en": "Somewhere else / not sure", "zh": "其他地区 / 不确定" }, "add": {} }
+      ]
+    },
+    {
+      "id": "door",
+      "prompt": { "en": "What is the door made of?", "zh": "这扇门是什么材质？" },
+      "hint": { "en": "Open the door and look at the edge and the face.", "zh": "打开门，看门边与门面。" },
+      "options": [
+        { "id": "upvc", "label": { "en": "uPVC or composite with a long vertical handle", "zh": "uPVC 或复合门，带竖向长把手" }, "add": { "multipoint-upvc": 6, "uk-oval-cylinder": 2 } },
+        { "id": "timber", "label": { "en": "Solid timber or veneered wood", "zh": "实木或木皮门" }, "add": { "uk-5-lever-mortice": 2, "euro-cylinder-mortise": 2, "sg-hdb-mortise": 2, "rim-nightlatch": 1 } },
+        { "id": "metal", "label": { "en": "Steel security door or metal gate", "zh": "钢制防盗门或金属铁闸" }, "add": { "sg-hdb-mortise": 2, "padlock-hasppad": 3 } },
+        { "id": "commercial", "label": { "en": "Steel door in an office, shop or apartment building", "zh": "写字楼、商铺或公寓楼里的钢门" }, "add": { "us-mortise": 5, "us-bored-lever": 2, "euro-cylinder-mortise": 2 } },
+        { "id": "glass", "label": { "en": "Glass or aluminium sliding door", "zh": "玻璃或铝合金推拉门" }, "add": {} },
+        { "id": "unknown", "label": { "en": "Not sure", "zh": "不确定" }, "add": {} }
+      ]
+    },
+    {
+      "id": "keyhole",
+      "prompt": { "en": "Where does the key go?", "zh": "钥匙插在哪里？" },
+      "hint": { "en": "This is the single most identifying question.", "zh": "这是最能定性的一题。" },
+      "options": [
+        { "id": "euro-cyl", "label": { "en": "Into a round-profile cylinder I can remove with one central screw", "zh": "插入一个圆槽型锁芯，用中央一颗螺钉即可取出" }, "add": { "euro-cylinder-mortise": 6, "multipoint-upvc": 1 } },
+        { "id": "oval-cyl", "label": { "en": "Into an oval (egg-shaped) cylinder", "zh": "插入一个椭圆（蛋形）锁芯" }, "add": { "uk-oval-cylinder": 6, "multipoint-upvc": 2 } },
+        { "id": "faceplate", "label": { "en": "Into a keyhole cut in the metal strip on the door edge — no separate cylinder", "zh": "插入门边金属条上的钥匙孔——没有独立锁芯" }, "add": { "uk-5-lever-mortice": 6 } },
+        { "id": "knob", "label": { "en": "Into the knob or lever itself", "zh": "插入把手或球形把手本身" }, "add": { "us-bored-lever": 6 } },
+        { "id": "deadbolt", "label": { "en": "Into a separate round lock above or below the handle", "zh": "插入把手上方或下方独立的圆形锁" }, "add": { "us-deadbolt": 6 } },
+        { "id": "rim", "label": { "en": "Into a lock box screwed onto the inside surface of the door", "zh": "插入用螺钉装在门内侧表面的锁盒" }, "add": { "rim-nightlatch": 5, "au-deadlatch": 3 } },
+        { "id": "padlock", "label": { "en": "It is a padlock on a hasp", "zh": "是搭扣上的挂锁" }, "add": { "padlock-hasppad": 8 } },
+        { "id": "none", "label": { "en": "No keyhole inside — only a thumb-turn or a handle", "zh": "内侧没有钥匙孔——只有旋钮或把手" }, "add": { "euro-cylinder-mortise": 2, "sg-hdb-mortise": 2, "kr-pushpull-mortise": 2 } }
+      ]
+    },
+    {
+      "id": "inside",
+      "prompt": { "en": "How do you open it from the inside?", "zh": "从内侧怎么开门？" },
+      "hint": { "en": "The inside control is what a retrofit motor has to drive.", "zh": "内侧控制件正是改造电机需要驱动的对象。" },
+      "options": [
+        { "id": "thumbturn", "label": { "en": "A small round knob (thumb-turn) that I rotate", "zh": "一个可旋转的小圆钮（旋钮）" }, "add": { "euro-cylinder-mortise": 4, "us-deadbolt": 2 } },
+        { "id": "lever", "label": { "en": "A lever handle I push down", "zh": "向下压的把手" }, "add": { "euro-cylinder-mortise": 2, "sg-hdb-mortise": 2, "us-bored-lever": 2 } },
+        { "id": "knob", "label": { "en": "A round knob I turn", "zh": "旋转的球形把手" }, "add": { "us-bored-lever": 3, "rim-nightlatch": 2, "au-deadlatch": 2 } },
+        { "id": "slide", "label": { "en": "A slide, a snib or a small latch", "zh": "拨片、卡扣或小插销" }, "add": { "au-deadlatch": 4, "rim-nightlatch": 2 } },
+        { "id": "pushpull", "label": { "en": "A tall bar I push or pull", "zh": "推或拉的高杆把手" }, "add": { "kr-pushpull-mortise": 6, "sg-hdb-mortise": 4 } },
+        { "id": "lift", "label": { "en": "I have to lift the handle up to lock it", "zh": "要把把手向上抬才能上锁" }, "add": { "multipoint-upvc": 6 } },
+        { "id": "unknown", "label": { "en": "Not sure", "zh": "不确定" }, "add": {} }
+      ]
+    },
+    {
+      "id": "backset",
+      "prompt": { "en": "Roughly how far is the keyhole from the door edge?", "zh": "钥匙孔距离门边大约多远？" },
+      "hint": { "en": "Use a ruler or the photo measure tool. An estimate is enough here.", "zh": "用尺子或本站的拍照量尺寸工具。这里估算即可。" },
+      "options": [
+        { "id": "lt50", "label": { "en": "Under 50 mm", "zh": "小于 50 mm" }, "add": { "euro-cylinder-mortise": 2, "multipoint-upvc": 3 } },
+        { "id": "55_60", "label": { "en": "About 55–60 mm", "zh": "约 55–60 mm" }, "add": { "euro-cylinder-mortise": 4, "sg-hdb-mortise": 2, "au-deadlatch": 2, "rim-nightlatch": 1 } },
+        { "id": "64", "label": { "en": "About 64 mm", "zh": "约 64 mm" }, "add": { "jp-miwa-case": 5 } },
+        { "id": "70", "label": { "en": "About 70 mm (2-3/4 in)", "zh": "约 70 mm（2-3/4 英寸）" }, "add": { "us-deadbolt": 4, "us-bored-lever": 3, "us-mortise": 3 } },
+        { "id": "gt80", "label": { "en": "Over 80 mm", "zh": "大于 80 mm" }, "add": { "euro-cylinder-mortise": 1 } },
+        { "id": "unknown", "label": { "en": "I cannot measure right now", "zh": "现在无法测量" }, "add": {} }
+      ]
+    }
+  ]
+}
