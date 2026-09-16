@@ -1,6 +1,6 @@
 {
   "name": "GlobalLockSummary",
-  "defaultLang": "en",
+  "defaultLang": "zh",
   "languages": {
     "en": { "label": "English", "code": "en", "dir": "" },
     "zh": { "label": "中文", "code": "zh", "dir": "zh" }

@@ -53,11 +53,14 @@ const standardById = Object.fromEntries(standardsDoc.standards.map((s) => [s.id,
 const deviceById = Object.fromEntries(devicesDoc.devices.map((d) => [d.id, d]));
 
 const LANGS = Object.keys(site.languages);
-const dirFor = (lang) => site.languages[lang].dir;
-const urlFor = (lang, slug) => {
-  const d = dirFor(lang);
-  return (d ? `${d}/` : '') + slug;
-};
+const DEFAULT_LANG = site.defaultLang && LANGS.includes(site.defaultLang) ? site.defaultLang : LANGS[0];
+// Each language lives in its own subdirectory (e.g. /en/index.html, /zh/index.html).
+// The default language is *also* written at the site root (e.g. /index.html)
+// so visitors land on it directly; the same page is reachable via either URL.
+const dirUrl = (lang, slug) => `${lang}/${slug}`;
+const rootUrl = (_lang, slug) => slug;
+// The canonical "urlFor" used for everything except the root mirror.
+const urlFor = dirUrl;
 const hrefFor = (lang, slug) => `/${urlFor(lang, slug)}`;
 
 /**
@@ -93,31 +96,50 @@ function write(path, contents) {
 }
 
 const pagesWritten = [];
+// Each emitted page is also recorded as { lang, slug, path } so downstream
+// outputs (sitemap, llms.txt) can recover the original language even when the
+// default language's index.html lives at the site root without a directory
+// prefix.
+const pagesMeta = [];
 
 function emitPage({ lang, slug, title, description, bodyHtml, breadcrumbs = [], jsonLd = [], headings = [], extraHead = '' }) {
-  const path = urlFor(lang, slug);
-  const alternates = LANGS
-    .filter((l) => existsFor(l, slug))
-    .map((l) => ({ lang: l, href: `${BASE_URL}/${urlFor(l, slug)}`, path: urlFor(l, slug) }));
+  // For the default language, the page is written twice: once under
+  // /<lang>/<slug> (for direct URL access by language) and once at the site
+  // root (so /index.html and friends exist for visitors hitting the bare host
+  // and for static hosts like Cloudflare Pages that serve /index.html by
+  // default). The path passed to layout() is always the language-subdirectory
+  // path so the emitted canonical URL and hreflang alternates stay consistent
+  // across copies; the rebase prefix differs per copy so relative links
+  // resolve correctly from each disk location.
+  const canonicalPath = dirUrl(lang, slug);
+  const diskPaths = lang === DEFAULT_LANG
+    ? [canonicalPath, rootUrl(lang, slug)]
+    : [canonicalPath];
 
-  const html = layout({
-    title: title.includes(site.name) ? title : `${title} · ${site.name}`,
-    description,
-    lang,
-    path,
-    baseUrl: BASE_URL,
-    // Navigation hrefs are root-relative so the site works from any sub-path.
-    site: { ...site, navigation: { [lang]: rewriteNav(site.navigation[lang]) } },
-    body: bodyHtml,
-    breadcrumbs,
-    alternates: alternates.map((a) => ({ ...a, href: a.href })),
-    jsonLdBlocks: jsonLd,
-    extraHead,
-    toc: buildToc(headings),
-  });
+  for (const diskPath of diskPaths) {
+    const alternates = LANGS
+      .filter((l) => existsFor(l, slug))
+      .map((l) => ({ lang: l, href: `${BASE_URL}/${dirUrl(l, slug)}`, path: dirUrl(l, slug) }));
 
-  pagesWritten.push(write(path, rebaseLinks(html, path)));
-  return path;
+    const html = layout({
+      title: title.includes(site.name) ? title : `${title} · ${site.name}`,
+      description,
+      lang,
+      path: canonicalPath,
+      baseUrl: BASE_URL,
+      site: { ...site, navigation: { [lang]: rewriteNav(site.navigation[lang]) } },
+      body: bodyHtml,
+      breadcrumbs,
+      alternates: alternates.map((a) => ({ ...a, href: a.href })),
+      jsonLdBlocks: jsonLd,
+      extraHead,
+      toc: buildToc(headings),
+    });
+
+    pagesWritten.push(write(diskPath, rebaseLinks(html, diskPath)));
+    pagesMeta.push({ lang, slug, path: diskPath, canonical: canonicalPath });
+  }
+  return canonicalPath;
 }
 
 /** Turn navigation hrefs into root-relative paths that work from any depth. */
@@ -625,6 +647,13 @@ function build() {
       register(lang, slug);
     }
   }
+  // The root /index.html is the same page as <defaultLang>/index.html, so both
+  // are registered for hreflang alternates to work in either direction.
+  for (const lang of LANGS) {
+    if (lang === DEFAULT_LANG) {
+      existing.add(`${DEFAULT_LANG}:index.html`);
+    }
+  }
   // Register generated pages so hreflang alternates resolve.
   for (const lang of LANGS) {
     register(lang, 'locks/index.html');
@@ -835,14 +864,12 @@ function build() {
 
   write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${pagesWritten.map((p) => {
-    const slug = p;
-    const lang = slug.startsWith('zh/') ? 'zh' : 'en';
-    const rest = slug.replace(/^zh\//, '');
-    const alt = existing.has(`${lang === 'en' ? 'zh' : 'en'}:${rest}`)
-      ? `\n    <xhtml:link rel="alternate" hreflang="${lang === 'en' ? 'zh' : 'en'}" href="${BASE_URL}/${urlFor(lang === 'en' ? 'zh' : 'en', rest)}"/>`
+${pagesMeta.map(({ lang, slug, path }) => {
+    const otherLang = lang === 'en' ? 'zh' : 'en';
+    const alt = existsFor(otherLang, slug)
+      ? `\n    <xhtml:link rel="alternate" hreflang="${otherLang}" href="${BASE_URL}/${urlFor(otherLang, slug)}"/>`
       : '';
-    return `  <url>\n    <loc>${BASE_URL}/${slug}</loc>${alt}\n    <lastmod>${BUILD_DATE}</lastmod>\n  </url>`;
+    return `  <url>\n    <loc>${BASE_URL}/${path}</loc>${alt}\n    <lastmod>${BUILD_DATE}</lastmod>\n  </url>`;
   }).join('\n')}
 </urlset>
 `);
@@ -895,36 +922,64 @@ function extractFaqFromMarkdown(body, lang) {
 
 function buildLlmsTxt() {
   const L = [];
+  // The llms.txt summary is written in the default language so the most common
+  // crawler entry point reads naturally; the LLM can still pick the alternate
+  // language from hreflang if it prefers.
+  const lang = DEFAULT_LANG;
+  const other = lang === 'en' ? 'zh' : 'en';
   L.push(`# ${site.name}`);
   L.push('');
-  L.push(`> ${site.description.en}`);
+  L.push(`> ${site.description[lang] || site.description.en}`);
   L.push('');
-  L.push('An open, machine-readable reference for identifying existing mechanical door locks worldwide and designing smart-lock retrofits that fit them. All data is also available as JSON at /data/catalog.json.');
+  L.push(lang === 'zh'
+    ? '面向全球机械门锁的开放、可机读参考资料：识别现有门锁、设计与之匹配的智能锁改造方案。所有数据也以 JSON 形式发布在 /data/catalog.json。中文入口见根路径；英文版本在 /en/ 目录下。'
+    : 'An open, machine-readable reference for identifying existing mechanical door locks worldwide and designing smart-lock retrofits that fit them. All data is also available as JSON at /data/catalog.json.');
   L.push('');
-  L.push('## Identify and measure');
+  L.push(lang === 'zh' ? '## 识别与测量' : '## Identify and measure');
+  const entryLabels = {
+    'identify.html': lang === 'zh' ? '识别向导' : 'Identify',
+    'measure.html': lang === 'zh' ? '测量' : 'Measure',
+    'photo.html': lang === 'zh' ? '拍照量尺寸' : 'Photo measuring',
+  };
   for (const slug of ['identify.html', 'measure.html', 'photo.html']) {
-    if (existing.has(`en:${slug}`)) L.push(`- [${slug.replace('.html', '')}](/${slug}): guided identification and the measurement checklist`);
+    if (existsFor(lang, slug)) L.push(`- [${entryLabels[slug]}](/${urlFor(lang, slug)}): ${lang === 'zh' ? '引导式识别与测量清单' : 'guided identification and the measurement checklist'}`);
   }
   L.push('');
-  L.push('## Retrofit design');
-  for (const slug of ['retrofit.html']) if (existing.has(`en:${slug}`)) L.push(`- [Retrofit architectures](/${slug}): the seven architectures, adapters and design targets`);
-  for (const a of architecturesDoc.architectures) L.push(`- [${a.id}](/retrofit/${a.id}.html): ${a.principle.en.slice(0, 120)}`);
+  L.push(lang === 'zh' ? '## 改造设计' : '## Retrofit design');
+  if (existsFor(lang, 'retrofit.html')) L.push(`- [改造架构对照](/${urlFor(lang, 'retrofit.html')}): 七种架构、适配件与设计目标值`);
+  for (const a of architecturesDoc.architectures) {
+    const name = t(terms.architecture, a.id, lang);
+    const desc = (a.principle[lang] || a.principle.en).slice(0, 120);
+    L.push(`- [${name}](/${urlFor(lang, `retrofit/${a.id}.html`)}): ${desc}`);
+  }
   L.push('');
-  L.push('## Lock families');
-  for (const f of families) L.push(`- [${f.title.en}](/locks/${f.id}.html): ${f.summary.en.slice(0, 140)}`);
+  L.push(lang === 'zh' ? '## 锁型库' : '## Lock families');
+  for (const f of families) {
+    const name = f.title[lang] || f.title.en;
+    const desc = (f.summary[lang] || f.summary.en).slice(0, 140);
+    L.push(`- [${name}](/${urlFor(lang, `locks/${f.id}.html`)}): ${desc}`);
+  }
   L.push('');
-  L.push('## Standards');
-  for (const s of standardsDoc.standards) L.push(`- [${s.code}](/standards/${s.id}.html): ${s.title.en}${s.status === 'needs-review' ? ' (needs review)' : ''}`);
+  L.push(lang === 'zh' ? '## 标准' : '## Standards');
+  for (const s of standardsDoc.standards) {
+    const title = s.title[lang] || s.title.en;
+    L.push(`- [${s.code}](/${urlFor(lang, `standards/${s.id}.html`)}): ${title}${s.status === 'needs-review' ? (lang === 'zh' ? '（待核对）' : ' (needs review)') : ''}`);
+  }
   L.push('');
-  L.push('## Machine-readable');
-  L.push('- [catalog.json](/data/catalog.json): every lock family, standard, architecture and device in one JSON document');
-  L.push('- [search-index.json](/data/search-index.json): flat index of all pages in both languages');
-  L.push('- [sitemap.xml](/sitemap.xml): all URLs with hreflang alternates');
+  L.push(lang === 'zh' ? '## 机器可读' : '## Machine-readable');
+  L.push('- [catalog.json](/data/catalog.json): 全部锁族、标准、架构、设备的一份 JSON 文档');
+  L.push('- [search-index.json](/data/search-index.json): 所有页面的扁平索引（双语）');
+  L.push('- [sitemap.xml](/sitemap.xml): 全部 URL，含 hreflang 互链');
   L.push('');
-  L.push('## Optional');
-  L.push(`- [Source repository](${site.urls.repository}): data files are one JSON record per lock family`);
+  L.push(lang === 'zh' ? '## 可选' : '## Optional');
+  L.push(`- [源码仓库](${site.urls.repository}): 数据文件每个锁族一个 JSON`);
+  L.push('');
+  L.push(lang === 'zh'
+    ? `其他语言: [English](/en/index.html) — the same content, in English.`
+    : `Other languages: [中文](/${other === 'zh' ? 'zh/index.html' : 'index.html'}) — 同一站点的中文版本。`);
   L.push('');
   return L.join('\n');
+  void other; // retained for the cross-link above; computed lazily
 }
 
 function buildLlmsFull() {
@@ -971,17 +1026,27 @@ function buildLlmsFull() {
 }
 
 function fourOhFour() {
+  const lang = DEFAULT_LANG;
+  const other = lang === 'en' ? 'zh' : 'en';
+  const isZh = lang === 'zh';
+  const body = isZh
+    ? `<h1>页面未找到</h1><p>这个地址不存在。可以试试<a href="/locks/index.html">锁型库</a>、<a href="/standards/index.html">标准索引</a>或<a href="/identify.html">识别向导</a>。</p><p class="muted">Page not found. Try the <a href="/en/locks/index.html">lock catalog</a>, the <a href="/en/standards/index.html">standards index</a> or the <a href="/en/identify.html">identification wizard</a>.</p>`
+    : `<h1>Page not found</h1><p>That page does not exist. Try the <a href="/locks/index.html">lock catalog</a>, the <a href="/standards/index.html">standards index</a> or the <a href="/identify.html">identification wizard</a>.</p><p class="muted">找不到页面。可以试试<a href="/zh/locks/index.html">锁型库</a>、<a href="/zh/standards/index.html">标准索引</a>或<a href="/zh/identify.html">识别向导</a>。</p>`;
   const html = layout({
-    title: 'Page not found',
-    description: 'That page does not exist. Try the lock catalog or the identification wizard.',
-    lang: 'en',
+    title: isZh ? '页面未找到' : 'Page not found',
+    description: isZh ? '这个地址不存在。' : 'That page does not exist.',
+    lang,
     path: '404.html',
     baseUrl: BASE_URL,
-    site: { ...site, navigation: { en: rewriteNav(site.navigation.en) } },
-    body: `<h1>Page not found</h1><p>That page does not exist. Try the <a href="/locks/index.html">lock catalog</a>, the <a href="/standards/index.html">standards index</a> or the <a href="/identify.html">identification wizard</a>.</p><p class="muted">找不到页面。可以试试<a href="/zh/locks/index.html">锁型库</a>、<a href="/zh/standards/index.html">标准索引</a>或<a href="/zh/identify.html">识别向导</a>。</p>`,
-    breadcrumbs: [{ label: site.name, href: '/index.html' }, { label: '404' }],
+    site: { ...site, navigation: { [lang]: rewriteNav(site.navigation[lang]) } },
+    body,
+    breadcrumbs: [{ label: site.name, href: hrefFor(lang, 'index.html') }, { label: '404' }],
   });
   return rebaseLinks(html, '404.html');
+  // other is reserved for the future: a small page would benefit from having
+  // both languages available, but the single-language fallback above keeps the
+  // 404 page readable without inventing per-language paths.
+  void other;
 }
 
 /* ------------------------------------------------------------------ *
