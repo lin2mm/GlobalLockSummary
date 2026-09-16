@@ -106,6 +106,26 @@ const paths = [
     choices: { region: 'other', door: 'metal', keyhole: 'padlock', inside: 'unknown', backset: 'unknown' },
     expect: 'padlock-hasppad',
   },
+  {
+    name: 'Singapore metal security gate in front of the main door',
+    choices: { region: 'sg', door: 'gate', keyhole: 'none', inside: 'lever', backset: 'unknown' },
+    expect: 'sg-metal-gate-lock',
+  },
+  {
+    name: 'Singapore metal gate even when the rest of the answers favour the main door',
+    choices: { region: 'sg', door: 'gate', keyhole: 'euro-cyl', inside: 'lever', backset: '55_60' },
+    expect: 'sg-metal-gate-lock',
+  },
+  {
+    name: 'Indian mortise handle set with a 50 mm backset',
+    choices: { region: 'in', door: 'timber', keyhole: 'euro-cyl', inside: 'lever', backset: '50' },
+    expect: 'in-mortise-rim',
+  },
+  {
+    name: 'Indian rim nightlatch',
+    choices: { region: 'in', door: 'timber', keyhole: 'rim', inside: 'knob', backset: 'unknown' },
+    expect: 'in-mortise-rim',
+  },
 ];
 
 for (const path of paths) {

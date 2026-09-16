@@ -29,10 +29,10 @@
     ]
   },
   "measurements": [
-    { "key": "backset", "typical": "64 mm common; 51 and 64 mm appear most often", "tolerance": "Match exactly", "how": { "en": "Door edge to the cylinder centre.", "zh": "门边到锁芯中心。" } },
-    { "key": "centreDistance", "typical": "Varies by maker; record the actual value", "tolerance": "—", "how": { "en": "Spindle centre to cylinder centre.", "zh": "方轴中心到锁芯中心。" } },
-    { "key": "doorThickness", "typical": "33–42 mm on apartment doors", "tolerance": "—", "how": { "en": "At the lock.", "zh": "在锁位处量。" } },
-    { "key": "faceplateSize", "typical": "Maker-specific; record width × length rather than assuming a size", "tolerance": "—", "how": { "en": "Measure the strip on the door edge and photograph the maker's marking on it.", "zh": "量门边金属条，并拍下上面的厂商标记。" } }
+    { "key": "backset", "typical": { "en": "64 mm common; 51 and 64 mm appear most often", "zh": "常见 64 mm；以 51 与 64 mm 最常见" }, "tolerance": { "en": "Match exactly", "zh": "必须完全一致" }, "how": { "en": "Door edge to the cylinder centre.", "zh": "门边到锁芯中心。" } },
+    { "key": "centreDistance", "typical": { "en": "Varies by maker; record the actual value", "zh": "因厂商而异；请记录实测值" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Spindle centre to cylinder centre.", "zh": "方轴中心到锁芯中心。" } },
+    { "key": "doorThickness", "typical": { "en": "33–42 mm on apartment doors", "zh": "公寓门 33–42 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "At the lock.", "zh": "在锁位处量。" } },
+    { "key": "faceplateSize", "typical": { "en": "Maker-specific; record width × length rather than assuming a size", "zh": "因厂商而异；请记录宽 × 长，不要假定尺寸" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure the strip on the door edge and photograph the maker's marking on it.", "zh": "量门边金属条，并拍下上面的厂商标记。" } }
   ],
   "measureOrder": ["backset", "centreDistance", "faceplateSize", "doorThickness"],
   "standards": ["jp-jis-a4702"],

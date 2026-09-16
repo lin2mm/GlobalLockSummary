@@ -29,8 +29,8 @@
     ]
   },
   "measurements": [
-    { "key": "stapleSize", "typical": "Staple inner diameter 8–12 mm; shackle 8–14 mm", "tolerance": "Decides which smart padlock fits", "how": { "en": "Measure the inner width of the loop and the shackle diameter.", "zh": "量锁环内宽与锁梁直径。" } },
-    { "key": "holePattern", "typical": "Hasp fixing screws 30–60 mm apart", "tolerance": "—", "how": { "en": "Screw hole to screw hole on the hasp.", "zh": "量搭扣上的螺钉孔距。" } }
+    { "key": "stapleSize", "typical": { "en": "Staple inner diameter 8–12 mm; shackle 8–14 mm", "zh": "锁鼻内径 8–12 mm；锁梁 8–14 mm" }, "tolerance": { "en": "Decides which smart padlock fits", "zh": "决定能装哪种智能挂锁" }, "how": { "en": "Measure the inner width of the loop and the shackle diameter.", "zh": "量锁环内宽与锁梁直径。" } },
+    { "key": "holePattern", "typical": { "en": "Hasp fixing screws 30–60 mm apart", "zh": "搭扣固定螺钉间距 30–60 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Screw hole to screw hole on the hasp.", "zh": "量搭扣上的螺钉孔距。" } }
   ],
   "measureOrder": ["stapleSize", "holePattern"],
   "standards": ["au-as4174"],

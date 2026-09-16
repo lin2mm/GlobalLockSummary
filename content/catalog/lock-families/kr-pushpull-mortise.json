@@ -29,11 +29,11 @@
     ]
   },
   "measurements": [
-    { "key": "backset", "typical": "60 mm and 70 mm are the two that matter", "tolerance": "Match exactly", "how": { "en": "Door edge to the case centre line.", "zh": "门边到锁体中心线。" } },
-    { "key": "centreDistance", "typical": "85 mm common; 72 and 92 mm occur", "tolerance": "None", "how": { "en": "Spindle centre to cylinder centre.", "zh": "方轴中心到锁芯中心。" } },
-    { "key": "faceplateSize", "typical": "Case faceplate 24 mm wide, 240–300 mm long", "tolerance": "—", "how": { "en": "Measure the strip on the door edge.", "zh": "量门边金属条。" } },
-    { "key": "holePattern", "typical": "Handle screw pitch 38–70 mm depending on set", "tolerance": "—", "how": { "en": "Screw hole to screw hole on the handle.", "zh": "量把手螺钉孔距。" } },
-    { "key": "doorThickness", "typical": "38–50 mm", "tolerance": "—", "how": { "en": "At the lock.", "zh": "在锁位处量。" } }
+    { "key": "backset", "typical": { "en": "60 mm and 70 mm are the two that matter", "zh": "需要区分的只有 60 mm 与 70 mm 两种" }, "tolerance": { "en": "Match exactly", "zh": "必须完全一致" }, "how": { "en": "Door edge to the case centre line.", "zh": "门边到锁体中心线。" } },
+    { "key": "centreDistance", "typical": { "en": "85 mm common; 72 and 92 mm occur", "zh": "常见 85 mm；也有 72 与 92 mm" }, "tolerance": { "en": "None", "zh": "无公差" }, "how": { "en": "Spindle centre to cylinder centre.", "zh": "方轴中心到锁芯中心。" } },
+    { "key": "faceplateSize", "typical": { "en": "Case faceplate 24 mm wide, 240–300 mm long", "zh": "锁体面板宽 24 mm，长 240–300 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure the strip on the door edge.", "zh": "量门边金属条。" } },
+    { "key": "holePattern", "typical": { "en": "Handle screw pitch 38–70 mm depending on set", "zh": "把手螺钉孔距 38–70 mm，视锁组而定" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Screw hole to screw hole on the handle.", "zh": "量把手螺钉孔距。" } },
+    { "key": "doorThickness", "typical": { "en": "38–50 mm", "zh": "38–50 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "At the lock.", "zh": "在锁位处量。" } }
   ],
   "measureOrder": ["backset", "centreDistance", "faceplateSize", "holePattern", "doorThickness"],
   "standards": ["en-12209"],

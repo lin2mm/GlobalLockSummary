@@ -46,6 +46,14 @@ export function layout(opts) {
     return `<a class="nav__link" href="${esc(item.href)}"${active}>${esc(item.label)}</a>`;
   }).join('\n          ');
 
+  const product = site.product && site.product.url
+    ? {
+        url: site.product.url,
+        label: site.product.label?.[lang] || site.product.label?.en || '',
+        note: site.product.note?.[lang] || site.product.note?.en || '',
+      }
+    : null;
+
   const langLinks = alternates.map((alt) => {
     const label = site.languages[alt.lang]?.label || alt.lang;
     const isCurrent = alt.lang === lang;
@@ -109,6 +117,7 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
           ${nav}
       </nav>
       <div class="site-header__actions">
+        ${product ? `<a class="product-link" href="${esc(product.url)}" rel="external noopener">${esc(product.label)}</a>` : ''}
         <a class="icon-link" href="/search.html" aria-label="${esc(site.ui.search[lang] || 'Search')}">${esc(site.ui.search[lang] || 'Search')}</a>
         <div class="langswitch">${langLinks}</div>
       </div>
@@ -140,6 +149,11 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
         <p class="site-footer__title">${esc(site.footer.licenseLabel[lang] || 'License')}</p>
         <p class="site-footer__text">${esc(site.footer.licenseText[lang] || site.footer.licenseText.en)}</p>
       </div>
+${product ? `      <div>
+        <p class="site-footer__title">${esc(product.label)}</p>
+        <p class="site-footer__text">${esc(product.note)}</p>
+        <p class="site-footer__text"><a class="product-link product-link--footer" href="${esc(product.url)}" rel="external noopener">${esc(product.url.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</a></p>
+      </div>` : ''}
     </div>
     <div class="wrap site-footer__meta">
       <p>${esc(site.footer.disclaimer[lang] || site.footer.disclaimer.en)}</p>

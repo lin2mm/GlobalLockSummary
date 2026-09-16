@@ -29,11 +29,11 @@
     ]
   },
   "measurements": [
-    { "key": "centreDistance", "typical": "92 mm most common; 85 mm and 72 mm also exist", "tolerance": "None", "how": { "en": "Spindle centre to cylinder centre on the gearbox face.", "zh": "在齿轮箱端面上量方轴中心到锁芯中心。" } },
-    { "key": "backset", "typical": "35 / 40 / 45 / 50 mm", "tolerance": "—", "how": { "en": "Door edge to cylinder centre.", "zh": "门边到锁芯中心。" } },
-    { "key": "handleScrewSpacing", "typical": "205 mm or 215 mm screw centres", "tolerance": "None for handle replacement", "how": { "en": "Top screw hole to bottom screw hole.", "zh": "上螺钉孔到下螺钉孔。" } },
-    { "key": "faceplateSize", "typical": "Extension strip width 16 / 20 / 24 mm", "tolerance": "—", "how": { "en": "Measure the strip width on the door edge.", "zh": "量门边延伸条宽度。" } },
-    { "key": "cylinderLength", "typical": "Oval cylinders 62–92 mm total; euro profile on newer doors in 5 mm steps", "tolerance": "Exact", "how": { "en": "Remove the central screw, take the cylinder out and measure both halves.", "zh": "拆下中央螺钉取出锁芯，分别量两段。" } }
+    { "key": "centreDistance", "typical": { "en": "92 mm most common; 85 mm and 72 mm also exist", "zh": "以 92 mm 最常见；也有 85 mm 与 72 mm" }, "tolerance": { "en": "None", "zh": "无公差" }, "how": { "en": "Spindle centre to cylinder centre on the gearbox face.", "zh": "在齿轮箱端面上量方轴中心到锁芯中心。" } },
+    { "key": "backset", "typical": { "en": "35 / 40 / 45 / 50 mm", "zh": "35 / 40 / 45 / 50 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Door edge to cylinder centre.", "zh": "门边到锁芯中心。" } },
+    { "key": "handleScrewSpacing", "typical": { "en": "205 mm or 215 mm screw centres", "zh": "螺钉孔距为 205 mm 或 215 mm" }, "tolerance": { "en": "None for handle replacement", "zh": "更换把手时无公差" }, "how": { "en": "Top screw hole to bottom screw hole.", "zh": "上螺钉孔到下螺钉孔。" } },
+    { "key": "faceplateSize", "typical": { "en": "Extension strip width 16 / 20 / 24 mm", "zh": "延伸条宽 16 / 20 / 24 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure the strip width on the door edge.", "zh": "量门边延伸条宽度。" } },
+    { "key": "cylinderLength", "typical": { "en": "Oval cylinders 62–92 mm total; euro profile on newer doors in 5 mm steps", "zh": "椭圆锁芯总长 62–92 mm；较新的门用欧标槽型，以 5 mm 为步进" }, "tolerance": { "en": "Exact", "zh": "必须精确" }, "how": { "en": "Remove the central screw, take the cylinder out and measure both halves.", "zh": "拆下中央螺钉取出锁芯，分别量两段。" } }
   ],
   "measureOrder": ["centreDistance", "handleScrewSpacing", "backset", "cylinderLength"],
   "standards": ["en-12209", "en-1303", "ts-007", "en-1634-1"],

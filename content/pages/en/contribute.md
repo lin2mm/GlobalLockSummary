@@ -92,7 +92,7 @@ No dependencies to install. Node 20 or newer.
 
 ## What is most wanted right now
 
-1. **Africa, South America, India, the Middle East** — no lock families at all yet
+1. **Africa, South America, the Middle East** — no lock families at all yet
 2. **Australia** — the standard designation needs confirming
 3. **Japan** — case dimensions and the applicable JIS reference
 4. **Photos with rulers** — for every family, so the identification wizard can show them

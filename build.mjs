@@ -31,6 +31,9 @@ const t = (dict, key, lang) => dict?.[key]?.[lang] || dict?.[key]?.en || key;
  * ------------------------------------------------------------------ */
 
 const site = readJson(join(CONTENT, 'site.json'));
+// The product-site link is optional. An env override exists so both states
+// (published / not published) can be built and verified without editing data.
+if (process.env.PRODUCT_URL && site.product) site.product.url = process.env.PRODUCT_URL;
 const terms = readJson(join(CONTENT, 'i18n', 'terms.json'));
 const architecturesDoc = readJson(join(CONTENT, 'catalog', 'retrofit-architectures.json'));
 const standardsDoc = readJson(join(CONTENT, 'catalog', 'standards.json'));
@@ -525,6 +528,8 @@ function wizardFragment(lang) {
   return `<div class="wizard" id="wizard"
     data-lang="${lang}"
     data-root="${rootPrefix()}"
+    data-product-url="${escapeHtml(site.product?.url || '')}"
+    data-product-label="${escapeHtml(site.product?.label?.[lang] || site.product?.label?.en || '')}"
     data-i18n='${JSON.stringify({
       title: t(terms.wizard, 'title', lang),
       restart: t(terms.wizard, 'restart', lang),

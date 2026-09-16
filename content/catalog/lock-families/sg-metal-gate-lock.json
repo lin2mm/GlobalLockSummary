@@ -1,0 +1,65 @@
+{
+  "id": "sg-metal-gate-lock",
+  "status": "verified",
+  "regions": ["Singapore", "Malaysia"],
+  "title": {
+    "en": "Singapore HDB metal security gate lock",
+    "zh": "新加坡 HDB 金属防盗闸锁"
+  },
+  "aliases": {
+    "en": ["Gate lock", "HDB gate digital lock", "Grille lock"],
+    "zh": ["铁闸锁", "组屋闸门数字锁", "防盗栅锁"]
+  },
+  "summary": {
+    "en": "The second door of a Singaporean entrance, and the one that defeats most smart-lock products. It is a metal gate, not a door: bars instead of a leaf, no mortise pocket, exposure to weather, and a main door sitting only tens of millimetres behind it. Everything that works on a timber door has to be re-derived here.",
+    "zh": "新加坡入户的第二道门，也是让多数智能锁产品失效的那一道。它是金属闸而不是门：有栏杆没有门扇，没有锁体孔槽，直接暴露在户外，而主门就在它后方几十毫米处。凡是木门上成立的经验，在这里都要重新推导。"
+  },
+  "anatomy": {
+    "en": [
+      "Vertical round or square bars, commonly around 100 mm apart on wrought-iron gates",
+      "A vertical stile carrying the latch — often hollow and unreinforced",
+      "A latch or hook engaging a frame-mounted strike",
+      "On retrofits, a welded 3 mm mild-steel lock plate behind the mechanism, because a lock cannot be mounted to a hollow bar"
+    ],
+    "zh": [
+      "竖向圆杆或方杆，锻铁闸常见间距约 100 mm",
+      "承载锁舌的竖向立柱——常为空心且未加强",
+      "与门框扣板啮合的锁舌或钩舌",
+      "改造时机构背后需焊接 3 mm 低碳钢锁板，因为锁不能装在空心杆上"
+    ]
+  },
+  "measurements": [
+    { "key": "gateThickness", "typical": { "en": "22–40 mm; products on the market accept 22–28, 23–40 and 22–60 mm ranges", "zh": "22–40 mm；市售产品接受 22–28、23–40、22–60 mm 等范围" }, "tolerance": { "en": "Must fall inside the product's stated range", "zh": "必须落在产品标称范围内" }, "how": { "en": "Measure the gate leaf at the stile where the lock will sit.", "zh": "在准备装锁的立柱处量闸门扇。" } },
+    { "key": "backset", "typical": { "en": "40–45 mm on gate locks sold for HDB", "zh": "面向 HDB 的闸锁常见 40–45 mm" }, "tolerance": { "en": "None", "zh": "无公差" }, "how": { "en": "Gate edge to the centre of the cylinder or latch.", "zh": "闸门边到锁芯或锁舌中心。" } },
+    { "key": "gateToDoorGap", "typical": { "en": "Standard gate locks need roughly 75–95 mm; under about 70 mm a standard body will strike the main door handle", "zh": "标准闸锁约需 75–95 mm；低于约 70 mm 时标准机身会撞到主门把手" }, "tolerance": { "en": "This decides whether a standard or a slim body is possible", "zh": "决定能用标准机身还是必须用超薄机身" }, "how": { "en": "Close both the gate and the main door, then measure from the back of the gate stile to the face of the timber door.", "zh": "同时关上闸门与主门，量闸门立柱背面到木门门面的距离。" } },
+    { "key": "barSpacing", "typical": { "en": "About 100 mm centre-to-centre on traditional wrought iron", "zh": "传统锻铁闸约为中心距 100 mm" }, "tolerance": { "en": "Decides whether a lock plate has to be welded", "zh": "决定是否需要焊接锁板" }, "how": { "en": "Centre of one bar to centre of the next, at lock height.", "zh": "在锁的高度上量相邻两杆的中心距。" } },
+    { "key": "clearanceToGate", "typical": { "en": "3–7 mm door gap is common for flush-fitting gate locks", "zh": "齐平安装的闸锁常见门缝 3–7 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "With the gate closed, measure the gap between gate and frame.", "zh": "关上闸门，量闸门与门框之间的缝隙。" } }
+  ],
+  "measureOrder": ["gateToDoorGap", "gateThickness", "backset", "barSpacing", "clearanceToGate"],
+  "standards": ["sg-scdf-coc"],
+  "retrofit": {
+    "architectures": ["gate-actuator", "full-lock-replacement"],
+    "notes": {
+      "en": "Two facts decide the design. First, the gate-to-door depth clearance: if it is under about 70 mm, only a slim body fits, and the market sells slim bodies precisely for this. Second, the mounting surface: a hollow bar cannot carry a lock, so a welded steel plate is part of the job, not an optional extra. Grille spacing, mortise cut-outs and flush-ness vary between gates, so a photo check before ordering is normal practice rather than a courtesy.",
+      "zh": "两个事实决定设计。第一是闸门与主门的深度净空：低于约 70 mm 时只有超薄机身装得下，市场上正是为此提供超薄款。第二是安装面：空心杆承不住锁，所以焊接钢板是工作的一部分，不是可选项。栅栏间距、锁体开孔与齐平度因闸而异，因此下单前先看照片是常规做法，而不是额外服务。"
+    }
+  },
+  "faq": {
+    "en": [
+      { "q": "Why do gate locks fail more often than door locks?", "a": "Because they are outdoors. Sun, rain and humidity attack the battery, the adhesive and the electronics. Look for an IP rating — products on the Singapore market are commonly IP54 to IP65 — and note that some makers advise sheltered installation only." },
+      { "q": "Can I fit a door smart lock on the gate?", "a": "Rarely. A door lock assumes a solid leaf with a mortise pocket. A gate gives you bars, a hollow stile and no pocket. Products built for gates exist for exactly this reason." },
+      { "q": "What about fire escape?", "a": "A gate must never become the reason someone cannot get out. The latch has to open from inside by hand with no power, and the gate must not obstruct the common corridor or escape route." }
+    ],
+    "zh": [
+      { "q": "为什么闸锁比门锁更容易坏？", "a": "因为它在室外。日晒、雨淋与潮湿会攻击电池、背胶与电子件。要看防护等级——新加坡市售产品通常为 IP54 至 IP65——并注意部分厂商建议只能安装在有遮挡处。" },
+      { "q": "能把门用智能锁装在闸门上吗？", "a": "很少能。门锁默认有带锁体孔槽的实心门扇，而闸门给你的是栏杆、空心立柱和没有孔槽。专为闸门设计的产品正是为此存在。" },
+      { "q": "消防逃生怎么办？", "a": "闸门绝不能成为逃不出的原因。锁舌必须能在断电时从内侧徒手开启，且闸门不得妨碍公共走廊或逃生通道。" }
+    ]
+  },
+  "sources": [
+    { "title": "igloohome Gate Lock RM2/RM2F — gate thickness 23–40 mm, IP54, sheltered installation advised", "url": "https://store-sg.igloohome.co/products/gate-lock" },
+    { "title": "Aqara U500 Gate Lock — gates 22–28 mm, backset 40–45 mm, door gap 3–7 mm, IP65", "url": "https://homesmart.sg/product/aqara-u500-smart-lock/" },
+    { "title": "HDB main gate guide — 75–95 mm gate-to-door clearance, 100 mm bar spacing, welded 3 mm lock plate", "url": "https://www.windowgrill.com.sg/blog/hdb-main-gate-safety-digital-locks-scdf-egress-guide-2026.html" },
+    { "title": "SINGGATE FM021 — applicable gate thickness 22–60 mm, door-to-gate allowance 55 mm", "url": "https://full-smart-singapore.myshopify.com/pages/the-latest-product-singgate-fm021-singapore-metal-gate-digital-lock" }
+  ]
+}

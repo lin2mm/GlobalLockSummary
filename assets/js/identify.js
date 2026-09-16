@@ -19,6 +19,23 @@
   var questions = parse('data-questions');
   var catalog = parse('data-catalog');
   var siteRoot = root.getAttribute('data-root') || '';
+  var productUrl = root.getAttribute('data-product-url') || '';
+  var productLabel = root.getAttribute('data-product-label') || '';
+
+  /**
+   * Link to the commercial retrofit product site, only when one is configured.
+   * With no URL the section is not rendered at all — never an empty link.
+   */
+  function productSection() {
+    if (!productUrl || !productLabel) return null;
+    var wrap = el('div', 'result__section');
+    var link = el('a', 'wizard__btn wizard__btn--primary', productLabel);
+    link.href = productUrl;
+    link.rel = 'external noopener';
+    link.target = '_blank';
+    wrap.appendChild(link);
+    return wrap;
+  }
 
   if (!questions.length) return;
 
@@ -146,6 +163,8 @@
       rb.addEventListener('click', reset);
       restartOnly.appendChild(rb);
       inner.appendChild(restartOnly);
+      var weakProduct = productSection();
+      if (weakProduct) inner.appendChild(weakProduct);
       return;
     }
 
@@ -206,6 +225,9 @@
       sec3.appendChild(alts);
       inner.appendChild(sec3);
     }
+
+    var product = productSection();
+    if (product) inner.appendChild(product);
 
     var nav = el('div', 'wizard__nav');
 

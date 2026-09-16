@@ -29,10 +29,10 @@
     ]
   },
   "measurements": [
-    { "key": "caseSize", "typical": "Case height 4 in (102 mm) or 4-3/4 in (121 mm)", "tolerance": "—", "how": { "en": "Remove the case and measure the pocket.", "zh": "拆出锁体，量孔槽。" } },
-    { "key": "backset", "typical": "2-3/4 in (70 mm) or 2-1/2 in", "tolerance": "—", "how": { "en": "Door edge to the cylinder centre.", "zh": "门边到锁芯中心。" } },
-    { "key": "doorThickness", "typical": "1-3/4 in (45 mm) typical for commercial doors", "tolerance": "—", "how": { "en": "At the case.", "zh": "在锁体处量。" } },
-    { "key": "centreDistance", "typical": "Function-dependent; record the actual spindle-to-cylinder value from the case", "tolerance": "None", "how": { "en": "With the trim off, measure the case from the spindle centre to the cylinder centre.", "zh": "拆下饰件后，在锁体上量方轴中心到锁芯中心。" } }
+    { "key": "caseSize", "typical": { "en": "Case height 4 in (102 mm) or 4-3/4 in (121 mm)", "zh": "锁体高 4 英寸（102 mm）或 4-3/4 英寸（121 mm）" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Remove the case and measure the pocket.", "zh": "拆出锁体，量孔槽。" } },
+    { "key": "backset", "typical": { "en": "2-3/4 in (70 mm) or 2-1/2 in", "zh": "2-3/4 英寸（70 mm）或 2-1/2 英寸" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Door edge to the cylinder centre.", "zh": "门边到锁芯中心。" } },
+    { "key": "doorThickness", "typical": { "en": "1-3/4 in (45 mm) typical for commercial doors", "zh": "商用门通常 1-3/4 英寸（45 mm）" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "At the case.", "zh": "在锁体处量。" } },
+    { "key": "centreDistance", "typical": { "en": "Function-dependent; record the actual spindle-to-cylinder value from the case", "zh": "随功能而变；请按锁体实测记录方轴到锁芯的实际值" }, "tolerance": { "en": "None", "zh": "无公差" }, "how": { "en": "With the trim off, measure the case from the spindle centre to the cylinder centre.", "zh": "拆下饰件后，在锁体上量方轴中心到锁芯中心。" } }
   ],
   "measureOrder": ["caseSize", "backset", "centreDistance", "doorThickness"],
   "standards": ["ansi-a156-13", "ansi-a156-25"],

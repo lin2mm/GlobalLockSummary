@@ -29,10 +29,10 @@
     ]
   },
   "measurements": [
-    { "key": "caseSize", "typical": "Case widths 60–90 mm; heights 60–100 mm", "tolerance": "Survey before designing", "how": { "en": "Width and height of the surface case.", "zh": "量贴面锁体的宽与高。" } },
-    { "key": "backset", "typical": "60 mm typical", "tolerance": "—", "how": { "en": "Door edge to the centre of the rim cylinder.", "zh": "门边到外装锁芯中心。" } },
-    { "key": "turnPieceSize", "typical": "Round knob 25–35 mm, or a lever", "tolerance": "—", "how": { "en": "Measure across the knob and note the fixing.", "zh": "量旋钮直径并记录固定方式。" } },
-    { "key": "doorThickness", "typical": "35–55 mm", "tolerance": "—", "how": { "en": "At the cylinder.", "zh": "在锁芯处量。" } }
+    { "key": "caseSize", "typical": { "en": "Case widths 60–90 mm; heights 60–100 mm", "zh": "锁体宽 60–90 mm；高 60–100 mm" }, "tolerance": { "en": "Survey before designing", "zh": "设计前必须先测绘" }, "how": { "en": "Width and height of the surface case.", "zh": "量贴面锁体的宽与高。" } },
+    { "key": "backset", "typical": { "en": "60 mm typical", "zh": "常见 60 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Door edge to the centre of the rim cylinder.", "zh": "门边到外装锁芯中心。" } },
+    { "key": "turnPieceSize", "typical": { "en": "Round knob 25–35 mm, or a lever", "zh": "圆钮 25–35 mm，或为拨杆" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure across the knob and note the fixing.", "zh": "量旋钮直径并记录固定方式。" } },
+    { "key": "doorThickness", "typical": { "en": "35–55 mm", "zh": "35–55 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "At the cylinder.", "zh": "在锁芯处量。" } }
   ],
   "measureOrder": ["caseSize", "backset", "turnPieceSize", "doorThickness"],
   "standards": ["bs-3621", "en-12209"],

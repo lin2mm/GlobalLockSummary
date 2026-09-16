@@ -41,7 +41,7 @@ Not a shop, not a comparison site, and not a place where a vendor can pay for pl
 
 Every record carries a status. **verified** means the numbers were cross-checked against a published source, which is linked at the bottom of the page. **needs-review** means a contributor or the maintainers wrote it but nobody has cross-checked it yet — published deliberately, because a knowledge base that hides its gaps is more dangerous than one that marks them.
 
-The catalog today covers 13 lock families, 17 standards and 7 retrofit architectures, weighted towards Europe, the UK, North America and Southeast Asia. Large gaps remain for Africa, South America, India and the Middle East. [Filling those is the most useful thing a contributor can do.](contribute.html)
+The catalog today covers 15 lock families, 17 standards and 7 retrofit architectures, weighted towards Europe, the UK, North America, Southeast Asia and South Asia. Large gaps remain for Africa, South America and the Middle East. [Filling those is the most useful thing a contributor can do.](contribute.html)
 
 ## Questions
 

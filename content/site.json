@@ -12,8 +12,16 @@
   "license": "CC BY 4.0",
   "urls": {
     "repository": "https://github.com/lin2mm/GlobalLockSummary",
-    "issues": "https://github.com/lin2mm/GlobalLockSummary/issues",
-    "product": ""
+    "issues": "https://github.com/lin2mm/GlobalLockSummary/issues"
+  },
+  "product": {
+    "_comment": "Set `url` to publish a link to the commercial retrofit product site in the header, the footer and the identification result. Leave it empty and nothing renders — no empty hrefs, no placeholder link. Can be overridden at build time with PRODUCT_URL=… for testing.",
+    "url": "",
+    "label": { "en": "Retrofit hardware", "zh": "智能改造产品" },
+    "note": {
+      "en": "This site is an independent public reference. Adapters and retrofit kits are made by the maintainers.",
+      "zh": "本站是独立的公益参考资料。适配件与改造套件由维护者生产。"
+    }
   },
   "navigation": {
     "en": [

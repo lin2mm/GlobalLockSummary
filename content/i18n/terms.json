@@ -28,7 +28,10 @@
     "fireRating": { "en": "Fire rating of the door leaf", "zh": "门扇耐火等级" },
     "escutcheonSize": { "en": "Escutcheon / rose diameter", "zh": "锁孔盖（圆盖）直径" },
     "strikePlate": { "en": "Strike plate position and pocket depth", "zh": "扣板位置与孔槽深度" },
-    "stapleSize": { "en": "Hasp staple diameter", "zh": "搭扣环（锁鼻）直径" }
+    "stapleSize": { "en": "Hasp staple diameter", "zh": "搭扣环（锁鼻）直径" },
+    "gateThickness": { "en": "Gate leaf thickness", "zh": "闸门扇厚度" },
+    "barSpacing": { "en": "Gate bar spacing", "zh": "闸杆间距" },
+    "gateToDoorGap": { "en": "Gate-to-door depth clearance", "zh": "闸门与主门的深度净空" }
   },
   "architecture": {
     "motor-on-thumbturn": {

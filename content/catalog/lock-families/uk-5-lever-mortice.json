@@ -29,10 +29,10 @@
     ]
   },
   "measurements": [
-    { "key": "caseSize", "typical": "Case sizes commonly 76 mm or 64 mm (3 in / 2.5 in nominal)", "tolerance": "—", "how": { "en": "Measure the case width across the door edge.", "zh": "沿门边量锁体宽度。" } },
-    { "key": "backset", "typical": "44 mm (76 mm case) or 57 mm, varies by maker", "tolerance": "—", "how": { "en": "Door edge to the centre of the keyhole.", "zh": "门边到钥匙孔中心。" } },
-    { "key": "leverCount", "typical": "5 for BS 3621; 2 or 3 on older and interior locks", "tolerance": "—", "how": { "en": "Count through the keyhole or from the case edge.", "zh": "从钥匙孔或锁体侧面数。" } },
-    { "key": "boltThrow", "typical": "20 mm minimum for BS 3621", "tolerance": "—", "how": { "en": "Key the bolt fully out and measure how far it projects past the faceplate.", "zh": "把方舌完全旋出，量它突出面板的距离。" } }
+    { "key": "caseSize", "typical": { "en": "Case sizes commonly 76 mm or 64 mm (3 in / 2.5 in nominal)", "zh": "锁体常见 76 mm 或 64 mm（标称 3 英寸 / 2.5 英寸）" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Measure the case width across the door edge.", "zh": "沿门边量锁体宽度。" } },
+    { "key": "backset", "typical": { "en": "44 mm (76 mm case) or 57 mm, varies by maker", "zh": "44 mm（76 mm 锁体）或 57 mm，因厂商而异" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Door edge to the centre of the keyhole.", "zh": "门边到钥匙孔中心。" } },
+    { "key": "leverCount", "typical": { "en": "5 for BS 3621; 2 or 3 on older and interior locks", "zh": "BS 3621 要求 5 片；旧锁与室内锁为 2 或 3 片" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Count through the keyhole or from the case edge.", "zh": "从钥匙孔或锁体侧面数。" } },
+    { "key": "boltThrow", "typical": { "en": "20 mm minimum for BS 3621", "zh": "BS 3621 要求至少 20 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Key the bolt fully out and measure how far it projects past the faceplate.", "zh": "把方舌完全旋出，量它突出面板的距离。" } }
   ],
   "measureOrder": ["leverCount", "caseSize", "backset", "boltThrow"],
   "standards": ["bs-3621", "bs-8621", "bs-10621"],

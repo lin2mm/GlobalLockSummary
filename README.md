@@ -26,13 +26,13 @@ Three audiences, in this order:
 
 | | Count | Source |
 | --- | --- | --- |
-| Lock families | 13 | `content/catalog/lock-families/*.json` |
+| Lock families | 15 | `content/catalog/lock-families/*.json` |
 | Standards | 17 | `content/catalog/standards.json` |
 | Retrofit architectures | 7 | `content/catalog/retrofit-architectures.json` |
 | Reference devices | 8 | `content/catalog/smart-locks.json` |
 
-Coverage is weighted towards Europe, the UK, North America and Southeast Asia. Africa, South
-America, India and the Middle East are the biggest gaps — see
+Coverage is weighted towards Europe, the UK, North America, Southeast Asia and South Asia.
+Africa, South America and the Middle East are the biggest gaps — see
 [CONTRIBUTING notes](https://lin2mm.github.io/GlobalLockSummary/contribute.html).
 
 ## Honesty about data quality
@@ -84,6 +84,26 @@ _site/                    build output (gitignored; CI builds it)
 Add one JSON file to `content/catalog/lock-families/`. Nothing else needs editing — the index
 pages, search index, sitemap, `llms.txt` and `catalog.json` all regenerate from it.
 The schema is documented on the [Contribute page](https://lin2mm.github.io/GlobalLockSummary/contribute.html).
+
+## Linking your product site
+
+The site stays an independent public reference; the link to a commercial retrofit product site is
+optional and off by default. Set it in `content/site.json`:
+
+```json
+"product": {
+  "url": "https://your-product-site.com",
+  "label": { "en": "Retrofit hardware", "zh": "智能改造产品" },
+  "note":  { "en": "…", "zh": "…" }
+}
+```
+
+When `url` is non-empty, the link appears in the header, the footer and at the end of the
+identification wizard result, in both languages. When it is empty, **nothing renders** — there is
+no placeholder and no empty `href` anywhere. `tests/site.test.mjs` verifies both states on every
+run, so this cannot regress into a broken link.
+
+For a one-off build without editing the file: `PRODUCT_URL=https://… node build.mjs`.
 
 ## Deployment
 

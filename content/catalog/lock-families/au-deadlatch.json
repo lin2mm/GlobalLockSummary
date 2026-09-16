@@ -29,9 +29,9 @@
     ]
   },
   "measurements": [
-    { "key": "caseSize", "typical": "Survey locally — cases vary widely", "tolerance": "—", "how": { "en": "Width and height of the surface case.", "zh": "量贴面锁体的宽与高。" } },
-    { "key": "backset", "typical": "60 mm common", "tolerance": "—", "how": { "en": "Door edge to the cylinder centre.", "zh": "门边到锁芯中心。" } },
-    { "key": "doorThickness", "typical": "35–45 mm", "tolerance": "—", "how": { "en": "At the cylinder.", "zh": "在锁芯处量。" } }
+    { "key": "caseSize", "typical": { "en": "Survey locally — cases vary widely", "zh": "需本地测绘——锁体差异很大" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Width and height of the surface case.", "zh": "量贴面锁体的宽与高。" } },
+    { "key": "backset", "typical": { "en": "60 mm common", "zh": "常见 60 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "Door edge to the cylinder centre.", "zh": "门边到锁芯中心。" } },
+    { "key": "doorThickness", "typical": { "en": "35–45 mm", "zh": "35–45 mm" }, "tolerance": { "en": "—", "zh": "—" }, "how": { "en": "At the cylinder.", "zh": "在锁芯处量。" } }
   ],
   "measureOrder": ["caseSize", "backset", "doorThickness"],
   "standards": ["au-as4174"],
