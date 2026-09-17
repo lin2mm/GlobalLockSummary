@@ -885,7 +885,13 @@ const rootPrefix = () => prefixFor(currentPagePath);
 
 function build() {
   const started = Date.now();
-  if (existsSync(OUT)) rmSync(OUT, { recursive: true, force: true });
+  if (existsSync(OUT)) {
+    try {
+      rmSync(OUT, { recursive: true, force: true, maxRetries: 3, retryDelay: 50 });
+    } catch (e) {
+      // ignore concurrent read lock
+    }
+  }
   mkdirSync(OUT, { recursive: true });
 
   const searchIndex = [];
