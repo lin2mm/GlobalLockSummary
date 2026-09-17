@@ -301,20 +301,28 @@ function lockPage(fam, lang) {
           <h4>${escapeHtml(sTitle)}</h4>
           <span class="gallery-card__status ${s.status === 'R1' ? 'gallery-card__status--r1' : 'gallery-card__status--r0'}">${escapeHtml(s.status || 'R0')}</span>
         </div>
-        <div class="lock-detail-sample__visuals">
+        <div class="lock-detail-sample__tier3-header" style="background: #0f172a; color: #38bdf8; padding: 6px 12px; border-radius: 6px 6px 0 0; font-size: 0.8rem; font-weight: 700; display: flex; justify-content: space-between; align-items: center; margin-bottom: -1px;">
+          <span>🔧 ${lang === 'zh' ? '第三层：真实安装案例与 1:1 改装打样图谱' : 'Tier 3: Real Field Installation Case & 1:1 Retrofit Blueprint'}</span>
+          <span style="color: #cbd5e1; font-weight: normal; font-size: 0.72rem;">${lang === 'zh' ? '门上实态 + 原厂图纸对照' : 'Field Case + Factory Drawing'}</span>
+        </div>
+        <div class="lock-detail-sample__visuals" style="border: 2px solid #0f172a; border-radius: 0 0 6px 6px; overflow: hidden;">
           <div class="lock-detail-sample__pic">
-            <p class="lock-detail-sample__label">${lang === 'zh' ? '📷 真实门上场景与安装实态' : '📷 Real Door Installation Scene'}</p>
+            <p class="lock-detail-sample__label" style="background: #e0f2fe; color: #0369a1; padding: 4px 8px; margin: 0; font-weight: 700; font-size: 0.78rem;">
+              📷 ${lang === 'zh' ? '门上真实安装案例 (Door Installation Case)' : 'Real Field Door Installation Case'}
+            </p>
             <div class="lock-detail-sample__img-box">
-              <img src="${escapeHtml(s.sceneImage || s.image)}" alt="${escapeHtml(sTitle)}" loading="lazy" />
+              <img src="${escapeHtml(s.sceneImage || s.image)}" alt="${escapeHtml(sTitle)} 实际安装案例" loading="lazy" />
             </div>
-            <p class="lock-detail-sample__caption">${escapeHtml(s.features || '')}</p>
+            <p class="lock-detail-sample__caption" style="background: #f8fafc; margin: 0; padding: 6px 8px; border-top: 1px solid #e2e8f0;">${escapeHtml(s.features || '')}</p>
           </div>
           <div class="lock-detail-sample__pic">
-            <p class="lock-detail-sample__label">${lang === 'zh' ? '📐 1:1 结构原理与打孔安装图' : '📐 1:1 Blueprint & Drilling Template'}</p>
+            <p class="lock-detail-sample__label" style="background: #fef3c7; color: #92400e; padding: 4px 8px; margin: 0; font-weight: 700; font-size: 0.78rem;">
+              📐 ${lang === 'zh' ? '1:1 安装开孔打样与受力原理 (1:1 Template & Schematic)' : '1:1 Blueprint & Drilling Template'}
+            </p>
             <div class="lock-detail-sample__img-box">
               <img src="${escapeHtml(s.installationGuide && s.installationGuide.hasSchematic ? s.installationGuide.schematic : (hasSchematic ? schematicPath : (s.sceneImage || s.image)))}" alt="${escapeHtml(sTitle)} 原理与安装打孔图" loading="lazy" />
             </div>
-            <p class="lock-detail-sample__caption">${lang === 'zh' ? '涵盖面板沉入深度、背距与方轴转动同心度' : 'Includes backset, mortise pocket depth & spindle concentricity'}</p>
+            <p class="lock-detail-sample__caption" style="background: #f8fafc; margin: 0; padding: 6px 8px; border-top: 1px solid #e2e8f0;">${lang === 'zh' ? '标明背距、沉入深度与转动同心度' : 'Includes backset, mortise pocket depth & spindle concentricity'}</p>
           </div>
         </div>
         ${s.installationGuide && s.installationGuide.steps ? `
@@ -791,20 +799,25 @@ function renderGalleryCard(item, lang) {
 
   return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}">
     <div class="gallery-card__dual-views">
-      <div class="gallery-card__view-tab" style="display: flex; justify-content: space-between; font-size: 0.72rem; padding: 4px 8px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; font-weight: 600;">
-        <span style="color: #0369a1;">🏠 ${isZh ? '门上实景图' : 'Scene Photo'}</span>
-        <span style="color: #475569;">📐 ${isZh ? '结构剖面/原理图' : 'Product / Schematic'}</span>
+      <div class="gallery-card__view-tab" style="display: flex; justify-content: space-between; font-size: 0.72rem; padding: 5px 8px; background: #0f172a; color: #f8fafc; border-bottom: 1px solid #334155; font-weight: 600;">
+        <span style="color: #38bdf8;">🏷️ ${isZh ? '第二层：类别画廊' : 'Tier 2: Category Gallery'}</span>
+        <span style="color: #94a3b8;">${isZh ? '场景 + 产品对照' : 'Scene + Product Dual View'}</span>
       </div>
-      <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '点击查看第3层实物安装与改造图谱' : 'Click to view Tier 3 Installation & Retrofit Blueprint'}">
-        <div class="gallery-card__img-wrap" style="position: relative; overflow: hidden;">
-          <img class="gallery-card__img" src="${escapeHtml(sceneImg)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="210" />
-          <div class="gallery-card__badges" style="position: absolute; top: 8px; left: 8px; right: 8px; display: flex; justify-content: space-between;">
-            <span class="gallery-card__id">${escapeHtml(item.id)}</span>
-            <span class="gallery-card__score" style="background: #fef08a; color: #854d0e; padding: 2px 6px; border-radius: 4px; font-weight: 700; font-size: 0.72rem;">⭐ ${score}分</span>
-            <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusTip)}">${escapeHtml(statusText)}</span>
-          </div>
+      <div class="gallery-card__dual-img-container" style="display: grid; grid-template-columns: 1fr 1fr; background: #f1f5f9; gap: 2px; position: relative;">
+        <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '门上场景实景图' : 'Scene View'}" style="position: relative; display: block; overflow: hidden; height: 160px; background: #000;">
+          <img class="gallery-card__img" src="${escapeHtml(sceneImg)}" alt="${escapeHtml(title)} 门上场景" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" />
+          <span style="position: absolute; bottom: 4px; left: 4px; background: rgba(15, 23, 42, 0.85); color: #fff; font-size: 0.65rem; padding: 2px 5px; border-radius: 3px;">🏠 ${isZh ? '场景图' : 'Scene'}</span>
+        </a>
+        <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '锁体产品剖面/原理图' : 'Product Blueprint View'}" style="position: relative; display: block; overflow: hidden; height: 160px; background: #fff;">
+          <img class="gallery-card__img" src="${escapeHtml(productImg)}" alt="${escapeHtml(title)} 锁体产品剖面" loading="lazy" style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+          <span style="position: absolute; bottom: 4px; right: 4px; background: rgba(2, 132, 199, 0.85); color: #fff; font-size: 0.65rem; padding: 2px 5px; border-radius: 3px;">📐 ${isZh ? '产品图' : 'Product'}</span>
+        </a>
+        <div class="gallery-card__badges" style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; pointer-events: none;">
+          <span class="gallery-card__id">${escapeHtml(item.id)}</span>
+          <span class="gallery-card__score" style="background: #fef08a; color: #854d0e; padding: 2px 6px; border-radius: 4px; font-weight: 700; font-size: 0.72rem; box-shadow: 0 1px 3px rgba(0,0,0,0.2);">⭐ ${score}分</span>
+          <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusTip)}">${escapeHtml(statusText)}</span>
         </div>
-      </a>
+      </div>
     </div>
     <div class="gallery-card__body">
       <div class="gallery-card__region-row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
@@ -838,18 +851,25 @@ function galleryFragment(lang) {
     const categoryUrl = `/${urlFor(lang, `categories/${b.code}.html`)}`;
     const idxBadge = idx + 1;
     return `<a class="gallery-portal-card" href="${categoryUrl}" data-portal-target="${escapeHtml(b.code)}">
-      <div class="gallery-portal-card__media">
+      <div class="gallery-portal-card__tier-tag" style="background: #0f172a; color: #38bdf8; font-size: 0.72rem; font-weight: 700; padding: 4px 10px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155;">
+        <span>🌐 ${isZh ? '第一层：工业板块主入口' : 'Tier 1: Major Division Entry'}</span>
+        <span style="color: #cbd5e1; font-weight: normal;">${isZh ? '主流场景实景' : 'Scene HD'}</span>
+      </div>
+      <div class="gallery-portal-card__media" style="position: relative;">
         <img class="gallery-portal-card__img" src="${escapeHtml(b.hero.image)}" alt="${escapeHtml(b.title)}" loading="lazy" width="360" height="220" />
         <span class="gallery-portal-card__badge">${b.items.length} ${isZh ? '款实拍样本' : 'models'}</span>
         <span class="gallery-portal-card__keyhint" title="${isZh ? '按键盘数字键快速直达' : 'Press key to navigate'}">[${idxBadge}]</span>
+        <span class="gallery-portal-card__scene-badge" style="position: absolute; bottom: 8px; left: 8px; background: rgba(15, 23, 42, 0.85); color: #f8fafc; font-size: 0.7rem; padding: 3px 8px; border-radius: 4px; backdrop-filter: blur(4px);">
+          📷 ${isZh ? '本国第一主流门锁实景图' : 'National Standard Door Scene'}
+        </span>
       </div>
       <div class="gallery-portal-card__body">
         <h2 class="gallery-portal-card__name">${escapeHtml(b.title)}</h2>
-        <div class="gallery-portal-card__baseline">🔑 ${escapeHtml(b.hero.title.replace(/^[^：:]*[：:]/, ''))}</div>
+        <div class="gallery-portal-card__baseline" style="color: #0369a1; font-weight: 600;">🔑 ${escapeHtml(b.hero.title.replace(/^[^：:]*[：:]/, ''))}</div>
         <div class="gallery-portal-card__action">
           <span class="portal-icon portal-icon--locked">🔒</span>
           <span class="portal-icon portal-icon--unlocked">🔓</span>
-          <span>${isZh ? '开锁进入锁类图谱' : 'Unlock & Browse Categories'} →</span>
+          <span>${isZh ? '进入第二层：场景+产品Gallery' : 'Tier 2: Scene + Product Gallery'} →</span>
         </div>
       </div>
     </a>`;
