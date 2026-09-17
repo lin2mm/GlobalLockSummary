@@ -43,7 +43,8 @@ export function layout(opts) {
     const href = item.href.split('#')[0].replace(/^\/+/, '');
     const active = href === path || (path.endsWith('/') && `${href}index.html` === path)
       ? ' aria-current="page"' : '';
-    return `<a class="nav__link" href="${esc(item.href)}"${active}>${esc(item.label)}</a>`;
+    const icon = item.iconSvg ? `<span class="nav__icon-wrap" style="display: inline-flex; align-items: center; justify-content: center; margin-right: 6px; opacity: 0.85;">${item.iconSvg}</span>` : '';
+    return `<a class="nav__link" href="${esc(item.href)}"${active} style="display: inline-flex; align-items: center;">${icon}<span>${esc(item.label)}</span></a>`;
   }).join('\n          ');
 
   const product = site.product && site.product.url
@@ -150,7 +151,18 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
   <header class="site-header">
     <div class="wrap site-header__inner">
       <a class="brand" href="/${lang === 'en' ? '' : lang + '/'}">
-        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a5 5 0 0 0-5 5v3H6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1h-1V7a5 5 0 0 0-5-5Zm0 2a3 3 0 0 1 3 3v3H9V7a3 3 0 0 1 3-3Zm0 10a1.7 1.7 0 0 1 .9 3.1V19h-1.8v-1.9A1.7 1.7 0 0 1 12 14Z" fill="currentColor"/></svg>
+        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="width: 1.6rem; height: 1.6rem;">
+          <defs>
+            <linearGradient id="brandMarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#0284c7"/>
+              <stop offset="100%" stop-color="#0f172a"/>
+            </linearGradient>
+          </defs>
+          <path d="M12 2 C7.58 2 4 5.58 4 10 C4 12.8 5.6 15.2 8 16.5 L8 21 C8 21.55 8.45 22 9 22 L15 22 C15.55 22 16 21.55 16 21 L16 16.5 C18.4 15.2 20 12.8 20 10 C20 5.58 16.42 2 12 2 Z" fill="url(#brandMarkGrad)"/>
+          <circle cx="12" cy="9.5" r="3" fill="#ffffff" fill-opacity="0.95"/>
+          <path d="M11.3 9 h1.4 v3 h-1.4 Z" fill="#0284c7"/>
+          <rect x="11.2" y="16.5" width="1.6" height="3.5" rx="0.8" fill="#ffffff" fill-opacity="0.95"/>
+        </svg>
         <span class="brand__text">${esc(site.name)}</span>
       </a>
             <div class="site-header__pulse-wrap" style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
