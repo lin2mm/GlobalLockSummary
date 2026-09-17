@@ -55,6 +55,10 @@ def main():
     # 1. 运行 Content Loop
     log("[Content Loop] 正在执行内容爬取与增量图谱索引清洗...")
     c_ok, c_msg = run_content_loop()
+    # 增量执行安装工程实物案例扩展 Loop
+    cases_runner = ROOT / "tools" / "content-cases-loop.py"
+    if cases_runner.exists():
+        run_cmd(["python3", str(cases_runner)])
     log(f"[Content Loop] 爬虫与图谱增强结果: {c_msg}")
 
     # 2. 运行 Website Loop
