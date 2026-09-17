@@ -808,7 +808,12 @@ function galleryFragment(lang) {
         <span class="block-hero__tag">${escapeHtml(b.hero.tag)}</span>
         <h3 class="block-hero__title"><a href="${heroHref}">${escapeHtml(b.hero.title)}</a></h3>
         <p class="block-hero__desc">${escapeHtml(b.hero.desc)}</p>
-        <a class="block-hero__btn" href="${heroHref}">${isZh ? '进入该基准锁实物拆解与工程规范 →' : 'Enter Core Baseline Specs & Photos →'}</a>
+        <div class="block-hero__actions" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px;">
+          <a class="block-hero__btn" href="${heroHref}">${isZh ? '进入该基准锁实物拆解与工程规范 →' : 'Enter Core Baseline Specs & Photos →'}</a>
+          <a class="block-hero__btn" style="background: transparent; border: 1px solid var(--color-border, #cbd5e1); color: var(--color-text, #1e293b);" href="${isZh ? '/zh/drilling-templates.html' : '/en/drilling-templates.html'}">
+            📐 ${isZh ? '获取 1:1 开孔打样工程模板' : '1:1 Drilling Templates'}
+          </a>
+        </div>
       </div>
     </div>`;
 
@@ -1097,6 +1102,14 @@ function build() {
   }
 
   // 3. Machine-readable outputs --------------------------------------
+  // Ingest newly added engineering datasets
+  const indigenousGuides = JSON.parse(readFileSync(join(CONTENT, 'catalog', 'indigenous-lock-guides.json'), 'utf8'));
+  const japanEngravings = JSON.parse(readFileSync(join(CONTENT, 'catalog', 'japan-engraving-matrix.json'), 'utf8'));
+  const adaptersBom = JSON.parse(readFileSync(join(CONTENT, 'catalog', 'adapters-bom.json'), 'utf8'));
+  const drillingTemplates = JSON.parse(readFileSync(join(CONTENT, 'catalog', 'drilling-templates.json'), 'utf8'));
+  const bestsellerLocks = JSON.parse(readFileSync(join(CONTENT, 'catalog', 'bestseller-locks.json'), 'utf8'));
+  const fieldIssues = JSON.parse(readFileSync(join(CONTENT, 'catalog', 'field-issues.json'), 'utf8'));
+
   write('data/catalog.json', JSON.stringify({
     generated: BUILD_DATE,
     license: site.license,
@@ -1107,6 +1120,12 @@ function build() {
     standards: standardsDoc.standards,
     devices: devicesDoc.devices,
     decisionTree,
+    indigenousGuides,
+    japanEngravings,
+    adaptersBom,
+    drillingTemplates,
+    bestsellerLocks,
+    fieldIssues,
   }, null, 2));
 
   write('data/search-index.json', JSON.stringify(searchIndex));
