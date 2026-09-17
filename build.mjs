@@ -1171,6 +1171,9 @@ Sitemap: ${BASE_URL}/sitemap.xml
 
   // 4. Static assets --------------------------------------------------
   cpSync(join(ROOT, 'assets'), join(OUT, 'assets'), { recursive: true });
+  if (existsSync(join(ROOT, 'docs'))) {
+    cpSync(join(ROOT, 'docs'), join(OUT, 'docs'), { recursive: true });
+  }
   if (existsSync(join(ROOT, 'public'))) cpSync(join(ROOT, 'public'), OUT, { recursive: true });
 
   const ms = Date.now() - started;
