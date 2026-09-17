@@ -713,7 +713,7 @@ function getGalleryBlocks(lang) {
       hero: {
         title: isZh ? '核心改装基准：美标单缸插销死锁 (ANSI Deadbolt / Schlage B60)' : 'Core Retrofit Baseline: ANSI Single-Cylinder Deadbolt (Schlage B60)',
         desc: isZh ? 'August 与 SwitchBot 的全球基本盘。标准扁平尾轴（Tailpiece）直接啮合；改造核心难点在于门扇下沉与密封条导致插销与扣板卡阻。' : 'Core baseline for August & SwitchBot. Flat tailpiece interface; key challenge is sag binding.',
-        image: '/assets/img/hero/hero-na-deadbolt.jpg',
+        image: '/assets/img/hero/hero-na-deadbolt.png',
         familyId: 'us-deadbolt',
         tag: isZh ? '⭐ 极强相关 · 改装第一基准' : '⭐ Core Retrofit Baseline'
       },
@@ -755,7 +755,7 @@ function getGalleryBlocks(lang) {
       hero: {
         title: isZh ? '核心改装基准：新加坡 HDB 金属防盗双门铁闸锁' : 'Core Retrofit Baseline: Singapore HDB Metal Security Gate Lock',
         desc: isZh ? '东南亚代表性双门结构。外铁闸与内木门净距普遍小于 80mm，智能锁厚度超过 35mm 即发生把手致命撞击。' : 'Key SE Asia structure. Gap under 80mm; lock thickness >35mm causes severe gate handle collision.',
-        image: '/assets/img/hero/hero-sea-hdb.webp',
+        image: '/assets/img/hero/hero-sea-hdb.jpg',
         familyId: 'sg-metal-gate-lock',
         tag: isZh ? '⚠️ 极限净距边界基准' : '⚠️ Extreme Clearance'
       },

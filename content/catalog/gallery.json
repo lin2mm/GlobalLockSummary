@@ -30,9 +30,9 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/us-27_real.jpg",
-    "productImage": "/assets/img/diagrams/US-27_schematic.svg",
+    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/US-27_schematic.svg",
+      "schematic": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-NA-US-27",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -84,9 +84,9 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-28_real.webp",
-    "productImage": "/assets/img/diagrams/US-28_schematic.svg",
+    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/US-28_schematic.svg",
+      "schematic": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-NA-US-28",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -138,9 +138,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/us-29_real.jpg",
-    "productImage": "/assets/img/diagrams/US-29_schematic.svg",
+    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/US-29_schematic.svg",
+      "schematic": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-NA-US-29",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -192,9 +192,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/us-30_real.jpg",
-    "productImage": "/assets/img/diagrams/US-30_schematic.svg",
+    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/US-30_schematic.svg",
+      "schematic": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-NA-US-30",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -246,7 +246,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
-    "productImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/us-schlage-l9000_real.jpg",
       "hasSchematic": false,
@@ -300,7 +300,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-interconnected_real.jpg",
-    "productImage": "/assets/img/gallery/us-interconnected_real.jpg",
+    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/us-interconnected_real.jpg",
       "hasSchematic": false,
@@ -354,9 +354,9 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/au-11_real.jpg",
-    "productImage": "/assets/img/diagrams/AU-11_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/AU-11_schematic.svg",
+      "schematic": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-UK-ANZ-AU-11",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -408,9 +408,9 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-13_real.jpg",
-    "productImage": "/assets/img/diagrams/AU-13_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/AU-13_schematic.svg",
+      "schematic": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-UK-ANZ-AU-13",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -462,7 +462,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-16_real.jpg",
-    "productImage": "/assets/img/diagrams/AU-16_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-16_schematic.svg",
       "hasSchematic": true,
@@ -516,7 +516,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-17_real.png",
-    "productImage": "/assets/img/diagrams/AU-17_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-17_schematic.svg",
       "hasSchematic": true,
@@ -570,9 +570,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-12_real.jpg",
-    "productImage": "/assets/img/diagrams/AU-12_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/AU-12_schematic.svg",
+      "schematic": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-UK-ANZ-AU-12",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -624,7 +624,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-14_real.jpg",
-    "productImage": "/assets/img/diagrams/AU-14_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-14_schematic.svg",
       "hasSchematic": true,
@@ -678,7 +678,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-15_real.jpg",
-    "productImage": "/assets/img/diagrams/AU-15_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-15_schematic.svg",
       "hasSchematic": true,
@@ -732,7 +732,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-18_real.png",
-    "productImage": "/assets/img/diagrams/AU-18_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-18_schematic.svg",
       "hasSchematic": true,
@@ -786,9 +786,9 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/eu-19_real.jpg",
-    "productImage": "/assets/img/diagrams/EU-19_schematic.svg",
+    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/EU-19_schematic.svg",
+      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-19",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -840,9 +840,9 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-20_real.jpg",
-    "productImage": "/assets/img/diagrams/EU-20_schematic.svg",
+    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/EU-20_schematic.svg",
+      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-20",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -894,9 +894,9 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-21_real.jpg",
-    "productImage": "/assets/img/diagrams/EU-21_schematic.svg",
+    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/EU-21_schematic.svg",
+      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-21",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -948,9 +948,9 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/eu-22_real.jpg",
-    "productImage": "/assets/img/diagrams/EU-22_schematic.svg",
+    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/EU-22_schematic.svg",
+      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-22",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -1002,9 +1002,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-23_real.webp",
-    "productImage": "/assets/img/diagrams/EU-23_schematic.svg",
+    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/EU-23_schematic.svg",
+      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-23",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -1056,10 +1056,10 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
-    "productImage": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
+    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
-      "hasSchematic": false,
+      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+      "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-27",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
       "requiredTorque": "≥ 1.2 N·m (Motor torque)",
@@ -1110,10 +1110,10 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-cisa-rim_real.jpg",
-    "productImage": "/assets/img/gallery/eu-cisa-rim_real.jpg",
+    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/gallery/eu-cisa-rim_real.jpg",
-      "hasSchematic": false,
+      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+      "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-28",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
       "requiredTorque": "≥ 1.2 N·m (Motor torque)",
@@ -1164,7 +1164,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-24_real.webp",
-    "productImage": "/assets/img/diagrams/EU-24_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-24_schematic.svg",
       "hasSchematic": true,
@@ -1218,7 +1218,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-25_real.png",
-    "productImage": "/assets/img/diagrams/EU-25_schematic.svg",
+    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-25_schematic.svg",
       "hasSchematic": true,
@@ -1272,9 +1272,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-26_real.webp",
-    "productImage": "/assets/img/diagrams/EU-26_schematic.svg",
+    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/diagrams/EU-26_schematic.svg",
+      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-26",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -1326,7 +1326,7 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/sg-01_real.jpg",
-    "productImage": "/assets/img/diagrams/SG-01_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-01_schematic.svg",
       "hasSchematic": true,
@@ -1380,7 +1380,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-02_real.png",
-    "productImage": "/assets/img/diagrams/SG-02_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-02_schematic.svg",
       "hasSchematic": true,
@@ -1434,7 +1434,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-03_real.png",
-    "productImage": "/assets/img/diagrams/SG-03_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-03_schematic.svg",
       "hasSchematic": true,
@@ -1488,7 +1488,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-04_real.webp",
-    "productImage": "/assets/img/diagrams/SG-04_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-04_schematic.svg",
       "hasSchematic": true,
@@ -1542,7 +1542,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-05_real.webp",
-    "productImage": "/assets/img/diagrams/SG-05_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-05_schematic.svg",
       "hasSchematic": true,
@@ -1596,7 +1596,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-06_real.jpg",
-    "productImage": "/assets/img/diagrams/SG-06_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-06_schematic.svg",
       "hasSchematic": true,
@@ -1650,7 +1650,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-07_real.png",
-    "productImage": "/assets/img/diagrams/SG-07_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-07_schematic.svg",
       "hasSchematic": true,
@@ -1704,7 +1704,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-08_real.jpg",
-    "productImage": "/assets/img/diagrams/SG-08_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-08_schematic.svg",
       "hasSchematic": true,
@@ -1758,7 +1758,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-09_real.webp",
-    "productImage": "/assets/img/diagrams/SG-09_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-09_schematic.svg",
       "hasSchematic": true,
@@ -1812,7 +1812,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-10_real.jpg",
-    "productImage": "/assets/img/diagrams/SG-10_schematic.svg",
+    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-10_schematic.svg",
       "hasSchematic": true,
@@ -1862,7 +1862,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-26_real.webp",
-    "productImage": "/assets/img/gallery/eu-26_real.webp",
+    "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
     "installationGuide": {
       "schematic": "/assets/img/gallery/eu-26_real.webp",
       "hasSchematic": false,
@@ -1912,7 +1912,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-13_real.jpg",
-    "productImage": "/assets/img/gallery/au-13_real.jpg",
+    "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
     "installationGuide": {
       "schematic": "/assets/img/gallery/au-13_real.jpg",
       "hasSchematic": false,
@@ -2020,7 +2020,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
-    "productImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+    "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
     "installationGuide": {
       "schematic": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
       "hasSchematic": false,
