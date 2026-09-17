@@ -678,18 +678,18 @@ function searchFragment(lang) {
 /**
  * Gallery Wall Fragment: renders the 30 representative lock photo cards on the landing page.
  */
-function galleryFragment(lang) {
+
+function getGalleryBlocks(lang) {
   const isZh = lang === 'zh';
   const galleryPath = join(CONTENT, 'catalog', 'gallery.json');
-  if (!existsSync(galleryPath)) return '';
+  if (!existsSync(galleryPath)) return [];
   const items = JSON.parse(readFileSync(galleryPath, 'utf8'));
 
-  // 5 Major Industrial Blocks aligned with ASSA ABLOY Divisions & Global Mechanical Standards
-  // Each block features an authoritative HERO showcase representing the core Retrofit lock:
-  const blocks = [
+  return [
     {
       code: 'na',
       title: isZh ? '🇺🇸 北美标准板块 (Americas — ANSI / BHMA)' : '🇺🇸 North America (Americas — ANSI / BHMA)',
+      shortTitle: isZh ? '北美标准板块' : 'North America',
       subtitle: isZh ? '全球存量最大的智能锁加装市场 · 标准 54mm 大孔位、单插销死锁 (Deadbolt) 与 60/70mm 标准背距' : 'World largest retrofit market · Standard 54mm bore, deadbolt & 60/70mm backset',
       hero: {
         title: isZh ? '核心改装基准：美标单缸插销死锁 (ANSI Deadbolt / Schlage B60)' : 'Core Retrofit Baseline: ANSI Single-Cylinder Deadbolt (Schlage B60)',
@@ -702,7 +702,8 @@ function galleryFragment(lang) {
     },
     {
       code: 'europe5',
-      title: isZh ? '🇪🇺 欧陆五国与西欧板块 (Continental Europe — DIN / EN 德法意西荷)' : '🇪🇺 Continental Europe (DIN / EN — DE, FR, IT, ES, NL)',
+      title: isZh ? '🇪🇺 欧陆五国板块 (Continental Europe — DIN / EN)' : '🇪🇺 Continental Europe (DIN / EN)',
+      shortTitle: isZh ? '欧陆五国板块' : 'Continental Europe',
       subtitle: isZh ? '西欧与中欧成熟大容量市场 · 欧标槽型锁芯 (Euro Profile DIN 18252)、DIN 18251 插芯锁体与抬把手多点联动锁' : 'Mature European standard · Euro profile cylinders, DIN 18251 cases & multipoint systems',
       hero: {
         title: isZh ? '核心改装基准：欧标槽型双锁芯 (Euro Profile DIN 18252)' : 'Core Retrofit Baseline: Euro Profile Double-Cylinder (DIN 18252)',
@@ -715,7 +716,8 @@ function galleryFragment(lang) {
     },
     {
       code: 'uk-anz',
-      title: isZh ? '🇦🇺🇬🇧 澳洲与英国板块 (Pacific & UK — AS / BS 澳标与英标)' : '🇦🇺🇬🇧 Australia, NZ & UK (Pacific & UK — AS / BS Standards)',
+      title: isZh ? '🇦🇺🇬🇧 澳洲与英国板块 (Pacific & UK — AS / BS)' : '🇦🇺🇬🇧 Australia, NZ & UK (Pacific & UK — AS / BS)',
+      shortTitle: isZh ? '澳洲与英国板块' : 'Australia, NZ & UK',
       subtitle: isZh ? '英联邦经典五金体系 · 澳式外装夜锁 (Lockwood 001/002)、双扣死锁 (355)、英标 5 拨杆防盗锁 (BS 3621)' : 'Commonwealth hardware · Lockwood deadlatches, 355 deadlocks & UK 5-lever mortice sets',
       hero: {
         title: isZh ? '核心改装基准：澳式外装夜锁与双扣锁 (Lockwood 001 / 355)' : 'Core Retrofit Baseline: Australian Deadlatch & Deadlock (Lockwood 001 / 355)',
@@ -728,7 +730,8 @@ function galleryFragment(lang) {
     },
     {
       code: 'sea',
-      title: isZh ? '🇸🇬 东南亚与东亚板块 (Asia-Pacific — 铁闸与数字整锁边界)' : '🇸🇬 Southeast Asia & East Asia (Asia-Pacific — Gates & Mortise)',
+      title: isZh ? '🇸🇬 东南亚与东亚板块 (Asia-Pacific — 铁闸与推拉锁)' : '🇸🇬 Southeast Asia & East Asia (Asia-Pacific)',
+      shortTitle: isZh ? '东南亚与东亚板块' : 'Southeast Asia & East Asia',
       subtitle: isZh ? '极端净距与数字存量市场 · 新加坡 HDB 金属双门铁闸碰撞风险 (<80mm) 与早期推拉整锁边界样本' : 'Extreme clearances & digital stock · Singapore HDB gate clash (<80mm) & push-pull mortise',
       hero: {
         title: isZh ? '核心改装基准：新加坡 HDB 金属防盗双门铁闸锁' : 'Core Retrofit Baseline: Singapore HDB Metal Security Gate Lock',
@@ -741,7 +744,8 @@ function galleryFragment(lang) {
     },
     {
       code: 'latam',
-      title: isZh ? '🌎 拉美与新兴市场板块 (Latin America & Emerging — ABNT / ODIS)' : '🌎 Latin America & Emerging (ABNT / ODIS Standards)',
+      title: isZh ? '🌎 拉美新兴板块 (Latin America — ABNT / ODIS)' : '🌎 Latin America & Emerging (ABNT / ODIS)',
+      shortTitle: isZh ? '拉美新兴板块' : 'Latin America',
       subtitle: isZh ? '拉美大容量新兴五金体系 · 巴西 ABNT 窄背距插芯锁 (40/45mm)、薄门扇 (30mm) 与安第斯重型外装双钩锁' : 'Emerging market hardware · Brazil ABNT narrow backset (40/45mm) & heavy-duty rim locks',
       hero: {
         title: isZh ? '核心改装基准：巴西 ABNT NBR 14913 极窄背距插芯锁' : 'Core Retrofit Baseline: Brazil ABNT Narrow Mortise (La Fonte / Silvana)',
@@ -753,113 +757,65 @@ function galleryFragment(lang) {
       items: items.filter(i => i.block === 'latam')
     }
   ];
+}
 
-  function renderCard(item) {
-    const title = (item.title && (item.title[lang] || item.title.en || item.title.zh)) || item.id;
-    const regionLabel = item.region || '';
-    const statusClass = item.status === 'R1' ? 'gallery-card__status--r1' : (item.status === 'R2' ? 'gallery-card__status--r2' : 'gallery-card__status--r0');
-    const statusText = item.status || 'R0';
-    const statusTip = item.status === 'R1' 
-      ? (isZh ? 'R1 优先推荐测试' : 'R1 Feasible')
-      : (item.status === 'R2' ? (isZh ? 'R2 需实测再宣传' : 'R2 Test First') : (isZh ? 'R0 边界样本 / 特殊锁体' : 'R0 Boundary'));
+function renderGalleryCard(item, lang) {
+  const isZh = lang === 'zh';
+  const title = (item.title && (item.title[lang] || item.title.en || item.title.zh)) || item.id;
+  const regionLabel = item.region || '';
+  const statusClass = item.status === 'R1' ? 'gallery-card__status--r1' : (item.status === 'R2' ? 'gallery-card__status--r2' : 'gallery-card__status--r0');
+  const statusText = item.status || 'R0';
+  const statusTip = item.status === 'R1' 
+    ? (isZh ? 'R1 优先推荐测试' : 'R1 Feasible')
+    : (item.status === 'R2' ? (isZh ? 'R2 需实测再宣传' : 'R2 Test First') : (isZh ? 'R0 边界样本 / 特殊锁体' : 'R0 Boundary'));
 
-    const searchText = `${item.id} ${title} ${regionLabel} ${item.features || ''}`.toLowerCase();
-    const hasFamily = !!item.familyId;
-    const familyHref = hasFamily ? `/${urlFor(lang, `locks/${item.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
+  const searchText = `${item.id} ${title} ${regionLabel} ${item.features || ''}`.toLowerCase();
+  const hasFamily = !!item.familyId;
+  const familyHref = hasFamily ? `/${urlFor(lang, `locks/${item.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
 
-    return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}">
-      <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '点击查看实物安装细节与工程参数' : 'Click to view installation details & parameters'}">
-        <div class="gallery-card__img-wrap">
-          <img class="gallery-card__img" src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="230" />
-          <div class="gallery-card__badges">
-            <span class="gallery-card__id">${escapeHtml(item.id)}</span>
-            <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusTip)}">${escapeHtml(statusText)}</span>
-          </div>
-        </div>
-      </a>
-      <div class="gallery-card__body">
-        <div class="gallery-card__region">${escapeHtml(regionLabel)}</div>
-        <h3 class="gallery-card__title">
-          <a href="${familyHref}">${escapeHtml(title)}</a>
-        </h3>
-        <div class="gallery-card__footer">
-          <a class="gallery-card__link" href="${familyHref}">
-            <span>${isZh ? '查看实物安装与改造图谱' : 'View Installation & Retrofit'}</span>
-            <span class="gallery-card__arrow">→</span>
-          </a>
+  return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}">
+    <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '点击查看实物安装细节与工程参数' : 'Click to view installation details & parameters'}">
+      <div class="gallery-card__img-wrap">
+        <img class="gallery-card__img" src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="230" />
+        <div class="gallery-card__badges">
+          <span class="gallery-card__id">${escapeHtml(item.id)}</span>
+          <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusTip)}">${escapeHtml(statusText)}</span>
         </div>
       </div>
-    </div>`;
-  }
-
-  // Render 5 major industrial blocks with HERO flagship showcase on top
-  const blocksHtml = blocks.map((b) => {
-    const cards = b.items.map(renderCard).join('\n');
-    const heroHref = b.hero.familyId ? `/${urlFor(lang, `locks/${b.hero.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
-
-    const heroHtml = `
-    <div class="block-hero">
-      <div class="block-hero__media">
-        <a href="${heroHref}">
-          <img src="${escapeHtml(b.hero.image)}" alt="${escapeHtml(b.hero.title)}" loading="lazy" width="460" height="320" />
+    </a>
+    <div class="gallery-card__body">
+      <div class="gallery-card__region">${escapeHtml(regionLabel)}</div>
+      <h3 class="gallery-card__title">
+        <a href="${familyHref}">${escapeHtml(title)}</a>
+      </h3>
+      <div class="gallery-card__footer">
+        <a class="gallery-card__link" href="${familyHref}">
+          <span>${isZh ? '查看实物安装与改造图谱' : 'View Installation & Retrofit'}</span>
+          <span class="gallery-card__arrow">→</span>
         </a>
       </div>
-      <div class="block-hero__content">
-        <span class="block-hero__tag">${escapeHtml(b.hero.tag)}</span>
-        <h3 class="block-hero__title"><a href="${heroHref}">${escapeHtml(b.hero.title)}</a></h3>
-        <p class="block-hero__desc">${escapeHtml(b.hero.desc)}</p>
-        <div class="block-hero__actions" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px;">
-          <a class="block-hero__btn" href="${heroHref}">${isZh ? '进入该基准锁实物拆解与工程规范 →' : 'Enter Core Baseline Specs & Photos →'}</a>
-          <a class="block-hero__btn" style="background: transparent; border: 1px solid var(--color-border, #cbd5e1); color: var(--color-text, #1e293b);" href="${isZh ? '/zh/drilling-templates.html' : '/en/drilling-templates.html'}">
-            📐 ${isZh ? '获取 1:1 开孔打样工程模板' : '1:1 Drilling Templates'}
-          </a>
-        </div>
-      </div>
-    </div>`;
+    </div>
+  </div>`;
+}
 
-    return `<section class="gallery-block" id="block-${escapeHtml(b.code)}" data-gallery-block="${escapeHtml(b.code)}">
-      <div class="gallery-block__header">
-        <div class="gallery-block__title-wrap">
-          <h2 class="gallery-block__title">${escapeHtml(b.title)}</h2>
-          <span class="gallery-block__badge">${b.items.length} ${isZh ? '类实物样本' : 'models'}</span>
-        </div>
-        <p class="gallery-block__subtitle">${escapeHtml(b.subtitle)}</p>
-      </div>
-      ${heroHtml}
-      <h4 class="block-subheading">${isZh ? '该区域代表性型号与候选实物图谱：' : 'Representative Candidate Lock Models:'}</h4>
-      <div class="gallery-grid">
-        ${cards}
-      </div>
-    </section>`;
-  }).join('\n');
+/**
+ * PURE GALLERY LANDING PAGE:
+ * THE LANDING PAGE ONLY HAS 5 MAJOR AREA ENTRIES. NO OTHER DISTRACTIONS.
+ */
+function galleryFragment(lang) {
+  const isZh = lang === 'zh';
+  const blocks = getGalleryBlocks(lang);
+  if (!blocks.length) return '';
 
-  // Compute dynamic counts per block for jump nav
-  const countNa = items.filter(i => i.block === 'na').length;
-  const countUkAnz = items.filter(i => i.block === 'uk-anz').length;
-  const countEurope5 = items.filter(i => i.block === 'europe5').length;
-  const countSea = items.filter(i => i.block === 'sea').length;
-  const countLatam = items.filter(i => i.block === 'latam').length;
-
-  const navTabs = [
-    { code: 'all', label: isZh ? `🌍 全部 5 大板块 (${items.length})` : `🌍 All 5 Divisions (${items.length})` },
-    { code: 'na', label: isZh ? `🇺🇸 北美 (${countNa})` : `🇺🇸 Americas (${countNa})` },
-    { code: 'europe5', label: isZh ? `🇪🇺 欧洲五国 (${countEurope5})` : `🇪🇺 Europe (${countEurope5})` },
-    { code: 'uk-anz', label: isZh ? `🇦🇺🇬🇧 澳洲与英国 (${countUkAnz})` : `🇦🇺🇬🇧 Pacific & UK (${countUkAnz})` },
-    { code: 'sea', label: isZh ? `🇸🇬 东南亚 (${countSea})` : `🇸🇬 Asia-Pacific (${countSea})` },
-    { code: 'latam', label: isZh ? `🌎 拉美新兴 (${countLatam})` : `🌎 Latin America (${countLatam})` },
-  ].map((tab, idx) => 
-    `<button class="gallery-filter__btn${idx === 0 ? ' is-active' : ''}" type="button" data-gallery-filter="${tab.code}">${escapeHtml(tab.label)}</button>`
-  ).join('');
-
-  // 5 Major Area Gallery Theme Portal Cards
   const portalCards = blocks.map((b) => {
-    return `<a class="gallery-portal-card" href="#block-${escapeHtml(b.code)}" data-portal-target="${escapeHtml(b.code)}">
+    const categoryUrl = `/${urlFor(lang, `categories/${b.code}.html`)}`;
+    return `<a class="gallery-portal-card" href="${categoryUrl}">
       <div class="gallery-portal-card__media">
-        <img class="gallery-portal-card__img" src="${escapeHtml(b.hero.image)}" alt="${escapeHtml(b.title)}" loading="lazy" width="300" height="180" />
+        <img class="gallery-portal-card__img" src="${escapeHtml(b.hero.image)}" alt="${escapeHtml(b.title)}" loading="lazy" width="360" height="220" />
         <span class="gallery-portal-card__badge">${b.items.length} ${isZh ? '款实拍样本' : 'models'}</span>
       </div>
       <div class="gallery-portal-card__body">
-        <h3 class="gallery-portal-card__name">${escapeHtml(b.title)}</h3>
+        <h2 class="gallery-portal-card__name">${escapeHtml(b.title)}</h2>
         <div class="gallery-portal-card__baseline">🔑 ${escapeHtml(b.hero.title.replace(/^[^：:]*[：:]/, ''))}</div>
         <div class="gallery-portal-card__action">
           <span class="portal-icon">🔒</span>
@@ -869,26 +825,15 @@ function galleryFragment(lang) {
     </a>`;
   }).join('\n');
 
-  return `<div class="gallery-wall" data-gallery-root>
+  return `<div class="gallery-wall gallery-wall--pure-portal">
     <div class="gallery-portal-section">
       <div class="gallery-portal-grid">
         ${portalCards}
       </div>
     </div>
-
-    <div class="gallery-wall__header">
-      <div class="gallery-wall__controls">
-        <div class="gallery-filter">${navTabs}</div>
-        <div class="gallery-search">
-          <input type="search" data-gallery-search placeholder="${isZh ? '快速搜索锁型名称、代号...' : 'Search lock name, model...'}" aria-label="${isZh ? '筛选图墙锁型' : 'Filter locks'}" />
-        </div>
-      </div>
-    </div>
-    <div class="gallery-blocks-container">
-      ${blocksHtml}
-    </div>
   </div>`;
 }
+
 const FRAGMENTS = {
   '{{gallery}}': galleryFragment,
   '{{wizard}}': wizardFragment,
@@ -943,6 +888,7 @@ function build() {
     for (const s of standardsDoc.standards) register(lang, `standards/${s.id}.html`);
     for (const a of architecturesDoc.architectures) register(lang, `retrofit/${a.id}.html`);
     for (const d of devicesDoc.devices) register(lang, `devices/${d.id}.html`);
+    for (const b of ['na', 'europe5', 'uk-anz', 'sea', 'latam']) register(lang, `categories/${b}.html`);
   }
 
   for (const lang of LANGS) {
@@ -996,7 +942,70 @@ function build() {
   for (const lang of LANGS) {
     const homeCrumb = [{ label: site.name, href: hrefFor(lang, 'index.html') }];
 
+    
+    // Regional Category Gallery Pages (L2 Gallery Grid)
+    const blocksForCat = getGalleryBlocks(lang);
+    for (const block of blocksForCat) {
+      const cardsHtml = block.items.map((item) => renderGalleryCard(item, lang)).join('\n');
+      const heroHref = block.hero.familyId ? `/${urlFor(lang, `locks/${block.hero.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
+      const isZh = lang === 'zh';
+
+      const heroHtml = `
+      <div class="block-hero">
+        <div class="block-hero__media">
+          <a href="${heroHref}">
+            <img src="${escapeHtml(block.hero.image)}" alt="${escapeHtml(block.hero.title)}" loading="lazy" width="460" height="320" />
+          </a>
+        </div>
+        <div class="block-hero__content">
+          <span class="block-hero__tag">${escapeHtml(block.hero.tag)}</span>
+          <h2 class="block-hero__title"><a href="${heroHref}">${escapeHtml(block.hero.title)}</a></h2>
+          <p class="block-hero__desc">${escapeHtml(block.hero.desc)}</p>
+          <div class="block-hero__actions" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px;">
+            <a class="block-hero__btn" href="${heroHref}">${isZh ? '进入该基准锁实物拆解与工程规范 →' : 'Enter Core Baseline Specs & Photos →'}</a>
+            <a class="block-hero__btn" style="background: transparent; border: 1px solid var(--color-border, #cbd5e1); color: var(--color-text, #1e293b);" href="${isZh ? '/zh/drilling-templates.html' : '/en/drilling-templates.html'}">
+              📐 ${isZh ? '获取 1:1 开孔打样工程模板' : '1:1 Drilling Templates'}
+            </a>
+          </div>
+        </div>
+      </div>`;
+
+      const categoryHtml = `<div class="gallery-block">
+        <div class="gallery-block__header">
+          <div class="gallery-block__title-wrap">
+            <h1 class="gallery-block__title">${escapeHtml(block.title)}</h1>
+            <span class="gallery-block__badge">${block.items.length} ${isZh ? '类实物样本' : 'models'}</span>
+          </div>
+          <p class="gallery-block__subtitle">${escapeHtml(block.subtitle)}</p>
+        </div>
+        ${heroHtml}
+        <h3 class="block-subheading">${isZh ? '该区域代表性型号与候选实物图谱：' : 'Representative Candidate Lock Models:'}</h3>
+        <div class="gallery-grid">
+          ${cardsHtml}
+        </div>
+        <div style="margin-top: 40px; text-align: center;">
+          <a class="block-hero__btn" style="background: transparent; border: 1px solid var(--color-border, #cbd5e1); color: var(--color-text, #1e293b);" href="${isZh ? '/zh/index.html' : '/en/index.html'}">
+            ← ${isZh ? '返回全球 5 大板块主图库' : 'Back to 5 Major Area Gallery'}
+          </a>
+        </div>
+      </div>`;
+
+      emitPage({
+        lang, slug: `categories/${block.code}.html`,
+        title: block.shortTitle,
+        description: block.subtitle,
+        bodyHtml: categoryHtml,
+        breadcrumbs: [...homeCrumb, { label: block.shortTitle }],
+      });
+      searchIndex.push({
+        lang, title: block.title, description: block.subtitle,
+        url: hrefFor(lang, `categories/${block.code}.html`), kind: 'category',
+        text: block.items.map(i => `${i.id} ${(i.title && (i.title[lang] || i.title.en)) || ''} ${i.features || ''}`).join(' '),
+      });
+    }
+
     const li = lockIndexBody(lang);
+
     emitPage({
       lang, slug: 'locks/index.html',
       title: lang === 'zh' ? '锁型库' : 'Lock families',

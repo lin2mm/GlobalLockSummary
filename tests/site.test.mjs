@@ -220,12 +220,11 @@ if (existsSync(galleryJsonPath)) {
   check('all 38 gallery images exist in _site/', missingImgs === 0, `missing=${missingImgs}`);
 
   const rootIndex = read(join(SITE, 'index.html'));
-  check('root index.html renders gallery wall', rootIndex.includes('data-gallery-root') && rootIndex.includes('gallery-card'));
-  check('root index.html features pure gallery portal grid with 5 major area images', rootIndex.includes('gallery-portal-grid') && rootIndex.includes('gallery-portal-card'));
-  check('gallery renders 5 major regional blocks', rootIndex.includes('data-gallery-block="na"') && rootIndex.includes('data-gallery-block="latam"'));
-  check('gallery features block-hero flagship showcases for retrofit baselines', rootIndex.includes('block-hero') && rootIndex.includes('hero-na-deadbolt.jpg') && rootIndex.includes('hero-europe-eurocylinder.jpg') && rootIndex.includes('hero-anz-lockwood001.jpg'));
-  check('gallery hero features 1:1 drilling template link', rootIndex.includes('drilling-templates.html'));
-  check('gallery tabs display explicit model counts', rootIndex.includes('北美 (6)') && rootIndex.includes('澳洲与英国 (10)') && rootIndex.includes('欧洲五国 (8)') && rootIndex.includes('拉美新兴 (4)'));
+  check('root index.html renders pure gallery portal grid with 5 major area images', rootIndex.includes('gallery-portal-grid') && rootIndex.includes('gallery-portal-card'));
+  check('root index.html links to regional category pages', rootIndex.includes('/categories/na.html') && rootIndex.includes('/categories/latam.html'));
+
+  const naCategory = read(join(SITE, 'zh/categories/na.html'));
+  check('regional category renders block hero and lock cards', naCategory.includes('block-hero') && naCategory.includes('hero-na-deadbolt.jpg') && naCategory.includes('gallery-card'));
 
   const identifyZh = read(join(SITE, 'identify.html'));
   check('identify.html wizard links directly to Japan engraving directory', identifyZh.includes('japan-engravings.html'));
@@ -253,7 +252,7 @@ if (existsSync(galleryJsonPath)) {
   check('root index.html includes in-site direct feedback button', rootIndex.includes('data-feedback-submit'));
 
   const enIndex = read(join(SITE, 'en/index.html'));
-  check('en index.html renders gallery wall', enIndex.includes('data-gallery-root') && enIndex.includes('gallery-card'));
+  check('en index.html renders pure gallery portal', enIndex.includes('gallery-portal-grid') && enIndex.includes('gallery-portal-card'));
 }
 
 console.log(`OK  ${passed} checks passed`);
