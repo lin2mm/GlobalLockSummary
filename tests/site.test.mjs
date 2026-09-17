@@ -222,6 +222,10 @@ if (existsSync(galleryJsonPath)) {
   const rootIndex = read(join(SITE, 'index.html'));
   check('root index.html renders gallery wall', rootIndex.includes('data-gallery-root') && rootIndex.includes('gallery-card'));
   check('gallery renders 5 major regional blocks', rootIndex.includes('data-gallery-block="na"') && rootIndex.includes('data-gallery-block="latam"'));
+  check('gallery tabs display explicit model counts', rootIndex.includes('北美 (4)') && rootIndex.includes('澳洲与英国 (10)') && rootIndex.includes('欧洲五国 (6)'));
+  
+  const fieldIssuesZh = read(join(SITE, 'field-issues.html'));
+  check('field-issues.html renders crawled real-world complaints', fieldIssuesZh.includes('Motor Blocked') && fieldIssuesZh.includes('Reddit') && fieldIssuesZh.includes('HDB'));
 
   const retrofitZh = read(join(SITE, 'retrofit.html'));
   check('retrofit.html covers real-world failure cases & complaints', retrofitZh.includes('Nuki') && retrofitZh.includes('Motor Blocked'));

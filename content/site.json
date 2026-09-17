@@ -53,6 +53,10 @@
         "href": "retrofit.html"
       },
       {
+        "label": "Field Failures",
+        "href": "field-issues.html"
+      },
+      {
         "label": "Locks",
         "href": "locks/index.html"
       },
@@ -81,6 +85,10 @@
       {
         "label": "改造方案",
         "href": "zh/retrofit.html"
+      },
+      {
+        "label": "改装避坑实录",
+        "href": "zh/field-issues.html"
       },
       {
         "label": "锁型库",

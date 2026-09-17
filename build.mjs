@@ -778,18 +778,23 @@ function galleryFragment(lang) {
     </section>`;
   }).join('\n');
 
-  // Jump navigation tabs for 5 blocks
+  // Compute dynamic counts per block
+  const countNa = items.filter(i => i.block === 'na').length;
+  const countUkAnz = items.filter(i => i.block === 'uk-anz').length;
+  const countEurope5 = items.filter(i => i.block === 'europe5').length;
+  const countSea = items.filter(i => i.block === 'sea').length;
+  const countLatam = items.filter(i => i.block === 'latam').length;
+
   const navTabs = [
-    { code: 'all', label: isZh ? '🌍 全部 5 大板块' : '🌍 All 5 Divisions' },
-    { code: 'na', label: isZh ? '🇺🇸 北美 (ANSI)' : '🇺🇸 Americas (ANSI)' },
-    { code: 'uk-anz', label: isZh ? '🇦🇺🇬🇧 澳洲与英国 (AS/BS)' : '🇦🇺🇬🇧 Pacific & UK (AS/BS)' },
-    { code: 'europe5', label: isZh ? '🇪🇺 欧洲五国 (DIN/EN)' : '🇪🇺 Europe (DIN/EN)' },
-    { code: 'sea', label: isZh ? '🇸🇬 东南亚 (HDB/推拉)' : '🇸🇬 Asia-Pacific (HDB)' },
-    { code: 'latam', label: isZh ? '🌎 拉美新兴 (ABNT)' : '🌎 Latin America (ABNT)' },
+    { code: 'all', label: isZh ? `🌍 全部 5 大板块 (${items.length})` : `🌍 All 5 Divisions (${items.length})` },
+    { code: 'na', label: isZh ? `🇺🇸 北美 (${countNa})` : `🇺🇸 Americas (${countNa})` },
+    { code: 'uk-anz', label: isZh ? `🇦🇺🇬🇧 澳洲与英国 (${countUkAnz})` : `🇦🇺🇬🇧 Pacific & UK (${countUkAnz})` },
+    { code: 'europe5', label: isZh ? `🇪🇺 欧洲五国 (${countEurope5})` : `🇪🇺 Europe (${countEurope5})` },
+    { code: 'sea', label: isZh ? `🇸🇬 东南亚 (${countSea})` : `🇸🇬 Asia-Pacific (${countSea})` },
+    { code: 'latam', label: isZh ? `🌎 拉美新兴 (${countLatam})` : `🌎 Latin America (${countLatam})` },
   ].map((tab, idx) => 
     `<button class="gallery-filter__btn${idx === 0 ? ' is-active' : ''}" type="button" data-gallery-filter="${tab.code}">${escapeHtml(tab.label)}</button>`
   ).join('');
-
   return `<div class="gallery-wall" data-gallery-root>
     <div class="gallery-wall__header">
       <div class="gallery-wall__controls">
