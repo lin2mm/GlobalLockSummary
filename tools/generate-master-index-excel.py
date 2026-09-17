@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 重新生成 docs/03_GLOBAL_LOCK_DATA_INDEX.xlsx 及 docs/GLOBAL_LOCK_DATA_INDEX.xlsx
-包含全站 54 款锁型的全维度工程数据、公差矩阵与合规信息
+包含全站 54 款锁型的全维度工程数据、公差矩阵、二次修槽扩孔规范与贯穿螺栓避让指引
 """
 import os
 import json
@@ -15,9 +15,8 @@ GALLERY_JSON = os.path.join(ROOT, "content", "catalog", "gallery.json")
 
 def build_master_excel():
     wb = openpyxl.Workbook()
-    # 默认工作表
     ws1 = wb.active
-    ws1.title = "01_全局工业索引"
+    ws1.title = "01_全局工业索引与标准"
 
     header_font = Font(name="Arial", size=11, bold=True, color="FFFFFF")
     header_fill = PatternFill(start_color="0F172A", end_color="0F172A", fill_type="solid")
@@ -25,8 +24,8 @@ def build_master_excel():
     cell_border = Border(left=border_style, right=border_style, top=border_style, bottom=border_style)
 
     ws1_headers = [
-        "序号", "工业板块", "标准代码", "样本总数", "主图筛选覆盖率", 
-        "典型门锁类别", "主要锁芯/锁体类型", "核心加装路线", "工程难点与风险"
+        "序号", "工业板块", "标准代码", "样本总数", "主流背距 (Backset)", 
+        "中心距 (Centres)", "方轴孔径", "门厚区间", "锁槽二次扩孔规范", "走线与对穿螺栓避让"
     ]
     ws1.append(ws1_headers)
     for col_idx in range(1, len(ws1_headers) + 1):
@@ -36,21 +35,22 @@ def build_master_excel():
         cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
 
     divisions_data = [
-        ["DIV-01", "北美工业板块 (North America)", "ANSI / BHMA A156", 10, "100% 4K/HD 实景", "单插销死锁 (Deadbolt), 复合一体锁 (Handleset), 美标插芯锁 (Mortise)", "美标实心转尾锁芯 (Rim/Mortise Cylinder)", "内旋钮转接头 (Thumbturn Adapters)", "门扇下沉与扣板严重错位 (Strike Plate Binding)"],
-        ["DIV-02", "欧陆工业板块 (Continental Europe)", "DIN 18251 / EN 12209", 12, "100% 4K/HD 实景", "欧标插芯锁 (Euro Mortise), 多点传动锁 (Multipoint Raise-to-Lock)", "欧标水滴双向锁芯 (Euro Profile Cylinder DIN 18252)", "内插钥匙夹持马达 (Key Gripping / Nuki Style)", "多点联动抬把手操作过载与外锁闭破门隐患 (Emergency Clutch Lockout)"],
-        ["DIV-03", "澳新及英国板块 (Oceania & UK)", "AS 4145 / BS 3621", 12, "100% 4K/HD 实景", "英式五杠杠杆锁 (5-lever Mortice), 表面自锁夜闩锁 (Lockwood 001/002)", "椭圆锁芯 (Oval Cylinder), 螺口锁芯 (Screw-in Mortise)", "副舍压紧加装 (Auxiliary Latch Retrofit)", "门缝过大导致辅助锁舌悬空失效 (False Deadlock)"],
-        ["DIV-04", "东南亚与东亚板块 (East & Southeast Asia)", "JIS A 1510 / SS 332", 12, "100% 4K/HD 实景", "日式高精度插芯锁 (MIWA / GOAL), 新加坡组屋铁闸门锁 (HDB Metal Gate Lock)", "双面铣齿插芯锁芯, 超小孔径锁芯", "双门防撞超薄电机 (Ultra-slim <35mm)", "内外门把手间距不足 80mm 碰撞卡死 (Gate Clearance Clash)"],
-        ["DIV-05", "拉美工业板块 (Latin America)", "ABNT NBR 14913", 8, "100% 4K/HD 实景", "拉美窄体锁体 (PADO / Stam), 执手锁 (Scanavini)", "拉美欧标变体锁芯 (ABNT Cylinder), 宽截面拨叉", "原装替换与高扭矩电机加装", "五金冲压毛刺公差大、机械摩擦阻力极高 (High Friction Resistance)"]
+        ["DIV-01", "北美工业板块 (North America)", "ANSI / BHMA A156", 10, "60/70mm 可调", "140mm (5-1/2\")", "1.6×4.8mm 扁平尾轴", "35-51mm", "钻孔54mm贯穿；老木门开裂加装不锈钢防劈裂抱门锁夹套板", "#10-32 对穿螺栓，走线通道置于扁平尾轴正下方，预留≥4mm硅胶套管"],
+        ["DIV-02", "欧陆工业板块 (Continental Europe)", "DIN 18251 / EN 12209", 12, "55/65mm (窄框35-45mm)", "室内72mm / 入户92mm", "8×8mm (逃生9×9mm)", "38-65mm", "原槽75-80mm；扩深需沿中心线钻阶梯孔微修，严禁劈裂门扇立挺", "M5 沉头螺栓，锁芯上方设专属穿线橡胶护线圈，严防方轴摩擦线束"],
+        ["DIV-03", "澳新及英国板块 (Oceania & UK)", "AS 4145 / BS 3621", 12, "40/60mm", "分体夜闩", "十字/偏心尾轴", "32-45mm", "Lockwood 001 表面装配仅打32mm通孔；门框必须安装加固角铁扣盒", "表面底盘 4 颗 10# 螺钉固定，旋钮传动拨叉内置防缠绕护套"],
+        ["DIV-04", "东南亚与东亚板块 (East & Southeast Asia)", "JIS A 1510 / SS 332", 12, "51/64mm", "独立/联动", "8×8mm 高精", "33-42mm", "间隙≤1.0mm高精锁槽；铝合金窄框门必须用金属铣刀开孔，加1.5mm衬板", "M4 高精贯穿螺栓，超薄门用剪切型螺钉，走线通道置于锁体顶部专属滑槽"],
+        ["DIV-05", "拉美工业板块 (Latin America)", "ABNT NBR 14913", 8, "40/45mm 极窄", "53/70mm", "8×8mm 宽公差", "30-35mm", "浅槽(深60mm)；向内扩孔必须加装 2.0mm 冷轧钢加强扣板以防撬门", "M4 粗牙螺栓，夹板门必须在内部加装宽平垫片防止门面被压溃变形"]
     ]
     for row in divisions_data:
         ws1.append(row)
 
-    # 工作表 2：54 款详细样本数据库（含工程公差矩阵）
+    # 工作表 2：54 款详细样本数据库（含工程公差、木槽修凿与避线规范）
     ws2 = wb.create_sheet(title="02_54款机械锁详细数据库")
     ws2_headers = [
         "锁型ID", "候选标识", "锁系ID", "中文名称", "英文名称", "工业板块",
         "市场保有率", "加装亲和度", "场景实景图路径", "机械结构图路径",
-        "打样模板", "门缝公差要求", "标称电机扭矩", "垂直下沉耐受", "逃生安全规范", "租房友好评级"
+        "门缝公差要求", "标称电机扭矩", "垂直下沉耐受", "逃生安全规范", "租房友好评级",
+        "钥匙胚槽型", "木槽二次扩孔修整指引", "对穿螺栓避线通道"
     ]
     ws2.append(ws2_headers)
     for col_idx in range(1, len(ws2_headers) + 1):
@@ -80,16 +80,17 @@ def build_master_excel():
             sel.get("retrofitAffinity", "Grade A"),
             lk.get("sceneImage", lk.get("image")),
             lk.get("productImage", lk.get("image")),
-            guide.get("drillingTemplate", "N/A"),
             guide.get("recommendedClearance", "≥ 3.0mm"),
             guide.get("requiredTorque", "≥ 1.5 N·m"),
             eng.get("saggingTolerance", "±2.0mm"),
             egress.get("standard", "Compliant"),
-            rental.get("rating", "Grade A")
+            rental.get("rating", "Grade A"),
+            eng.get("keywaySpecification", "N/A"),
+            eng.get("mortiseReworkGuide", "N/A"),
+            eng.get("boltWireClearance", "N/A")
         ]
         ws2.append(row_data)
 
-    # 自动调整列宽
     for ws in [ws1, ws2]:
         for col in ws.columns:
             max_len = 0
@@ -103,7 +104,7 @@ def build_master_excel():
     wb.save(out_docs)
     shutil.copy(out_docs, os.path.join(ROOT, "docs", "GLOBAL_LOCK_DATA_INDEX.xlsx"))
     shutil.copy(out_docs, os.path.join("/home/user", "03_GLOBAL_LOCK_DATA_INDEX.xlsx"))
-    print(f"Master index Excel rebuilt with 54 locks and engineering matrices!")
+    print("Master index Excel updated with Mortise Rework and Wire Guide specs!")
 
 if __name__ == "__main__":
     build_master_excel()
