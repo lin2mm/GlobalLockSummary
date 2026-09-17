@@ -151,17 +151,20 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
   <header class="site-header">
     <div class="wrap site-header__inner">
       <a class="brand" href="/${lang === 'en' ? '' : lang + '/'}">
-        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="width: 1.6rem; height: 1.6rem;">
+        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="width: 1.65rem; height: 1.65rem;">
           <defs>
             <linearGradient id="brandMarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stop-color="#0284c7"/>
               <stop offset="100%" stop-color="#0f172a"/>
             </linearGradient>
           </defs>
-          <path d="M12 2 C7.58 2 4 5.58 4 10 C4 12.8 5.6 15.2 8 16.5 L8 21 C8 21.55 8.45 22 9 22 L15 22 C15.55 22 16 21.55 16 21 L16 16.5 C18.4 15.2 20 12.8 20 10 C20 5.58 16.42 2 12 2 Z" fill="url(#brandMarkGrad)"/>
-          <circle cx="12" cy="9.5" r="3" fill="#ffffff" fill-opacity="0.95"/>
-          <path d="M11.3 9 h1.4 v3 h-1.4 Z" fill="#0284c7"/>
-          <rect x="11.2" y="16.5" width="1.6" height="3.5" rx="0.8" fill="#ffffff" fill-opacity="0.95"/>
+          <!-- 硬化合金粗锁梁 (High-Contrast Bold Shackle) - 顶部负空间通透 -->
+          <path d="M7 10V6.5C7 3.74 9.24 1.5 12 1.5C14.76 1.5 17 3.74 17 6.5V10" fill="none" stroke="#0284c7" stroke-width="2.6" stroke-linecap="round"/>
+          <!-- 工业防撬切角锁身 (Precision Hex Chassis) -->
+          <path d="M4 10.5C4 9.67 4.67 9 5.5 9H18.5C19.33 9 20 9.67 20 10.5V19.5C20 20.88 18.88 22 17.5 22H6.5C5.12 22 4 20.88 4 19.5V10.5Z" fill="url(#brandMarkGrad)"/>
+          <!-- 极大光学负空间钥匙孔 (High-Visibility Classic Keyhole: Circle + Tapered Slot) 即使在12px下也清晰可辨 -->
+          <circle cx="12" cy="14" r="2.2" fill="#ffffff"/>
+          <path d="M10.9 14.5L10.2 19H13.8L13.1 14.5Z" fill="#ffffff"/>
         </svg>
         <span class="brand__text">${esc(site.name)}</span>
       </a>

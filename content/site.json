@@ -44,7 +44,7 @@
       {
         "label": "Field Cases",
         "href": "install-gallery.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 12h20\"/><path d=\"M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6\"/><path d=\"M12 2v20\"/><path d=\"M12 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z\"/></svg>"
+        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 21V3a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v18\"/><path d=\"M12 11h.01\"/><path d=\"m15 15 4.5 4.5a1.5 1.5 0 0 0 2.12-2.12L17.12 13\"/><path d=\"m17 11 2-2\"/></svg>"
       },
       {
         "label": "Adapters & BOM",
@@ -71,7 +71,7 @@
       {
         "label": "工程实录",
         "href": "zh/install-gallery.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 12h20\"/><path d=\"M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6\"/><path d=\"M12 2v20\"/><path d=\"M12 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z\"/></svg>"
+        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 21V3a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v18\"/><path d=\"M12 11h.01\"/><path d=\"m15 15 4.5 4.5a1.5 1.5 0 0 0 2.12-2.12L17.12 13\"/><path d=\"m17 11 2-2\"/></svg>"
       },
       {
         "label": "转接工具",
