@@ -1245,3 +1245,31 @@ html {
   background: #f1f5f9;
   color: #0284c7 !important;
 }
+
+/* Mainstream vs Niche Color Hierarchy */
+.gallery-card--mainstream {
+  border: 1.5px solid #0284c7 !important;
+  background: #ffffff !important;
+  border-left: 4px solid #0284c7 !important;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.08) !important;
+}
+
+.gallery-card--mainstream:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(2, 132, 199, 0.16) !important;
+}
+
+.gallery-card--niche {
+  border: 1px solid #e2e8f0 !important;
+  background: #f8fafc !important;
+  border-left: 3px solid #94a3b8 !important;
+  opacity: 0.88;
+  filter: saturate(0.85);
+}
+
+.gallery-card--niche:hover {
+  opacity: 1 !important;
+  filter: saturate(1) !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+}

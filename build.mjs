@@ -996,7 +996,12 @@ function renderGalleryCard(item, lang) {
   const sceneImg = item.sceneImage || item.image;
   const productImg = item.productImage || item.image;
 
-  return `<div class="gallery-card" data-gallery-card data-tier="${escapeHtml(item.tierClass || "Mainstream")}" data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}">
+  const isMainstream = item.tierClass === 'Mainstream';
+  const cardStyle = isMainstream 
+    ? 'border: 1.5px solid #0284c7; background: #ffffff; box-shadow: 0 4px 14px rgba(2, 132, 199, 0.08); border-left: 4px solid #0284c7;' 
+    : 'border: 1px solid #e2e8f0; background: #f8fafc; opacity: 0.88; border-left: 3px solid #94a3b8; filter: saturate(0.9);';
+
+  return `<div class="gallery-card gallery-card--${isMainstream ? 'mainstream' : 'niche'}" data-gallery-card data-tier="${escapeHtml(item.tierClass || "Mainstream")}" data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}" style="${cardStyle} border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;">
     <div class="gallery-card__dual-img-container" style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; position: relative; border-radius: 6px 6px 0 0; overflow: hidden;">
       <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '实景图' : 'Scene'}" style="position: relative; display: block; overflow: hidden; height: 165px; background: #1e293b;">
         <img class="gallery-card__img" src="${escapeHtml(sceneImg)}" alt="${escapeHtml(title)}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" />
@@ -1009,18 +1014,23 @@ function renderGalleryCard(item, lang) {
       <div class="gallery-card__badges" style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; align-items: center; pointer-events: none;">
         <div style="display: flex; gap: 4px; align-items: center;">
           <span class="gallery-card__id" style="font-family: var(--font-mono, monospace); font-weight: 700; font-size: 0.72rem;">${escapeHtml(item.id)}</span>
-          ${item.tierClass === 'Mainstream' 
-            ? `<span style="background: #0284c7; color: #ffffff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px; letter-spacing: 0.02em;">★ ${isZh ? '主流基准' : 'MAINSTREAM'}</span>` 
-            : `<span style="background: #475569; color: #f8fafc; font-size: 0.65rem; font-weight: 600; padding: 2px 5px; border-radius: 3px;">${isZh ? '小众/特殊' : 'NICHE'}</span>`}
+          ${isMainstream 
+            ? `<span style="background: #0284c7; color: #ffffff; font-size: 0.68rem; font-weight: 700; padding: 2px 7px; border-radius: 3px; letter-spacing: 0.03em; box-shadow: 0 1px 3px rgba(0,0,0,0.2);">★ ${isZh ? '主流基准' : 'MAINSTREAM'}</span>` 
+            : `<span style="background: #e2e8f0; color: #64748b; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px; border: 1px solid #cbd5e1;">${isZh ? '非主流/小众' : 'NICHE'}</span>`}
         </div>
         <span class="gallery-card__status ${statusClass}">${escapeHtml(statusText)}</span>
       </div>
     </div>
     <div class="gallery-card__body" style="padding: 14px 16px;">
       <div class="gallery-card__region" style="font-size: 0.75rem; letter-spacing: 0.04em; text-transform: uppercase; color: #64748b; font-weight: 600; margin-bottom: 4px;">${escapeHtml(regionLabel)}</div>
-      <h3 class="gallery-card__title" style="margin: 0 0 6px; font-size: 1.02rem; font-weight: 600; line-height: 1.4;">
-        <a href="${familyHref}">${escapeHtml(title)}</a>
-      </h3>
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 6px;">
+        <h3 class="gallery-card__title" style="margin: 0; font-size: 1.02rem; font-weight: ${isMainstream ? '700' : '500'}; line-height: 1.4; color: ${isMainstream ? '#0f172a' : '#475569'};">
+          <a href="${familyHref}" style="color: inherit; text-decoration: none;">${escapeHtml(title)}</a>
+        </h3>
+        <span style="font-size: 0.7rem; font-weight: 600; padding: 1px 5px; border-radius: 3px; white-space: nowrap; ${isMainstream ? 'background: #e0f2fe; color: #0369a1;' : 'background: #f1f5f9; color: #94a3b8;'}">
+          ${escapeHtml(item.marketSharePercent || (isMainstream ? '≥25%' : '<10%'))}
+        </span>
+      </div>
       <p class="gallery-card__desc" style="font-size: 0.82rem; color: #475569; line-height: 1.5; margin: 0 0 12px;">${escapeHtml(item.features || '')}</p>
       <div class="gallery-card__footer" style="padding-top: 10px; border-top: 1px solid #f1f5f9;">
         <a class="gallery-card__link" href="${familyHref}" style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-primary, #0f172a);">
