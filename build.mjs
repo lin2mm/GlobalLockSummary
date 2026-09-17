@@ -818,7 +818,8 @@ function galleryFragment(lang) {
         <h2 class="gallery-portal-card__name">${escapeHtml(b.title)}</h2>
         <div class="gallery-portal-card__baseline">🔑 ${escapeHtml(b.hero.title.replace(/^[^：:]*[：:]/, ''))}</div>
         <div class="gallery-portal-card__action">
-          <span class="portal-icon">🔒</span>
+          <span class="portal-icon portal-icon--locked">🔒</span>
+          <span class="portal-icon portal-icon--unlocked">🔓</span>
           <span>${isZh ? '开锁进入锁类图谱' : 'Unlock & Browse Categories'} →</span>
         </div>
       </div>
@@ -974,6 +975,12 @@ function build() {
       </div>`;
 
       const categoryHtml = `<div class="gallery-block">
+        <div class="category-top-nav">
+          <a class="category-top-nav__back" href="${isZh ? '/zh/index.html' : '/en/index.html'}">
+            ← ${isZh ? '返回全球 5 大板块' : 'Back to 5 Major Divisions'}
+          </a>
+          <span class="category-top-nav__meta">${block.items.length} ${isZh ? '款实拍型号' : 'models'}</span>
+        </div>
         <div class="gallery-block__header">
           <div class="gallery-block__title-wrap">
             <h1 class="gallery-block__title">${escapeHtml(block.title)}</h1>
