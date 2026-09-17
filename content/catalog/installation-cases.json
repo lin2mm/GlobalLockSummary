@@ -1,0 +1,77 @@
+[
+  {
+    "id": "CASE-NA-01",
+    "regionCode": "na",
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "美标单插销死锁 (Deadbolt) 扁平尾轴与自对中安装拆解", "en": "ANSI Deadbolt Flat Tailpiece & Concentricity Verification" },
+    "lockFamilyId": "us-deadbolt",
+    "lockFamilyName": "ANSI 单缸插销死锁",
+    "image": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
+    "sceneType": "实物拆解与改造工单",
+    "desc": {
+      "zh": "拆下内侧旋钮即可观察到贯穿门芯的扁平传动尾轴（Flat Tailpiece）。若门孔同心度超标或密封条回弹过大，电机会因受剪切力卡死，需搭配浮动补偿夹具。",
+      "en": "Removing thumbturn exposes the flat tailpiece passing through door bore. Concentricity must be within 0.5mm."
+    },
+    "keyMetrics": "背距 60/70mm 可调 · 轴心公差 ≤0.5mm · 电机扭矩 ≥1.2 N·m"
+  },
+  {
+    "id": "CASE-NA-02",
+    "regionCode": "na",
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "北美标准 54mm 大孔与门边斜舌孔打孔开孔夹具实操", "en": "Standard 54mm Cross-bore & Latch Hole Jig Drilling" },
+    "lockFamilyId": "us-deadbolt",
+    "lockFamilyName": "ANSI 单缸插销死锁",
+    "image": "/assets/img/tier3_install/deadbolt-jig-drill.jpg",
+    "sceneType": "现场开孔打样施工",
+    "desc": {
+      "zh": "使用定位夹具贴合门边进行 54mm (2-1/8\") 贯穿孔钻孔。必须严格保证开孔与门边垂直度，防止加装智能锁电机底板偏斜受力。",
+      "en": "Using professional guide jig to drill 54mm (2-1/8\") cross bore with precision edge alignment."
+    },
+    "keyMetrics": "主孔径 54mm · 门厚 35-45mm · 侧孔径 25mm"
+  },
+  {
+    "id": "CASE-EU-01",
+    "regionCode": "europe5",
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "欧标木门插芯槽开凿 (Mortise Pocket Chiseling) 与锁体面板沉入", "en": "Euro Mortise Pocket Chiseling & Faceplate Recess" },
+    "lockFamilyId": "euro-cylinder-mortise",
+    "lockFamilyName": "欧标槽型锁芯插芯锁",
+    "image": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+    "sceneType": "现场木工开槽实态",
+    "desc": {
+      "zh": "欧洲实木门边缘精确开出深度 85-95mm 的插芯内腔。若面板未沉入平齐，关门时将强力撞击门框扣盒，导致智能锁驱动电机电流激增报死。",
+      "en": "Precision edge mortising pocket on European wooden door. Faceplate flushness is critical to avoid strike binding."
+    },
+    "keyMetrics": "插芯深度 85-95mm · 面板厚度 3mm 平齐 · 门缝隙 ≥3.0mm"
+  },
+  {
+    "id": "CASE-EU-02",
+    "regionCode": "europe5",
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "重型插芯锁内部连动拨叉、方轴传动与弹簧机构全解剖", "en": "Heavy-Duty Mortise Internal Linkage, Spindle Cam & Springs" },
+    "lockFamilyId": "euro-cylinder-mortise",
+    "lockFamilyName": "欧标槽型锁芯插芯锁",
+    "image": "/assets/img/tier3_install/mortise-internal-linkage.jpg",
+    "sceneType": "锁体内部机械原理",
+    "desc": {
+      "zh": "剖开真实机械插芯锁内部，清晰可见主锁舌杠杆、防回缩保险卡块与把手方轴拨块。加装智能锁必须确认离合拨块是否具备双向自由释放能力。",
+      "en": "Disassembled mortise lock casing reveals deadbolt levers, auxiliary deadlatch linkage, and spindle cam followers."
+    },
+    "keyMetrics": "方轴 8x8mm / 9x9mm · 回转角 360°/720° · 传动效率 >85%"
+  },
+  {
+    "id": "CASE-ANZ-01",
+    "regionCode": "uk-anz",
+    "regionName": { "zh": "澳洲与英国", "en": "Australia & UK" },
+    "title": { "zh": "澳式外装夜锁 Lockwood 001 门体内安装底架与原厂图纸对照", "en": "Lockwood 001 Deadlatch Mounting Casing & Template Fit" },
+    "lockFamilyId": "au-deadlatch",
+    "lockFamilyName": "澳式外装夜锁",
+    "image": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
+    "sceneType": "老门实地装配案例",
+    "desc": {
+      "zh": "在老木门上按照 Lockwood 原厂纸质模板定位并固定金属底座。底座四个固定耳必须垂直压入门木纤维，是目前大洋洲智能加装的核心基准。",
+      "en": "Field mounting of Lockwood 001 steel casing onto timber door guided by original paper drilling template."
+    },
+    "keyMetrics": "背距 60mm · 辅助锁舌完全压入行程 6mm · 旋钮直径 42mm"
+  }
+]

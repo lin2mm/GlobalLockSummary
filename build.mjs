@@ -946,6 +946,7 @@ function build() {
     for (const a of architecturesDoc.architectures) register(lang, `retrofit/${a.id}.html`);
     for (const d of devicesDoc.devices) register(lang, `devices/${d.id}.html`);
     for (const b of ['na', 'europe5', 'uk-anz', 'sea', 'latam']) register(lang, `categories/${b}.html`);
+    register(lang, 'install-gallery.html');
   }
 
   for (const lang of LANGS) {
@@ -1004,6 +1005,78 @@ function build() {
 
     
     // Regional Category Gallery Pages (L2 Gallery Grid)
+    // Emit install-gallery.html for this language
+    const isZh = lang === 'zh';
+    const casesPath = join(CONTENT, 'catalog', 'installation-cases.json');
+    const cases = existsSync(casesPath) ? JSON.parse(readFileSync(casesPath, 'utf8')) : [];
+    
+    const casesCards = cases.map(c => {
+      const cTitle = (c.title && (c.title[lang] || c.title.en)) || c.id;
+      const cDesc = (c.desc && (c.desc[lang] || c.desc.en)) || '';
+      const cRegion = (c.regionName && (c.regionName[lang] || c.regionName.en)) || c.regionCode;
+      const lockLink = `/${urlFor(lang, `locks/${c.lockFamilyId}.html`)}`;
+      const catLink = `/${urlFor(lang, `categories/${c.regionCode}.html`)}`;
+
+      return `<div class="install-case-card" style="background: var(--color-surface, #fff); border: 1px solid var(--color-border, #cbd5e1); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+        <div style="position: relative; height: 220px; background: #000; overflow: hidden;">
+          <img src="${escapeHtml(c.image)}" alt="${escapeHtml(cTitle)}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" />
+          <span style="position: absolute; top: 8px; left: 8px; background: rgba(15,23,42,0.85); color: #38bdf8; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">
+            ${escapeHtml(c.id)} · ${escapeHtml(c.sceneType)}
+          </span>
+          <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #fff; font-size: 0.7rem; padding: 2px 6px; border-radius: 3px;">
+            ${escapeHtml(cRegion)}
+          </span>
+        </div>
+        <div style="padding: 16px; flex: 1; display: flex; flex-direction: column;">
+          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #64748b; margin-bottom: 6px;">
+            <span>${isZh ? '所属锁族:' : 'Family:'} <a href="${lockLink}" style="font-weight: 700; color: #0284c7;">${escapeHtml(c.lockFamilyName)}</a></span>
+            <span><a href="${catLink}" style="color: #64748b;">${escapeHtml(cRegion)} ${isZh ? '图库' : 'Gallery'} →</a></span>
+          </div>
+          <h3 style="margin: 0 0 8px; font-size: 1.05rem; line-height: 1.4;">${escapeHtml(cTitle)}</h3>
+          <p style="font-size: 0.85rem; color: #475569; line-height: 1.5; margin: 0 0 12px; flex: 1;">${escapeHtml(cDesc)}</p>
+          <div style="background: #f8fafc; border-left: 3px solid #0284c7; padding: 6px 10px; font-size: 0.78rem; color: #334155; margin-bottom: 12px;">
+            ⚙️ <b>${isZh ? '工程关键指标:' : 'Key Metrics:'}</b> ${escapeHtml(c.keyMetrics)}
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <a class="block-hero__btn" style="flex: 1; text-align: center; font-size: 0.8rem; padding: 6px 10px;" href="${lockLink}">
+              ${isZh ? '进入所属锁型详情 →' : 'View Lock Details →'}
+            </a>
+            <a class="block-hero__btn" style="background: transparent; border: 1px solid #cbd5e1; color: #1e293b; font-size: 0.8rem; padding: 6px 10px;" href="${catLink}">
+              ${isZh ? '本区域图库' : 'Regional Gallery'}
+            </a>
+          </div>
+        </div>
+      </div>`;
+    }).join('\n');
+
+    const installGalleryHtml = `<div class="install-gallery-page wrap">
+      <div style="margin-bottom: 24px;">
+        <h1 style="margin: 0 0 8px;">${isZh ? '🔧 全球各类安装工程实物案例图库' : '🔧 Global Lock Installation Field Cases Gallery'}</h1>
+        <p style="margin: 0; color: #64748b; font-size: 0.95rem;">${isZh ? '按区域深度收录真实木门开槽、夹具开孔打样、扁轴拉出比对与锁体内部机械连动真实工单实拍。' : 'Authentic jobsite and field installation cases across global lock standards.'}</p>
+      </div>
+
+      <div class="install-filter-bar" style="margin-bottom: 20px; display: flex; gap: 8px; flex-wrap: wrap; background: #f1f5f9; padding: 10px 14px; border-radius: 8px;">
+        <span style="font-weight: 700; font-size: 0.85rem; color: #334155; display: flex; align-items: center;">📍 ${isZh ? '区域快速穿透:' : 'Quick Navigation:'}</span>
+        <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/na.html' : '/en/categories/na.html'}">🇺🇸 ${isZh ? '北美板块 (6款)' : 'North America (6)'}</a>
+        <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/europe5.html' : '/en/categories/europe5.html'}">🇪🇺 ${isZh ? '欧陆五国 (8款)' : 'Continental Europe (8)'}</a>
+        <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/uk-anz.html' : '/en/categories/uk-anz.html'}">🇦🇺🇬🇧 ${isZh ? '澳英板块 (10款)' : 'Australia & UK (10)'}</a>
+        <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/sea.html' : '/en/categories/sea.html'}">🇸🇬 ${isZh ? '东南亚/东亚 (10款)' : 'Southeast Asia (10)'}</a>
+        <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/latam.html' : '/en/categories/latam.html'}">🌎 ${isZh ? '拉美新兴 (4款)' : 'Latin America (4)'}</a>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px;">
+        ${casesCards}
+      </div>
+    </div>`;
+
+    emitPage({
+      lang, slug: 'install-gallery.html',
+      title: isZh ? '实操工程图库' : 'Installation Cases Gallery',
+      description: isZh ? '全球各类机械门锁安装工程实物案例照片与原厂打孔打样图谱。' : 'Global lock installation field cases photos and drilling templates.',
+      bodyHtml: installGalleryHtml,
+      breadcrumbs: [...homeCrumb, { label: isZh ? '实操工程图库' : 'Installation Cases' }],
+    });
+
     const blocksForCat = getGalleryBlocks(lang);
     for (const block of blocksForCat) {
       const cardsHtml = block.items.map((item) => renderGalleryCard(item, lang)).join('\n');

@@ -41,6 +41,10 @@
         "href": "index.html"
       },
       {
+        "label": "🔧 Field Cases Gallery",
+        "href": "install-gallery.html"
+      },
+      {
         "label": "🛠️ Adapters & Tools",
         "href": "adapters.html"
       },
@@ -57,6 +61,10 @@
       {
         "label": "🖼️ 锁型图库大盘",
         "href": "zh/index.html"
+      },
+      {
+        "label": "🔧 实操工程图库",
+        "href": "zh/install-gallery.html"
       },
       {
         "label": "🛠️ 转接件与工具库",
