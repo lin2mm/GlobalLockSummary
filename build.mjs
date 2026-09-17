@@ -327,7 +327,7 @@ function lockPage(fam, lang) {
         </div>
         ${s.installationGuide && s.installationGuide.steps ? `
         <div class="lock-detail-sample__steps-box" style="margin: 16px 0; padding: 14px 18px; background: #f8fafc; border-left: 4px solid #0284c7; border-radius: 4px;">
-          <h5 style="margin: 0 0 10px; color: #0369a1; font-size: 0.95rem;">🛠️ ${lang === 'zh' ? '第 3 层：标准加装与打样安装工序 (Installation Workflow)' : 'Tier 3: Standard Retrofit Installation Workflow'}</h5>
+          <h5 style="margin: 0 0 10px; color: #0369a1; font-size: 0.95rem;">🛠️ ${lang === 'zh' ? '第三层：标准改装工程与安装工序流程' : 'Tier 3: Standard Retrofit Installation Workflow'}</h5>
           <ol style="margin: 0; padding-left: 20px; font-size: 0.85rem; color: #334155; line-height: 1.6;">
             ${(lang === 'zh' ? s.installationGuide.steps.zh : s.installationGuide.steps.en).map(st => `<li>${escapeHtml(st)}</li>`).join('')}
           </ol>
@@ -801,7 +801,7 @@ function renderGalleryCard(item, lang) {
     <div class="gallery-card__dual-views">
       <div class="gallery-card__view-tab" style="display: flex; justify-content: space-between; font-size: 0.72rem; padding: 5px 8px; background: #0f172a; color: #f8fafc; border-bottom: 1px solid #334155; font-weight: 600;">
         <span style="color: #38bdf8;">🏷️ ${isZh ? '第二层：类别画廊' : 'Tier 2: Category Gallery'}</span>
-        <span style="color: #94a3b8;">${isZh ? '场景 + 产品对照' : 'Scene + Product Dual View'}</span>
+        <span style="color: #94a3b8;">${isZh ? '门上实景与机械总成对照' : 'Scene + Product Dual View'}</span>
       </div>
       <div class="gallery-card__dual-img-container" style="display: grid; grid-template-columns: 1fr 1fr; background: #f1f5f9; gap: 2px; position: relative;">
         <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '门上场景实景图' : 'Scene View'}" style="position: relative; display: block; overflow: hidden; height: 160px; background: #000;">
@@ -830,7 +830,7 @@ function renderGalleryCard(item, lang) {
       <p class="gallery-card__desc" style="font-size: 0.8rem; color: #64748b; line-height: 1.4; margin: 4px 0 8px;">${escapeHtml(item.features || '')}</p>
       <div class="gallery-card__footer">
         <a class="gallery-card__link" href="${familyHref}">
-          <span>${isZh ? '进入第 3 层安装与开孔打样图' : 'Tier 3: Installation & Templates'}</span>
+          <span>${isZh ? '进入第三层：安装工序与开孔打样' : 'Tier 3: Installation & Templates'}</span>
           <span class="gallery-card__arrow">→</span>
         </a>
       </div>
@@ -869,7 +869,7 @@ function galleryFragment(lang) {
         <div class="gallery-portal-card__action">
           <span class="portal-icon portal-icon--locked">🔒</span>
           <span class="portal-icon portal-icon--unlocked">🔓</span>
-          <span>${isZh ? '进入第二层：场景+产品Gallery' : 'Tier 2: Scene + Product Gallery'} →</span>
+          <span>${isZh ? '进入第二层：场景与产品图库' : 'Tier 2: Scene + Product Gallery'} →</span>
         </div>
       </div>
     </a>`;

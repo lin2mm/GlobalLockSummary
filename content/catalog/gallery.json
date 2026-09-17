@@ -4,13 +4,13 @@
     "candidateId": "ansi_single_cylinder_deadbolt_schlage_b60_b62",
     "familyId": "us-deadbolt",
     "title": {
-      "zh": "ANSI单Cylinder Deadbolt：Schlage B60/B62",
+      "zh": "ANSI美标单缸插销死锁：Schlage B60/B62",
       "en": "ANSI single-cylinder deadbolt — Schlage B60/B62"
     },
     "region": "North America (ANSI/BHMA)",
     "regionCode": "na",
     "image": "/assets/img/gallery/us-27_real.jpg",
-    "features": "主要观察：tailpiece/handing/strike/60或70mm；主要风险：关门对齐和tailpiece打滑；最低验证：开门/关门各3次。",
+    "features": "主要观察：扁平传动尾轴/开门左右开向 (Handing)/门框防盗扣板 (Strike Plate)/60或70mm；主要风险：关门对齐和扁平传动尾轴打滑；最低验证：开门/关门各3次。",
     "photoType": "ANSI deadbolt family / door-mounted reference",
     "sourceUrl": "https://www.homedepot.com/p/Schlage-B81-Series-Aged-Bronze-One-Sided-Deadbolt-Thumbturn-with-Exterior-Plate-Certified-Highest-for-Security-and-Durability-B81-716/300978065",
     "status": "R1",
@@ -19,7 +19,7 @@
       "B": "不是默认配套Cylinder架构"
     },
     "physicalTest": "开门/关门各3次",
-    "gtmNotes": "北美存量单插销标杆（60/70mm背距），优先驱动内侧旋钮（Architecture A），需重点验证关门对齐与tailpiece扭矩阻力。",
+    "gtmNotes": "北美存量单插销标杆（60/70mm背距），优先驱动内侧旋钮（Architecture A），需重点验证关门对齐与扁平传动尾轴扭矩阻力。",
     "gtmMarket": "北美第一优先市场（存量最大）",
     "block": "na",
     "selectionScore": {
@@ -30,9 +30,9 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/us-27_real.jpg",
-    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
+    "productImage": "/assets/img/diagrams/US-27_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
+      "schematic": "/assets/img/diagrams/US-27_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-NA-US-27",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -58,13 +58,13 @@
     "candidateId": "deadbolt_kwikset_660_smartcode_660",
     "familyId": "us-deadbolt",
     "title": {
-      "zh": "ANSI Deadbolt：Kwikset 660或SmartCode 660",
+      "zh": "美标插销死锁：Kwikset 660或SmartCode 660",
       "en": "deadbolt — Kwikset 660或SmartCode 660"
     },
     "region": "North America (ANSI/BHMA)",
     "regionCode": "na",
     "image": "/assets/img/gallery/us-28_real.webp",
-    "features": "主要观察：tailpiece/方向/strike/60或70mm；主要风险：adapter方向和间隙不匹配；最低验证：tailpiece和关门扭矩。",
+    "features": "主要观察：扁平传动尾轴/方向/门框防盗扣板 (Strike Plate)/60或70mm；主要风险：转接联动件 (Adapter)方向和间隙不匹配；最低验证：扁平传动尾轴和关门扭矩。",
     "photoType": "Exact model / interior door-mounted reference",
     "sourceUrl": "https://www.harborcitysupply.com/kwikset-security-660-series-keyed-deadbolt/",
     "status": "R1",
@@ -72,7 +72,7 @@
       "A": "优先测试内侧thumbturn adapter",
       "B": "不是默认配套Cylinder架构"
     },
-    "physicalTest": "tailpiece和关门扭矩",
+    "physicalTest": "扁平传动尾轴和关门扭矩",
     "gtmNotes": "北美Kwikset主流标准孔位，适配旋钮转接头时需重点避免方向反转和间隙打滑问题。",
     "gtmMarket": "北美第一优先市场",
     "block": "na",
@@ -84,9 +84,9 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-28_real.webp",
-    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
+    "productImage": "/assets/img/diagrams/US-28_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
+      "schematic": "/assets/img/diagrams/US-28_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-NA-US-28",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -112,13 +112,13 @@
     "candidateId": "deadbolt_yale_assure_lock_2",
     "familyId": "us-deadbolt",
     "title": {
-      "zh": "数字Deadbolt：Yale Assure Lock 2",
+      "zh": "数字式插销死锁：Yale Assure Lock 2",
       "en": "数字Deadbolt — Yale Assure Lock 2"
     },
     "region": "North America (ANSI/BHMA)",
     "regionCode": "na",
     "image": "/assets/img/gallery/us-29_real.jpg",
-    "features": "主要观察：门体准备/安装孔/内侧机构；主要风险：整锁更换与retrofit概念混淆；最低验证：exact model和输入接口。",
+    "features": "主要观察：门体准备/安装孔/内侧机构；主要风险：整锁更换与retrofit概念混淆；最低验证：精准出厂型号和输入接口。",
     "photoType": "Exact model / installed-on-door review photo",
     "sourceUrl": "https://www.cnet.com/home/security/best-smart-locks/",
     "status": "R0",
@@ -126,7 +126,7 @@
       "A": "必须确认是否为可加装接口",
       "B": "通常不是配套Cylinder retrofit"
     },
-    "physicalTest": "exact model和输入接口",
+    "physicalTest": "精准出厂型号和输入接口",
     "gtmNotes": "北美整锁更换代表，用于区分加装改造与整锁替换边界，避免把整锁更换与retrofit概念混淆。",
     "gtmMarket": "北美第一优先市场",
     "block": "na",
@@ -138,9 +138,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/us-29_real.jpg",
-    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
+    "productImage": "/assets/img/diagrams/US-29_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
+      "schematic": "/assets/img/diagrams/US-29_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-NA-US-29",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -166,13 +166,13 @@
     "candidateId": "knob_lever_lock_standard_tubular_entrance_knob_lever",
     "familyId": "us-bored-lever",
     "title": {
-      "zh": "管式入口Knob或Lever：Standard tubular entrance knob/lever",
+      "zh": "管式球形旋钮/执手锁：Standard tubular entrance knob/lever",
       "en": "knob / lever lock — Standard tubular entrance knob/lever"
     },
     "region": "North America (ANSI/BHMA)",
     "regionCode": "na",
     "image": "/assets/img/gallery/us-30_real.jpg",
-    "features": "主要观察：spindle/锁舌/弹簧/门把手；主要风险：旋转不代表锁定或解锁；最低验证：分别验证latch、lock和手动恢复。",
+    "features": "主要观察：把手方轴 (把手方轴 (Spindle))/锁舌/弹簧/门把手；主要风险：旋转不代表锁定或解锁；最低验证：分别验证碰锁斜舌 (碰锁斜舌 (Latch))、lock和手动恢复。",
     "photoType": "Tubular knob/lever family / door-hardware reference",
     "sourceUrl": "https://www.houseofantiquehardware.com/shop-by-type/antique-door-hardware/locksets/front-door-hardware",
     "status": "R0",
@@ -180,8 +180,8 @@
       "A": "可能只驱动latch，不等同deadbolt",
       "B": "不是优先配套Cylinder样本"
     },
-    "physicalTest": "分别验证latch、lock和手动恢复",
-    "gtmNotes": "基础管式入口锁，改造难点在于必须分离验证Latch（斜舌抓取）与Lock（闭锁状态），不能把单纯转把手误判为已解锁。",
+    "physicalTest": "分别验证碰锁斜舌 (碰锁斜舌 (Latch))、lock和手动恢复",
+    "gtmNotes": "基础管式入口锁，改造难点在于必须分离验证碰锁斜舌 (Latch)（斜舌抓取）与Lock（闭锁状态），不能把单纯转把手误判为已解锁。",
     "gtmMarket": "北美第一优先市场",
     "block": "na",
     "selectionScore": {
@@ -192,9 +192,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/us-30_real.jpg",
-    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
+    "productImage": "/assets/img/diagrams/US-30_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
+      "schematic": "/assets/img/diagrams/US-30_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-NA-US-30",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -220,7 +220,7 @@
     "candidateId": "schlage_l9000_commercial_mortise",
     "familyId": "us-mortise",
     "title": {
-      "zh": "重型商业插芯锁：Schlage L9000 系列 Grade 1 Mortise",
+      "zh": "重型商业插芯锁：Schlage L9000 系列 美标一级商业重型插芯锁",
       "en": "Heavy Commercial Mortise — Schlage L9000 Grade 1"
     },
     "region": "North America (ANSI/BHMA A156.13)",
@@ -246,7 +246,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
-    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
+    "productImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/us-schlage-l9000_real.jpg",
       "hasSchematic": false,
@@ -300,7 +300,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-interconnected_real.jpg",
-    "productImage": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
+    "productImage": "/assets/img/gallery/us-interconnected_real.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/us-interconnected_real.jpg",
       "hasSchematic": false,
@@ -328,7 +328,7 @@
     "candidateId": "australian_deadlatch_lockwood_001",
     "familyId": "au-deadlatch",
     "title": {
-      "zh": "Deadlatch：Lockwood 001",
+      "zh": "自锁夜闩 (Dead碰锁斜舌 (碰锁斜舌 (Latch)))：Lockwood 001",
       "en": "Australian deadlatch — Lockwood 001"
     },
     "region": "Australia & New Zealand (AS)",
@@ -354,9 +354,9 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/au-11_real.jpg",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/AU-11_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
+      "schematic": "/assets/img/diagrams/AU-11_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-UK-ANZ-AU-11",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -408,9 +408,9 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-13_real.jpg",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/AU-13_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
+      "schematic": "/assets/img/diagrams/AU-13_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-UK-ANZ-AU-13",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -436,7 +436,7 @@
     "candidateId": "deadbolt_whitco_double_cylinder_deadbolt",
     "familyId": "us-deadbolt",
     "title": {
-      "zh": "双Cylinder Deadbolt：Whitco Double-cylinder Deadbolt",
+      "zh": "双缸插销死锁：Whitco Double-锁芯 (锁芯 (Cylinder)) 插销死锁 (Deadbolt)",
       "en": "deadbolt — Whitco Double-cylinder Deadbolt"
     },
     "region": "Australia & New Zealand (AS)",
@@ -462,7 +462,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-16_real.jpg",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/AU-16_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-16_schematic.svg",
       "hasSchematic": true,
@@ -490,7 +490,7 @@
     "candidateId": "deadlatch_whitco_double_cylinder_deadlatch",
     "familyId": "au-deadlatch",
     "title": {
-      "zh": "双Cylinder Deadlatch：Whitco Double-cylinder Deadlatch",
+      "zh": "双缸自动锁闭夜闩：Whitco Double-锁芯 (锁芯 (Cylinder)) 自锁夜闩 (Dead碰锁斜舌 (碰锁斜舌 (Latch)))",
       "en": "Deadlatch — Whitco Double-cylinder Deadlatch"
     },
     "region": "Australia & New Zealand (AS)",
@@ -516,7 +516,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-17_real.png",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/AU-17_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-17_schematic.svg",
       "hasSchematic": true,
@@ -544,7 +544,7 @@
     "candidateId": "digital_deadlatch_lockwood_002",
     "familyId": "au-deadlatch",
     "title": {
-      "zh": "数字Deadlatch：Lockwood 002",
+      "zh": "数字自锁夜闩 (Dead碰锁斜舌 (碰锁斜舌 (Latch)))：Lockwood 002",
       "en": "digital deadlatch — Lockwood 002"
     },
     "region": "Australia & New Zealand (AS)",
@@ -559,7 +559,7 @@
       "B": "仅限型号特定"
     },
     "physicalTest": "实际输入和输出",
-    "gtmNotes": "澳洲数字Deadlatch，内部采用专有电气与机械接口，属于非标准直接旋转加装样本。",
+    "gtmNotes": "澳洲数字自锁夜闩 (Dead碰锁斜舌 (碰锁斜舌 (Latch)))，内部采用专有电气与机械接口，属于非标准直接旋转加装样本。",
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
@@ -570,9 +570,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-12_real.jpg",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/AU-12_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
+      "schematic": "/assets/img/diagrams/AU-12_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-UK-ANZ-AU-12",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -598,13 +598,13 @@
     "candidateId": "mortise_lock_lockwood_selector_3770_3772",
     "familyId": "us-mortise",
     "title": {
-      "zh": "Mortise锁：Lockwood Selector 3770/3772",
+      "zh": "工业插芯锁体：Lockwood Selector 3770/3772",
       "en": "mortise lock — Lockwood Selector 3770/3772"
     },
     "region": "Australia & New Zealand (AS)",
     "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-14_real.jpg",
-    "features": "主要观察：60mm backset/锁体/把手联动；主要风险：高阻力和把手联动；最低验证：tailpiece/turn和把手输出。",
+    "features": "主要观察：60mm backset/锁体/把手联动；主要风险：高阻力和把手联动；最低验证：扁平传动尾轴/turn和把手输出。",
     "photoType": "Selector family / mortice installation reference",
     "sourceUrl": "https://thelockshop.com.au/products/lockwood-selector-3772-universal-mortice-lock",
     "status": "R0",
@@ -612,8 +612,8 @@
       "A": "有直接旋转输入时才可测试",
       "B": "具体锁体/Cylinder组合"
     },
-    "physicalTest": "tailpiece/turn和把手输出",
-    "gtmNotes": "澳洲商业与住宅重型插芯锁（60mm背距），联动把手阻力大，需专用Tailpiece转接驱动。",
+    "physicalTest": "扁平传动尾轴/turn和把手输出",
+    "gtmNotes": "澳洲商业与住宅重型插芯锁（60mm背距），联动把手阻力大，需专用扁平传动尾轴转接驱动。",
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
@@ -624,7 +624,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-14_real.jpg",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/AU-14_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-14_schematic.svg",
       "hasSchematic": true,
@@ -652,7 +652,7 @@
     "candidateId": "mortise_lock_lockwood_selector_4770_4772",
     "familyId": "us-mortise",
     "title": {
-      "zh": "加长Mortise锁：Lockwood Selector 4770/4772",
+      "zh": "加长工业插芯锁体：Lockwood Selector 4770/4772",
       "en": "mortise lock — Lockwood Selector 4770/4772"
     },
     "region": "Australia & New Zealand (AS)",
@@ -678,7 +678,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-15_real.jpg",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/AU-15_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-15_schematic.svg",
       "hasSchematic": true,
@@ -706,13 +706,13 @@
     "candidateId": "knob_lever_lock_whitco_tubular_entrance_knob_lever",
     "familyId": "us-bored-lever",
     "title": {
-      "zh": "管式Knob或Lever锁：Whitco tubular entrance knob/lever",
+      "zh": "管式球形旋钮/执手锁：Whitco tubular entrance knob/lever",
       "en": "knob / lever lock — Whitco tubular entrance knob/lever"
     },
     "region": "Australia & New Zealand (AS)",
     "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-18_real.png",
-    "features": "主要观察：spindle/回位弹簧/锁舌；主要风险：把手动作被误认为解锁；最低验证：分开证明latch和lock。",
+    "features": "主要观察：把手方轴 (把手方轴 (Spindle))/回位弹簧/锁舌；主要风险：把手动作被误认为解锁；最低验证：分开证明碰锁斜舌 (碰锁斜舌 (Latch))和lock。",
     "photoType": "Knob/lever family / door-hardware reference",
     "sourceUrl": "https://doorcorner.com/blogs/articles-and-advice/door-knobs-and-door-lever-functions",
     "status": "R0",
@@ -720,7 +720,7 @@
       "A": "可能只驱动latch而不是lock",
       "B": "不是优先配套Cylinder样本"
     },
-    "physicalTest": "分开证明latch和lock",
+    "physicalTest": "分开证明碰锁斜舌 (碰锁斜舌 (Latch))和lock",
     "gtmNotes": "澳式管式把手锁，方轴与回位弹簧强劲，需分别证明斜舌行程与锁定逻辑。",
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
@@ -732,7 +732,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-18_real.png",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/AU-18_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-18_schematic.svg",
       "hasSchematic": true,
@@ -760,7 +760,7 @@
     "candidateId": "euro_double_cylinder_euro_30_30",
     "familyId": "euro-cylinder-mortise",
     "title": {
-      "zh": "Euro双Cylinder：Euro 30/30",
+      "zh": "欧标槽型双锁芯：Euro 30/30",
       "en": "Euro double cylinder — Euro 30/30"
     },
     "region": "Continental Europe (DIN/EN)",
@@ -786,9 +786,9 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/eu-19_real.jpg",
-    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
+    "productImage": "/assets/img/diagrams/EU-19_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+      "schematic": "/assets/img/diagrams/EU-19_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-19",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -814,7 +814,7 @@
     "candidateId": "euro_double_cylinder_euro_35_35",
     "familyId": "euro-cylinder-mortise",
     "title": {
-      "zh": "Euro双Cylinder：Euro 35/35",
+      "zh": "欧标槽型双锁芯：Euro 35/35",
       "en": "Euro double cylinder — Euro 35/35"
     },
     "region": "Continental Europe (DIN/EN)",
@@ -840,9 +840,9 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-20_real.jpg",
-    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
+    "productImage": "/assets/img/diagrams/EU-20_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+      "schematic": "/assets/img/diagrams/EU-20_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-20",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -868,13 +868,13 @@
     "candidateId": "euro_thumbturn_cylinder_euro_35_45_removable_thumbturn",
     "familyId": "euro-cylinder-mortise",
     "title": {
-      "zh": "Euro可拆Thumbturn：Euro 35/45 removable thumbturn",
+      "zh": "Euro可拆Thumbturn：Euro 35/45 removable 内侧旋转手扭 (Thumbturn)",
       "en": "Euro thumbturn cylinder — Euro 35/45 removable thumbturn"
     },
     "region": "Continental Europe (DIN/EN)",
     "regionCode": "europe5",
     "image": "/assets/img/gallery/eu-21_real.jpg",
-    "features": "主要观察：thumbturn可拆性/直径/啮合；主要风险：旋钮不可拆或adapter打滑；最低验证：adapter啮合和锁输出。",
+    "features": "主要观察：内侧旋转手扭 (Thumbturn)可拆性/直径/啮合；主要风险：旋钮不可拆或转接联动件 (Adapter)打滑；最低验证：转接联动件 (Adapter)啮合和锁输出。",
     "photoType": "Thumbturn Euro family / installation reference",
     "sourceUrl": "https://danddhardware.com/Euro-Lock-Cylinder-Thumbturn-DDCT002-pd42154644.html",
     "status": "R1",
@@ -882,7 +882,7 @@
       "A": "可测试thumbturn adapter",
       "B": "配套Cylinder优先样本"
     },
-    "physicalTest": "adapter啮合和锁输出",
+    "physicalTest": "转接联动件 (Adapter)啮合和锁输出",
     "gtmNotes": "欧洲可拆卸旋钮锁芯（35/45），测试旋钮拆卸后的转轴直径与直接啮合齿轮适配器。",
     "gtmMarket": "欧洲大容量成熟市场",
     "block": "europe5",
@@ -894,9 +894,9 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-21_real.jpg",
-    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
+    "productImage": "/assets/img/diagrams/EU-21_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+      "schematic": "/assets/img/diagrams/EU-21_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-21",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -922,7 +922,7 @@
     "candidateId": "euro_thumbturn_cylinder_euro_40_50_asymmetric_thumbturn",
     "familyId": "euro-cylinder-mortise",
     "title": {
-      "zh": "非对称Thumbturn Euro：Euro 40/50 asymmetric thumbturn",
+      "zh": "非对称Thumbturn Euro：Euro 40/50 asymmetric 内侧旋转手扭 (Thumbturn)",
       "en": "Euro thumbturn cylinder — Euro 40/50 asymmetric thumbturn"
     },
     "region": "Continental Europe (DIN/EN)",
@@ -948,9 +948,9 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/eu-22_real.jpg",
-    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
+    "productImage": "/assets/img/diagrams/EU-22_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+      "schematic": "/assets/img/diagrams/EU-22_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-22",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -1002,9 +1002,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-23_real.webp",
-    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
+    "productImage": "/assets/img/diagrams/EU-23_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+      "schematic": "/assets/img/diagrams/EU-23_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-23",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -1056,10 +1056,10 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
-    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
+    "productImage": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
-      "hasSchematic": true,
+      "schematic": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
+      "hasSchematic": false,
       "drillingTemplate": "TPL-EUROPE5-EU-27",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
       "requiredTorque": "≥ 1.2 N·m (Motor torque)",
@@ -1110,10 +1110,10 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-cisa-rim_real.jpg",
-    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
+    "productImage": "/assets/img/gallery/eu-cisa-rim_real.jpg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
-      "hasSchematic": true,
+      "schematic": "/assets/img/gallery/eu-cisa-rim_real.jpg",
+      "hasSchematic": false,
       "drillingTemplate": "TPL-EUROPE5-EU-28",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
       "requiredTorque": "≥ 1.2 N·m (Motor torque)",
@@ -1138,13 +1138,13 @@
     "candidateId": "uk_5_lever_mortise_lock_uk_5_lever_mortice_deadlock_44mm",
     "familyId": "uk-5-lever-mortice",
     "title": {
-      "zh": "5杆Mortise Deadlock 44mm：UK 5-lever mortice deadlock 44mm",
+      "zh": "英标5拨杆防盗插芯死锁 44mm：UK 5-lever mortice deadlock 44mm",
       "en": "UK 5-lever mortise lock — UK 5-lever mortice deadlock 44mm"
     },
     "region": "United Kingdom (BS 3621)",
     "regionCode": "uk-anz",
     "image": "/assets/img/gallery/eu-24_real.webp",
-    "features": "主要观察：44mm backset/钥匙/锁体深度；主要风险：方向和锁体阻力；最低验证：deadbolt和latch分开。",
+    "features": "主要观察：44mm backset/钥匙/锁体深度；主要风险：方向和锁体阻力；最低验证：插销死锁 (插销死锁 (Deadbolt))和碰锁斜舌 (碰锁斜舌 (Latch))分开。",
     "photoType": "UK mortice family / installation reference",
     "sourceUrl": "https://www.mbdiy.co.uk/blog/comparisons/5-lever-mortice-or-a-upvc-multipoint-door-lock/",
     "status": "R0",
@@ -1152,7 +1152,7 @@
       "A": "key可转deadbolt但把手可能独立",
       "B": "仅在lock case接受时考虑"
     },
-    "physicalTest": "deadbolt和latch分开",
+    "physicalTest": "插销死锁 (插销死锁 (Deadbolt))和碰锁斜舌 (碰锁斜舌 (Latch))分开",
     "gtmNotes": "英国传统5拨杆插芯呆锁（BS 3621，44mm背距），需长钥匙穿透且阻力大，通常无法直接由内侧旋钮电机驱动。",
     "gtmMarket": "英国本土存量市场",
     "block": "uk-anz",
@@ -1164,7 +1164,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-24_real.webp",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/EU-24_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-24_schematic.svg",
       "hasSchematic": true,
@@ -1192,13 +1192,13 @@
     "candidateId": "uk_sashlock_uk_5_lever_mortice_sashlock_56mm",
     "familyId": "uk-5-lever-mortice",
     "title": {
-      "zh": "5杆Mortise Sashlock 56mm：UK 5-lever mortice sashlock 56mm",
+      "zh": "英标5拨杆带斜舌插芯锁 56mm：UK 5-lever mortice sashlock 56mm",
       "en": "UK sashlock — UK 5-lever mortice sashlock 56mm"
     },
     "region": "United Kingdom (BS 3621)",
     "regionCode": "uk-anz",
     "image": "/assets/img/gallery/eu-25_real.png",
-    "features": "主要观察：56mm backset/中心距/方杆；主要风险：部分解锁或卡滞；最低验证：把手和deadbolt序列。",
+    "features": "主要观察：56mm backset/中心距/方杆；主要风险：部分解锁或卡滞；最低验证：把手和插销死锁 (插销死锁 (Deadbolt))序列。",
     "photoType": "UK sashlock family / product reference",
     "sourceUrl": "https://www.barnsleylock.co.uk/asec-vital--bs--5-lever-mortice-sashlock-7722-p.asp",
     "status": "R0",
@@ -1206,7 +1206,7 @@
       "A": "钥匙和把手可能联动",
       "B": "仅在lock case兼容时考虑"
     },
-    "physicalTest": "把手和deadbolt序列",
+    "physicalTest": "把手和插销死锁 (插销死锁 (Deadbolt))序列",
     "gtmNotes": "英国5拨杆带把手斜舌插芯锁（56mm背距），方轴与钥匙孔分离，需避免把手未压下时锁舌卡死。",
     "gtmMarket": "英国本土存量市场",
     "block": "uk-anz",
@@ -1218,7 +1218,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-25_real.png",
-    "productImage": "/assets/img/hero/hero-anz-lockwood001.jpg",
+    "productImage": "/assets/img/diagrams/EU-25_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-25_schematic.svg",
       "hasSchematic": true,
@@ -1246,7 +1246,7 @@
     "candidateId": "euro_mortise_lock_union_chubb_3c10_euro_mortice",
     "familyId": "euro-cylinder-mortise",
     "title": {
-      "zh": "Union/Chubb Euro Mortise：Union/Chubb 3C10 Euro mortice",
+      "zh": "Union/Chubb 欧标插芯锁体：Union/Chubb 3C10 Euro mortice",
       "en": "Euro mortise lock — Union/Chubb 3C10 Euro mortice"
     },
     "region": "Continental Europe (DIN/EN)",
@@ -1272,9 +1272,9 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-26_real.webp",
-    "productImage": "/assets/img/tier2_product/din-18251-case.jpg",
+    "productImage": "/assets/img/diagrams/EU-26_schematic.svg",
     "installationGuide": {
-      "schematic": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
+      "schematic": "/assets/img/diagrams/EU-26_schematic.svg",
       "hasSchematic": true,
       "drillingTemplate": "TPL-EUROPE5-EU-26",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
@@ -1300,13 +1300,13 @@
     "candidateId": "digital_mortise_lock_yale_ydm4109rl_60mm",
     "familyId": "sg-hdb-mortise",
     "title": {
-      "zh": "数字Mortise锁：Yale YDM4109RL+ 60mm",
+      "zh": "数字式插芯锁体：Yale YDM4109RL+ 60mm",
       "en": "digital mortise lock — Yale YDM4109RL+ 60mm"
     },
     "region": "Singapore & SE Asia",
     "regionCode": "sea",
     "image": "/assets/img/gallery/sg-01_real.jpg",
-    "features": "主要观察：门厚/背set/锁体深度/内侧机构；主要风险：把手与deadbolt联动不明；最低验证：内侧输入和完整锁状态。",
+    "features": "主要观察：门厚/背set/锁体深度/内侧机构；主要风险：把手与插销死锁 (插销死锁 (Deadbolt))联动不明；最低验证：内侧输入和完整锁状态。",
     "photoType": "Exact model / installation-service product page",
     "sourceUrl": "https://sharpi.in/product/yale-ydm4109a-rl-smart-digital-intelligent-bio-metric-door-lock-free-installation-by-yale-buy-online-india/",
     "status": "R0",
@@ -1326,7 +1326,7 @@
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/sg-01_real.jpg",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-01_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-01_schematic.svg",
       "hasSchematic": true,
@@ -1354,7 +1354,7 @@
     "candidateId": "digital_mortise_lock_yale_ydm7116",
     "familyId": "sg-hdb-mortise",
     "title": {
-      "zh": "数字Mortise锁：Yale YDM7116",
+      "zh": "数字式插芯锁体：Yale YDM7116",
       "en": "digital mortise lock — Yale YDM7116"
     },
     "region": "Singapore & SE Asia",
@@ -1380,7 +1380,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-02_real.png",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-02_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-02_schematic.svg",
       "hasSchematic": true,
@@ -1434,7 +1434,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-03_real.png",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-03_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-03_schematic.svg",
       "hasSchematic": true,
@@ -1462,13 +1462,13 @@
     "candidateId": "push_pull_mortise_lock_samsung_shp_dp728",
     "familyId": "kr-pushpull-mortise",
     "title": {
-      "zh": "Push-pull Mortise锁：Samsung SHP-DP728",
+      "zh": "推拉式插芯整锁：Samsung SHP-DP728",
       "en": "push-pull mortise lock — Samsung SHP-DP728"
     },
     "region": "Singapore & SE Asia",
     "regionCode": "sea",
     "image": "/assets/img/gallery/sg-04_real.webp",
-    "features": "主要观察：推拉把手/锁舌/门边空间；主要风险：把手和多连杆序列不完整；最低验证：把手和deadbolt完整循环。",
+    "features": "主要观察：推拉把手/锁舌/门边空间；主要风险：把手和多连杆序列不完整；最低验证：把手和插销死锁 (插销死锁 (Deadbolt))完整循环。",
     "photoType": "Exact model / installation-service listing",
     "sourceUrl": "https://www.lazada.sg/products/free-installation-samsung-shp-dp728-smart-digital-lock-i263599294.html",
     "status": "R0",
@@ -1476,7 +1476,7 @@
       "A": "不假设为直接旋转",
       "B": "具体锁体替换为主"
     },
-    "physicalTest": "把手和deadbolt完整循环",
+    "physicalTest": "把手和插销死锁 (插销死锁 (Deadbolt))完整循环",
     "gtmNotes": "三星推拉式插芯数字锁，开门动作与把手推拉强绑定，非直接旋转架构所能覆盖。",
     "gtmMarket": "东南亚/东亚推拉锁市场",
     "block": "sea",
@@ -1488,7 +1488,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-04_real.webp",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-04_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-04_schematic.svg",
       "hasSchematic": true,
@@ -1542,7 +1542,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-05_real.webp",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-05_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-05_schematic.svg",
       "hasSchematic": true,
@@ -1596,7 +1596,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-06_real.jpg",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-06_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-06_schematic.svg",
       "hasSchematic": true,
@@ -1624,7 +1624,7 @@
     "candidateId": "digital_mortise_lock_aqara_a100_d200i",
     "familyId": "sg-hdb-mortise",
     "title": {
-      "zh": "数字Mortise锁：Aqara A100或D200i",
+      "zh": "数字式插芯锁体：Aqara A100或D200i",
       "en": "digital mortise lock — Aqara A100或D200i"
     },
     "region": "Singapore & SE Asia",
@@ -1650,7 +1650,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-07_real.png",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-07_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-07_schematic.svg",
       "hasSchematic": true,
@@ -1678,7 +1678,7 @@
     "candidateId": "digital_mortise_lock_gateman_sp122_g_swipe",
     "familyId": "sg-hdb-mortise",
     "title": {
-      "zh": "数字Mortise锁：Gateman SP122或G-Swipe",
+      "zh": "数字式插芯锁体：Gateman SP122或G-Swipe",
       "en": "digital mortise lock — Gateman SP122或G-Swipe"
     },
     "region": "Singapore & SE Asia",
@@ -1704,7 +1704,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-08_real.jpg",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-08_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-08_schematic.svg",
       "hasSchematic": true,
@@ -1732,7 +1732,7 @@
     "candidateId": "digital_mortise_lock_kaadas_k9_5w",
     "familyId": "kr-pushpull-mortise",
     "title": {
-      "zh": "数字Mortise锁：Kaadas K9-5W",
+      "zh": "数字式插芯锁体：Kaadas K9-5W",
       "en": "digital mortise lock — Kaadas K9-5W"
     },
     "region": "Singapore & SE Asia",
@@ -1758,7 +1758,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-09_real.webp",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-09_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-09_schematic.svg",
       "hasSchematic": true,
@@ -1786,7 +1786,7 @@
     "candidateId": "digital_mortise_lock_philips_easykey_alpha",
     "familyId": "kr-pushpull-mortise",
     "title": {
-      "zh": "数字Mortise锁：Philips EasyKey Alpha",
+      "zh": "数字式插芯锁体：Philips EasyKey Alpha",
       "en": "digital mortise lock — Philips EasyKey Alpha"
     },
     "region": "Singapore & SE Asia",
@@ -1812,7 +1812,7 @@
       "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-10_real.jpg",
-    "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
+    "productImage": "/assets/img/diagrams/SG-10_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-10_schematic.svg",
       "hasSchematic": true,
@@ -1862,7 +1862,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-26_real.webp",
-    "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "productImage": "/assets/img/gallery/eu-26_real.webp",
     "installationGuide": {
       "schematic": "/assets/img/gallery/eu-26_real.webp",
       "hasSchematic": false,
@@ -1912,7 +1912,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-13_real.jpg",
-    "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "productImage": "/assets/img/gallery/au-13_real.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/au-13_real.jpg",
       "hasSchematic": false,
@@ -2020,7 +2020,7 @@
       "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
-    "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "productImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
     "installationGuide": {
       "schematic": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
       "hasSchematic": false,
