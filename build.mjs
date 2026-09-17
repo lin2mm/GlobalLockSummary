@@ -928,7 +928,7 @@ function renderGalleryCard(item, lang) {
   const sceneImg = item.sceneImage || item.image;
   const productImg = item.productImage || item.image;
 
-  return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}">
+  return `<div class="gallery-card" data-gallery-card data-tier="${escapeHtml(item.tierClass || "Mainstream")}" data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}">
     <div class="gallery-card__dual-img-container" style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; position: relative; border-radius: 6px 6px 0 0; overflow: hidden;">
       <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '实景图' : 'Scene'}" style="position: relative; display: block; overflow: hidden; height: 165px; background: #1e293b;">
         <img class="gallery-card__img" src="${escapeHtml(sceneImg)}" alt="${escapeHtml(title)}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" />
@@ -938,8 +938,13 @@ function renderGalleryCard(item, lang) {
         <img class="gallery-card__img" src="${escapeHtml(productImg)}" alt="${escapeHtml(title)}" loading="lazy" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         <span style="position: absolute; bottom: 6px; right: 6px; background: rgba(15, 23, 42, 0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px; letter-spacing: 0.05em; text-transform: uppercase;">${isZh ? '结构' : 'ASSEMBLY'}</span>
       </a>
-      <div class="gallery-card__badges" style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; pointer-events: none;">
-        <span class="gallery-card__id" style="font-family: var(--font-mono, monospace); font-weight: 700; font-size: 0.72rem;">${escapeHtml(item.id)}</span>
+      <div class="gallery-card__badges" style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; align-items: center; pointer-events: none;">
+        <div style="display: flex; gap: 4px; align-items: center;">
+          <span class="gallery-card__id" style="font-family: var(--font-mono, monospace); font-weight: 700; font-size: 0.72rem;">${escapeHtml(item.id)}</span>
+          ${item.tierClass === 'Mainstream' 
+            ? `<span style="background: #0284c7; color: #ffffff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px; letter-spacing: 0.02em;">★ ${isZh ? '主流基准' : 'MAINSTREAM'}</span>` 
+            : `<span style="background: #475569; color: #f8fafc; font-size: 0.65rem; font-weight: 600; padding: 2px 5px; border-radius: 3px;">${isZh ? '小众/特殊' : 'NICHE'}</span>`}
+        </div>
         <span class="gallery-card__status ${statusClass}">${escapeHtml(statusText)}</span>
       </div>
     </div>
@@ -1225,9 +1230,21 @@ function build() {
         <div class="gallery-block__header">
           <div class="gallery-block__title-wrap">
             <h1 class="gallery-block__title">${escapeHtml(block.title)}</h1>
-            <span class="gallery-block__badge">${block.items.length} ${isZh ? '类实物样本' : 'models'}</span>
+            <span class="gallery-block__badge">${block.items.length} ${isZh ? '款实物样本' : 'models'}</span>
           </div>
           <p class="gallery-block__subtitle">${escapeHtml(block.subtitle)}</p>
+          <div class="gallery-tier-filter" style="display: flex; gap: 8px; margin: 14px 0 0; flex-wrap: wrap; align-items: center;">
+            <span style="font-size: 0.8rem; font-weight: 700; color: #475569;">${isZh ? '🎯 市场分级直选:' : 'Market Filter:'}</span>
+            <button class="tier-filter-btn is-active" data-filter="all" onclick="filterTier('all', this)" style="font-size: 0.78rem; font-weight: 600; padding: 4px 10px; border-radius: 4px; border: 1px solid #0284c7; background: #0284c7; color: #ffffff; cursor: pointer;">
+              ${isZh ? '全部样本' : 'All'} (${block.items.length})
+            </button>
+            <button class="tier-filter-btn" data-filter="Mainstream" onclick="filterTier('Mainstream', this)" style="font-size: 0.78rem; font-weight: 600; padding: 4px 10px; border-radius: 4px; border: 1px solid #cbd5e1; background: #ffffff; color: #0284c7; cursor: pointer;">
+              ★ ${isZh ? '主流基准锁' : 'Mainstream Standards'} (${block.items.filter(i => i.tierClass === 'Mainstream').length})
+            </button>
+            <button class="tier-filter-btn" data-filter="Niche" onclick="filterTier('Niche', this)" style="font-size: 0.78rem; font-weight: 600; padding: 4px 10px; border-radius: 4px; border: 1px solid #cbd5e1; background: #ffffff; color: #475569; cursor: pointer;">
+              🔍 ${isZh ? '小众/特殊锁' : 'Niche & Specialty'} (${block.items.filter(i => i.tierClass !== 'Mainstream').length})
+            </button>
+          </div>
         </div>
         ${heroHtml}
         ${block.code === 'europe5' ? `

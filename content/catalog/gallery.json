@@ -82,7 +82,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "US-28",
@@ -167,7 +173,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "US-29",
@@ -252,7 +264,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "US-30",
@@ -337,7 +355,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "US-31",
@@ -422,7 +446,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "US-32",
@@ -507,7 +537,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "AU-11",
@@ -592,7 +628,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "AU-13",
@@ -677,7 +719,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "AU-16",
@@ -762,7 +810,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "AU-17",
@@ -847,7 +901,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "AU-12",
@@ -932,7 +992,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "AU-14",
@@ -1017,7 +1083,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "AU-15",
@@ -1102,7 +1174,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "AU-18",
@@ -1187,7 +1265,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "EU-19",
@@ -1272,7 +1356,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-20",
@@ -1357,7 +1447,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-21",
@@ -1442,7 +1538,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-22",
@@ -1527,7 +1629,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-23",
@@ -1612,7 +1720,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "EU-27",
@@ -1697,7 +1811,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-28",
@@ -1782,7 +1902,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-24",
@@ -1867,7 +1993,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "EU-25",
@@ -1952,7 +2084,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "EU-26",
@@ -2037,7 +2175,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-01",
@@ -2122,7 +2266,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "SG-02",
@@ -2207,7 +2357,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-03",
@@ -2292,7 +2448,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-04",
@@ -2377,7 +2539,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-05",
@@ -2462,7 +2630,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-06",
@@ -2547,7 +2721,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-07",
@@ -2632,7 +2812,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-08",
@@ -2717,7 +2903,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-09",
@@ -2802,7 +2994,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "SG-10",
@@ -2887,7 +3085,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "LA-01",
@@ -2968,7 +3172,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "LA-02",
@@ -3049,7 +3259,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "LA-03",
@@ -3134,7 +3350,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "LA-04",
@@ -3219,7 +3441,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "US-33",
@@ -3300,7 +3528,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "US-34",
@@ -3381,7 +3615,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "US-35",
@@ -3462,7 +3702,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "US-36",
@@ -3543,7 +3789,13 @@
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
       "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-37",
@@ -3624,7 +3876,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-38",
@@ -3705,7 +3963,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-39",
@@ -3786,7 +4050,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "EU-40",
@@ -3867,7 +4137,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "AU-41",
@@ -3948,7 +4224,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "UK-42",
@@ -4029,7 +4311,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
   },
   {
     "id": "JP-43",
@@ -4110,7 +4398,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "SG-44",
@@ -4191,7 +4485,13 @@
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
       "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "LA-45",
@@ -4272,7 +4572,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "LA-46",
@@ -4353,7 +4659,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "LA-47",
@@ -4434,7 +4746,13 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
-    }
+    },
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%+)",
+      "en": "Mainstream (Top 25%+)"
+    },
+    "marketSharePercent": "≥25%"
   },
   {
     "id": "LA-48",
@@ -4515,6 +4833,1212 @@
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
       "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+    },
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊锁型 (Niche)",
+      "en": "Niche / Specialty"
+    },
+    "marketSharePercent": "<10%"
+  },
+  {
+    "id": "US-31",
+    "candidateId": "us_arrow_deadbolt_d_series",
+    "familyId": "us-deadbolt",
+    "title": {
+      "zh": "Arrow D系列重型美标死锁 (商业主流)",
+      "en": "Arrow D-Series Heavy Duty Deadbolt (Commercial)"
+    },
+    "region": "North America (ANSI/BHMA)",
+    "regionCode": "na",
+    "block": "na",
+    "image": "/assets/img/gallery/us-27_real.jpg",
+    "features": "主要观察：ANSI 1级重型铸造锁壳/可换锁芯；主要风险：商业重门沉重回弹；最低验证：开门/关门各3次。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%)",
+      "en": "Mainstream (Top 25%)"
+    },
+    "marketSharePercent": "28%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/us-27_real.jpg",
+    "productImage": "/assets/img/gallery/us-27_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/us-27_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-NA-US-31",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "US-32",
+    "candidateId": "us_corbin_russwin_mortise_ml2000",
+    "familyId": "us-mortise",
+    "title": {
+      "zh": "Corbin Russwin ML2000 工业插芯锁 (重型主流)",
+      "en": "Corbin Russwin ML2000 Heavy Mortise (Commercial Mainstream)"
+    },
+    "region": "North America (ANSI/BHMA)",
+    "regionCode": "na",
+    "block": "na",
+    "image": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "features": "主要观察：美标 ANSI A156.13 1级高安防重型插芯/高强度弹簧；主要风险：下压阻力大；最低验证：5次复验。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%)",
+      "en": "Mainstream (Top 25%)"
+    },
+    "marketSharePercent": "26%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "productImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-NA-US-32",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "US-33",
+    "candidateId": "us_sargent_8200_mortise",
+    "familyId": "us-mortise",
+    "title": {
+      "zh": "Sargent 8200 系列高端工程插芯锁 (工商业主流)",
+      "en": "Sargent 8200 Series High-End Mortise Lock"
+    },
+    "region": "North America (ANSI/BHMA)",
+    "regionCode": "na",
+    "block": "na",
+    "image": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "features": "主要观察：锻造黄铜面板/双向执手回弹；主要风险：锁芯螺纹间隙；最低验证：3次开合测试。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%)",
+      "en": "Mainstream (Top 25%)"
+    },
+    "marketSharePercent": "24%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "productImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-NA-US-33",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "US-34",
+    "candidateId": "us_jimmy_proof_deadlock_segal",
+    "familyId": "us-deadbolt",
+    "title": {
+      "zh": "Segal 表面联锁防撬夜闩锁 (纽约老式小众锁)",
+      "en": "Segal Vertical Interlocking Jimmy-Proof Deadlock (Niche Retrofit)"
+    },
+    "region": "North America (ANSI/BHMA)",
+    "regionCode": "na",
+    "block": "na",
+    "image": "/assets/img/gallery/us-29_real.jpg",
+    "features": "主要观察：垂直双联锁舌 (Vertical Interlocking Pins)；主要风险：普通横向智能锁完全无法适配；最低验证：旋钮垂直联动测试。",
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊结构 (Niche <8%)",
+      "en": "Niche / Non-Mainstream (<8%)"
+    },
+    "marketSharePercent": "7%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/us-29_real.jpg",
+    "productImage": "/assets/img/gallery/us-29_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/us-29_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-NA-US-34",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B-",
+        "modificationType": "Minor Fitting",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "EU-35",
+    "candidateId": "eu_dom_diamant_cylinder",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "DOM Diamant 德系高精度圆盘锁芯 (高安防小众)",
+      "en": "DOM Diamant Disc-Detainer High Security Cylinder (Niche Ultra-High End)"
+    },
+    "region": "Europe (DIN/EN)",
+    "regionCode": "eu",
+    "block": "europe5",
+    "image": "/assets/img/gallery/eu-19_real.jpg",
+    "features": "主要观察：无弹珠旋转盘式结构/钥匙头部极其粗厚；主要风险：改装马达夹持抓手无法塞入；最低验证：夹爪同心度测试。",
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊结构 (Niche <5%)",
+      "en": "Niche / Ultra-High End (<5%)"
+    },
+    "marketSharePercent": "4%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/eu-19_real.jpg",
+    "productImage": "/assets/img/gallery/eu-19_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/eu-19_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-EUROPE5-EU-35",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B-",
+        "modificationType": "Minor Fitting",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "EU-36",
+    "candidateId": "eu_fichet_sans_souci_cylinder",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "法国 Fichet 独家圆柱异形防盗锁 (法系小众专用)",
+      "en": "Fichet Sans-Souci Proprietary French Round Cylinder (Niche Proprietary)"
+    },
+    "region": "Europe (DIN/EN)",
+    "regionCode": "eu",
+    "block": "europe5",
+    "image": "/assets/img/gallery/eu-20_real.jpg",
+    "features": "主要观察：非标准圆柱形截面 (Non-DIN Round Body)；主要风险：欧标水滴底板完全不兼容；最低验证：专用转接法兰适配。",
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊结构 (Niche <6%)",
+      "en": "Niche / Proprietary (<6%)"
+    },
+    "marketSharePercent": "6%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/eu-20_real.jpg",
+    "productImage": "/assets/img/gallery/eu-20_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/eu-20_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-EUROPE5-EU-36",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B-",
+        "modificationType": "Minor Fitting",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "EU-37",
+    "candidateId": "eu_winkhaus_bluechip_smart_cylinder",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "Winkhaus blueChip 欧标机电复合锁芯 (工程主流)",
+      "en": "Winkhaus blueChip Mechatronic DIN Cylinder"
+    },
+    "region": "Europe (DIN/EN)",
+    "regionCode": "eu",
+    "block": "europe5",
+    "image": "/assets/img/gallery/eu-21_real.jpg",
+    "features": "主要观察：标准 DIN 18252 葫芦形/内置感应芯片；主要风险：钥匙柄厚度干涉；最低验证：3次插拔感应测试。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%)",
+      "en": "Mainstream (Top 25%)"
+    },
+    "marketSharePercent": "25%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/eu-21_real.jpg",
+    "productImage": "/assets/img/gallery/eu-21_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/eu-21_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-EUROPE5-EU-37",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "EU-38",
+    "candidateId": "eu_assa_abloy_onefit_modular_mortise",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "ASSA ABLOY OneFit 欧标模块化插芯锁 (欧陆主流标杆)",
+      "en": "ASSA ABLOY OneFit Modular Euro Mortise Lock (Universal Mainstream)"
+    },
+    "region": "Europe (DIN/EN)",
+    "regionCode": "eu",
+    "block": "europe5",
+    "image": "/assets/img/gallery/eu-22_real.jpg",
+    "features": "主要观察：DIN 18251 规格/可换面板与可调左右开向；主要风险：锁体沉深 85mm；最低验证：5次手柄回弹测试。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 30%)",
+      "en": "Mainstream (Top 30%)"
+    },
+    "marketSharePercent": "34%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/eu-22_real.jpg",
+    "productImage": "/assets/img/gallery/eu-22_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/eu-22_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-EUROPE5-EU-38",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "AU-39",
+    "candidateId": "au_lane_security_deadbolt",
+    "familyId": "au-deadlatch",
+    "title": {
+      "zh": "Lane Security 澳式圆盘死锁 (零售主流)",
+      "en": "Lane Security Round Rose Deadbolt (Australian Mainstream)"
+    },
+    "region": "Oceania & UK (AS/BS)",
+    "regionCode": "oc",
+    "block": "uk-anz",
+    "image": "/assets/img/gallery/au-11_real.jpg",
+    "features": "主要观察：Bunnings 澳洲最普及零售死锁/60mm背距；主要风险：扁平尾轴打滑；最低验证：开合各3次。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%)",
+      "en": "Mainstream (Top 25%)"
+    },
+    "marketSharePercent": "27%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/au-11_real.jpg",
+    "productImage": "/assets/img/gallery/au-11_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/au-11_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-UK-ANZ-AU-39",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "AU-40",
+    "candidateId": "uk_era_fortress_5_lever_deadlock",
+    "familyId": "uk-5-lever-mortice",
+    "title": {
+      "zh": "ERA Fortress 经典五杠重型防盗插芯锁 (英式主流标杆)",
+      "en": "ERA Fortress British Standard 5-Lever Mortice Deadlock (UK Mainstream)"
+    },
+    "region": "Oceania & UK (AS/BS)",
+    "regionCode": "uk",
+    "block": "uk-anz",
+    "image": "/assets/img/gallery/au-14_real.jpg",
+    "features": "主要观察：BS 3621:2017 认证/纯机械杠杆片机构；主要风险：无旋钮直接驱动，需原厂替换；最低验证：机械钥匙双向转动测试。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 30%)",
+      "en": "Mainstream (Top 30%)"
+    },
+    "marketSharePercent": "32%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/au-14_real.jpg",
+    "productImage": "/assets/img/gallery/au-14_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/au-14_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-UK-ANZ-AU-40",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "AU-41",
+    "candidateId": "uk_bramah_round_key_box_lock",
+    "familyId": "uk-5-lever-mortice",
+    "title": {
+      "zh": "Bramah 英国百年小众管状叶片箱体锁 (英伦古董小众)",
+      "en": "Bramah Radial Sliding Vane Rim Box Lock (Niche Antique)"
+    },
+    "region": "Oceania & UK (AS/BS)",
+    "regionCode": "uk",
+    "block": "uk-anz",
+    "image": "/assets/img/gallery/au-15_real.jpg",
+    "features": "主要观察：辐射滑动叶片/极罕见管状钥匙孔；主要风险：现代加装锁完全无法识别；最低验证：手工定制传动头。",
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊结构 (Niche <3%)",
+      "en": "Niche / Antique (<3%)"
+    },
+    "marketSharePercent": "2%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/au-15_real.jpg",
+    "productImage": "/assets/img/gallery/au-15_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/au-15_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-UK-ANZ-AU-41",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B-",
+        "modificationType": "Minor Fitting",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "SG-42",
+    "candidateId": "jp_alphag_digital_dimple_lock",
+    "familyId": "jp-miwa-case",
+    "title": {
+      "zh": "ALPHA FB系列高精珠排门锁 (日本主流)",
+      "en": "ALPHA FB Series Dimple Cylinder Mortise (Japan Mainstream)"
+    },
+    "region": "East & Southeast Asia (JIS/SS)",
+    "regionCode": "sea",
+    "block": "sea",
+    "image": "/assets/img/gallery/sg-01_real.jpg",
+    "features": "主要观察：高精度铣珠孔/超紧凑锁壳；主要风险：锁体沉深仅 64mm；最低验证：原厂旋钮联动测试。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 25%)",
+      "en": "Mainstream (Top 25%)"
+    },
+    "marketSharePercent": "26%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/sg-01_real.jpg",
+    "productImage": "/assets/img/gallery/sg-01_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/sg-01_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-SEA-SG-42",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "SG-43",
+    "candidateId": "sg_kaba_ilco_rim_gate_lock",
+    "familyId": "sg-metal-gate-lock",
+    "title": {
+      "zh": "KABA 特种金属铁闸门明装锁 (新加坡主流标杆)",
+      "en": "KABA High Security Rim Gate Lock (Singapore HDB Mainstream)"
+    },
+    "region": "East & Southeast Asia (JIS/SS)",
+    "regionCode": "sea",
+    "block": "sea",
+    "image": "/assets/img/gallery/sg-02_real.png",
+    "features": "主要观察：超窄栅栏间隙/外双面钥匙柱；主要风险：内外门把手碰撞间距 <75mm；最低验证：超薄机身 32mm 闭合测试。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 30%)",
+      "en": "Mainstream (Top 30%)"
+    },
+    "marketSharePercent": "33%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/sg-02_real.png",
+    "productImage": "/assets/img/gallery/sg-02_real.png",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/sg-02_real.png",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-SEA-SG-43",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "SG-44",
+    "candidateId": "kr_milre_rim_sub_lock",
+    "familyId": "jp-miwa-case",
+    "title": {
+      "zh": "韩国 Milre 传统辅助夜闩底座 (韩系小众机械底)",
+      "en": "Milre Rim Auxiliary Deadlatch Base (Korea Niche Mechanical)"
+    },
+    "region": "East & Southeast Asia (JIS/SS)",
+    "regionCode": "sea",
+    "block": "sea",
+    "image": "/assets/img/gallery/sg-06_real.jpg",
+    "features": "主要观察：圆柱通孔 32mm 明装/内侧垂直把手；主要风险：外机孔距不符；最低验证：3次按键离合测试。",
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊结构 (Niche <8%)",
+      "en": "Niche (<8%)"
+    },
+    "marketSharePercent": "7%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/sg-06_real.jpg",
+    "productImage": "/assets/img/gallery/sg-06_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/sg-06_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-SEA-SG-44",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B-",
+        "modificationType": "Minor Fitting",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "LA-45",
+    "candidateId": "la_stam_fechadura_externa_55",
+    "familyId": "in-mortise-rim",
+    "title": {
+      "zh": "Stam 55mm 外部门插芯锁 (巴西主流第一品牌)",
+      "en": "Stam 55mm Residential Mortise Lock (Brazil Mainstream Market Leader)"
+    },
+    "region": "Latin America (ABNT NBR)",
+    "regionCode": "latam",
+    "block": "latam",
+    "image": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+    "features": "主要观察：ABNT NBR 14913 标准/55mm 背距/铸造钢制锁舌；主要风险：把手反弹阻力大；最低验证：开门/关门各5次。",
+    "tierClass": "Mainstream",
+    "tierBadge": {
+      "zh": "主流锁 (Top 35%)",
+      "en": "Mainstream Market Leader (Top 35%)"
+    },
+    "marketSharePercent": "38%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+    "productImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-LATAM-LA-45",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A",
+        "modificationType": "Non-Destructive",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
+    }
+  },
+  {
+    "id": "LA-46",
+    "candidateId": "la_papaiz_antique_warded_lock",
+    "familyId": "in-mortise-rim",
+    "title": {
+      "zh": "Papaiz 老式十字异形钥匙插芯锁 (拉美老旧小众)",
+      "en": "Papaiz Vintage Cross-Key Heavy Mortise (Latin America Niche Vintage)"
+    },
+    "region": "Latin America (ABNT NBR)",
+    "regionCode": "latam",
+    "block": "latam",
+    "image": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "features": "主要观察：十字钥匙孔/四向排珠；主要风险：原装钥匙无法被现代加装转接头夹持；最低验证：双向钥匙转动测试。",
+    "tierClass": "Niche",
+    "tierBadge": {
+      "zh": "小众/特殊结构 (Niche <6%)",
+      "en": "Niche / Vintage (<6%)"
+    },
+    "marketSharePercent": "5%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "sceneImage": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/latam-stam-tetra_real.png",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-LATAM-LA-46",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.0mm",
+      "weatherstripSwellingTolerance": "≤1.5mm",
+      "ratedMotorTorque": "≥ 1.6 N·m",
+      "egressCompliance": {
+        "standard": "Regional Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "符合当地应急逃生与反向拖拽阻尼规范"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B-",
+        "modificationType": "Minor Fitting",
+        "notes": "主流锁具备成熟免打孔转接套件"
+      },
+      "keywaySpecification": "Standard Regional Keyway",
+      "coldWeatherDerating": "-20°C ~ +60°C",
+      "handleSpringResistance": "≤ 20 N·cm",
+      "mortiseReworkGuide": "标准安装槽位，通常无需破坏性凿槽",
+      "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
+      "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
+      "securityCertification": "符合当地建筑与防盗五金行业标准",
+      "doorSensorSpec": "标准对齐间隙 10~15mm"
     }
   }
 ]
