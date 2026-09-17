@@ -1311,7 +1311,16 @@ function build() {
             <span class="gallery-block__badge">${block.items.length} ${isZh ? '款实物样本' : 'models'}</span>
           </div>
           <p class="gallery-block__subtitle">${escapeHtml(block.subtitle)}</p>
-          <div class="gallery-tier-filter" style="display: flex; gap: 8px; margin: 14px 0 0; flex-wrap: wrap; align-items: center;">
+          <!-- 顶部一句话直观说明主流几款、小众几款及其研发指导 -->
+          <div class="mainstream-summary-banner" style="margin-top: 14px; padding: 10px 14px; background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 4px solid #16a34a; border-radius: 6px; font-size: 0.85rem; color: #166534; line-height: 1.5;">
+            <b>💡 ${isZh ? '出海研发选型导读' : 'Market Breakdown'}:</b> 
+            ${isZh 
+              ? `本板块共收录 <b>${block.items.length}</b> 款门锁样本，其中 <b>★ 主流基准锁占 ${block.items.filter(i => i.tierClass === 'Mainstream').length} 款</b>（深蓝高亮·覆盖当地 ≥80% 存量），<b>🔍 小众/特殊结构占 ${block.items.filter(i => i.tierClass !== 'Mainstream').length} 款</b>（浅灰淡色·特殊老房与长尾）。大货开模与现货配件优先保障主流锁型。`
+              : `This division catalogs <b>${block.items.length}</b> lock models: <b>★ ${block.items.filter(i => i.tierClass === 'Mainstream').length} Mainstream Baselines</b> (bold blue outline, covering ≥80% market share) and <b>🔍 ${block.items.filter(i => i.tierClass !== 'Mainstream').length} Niche / Specialty Models</b> (muted tone, vintage & long-tail). Standardize tooling on mainstream locks.`
+            }
+          </div>
+
+          <div class="gallery-tier-filter" style="display: flex; gap: 8px; margin: 12px 0 0; flex-wrap: wrap; align-items: center;">
             <span style="font-size: 0.8rem; font-weight: 700; color: #475569;">${isZh ? '🎯 市场分级直选:' : 'Market Filter:'}</span>
             <button class="tier-filter-btn is-active" data-filter="all" onclick="filterTier('all', this)" style="font-size: 0.78rem; font-weight: 600; padding: 4px 10px; border-radius: 4px; border: 1px solid #0284c7; background: #0284c7; color: #ffffff; cursor: pointer;">
               ${isZh ? '全部样本' : 'All'} (${block.items.length})
