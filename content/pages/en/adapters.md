@@ -15,7 +15,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin: 28px 0;">
   <div class="gallery-card" id="adp-01" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="..//assets/img/tools/adapter-7to8mm.png" alt="法国 7mm 转 8mm 方轴开槽变径套管 (Spindle Adapter Sleeve)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="/assets/img/tools/adapter-7to8mm.png" alt="法国 7mm 转 8mm 方轴开槽变径套管 (Spindle Adapter Sleeve)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-01 · Verified</span>
         <span style="background: #16a34a; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px;">✓ 100% Verified</span>
@@ -36,7 +36,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
     </div>
   </div>  <div class="gallery-card" id="adp-02" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="..//assets/img/tools/adapter-7to8mm.png" alt="德国 8mm 转 9mm 防火逃生方轴加粗套管 (DIN Panik Sleeve)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="/assets/img/tools/adapter-7to8mm.png" alt="德国 8mm 转 9mm 防火逃生方轴加粗套管 (DIN Panik Sleeve)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-02 · Verified</span>
         <span style="background: #16a34a; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px;">✓ 100% Verified</span>
@@ -57,7 +57,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
     </div>
   </div>  <div class="gallery-card" id="adp-03" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="..//assets/img/indigenous/jp-thumbturn.jpg" alt="日本 MIWA B5 防盗捏合旋钮双侧斜坡抓手 (Pinch Gripper)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="/assets/img/indigenous/jp-thumbturn.jpg" alt="日本 MIWA B5 防盗捏合旋钮双侧斜坡抓手 (Pinch Gripper)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-03 · Verified</span>
         <span style="background: #16a34a; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px;">✓ 100% Verified</span>
@@ -78,7 +78,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
     </div>
   </div>  <div class="gallery-card" id="adp-04" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="..//assets/img/tier2_product/us-deadbolt-latch.jpg" alt="北美 ANSI Deadbolt 十字/扁条万向阶梯适配盘 (Universal Tailpiece Cam)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="/assets/img/tier2_product/us-deadbolt-latch.jpg" alt="北美 ANSI Deadbolt 十字/扁条万向阶梯适配盘 (Universal Tailpiece Cam)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-04 · Verified</span>
         <span style="background: #16a34a; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px;">✓ 100% Verified</span>
@@ -99,7 +99,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
     </div>
   </div>  <div class="gallery-card" id="adp-05" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="..//assets/img/hero/hero-anz-lockwood001.jpg" alt="澳式 Lockwood 001/355 水滴形大旋钮转接夹具 (Teardrop Turn Adapter)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="/assets/img/hero/hero-anz-lockwood001.jpg" alt="澳式 Lockwood 001/355 水滴形大旋钮转接夹具 (Teardrop Turn Adapter)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-05 · Verified</span>
         <span style="background: #16a34a; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px;">✓ 100% Verified</span>
@@ -120,7 +120,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
     </div>
   </div>  <div class="gallery-card" id="adp-06" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="..//assets/img/indigenous/de-gefahrenfunktion.jpg" alt="欧标双向锁芯钥匙柄薄形夹持爪 (Nuki-Style Key Clamp)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="/assets/img/indigenous/de-gefahrenfunktion.jpg" alt="欧标双向锁芯钥匙柄薄形夹持爪 (Nuki-Style Key Clamp)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-06 · Verified</span>
         <span style="background: #16a34a; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px;">✓ 100% Verified</span>
@@ -141,7 +141,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
     </div>
   </div>  <div class="gallery-card" id="adp-07" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="..//assets/img/pitfalls/strike-plate-offset-binding.jpg" alt="门框扣盒可调不锈钢垫片组 (Strike Plate Shims & Spacers)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="/assets/img/pitfalls/strike-plate-offset-binding.jpg" alt="门框扣盒可调不锈钢垫片组 (Strike Plate Shims & Spacers)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-07 · Verified</span>
         <span style="background: #16a34a; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px;">✓ 100% Verified</span>
@@ -162,7 +162,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
     </div>
   </div>  <div class="gallery-card" id="adp-08" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="..//assets/img/pitfalls/singapore-gate-clash.jpg" alt="拉美/亚太超薄夹板门贯穿防压溃加强圈 (Door Reinforcement Escutcheon)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="/assets/img/pitfalls/singapore-gate-clash.jpg" alt="拉美/亚太超薄夹板门贯穿防压溃加强圈 (Door Reinforcement Escutcheon)" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-08 · Verified</span>
         <span style="background: #16a34a; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 3px;">✓ 100% Verified</span>
