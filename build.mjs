@@ -338,6 +338,44 @@ function lockPage(fam, lang) {
           </div>
         </div>
         ` : ''}
+                ${s.engineeringMatrix ? `
+        <div class="lock-detail-sample__matrix-box" style="margin: 14px 0; padding: 12px 16px; background: #f1f5f9; border-radius: 6px; border: 1px solid #cbd5e1; font-size: 0.8rem;">
+          <div style="font-weight: 700; color: #0f172a; margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between;">
+            <span>🔬 ${lang === "zh" ? "安装公差矩阵与改装合规评级 (Engineering Matrix)" : "Engineering Tolerance & Compliance Matrix"}</span>
+            <span style="font-size: 0.72rem; padding: 2px 6px; background: #0284c7; color: white; border-radius: 3px;">
+              ${escapeHtml(s.engineeringMatrix.rentalOptimization.rating)}
+            </span>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 8px;">
+            <div style="background: white; padding: 8px; border-radius: 4px; border-left: 3px solid #3b82f6;">
+              <span style="color: #64748b; font-size: 0.72rem;">${lang === "zh" ? "垂直下沉耐受度" : "Vertical Sagging Tol."}:</span>
+              <div style="font-weight: 600; color: #1e293b;">${escapeHtml(s.engineeringMatrix.saggingTolerance)}</div>
+            </div>
+            <div style="background: white; padding: 8px; border-radius: 4px; border-left: 3px solid #10b981;">
+              <span style="color: #64748b; font-size: 0.72rem;">${lang === "zh" ? "密封条膨胀间隙" : "Weatherstrip Swelling"}:</span>
+              <div style="font-weight: 600; color: #1e293b;">${escapeHtml(s.engineeringMatrix.weatherstripSwellingTolerance)}</div>
+            </div>
+            <div style="background: white; padding: 8px; border-radius: 4px; border-left: 3px solid #f59e0b;">
+              <span style="color: #64748b; font-size: 0.72rem;">${lang === "zh" ? "标称电机堵转扭矩" : "Rated Stall Torque"}:</span>
+              <div style="font-weight: 600; color: #1e293b;">${escapeHtml(s.engineeringMatrix.ratedMotorTorque)}</div>
+            </div>
+          </div>
+          <div style="background: white; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #8b5cf6; margin-bottom: 6px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <b>🚨 ${lang === "zh" ? "紧急逃生合规认证" : "Emergency Egress Compliance"}:</b>
+              <span style="color: #6d28d9; font-weight: 600; font-size: 0.75rem;">${escapeHtml(s.engineeringMatrix.egressCompliance.standard)} (反向阻尼 ${escapeHtml(s.engineeringMatrix.egressCompliance.backdriveTorqueMax)})</span>
+            </div>
+            <div style="color: #475569; font-size: 0.75rem; margin-top: 3px;">${escapeHtml(s.engineeringMatrix.egressCompliance.description)}</div>
+          </div>
+          <div style="background: white; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #06b6d4;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <b>🏠 ${lang === "zh" ? "免打孔/租房改装友好度" : "No-Drill / Rental-Friendly"}:</b>
+              <span style="color: #0e7490; font-weight: 600; font-size: 0.75rem;">${escapeHtml(s.engineeringMatrix.rentalOptimization.modificationType)}</span>
+            </div>
+            <div style="color: #475569; font-size: 0.75rem; margin-top: 3px;">${escapeHtml(s.engineeringMatrix.rentalOptimization.notes)}</div>
+          </div>
+        </div>
+        ` : ""}
         ${s.gtmNotes ? `
         <div class="lock-detail-sample__engineering-box">
           <h5>${lang === 'zh' ? '⚙️ 智能化改造工程难点、实测尺寸与阻力风险' : '⚙️ Retrofit Engineering & Resistance Notes'}</h5>

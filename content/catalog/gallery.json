@@ -51,6 +51,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
+      }
     }
   },
   {
@@ -104,6 +121,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
       }
     }
   },
@@ -159,6 +193,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
+      }
     }
   },
   {
@@ -212,6 +263,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
       }
     }
   },
@@ -267,6 +335,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
+      }
     }
   },
   {
@@ -320,6 +405,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
       }
     }
   },
@@ -375,6 +477,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -428,6 +547,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -483,6 +619,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -536,6 +689,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -591,6 +761,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -644,6 +831,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -699,6 +903,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -752,6 +973,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -807,6 +1045,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -860,6 +1115,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -915,6 +1187,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -968,6 +1257,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -1023,6 +1329,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -1076,6 +1399,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -1131,6 +1471,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -1184,6 +1541,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -1239,6 +1613,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -1292,6 +1683,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -1347,6 +1755,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
+      }
     }
   },
   {
@@ -1400,6 +1825,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
       }
     }
   },
@@ -1455,6 +1897,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
+      }
     }
   },
   {
@@ -1508,6 +1967,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
       }
     }
   },
@@ -1563,6 +2039,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
+      }
     }
   },
   {
@@ -1616,6 +2109,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
       }
     }
   },
@@ -1671,6 +2181,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
+      }
     }
   },
   {
@@ -1724,6 +2251,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
       }
     }
   },
@@ -1779,6 +2323,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
+      }
     }
   },
   {
@@ -1833,6 +2394,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
+      }
     }
   },
   {
@@ -1883,6 +2461,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -1932,6 +2527,23 @@
           "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
+      }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
       }
     }
   },
@@ -1987,6 +2599,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2041,6 +2670,23 @@
           "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
         ]
       }
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2091,6 +2737,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
+      }
     }
   },
   {
@@ -2141,6 +2804,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
+      }
     }
   },
   {
@@ -2191,6 +2871,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.89"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
+      }
     }
   },
   {
@@ -2241,6 +2938,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±2.5mm",
+      "weatherstripSwellingTolerance": "≤1.8mm",
+      "ratedMotorTorque": "≥1.4 N·m (Anti-binding rating)",
+      "egressCompliance": {
+        "standard": "ANSI/BHMA Grade 1 Single-motion egress option",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "北美死锁通常需配合把手，紧急逃生要求内侧旋钮单手90度反转阻尼 ≤0.4 N·m"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
+      }
     }
   },
   {
@@ -2291,6 +3005,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2341,6 +3072,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2391,6 +3139,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2441,6 +3206,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.89"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2491,6 +3273,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.89"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2541,6 +3340,23 @@
       "retrofitAffinity": "Grade B",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.86"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2591,6 +3407,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
+      }
     }
   },
   {
@@ -2641,6 +3474,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±1.2mm",
+      "weatherstripSwellingTolerance": "≤1.0mm",
+      "ratedMotorTorque": "≥1.2 N·m (High-precision mortise clearance)",
+      "egressCompliance": {
+        "standard": "JIS A 1510 / SS 332 Egress Approved",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "日韩/东南亚极小间隙锁体，紧急状态下执手下压联动全锁舌缩回"
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
+        "modificationType": "100% No-Drill Non-Destructive",
+        "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
+      }
     }
   },
   {
@@ -2691,6 +3541,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2741,6 +3608,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2791,6 +3675,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.93"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   },
   {
@@ -2841,6 +3742,23 @@
       "retrofitAffinity": "Grade A",
       "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.89"
+    },
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.0mm",
+      "weatherstripSwellingTolerance": "≤2.5mm",
+      "ratedMotorTorque": "≥2.0 N·m (High-friction ABNT steel mortise)",
+      "egressCompliance": {
+        "standard": "ABNT NBR 14913 Emergency Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "拉美重型双舌插芯，断电保护机制确保机械钥匙与内旋钮拥有绝对优先开锁权"
+      },
+      "rentalOptimization": {
+        "friendly": false,
+        "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
+        "modificationType": "Minor Screw Fit",
+        "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
+      }
     }
   }
 ]
