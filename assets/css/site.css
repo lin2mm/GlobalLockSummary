@@ -665,3 +665,45 @@ details p { margin: .6rem 0 .2rem; color: var(--fg-muted); }
   font-size: .84rem !important;
   color: #0369a1 !important;
 }
+
+/* ---------- 4 Major Blocks Layout on Gallery Wall ---------- */
+.gallery-blocks-container {
+  display: grid;
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+.gallery-block {
+  border-top: 2px solid var(--line);
+  padding-top: 1.5rem;
+}
+.gallery-block:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+.gallery-block__header {
+  margin-bottom: 1.25rem;
+}
+.gallery-block__title-wrap {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+.gallery-block__title {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #102a43;
+}
+.gallery-block__badge {
+  font-size: .8rem;
+  font-weight: 700;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+}
+.gallery-block__subtitle {
+  margin: .35rem 0 0;
+  font-size: .95rem;
+  color: var(--fg-muted);
+}

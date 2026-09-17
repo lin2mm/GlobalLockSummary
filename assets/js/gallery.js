@@ -1,4 +1,4 @@
-/* Interactive filtering and search for the landing page lock gallery wall */
+/* Interactive filtering, search, and 4-block navigation for the landing page */
 (function () {
   'use strict';
 
@@ -8,34 +8,41 @@
 
     var filterBtns = root.querySelectorAll('[data-gallery-filter]');
     var searchInput = root.querySelector('[data-gallery-search]');
+    var blocks = root.querySelectorAll('[data-gallery-block]');
     var cards = root.querySelectorAll('[data-gallery-card]');
-    var countEl = root.querySelector('[data-gallery-count]');
 
     var currentRegion = 'all';
     var currentQuery = '';
 
     function applyFilter() {
-      var visibleCount = 0;
       var q = currentQuery.toLowerCase().trim();
 
-      cards.forEach(function (card) {
-        var region = card.getAttribute('data-region') || '';
-        var searchIndex = (card.getAttribute('data-search-text') || '').toLowerCase();
+      blocks.forEach(function (block) {
+        var blockCode = block.getAttribute('data-gallery-block');
+        var isBlockMatched = (currentRegion === 'all' || currentRegion === blockCode);
+        
+        var blockCards = block.querySelectorAll('[data-gallery-card]');
+        var visibleInBlock = 0;
 
-        var matchesRegion = (currentRegion === 'all' || region === currentRegion);
-        var matchesQuery = (!q || searchIndex.indexOf(q) !== -1);
+        blockCards.forEach(function (card) {
+          var searchText = (card.getAttribute('data-search-text') || '').toLowerCase();
+          var matchesQuery = (!q || searchText.indexOf(q) !== -1);
 
-        if (matchesRegion && matchesQuery) {
-          card.style.display = '';
-          visibleCount++;
+          if (isBlockMatched && matchesQuery) {
+            card.style.display = '';
+            visibleInBlock++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Hide block completely if no cards match
+        if (visibleInBlock > 0) {
+          block.style.display = '';
         } else {
-          card.style.display = 'none';
+          block.style.display = 'none';
         }
       });
-
-      if (countEl) {
-        countEl.textContent = visibleCount;
-      }
     }
 
     filterBtns.forEach(function (btn) {

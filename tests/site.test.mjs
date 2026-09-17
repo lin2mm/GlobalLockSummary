@@ -221,6 +221,10 @@ if (existsSync(galleryJsonPath)) {
 
   const rootIndex = read(join(SITE, 'index.html'));
   check('root index.html renders gallery wall', rootIndex.includes('data-gallery-root') && rootIndex.includes('gallery-card'));
+  check('gallery renders 4 major regional blocks', rootIndex.includes('data-gallery-block="na"') && rootIndex.includes('data-gallery-block="europe"'));
+
+  const retrofitZh = read(join(SITE, 'retrofit.html'));
+  check('retrofit.html covers real-world failure cases & complaints', retrofitZh.includes('Nuki') && retrofitZh.includes('Motor Blocked'));
   check('root index.html includes in-site direct feedback button', rootIndex.includes('data-feedback-submit'));
 
   const enIndex = read(join(SITE, 'en/index.html'));

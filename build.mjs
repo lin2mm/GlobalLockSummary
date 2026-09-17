@@ -684,21 +684,35 @@ function galleryFragment(lang) {
   if (!existsSync(galleryPath)) return '';
   const items = JSON.parse(readFileSync(galleryPath, 'utf8'));
 
-  // Prominent, larger regional tabs
-  const regions = [
-    { code: 'all', label: isZh ? '🌍 全部国家与锁族 (30)' : '🌍 All Regions (30)' },
-    { code: 'na', label: isZh ? '🇺🇸 北美市场 (ANSI/Deadbolt)' : '🇺🇸 North America (ANSI)' },
-    { code: 'anz', label: isZh ? '🇦🇺 澳洲市场 (Lockwood/Whitco)' : '🇦🇺 Australia & NZ' },
-    { code: 'europe', label: isZh ? '🇪🇺 英国与欧洲 (Euro/5-Lever)' : '🇪🇺 UK & Europe' },
-    { code: 'sg-sea', label: isZh ? '🇸🇬 新加坡与东南亚 (HDB/数字锁)' : '🇸🇬 Singapore & SE Asia' },
+  // 4 Major Regional Blocks defined by GTM priority:
+  const blocks = [
+    {
+      code: 'na',
+      title: isZh ? '🇺🇸 北美市场 (ANSI / Deadbolt 单插销)' : '🇺🇸 North America (ANSI / Deadbolt)',
+      subtitle: isZh ? '全球存量最大的加装改造市场 · 标准 54mm 孔位与 60/70mm 锁芯背距' : 'Highest volume retrofit market · Standard 54mm bore & 60/70mm backset',
+      items: items.filter(i => i.regionCode === 'na')
+    },
+    {
+      code: 'anz',
+      title: isZh ? '🇦🇺 澳洲与新西兰 (Lockwood / Whitco 澳标)' : '🇦🇺 Australia & NZ (Lockwood / Whitco)',
+      subtitle: isZh ? '高价值存量市场 · 表面安装 Deadlatch、双扣死锁与重型插芯锁' : 'High value market · Surface-mount deadlatches, deadlocks & mortise sets',
+      items: items.filter(i => i.regionCode === 'anz')
+    },
+    {
+      code: 'europe',
+      title: isZh ? '🇪🇺 英国与欧洲 (Euro 锁芯 / 多点联动 / 5-Lever)' : '🇪🇺 UK & Europe (Euro Cylinder / Multipoint / 5-Lever)',
+      subtitle: isZh ? '量产主流与关键边界 · 欧标槽型锁芯替换、抬把手多点联动锁与英标防盗锁' : 'Major volume & failure boundaries · Euro profile replacement & lift-to-lock',
+      items: items.filter(i => i.regionCode === 'europe')
+    },
+    {
+      code: 'sg-sea',
+      title: isZh ? '🇸🇬 新加坡与东南亚 (HDB 铁闸 / 数字推拉整锁)' : '🇸🇬 Singapore & SE Asia (HDB Gates & Digital Mortise)',
+      subtitle: isZh ? '极端净距与数字边界 · 公屋双门铁闸碰撞风险与早期集成推拉锁' : 'Extreme clearances & digital boundary · Gate-to-door clash & push-pull mortise',
+      items: items.filter(i => i.regionCode === 'sg-sea')
+    }
   ];
 
-  const filterBtns = regions.map((r, idx) => 
-    `<button class="gallery-filter__btn${idx === 0 ? ' is-active' : ''}" type="button" data-gallery-filter="${r.code}">${escapeHtml(r.label)}</button>`
-  ).join('');
-
-  // Clean cards: Focus on clean real photo + clear lock name + status pill
-  const cardsHtml = items.map((item) => {
+  function renderCard(item) {
     const title = (item.title && (item.title[lang] || item.title.en || item.title.zh)) || item.id;
     const regionLabel = item.region || '';
     const statusClass = item.status === 'R1' ? 'gallery-card__status--r1' : (item.status === 'R2' ? 'gallery-card__status--r2' : 'gallery-card__status--r0');
@@ -708,8 +722,6 @@ function galleryFragment(lang) {
       : (item.status === 'R2' ? (isZh ? 'R2 需实测再宣传' : 'R2 Test First') : (isZh ? 'R0 边界样本 / 特殊锁体' : 'R0 Boundary'));
 
     const searchText = `${item.id} ${title} ${regionLabel} ${item.features || ''}`.toLowerCase();
-    
-    // Link to family page if mapped
     const hasFamily = !!item.familyId;
     const familyHref = hasFamily ? `/${urlFor(lang, `locks/${item.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
 
@@ -736,19 +748,47 @@ function galleryFragment(lang) {
         </div>
       </div>
     </div>`;
+  }
+
+  // Render 4 major blocks
+  const blocksHtml = blocks.map((b) => {
+    const cards = b.items.map(renderCard).join('\n');
+    return `<section class="gallery-block" data-gallery-block="${escapeHtml(b.code)}">
+      <div class="gallery-block__header">
+        <div class="gallery-block__title-wrap">
+          <h2 class="gallery-block__title">${escapeHtml(b.title)}</h2>
+          <span class="gallery-block__badge">${b.items.length} ${isZh ? '类实物样本' : 'models'}</span>
+        </div>
+        <p class="gallery-block__subtitle">${escapeHtml(b.subtitle)}</p>
+      </div>
+      <div class="gallery-grid">
+        ${cards}
+      </div>
+    </section>`;
   }).join('\n');
+
+  // Jump nav links to blocks
+  const navTabs = [
+    { code: 'all', label: isZh ? '🌍 全部 4 大板块 (30)' : '🌍 All 4 Blocks (30)' },
+    { code: 'na', label: isZh ? '🇺🇸 北美市场' : '🇺🇸 North America' },
+    { code: 'anz', label: isZh ? '🇦🇺 澳洲市场' : '🇦🇺 Australia & NZ' },
+    { code: 'europe', label: isZh ? '🇪🇺 英国与欧洲' : '🇪🇺 UK & Europe' },
+    { code: 'sg-sea', label: isZh ? '🇸🇬 新加坡与东南亚' : '🇸🇬 Singapore & SE Asia' },
+  ].map((tab, idx) => 
+    `<button class="gallery-filter__btn${idx === 0 ? ' is-active' : ''}" type="button" data-gallery-filter="${tab.code}">${escapeHtml(tab.label)}</button>`
+  ).join('');
 
   return `<div class="gallery-wall" data-gallery-root>
     <div class="gallery-wall__header">
       <div class="gallery-wall__controls">
-        <div class="gallery-filter">${filterBtns}</div>
+        <div class="gallery-filter">${navTabs}</div>
         <div class="gallery-search">
           <input type="search" data-gallery-search placeholder="${isZh ? '快速搜索锁型名称、代号...' : 'Search lock name, model...'}" aria-label="${isZh ? '筛选图墙锁型' : 'Filter locks'}" />
         </div>
       </div>
     </div>
-    <div class="gallery-grid">
-      ${cardsHtml}
+    <div class="gallery-blocks-container">
+      ${blocksHtml}
     </div>
   </div>`;
 }
