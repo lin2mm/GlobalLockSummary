@@ -24,9 +24,9 @@
     "block": "na",
     "selectionScore": {
       "overallScore": 98,
-      "marketCoverage": "High",
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
+      "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/us-27_real.jpg",
@@ -34,9 +34,9 @@
     "installationGuide": {
       "schematic": "/assets/img/diagrams/US-27_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-NA-STD",
+      "drillingTemplate": "TPL-NA-US-27",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -77,20 +77,20 @@
     "gtmMarket": "北美第一优先市场",
     "block": "na",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-28_real.webp",
     "productImage": "/assets/img/diagrams/US-28_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/US-28_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-NA-STD",
+      "drillingTemplate": "TPL-NA-US-28",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -131,20 +131,20 @@
     "gtmMarket": "北美第一优先市场",
     "block": "na",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/us-29_real.jpg",
     "productImage": "/assets/img/diagrams/US-29_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/US-29_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-NA-STD",
+      "drillingTemplate": "TPL-NA-US-29",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -185,20 +185,20 @@
     "gtmMarket": "北美第一优先市场",
     "block": "na",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/us-30_real.jpg",
     "productImage": "/assets/img/diagrams/US-30_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/US-30_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-NA-STD",
+      "drillingTemplate": "TPL-NA-US-30",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -239,20 +239,20 @@
     "gtmMarket": "北美商业与多户住宅市场",
     "block": "na",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
     "productImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/us-schlage-l9000_real.jpg",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-NA-STD",
+      "drillingTemplate": "TPL-NA-US-31",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -293,20 +293,20 @@
     "gtmMarket": "北美租赁公寓集中采购市场",
     "block": "na",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/us-interconnected_real.jpg",
     "productImage": "/assets/img/gallery/us-interconnected_real.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/us-interconnected_real.jpg",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-NA-STD",
+      "drillingTemplate": "TPL-NA-US-32",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -348,9 +348,9 @@
     "block": "uk-anz",
     "selectionScore": {
       "overallScore": 98,
-      "marketCoverage": "High",
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
+      "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/au-11_real.jpg",
@@ -358,9 +358,9 @@
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-11_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-AU-11",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -401,20 +401,20 @@
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-13_real.jpg",
     "productImage": "/assets/img/diagrams/AU-13_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-13_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-AU-13",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -455,20 +455,20 @@
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-16_real.jpg",
     "productImage": "/assets/img/diagrams/AU-16_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-16_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-AU-16",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -509,20 +509,20 @@
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-17_real.png",
     "productImage": "/assets/img/diagrams/AU-17_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-17_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-AU-17",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -563,20 +563,20 @@
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-12_real.jpg",
     "productImage": "/assets/img/diagrams/AU-12_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-12_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-AU-12",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -617,20 +617,20 @@
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-14_real.jpg",
     "productImage": "/assets/img/diagrams/AU-14_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-14_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-AU-14",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -671,20 +671,20 @@
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-15_real.jpg",
     "productImage": "/assets/img/diagrams/AU-15_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-15_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-AU-15",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -725,20 +725,20 @@
     "gtmMarket": "澳洲高优先级市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/au-18_real.png",
     "productImage": "/assets/img/diagrams/AU-18_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/AU-18_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-AU-18",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -780,9 +780,9 @@
     "block": "europe5",
     "selectionScore": {
       "overallScore": 98,
-      "marketCoverage": "High",
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
+      "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/eu-19_real.jpg",
@@ -790,9 +790,9 @@
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-19_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-EUROPE5-STD",
+      "drillingTemplate": "TPL-EUROPE5-EU-19",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -833,20 +833,20 @@
     "gtmMarket": "欧洲大容量成熟市场",
     "block": "europe5",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-20_real.jpg",
     "productImage": "/assets/img/diagrams/EU-20_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-20_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-EUROPE5-STD",
+      "drillingTemplate": "TPL-EUROPE5-EU-20",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -887,20 +887,20 @@
     "gtmMarket": "欧洲大容量成熟市场",
     "block": "europe5",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-21_real.jpg",
     "productImage": "/assets/img/diagrams/EU-21_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-21_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-EUROPE5-STD",
+      "drillingTemplate": "TPL-EUROPE5-EU-21",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -942,9 +942,9 @@
     "block": "europe5",
     "selectionScore": {
       "overallScore": 98,
-      "marketCoverage": "High",
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
+      "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/eu-22_real.jpg",
@@ -952,9 +952,9 @@
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-22_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-EUROPE5-STD",
+      "drillingTemplate": "TPL-EUROPE5-EU-22",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -995,20 +995,20 @@
     "gtmMarket": "欧洲关键边界锁型",
     "block": "europe5",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-23_real.webp",
     "productImage": "/assets/img/diagrams/EU-23_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-23_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-EUROPE5-STD",
+      "drillingTemplate": "TPL-EUROPE5-EU-23",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1049,20 +1049,20 @@
     "gtmMarket": "德国与中欧高端住宅",
     "block": "europe5",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
     "productImage": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-EUROPE5-STD",
+      "drillingTemplate": "TPL-EUROPE5-EU-27",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1103,20 +1103,20 @@
     "gtmMarket": "南欧历史存量市场",
     "block": "europe5",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-cisa-rim_real.jpg",
     "productImage": "/assets/img/gallery/eu-cisa-rim_real.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/eu-cisa-rim_real.jpg",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-EUROPE5-STD",
+      "drillingTemplate": "TPL-EUROPE5-EU-28",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1157,20 +1157,20 @@
     "gtmMarket": "英国本土存量市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-24_real.webp",
     "productImage": "/assets/img/diagrams/EU-24_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-24_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-EU-24",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1211,20 +1211,20 @@
     "gtmMarket": "英国本土存量市场",
     "block": "uk-anz",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-25_real.png",
     "productImage": "/assets/img/diagrams/EU-25_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-25_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "drillingTemplate": "TPL-UK-ANZ-EU-25",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1265,20 +1265,20 @@
     "gtmMarket": "英国本土存量市场",
     "block": "europe5",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/eu-26_real.webp",
     "productImage": "/assets/img/diagrams/EU-26_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/EU-26_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-EUROPE5-STD",
+      "drillingTemplate": "TPL-EUROPE5-EU-26",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1320,9 +1320,9 @@
     "block": "sea",
     "selectionScore": {
       "overallScore": 98,
-      "marketCoverage": "High",
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
+      "visualClarity": "4K/HD Real Photo",
       "estimatedCtrWeight": "0.98"
     },
     "sceneImage": "/assets/img/gallery/sg-01_real.jpg",
@@ -1330,9 +1330,9 @@
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-01_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-01",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1373,20 +1373,20 @@
     "gtmMarket": "新加坡/东南亚数字锁存量",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-02_real.png",
     "productImage": "/assets/img/diagrams/SG-02_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-02_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-02",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1427,20 +1427,20 @@
     "gtmMarket": "东南亚加装存量",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-03_real.png",
     "productImage": "/assets/img/diagrams/SG-03_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-03_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-03",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1481,20 +1481,20 @@
     "gtmMarket": "东南亚/东亚推拉锁市场",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-04_real.webp",
     "productImage": "/assets/img/diagrams/SG-04_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-04_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-04",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1535,20 +1535,20 @@
     "gtmMarket": "东南亚加装存量",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-05_real.webp",
     "productImage": "/assets/img/diagrams/SG-05_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-05_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-05",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1589,20 +1589,20 @@
     "gtmMarket": "东南亚高层住宅铁闸市场",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-06_real.jpg",
     "productImage": "/assets/img/diagrams/SG-06_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-06_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-06",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1643,20 +1643,20 @@
     "gtmMarket": "东南亚/国内整锁市场",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-07_real.png",
     "productImage": "/assets/img/diagrams/SG-07_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-07_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-07",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1697,20 +1697,20 @@
     "gtmMarket": "东亚/东南亚存量市场",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-08_real.jpg",
     "productImage": "/assets/img/diagrams/SG-08_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-08_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-08",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1751,20 +1751,20 @@
     "gtmMarket": "东南亚主流品牌存量",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-09_real.webp",
     "productImage": "/assets/img/diagrams/SG-09_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-09_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-09",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1805,20 +1805,20 @@
     "gtmMarket": "东南亚主流品牌存量",
     "block": "sea",
     "selectionScore": {
-      "overallScore": 85,
+      "overallScore": 86,
       "marketCoverage": "Medium",
       "retrofitAffinity": "Grade B",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.85"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
     },
     "sceneImage": "/assets/img/gallery/sg-10_real.jpg",
     "productImage": "/assets/img/diagrams/SG-10_schematic.svg",
     "installationGuide": {
       "schematic": "/assets/img/diagrams/SG-10_schematic.svg",
       "hasSchematic": true,
-      "drillingTemplate": "TPL-SEA-STD",
+      "drillingTemplate": "TPL-SEA-SG-10",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1855,20 +1855,20 @@
     "gtmMarket": "拉美新兴大容量市场",
     "physicalTest": "40mm背距内侧旋钮与门框间隙实测",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/eu-26_real.webp",
     "productImage": "/assets/img/gallery/eu-26_real.webp",
     "installationGuide": {
       "schematic": "/assets/img/gallery/eu-26_real.webp",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-LATAM-STD",
+      "drillingTemplate": "TPL-LATAM-LA-01",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1905,20 +1905,20 @@
     "gtmMarket": "拉美新兴市场",
     "physicalTest": "外装双钩扣板咬合力矩与3次完整闭锁",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/au-13_real.jpg",
     "productImage": "/assets/img/gallery/au-13_real.jpg",
     "installationGuide": {
       "schematic": "/assets/img/gallery/au-13_real.jpg",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-LATAM-STD",
+      "drillingTemplate": "TPL-LATAM-LA-02",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -1959,20 +1959,20 @@
     "gtmNotes": "巴西几乎每扇防盗木门均在主锁上方配有 1~2 把 Stam Tetra 副锁。其核心难点是十字异形钥匙夹持与 40mm 极窄回转半径。",
     "gtmMarket": "巴西全国存量普及锁",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/latam-stam-tetra_real.png",
     "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
     "installationGuide": {
       "schematic": "/assets/img/gallery/latam-stam-tetra_real.png",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-LATAM-STD",
+      "drillingTemplate": "TPL-LATAM-LA-03",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
@@ -2013,20 +2013,20 @@
     "gtmNotes": "拉美高端独立大门主流锁，没有传统下压把手（多配高大实木或铜拉手），加装智能锁只需驱动中央锁芯，改装潜力极大。",
     "gtmMarket": "拉美中高端住宅大门",
     "selectionScore": {
-      "overallScore": 92,
-      "marketCoverage": "High",
+      "overallScore": 93,
+      "marketCoverage": "High (≥30%)",
       "retrofitAffinity": "Grade A",
-      "visualClarity": "4K/HD Ready",
-      "estimatedCtrWeight": "0.92"
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.93"
     },
     "sceneImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
     "productImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
     "installationGuide": {
       "schematic": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-LATAM-STD",
+      "drillingTemplate": "TPL-LATAM-LA-04",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
-      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
         "zh": [
           "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",

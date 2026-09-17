@@ -209,3 +209,22 @@ GlobalLockSummary/
 5. **双闭环引擎（Website Loop + Content Loop）常驻并行执行**：
    - Website Loop 保障构建测试与路由 100% 健全；
    - Content Loop 负责主动抓取海外五金数据、丰富图谱索引与动态参数。
+
+
+---
+
+# 附录：用户实时沟通全量历史与长效执行审计表 (Complete User Prompt History & Action Audit)
+
+为确保“无遗漏、可溯源、可检验”，以下完整收录用户发出的全部指令、落地文件路径及检验方式：
+
+| 沟通轮次 | 用户核心指令原文及要求 | 落地实施模块与文件位置 | 状态与验证方式 |
+|---|---|---|---|
+| **Round 1 (架构与五大板块)** | 1. 首页按 ASSA ABLOY 事业部 + 五金标准重构为 5 大工业板块<br>2. 核心 Retrofit 锁型作为 Hero 主图<br>3. 取消被动悬赏，改为爬虫主动抓取清洗<br>4. 深度追踪全球 Retrofit 锁型强相关关系与机械差评<br>5. 落地刻印反查、转接件 BOM、打孔模板、门缝深度、爆款兼容 5 项建议 | - `build.mjs`<br>- `content/catalog/gallery.json`<br>- `content/catalog/indigenous-lock-guides.json`<br>- `content/catalog/adapters-bom.json`<br>- `content/catalog/drilling-templates.json`<br>- `content/catalog/bestseller-locks.json` | ✅ 已实装上线<br>浏览器访问 5 大区域首页与对应 5 项专项工具 |
+| **Round 2 (视觉画廊与闭环规范)** | 1. 画廊模式视觉调研与三层穿透架构<br>2. 建立文件体系命名规范，输出 Excel 工程规划与数据主索引<br>3. 建立长期记忆与方法论文档<br>4. 首页仅保留 5 个区域入口，不能有多余内容<br>5. 左上角消除文字重复，底部表单极简化<br>6. 保持 PR OPEN，分支固定，绝不擅自合并或结束 | - `docs/04_GALLERY_STYLE_RESTRUCTURING_GUIDE.md`<br>- `docs/02_PROJECT_PLAN_AND_CONVENTIONS.xlsx`<br>- `docs/03_GLOBAL_LOCK_DATA_INDEX.xlsx`<br>- `docs/01_METHODOLOGY_AND_CONTEXT_MEMORY.md`<br>- `src/layout.mjs` (极简底栏 + 守护光环) | ✅ 已实装<br>首页呈现纯粹 5 大入口；消除面包屑重复；PR #3 保持 OPEN |
+| **Round 3 (铁律保活与序列号)** | 1. 每次沟通前强制检查并激活 Loop<br>2. 彻底排查根治文档点击 404 问题<br>3. 文件夹与文件体系全部规范化序列号命名（00_, 01_, 02_...）<br>4. 每次回复必须附带深入专业建议，建议全入 Loop | - `tools/runner-10m.py` (常驻保活检查)<br>- `serve.mjs` (解决多语言相对路由 404)<br>- `docs/00_~05_` 全系列编号命名文件<br>- `docs/00_AUTONOMOUS_OPTIMIZATION_LOOP.md` (吸收建议) | ✅ 彻底根除 404<br>任何语言下点击文档均 200 OK；序列号全部就绪 |
+| **Round 4 (内容双闭环与3层图谱)** | 1. 建议全部加入 loop，自主持续循环<br>2. 5大区域 Entry 主图筛选标准建模（高清、主流、点击率最高）<br>3. 第 2 层为本区域类别门锁的产品图 + 场景图 Gallery 模式<br>4. 第 3 层为门锁类别下的安装图与打孔模板<br>5. 建立内容爬取与增加索引，网站 loop 与 content loop 并行执行 10 分钟 | - `tools/autonomous-loop.py` (双引擎协同驱动)<br>- `tools/content-harvester.py` (主动图谱与参数清洗)<br>- `docs/05_HIERARCHICAL_GALLERY_INDEX.md` (3层视觉总谱)<br>- `build.mjs` (双视图卡片 + 4步安装工序) | ✅ 正在常驻执行<br>PID 7853 每 30 秒巡航一次并持续推送 Git 检查点 |
+
+## 查看与查阅长期记忆的方法 (How to Access & Verify)
+1. **本地工程直接查看**：在工程根目录中，打开 `docs/01_METHODOLOGY_AND_CONTEXT_MEMORY.md` 即可看到最详尽的决策上下文、红线指令清单与历史方法论。
+2. **在浏览器中直接查看**：访问 Web 服务 `http://127.0.0.1:8080/docs/01_METHODOLOGY_AND_CONTEXT_MEMORY.md`（或点击网页顶部绿色呼吸徽章）。
+3. **在 Arena 界面查看**：通过内置的 `present_file` 工具或直接在文件列表中查阅。
