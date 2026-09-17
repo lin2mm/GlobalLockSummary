@@ -21,7 +21,37 @@
     "physicalTest": "开门/关门各3次",
     "gtmNotes": "北美存量单插销标杆（60/70mm背距），优先驱动内侧旋钮（Architecture A），需重点验证关门对齐与tailpiece扭矩阻力。",
     "gtmMarket": "北美第一优先市场（存量最大）",
-    "block": "na"
+    "block": "na",
+    "selectionScore": {
+      "overallScore": 98,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.98"
+    },
+    "sceneImage": "/assets/img/gallery/us-27_real.jpg",
+    "productImage": "/assets/img/diagrams/US-27_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/US-27_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-NA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "US-28",
@@ -45,7 +75,37 @@
     "physicalTest": "tailpiece和关门扭矩",
     "gtmNotes": "北美Kwikset主流标准孔位，适配旋钮转接头时需重点避免方向反转和间隙打滑问题。",
     "gtmMarket": "北美第一优先市场",
-    "block": "na"
+    "block": "na",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/us-28_real.webp",
+    "productImage": "/assets/img/diagrams/US-28_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/US-28_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-NA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "US-29",
@@ -69,7 +129,37 @@
     "physicalTest": "exact model和输入接口",
     "gtmNotes": "北美整锁更换代表，用于区分加装改造与整锁替换边界，避免把整锁更换与retrofit概念混淆。",
     "gtmMarket": "北美第一优先市场",
-    "block": "na"
+    "block": "na",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/us-29_real.jpg",
+    "productImage": "/assets/img/diagrams/US-29_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/US-29_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-NA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "US-30",
@@ -93,7 +183,37 @@
     "physicalTest": "分别验证latch、lock和手动恢复",
     "gtmNotes": "基础管式入口锁，改造难点在于必须分离验证Latch（斜舌抓取）与Lock（闭锁状态），不能把单纯转把手误判为已解锁。",
     "gtmMarket": "北美第一优先市场",
-    "block": "na"
+    "block": "na",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/us-30_real.jpg",
+    "productImage": "/assets/img/diagrams/US-30_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/US-30_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-NA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "US-31",
@@ -117,7 +237,37 @@
     "physicalTest": "带负荷关门扭矩实测 (>= 1.8 N·m)",
     "gtmNotes": "北美大型公寓、学校与办公楼主力锁体，属于大扭矩插芯锁代表样本。",
     "gtmMarket": "北美商业与多户住宅市场",
-    "block": "na"
+    "block": "na",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "productImage": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-NA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "US-32",
@@ -141,7 +291,37 @@
     "physicalTest": "内侧下压把手联动迫转安全性测试",
     "gtmNotes": "多户公寓核心锁型，加装智能锁必须支持把手联动时的被动自由旋转（Clutching），否则内部齿轮打齿碎裂。",
     "gtmMarket": "北美租赁公寓集中采购市场",
-    "block": "na"
+    "block": "na",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/us-interconnected_real.jpg",
+    "productImage": "/assets/img/gallery/us-interconnected_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/us-interconnected_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-NA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "AU-11",
@@ -165,7 +345,37 @@
     "physicalTest": "内旋钮加锁舌输出",
     "gtmNotes": "澳洲存量最大的表面外装夜锁标杆，可直接驱动内侧旋钮，需重点防止安全释放机构（Safety release）与真实锁死状态混淆。",
     "gtmMarket": "澳洲高优先级市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 98,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.98"
+    },
+    "sceneImage": "/assets/img/gallery/au-11_real.jpg",
+    "productImage": "/assets/img/diagrams/AU-11_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/AU-11_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "AU-13",
@@ -189,7 +399,37 @@
     "physicalTest": "开门和关门各3次",
     "gtmNotes": "澳洲双扣死锁，双向钥匙/旋钮需进行3次完整开闭循环验证，严格匹配钥匙几何与行程端点。",
     "gtmMarket": "澳洲高优先级市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/au-13_real.jpg",
+    "productImage": "/assets/img/diagrams/AU-13_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/AU-13_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "AU-16",
@@ -213,7 +453,37 @@
     "physicalTest": "emergency/manual override",
     "gtmNotes": "澳洲双锁芯插销锁，双面钥匙需特别验证内侧紧急逃生手动Override通道是否被阻挡。",
     "gtmMarket": "澳洲高优先级市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/au-16_real.jpg",
+    "productImage": "/assets/img/diagrams/AU-16_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/AU-16_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "AU-17",
@@ -237,7 +507,37 @@
     "physicalTest": "锁状态和安全释放",
     "gtmNotes": "澳洲Whitco双缸外装夜锁，锁舌伸出状态与内侧旋钮状态存在异步风险，需双向信号判定。",
     "gtmMarket": "澳洲高优先级市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/au-17_real.png",
+    "productImage": "/assets/img/diagrams/AU-17_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/AU-17_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "AU-12",
@@ -261,7 +561,37 @@
     "physicalTest": "实际输入和输出",
     "gtmNotes": "澳洲数字Deadlatch，内部采用专有电气与机械接口，属于非标准直接旋转加装样本。",
     "gtmMarket": "澳洲高优先级市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/au-12_real.jpg",
+    "productImage": "/assets/img/diagrams/AU-12_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/AU-12_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "AU-14",
@@ -285,7 +615,37 @@
     "physicalTest": "tailpiece/turn和把手输出",
     "gtmNotes": "澳洲商业与住宅重型插芯锁（60mm背距），联动把手阻力大，需专用Tailpiece转接驱动。",
     "gtmMarket": "澳洲高优先级市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/au-14_real.jpg",
+    "productImage": "/assets/img/diagrams/AU-14_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/AU-14_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "AU-15",
@@ -309,7 +669,37 @@
     "physicalTest": "完整关门序列",
     "gtmNotes": "澳洲89mm大背距加长插芯锁，深度较大，必须验证关门重载阻力与回弹力矩。",
     "gtmMarket": "澳洲高优先级市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/au-15_real.jpg",
+    "productImage": "/assets/img/diagrams/AU-15_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/AU-15_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "AU-18",
@@ -333,7 +723,37 @@
     "physicalTest": "分开证明latch和lock",
     "gtmNotes": "澳式管式把手锁，方轴与回位弹簧强劲，需分别证明斜舌行程与锁定逻辑。",
     "gtmMarket": "澳洲高优先级市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/au-18_real.png",
+    "productImage": "/assets/img/diagrams/AU-18_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/AU-18_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-19",
@@ -357,7 +777,37 @@
     "physicalTest": "钥匙驱动和完整输出",
     "gtmNotes": "欧洲标准双锁芯（30/30对称），作为Architecture B（替换锁芯）的核心基准，需关注钥匙厚度与360°/720°转数匹配。",
     "gtmMarket": "欧洲大容量成熟市场",
-    "block": "europe5"
+    "block": "europe5",
+    "selectionScore": {
+      "overallScore": 98,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.98"
+    },
+    "sceneImage": "/assets/img/gallery/eu-19_real.jpg",
+    "productImage": "/assets/img/diagrams/EU-19_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/EU-19_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-EUROPE5-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-20",
@@ -381,7 +831,37 @@
     "physicalTest": "开关门各3次",
     "gtmNotes": "欧洲非对称双锁芯（35/35），验证防拔护盖（Defender）与外露锁芯长度对电机贴合的干涉。",
     "gtmMarket": "欧洲大容量成熟市场",
-    "block": "europe5"
+    "block": "europe5",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/eu-20_real.jpg",
+    "productImage": "/assets/img/diagrams/EU-20_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/EU-20_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-EUROPE5-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-21",
@@ -405,7 +885,37 @@
     "physicalTest": "adapter啮合和锁输出",
     "gtmNotes": "欧洲可拆卸旋钮锁芯（35/45），测试旋钮拆卸后的转轴直径与直接啮合齿轮适配器。",
     "gtmMarket": "欧洲大容量成熟市场",
-    "block": "europe5"
+    "block": "europe5",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/eu-21_real.jpg",
+    "productImage": "/assets/img/diagrams/EU-21_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/EU-21_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-EUROPE5-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-22",
@@ -429,7 +939,37 @@
     "physicalTest": "间隙和完整输出",
     "gtmNotes": "欧洲大偏心锁芯（40/50），内侧深度显著偏长，需重点测量门扇厚度与装饰盖间隙。",
     "gtmMarket": "欧洲大容量成熟市场",
-    "block": "europe5"
+    "block": "europe5",
+    "selectionScore": {
+      "overallScore": 98,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.98"
+    },
+    "sceneImage": "/assets/img/gallery/eu-22_real.jpg",
+    "productImage": "/assets/img/diagrams/EU-22_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/EU-22_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-EUROPE5-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-23",
@@ -453,7 +993,37 @@
     "physicalTest": "手动抬把手和关门测试",
     "gtmNotes": "欧洲/英国抬把手多点联动锁（Multipoint Lift-to-lock），电机单转钥匙无法自动抬把手，属于重大DIY失败边界样本。",
     "gtmMarket": "欧洲关键边界锁型",
-    "block": "europe5"
+    "block": "europe5",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/eu-23_real.webp",
+    "productImage": "/assets/img/diagrams/EU-23_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/EU-23_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-EUROPE5-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-27",
@@ -477,7 +1047,37 @@
     "physicalTest": "关门自动上锁触发行程与 720 度开锁扭矩测试",
     "gtmNotes": "德系住宅入户大门标配，区别于普通抬把手锁，该锁为自动弹出死锁，改造核心在于电机能否克服双钩弹簧回拉阻力。",
     "gtmMarket": "德国与中欧高端住宅",
-    "block": "europe5"
+    "block": "europe5",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
+    "productImage": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-EUROPE5-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-28",
@@ -501,7 +1101,37 @@
     "physicalTest": "电磁脱扣脉冲与手动红按钮机械行程实测",
     "gtmNotes": "南欧公寓大门庞大存量，加装改造通常与对讲系统（Intercom）联动，属于电控+机械混合样本。",
     "gtmMarket": "南欧历史存量市场",
-    "block": "europe5"
+    "block": "europe5",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/eu-cisa-rim_real.jpg",
+    "productImage": "/assets/img/gallery/eu-cisa-rim_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/eu-cisa-rim_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-EUROPE5-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-24",
@@ -525,7 +1155,37 @@
     "physicalTest": "deadbolt和latch分开",
     "gtmNotes": "英国传统5拨杆插芯呆锁（BS 3621，44mm背距），需长钥匙穿透且阻力大，通常无法直接由内侧旋钮电机驱动。",
     "gtmMarket": "英国本土存量市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/eu-24_real.webp",
+    "productImage": "/assets/img/diagrams/EU-24_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/EU-24_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-25",
@@ -549,7 +1209,37 @@
     "physicalTest": "把手和deadbolt序列",
     "gtmNotes": "英国5拨杆带把手斜舌插芯锁（56mm背距），方轴与钥匙孔分离，需避免把手未压下时锁舌卡死。",
     "gtmMarket": "英国本土存量市场",
-    "block": "uk-anz"
+    "block": "uk-anz",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/eu-25_real.png",
+    "productImage": "/assets/img/diagrams/EU-25_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/EU-25_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-UK-ANZ-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "EU-26",
@@ -573,7 +1263,37 @@
     "physicalTest": "完整lock-case输出",
     "gtmNotes": "英国Chubb/Union欧标插芯锁体，虽采用Euro锁芯但内部拨叉Cam角度专有，不可仅看外形判断兼容。",
     "gtmMarket": "英国本土存量市场",
-    "block": "europe5"
+    "block": "europe5",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/eu-26_real.webp",
+    "productImage": "/assets/img/diagrams/EU-26_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/EU-26_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-EUROPE5-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-01",
@@ -597,7 +1317,37 @@
     "physicalTest": "内侧输入和完整锁状态",
     "gtmNotes": "新加坡/东南亚常见Yale数字插芯锁（60mm背距），整锁已集成电子把手与联动，不建议加装式改造。",
     "gtmMarket": "新加坡/东南亚数字锁存量",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 98,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.98"
+    },
+    "sceneImage": "/assets/img/gallery/sg-01_real.jpg",
+    "productImage": "/assets/img/diagrams/SG-01_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-01_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-02",
@@ -621,7 +1371,37 @@
     "physicalTest": "内侧输入和把手序列",
     "gtmNotes": "新加坡Yale数字插芯锁，用于验证安装板与既有门孔干涉，属于整锁换装边界样本。",
     "gtmMarket": "新加坡/东南亚数字锁存量",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-02_real.png",
+    "productImage": "/assets/img/diagrams/SG-02_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-02_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-03",
@@ -645,7 +1425,37 @@
     "physicalTest": "Rim case和锁舌输出",
     "gtmNotes": "东南亚外装贴门数字锁，常用于旧木门补强，内部驱动机构封闭，需实测旋钮物理输出。",
     "gtmMarket": "东南亚加装存量",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-03_real.png",
+    "productImage": "/assets/img/diagrams/SG-03_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-03_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-04",
@@ -669,7 +1479,37 @@
     "physicalTest": "把手和deadbolt完整循环",
     "gtmNotes": "三星推拉式插芯数字锁，开门动作与把手推拉强绑定，非直接旋转架构所能覆盖。",
     "gtmMarket": "东南亚/东亚推拉锁市场",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-04_real.webp",
+    "productImage": "/assets/img/diagrams/SG-04_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-04_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-05",
@@ -693,7 +1533,37 @@
     "physicalTest": "内侧控制和锁状态",
     "gtmNotes": "三星小型外装数字锁，门内无外露旋钮，属于不推荐加装式改造的边界案例。",
     "gtmMarket": "东南亚加装存量",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-05_real.webp",
+    "productImage": "/assets/img/diagrams/SG-05_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-05_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-06",
@@ -717,7 +1587,37 @@
     "physicalTest": "开门和关门完整序列",
     "gtmNotes": "Zigbang推拉锁，新加坡铁闸门与木门净距常小于80mm，易发生门闸把手碰撞。",
     "gtmMarket": "东南亚高层住宅铁闸市场",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-06_real.jpg",
+    "productImage": "/assets/img/diagrams/SG-06_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-06_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-07",
@@ -741,7 +1641,37 @@
     "physicalTest": "完整锁体接口",
     "gtmNotes": "Aqara A100数字整锁，不可与U200加装电机混淆，用于展示完整锁体接口与门孔要求。",
     "gtmMarket": "东南亚/国内整锁市场",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-07_real.png",
+    "productImage": "/assets/img/diagrams/SG-07_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-07_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-08",
@@ -765,7 +1695,37 @@
     "physicalTest": "完整锁体接口",
     "gtmNotes": "Gateman韩国/东南亚经典数字锁，原机已自带电机离合，强行加装会造成电机驱动冲突。",
     "gtmMarket": "东亚/东南亚存量市场",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-08_real.jpg",
+    "productImage": "/assets/img/diagrams/SG-08_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-08_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-09",
@@ -789,7 +1749,37 @@
     "physicalTest": "完整锁体接口",
     "gtmNotes": "凯迪仕推拉数字锁，面板与门边空间占用大，侧重铁闸门间隙与门孔开孔考量。",
     "gtmMarket": "东南亚主流品牌存量",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-09_real.webp",
+    "productImage": "/assets/img/diagrams/SG-09_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-09_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "SG-10",
@@ -813,7 +1803,37 @@
     "physicalTest": "完整锁体接口",
     "gtmNotes": "飞利浦Alpha系列推拉整锁，属于整锁替换架构，供工程师比对开孔图谱。",
     "gtmMarket": "东南亚主流品牌存量",
-    "block": "sea"
+    "block": "sea",
+    "selectionScore": {
+      "overallScore": 85,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.85"
+    },
+    "sceneImage": "/assets/img/gallery/sg-10_real.jpg",
+    "productImage": "/assets/img/diagrams/SG-10_schematic.svg",
+    "installationGuide": {
+      "schematic": "/assets/img/diagrams/SG-10_schematic.svg",
+      "hasSchematic": true,
+      "drillingTemplate": "TPL-SEA-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "LA-01",
@@ -833,7 +1853,37 @@
     "status": "R1",
     "gtmNotes": "拉美最大存量市场（巴西/哥伦比亚/阿根廷）。窄背距（40/45mm）是核心挑战，电机旋转半径必须小于 38mm 以免撞击门框防风条。",
     "gtmMarket": "拉美新兴大容量市场",
-    "physicalTest": "40mm背距内侧旋钮与门框间隙实测"
+    "physicalTest": "40mm背距内侧旋钮与门框间隙实测",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/eu-26_real.webp",
+    "productImage": "/assets/img/gallery/eu-26_real.webp",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/eu-26_real.webp",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-LATAM-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "LA-02",
@@ -853,7 +1903,37 @@
     "status": "R1",
     "gtmNotes": "智利与安第斯地区木门与金属门存量极大。旋钮阻力偏大（需 1.5 N·m 以上力矩），需配备专用大直径防滑转接件。",
     "gtmMarket": "拉美新兴市场",
-    "physicalTest": "外装双钩扣板咬合力矩与3次完整闭锁"
+    "physicalTest": "外装双钩扣板咬合力矩与3次完整闭锁",
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/au-13_real.jpg",
+    "productImage": "/assets/img/gallery/au-13_real.jpg",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/au-13_real.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-LATAM-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "LA-03",
@@ -878,7 +1958,36 @@
     "physicalTest": "十字钥匙插入深度与四舌回缩阻力测试",
     "gtmNotes": "巴西几乎每扇防盗木门均在主锁上方配有 1~2 把 Stam Tetra 副锁。其核心难点是十字异形钥匙夹持与 40mm 极窄回转半径。",
     "gtmMarket": "巴西全国存量普及锁",
-    "block": "latam"
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "productImage": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/latam-stam-tetra_real.png",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-LATAM-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   },
   {
     "id": "LA-04",
@@ -903,6 +2012,35 @@
     "physicalTest": "滚轮弹簧顶紧力调节与锁芯旋转行程测试",
     "gtmNotes": "拉美高端独立大门主流锁，没有传统下压把手（多配高大实木或铜拉手），加装智能锁只需驱动中央锁芯，改装潜力极大。",
     "gtmMarket": "拉美中高端住宅大门",
-    "block": "latam"
+    "selectionScore": {
+      "overallScore": 92,
+      "marketCoverage": "High",
+      "retrofitAffinity": "Grade A",
+      "visualClarity": "4K/HD Ready",
+      "estimatedCtrWeight": "0.92"
+    },
+    "sceneImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+    "productImage": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+    "installationGuide": {
+      "schematic": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-LATAM-STD",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor baseline)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
   }
 ]
