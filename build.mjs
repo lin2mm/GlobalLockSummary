@@ -802,6 +802,91 @@ function galleryFragment(lang) {
     <div class="gallery-blocks-container">
       ${blocksHtml}
     </div>
+
+    <!-- Global Lock Data Bounty & Engineering Benchmark Section -->
+    <div class="gallery-expansion-grid" style="margin-top: 3.5rem; display: grid; gap: 2rem;">
+      <section class="gallery-bounty-panel" style="border: 2px dashed #3b82f6; border-radius: 12px; background: #eff6ff; padding: 1.5rem 1.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .75rem; margin-bottom: .85rem;">
+          <h2 style="margin: 0; font-size: 1.35rem; color: #1e3a8a;">🎯 全球锁型工程缺口清单（急需现场实测与照片贡献）</h2>
+          <a href="#feedback" class="feedback__submit" style="text-decoration: none; display: inline-block; padding: .4rem .9rem; font-size: .85rem;">提交实测数据 / 照片 →</a>
+        </div>
+        <p style="margin: 0 0 1.25rem; font-size: .92rem; color: #1e293b; line-height: 1.5;">
+          面向经常奔赴全球现场的一线五金与出海智能锁工程师：以下 5 类锁族为当前存量大但缺乏国内公开高精度 CAD/实测数据的锁型。若您手头有样品或安装实拍照，请通过下方反馈栏提交！
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+          <div style="background: #ffffff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 1rem;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: .3rem;"><b style="color: #1d4ed8; font-size: .92rem;">北欧椭圆锁芯 (ASSA Oval)</b><span style="font-size: .72rem; font-weight: 700; color: #b91c1c; background: #fee2e2; padding: .1rem .4rem; border-radius: 4px;">P1 急需</span></div>
+            <p style="font-size: .82rem; color: #475569; margin: 0 0 .4rem;">瑞典/挪威双凸耳椭圆体。缺：旋钮方轴截面公差、外露防拔护盖外径。</p>
+            <span style="font-size: .76rem; color: #0369a1; background: #e0f2fe; padding: .15rem .4rem; border-radius: 4px;">改装难点：需专用 5601 弧形锁芯夹具</span>
+          </div>
+          <div style="background: #ffffff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 1rem;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: .3rem;"><b style="color: #1d4ed8; font-size: .92rem;">瑞士 22mm 圆锁芯 (Kaba)</b><span style="font-size: .72rem; font-weight: 700; color: #b91c1c; background: #fee2e2; padding: .1rem .4rem; border-radius: 4px;">P1 急需</span></div>
+            <p style="font-size: .82rem; color: #475569; margin: 0 0 .4rem;">瑞士高安防圆锁芯。缺：拨叉角度死点公差、防拔套筒径向净空。</p>
+            <span style="font-size: .76rem; color: #0369a1; background: #e0f2fe; padding: .15rem .4rem; border-radius: 4px;">改装难点：无外壳止动面易自旋转打滑</span>
+          </div>
+          <div style="background: #ffffff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 1rem;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: .3rem;"><b style="color: #1d4ed8; font-size: .92rem;">日本窄框锁 (MIWA 13LA)</b><span style="font-size: .72rem; font-weight: 700; color: #b91c1c; background: #fee2e2; padding: .1rem .4rem; border-radius: 4px;">P1 急需</span></div>
+            <p style="font-size: .82rem; color: #475569; margin: 0 0 .4rem;">日式铝合金窄框门。缺：旋钮防撬裙圈尺寸、门套最小法向净距。</p>
+            <span style="font-size: .76rem; color: #0369a1; background: #e0f2fe; padding: .15rem .4rem; border-radius: 4px;">改装难点：背距仅31/38mm，极易撞门套</span>
+          </div>
+          <div style="background: #ffffff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 1rem;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: .3rem;"><b style="color: #1d4ed8; font-size: .92rem;">巴西 ABNT 窄背距锁</b><span style="font-size: .72rem; font-weight: 700; color: #c2410c; background: #ffedd5; padding: .1rem .4rem; border-radius: 4px;">P2 攻关</span></div>
+            <p style="font-size: .82rem; color: #475569; margin: 0 0 .4rem;">拉美 30mm 薄门。缺：沉头螺钉深度、斜舌换向反弹力矩实测。</p>
+            <span style="font-size: .76rem; color: #0369a1; background: #e0f2fe; padding: .15rem .4rem; border-radius: 4px;">改装难点：40mm背距极易超出门扇边缘</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-benchmark-panel" style="border: 1px solid var(--line); border-radius: 12px; background: var(--bg-alt); padding: 1.5rem 1.75rem;">
+        <h2 style="margin: 0 0 .5rem; font-size: 1.35rem; color: #102a43;">⚡ 全球主流改造智能锁（Nuki / August / SwitchBot）实测与工程吐槽对标</h2>
+        <p style="margin: 0 0 1.25rem; font-size: .92rem; color: var(--fg-muted); line-height: 1.5;">
+          汇总自海外社区真实退货与差评数据，工程师设计新产品可直接对标以下参数边界与避坑方案：
+        </p>
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; font-size: .88rem; border-collapse: collapse;">
+            <thead>
+              <tr style="background: #f1f5f9; text-align: left;">
+                <th style="padding: .65rem .8rem; border: 1px solid var(--line);">品牌 / 型号</th>
+                <th style="padding: .65rem .8rem; border: 1px solid var(--line);">主攻市场 / 架构</th>
+                <th style="padding: .65rem .8rem; border: 1px solid var(--line);">额定峰值力矩</th>
+                <th style="padding: .65rem .8rem; border: 1px solid var(--line);">高频用户吐槽与故障点</th>
+                <th style="padding: .65rem .8rem; border: 1px solid var(--line);">工程师避坑设计指南</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); font-weight: 700;">Nuki Ultra / 4.0</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line);">欧洲 / Architecture A</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line);">1.2 N·m</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); color: #991b1b;">遇多点锁无法拉动把手频报 Motor Blocked；遇门变形卡死耗尽电池；锁芯无应急功能断电反锁</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); color: #166534;">强制提醒手动抬把手确认；加入动态堵转自适应回退保护；强制要求双向应急锁芯</td>
+              </tr>
+              <tr>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); font-weight: 700;">August Wi-Fi (Gen 4)</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line);">北美 / ANSI Deadbolt</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line);">1.0 N·m</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); color: #991b1b;">木门下沉导致插销与扣板错位死锁；内部塑料拨片断裂；大阻力下电池仅撑1个月</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); color: #166534;">标配加长防卡阻倒角扣板；内部受力拨片必须升级为粉末冶金/锌合金材质</td>
+              </tr>
+              <tr>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); font-weight: 700;">SwitchBot Lock Pro</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line);">全球通用 / 万能大夹具</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line);">1.5 N·m</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); color: #991b1b;">机身厚度达56mm，在新加坡双门铁闸或日本窄门上撞击门套；双面胶长期拉扯脱落</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); color: #166534;">机身厚度向35mm压缩；保留螺丝孔机械硬固定，不可单依赖胶贴</td>
+              </tr>
+              <tr>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); font-weight: 700;">Aqara U200</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line);">欧美 / A+B双架构</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line);">1.3 N·m</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); color: #991b1b;">配锁芯版本对门厚度公差敏感；不同国家门厚备货复杂</td>
+                <td style="padding: .65rem .8rem; border: 1px solid var(--line); color: #166534;">采用模块化伸缩长度锁芯（30/30 至 50/50 连续可调），解决门厚库存难题</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
   </div>`;
 }
 const FRAGMENTS = {
