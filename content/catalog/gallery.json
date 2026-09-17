@@ -81,7 +81,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -172,7 +181,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -263,7 +281,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -354,7 +381,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -445,7 +481,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -536,7 +581,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -627,7 +681,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -718,7 +781,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -809,7 +881,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -900,7 +981,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -991,7 +1081,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -1082,7 +1181,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -1173,7 +1281,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -1264,7 +1381,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -1355,7 +1481,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -1446,7 +1581,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -1537,7 +1681,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -1628,7 +1781,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -1719,7 +1881,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -1810,7 +1981,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -1901,7 +2081,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -1992,7 +2181,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2083,7 +2281,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2174,7 +2381,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2265,7 +2481,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -2356,7 +2581,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2447,7 +2681,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2538,7 +2781,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2629,7 +2881,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2720,7 +2981,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2811,7 +3081,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2902,7 +3181,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -2993,7 +3281,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -3084,7 +3381,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -3171,7 +3477,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -3258,7 +3573,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -3349,7 +3673,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -3440,7 +3773,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -3527,7 +3869,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -3614,7 +3965,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -3701,7 +4061,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -3788,7 +4157,16 @@
       },
       "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
       "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
-      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -3875,7 +4253,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -3962,7 +4349,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -4049,7 +4445,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -4136,7 +4541,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -4223,7 +4637,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -4310,7 +4733,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -4397,7 +4829,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -4484,7 +4925,16 @@
       },
       "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
       "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
-      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -4571,7 +5021,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -4658,7 +5117,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -4745,7 +5213,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     },
     "tierClass": "Mainstream",
     "tierBadge": {
@@ -4832,7 +5309,16 @@
       },
       "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
       "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
-      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     },
     "tierClass": "Niche",
     "tierBadge": {
@@ -4913,7 +5399,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     }
   },
   {
@@ -4988,7 +5483,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     }
   },
   {
@@ -5063,7 +5567,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     }
   },
   {
@@ -5138,7 +5651,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "纽约 (NYC)",
+        "洛杉矶 (LA)",
+        "芝加哥 (Chicago)",
+        "多伦多 (Toronto)",
+        "温哥华 (Vancouver)"
+      ],
+      "gearboxSpec": "推荐减速比 1:75 ~ 1:90；双向电磁/离合自锁力矩 0.35 N·m；手动物理开锁阻尼 ≤0.25 N·m",
+      "shearLineClearance": "外露凸出量 2.0~4.5mm；内侧旋钮底座沉槽需留空直径 ≥38mm，沉孔深度 ≥3.0mm，确保扁条完全插入剪切轴芯"
     }
   },
   {
@@ -5213,7 +5735,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     }
   },
   {
@@ -5288,7 +5819,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     }
   },
   {
@@ -5363,7 +5903,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     }
   },
   {
@@ -5438,7 +5987,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "巴黎 (Paris)",
+        "柏林 (Berlin)",
+        "法兰克福 (Frankfurt)",
+        "马德里 (Madrid)",
+        "维也纳 (Vienna)"
+      ],
+      "gearboxSpec": "推荐减速比 1:110 ~ 1:130 (大扭矩克服多点联动)；行星减速箱，离合器必须具备通电脱开功能",
+      "shearLineClearance": "DIN 水滴外露高度标准为 3mm 或 5mm；加装底盘厚度严禁超过 2.5mm，否则钥匙无法插至剪切平面触发旋转"
     }
   },
   {
@@ -5513,7 +6071,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     }
   },
   {
@@ -5588,7 +6155,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     }
   },
   {
@@ -5663,7 +6239,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "伦敦 (London)",
+        "悉尼 (Sydney)",
+        "墨尔本 (Melbourne)",
+        "曼彻斯特 (Manchester)",
+        "布里斯班 (Brisbane)"
+      ],
+      "gearboxSpec": "推荐减速比 1:85 ~ 1:100；夜闩锁回弹弹簧较强，关门时自锁力矩需 ≥0.45 N·m 稳固锁舌",
+      "shearLineClearance": "Lockwood 001 旋钮高度 28mm；内侧夹爪必须包裹外缘并预留 15mm 钥匙孔直接对穿孔"
     }
   },
   {
@@ -5738,7 +6323,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     }
   },
   {
@@ -5813,7 +6407,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     }
   },
   {
@@ -5888,7 +6491,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "东京 (Tokyo)",
+        "新加坡 (Singapore)",
+        "大阪 (Osaka)",
+        "首尔 (Seoul)",
+        "吉隆坡 (Kuala Lumpur)"
+      ],
+      "gearboxSpec": "推荐减速比 1:60 ~ 1:75 (超静音微型行星齿轮箱)；低阻尼自锁力矩 0.20 N·m",
+      "shearLineClearance": "日式超薄锁体间隙 ≤1.0mm；旋钮抓手避让外圈沉深 5mm，双侧捏合行程精准控制在 2.5mm"
     }
   },
   {
@@ -5963,7 +6575,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     }
   },
   {
@@ -6038,7 +6659,16 @@
       "boltWireClearance": "对穿螺栓与排线严格分离，避让通道预留 ≥4mm",
       "electricalProfile": "空载 ≤180mA，堵转峰值 1.8A~2.2A",
       "securityCertification": "符合当地建筑与防盗五金行业标准",
-      "doorSensorSpec": "标准对齐间隙 10~15mm"
+      "doorSensorSpec": "标准对齐间隙 10~15mm",
+      "representativeCities": [
+        "圣保罗 (São Paulo)",
+        "里约热内卢 (Rio de Janeiro)",
+        "圣地亚哥 (Santiago)",
+        "波哥大 (Bogotá)",
+        "布宜诺斯艾利斯 (Buenos Aires)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (金属粉末冶金齿轮)；高自锁力矩 ≥0.50 N·m 抵抗重门震动",
+      "shearLineClearance": "40mm 极窄锁体距门框边缘仅 40mm；加装锁壳横向半宽严禁超过 38mm，防止剐蹭密封条"
     }
   }
 ]
