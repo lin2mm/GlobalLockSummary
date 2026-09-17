@@ -78,7 +78,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -160,7 +163,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -242,7 +248,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -324,7 +333,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -406,7 +418,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -488,7 +503,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -570,7 +588,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -652,7 +673,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -734,7 +758,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -816,7 +843,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -898,7 +928,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -980,7 +1013,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1062,7 +1098,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1144,7 +1183,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1226,7 +1268,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1308,7 +1353,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1390,7 +1438,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1472,7 +1523,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1554,7 +1608,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1636,7 +1693,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1718,7 +1778,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1800,7 +1863,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1882,7 +1948,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -1964,7 +2033,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -2046,7 +2118,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2128,7 +2203,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2210,7 +2288,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2292,7 +2373,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2374,7 +2458,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2456,7 +2543,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2538,7 +2628,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2620,7 +2713,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2702,7 +2798,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2784,7 +2883,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -2862,7 +2964,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -2940,7 +3045,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3022,7 +3130,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3104,7 +3215,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3182,7 +3296,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -3260,7 +3377,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -3338,7 +3458,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -3416,7 +3539,10 @@
         "centres": "独立分体",
         "spindle": "1.6×4.8mm 扁平尾轴",
         "thickness": "35-51mm"
-      }
+      },
+      "electricalProfile": "空载电流 ≤180mA，堵转峰值电流 1.6A~2.2A；推荐选用内阻 ≤120mΩ 的 1.5V 锂铁电池 (AA Energizer Ultimate Lithium)，严禁高内阻碳性电池以防 MCU 欠压复位",
+      "securityCertification": "ANSI/BHMA Grade 1 最高防盗级别；原厂外锁芯内置硬化钢防钻滚珠与蘑菇形防挑珠 (Spool Pins)，符合北美家居火险与防盗险最高理赔资质",
+      "doorSensorSpec": "磁敏间隙推荐 12~18mm；若安装在金属门框上，磁通量衰减约 40%，必须加装 3mm 隔磁ABS垫高片，确保感应距离 ≥8mm"
     }
   },
   {
@@ -3494,7 +3620,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3572,7 +3701,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3650,7 +3782,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3728,7 +3863,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3806,7 +3944,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3884,7 +4025,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -3962,7 +4106,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -4040,7 +4187,10 @@
         "centres": "独立/联动",
         "spindle": "8×8mm 高精",
         "thickness": "33-42mm"
-      }
+      },
+      "electricalProfile": "空载 ≤120mA，高精插芯锁阻尼极小，堵转峰值仅需 1.2A~1.5A；极低功耗设计，普通碱性电池寿命可达 12~18 个月",
+      "securityCertification": "JIS A 1510 高防盗等级 / 日本 CP 认证 (防撬防钻时间 ≥10分钟)；MIWA U9 旋转滚子排珠拥有千万级钥匙不重样率",
+      "doorSensorSpec": "间隙 5~10mm 超紧凑布局；针对日式紧凑窄框门与新加坡钢闸门，提供抗金属磁屏蔽微型磁铁组件"
     }
   },
   {
@@ -4118,7 +4268,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -4196,7 +4349,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -4274,7 +4430,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   },
   {
@@ -4352,7 +4511,10 @@
         "centres": "53/70mm",
         "spindle": "8×8mm 粗公差",
         "thickness": "30-35mm"
-      }
+      },
+      "electricalProfile": "拉美重型双舌插芯机械摩擦大，空载 220mA，堵转峰值电流 2.2A~2.6A；必须设定 500ms 硬件快速过流熔断保护，防止电机烧毁",
+      "securityCertification": "ABNT NBR 14913 标准防撬等级；锁体采用高强度镀锌钢板冲压，具备基础物理防锯与防冲击能力",
+      "doorSensorSpec": "间隙 10~18mm；木门及铁艺门需配备双孔螺丝紧固型高通量钕铁硼 (NdFeB N52) 强磁体"
     }
   }
 ]
