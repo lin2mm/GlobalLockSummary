@@ -622,12 +622,18 @@ function galleryFragment(lang) {
   if (!existsSync(galleryPath)) return '';
   const items = JSON.parse(readFileSync(galleryPath, 'utf8'));
 
+  // GTM Market Capacity Ordered Tabs:
+  // 1. All (全部)
+  // 2. North America (北美：存量最大单插销/Deadbolt加装改造市场)
+  // 3. Australia & NZ (澳洲/新西兰：Lockwood/Whitco高改造潜力市场)
+  // 4. UK & Europe (英国/欧洲：Euro锁芯与5拨杆锁量产大市场)
+  // 5. Singapore & SE Asia (新加坡/东南亚：HDB铁闸与数字整锁边界案例)
   const regions = [
-    { code: 'all', label: isZh ? '全部锁型' : 'All locks' },
-    { code: 'sg-sea', label: isZh ? '新加坡 / 东南亚' : 'Singapore & SE Asia' },
-    { code: 'anz', label: isZh ? '澳洲 / 新西兰' : 'Australia & NZ' },
-    { code: 'europe', label: isZh ? '英国 / 欧洲' : 'UK & Europe' },
-    { code: 'na', label: isZh ? '北美' : 'North America' },
+    { code: 'all', label: isZh ? '全部锁型 (30)' : 'All Locks (30)' },
+    { code: 'na', label: isZh ? '北美市场 (ANSI/Deadbolt)' : 'North America (ANSI)' },
+    { code: 'anz', label: isZh ? '澳洲市场 (Deadlatch/Lockwood)' : 'Australia & NZ' },
+    { code: 'europe', label: isZh ? '英国与欧洲 (Euro/5-Lever)' : 'UK & Europe' },
+    { code: 'sg-sea', label: isZh ? '新加坡/东南亚 (HDB/数字边界)' : 'Singapore & SE Asia' },
   ];
 
   const filterBtns = regions.map((r, idx) => 
@@ -639,18 +645,26 @@ function galleryFragment(lang) {
     const regionLabel = item.region || '';
     const statusClass = item.status === 'R1' ? 'gallery-card__status--r1' : (item.status === 'R2' ? 'gallery-card__status--r2' : 'gallery-card__status--r0');
     const statusText = item.status || 'R0';
-    const searchText = `${item.id} ${title} ${regionLabel} ${item.features || ''}`.toLowerCase();
+    const statusNote = item.status === 'R1' 
+      ? (isZh ? 'R1 优先测试 / 改造高可行' : 'R1 High Feasibility')
+      : (item.status === 'R2' ? (isZh ? 'R2 需实测再宣传' : 'R2 Test First') : (isZh ? 'R0 边界样本 / 非直接加装' : 'R0 Boundary Sample'));
+
+    const searchText = `${item.id} ${title} ${regionLabel} ${item.features || ''} ${item.gtmNotes || ''}`.toLowerCase();
     
     // Link to family page if mapped
     const hasFamily = !!item.familyId;
     const familyHref = hasFamily ? `/${urlFor(lang, `locks/${item.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
     const linkText = hasFamily 
-      ? (isZh ? '查看对应锁族参数 →' : 'View family spec →')
-      : (isZh ? '锁库详细索引 →' : 'Lock catalog index →');
+      ? (isZh ? '查看锁族工程规范 →' : 'View Lock Spec →')
+      : (isZh ? '锁库详细索引 →' : 'Lock Catalog Index →');
 
     const detailTag = hasFamily 
-      ? (isZh ? '已映射详情' : 'Mapped family')
-      : (isZh ? '候选样本' : 'Candidate sample');
+      ? (isZh ? '已核实锁族' : 'Mapped family')
+      : (isZh ? 'GTM 边界样本' : 'GTM boundary');
+
+    const gtmNoteHtml = item.gtmNotes 
+      ? `<div class="gallery-card__gtm-note"><b>${isZh ? 'GTM 工程关注' : 'GTM Focus'}：</b>${escapeHtml(item.gtmNotes)}</div>`
+      : '';
 
     return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.regionCode)}" data-search-text="${escapeHtml(searchText)}">
       <div class="gallery-card__img-wrap">
@@ -659,13 +673,14 @@ function galleryFragment(lang) {
         </a>
         <div class="gallery-card__badges">
           <span class="gallery-card__id">${escapeHtml(item.id)}</span>
-          <span class="gallery-card__status ${statusClass}">${escapeHtml(statusText)}</span>
+          <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusNote)}">${escapeHtml(statusText)}</span>
         </div>
       </div>
       <div class="gallery-card__body">
         <div class="gallery-card__region">${escapeHtml(regionLabel)}</div>
         <h3 class="gallery-card__title"><a href="${familyHref}">${escapeHtml(title)}</a></h3>
         <p class="gallery-card__features">${escapeHtml(item.features || '')}</p>
+        ${gtmNoteHtml}
         <div class="gallery-card__footer">
           <span class="gallery-card__tag">${escapeHtml(detailTag)}</span>
           <a class="gallery-card__link" href="${familyHref}">${escapeHtml(linkText)}</a>
@@ -677,12 +692,12 @@ function galleryFragment(lang) {
   return `<div class="gallery-wall" data-gallery-root>
     <div class="gallery-wall__header">
       <div class="gallery-wall__intro">${isZh 
-        ? '工程师实物安装图墙导航：点击实物图片或卡片链接，直接查看背距、方轴、锁体深度及改造适配参数。当前收录 <b><span data-gallery-count>' + items.length + '</span></b> 类代表性候选锁。' 
-        : 'Photo-driven navigation for engineers: visually identify locks and click through for backset, spindle, mortise depth, and retrofit details. Showing <b><span data-gallery-count>' + items.length + '</span></b> candidate locks.'}</div>
+        ? '<b>按 GTM 市场容量与优先级别排序：</b>北美（ANSI 单插销高改造存量） → 澳洲（Lockwood 001/355 重点市场） → 英国与欧洲（Euro 锁芯与多点锁） → 新加坡与东南亚（HDB 铁闸与整锁边界样本）。点击实物图片或链接直达详细参数。' 
+        : '<b>Ordered by GTM market priority & retrofit capacity:</b> North America (ANSI deadbolt) → Australia & NZ (Lockwood/Whitco) → UK & Europe (Euro/5-lever) → Singapore & SE Asia (HDB & digital boundary). Click photos for full specs.'}</div>
       <div class="gallery-wall__controls">
         <div class="gallery-filter">${filterBtns}</div>
         <div class="gallery-search">
-          <input type="search" data-gallery-search placeholder="${isZh ? '按名称、地区、特征实时速查...' : 'Filter by name, region, feature...'}" aria-label="${isZh ? '筛选图墙锁型' : 'Filter gallery locks'}" />
+          <input type="search" data-gallery-search placeholder="${isZh ? '按名称、品牌、地区或特征速查...' : 'Filter locks...'}" aria-label="${isZh ? '筛选图墙锁型' : 'Filter gallery locks'}" />
         </div>
       </div>
     </div>
@@ -691,7 +706,6 @@ function galleryFragment(lang) {
     </div>
   </div>`;
 }
-
 const FRAGMENTS = {
   '{{gallery}}': galleryFragment,
   '{{wizard}}': wizardFragment,

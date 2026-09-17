@@ -428,3 +428,15 @@ details p { margin: .6rem 0 .2rem; color: var(--fg-muted); }
 }
 .gallery-card__link:hover { text-decoration: underline; }
 .gallery-card__tag { font-size: .74rem; color: var(--fg-muted); background: var(--bg-alt); padding: .15rem .4rem; border-radius: 4px; }
+
+/* ---------- GTM note in gallery card ---------- */
+.gallery-card__gtm-note {
+  font-size: .8rem;
+  color: #1e3a8a;
+  background: #eff6ff;
+  border-left: 3px solid #3b82f6;
+  padding: .45rem .6rem;
+  border-radius: 4px;
+  margin: .4rem 0 .75rem;
+  line-height: 1.4;
+}
