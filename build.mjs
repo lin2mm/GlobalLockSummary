@@ -348,12 +348,67 @@ function lockPage(fam, lang) {
       </div>`;
     }).join('\n');
 
+    // Ingest all matching field cases from installation-cases.json for high-immersion jobsite experience
+    const casesPath = join(CONTENT, 'catalog', 'installation-cases.json');
+    let matchedFieldCases = [];
+    if (existsSync(casesPath)) {
+      const allCases = JSON.parse(readFileSync(casesPath, 'utf8'));
+      matchedFieldCases = allCases.filter(c => c.lockFamilyId === fam.id);
+    }
+
+    let fieldCasesHtml = '';
+    if (matchedFieldCases.length > 0) {
+      const fieldCards = matchedFieldCases.map(fc => {
+        const fcTitle = (fc.title && (fc.title[lang] || fc.title.en)) || fc.id;
+        const fcDesc = (fc.desc && (fc.desc[lang] || fc.desc.en)) || '';
+        const fcRegion = (fc.regionName && (fc.regionName[lang] || fc.regionName.en)) || fc.regionCode;
+
+        return `<div class="lock-detail-field-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
+          <div style="position: relative; height: 180px; background: #0f172a; overflow: hidden;">
+            <img src="${escapeHtml(fc.image)}" alt="${escapeHtml(fcTitle)}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" />
+            <span style="position: absolute; top: 8px; left: 8px; background: rgba(15,23,42,0.85); color: #38bdf8; font-size: 0.7rem; font-weight: 700; padding: 2px 7px; border-radius: 4px;">
+              ${escapeHtml(fc.id)} · ${escapeHtml(fc.sceneType)}
+            </span>
+            <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #fff; font-size: 0.68rem; padding: 2px 6px; border-radius: 3px;">
+              ${escapeHtml(fcRegion)}
+            </span>
+          </div>
+          <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
+            <h5 style="margin: 0 0 6px; font-size: 0.95rem; line-height: 1.4; color: #0f172a;">${escapeHtml(fcTitle)}</h5>
+            <p style="margin: 0 0 10px; font-size: 0.8rem; color: #475569; line-height: 1.45; flex: 1;">${escapeHtml(fcDesc)}</p>
+            <div style="background: #f1f5f9; padding: 5px 8px; border-radius: 4px; font-size: 0.72rem; color: #334155; border-left: 3px solid #0284c7;">
+              ⚙️ <b>${lang === 'zh' ? '实操指标:' : 'Metrics:'}</b> ${escapeHtml(fc.keyMetrics)}
+            </div>
+          </div>
+        </div>`;
+      }).join('\n');
+
+      fieldCasesHtml = `
+      <div class="lock-detail-jobsite-section" style="margin-top: 36px; padding: 20px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+          <div>
+            <h3 style="margin: 0; font-size: 1.15rem; color: #0f172a; display: flex; align-items: center; gap: 6px;">
+              <span>🔨</span> ${lang === 'zh' ? '一线安装工程实态与避坑工单现场图库 (' + matchedFieldCases.length + ' 个真实工况)' : 'Field Installation Cases & Jobsite Photos (' + matchedFieldCases.length + ' cases)'}
+            </h3>
+            <p style="margin: 4px 0 0; font-size: 0.82rem; color: #64748b;">${lang === 'zh' ? '展示真实开孔夹具钻孔、木工凿槽、转轴拉出与防盗扣板对齐的真实施工实录，带来 1:1 一线现场感。' : 'Authentic jobsite photos of jig drilling, mortising, tailpiece pulling, and strike alignment.'}</p>
+          </div>
+          <a class="block-hero__btn" style="font-size: 0.8rem; padding: 6px 12px; background: #0284c7; color: #fff;" href="${lang === 'zh' ? '/zh/install-gallery.html' : '/en/install-gallery.html'}">
+            ${lang === 'zh' ? '浏览全站 41 个工程实录图库 →' : 'View All 41 Field Cases →'}
+          </a>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px;">
+          ${fieldCards}
+        </div>
+      </div>`;
+    }
+
     gallerySectionHtml = `
 <h2 id="installation-samples">${lang === 'zh' ? '实物安装与改造图谱' : 'Installation Photos & Retrofit Diagrams'}</h2>
 <p class="lede">${lang === 'zh' ? '以下为该锁族在实际门上的实物安装案例、传动原理示意图与智能化改造常见问题分析：' : 'Field installation examples, drive schematics, and common retrofit failure modes for this lock family:'}</p>
 <div class="lock-detail-samples">
   ${sampleCards}
 </div>
+${fieldCasesHtml}
 `;
   }
 
