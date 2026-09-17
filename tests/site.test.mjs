@@ -222,6 +222,7 @@ if (existsSync(galleryJsonPath)) {
   const rootIndex = read(join(SITE, 'index.html'));
   check('root index.html renders gallery wall', rootIndex.includes('data-gallery-root') && rootIndex.includes('gallery-card'));
   check('gallery renders 5 major regional blocks', rootIndex.includes('data-gallery-block="na"') && rootIndex.includes('data-gallery-block="latam"'));
+  check('gallery features block-hero flagship showcases for retrofit baselines', rootIndex.includes('block-hero') && rootIndex.includes('hero-na-deadbolt.jpg') && rootIndex.includes('hero-europe-eurocylinder.jpg') && rootIndex.includes('hero-anz-lockwood001.jpg'));
   check('gallery tabs display explicit model counts', rootIndex.includes('北美 (4)') && rootIndex.includes('澳洲与英国 (10)') && rootIndex.includes('欧洲五国 (6)'));
   
   const fieldIssuesZh = read(join(SITE, 'field-issues.html'));

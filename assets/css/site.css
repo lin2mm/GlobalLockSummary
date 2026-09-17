@@ -707,3 +707,92 @@ details p { margin: .6rem 0 .2rem; color: var(--fg-muted); }
   font-size: .95rem;
   color: var(--fg-muted);
 }
+
+/* ---------- Block HERO Showcase (Flagship Retrofit Lock) ---------- */
+.block-hero {
+  display: grid;
+  grid-template-columns: minmax(280px, 440px) 1fr;
+  gap: 1.75rem;
+  background: var(--bg-alt);
+  border: 1.5px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 1.25rem 0 1.5rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,.04);
+}
+@media (max-width: 780px) {
+  .block-hero { grid-template-columns: 1fr; }
+}
+.block-hero__media {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  border-right: 1px solid var(--line);
+}
+@media (max-width: 780px) {
+  .block-hero__media { border-right: none; border-bottom: 1px solid var(--line); }
+}
+.block-hero__media img {
+  width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+  transition: transform .25s ease;
+}
+.block-hero:hover .block-hero__media img {
+  transform: scale(1.03);
+}
+.block-hero__content {
+  padding: 1.5rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.block-hero__tag {
+  align-self: flex-start;
+  font-size: .8rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  background: #dbeafe;
+  padding: .25rem .65rem;
+  border-radius: 999px;
+  margin-bottom: .6rem;
+}
+.block-hero__title {
+  margin: 0 0 .65rem;
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+.block-hero__title a {
+  color: #102a43;
+  text-decoration: none;
+}
+.block-hero__title a:hover {
+  color: var(--accent);
+}
+.block-hero__desc {
+  margin: 0 0 1.25rem;
+  font-size: .92rem;
+  color: var(--fg-muted);
+  line-height: 1.55;
+}
+.block-hero__btn {
+  align-self: flex-start;
+  font-size: .9rem;
+  font-weight: 700;
+  background: var(--accent);
+  color: var(--accent-ink);
+  padding: .55rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: filter .15s ease;
+}
+.block-hero__btn:hover {
+  filter: brightness(1.08);
+}
+.block-subheading {
+  margin: 1.5rem 0 1rem;
+  font-size: 1.05rem;
+  color: #334155;
+}
