@@ -303,22 +303,33 @@ function lockPage(fam, lang) {
         </div>
         <div class="lock-detail-sample__visuals">
           <div class="lock-detail-sample__pic">
-            <p class="lock-detail-sample__label">${lang === 'zh' ? '📷 真实门上实物安装参考' : '📷 Real Installation Photo'}</p>
+            <p class="lock-detail-sample__label">${lang === 'zh' ? '📷 真实门上场景与安装实态' : '📷 Real Door Installation Scene'}</p>
             <div class="lock-detail-sample__img-box">
-              <img src="${escapeHtml(s.image)}" alt="${escapeHtml(sTitle)}" loading="lazy" />
+              <img src="${escapeHtml(s.sceneImage || s.image)}" alt="${escapeHtml(sTitle)}" loading="lazy" />
             </div>
             <p class="lock-detail-sample__caption">${escapeHtml(s.features || '')}</p>
           </div>
-          ${hasSchematic ? `
           <div class="lock-detail-sample__pic">
-            <p class="lock-detail-sample__label">${lang === 'zh' ? '📐 结构与传动联动原理示意' : '📐 Mechanism & Linkage Schematic'}</p>
+            <p class="lock-detail-sample__label">${lang === 'zh' ? '📐 1:1 结构原理与打孔安装图' : '📐 1:1 Blueprint & Drilling Template'}</p>
             <div class="lock-detail-sample__img-box">
-              <img src="${escapeHtml(schematicPath)}" alt="${escapeHtml(sTitle)} 原理图" loading="lazy" />
+              <img src="${escapeHtml(s.installationGuide && s.installationGuide.hasSchematic ? s.installationGuide.schematic : (hasSchematic ? schematicPath : (s.sceneImage || s.image)))}" alt="${escapeHtml(sTitle)} 原理与安装打孔图" loading="lazy" />
             </div>
-            <p class="lock-detail-sample__caption">${lang === 'zh' ? '标明锁体/锁芯/把手/电机联动路线与受力点' : 'Shows lock case, cylinder, and motor drive points'}</p>
+            <p class="lock-detail-sample__caption">${lang === 'zh' ? '涵盖面板沉入深度、背距与方轴转动同心度' : 'Includes backset, mortise pocket depth & spindle concentricity'}</p>
           </div>
-          ` : ''}
         </div>
+        ${s.installationGuide && s.installationGuide.steps ? `
+        <div class="lock-detail-sample__steps-box" style="margin: 16px 0; padding: 14px 18px; background: #f8fafc; border-left: 4px solid #0284c7; border-radius: 4px;">
+          <h5 style="margin: 0 0 10px; color: #0369a1; font-size: 0.95rem;">🛠️ ${lang === 'zh' ? '第 3 层：标准加装与打样安装工序 (Installation Workflow)' : 'Tier 3: Standard Retrofit Installation Workflow'}</h5>
+          <ol style="margin: 0; padding-left: 20px; font-size: 0.85rem; color: #334155; line-height: 1.6;">
+            ${(lang === 'zh' ? s.installationGuide.steps.zh : s.installationGuide.steps.en).map(st => `<li>${escapeHtml(st)}</li>`).join('')}
+          </ol>
+          <div style="display: flex; gap: 15px; margin-top: 10px; font-size: 0.78rem; color: #64748b;">
+            <span>📐 建议门缝间隙: <b>${escapeHtml(s.installationGuide.recommendedClearance)}</b></span>
+            <span>⚡ 最低电机扭矩: <b>${escapeHtml(s.installationGuide.requiredTorque)}</b></span>
+            <span>📄 打样模板编号: <b>${escapeHtml(s.installationGuide.drillingTemplate)}</b></span>
+          </div>
+        </div>
+        ` : ''}
         ${s.gtmNotes ? `
         <div class="lock-detail-sample__engineering-box">
           <h5>${lang === 'zh' ? '⚙️ 智能化改造工程难点、实测尺寸与阻力风险' : '⚙️ Retrofit Engineering & Resistance Notes'}</h5>
@@ -773,24 +784,40 @@ function renderGalleryCard(item, lang) {
   const hasFamily = !!item.familyId;
   const familyHref = hasFamily ? `/${urlFor(lang, `locks/${item.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
 
+  const sceneImg = item.sceneImage || item.image;
+  const productImg = item.productImage || item.image;
+  const score = item.selectionScore ? item.selectionScore.overallScore : 88;
+  const ctrWeight = item.selectionScore ? item.selectionScore.estimatedCtrWeight : '0.88';
+
   return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}">
-    <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '点击查看实物安装细节与工程参数' : 'Click to view installation details & parameters'}">
-      <div class="gallery-card__img-wrap">
-        <img class="gallery-card__img" src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="230" />
-        <div class="gallery-card__badges">
-          <span class="gallery-card__id">${escapeHtml(item.id)}</span>
-          <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusTip)}">${escapeHtml(statusText)}</span>
-        </div>
+    <div class="gallery-card__dual-views">
+      <div class="gallery-card__view-tab" style="display: flex; justify-content: space-between; font-size: 0.72rem; padding: 4px 8px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; font-weight: 600;">
+        <span style="color: #0369a1;">🏠 ${isZh ? '门上实景图' : 'Scene Photo'}</span>
+        <span style="color: #475569;">📐 ${isZh ? '结构剖面/原理图' : 'Product / Schematic'}</span>
       </div>
-    </a>
+      <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '点击查看第3层实物安装与改造图谱' : 'Click to view Tier 3 Installation & Retrofit Blueprint'}">
+        <div class="gallery-card__img-wrap" style="position: relative; overflow: hidden;">
+          <img class="gallery-card__img" src="${escapeHtml(sceneImg)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="210" />
+          <div class="gallery-card__badges" style="position: absolute; top: 8px; left: 8px; right: 8px; display: flex; justify-content: space-between;">
+            <span class="gallery-card__id">${escapeHtml(item.id)}</span>
+            <span class="gallery-card__score" style="background: #fef08a; color: #854d0e; padding: 2px 6px; border-radius: 4px; font-weight: 700; font-size: 0.72rem;">⭐ ${score}分</span>
+            <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusTip)}">${escapeHtml(statusText)}</span>
+          </div>
+        </div>
+      </a>
+    </div>
     <div class="gallery-card__body">
-      <div class="gallery-card__region">${escapeHtml(regionLabel)}</div>
+      <div class="gallery-card__region-row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+        <span class="gallery-card__region">${escapeHtml(regionLabel)}</span>
+        <span class="gallery-card__ctr-tag" style="font-size: 0.7rem; color: #ea580c; font-weight: 700;">🔥 检索权重 ${ctrWeight}</span>
+      </div>
       <h3 class="gallery-card__title">
         <a href="${familyHref}">${escapeHtml(title)}</a>
       </h3>
+      <p class="gallery-card__desc" style="font-size: 0.8rem; color: #64748b; line-height: 1.4; margin: 4px 0 8px;">${escapeHtml(item.features || '')}</p>
       <div class="gallery-card__footer">
         <a class="gallery-card__link" href="${familyHref}">
-          <span>${isZh ? '查看实物安装与改造图谱' : 'View Installation & Retrofit'}</span>
+          <span>${isZh ? '进入第 3 层安装与开孔打样图' : 'Tier 3: Installation & Templates'}</span>
           <span class="gallery-card__arrow">→</span>
         </a>
       </div>
