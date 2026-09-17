@@ -7,7 +7,7 @@
       "zh": "ANSI单Cylinder Deadbolt：Schlage B60/B62",
       "en": "ANSI single-cylinder deadbolt — Schlage B60/B62"
     },
-    "region": "North America",
+    "region": "North America (ANSI/BHMA)",
     "regionCode": "na",
     "image": "/assets/img/gallery/us-27_real.jpg",
     "features": "主要观察：tailpiece/handing/strike/60或70mm；主要风险：关门对齐和tailpiece打滑；最低验证：开门/关门各3次。",
@@ -20,7 +20,8 @@
     },
     "physicalTest": "开门/关门各3次",
     "gtmNotes": "北美存量单插销标杆（60/70mm背距），优先驱动内侧旋钮（Architecture A），需重点验证关门对齐与tailpiece扭矩阻力。",
-    "gtmMarket": "北美第一优先市场（存量最大）"
+    "gtmMarket": "北美第一优先市场（存量最大）",
+    "block": "na"
   },
   {
     "id": "US-28",
@@ -30,7 +31,7 @@
       "zh": "ANSI Deadbolt：Kwikset 660或SmartCode 660",
       "en": "deadbolt — Kwikset 660或SmartCode 660"
     },
-    "region": "North America",
+    "region": "North America (ANSI/BHMA)",
     "regionCode": "na",
     "image": "/assets/img/gallery/us-28_real.webp",
     "features": "主要观察：tailpiece/方向/strike/60或70mm；主要风险：adapter方向和间隙不匹配；最低验证：tailpiece和关门扭矩。",
@@ -43,7 +44,8 @@
     },
     "physicalTest": "tailpiece和关门扭矩",
     "gtmNotes": "北美Kwikset主流标准孔位，适配旋钮转接头时需重点避免方向反转和间隙打滑问题。",
-    "gtmMarket": "北美第一优先市场"
+    "gtmMarket": "北美第一优先市场",
+    "block": "na"
   },
   {
     "id": "US-29",
@@ -53,7 +55,7 @@
       "zh": "数字Deadbolt：Yale Assure Lock 2",
       "en": "数字Deadbolt — Yale Assure Lock 2"
     },
-    "region": "North America",
+    "region": "North America (ANSI/BHMA)",
     "regionCode": "na",
     "image": "/assets/img/gallery/us-29_real.jpg",
     "features": "主要观察：门体准备/安装孔/内侧机构；主要风险：整锁更换与retrofit概念混淆；最低验证：exact model和输入接口。",
@@ -66,7 +68,8 @@
     },
     "physicalTest": "exact model和输入接口",
     "gtmNotes": "北美整锁更换代表，用于区分加装改造与整锁替换边界，避免把整锁更换与retrofit概念混淆。",
-    "gtmMarket": "北美第一优先市场"
+    "gtmMarket": "北美第一优先市场",
+    "block": "na"
   },
   {
     "id": "US-30",
@@ -76,7 +79,7 @@
       "zh": "管式入口Knob或Lever：Standard tubular entrance knob/lever",
       "en": "knob / lever lock — Standard tubular entrance knob/lever"
     },
-    "region": "North America",
+    "region": "North America (ANSI/BHMA)",
     "regionCode": "na",
     "image": "/assets/img/gallery/us-30_real.jpg",
     "features": "主要观察：spindle/锁舌/弹簧/门把手；主要风险：旋转不代表锁定或解锁；最低验证：分别验证latch、lock和手动恢复。",
@@ -89,7 +92,8 @@
     },
     "physicalTest": "分别验证latch、lock和手动恢复",
     "gtmNotes": "基础管式入口锁，改造难点在于必须分离验证Latch（斜舌抓取）与Lock（闭锁状态），不能把单纯转把手误判为已解锁。",
-    "gtmMarket": "北美第一优先市场"
+    "gtmMarket": "北美第一优先市场",
+    "block": "na"
   },
   {
     "id": "AU-11",
@@ -99,8 +103,8 @@
       "zh": "Deadlatch：Lockwood 001",
       "en": "Australian deadlatch — Lockwood 001"
     },
-    "region": "Australia / New Zealand",
-    "regionCode": "anz",
+    "region": "Australia & New Zealand (AS)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-11_real.jpg",
     "features": "主要观察：内侧旋钮/安全释放/锁舌；主要风险：安全释放和锁状态混淆；最低验证：内旋钮加锁舌输出。",
     "photoType": "Exact model / deadlatch product reference",
@@ -112,7 +116,8 @@
     },
     "physicalTest": "内旋钮加锁舌输出",
     "gtmNotes": "澳洲存量最大的表面外装夜锁标杆，可直接驱动内侧旋钮，需重点防止安全释放机构（Safety release）与真实锁死状态混淆。",
-    "gtmMarket": "澳洲高优先级市场"
+    "gtmMarket": "澳洲高优先级市场",
+    "block": "uk-anz"
   },
   {
     "id": "AU-13",
@@ -122,8 +127,8 @@
       "zh": "Deadlock：Lockwood 355",
       "en": "deadlock — Lockwood 355"
     },
-    "region": "Australia / New Zealand",
-    "regionCode": "anz",
+    "region": "Australia & New Zealand (AS)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-13_real.jpg",
     "features": "主要观察：钥匙/旋钮/方向/角度；主要风险：钥匙几何和端点不匹配；最低验证：开门和关门各3次。",
     "photoType": "Exact model / product reference; door installation not fully visible",
@@ -135,7 +140,8 @@
     },
     "physicalTest": "开门和关门各3次",
     "gtmNotes": "澳洲双扣死锁，双向钥匙/旋钮需进行3次完整开闭循环验证，严格匹配钥匙几何与行程端点。",
-    "gtmMarket": "澳洲高优先级市场"
+    "gtmMarket": "澳洲高优先级市场",
+    "block": "uk-anz"
   },
   {
     "id": "AU-16",
@@ -145,8 +151,8 @@
       "zh": "双Cylinder Deadbolt：Whitco Double-cylinder Deadbolt",
       "en": "deadbolt — Whitco Double-cylinder Deadbolt"
     },
-    "region": "Australia / New Zealand",
-    "regionCode": "anz",
+    "region": "Australia & New Zealand (AS)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-16_real.jpg",
     "features": "主要观察：两侧钥匙/手动override/门厚；主要风险：无安全旁路或内侧钥匙空间不足；最低验证：emergency/manual override。",
     "photoType": "Exact family / double-cylinder deadbolt reference",
@@ -158,7 +164,8 @@
     },
     "physicalTest": "emergency/manual override",
     "gtmNotes": "澳洲双锁芯插销锁，双面钥匙需特别验证内侧紧急逃生手动Override通道是否被阻挡。",
-    "gtmMarket": "澳洲高优先级市场"
+    "gtmMarket": "澳洲高优先级市场",
+    "block": "uk-anz"
   },
   {
     "id": "AU-17",
@@ -168,8 +175,8 @@
       "zh": "双Cylinder Deadlatch：Whitco Double-cylinder Deadlatch",
       "en": "Deadlatch — Whitco Double-cylinder Deadlatch"
     },
-    "region": "Australia / New Zealand",
-    "regionCode": "anz",
+    "region": "Australia & New Zealand (AS)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-17_real.png",
     "features": "主要观察：安全释放/锁舌/门框阻力；主要风险：锁舌状态与旋钮状态不同；最低验证：锁状态和安全释放。",
     "photoType": "Exact family / deadlatch product reference",
@@ -181,7 +188,8 @@
     },
     "physicalTest": "锁状态和安全释放",
     "gtmNotes": "澳洲Whitco双缸外装夜锁，锁舌伸出状态与内侧旋钮状态存在异步风险，需双向信号判定。",
-    "gtmMarket": "澳洲高优先级市场"
+    "gtmMarket": "澳洲高优先级市场",
+    "block": "uk-anz"
   },
   {
     "id": "AU-12",
@@ -191,8 +199,8 @@
       "zh": "数字Deadlatch：Lockwood 002",
       "en": "digital deadlatch — Lockwood 002"
     },
-    "region": "Australia / New Zealand",
-    "regionCode": "anz",
+    "region": "Australia & New Zealand (AS)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-12_real.jpg",
     "features": "主要观察：数字机构/内侧输入/安装板；主要风险：专有内部接口冲突；最低验证：实际输入和输出。",
     "photoType": "Exact model / installed-open-in reference",
@@ -204,7 +212,8 @@
     },
     "physicalTest": "实际输入和输出",
     "gtmNotes": "澳洲数字Deadlatch，内部采用专有电气与机械接口，属于非标准直接旋转加装样本。",
-    "gtmMarket": "澳洲高优先级市场"
+    "gtmMarket": "澳洲高优先级市场",
+    "block": "uk-anz"
   },
   {
     "id": "AU-14",
@@ -214,8 +223,8 @@
       "zh": "Mortise锁：Lockwood Selector 3770/3772",
       "en": "mortise lock — Lockwood Selector 3770/3772"
     },
-    "region": "Australia / New Zealand",
-    "regionCode": "anz",
+    "region": "Australia & New Zealand (AS)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-14_real.jpg",
     "features": "主要观察：60mm backset/锁体/把手联动；主要风险：高阻力和把手联动；最低验证：tailpiece/turn和把手输出。",
     "photoType": "Selector family / mortice installation reference",
@@ -227,7 +236,8 @@
     },
     "physicalTest": "tailpiece/turn和把手输出",
     "gtmNotes": "澳洲商业与住宅重型插芯锁（60mm背距），联动把手阻力大，需专用Tailpiece转接驱动。",
-    "gtmMarket": "澳洲高优先级市场"
+    "gtmMarket": "澳洲高优先级市场",
+    "block": "uk-anz"
   },
   {
     "id": "AU-15",
@@ -237,8 +247,8 @@
       "zh": "加长Mortise锁：Lockwood Selector 4770/4772",
       "en": "mortise lock — Lockwood Selector 4770/4772"
     },
-    "region": "Australia / New Zealand",
-    "regionCode": "anz",
+    "region": "Australia & New Zealand (AS)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-15_real.jpg",
     "features": "主要观察：89mm backset/锁体深度/面板；主要风险：加长锁体和关门阻力；最低验证：完整关门序列。",
     "photoType": "Exact extended-backset family / product reference",
@@ -250,7 +260,8 @@
     },
     "physicalTest": "完整关门序列",
     "gtmNotes": "澳洲89mm大背距加长插芯锁，深度较大，必须验证关门重载阻力与回弹力矩。",
-    "gtmMarket": "澳洲高优先级市场"
+    "gtmMarket": "澳洲高优先级市场",
+    "block": "uk-anz"
   },
   {
     "id": "AU-18",
@@ -260,8 +271,8 @@
       "zh": "管式Knob或Lever锁：Whitco tubular entrance knob/lever",
       "en": "knob / lever lock — Whitco tubular entrance knob/lever"
     },
-    "region": "Australia / New Zealand",
-    "regionCode": "anz",
+    "region": "Australia & New Zealand (AS)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/au-18_real.png",
     "features": "主要观察：spindle/回位弹簧/锁舌；主要风险：把手动作被误认为解锁；最低验证：分开证明latch和lock。",
     "photoType": "Knob/lever family / door-hardware reference",
@@ -273,7 +284,8 @@
     },
     "physicalTest": "分开证明latch和lock",
     "gtmNotes": "澳式管式把手锁，方轴与回位弹簧强劲，需分别证明斜舌行程与锁定逻辑。",
-    "gtmMarket": "澳洲高优先级市场"
+    "gtmMarket": "澳洲高优先级市场",
+    "block": "uk-anz"
   },
   {
     "id": "EU-19",
@@ -283,8 +295,8 @@
       "zh": "Euro双Cylinder：Euro 30/30",
       "en": "Euro double cylinder — Euro 30/30"
     },
-    "region": "UK / Continental Europe",
-    "regionCode": "europe",
+    "region": "Continental Europe (DIN/EN)",
+    "regionCode": "europe5",
     "image": "/assets/img/gallery/eu-19_real.jpg",
     "features": "主要观察：profile/钥匙/转数/应急功能；主要风险：钥匙厚度和turn count不匹配；最低验证：钥匙驱动和完整输出。",
     "photoType": "Euro-cylinder family / retrofit installed case",
@@ -296,7 +308,8 @@
     },
     "physicalTest": "钥匙驱动和完整输出",
     "gtmNotes": "欧洲标准双锁芯（30/30对称），作为Architecture B（替换锁芯）的核心基准，需关注钥匙厚度与360°/720°转数匹配。",
-    "gtmMarket": "欧洲大容量成熟市场"
+    "gtmMarket": "欧洲大容量成熟市场",
+    "block": "europe5"
   },
   {
     "id": "EU-20",
@@ -306,8 +319,8 @@
       "zh": "Euro双Cylinder：Euro 35/35",
       "en": "Euro double cylinder — Euro 35/35"
     },
-    "region": "UK / Continental Europe",
-    "regionCode": "europe",
+    "region": "Continental Europe (DIN/EN)",
+    "regionCode": "europe5",
     "image": "/assets/img/gallery/eu-20_real.jpg",
     "features": "主要观察：A/B尺寸/外露/defender；主要风险：钥匙和安装板间隙；最低验证：开关门各3次。",
     "photoType": "Euro-cylinder family / retrofit installed case",
@@ -319,7 +332,8 @@
     },
     "physicalTest": "开关门各3次",
     "gtmNotes": "欧洲非对称双锁芯（35/35），验证防拔护盖（Defender）与外露锁芯长度对电机贴合的干涉。",
-    "gtmMarket": "欧洲大容量成熟市场"
+    "gtmMarket": "欧洲大容量成熟市场",
+    "block": "europe5"
   },
   {
     "id": "EU-21",
@@ -329,8 +343,8 @@
       "zh": "Euro可拆Thumbturn：Euro 35/45 removable thumbturn",
       "en": "Euro thumbturn cylinder — Euro 35/45 removable thumbturn"
     },
-    "region": "UK / Continental Europe",
-    "regionCode": "europe",
+    "region": "Continental Europe (DIN/EN)",
+    "regionCode": "europe5",
     "image": "/assets/img/gallery/eu-21_real.jpg",
     "features": "主要观察：thumbturn可拆性/直径/啮合；主要风险：旋钮不可拆或adapter打滑；最低验证：adapter啮合和锁输出。",
     "photoType": "Thumbturn Euro family / installation reference",
@@ -342,7 +356,8 @@
     },
     "physicalTest": "adapter啮合和锁输出",
     "gtmNotes": "欧洲可拆卸旋钮锁芯（35/45），测试旋钮拆卸后的转轴直径与直接啮合齿轮适配器。",
-    "gtmMarket": "欧洲大容量成熟市场"
+    "gtmMarket": "欧洲大容量成熟市场",
+    "block": "europe5"
   },
   {
     "id": "EU-22",
@@ -352,8 +367,8 @@
       "zh": "非对称Thumbturn Euro：Euro 40/50 asymmetric thumbturn",
       "en": "Euro thumbturn cylinder — Euro 40/50 asymmetric thumbturn"
     },
-    "region": "UK / Continental Europe",
-    "regionCode": "europe",
+    "region": "Continental Europe (DIN/EN)",
+    "regionCode": "europe5",
     "image": "/assets/img/gallery/eu-22_real.jpg",
     "features": "主要观察：A/B/defender/外露/间隙；主要风险：defender碰撞和空间不足；最低验证：间隙和完整输出。",
     "photoType": "Asymmetric Euro family / product reference; not exact door photo",
@@ -365,7 +380,8 @@
     },
     "physicalTest": "间隙和完整输出",
     "gtmNotes": "欧洲大偏心锁芯（40/50），内侧深度显著偏长，需重点测量门扇厚度与装饰盖间隙。",
-    "gtmMarket": "欧洲大容量成熟市场"
+    "gtmMarket": "欧洲大容量成熟市场",
+    "block": "europe5"
   },
   {
     "id": "EU-23",
@@ -375,8 +391,8 @@
       "zh": "抬把手多点锁：Euro multipoint lift-to-lock",
       "en": "Euro multipoint lock — Euro multipoint lift-to-lock"
     },
-    "region": "UK / Continental Europe",
-    "regionCode": "europe",
+    "region": "Continental Europe (DIN/EN)",
+    "regionCode": "europe5",
     "image": "/assets/img/gallery/eu-23_real.webp",
     "features": "主要观察：handle lift/多锁点/转数；主要风险：部分锁定、假Green；最低验证：手动抬把手和关门测试。",
     "photoType": "Multipoint family / installed cutaway case",
@@ -388,7 +404,8 @@
     },
     "physicalTest": "手动抬把手和关门测试",
     "gtmNotes": "欧洲/英国抬把手多点联动锁（Multipoint Lift-to-lock），电机单转钥匙无法自动抬把手，属于重大DIY失败边界样本。",
-    "gtmMarket": "欧洲关键边界锁型"
+    "gtmMarket": "欧洲关键边界锁型",
+    "block": "europe5"
   },
   {
     "id": "EU-24",
@@ -398,8 +415,8 @@
       "zh": "5杆Mortise Deadlock 44mm：UK 5-lever mortice deadlock 44mm",
       "en": "UK 5-lever mortise lock — UK 5-lever mortice deadlock 44mm"
     },
-    "region": "UK / Continental Europe",
-    "regionCode": "europe",
+    "region": "United Kingdom (BS 3621)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/eu-24_real.webp",
     "features": "主要观察：44mm backset/钥匙/锁体深度；主要风险：方向和锁体阻力；最低验证：deadbolt和latch分开。",
     "photoType": "UK mortice family / installation reference",
@@ -411,7 +428,8 @@
     },
     "physicalTest": "deadbolt和latch分开",
     "gtmNotes": "英国传统5拨杆插芯呆锁（BS 3621，44mm背距），需长钥匙穿透且阻力大，通常无法直接由内侧旋钮电机驱动。",
-    "gtmMarket": "英国本土存量市场"
+    "gtmMarket": "英国本土存量市场",
+    "block": "uk-anz"
   },
   {
     "id": "EU-25",
@@ -421,8 +439,8 @@
       "zh": "5杆Mortise Sashlock 56mm：UK 5-lever mortice sashlock 56mm",
       "en": "UK sashlock — UK 5-lever mortice sashlock 56mm"
     },
-    "region": "UK / Continental Europe",
-    "regionCode": "europe",
+    "region": "United Kingdom (BS 3621)",
+    "regionCode": "uk-anz",
     "image": "/assets/img/gallery/eu-25_real.png",
     "features": "主要观察：56mm backset/中心距/方杆；主要风险：部分解锁或卡滞；最低验证：把手和deadbolt序列。",
     "photoType": "UK sashlock family / product reference",
@@ -434,7 +452,8 @@
     },
     "physicalTest": "把手和deadbolt序列",
     "gtmNotes": "英国5拨杆带把手斜舌插芯锁（56mm背距），方轴与钥匙孔分离，需避免把手未压下时锁舌卡死。",
-    "gtmMarket": "英国本土存量市场"
+    "gtmMarket": "英国本土存量市场",
+    "block": "uk-anz"
   },
   {
     "id": "EU-26",
@@ -444,8 +463,8 @@
       "zh": "Union/Chubb Euro Mortise：Union/Chubb 3C10 Euro mortice",
       "en": "Euro mortise lock — Union/Chubb 3C10 Euro mortice"
     },
-    "region": "UK / Continental Europe",
-    "regionCode": "europe",
+    "region": "Continental Europe (DIN/EN)",
+    "regionCode": "europe5",
     "image": "/assets/img/gallery/eu-26_real.webp",
     "features": "主要观察：cam/锁体/面板/把手；主要风险：Euro外形相同但case不兼容；最低验证：完整lock-case输出。",
     "photoType": "Exact lock family / Euro mortice reference",
@@ -457,7 +476,8 @@
     },
     "physicalTest": "完整lock-case输出",
     "gtmNotes": "英国Chubb/Union欧标插芯锁体，虽采用Euro锁芯但内部拨叉Cam角度专有，不可仅看外形判断兼容。",
-    "gtmMarket": "英国本土存量市场"
+    "gtmMarket": "英国本土存量市场",
+    "block": "europe5"
   },
   {
     "id": "SG-01",
@@ -467,8 +487,8 @@
       "zh": "数字Mortise锁：Yale YDM4109RL+ 60mm",
       "en": "digital mortise lock — Yale YDM4109RL+ 60mm"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-01_real.jpg",
     "features": "主要观察：门厚/背set/锁体深度/内侧机构；主要风险：把手与deadbolt联动不明；最低验证：内侧输入和完整锁状态。",
     "photoType": "Exact model / installation-service product page",
@@ -480,7 +500,8 @@
     },
     "physicalTest": "内侧输入和完整锁状态",
     "gtmNotes": "新加坡/东南亚常见Yale数字插芯锁（60mm背距），整锁已集成电子把手与联动，不建议加装式改造。",
-    "gtmMarket": "新加坡/东南亚数字锁存量"
+    "gtmMarket": "新加坡/东南亚数字锁存量",
+    "block": "sea"
   },
   {
     "id": "SG-02",
@@ -490,8 +511,8 @@
       "zh": "数字Mortise锁：Yale YDM7116",
       "en": "digital mortise lock — Yale YDM7116"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-02_real.png",
     "features": "主要观察：门厚/锁体尺寸/内侧空间；主要风险：锁体和安装板干涉；最低验证：内侧输入和把手序列。",
     "photoType": "Exact model / door-mounted product reference",
@@ -503,7 +524,8 @@
     },
     "physicalTest": "内侧输入和把手序列",
     "gtmNotes": "新加坡Yale数字插芯锁，用于验证安装板与既有门孔干涉，属于整锁换装边界样本。",
-    "gtmMarket": "新加坡/东南亚数字锁存量"
+    "gtmMarket": "新加坡/东南亚数字锁存量",
+    "block": "sea"
   },
   {
     "id": "SG-03",
@@ -513,8 +535,8 @@
       "zh": "Rim数字锁：Yale YDR3110A",
       "en": "Rim数字锁 — Yale YDR3110A"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-03_real.png",
     "features": "主要观察：Rim case/旋钮/门面空间；主要风险：内部驱动不明、状态不同步；最低验证：Rim case和锁舌输出。",
     "photoType": "Exact model / rim-lock product reference",
@@ -526,7 +548,8 @@
     },
     "physicalTest": "Rim case和锁舌输出",
     "gtmNotes": "东南亚外装贴门数字锁，常用于旧木门补强，内部驱动机构封闭，需实测旋钮物理输出。",
-    "gtmMarket": "东南亚加装存量"
+    "gtmMarket": "东南亚加装存量",
+    "block": "sea"
   },
   {
     "id": "SG-04",
@@ -536,8 +559,8 @@
       "zh": "Push-pull Mortise锁：Samsung SHP-DP728",
       "en": "push-pull mortise lock — Samsung SHP-DP728"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-04_real.webp",
     "features": "主要观察：推拉把手/锁舌/门边空间；主要风险：把手和多连杆序列不完整；最低验证：把手和deadbolt完整循环。",
     "photoType": "Exact model / installation-service listing",
@@ -549,7 +572,8 @@
     },
     "physicalTest": "把手和deadbolt完整循环",
     "gtmNotes": "三星推拉式插芯数字锁，开门动作与把手推拉强绑定，非直接旋转架构所能覆盖。",
-    "gtmMarket": "东南亚/东亚推拉锁市场"
+    "gtmMarket": "东南亚/东亚推拉锁市场",
+    "block": "sea"
   },
   {
     "id": "SG-05",
@@ -559,8 +583,8 @@
       "zh": "Rim或加装数字锁：Samsung SHP-H20",
       "en": "rim / add-on lock — Samsung SHP-H20"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-05_real.webp",
     "features": "主要观察：内侧旋钮/外壳/门面固定；主要风险：旋钮联动不明、安装体干涉；最低验证：内侧控制和锁状态。",
     "photoType": "Exact model / no-drill door-lock reference",
@@ -572,7 +596,8 @@
     },
     "physicalTest": "内侧控制和锁状态",
     "gtmNotes": "三星小型外装数字锁，门内无外露旋钮，属于不推荐加装式改造的边界案例。",
-    "gtmMarket": "东南亚加装存量"
+    "gtmMarket": "东南亚加装存量",
+    "block": "sea"
   },
   {
     "id": "SG-06",
@@ -582,8 +607,8 @@
       "zh": "Push-pull或Rim锁：Zigbang SHP-P52",
       "en": "push-pull / rim family — Zigbang SHP-P52"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-06_real.jpg",
     "features": "主要观察：把手/门框/门或闸门间隙；主要风险：推拉序列和门框间隙；最低验证：开门和关门完整序列。",
     "photoType": "Exact model / door-lock product reference",
@@ -595,7 +620,8 @@
     },
     "physicalTest": "开门和关门完整序列",
     "gtmNotes": "Zigbang推拉锁，新加坡铁闸门与木门净距常小于80mm，易发生门闸把手碰撞。",
-    "gtmMarket": "东南亚高层住宅铁闸市场"
+    "gtmMarket": "东南亚高层住宅铁闸市场",
+    "block": "sea"
   },
   {
     "id": "SG-07",
@@ -605,8 +631,8 @@
       "zh": "数字Mortise锁：Aqara A100或D200i",
       "en": "digital mortise lock — Aqara A100或D200i"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-07_real.png",
     "features": "主要观察：门厚/backset/锁体和装饰面；主要风险：整锁内部结构不兼容；最低验证：完整锁体接口。",
     "photoType": "Exact model / manufacturer product reference",
@@ -618,7 +644,8 @@
     },
     "physicalTest": "完整锁体接口",
     "gtmNotes": "Aqara A100数字整锁，不可与U200加装电机混淆，用于展示完整锁体接口与门孔要求。",
-    "gtmMarket": "东南亚/国内整锁市场"
+    "gtmMarket": "东南亚/国内整锁市场",
+    "block": "sea"
   },
   {
     "id": "SG-08",
@@ -628,8 +655,8 @@
       "zh": "数字Mortise锁：Gateman SP122或G-Swipe",
       "en": "digital mortise lock — Gateman SP122或G-Swipe"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-08_real.jpg",
     "features": "主要观察：安装板/锁体/门厚/内侧附件；主要风险：电机与原内机构冲突；最低验证：完整锁体接口。",
     "photoType": "Exact model / Singapore product reference",
@@ -641,7 +668,8 @@
     },
     "physicalTest": "完整锁体接口",
     "gtmNotes": "Gateman韩国/东南亚经典数字锁，原机已自带电机离合，强行加装会造成电机驱动冲突。",
-    "gtmMarket": "东亚/东南亚存量市场"
+    "gtmMarket": "东亚/东南亚存量市场",
+    "block": "sea"
   },
   {
     "id": "SG-09",
@@ -651,8 +679,8 @@
       "zh": "数字Mortise锁：Kaadas K9-5W",
       "en": "digital mortise lock — Kaadas K9-5W"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-09_real.webp",
     "features": "主要观察：钥匙旁路/锁体/门厚；主要风险：门体准备和锁体干涉；最低验证：完整锁体接口。",
     "photoType": "Exact model / product reference",
@@ -664,7 +692,8 @@
     },
     "physicalTest": "完整锁体接口",
     "gtmNotes": "凯迪仕推拉数字锁，面板与门边空间占用大，侧重铁闸门间隙与门孔开孔考量。",
-    "gtmMarket": "东南亚主流品牌存量"
+    "gtmMarket": "东南亚主流品牌存量",
+    "block": "sea"
   },
   {
     "id": "SG-10",
@@ -674,8 +703,8 @@
       "zh": "数字Mortise锁：Philips EasyKey Alpha",
       "en": "digital mortise lock — Philips EasyKey Alpha"
     },
-    "region": "Singapore / Southeast Asia",
-    "regionCode": "sg-sea",
+    "region": "Singapore & SE Asia",
+    "regionCode": "sea",
     "image": "/assets/img/gallery/sg-10_real.jpg",
     "features": "主要观察：指纹/键盘外壳/锁体空间；主要风险：装饰和内部结构干涉；最低验证：完整锁体接口。",
     "photoType": "Exact model / push-pull door-lock reference",
@@ -687,6 +716,47 @@
     },
     "physicalTest": "完整锁体接口",
     "gtmNotes": "飞利浦Alpha系列推拉整锁，属于整锁替换架构，供工程师比对开孔图谱。",
-    "gtmMarket": "东南亚主流品牌存量"
+    "gtmMarket": "东南亚主流品牌存量",
+    "block": "sea"
+  },
+  {
+    "id": "LA-01",
+    "candidateId": "abnt_narrow_mortise_la_fonte_silvana",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "拉美 ABNT 窄背距插芯把手锁：La Fonte / Silvana 40/45mm",
+      "en": "Latin America ABNT Narrow Mortise — La Fonte / Silvana 40/45mm"
+    },
+    "region": "Latin America (ABNT NBR 14913)",
+    "regionCode": "latam",
+    "block": "latam",
+    "image": "/assets/img/gallery/eu-26_real.webp",
+    "features": "巴西及拉美主流标准（NBR 14913）；极窄背距 40mm 或 45mm，门厚普遍仅 30~35mm；锁体深度紧凑，普通改装电机极易与门框防盗立柱碰撞。",
+    "photoType": "Regional market standard reference",
+    "sourceUrl": "https://www.assaabloy.com/br/pt/solutions/products/mechanical-locks",
+    "status": "R1",
+    "gtmNotes": "拉美最大存量市场（巴西/哥伦比亚/阿根廷）。窄背距（40/45mm）是核心挑战，电机旋转半径必须小于 38mm 以免撞击门框防风条。",
+    "gtmMarket": "拉美新兴大容量市场",
+    "physicalTest": "40mm背距内侧旋钮与门框间隙实测"
+  },
+  {
+    "id": "LA-02",
+    "candidateId": "odis_rim_exterior_deadbolt",
+    "familyId": "rim-nightlatch",
+    "title": {
+      "zh": "拉美外装重型双钩死锁：ODIS / Yale 经典外装防盗锁",
+      "en": "Latin America Heavy-duty Rim Deadbolt — ODIS / Yale Style"
+    },
+    "region": "Latin America (Chile / Peru / Andean)",
+    "regionCode": "latam",
+    "block": "latam",
+    "image": "/assets/img/gallery/au-13_real.jpg",
+    "features": "智利、秘鲁及安第斯地区广泛使用的表面外装防盗锁；采用厚重双钩扣舌，内侧配有独立黄铜大旋钮或双面锁芯，要求防撬与大扭矩啮合。",
+    "photoType": "Regional market standard reference",
+    "sourceUrl": "https://www.assaabloy.com/cl/es/solutions/products/mechanical-locks",
+    "status": "R1",
+    "gtmNotes": "智利与安第斯地区木门与金属门存量极大。旋钮阻力偏大（需 1.5 N·m 以上力矩），需配备专用大直径防滑转接件。",
+    "gtmMarket": "拉美新兴市场",
+    "physicalTest": "外装双钩扣板咬合力矩与3次完整闭锁"
   }
 ]

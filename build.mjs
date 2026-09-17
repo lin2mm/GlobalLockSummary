@@ -684,31 +684,42 @@ function galleryFragment(lang) {
   if (!existsSync(galleryPath)) return '';
   const items = JSON.parse(readFileSync(galleryPath, 'utf8'));
 
-  // 4 Major Regional Blocks defined by GTM priority:
+  // 5 Major Industrial Blocks aligned with ASSA ABLOY Divisions & Global Mechanical Standards:
+  // 1. 北美标准板块 (Americas - ANSI / BHMA)
+  // 2. 英国与大洋洲板块 (Pacific & UK - AS / BS Standards)
+  // 3. 欧陆五国标准板块 (Continental Europe - DIN / EN Standards)
+  // 4. 东南亚与东亚板块 (Asia-Pacific - HDB Gates & Digital)
+  // 5. 拉美与新兴市场板块 (Latin America & Emerging - ABNT / ODIS)
   const blocks = [
     {
       code: 'na',
-      title: isZh ? '🇺🇸 北美市场 (ANSI / Deadbolt 单插销)' : '🇺🇸 North America (ANSI / Deadbolt)',
-      subtitle: isZh ? '全球存量最大的加装改造市场 · 标准 54mm 孔位与 60/70mm 锁芯背距' : 'Highest volume retrofit market · Standard 54mm bore & 60/70mm backset',
-      items: items.filter(i => i.regionCode === 'na')
+      title: isZh ? '🇺🇸 北美标准板块 (Americas — ANSI / BHMA)' : '🇺🇸 North America (Americas — ANSI / BHMA)',
+      subtitle: isZh ? '全球存量最大的智能锁加装市场 · 标准 54mm 大孔位、单插销死锁 (Deadbolt) 与 60/70mm 标准背距' : 'World largest retrofit market · Standard 54mm bore, deadbolt & 60/70mm backset',
+      items: items.filter(i => i.block === 'na')
     },
     {
-      code: 'anz',
-      title: isZh ? '🇦🇺 澳洲与新西兰 (Lockwood / Whitco 澳标)' : '🇦🇺 Australia & NZ (Lockwood / Whitco)',
-      subtitle: isZh ? '高价值存量市场 · 表面安装 Deadlatch、双扣死锁与重型插芯锁' : 'High value market · Surface-mount deadlatches, deadlocks & mortise sets',
-      items: items.filter(i => i.regionCode === 'anz')
+      code: 'uk-anz',
+      title: isZh ? '🇦🇺🇬🇧 英国与大洋洲板块 (Pacific & UK — AS / BS 澳标与英标)' : '🇦🇺🇬🇧 Australia, NZ & UK (Pacific & UK — AS / BS Standards)',
+      subtitle: isZh ? '英联邦经典五金体系 · 澳式外装夜锁 (Lockwood 001/002)、双扣死锁 (355)、英标 5 拨杆防盗锁 (BS 3621)' : 'Commonwealth hardware · Lockwood deadlatches, 355 deadlocks & UK 5-lever mortice sets',
+      items: items.filter(i => i.block === 'uk-anz')
     },
     {
-      code: 'europe',
-      title: isZh ? '🇪🇺 英国与欧洲 (Euro 锁芯 / 多点联动 / 5-Lever)' : '🇪🇺 UK & Europe (Euro Cylinder / Multipoint / 5-Lever)',
-      subtitle: isZh ? '量产主流与关键边界 · 欧标槽型锁芯替换、抬把手多点联动锁与英标防盗锁' : 'Major volume & failure boundaries · Euro profile replacement & lift-to-lock',
-      items: items.filter(i => i.regionCode === 'europe')
+      code: 'europe5',
+      title: isZh ? '🇪🇺 欧陆五国与中欧板块 (Continental Europe — DIN / EN 德法意西荷)' : '🇪🇺 Continental Europe (DIN / EN — DE, FR, IT, ES, NL)',
+      subtitle: isZh ? '西欧与中欧成熟大容量市场 · 欧标槽型锁芯 (Euro Profile DIN 18252)、DIN 18251 插芯锁体与抬把手多点联动锁' : 'Mature European standard · Euro profile cylinders, DIN 18251 cases & multipoint systems',
+      items: items.filter(i => i.block === 'europe5')
     },
     {
-      code: 'sg-sea',
-      title: isZh ? '🇸🇬 新加坡与东南亚 (HDB 铁闸 / 数字推拉整锁)' : '🇸🇬 Singapore & SE Asia (HDB Gates & Digital Mortise)',
-      subtitle: isZh ? '极端净距与数字边界 · 公屋双门铁闸碰撞风险与早期集成推拉锁' : 'Extreme clearances & digital boundary · Gate-to-door clash & push-pull mortise',
-      items: items.filter(i => i.regionCode === 'sg-sea')
+      code: 'sea',
+      title: isZh ? '🇸🇬 东南亚与东亚板块 (Asia-Pacific — 铁闸与数字整锁边界)' : '🇸🇬 Southeast Asia & East Asia (Asia-Pacific — Gates & Mortise)',
+      subtitle: isZh ? '极端净距与数字存量市场 · 新加坡 HDB 金属双门铁闸碰撞风险 (<80mm) 与早期推拉整锁边界样本' : 'Extreme clearances & digital stock · Singapore HDB gate clash (<80mm) & push-pull mortise',
+      items: items.filter(i => i.block === 'sea')
+    },
+    {
+      code: 'latam',
+      title: isZh ? '🌎 拉美与新兴市场板块 (Latin America & Emerging — ABNT / ODIS)' : '🌎 Latin America & Emerging (ABNT / ODIS Standards)',
+      subtitle: isZh ? '拉美大容量新兴五金体系 · 巴西 ABNT 窄背距插芯锁 (40/45mm)、薄门扇 (30mm) 与安第斯重型外装双钩锁' : 'Emerging market hardware · Brazil ABNT narrow backset (40/45mm) & heavy-duty rim locks',
+      items: items.filter(i => i.block === 'latam')
     }
   ];
 
@@ -725,7 +736,7 @@ function galleryFragment(lang) {
     const hasFamily = !!item.familyId;
     const familyHref = hasFamily ? `/${urlFor(lang, `locks/${item.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
 
-    return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.regionCode)}" data-search-text="${escapeHtml(searchText)}">
+    return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}">
       <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '点击查看实物安装细节与工程参数' : 'Click to view installation details & parameters'}">
         <div class="gallery-card__img-wrap">
           <img class="gallery-card__img" src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="230" />
@@ -750,7 +761,7 @@ function galleryFragment(lang) {
     </div>`;
   }
 
-  // Render 4 major blocks
+  // Render 5 major industrial blocks
   const blocksHtml = blocks.map((b) => {
     const cards = b.items.map(renderCard).join('\n');
     return `<section class="gallery-block" data-gallery-block="${escapeHtml(b.code)}">
@@ -767,13 +778,14 @@ function galleryFragment(lang) {
     </section>`;
   }).join('\n');
 
-  // Jump nav links to blocks
+  // Jump navigation tabs for 5 blocks
   const navTabs = [
-    { code: 'all', label: isZh ? '🌍 全部 4 大板块 (30)' : '🌍 All 4 Blocks (30)' },
-    { code: 'na', label: isZh ? '🇺🇸 北美市场' : '🇺🇸 North America' },
-    { code: 'anz', label: isZh ? '🇦🇺 澳洲市场' : '🇦🇺 Australia & NZ' },
-    { code: 'europe', label: isZh ? '🇪🇺 英国与欧洲' : '🇪🇺 UK & Europe' },
-    { code: 'sg-sea', label: isZh ? '🇸🇬 新加坡与东南亚' : '🇸🇬 Singapore & SE Asia' },
+    { code: 'all', label: isZh ? '🌍 全部 5 大板块' : '🌍 All 5 Divisions' },
+    { code: 'na', label: isZh ? '🇺🇸 北美 (ANSI)' : '🇺🇸 Americas (ANSI)' },
+    { code: 'uk-anz', label: isZh ? '🇦🇺🇬🇧 澳洲与英国 (AS/BS)' : '🇦🇺🇬🇧 Pacific & UK (AS/BS)' },
+    { code: 'europe5', label: isZh ? '🇪🇺 欧洲五国 (DIN/EN)' : '🇪🇺 Europe (DIN/EN)' },
+    { code: 'sea', label: isZh ? '🇸🇬 东南亚 (HDB/推拉)' : '🇸🇬 Asia-Pacific (HDB)' },
+    { code: 'latam', label: isZh ? '🌎 拉美新兴 (ABNT)' : '🌎 Latin America (ABNT)' },
   ].map((tab, idx) => 
     `<button class="gallery-filter__btn${idx === 0 ? ' is-active' : ''}" type="button" data-gallery-filter="${tab.code}">${escapeHtml(tab.label)}</button>`
   ).join('');

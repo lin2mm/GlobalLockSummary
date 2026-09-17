@@ -208,7 +208,7 @@ const galleryJsonPath = join(ROOT, 'content/catalog/gallery.json');
 check('gallery.json exists', existsSync(galleryJsonPath));
 if (existsSync(galleryJsonPath)) {
   const galleryItems = JSON.parse(read(galleryJsonPath));
-  check('gallery has 30 candidate items', galleryItems.length === 30, `count=${galleryItems.length}`);
+  check('gallery has 32 candidate items across 5 blocks', galleryItems.length === 32, `count=${galleryItems.length}`);
   
   let missingImgs = 0;
   for (const item of galleryItems) {
@@ -221,7 +221,7 @@ if (existsSync(galleryJsonPath)) {
 
   const rootIndex = read(join(SITE, 'index.html'));
   check('root index.html renders gallery wall', rootIndex.includes('data-gallery-root') && rootIndex.includes('gallery-card'));
-  check('gallery renders 4 major regional blocks', rootIndex.includes('data-gallery-block="na"') && rootIndex.includes('data-gallery-block="europe"'));
+  check('gallery renders 5 major regional blocks', rootIndex.includes('data-gallery-block="na"') && rootIndex.includes('data-gallery-block="latam"'));
 
   const retrofitZh = read(join(SITE, 'retrofit.html'));
   check('retrofit.html covers real-world failure cases & complaints', retrofitZh.includes('Nuki') && retrofitZh.includes('Motor Blocked'));
