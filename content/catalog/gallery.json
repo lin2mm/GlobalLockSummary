@@ -96,6 +96,54 @@
     "block": "na"
   },
   {
+    "id": "US-31",
+    "candidateId": "schlage_l9000_commercial_mortise",
+    "familyId": "us-mortise",
+    "title": {
+      "zh": "重型商业插芯锁：Schlage L9000 系列 Grade 1 Mortise",
+      "en": "Heavy Commercial Mortise — Schlage L9000 Grade 1"
+    },
+    "region": "North America (ANSI/BHMA A156.13)",
+    "regionCode": "na",
+    "image": "/assets/img/gallery/us-schlage-l9000_real.jpg",
+    "features": "北美商用与高端公寓标杆；ANSI A156.13 一级认证；70mm (2-3/4\") 背距；锁盒深达 112mm，配备一体式死锁与斜舌联动，阻力大需高扭矩。",
+    "photoType": "Exact model / installed-on-door review photo",
+    "sourceUrl": "https://www.lockandhinge.com/schlage-l-series-l9000-grade-1-mortise-locks-standard-collection-lever-18/",
+    "status": "R1",
+    "architectureNote": {
+      "A": "需要高扭矩电机驱动内侧旋钮",
+      "B": "可配合旋入式圆柱锁芯改造"
+    },
+    "physicalTest": "带负荷关门扭矩实测 (>= 1.8 N·m)",
+    "gtmNotes": "北美大型公寓、学校与办公楼主力锁体，属于大扭矩插芯锁代表样本。",
+    "gtmMarket": "北美商业与多户住宅市场",
+    "block": "na"
+  },
+  {
+    "id": "US-32",
+    "candidateId": "yale_interconnected_lockset",
+    "familyId": "us-deadbolt",
+    "title": {
+      "zh": "美式联动逃生锁：Yale / Schlage Interconnected Lockset",
+      "en": "Interconnected Lockset — Yale / Schlage Commercial"
+    },
+    "region": "North America (ANSI/BHMA)",
+    "regionCode": "na",
+    "image": "/assets/img/gallery/us-interconnected_real.jpg",
+    "features": "北美多户住宅（Multi-family）强制安全锁；内侧下压把手时，内部联动机构同时收回上方呆舌与下方斜舌（单动逃生 Single Operation Egress）。",
+    "photoType": "Exact model / installed-on-door reference",
+    "sourceUrl": "https://reddit.com/r/Locksmith/comments/11t2l7f/she_needs_a_keyless_entry_yale_lock_installed_is",
+    "status": "R1",
+    "architectureNote": {
+      "A": "加装电机驱动上方旋钮时，下压把手会强行迫转电机，必须具备机械离合",
+      "B": "整锁替换需对准中心距"
+    },
+    "physicalTest": "内侧下压把手联动迫转安全性测试",
+    "gtmNotes": "多户公寓核心锁型，加装智能锁必须支持把手联动时的被动自由旋转（Clutching），否则内部齿轮打齿碎裂。",
+    "gtmMarket": "北美租赁公寓集中采购市场",
+    "block": "na"
+  },
+  {
     "id": "AU-11",
     "candidateId": "australian_deadlatch_lockwood_001",
     "familyId": "au-deadlatch",
@@ -405,6 +453,54 @@
     "physicalTest": "手动抬把手和关门测试",
     "gtmNotes": "欧洲/英国抬把手多点联动锁（Multipoint Lift-to-lock），电机单转钥匙无法自动抬把手，属于重大DIY失败边界样本。",
     "gtmMarket": "欧洲关键边界锁型",
+    "block": "europe5"
+  },
+  {
+    "id": "EU-27",
+    "candidateId": "kfv_multipoint_automatic_latch",
+    "familyId": "multipoint-upvc",
+    "title": {
+      "zh": "德系自动多点锁：KFV / Siegenia 自动重型防盗多点锁",
+      "en": "German Auto Multipoint — KFV / Siegenia Haustürschloss"
+    },
+    "region": "Continental Europe (DIN 18251-3)",
+    "regionCode": "europe5",
+    "image": "/assets/img/gallery/eu-kfv-multipoint_real.jpg",
+    "features": "德国外门（Haustür）最高端配置；关门触碰触发圆柱或鹰嘴钩（Schwenkhaken）自动弹出死锁；解锁需 720 度钥匙旋转，回弹弹簧阻力极大。",
+    "photoType": "Exact model / installed-on-door cutaway",
+    "sourceUrl": "https://tooler.de/catalog/product/view/id/1113372",
+    "status": "R1",
+    "architectureNote": {
+      "A": "可支持 Nuki / Tedee 双圈旋转驱动，但需开启高扭矩模式",
+      "B": "必须带 Gefahrenfunktion 应急离合"
+    },
+    "physicalTest": "关门自动上锁触发行程与 720 度开锁扭矩测试",
+    "gtmNotes": "德系住宅入户大门标配，区别于普通抬把手锁，该锁为自动弹出死锁，改造核心在于电机能否克服双钩弹簧回拉阻力。",
+    "gtmMarket": "德国与中欧高端住宅",
+    "block": "europe5"
+  },
+  {
+    "id": "EU-28",
+    "candidateId": "cisa_electric_rim_lock_portone",
+    "familyId": "rim-nightlatch",
+    "title": {
+      "zh": "意式电动外装箱体锁：CISA 经典庭院与公寓大门电锁",
+      "en": "Italian Electric Rim Lock — CISA 11610 Style"
+    },
+    "region": "Continental Europe (Italy / Southern Europe)",
+    "regionCode": "europe5",
+    "image": "/assets/img/gallery/eu-cisa-rim_real.jpg",
+    "features": "意大利及南欧（西班牙/希腊）老式公寓楼道与木制大门最经典锁型；表面安装铁盒，内建电磁脱扣机构与机械红按钮。",
+    "photoType": "Exact model / installed-on-door reference",
+    "sourceUrl": "https://www.ebay.it/itm/ELETTROSERRATURA-SERRATURA-ELETTRICA-PER-PORTONE-LEGNO-60-DX-CISA-11610-/162276137217",
+    "status": "R1",
+    "architectureNote": {
+      "A": "可通过加装继电器或直接驱动内侧机械脱扣块",
+      "B": "外侧专用 Rim 锁芯"
+    },
+    "physicalTest": "电磁脱扣脉冲与手动红按钮机械行程实测",
+    "gtmNotes": "南欧公寓大门庞大存量，加装改造通常与对讲系统（Intercom）联动，属于电控+机械混合样本。",
+    "gtmMarket": "南欧历史存量市场",
     "block": "europe5"
   },
   {
@@ -758,5 +854,55 @@
     "gtmNotes": "智利与安第斯地区木门与金属门存量极大。旋钮阻力偏大（需 1.5 N·m 以上力矩），需配备专用大直径防滑转接件。",
     "gtmMarket": "拉美新兴市场",
     "physicalTest": "外装双钩扣板咬合力矩与3次完整闭锁"
+  },
+  {
+    "id": "LA-03",
+    "candidateId": "stam_tetra_auxiliar_chave_porta",
+    "familyId": "rim-nightlatch",
+    "title": {
+      "zh": "巴西十字符机械防盗副锁：Stam 1003/1004 Chave Tetra",
+      "en": "Brazilian Cross-Key Auxiliary Mortise — Stam 1003 Tetra"
+    },
+    "region": "Latin America (Brazil ABNT)",
+    "regionCode": "latam",
+    "block": "latam",
+    "image": "/assets/img/gallery/latam-stam-tetra_real.png",
+    "features": "巴西全境最为普及的安全副锁；采用四向十字符钥匙（Chave Tetra）；背距 40mm，四舌联动行程 20mm，双面钥匙孔无内旋钮。",
+    "photoType": "Exact model / installed-on-door reference",
+    "sourceUrl": "https://www.sanrafaelfechaduras.com.br/fechaduras/fechadura-1003-par-tetra-inox-linha-serralheiro-stam",
+    "status": "R1",
+    "architectureNote": {
+      "A": "钥匙为十字符截面，需专用十字钥匙夹具",
+      "B": "无标准锁芯可换"
+    },
+    "physicalTest": "十字钥匙插入深度与四舌回缩阻力测试",
+    "gtmNotes": "巴西几乎每扇防盗木门均在主锁上方配有 1~2 把 Stam Tetra 副锁。其核心难点是十字异形钥匙夹持与 40mm 极窄回转半径。",
+    "gtmMarket": "巴西全国存量普及锁",
+    "block": "latam"
+  },
+  {
+    "id": "LA-04",
+    "candidateId": "stam_rolete_porta_pivotante",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "拉美轴心转门滚轮插芯锁：Stam Fechadura Rolete Pivotante",
+      "en": "Latin America Pivot Door Roller Latch — Stam Rolete"
+    },
+    "region": "Latin America (Brazil / Argentina)",
+    "regionCode": "latam",
+    "block": "latam",
+    "image": "/assets/img/gallery/latam-rolete-pivotante_real.webp",
+    "features": "拉美中高产别墅大门极度流行的轴心大转门（Porta Pivotante）专用锁；斜舌为滚轮弹簧（Rolete），无需下压把手推门即开；呆舌由欧标或椭圆锁芯锁死。",
+    "photoType": "Exact model / installed door reference",
+    "sourceUrl": "https://www.pontesferragensloja.com.br/MLB-5283744552-fechadura-fecho-mini-rolete-de-porta-pivotante-com-regulagem-_JM",
+    "status": "R1",
+    "architectureNote": {
+      "A": "可直接通过旋转锁芯完成呆锁死锁与解锁",
+      "B": "极适合加装式旋转电机"
+    },
+    "physicalTest": "滚轮弹簧顶紧力调节与锁芯旋转行程测试",
+    "gtmNotes": "拉美高端独立大门主流锁，没有传统下压把手（多配高大实木或铜拉手），加装智能锁只需驱动中央锁芯，改装潜力极大。",
+    "gtmMarket": "拉美中高端住宅大门",
+    "block": "latam"
   }
 ]

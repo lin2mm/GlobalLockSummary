@@ -11,7 +11,7 @@
 
 | 模块大类 | 业务主题 / 数据分类 | 涵盖记录数 | 物理源数据文件 | 在线访问页面 (Web) | 本地实物/工程图路径 | 核心工程价值与用途 |
 | :--- | :--- | :---: | :--- | :--- | :--- | :--- |
-| **1. 工业板块与图墙** | 5 大标准板块与实物图谱 | 32 类锁型 | `content/catalog/gallery.json` | [`/zh/index.html`](../zh/index.html) | `assets/img/gallery/*_real.jpg` | 按 ASSA ABLOY 分区与动态数量 (32/4/10/6/10/2) 展现真实门锁图墙 |
+| **1. 工业板块与图墙** | 5 大标准板块与实物图谱 | 38 类锁型 (已扩容) | `content/catalog/gallery.json` | [`/zh/index.html`](../zh/index.html) | `assets/img/gallery/*_real.*` | 按 ASSA ABLOY 分区与动态数量 (38: 北美6/澳英10/欧洲8/东南亚10/拉美4) 展现真实门锁图墙 |
 | **1. 工业板块与图墙** | 3 大强相关 Retrofit 基准锁 | 3 款基准 | `build.mjs` | [`/zh/index.html`](../zh/index.html) 展板 | `assets/img/hero/hero-*.jpg` | 北美 ANSI Deadbolt、欧标双锁芯、澳式 001 顶级大主图与死穴直达 |
 | **2. 本土辨锁大百科** | 5 国本土语言量测与术语 | 5 大国别体系 | `content/catalog/indigenous-lock-guides.json` | [`/zh/indigenous-guides.html`](../zh/indigenous-guides.html) | `assets/img/indigenous/*.png\|jpg` | 德 (Dornmaß/PZ/Gefahrenfunktion)、法 (Axe 50/Entraxe 70)、日、英、西 |
 | **3. 专项研发工具** | 日本主流门锁面板刻印速查字典 | 5 大族 (28+刻印) | `content/catalog/japan-engraving-matrix.json` | [`/zh/japan-engravings.html`](../zh/japan-engravings.html) | `assets/img/indigenous/jp-*.jpg` | 刻印即型号！输入 MIWA 13LA、GOAL LX 秒级调取 CAD 切欠图与专用夹具 |
