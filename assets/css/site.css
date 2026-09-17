@@ -440,3 +440,228 @@ details p { margin: .6rem 0 .2rem; color: var(--fg-muted); }
   margin: .4rem 0 .75rem;
   line-height: 1.4;
 }
+
+/* ---------- Enhanced large GTM regional tabs ---------- */
+.gallery-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+}
+.gallery-filter__btn {
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: .6rem 1.2rem;
+  border-radius: 8px;
+  border: 1.5px solid var(--line);
+  background: var(--bg-alt);
+  color: var(--fg);
+  cursor: pointer;
+  transition: all .2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+.gallery-filter__btn:hover {
+  border-color: var(--accent);
+  background: var(--bg);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+.gallery-filter__btn.is-active {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+  box-shadow: 0 3px 8px rgba(15,76,129,.25);
+}
+
+/* ---------- Clean Photo-First Cards ---------- */
+.gallery-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg);
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.gallery-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(15,76,129,.14);
+  border-color: var(--accent);
+}
+.gallery-card__img-link {
+  display: block;
+  text-decoration: none;
+  background: #f8fafc;
+}
+.gallery-card__img-wrap {
+  width: 100%;
+  height: 240px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.gallery-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+  box-sizing: border-box;
+  background: #ffffff;
+  transition: transform .3s ease;
+}
+.gallery-card:hover .gallery-card__img {
+  transform: scale(1.04);
+}
+.gallery-card__body {
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: var(--bg);
+}
+.gallery-card__region {
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--fg-muted);
+  margin-bottom: .3rem;
+}
+.gallery-card__title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  margin: 0 0 .75rem;
+  line-height: 1.35;
+}
+.gallery-card__title a {
+  color: var(--fg);
+  text-decoration: none;
+}
+.gallery-card__title a:hover {
+  color: var(--accent);
+}
+.gallery-card__footer {
+  margin-top: auto;
+  padding-top: .75rem;
+  border-top: 1px solid var(--line);
+}
+.gallery-card__link {
+  font-size: .88rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+}
+.gallery-card__link:hover {
+  text-decoration: underline;
+}
+.gallery-card__arrow {
+  transition: transform .15s ease;
+}
+.gallery-card:hover .gallery-card__arrow {
+  transform: translateX(3px);
+}
+
+/* ---------- Detail Page: Real Installation & Retrofit Engineering ---------- */
+.lock-detail-samples {
+  display: grid;
+  gap: 2rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.lock-detail-sample {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg-alt);
+  padding: 1.25rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,.03);
+}
+.lock-detail-sample__header {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.lock-detail-sample__header h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--fg);
+}
+.lock-detail-sample__id {
+  background: #0f4c81;
+  color: #fff;
+  font-weight: 700;
+  font-size: .82rem;
+  padding: .2rem .55rem;
+  border-radius: 4px;
+}
+.lock-detail-sample__visuals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.lock-detail-sample__pic {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: .85rem;
+  display: flex;
+  flex-direction: column;
+}
+.lock-detail-sample__label {
+  font-size: .88rem;
+  font-weight: 700;
+  color: #0f4c81;
+  margin: 0 0 .5rem;
+}
+.lock-detail-sample__img-box {
+  width: 100%;
+  height: 250px;
+  background: #f8fafc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.lock-detail-sample__img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.lock-detail-sample__caption {
+  font-size: .82rem;
+  color: var(--fg-muted);
+  margin: .6rem 0 0;
+  line-height: 1.4;
+}
+.lock-detail-sample__engineering-box {
+  background: #eff6ff;
+  border-left: 4px solid #2563eb;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.2rem;
+  margin-top: .75rem;
+}
+.lock-detail-sample__engineering-box h5 {
+  margin: 0 0 .4rem;
+  font-size: .95rem;
+  color: #1e3a8a;
+}
+.lock-detail-sample__engineering-box p {
+  margin: 0;
+  font-size: .88rem;
+  color: #1e293b;
+  line-height: 1.5;
+}
+.lock-detail-sample__check {
+  margin-top: .5rem !important;
+  font-size: .84rem !important;
+  color: #0369a1 !important;
+}

@@ -279,10 +279,71 @@ function lockPage(fam, lang) {
     ? `<section><h2 id="devices">${lang === 'zh' ? '参考设备' : 'Reference devices'}</h2><p>${escapeHtml(lang === 'zh' ? '作为工程示例记录，不是推荐或销售。' : 'Recorded as engineering examples, not endorsements.')}</p><ul>${devices.map((d) => `<li><a href="${hrefFor(lang, 'devices/' + d.id + '.html')}">${escapeHtml(d.name)}</a> — ${escapeHtml(t(terms.architecture, d.architecture, lang))} ${statusBadge(d.status, lang)}</li>`).join('')}</ul></section>`
     : '';
 
+  // Find matching real installation samples and diagrams from gallery.json
+  const galleryPath = join(CONTENT, 'catalog', 'gallery.json');
+  let matchedSamples = [];
+  if (existsSync(galleryPath)) {
+    const allGallery = JSON.parse(readFileSync(galleryPath, 'utf8'));
+    matchedSamples = allGallery.filter((item) => item.familyId === fam.id);
+  }
+
+  let gallerySectionHtml = '';
+  if (matchedSamples.length > 0) {
+    const sampleCards = matchedSamples.map((s) => {
+      const sTitle = (s.title && (s.title[lang] || s.title.en || s.title.zh)) || s.id;
+      const schematicPath = `/assets/img/diagrams/${s.id}_schematic.svg`;
+      const hasSchematic = existsSync(join(ROOT, 'assets/img/diagrams', `${s.id}_schematic.svg`));
+
+      return `
+      <div class="lock-detail-sample">
+        <div class="lock-detail-sample__header">
+          <span class="lock-detail-sample__id">${escapeHtml(s.id)}</span>
+          <h4>${escapeHtml(sTitle)}</h4>
+          <span class="gallery-card__status ${s.status === 'R1' ? 'gallery-card__status--r1' : 'gallery-card__status--r0'}">${escapeHtml(s.status || 'R0')}</span>
+        </div>
+        <div class="lock-detail-sample__visuals">
+          <div class="lock-detail-sample__pic">
+            <p class="lock-detail-sample__label">${lang === 'zh' ? '📷 真实门上实物安装参考' : '📷 Real Installation Photo'}</p>
+            <div class="lock-detail-sample__img-box">
+              <img src="${escapeHtml(s.image)}" alt="${escapeHtml(sTitle)}" loading="lazy" />
+            </div>
+            <p class="lock-detail-sample__caption">${escapeHtml(s.features || '')}</p>
+          </div>
+          ${hasSchematic ? `
+          <div class="lock-detail-sample__pic">
+            <p class="lock-detail-sample__label">${lang === 'zh' ? '📐 结构与传动联动原理示意' : '📐 Mechanism & Linkage Schematic'}</p>
+            <div class="lock-detail-sample__img-box">
+              <img src="${escapeHtml(schematicPath)}" alt="${escapeHtml(sTitle)} 原理图" loading="lazy" />
+            </div>
+            <p class="lock-detail-sample__caption">${lang === 'zh' ? '标明锁体/锁芯/把手/电机联动路线与受力点' : 'Shows lock case, cylinder, and motor drive points'}</p>
+          </div>
+          ` : ''}
+        </div>
+        ${s.gtmNotes ? `
+        <div class="lock-detail-sample__engineering-box">
+          <h5>${lang === 'zh' ? '⚙️ 智能化改造工程难点、实测尺寸与阻力风险' : '⚙️ Retrofit Engineering & Resistance Notes'}</h5>
+          <p>${escapeHtml(s.gtmNotes)}</p>
+          ${s.physicalTest ? `<p class="lock-detail-sample__check"><b>${lang === 'zh' ? '最低实物验证标准' : 'Minimum physical verification'}：</b>${escapeHtml(s.physicalTest)}</p>` : ''}
+        </div>
+        ` : ''}
+      </div>`;
+    }).join('\n');
+
+    gallerySectionHtml = `
+<h2 id="installation-samples">${lang === 'zh' ? '实物安装与改造图谱' : 'Installation Photos & Retrofit Diagrams'}</h2>
+<p class="lede">${lang === 'zh' ? '以下为该锁族在实际门上的实物安装案例、传动原理示意图与智能化改造常见问题分析：' : 'Field installation examples, drive schematics, and common retrofit failure modes for this lock family:'}</p>
+<div class="lock-detail-samples">
+  ${sampleCards}
+</div>
+`;
+  }
+
   const html = `
 <p class="lede">${escapeHtml(fam.summary[lang] || fam.summary.en)}</p>
 <p class="meta">${statusBadge(fam.status, lang)} <span class="meta__sep">·</span> <strong>${escapeHtml(t(terms.labels, 'regions', lang))}:</strong> ${escapeHtml(fam.regions.join(', '))}</p>
 ${fam.aliases ? `<p><strong>${escapeHtml(t(terms.labels, 'aliases', lang))}:</strong> ${escapeHtml((fam.aliases[lang] || fam.aliases.en || []).join(' · '))}</p>` : ''}
+
+${gallerySectionHtml}
 
 <h2 id="anatomy">${escapeHtml(t(terms.labels, 'anatomy', lang))}</h2>
 ${bilingualList(fam.anatomy, lang)}
@@ -308,6 +369,7 @@ ${sourceList(fam.sources, lang)}
 `;
 
   const headings = [
+    ...(matchedSamples.length ? [{ level: 2, id: 'installation-samples', text: lang === 'zh' ? '实物安装与改造图谱' : 'Installation Photos & Retrofit Diagrams' }] : []),
     { level: 2, id: 'anatomy', text: t(terms.labels, 'anatomy', lang) },
     { level: 2, id: 'measurements', text: lang === 'zh' ? '必须测量的参数' : 'Parameters to measure' },
     { level: 2, id: 'retrofit', text: t(terms.labels, 'retrofitArchitectures', lang) },
@@ -622,68 +684,55 @@ function galleryFragment(lang) {
   if (!existsSync(galleryPath)) return '';
   const items = JSON.parse(readFileSync(galleryPath, 'utf8'));
 
-  // GTM Market Capacity Ordered Tabs:
-  // 1. All (全部)
-  // 2. North America (北美：存量最大单插销/Deadbolt加装改造市场)
-  // 3. Australia & NZ (澳洲/新西兰：Lockwood/Whitco高改造潜力市场)
-  // 4. UK & Europe (英国/欧洲：Euro锁芯与5拨杆锁量产大市场)
-  // 5. Singapore & SE Asia (新加坡/东南亚：HDB铁闸与数字整锁边界案例)
+  // Prominent, larger regional tabs
   const regions = [
-    { code: 'all', label: isZh ? '全部锁型 (30)' : 'All Locks (30)' },
-    { code: 'na', label: isZh ? '北美市场 (ANSI/Deadbolt)' : 'North America (ANSI)' },
-    { code: 'anz', label: isZh ? '澳洲市场 (Deadlatch/Lockwood)' : 'Australia & NZ' },
-    { code: 'europe', label: isZh ? '英国与欧洲 (Euro/5-Lever)' : 'UK & Europe' },
-    { code: 'sg-sea', label: isZh ? '新加坡/东南亚 (HDB/数字边界)' : 'Singapore & SE Asia' },
+    { code: 'all', label: isZh ? '🌍 全部国家与锁族 (30)' : '🌍 All Regions (30)' },
+    { code: 'na', label: isZh ? '🇺🇸 北美市场 (ANSI/Deadbolt)' : '🇺🇸 North America (ANSI)' },
+    { code: 'anz', label: isZh ? '🇦🇺 澳洲市场 (Lockwood/Whitco)' : '🇦🇺 Australia & NZ' },
+    { code: 'europe', label: isZh ? '🇪🇺 英国与欧洲 (Euro/5-Lever)' : '🇪🇺 UK & Europe' },
+    { code: 'sg-sea', label: isZh ? '🇸🇬 新加坡与东南亚 (HDB/数字锁)' : '🇸🇬 Singapore & SE Asia' },
   ];
 
   const filterBtns = regions.map((r, idx) => 
     `<button class="gallery-filter__btn${idx === 0 ? ' is-active' : ''}" type="button" data-gallery-filter="${r.code}">${escapeHtml(r.label)}</button>`
   ).join('');
 
+  // Clean cards: Focus on clean real photo + clear lock name + status pill
   const cardsHtml = items.map((item) => {
     const title = (item.title && (item.title[lang] || item.title.en || item.title.zh)) || item.id;
     const regionLabel = item.region || '';
     const statusClass = item.status === 'R1' ? 'gallery-card__status--r1' : (item.status === 'R2' ? 'gallery-card__status--r2' : 'gallery-card__status--r0');
     const statusText = item.status || 'R0';
-    const statusNote = item.status === 'R1' 
-      ? (isZh ? 'R1 优先测试 / 改造高可行' : 'R1 High Feasibility')
-      : (item.status === 'R2' ? (isZh ? 'R2 需实测再宣传' : 'R2 Test First') : (isZh ? 'R0 边界样本 / 非直接加装' : 'R0 Boundary Sample'));
+    const statusTip = item.status === 'R1' 
+      ? (isZh ? 'R1 优先推荐测试' : 'R1 Feasible')
+      : (item.status === 'R2' ? (isZh ? 'R2 需实测再宣传' : 'R2 Test First') : (isZh ? 'R0 边界样本 / 特殊锁体' : 'R0 Boundary'));
 
-    const searchText = `${item.id} ${title} ${regionLabel} ${item.features || ''} ${item.gtmNotes || ''}`.toLowerCase();
+    const searchText = `${item.id} ${title} ${regionLabel} ${item.features || ''}`.toLowerCase();
     
     // Link to family page if mapped
     const hasFamily = !!item.familyId;
     const familyHref = hasFamily ? `/${urlFor(lang, `locks/${item.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
-    const linkText = hasFamily 
-      ? (isZh ? '查看锁族工程规范 →' : 'View Lock Spec →')
-      : (isZh ? '锁库详细索引 →' : 'Lock Catalog Index →');
-
-    const detailTag = hasFamily 
-      ? (isZh ? '已核实锁族' : 'Mapped family')
-      : (isZh ? 'GTM 边界样本' : 'GTM boundary');
-
-    const gtmNoteHtml = item.gtmNotes 
-      ? `<div class="gallery-card__gtm-note"><b>${isZh ? 'GTM 工程关注' : 'GTM Focus'}：</b>${escapeHtml(item.gtmNotes)}</div>`
-      : '';
 
     return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.regionCode)}" data-search-text="${escapeHtml(searchText)}">
-      <div class="gallery-card__img-wrap">
-        <a href="${familyHref}">
-          <img class="gallery-card__img" src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="210" />
-        </a>
-        <div class="gallery-card__badges">
-          <span class="gallery-card__id">${escapeHtml(item.id)}</span>
-          <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusNote)}">${escapeHtml(statusText)}</span>
+      <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '点击查看实物安装细节与工程参数' : 'Click to view installation details & parameters'}">
+        <div class="gallery-card__img-wrap">
+          <img class="gallery-card__img" src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="230" />
+          <div class="gallery-card__badges">
+            <span class="gallery-card__id">${escapeHtml(item.id)}</span>
+            <span class="gallery-card__status ${statusClass}" title="${escapeHtml(statusTip)}">${escapeHtml(statusText)}</span>
+          </div>
         </div>
-      </div>
+      </a>
       <div class="gallery-card__body">
         <div class="gallery-card__region">${escapeHtml(regionLabel)}</div>
-        <h3 class="gallery-card__title"><a href="${familyHref}">${escapeHtml(title)}</a></h3>
-        <p class="gallery-card__features">${escapeHtml(item.features || '')}</p>
-        ${gtmNoteHtml}
+        <h3 class="gallery-card__title">
+          <a href="${familyHref}">${escapeHtml(title)}</a>
+        </h3>
         <div class="gallery-card__footer">
-          <span class="gallery-card__tag">${escapeHtml(detailTag)}</span>
-          <a class="gallery-card__link" href="${familyHref}">${escapeHtml(linkText)}</a>
+          <a class="gallery-card__link" href="${familyHref}">
+            <span>${isZh ? '查看实物安装与改造图谱' : 'View Installation & Retrofit'}</span>
+            <span class="gallery-card__arrow">→</span>
+          </a>
         </div>
       </div>
     </div>`;
@@ -691,13 +740,10 @@ function galleryFragment(lang) {
 
   return `<div class="gallery-wall" data-gallery-root>
     <div class="gallery-wall__header">
-      <div class="gallery-wall__intro">${isZh 
-        ? '<b>按 GTM 市场容量与优先级别排序：</b>北美（ANSI 单插销高改造存量） → 澳洲（Lockwood 001/355 重点市场） → 英国与欧洲（Euro 锁芯与多点锁） → 新加坡与东南亚（HDB 铁闸与整锁边界样本）。点击实物图片或链接直达详细参数。' 
-        : '<b>Ordered by GTM market priority & retrofit capacity:</b> North America (ANSI deadbolt) → Australia & NZ (Lockwood/Whitco) → UK & Europe (Euro/5-lever) → Singapore & SE Asia (HDB & digital boundary). Click photos for full specs.'}</div>
       <div class="gallery-wall__controls">
         <div class="gallery-filter">${filterBtns}</div>
         <div class="gallery-search">
-          <input type="search" data-gallery-search placeholder="${isZh ? '按名称、品牌、地区或特征速查...' : 'Filter locks...'}" aria-label="${isZh ? '筛选图墙锁型' : 'Filter gallery locks'}" />
+          <input type="search" data-gallery-search placeholder="${isZh ? '快速搜索锁型名称、代号...' : 'Search lock name, model...'}" aria-label="${isZh ? '筛选图墙锁型' : 'Filter locks'}" />
         </div>
       </div>
     </div>
