@@ -243,3 +243,17 @@ GlobalLockSummary/
    - **纯粹工程比例（Image-Dominant Gallery）**：让门上实景与机械总成占据视觉焦点，仅保留单像素深色分割线、极小灰底半透明角标（`SCENE` / `ASSEMBLY`）与标准产品 ID；
    - **清晰层级与工业字距（Technical Typography）**：分类标签与次要属性采用大写或等宽字体，间距微调为 `letter-spacing: 0.04em`，以极简线条箭头替代复杂的图文组合；
    - **双色高对比基调**：深邃工业黑（#0b1120 / #0f172a）与中性金属灰（#475569 / #94a3b8），配合纯白留白，突出锁具本体的金属机械质感。
+
+---
+
+## 铁律与缺陷复盘 (Root Cause Analysis & Long-term Immunity)
+
+### 故障回顾：为什么导航中“锁型总览”后方的动态统计数字一度丢失？
+1. **根本原因（Root Cause）**：
+   - 在前序针对 ASSA ABLOY 工业极简风格重构导航（commit `c997c4c`）时，为去除 Emoji 噪音，清理了 `content/site.json` 中的静态文本；
+   - 依赖静态 JSON 字段的写法是极其脆弱的——当总样本数从 38 款自主扩充到 54 款时，静态字段无法自联动，且在后续调整图标代码时被重置覆盖；
+   - 之前未将「锁型总览后强制动态绑定总样本数」写入 `tests/site.test.mjs` 测试断言与长期记忆核心约束中，导致漏洞重现。
+2. **根治防线与免疫机制（Immunity Guardrails）**：
+   - **代码层绝对动态化**：在 `build.mjs` 的 `rewriteNav` 核心管道中，强制从 `content/catalog/gallery.json` 实时计算当前锁型总数 `count`，自动注入 `(54)` 动态徽标，杜绝任何人工维护遗漏；
+   - **自动化测试断言拦截**：在 `tests/site.test.mjs` 中加入硬性检测规则，一旦导航缺少 `(${count})` 格式，`npm test` 立即熔断报错，禁止构建和推送；
+   - **长期记忆置顶**：将此规则永久写入 `docs/01_METHODOLOGY_AND_CONTEXT_MEMORY.md` 顶层红线，每次会话启动必须校验。

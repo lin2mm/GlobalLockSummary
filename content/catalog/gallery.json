@@ -67,7 +67,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -138,7 +141,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -209,7 +215,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -280,7 +289,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -351,7 +363,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -422,7 +437,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -493,7 +511,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -564,7 +585,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -635,7 +659,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -706,7 +733,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -777,7 +807,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -848,7 +881,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -919,7 +955,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -990,7 +1029,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1061,7 +1103,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1132,7 +1177,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1203,7 +1251,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1274,7 +1325,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1345,7 +1399,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1416,7 +1473,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1487,7 +1547,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1558,7 +1621,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1629,7 +1695,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1700,7 +1769,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -1771,7 +1843,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -1842,7 +1917,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -1913,7 +1991,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -1984,7 +2065,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -2055,7 +2139,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -2126,7 +2213,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -2197,7 +2287,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -2268,7 +2361,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -2339,7 +2435,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -2410,7 +2509,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -2477,7 +2579,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -2544,7 +2649,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -2615,7 +2723,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -2686,7 +2797,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -2753,7 +2867,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -2820,7 +2937,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -2887,7 +3007,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -2954,7 +3077,10 @@
         "rating": "Grade A (100% No-Drill / Interior Thumbturn Clamp)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "仅拆卸内侧旋钮或直接套壳夹持，0破坏门体与外锁芯，退租1分钟极速复原"
-      }
+      },
+      "keywaySpecification": "Schlage SC1/SC4 (5/6 pin) 或 Kwikset KW1/KW10, 复合Y1备选",
+      "coldWeatherDerating": "-35°C ~ +65°C (极寒需专用低温锂铁电池，-20°C 电流衰减约 35%)",
+      "handleSpringResistance": "≤ 15 N·cm (美标分体执手内部弹簧独立，反向阻尼极小)"
     }
   },
   {
@@ -3021,7 +3147,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3088,7 +3217,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3155,7 +3287,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3222,7 +3357,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3289,7 +3427,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3356,7 +3497,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3423,7 +3567,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -3490,7 +3637,10 @@
         "rating": "Grade A (Modular Mortise / Clamp-on Motor)",
         "modificationType": "100% No-Drill Non-Destructive",
         "notes": "日韩MIWA/GOAL及新加坡指纹改装件提供专有免打孔底板"
-      }
+      },
+      "keywaySpecification": "MIWA U9 / PR 旋转滚子磁性槽型, GOAL V18, 新加坡专用双排珠",
+      "coldWeatherDerating": "-10°C ~ +55°C (东南亚 95% 极端湿热，强调 PCB 三防漆与电机轴承防水)",
+      "handleSpringResistance": "≤ 12 N·cm (日式精密插芯锁，手感轻盈，反向阻尼敏感度极高)"
     }
   },
   {
@@ -3557,7 +3707,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3624,7 +3777,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3691,7 +3847,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   },
   {
@@ -3758,7 +3917,10 @@
         "rating": "Grade B- (Semi-retrofit / Minor Screw Replacement)",
         "modificationType": "Minor Screw Fit",
         "notes": "部分拉美老旧木门需微调扣板沉孔螺钉"
-      }
+      },
+      "keywaySpecification": "PADO / Stam / La Fonte 宽槽型拉美通用双铣齿",
+      "coldWeatherDerating": "-5°C ~ +50°C (高湿高粉尘，锁体内部钢冲压件需自润滑镀层)",
+      "handleSpringResistance": "≥ 30 N·cm (拉美重型弹簧，要求智能锁马达具备双倍回弹扭矩)"
     }
   }
 ]

@@ -37,7 +37,7 @@
   "navigation": {
     "en": [
       {
-        "label": "Lock Catalog",
+        "label": "Lock Catalog (54)",
         "href": "index.html",
         "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path d=\"M9 3v18\"/><path d=\"M15 9h3\"/><path d=\"M15 15h3\"/></svg>"
       },
@@ -64,7 +64,7 @@
     ],
     "zh": [
       {
-        "label": "锁型总览",
+        "label": "锁型总览 (54)",
         "href": "zh/index.html",
         "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path d=\"M9 3v18\"/><path d=\"M15 9h3\"/><path d=\"M15 15h3\"/></svg>"
       },

@@ -255,4 +255,10 @@ if (existsSync(galleryJsonPath)) {
   check('en index.html renders pure gallery portal', enIndex.includes('gallery-portal-grid') && enIndex.includes('gallery-portal-card'));
 }
 
+
+// Check that nav link for catalog dynamically includes lock count
+const zhIndexPage = read(join(SITE, 'zh/index.html'));
+const galleryCount = JSON.parse(read(join(ROOT, 'content/catalog/gallery.json'))).length;
+check(`Catalog nav link includes dynamic count (${galleryCount})`, zhIndexPage.includes(`(${galleryCount})`));
+
 console.log(`OK  ${passed} checks passed`);

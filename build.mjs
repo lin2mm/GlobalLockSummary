@@ -142,9 +142,32 @@ function emitPage({ lang, slug, title, description, bodyHtml, breadcrumbs = [], 
   return canonicalPath;
 }
 
-/** Turn navigation hrefs into root-relative paths that work from any depth. */
+/** Turn navigation hrefs into root-relative paths that work from any depth and dynamically inject lock count. */
 function rewriteNav(nav) {
-  return nav.map((item) => ({ ...item, href: item.href.startsWith('/') ? item.href : `/${item.href}` }));
+  let count = 54;
+  const galleryPath = join(CONTENT, 'catalog', 'gallery.json');
+  if (existsSync(galleryPath)) {
+    try {
+      const items = JSON.parse(readFileSync(galleryPath, 'utf8'));
+      count = items.length;
+    } catch (e) {}
+  }
+
+  return nav.map((item) => {
+    let label = item.label;
+    if (item.href.includes('index.html')) {
+      if (label.includes('(')) {
+        label = label.replace(/\(\d+\)/, `(${count})`);
+      } else {
+        label = `${label} (${count})`;
+      }
+    }
+    return {
+      ...item,
+      label,
+      href: item.href.startsWith('/') ? item.href : `/${item.href}`
+    };
+  });
 }
 
 /** Does this slug exist in this language? Used for hreflang alternates. */
@@ -367,12 +390,19 @@ function lockPage(fam, lang) {
             </div>
             <div style="color: #475569; font-size: 0.75rem; margin-top: 3px;">${escapeHtml(s.engineeringMatrix.egressCompliance.description)}</div>
           </div>
-          <div style="background: white; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #06b6d4;">
+          <div style="background: white; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #06b6d4; margin-bottom: 6px;">
             <div style="display: flex; justify-content: space-between; align-items: center;">
               <b>🏠 ${lang === "zh" ? "免打孔/租房改装友好度" : "No-Drill / Rental-Friendly"}:</b>
               <span style="color: #0e7490; font-weight: 600; font-size: 0.75rem;">${escapeHtml(s.engineeringMatrix.rentalOptimization.modificationType)}</span>
             </div>
             <div style="color: #475569; font-size: 0.75rem; margin-top: 3px;">${escapeHtml(s.engineeringMatrix.rentalOptimization.notes)}</div>
+          </div>
+          <div style="background: white; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #64748b;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; font-size: 0.72rem;">
+              <div><b>🔑 原厂钥匙胚槽型:</b> ${escapeHtml(s.engineeringMatrix.keywaySpecification || 'N/A')}</div>
+              <div><b>❄️ 极限气候与电池衰减:</b> ${escapeHtml(s.engineeringMatrix.coldWeatherDerating || 'N/A')}</div>
+              <div><b>🔄 执手回弹弹簧阻力:</b> ${escapeHtml(s.engineeringMatrix.handleSpringResistance || 'N/A')}</div>
+            </div>
           </div>
         </div>
         ` : ""}
