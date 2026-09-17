@@ -197,6 +197,14 @@ ${product ? `      <div>
       </div>` : ''}
     </div>
     <div class="wrap site-footer__meta">
+      <div class="footer__engineering-downloads" style="margin-bottom: 1.25rem; display: flex; gap: 10px; flex-wrap: wrap;">
+        <a class="footer__download-chip" href="/docs/GLOBAL_LOCK_DATA_INDEX.xlsx" download style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: rgba(37,99,235,0.08); border: 1px solid rgba(37,99,235,0.25); border-radius: 8px; color: #1d4ed8; font-size: 0.85rem; font-weight: 700; text-decoration: none;">
+          📥 ${lang === 'zh' ? '下载 6工作表离线工程索引 (.xlsx)' : 'Download Master Engineering Index (.xlsx)'}
+        </a>
+        <a class="footer__download-chip" href="/data/catalog.json" download style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.25); border-radius: 8px; color: #047857; font-size: 0.85rem; font-weight: 700; text-decoration: none;">
+          ⚙️ ${lang === 'zh' ? '全量机器可读 API (.json)' : 'Full Machine-Readable API (.json)'}
+        </a>
+      </div>
       <p>${esc(site.footer.disclaimer[lang] || site.footer.disclaimer.en)}</p>
     </div>
   </footer>

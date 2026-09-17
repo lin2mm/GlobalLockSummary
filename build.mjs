@@ -807,12 +807,14 @@ function galleryFragment(lang) {
   const blocks = getGalleryBlocks(lang);
   if (!blocks.length) return '';
 
-  const portalCards = blocks.map((b) => {
+  const portalCards = blocks.map((b, idx) => {
     const categoryUrl = `/${urlFor(lang, `categories/${b.code}.html`)}`;
-    return `<a class="gallery-portal-card" href="${categoryUrl}">
+    const idxBadge = idx + 1;
+    return `<a class="gallery-portal-card" href="${categoryUrl}" data-portal-target="${escapeHtml(b.code)}">
       <div class="gallery-portal-card__media">
         <img class="gallery-portal-card__img" src="${escapeHtml(b.hero.image)}" alt="${escapeHtml(b.title)}" loading="lazy" width="360" height="220" />
         <span class="gallery-portal-card__badge">${b.items.length} ${isZh ? '款实拍样本' : 'models'}</span>
+        <span class="gallery-portal-card__keyhint" title="${isZh ? '按键盘数字键快速直达' : 'Press key to navigate'}">[${idxBadge}]</span>
       </div>
       <div class="gallery-portal-card__body">
         <h2 class="gallery-portal-card__name">${escapeHtml(b.title)}</h2>
@@ -832,7 +834,8 @@ function galleryFragment(lang) {
         ${portalCards}
       </div>
     </div>
-  </div>`;
+  </div>
+  <script src="/assets/js/portal-shortcuts.js" defer></script>`;
 }
 
 const FRAGMENTS = {

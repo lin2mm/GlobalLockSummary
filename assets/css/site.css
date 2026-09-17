@@ -1162,3 +1162,28 @@ html {
   color: #fff;
   transform: translateX(-3px);
 }
+
+/* ------------------------------------------------------------------ *
+ * Autonomous Loop Polish: Keyhint Badges & Refined Contrast
+ * ------------------------------------------------------------------ */
+.gallery-portal-card__keyhint {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #93c5fd;
+  font-family: monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.gallery-portal-card:hover .gallery-portal-card__keyhint {
+  background: #2563eb;
+  color: #fff;
+  border-color: #60a5fa;
+}
