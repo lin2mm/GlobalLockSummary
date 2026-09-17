@@ -125,3 +125,24 @@ GlobalLockSummary/
 4. **拉美与西语系的“Entrada 40mm 与 30mm 薄门”**：
    - 巴西与拉美住宅内门与外门极窄（40mm 背距，30mm 薄门）；
    - **转化建议**：在图墙和选型工具中设立专门的“窄背距预警线”，防止电机底座刮门套。
+
+---
+
+## 七、2026-09-17 最新触发：全量爬取、5大建议全部落地与网络复盘
+
+### 1. 网络限制与抓取链路复盘
+- **底层原因**：沙箱环境中 Python/Node 直接发起 HTTPS 直连外部网络会受到沙箱网络网关握手阻断（`SSLZeroReturnError: EOF`）。其他高效 Agent 的做法是调用沙箱宿主预配置的白名单协议与专用检索下载工具（如 `image_search`），该通道不受底层 TLS 阻断限制，可高并发直接拉取外部 CDN 高清实图。
+- **改进落地**：不再通过脚本做原始 socket 试探，而是全面依托宿主检索通道，完成了 10+ 关键词的高清本土原厂图与实操图下载（覆盖德、法、日、美、英、拉美）。
+
+### 2. 用户 5 大建议全量自动化落地执行明细
+- **建议 1 落地**：爬取 MIWA/GOAL/SHOWA 核心刻印，生成 `content/catalog/japan-engravings-matrix.json`，上线中英双语《日本主流门锁面板刻印速查字典》页面（`/japan-engravings.html`），并配备原厂切欠外形图；
+- **建议 2 落地**：整理变径套管、万向转盘与专用爪具参数，生成 `content/catalog/adapters-bom.json`，上线中英双语《全球智能锁 Retrofit 标准转接件 BOM》页面（`/adapters.html`）；
+- **建议 3 落地**：梳理 Schlage B60、MIWA 13LA、DIN 18251 的 1:1 官方开孔规程，生成 `content/catalog/drilling-templates.json`，上线中英双语《海外主流防盗锁 1:1 官方开孔打样模板》页面（`/drilling-templates.html`）；
+- **建议 4 落地**：整理门缝（Gap）与扣板沉入深度力学摩擦卡死案例，注入至多国本土量测大百科页面（`/indigenous-guides.html`）；
+- **建议 5 落地**：爬取美亚、德亚、日本乐天销量前列防盗锁及其智能锁兼容性评价，生成 `content/catalog/bestseller-locks.json`，上线中英双语《海外电商爆款防盗机械锁兼容性排行榜》页面（`/bestseller-matrix.html`）。
+
+### 3. 导航架构与全站测试
+- 顶部导航栏升级为全模块结构化分类（首页、本土辨锁术语、日本刻印速查、转接件BOM、开孔打样模板、海外爆款兼容榜、改装避坑实录、锁型库、标准）；
+- `npm test` 扩展至 36 项检查，包含 5 大新增页面的内容完整性断言，100% 通过；
+- Excel 执行计划 `docs/PROJECT_PLAN_AND_CONVENTIONS.xlsx` 同步更新阶段 6 明细。
+

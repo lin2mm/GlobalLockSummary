@@ -1,0 +1,46 @@
+[
+  {
+    "id": "adp-fr-7to8",
+    "name": "法国 7mm 转 8mm 变径方轴套管 (Spindle Sleeve Adapter)",
+    "targetRegion": "法国 / 比利时 (FR/BE)",
+    "problemSolved": "法国主流插芯锁方轴孔为 7×7mm，出海智能锁通常标配 8×8mm 方轴，无法插入；使用变径套管可向下兼容原装把手，或让 7mm 原轴平稳咬合 8mm 智能锁内齿。",
+    "materialRecommendation": "H62 黄铜 或 淬火碳钢（严禁使用普通锌合金，剪切力不足易断裂）",
+    "criticalTolerance": "外径 8.00 -0.05mm，内孔 7.05 +0.05mm，长度 25~30mm",
+    "image": "assets/img/tools/adapter-7to8mm.png",
+    "diy3dPrintReady": false,
+    "notes": "受扭矩剪切力极大，必须为金属材质，不可 3D 打印塑料件。"
+  },
+  {
+    "id": "adp-de-8to9",
+    "name": "德规 8mm 转 9mm 防火门逃生方轴套管 (DIN Panik Sleeve)",
+    "targetRegion": "德国 / 奥地利 / 瑞士 (DE/AT/CH)",
+    "problemSolved": "DIN 18250 规定公建防火门与逃生通道方轴孔为 9×9mm，家用 8mm 智能锁把手轴插入会产生 1mm 晃量打滑，加装 0.5mm 壁厚套管消除游隙。",
+    "materialRecommendation": "优质不锈钢 SUS304",
+    "criticalTolerance": "外径 9.00 -0.05mm，内方 8.05 +0.05mm",
+    "image": "assets/img/tools/adapter-7to8mm.png",
+    "diy3dPrintReady": false,
+    "notes": "防火门强制受力件，必须耐高温与高剪切力。"
+  },
+  {
+    "id": "adp-jp-b5-gripper",
+    "name": "日本 MIWA B5 防盗捏合旋钮 Retrofit 驱动爪",
+    "targetRegion": "日本 (JP)",
+    "problemSolved": "MIWA B5 型内旋钮具备弹簧防盗卡扣，直接旋转会被外框死锁，需适配专用带双侧斜坡挤压爪的驱动件，转动前自动捏合解锁。",
+    "materialRecommendation": "POM（赛钢） 或 增强型尼龙 PA12 (SLS 3D打印)",
+    "criticalTolerance": "内腔宽度 24.2 ±0.1mm，捏合行程 2.5mm",
+    "image": "assets/img/indigenous/jp-thumbturn.jpg",
+    "diy3dPrintReady": true,
+    "notes": "耐磨损、自润滑材质最佳，支持 3D 打印打样。"
+  },
+  {
+    "id": "adp-us-tailpiece-cross",
+    "name": "美标 ANSI Deadbolt 十字/扁片万向驱动转盘",
+    "targetRegion": "北美 (US/CA)",
+    "problemSolved": "Schlage、Kwikset 与 Defiant 的 Tailpiece 截面分为扁平形（Flat）、十字形（Cross）与薄刀片形，转盘需具备多插槽同心容差。",
+    "materialRecommendation": "铝合金 6061-T6 CNC 或 尼龙加纤",
+    "criticalTolerance": "扁槽宽度 2.2mm / 4.5mm 双阶梯设计，厚度 6.0mm",
+    "image": "assets/img/tools/bestseller-deadbolt.jpg",
+    "diy3dPrintReady": true,
+    "notes": "北美加装智能锁最核心易损件，建议随箱赠送 3 款不同槽型卡扣。"
+  }
+]

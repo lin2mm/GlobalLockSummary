@@ -228,6 +228,21 @@ if (existsSync(galleryJsonPath)) {
   const fieldIssuesZh = read(join(SITE, 'field-issues.html'));
   check('field-issues.html renders crawled real-world complaints', fieldIssuesZh.includes('Motor Blocked') && fieldIssuesZh.includes('Reddit') && fieldIssuesZh.includes('HDB'));
 
+  const indigenousZh = read(join(SITE, 'indigenous-guides.html'));
+  check('indigenous-guides.html renders terminology and authentic photos', indigenousZh.includes('Dornmaß') && indigenousZh.includes('de-dornmass-pz.png') && indigenousZh.includes('Gefahrenfunktion') && indigenousZh.includes('フロント刻印'));
+
+  const jpEngravingsZh = read(join(SITE, 'japan-engravings.html'));
+  check('japan-engravings.html renders MIWA and GOAL matrix', jpEngravingsZh.includes('MIWA') && jpEngravingsZh.includes('13LA') && jpEngravingsZh.includes('template-miwa-la.jpg'));
+
+  const adaptersZh = read(join(SITE, 'adapters.html'));
+  check('adapters.html renders 7mm to 8mm and BOM specs', adaptersZh.includes('7mm') && adaptersZh.includes('adapter-7to8mm.png'));
+
+  const templatesZh = read(join(SITE, 'drilling-templates.html'));
+  check('drilling-templates.html renders 1:1 drilling parameters', templatesZh.includes('54mm') && templatesZh.includes('template-schlage-b60.png'));
+
+  const bestsellersZh = read(join(SITE, 'bestseller-matrix.html'));
+  check('bestseller-matrix.html renders top selling locks comparison', bestsellersZh.includes('Kwikset') && bestsellersZh.includes('bestseller-deadbolt.jpg'));
+
   const retrofitZh = read(join(SITE, 'retrofit.html'));
   check('retrofit.html covers real-world failure cases & complaints', retrofitZh.includes('Nuki') && retrofitZh.includes('Motor Blocked'));
   check('root index.html includes in-site direct feedback button', rootIndex.includes('data-feedback-submit'));

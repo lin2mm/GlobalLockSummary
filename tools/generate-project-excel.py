@@ -71,7 +71,8 @@ tasks1 = [
 
     # Phase 6
     ["6.0", "阶段六：长期体系与文件规范", "出台标准化工程计划模板与全套文件命名规范 Excel", "自主闭环", "用户最新指令", "docs/PROJECT_PLAN_AND_CONVENTIONS.xlsx", "已完成", "2026-09-17"],
-    ["6.1", "阶段六：长期体系与文件规范", "持续运行 npm test 自动化测试并保持 PR #3 开启", "自主闭环", "项目 CI 与测试规范", "tests/site.test.mjs (31 checks passed)", "进行中", "长期持续"]
+    ["6.1", "阶段六：长期体系与文件规范", "全量执行5大建议与爬取：本土测量图库、日本刻印字典、转接件BOM、打样模板、跨境爆款兼容榜", "自主闭环", "用户全面落地指令", "assets/img/{indigenous,tools}/, content/catalog/*.json, 5大新页面", "已完成", "2026-09-17"],
+    ["6.2", "阶段六：长期体系与文件规范", "持续运行 npm test 自动化测试并保持 PR #3 开启", "自主闭环", "项目 CI 与测试规范", "tests/site.test.mjs (36 checks passed)", "进行中", "长期持续"]
 ]
 
 for row_idx, task in enumerate(tasks1, 4):

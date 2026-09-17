@@ -41,16 +41,24 @@
         "href": "index.html"
       },
       {
-        "label": "Identify",
-        "href": "identify.html"
+        "label": "Indigenous Guides",
+        "href": "indigenous-guides.html"
       },
       {
-        "label": "Measure",
-        "href": "measure.html"
+        "label": "JP Engravings",
+        "href": "japan-engravings.html"
       },
       {
-        "label": "Retrofit",
-        "href": "retrofit.html"
+        "label": "Adapters BOM",
+        "href": "adapters.html"
+      },
+      {
+        "label": "Templates",
+        "href": "drilling-templates.html"
+      },
+      {
+        "label": "Bestsellers",
+        "href": "bestseller-matrix.html"
       },
       {
         "label": "Field Failures",
@@ -63,10 +71,6 @@
       {
         "label": "Standards",
         "href": "standards/index.html"
-      },
-      {
-        "label": "Contribute",
-        "href": "contribute.html"
       }
     ],
     "zh": [
@@ -75,16 +79,24 @@
         "href": "zh/index.html"
       },
       {
-        "label": "识别我的锁",
-        "href": "zh/identify.html"
+        "label": "本土辨锁术语",
+        "href": "zh/indigenous-guides.html"
       },
       {
-        "label": "测量",
-        "href": "zh/measure.html"
+        "label": "日本刻印速查",
+        "href": "zh/japan-engravings.html"
       },
       {
-        "label": "改造方案",
-        "href": "zh/retrofit.html"
+        "label": "转接件BOM",
+        "href": "zh/adapters.html"
+      },
+      {
+        "label": "开孔打样模板",
+        "href": "zh/drilling-templates.html"
+      },
+      {
+        "label": "海外爆款兼容榜",
+        "href": "zh/bestseller-matrix.html"
       },
       {
         "label": "改装避坑实录",
@@ -97,10 +109,6 @@
       {
         "label": "标准",
         "href": "zh/standards/index.html"
-      },
-      {
-        "label": "贡献",
-        "href": "zh/contribute.html"
       }
     ]
   },
