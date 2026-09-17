@@ -75,40 +75,23 @@ export function layout(opts) {
     note: feedbackTerms.note?.[lang] || feedbackTerms.note?.en || '',
   };
   const feedbackData = JSON.stringify(feedbackI18n).replace(/'/g, '&#39;');
-  const feedback = `<section class="feedback" id="feedback" data-feedback
+  const feedback = `<section class="feedback feedback--ultra-clean" id="feedback" data-feedback
     data-page-title="${esc(title)}" data-page-path="${esc(path)}" data-issues-url="${esc(site.urls.issues)}"
     data-i18n='${feedbackData}'>
-    <div class="feedback__header">
-      <h2>${esc(feedbackI18n.title)}</h2>
-      <span class="feedback__badge">${lang === 'zh' ? '免登录 · 站内直达' : 'Direct Submit'}</span>
-    </div>
-    <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
-    <div class="feedback__form">
-      <div class="feedback__row">
-        <label class="feedback__label--cat">${esc(feedbackI18n.category)}
-          <select data-feedback-category></select>
-        </label>
-        <label class="feedback__label--contact">${esc(feedbackI18n.contact)}
-          <input type="text" data-feedback-contact placeholder="${esc(feedbackI18n.contactPlaceholder)}" />
-        </label>
+    <div class="feedback__ultra-form">
+      <div class="feedback__input-cluster">
+        <input type="text" class="feedback__direct-input" data-feedback-message placeholder="${lang === 'zh' ? '输入您的锁型需求或改装建议（支持直接输入，站内直达）...' : 'Type your suggestion or missing lock model...'}" aria-label="Feedback" />
+        <button class="feedback__direct-submit" data-feedback-submit type="button">${lang === 'zh' ? '提交建议' : 'Submit Suggestion'}</button>
       </div>
-      <label class="feedback__label--msg">${esc(feedbackI18n.message)}
-        <input type="text" class="feedback__single-line" data-feedback-message placeholder="${esc(feedbackI18n.messagePlaceholder)}" />
-      </label>
-      <div class="feedback__actions">
-        <button class="feedback__submit" data-feedback-submit type="button">${esc(feedbackI18n.submit)}</button>
-        <button class="feedback__copy" data-feedback-copy type="button">${esc(feedbackI18n.copy)}</button>
+      <div class="feedback__status-row">
+        <span class="feedback__status-pill">⚡ ${lang === 'zh' ? '免登录 · 站内直达工程师' : 'Direct to Engineers'}</span>
+        <button class="feedback__copy" data-feedback-copy type="button" style="display:none;">${esc(feedbackI18n.copy)}</button>
+        <select data-feedback-category style="display:none;"></select>
+        <input type="text" data-feedback-contact style="display:none;" />
+        <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener" style="display:none;"></a>
         <span class="feedback__status" data-feedback-status aria-live="polite"></span>
       </div>
-      <details class="feedback__alt-methods">
-        <summary>${esc(feedbackI18n.openIssue)}</summary>
-        <div class="feedback__alt-content">
-          <p>${lang === 'zh' ? '如果您拥有 GitHub 账号并希望公开发起 Issue 讨论：' : 'If you have a GitHub account and prefer tracking public issues:'}</p>
-          <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
-        </div>
-      </details>
     </div>
-    <p class="feedback__note">${esc(feedbackI18n.note)}</p>
   </section>`;
 
   const langLinks = alternates.map((alt) => {

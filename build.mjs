@@ -915,13 +915,16 @@ function build() {
         ? null
         : extractFaqFromMarkdown(body, lang);
 
+      const isHomePage = slug === 'index.html';
+      const bodyHtmlContent = isHomePage ? html : `<h1>${escapeHtml(title)}</h1>\n${html}`;
+
       emitPage({
         lang,
         slug,
         title,
         description,
-        bodyHtml: `<h1>${escapeHtml(title)}</h1>\n${html}`,
-        breadcrumbs: crumbs,
+        bodyHtml: bodyHtmlContent,
+        breadcrumbs: isHomePage ? [] : crumbs,
         headings: rendered.headings,
         jsonLd: [
           techArticleJsonLd({ headline: title, description, url: `${BASE_URL}/${urlFor(lang, slug)}`, lang, dateModified: BUILD_DATE }),
