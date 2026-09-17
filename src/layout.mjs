@@ -154,7 +154,7 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
         <span class="brand__text">${esc(site.name)}</span>
       </a>
             <div class="site-header__pulse-wrap" style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
-        <a href="/autonomous-loop.html" class="pulse-badge" title="${lang === 'zh' ? '自主巡航守护进程持续运行中 (点击查看实时运行日志)' : 'Autonomous Evolution Daemon Active (Click for live log)'}">
+        <a href="/docs/AUTONOMOUS_OPTIMIZATION_LOOP.md" class="pulse-badge" title="${lang === 'zh' ? '自主巡航守护进程持续运行中 (点击查看实时运行日志)' : 'Autonomous Evolution Daemon Active (Click for live log)'}">
           <span class="pulse-dot"></span>
           <span class="pulse-text">${lang === 'zh' ? '自主进化守护中' : 'Daemon Active'}</span>
         </a>

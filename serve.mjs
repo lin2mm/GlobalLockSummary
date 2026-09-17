@@ -40,6 +40,10 @@ const server = createServer(async (req, res) => {
     // Directory requests resolve to index.html, like GitHub Pages does.
     if (pathname.endsWith('/')) pathname += 'index.html';
 
+    // Resolve /zh/docs/ and /en/docs/ to /docs/
+    if (pathname.startsWith('/zh/docs/') || pathname.startsWith('/en/docs/')) {
+      pathname = pathname.replace(/^\/(zh|en)\/docs\//, '/docs/');
+    }
     const filePath = normalize(join(ROOT, pathname));
     if (!filePath.startsWith(ROOT)) {
       res.writeHead(403).end('Forbidden');
