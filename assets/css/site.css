@@ -1235,3 +1235,13 @@ html {
     box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
   }
 }
+
+/* Dropdown Menu Interaction */
+.nav__dropdown:hover .nav__dropdown-menu,
+.nav__dropdown:focus-within .nav__dropdown-menu {
+  display: block !important;
+}
+.nav__sub-link:hover {
+  background: #f1f5f9;
+  color: #0284c7 !important;
+}
