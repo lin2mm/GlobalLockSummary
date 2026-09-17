@@ -37,45 +37,45 @@
   "navigation": {
     "en": [
       {
-        "label": "🖼️ Lock Gallery",
+        "label": "Lock Catalog",
         "href": "index.html"
       },
       {
-        "label": "🔧 Field Cases Gallery",
+        "label": "Field Cases",
         "href": "install-gallery.html"
       },
       {
-        "label": "🛠️ Adapters & Tools",
+        "label": "Adapters & BOM",
         "href": "adapters.html"
       },
       {
-        "label": "⚠️ Field Pitfalls",
+        "label": "Field Pitfalls",
         "href": "field-issues.html"
       },
       {
-        "label": "📊 Master Index (.xlsx)",
+        "label": "Master Index",
         "href": "indigenous-guides.html"
       }
     ],
     "zh": [
       {
-        "label": "🖼️ 锁型图库大盘",
+        "label": "锁型总览",
         "href": "zh/index.html"
       },
       {
-        "label": "🔧 实操工程图库",
+        "label": "工程实录",
         "href": "zh/install-gallery.html"
       },
       {
-        "label": "🛠️ 转接件与工具库",
+        "label": "转接工具",
         "href": "zh/adapters.html"
       },
       {
-        "label": "⚠️ 改装避坑实录",
+        "label": "避坑实录",
         "href": "zh/field-issues.html"
       },
       {
-        "label": "📊 全局索引与下载",
+        "label": "工业索引",
         "href": "zh/indigenous-guides.html"
       }
     ]
