@@ -37,78 +37,38 @@
   "navigation": {
     "en": [
       {
-        "label": "Home",
+        "label": "🖼️ Lock Gallery",
         "href": "index.html"
       },
       {
-        "label": "Indigenous Guides",
-        "href": "indigenous-guides.html"
-      },
-      {
-        "label": "JP Engravings",
-        "href": "japan-engravings.html"
-      },
-      {
-        "label": "Adapters BOM",
+        "label": "🛠️ Adapters & Tools",
         "href": "adapters.html"
       },
       {
-        "label": "Templates",
-        "href": "drilling-templates.html"
-      },
-      {
-        "label": "Bestsellers",
-        "href": "bestseller-matrix.html"
-      },
-      {
-        "label": "Field Failures",
+        "label": "⚠️ Field Pitfalls",
         "href": "field-issues.html"
       },
       {
-        "label": "Locks",
-        "href": "locks/index.html"
-      },
-      {
-        "label": "Standards",
-        "href": "standards/index.html"
+        "label": "📊 Master Index (.xlsx)",
+        "href": "indigenous-guides.html"
       }
     ],
     "zh": [
       {
-        "label": "首页",
+        "label": "🖼️ 锁型图库大盘",
         "href": "zh/index.html"
       },
       {
-        "label": "本土辨锁术语",
-        "href": "zh/indigenous-guides.html"
-      },
-      {
-        "label": "日本刻印速查",
-        "href": "zh/japan-engravings.html"
-      },
-      {
-        "label": "转接件BOM",
+        "label": "🛠️ 转接件与工具库",
         "href": "zh/adapters.html"
       },
       {
-        "label": "开孔打样模板",
-        "href": "zh/drilling-templates.html"
-      },
-      {
-        "label": "海外爆款兼容榜",
-        "href": "zh/bestseller-matrix.html"
-      },
-      {
-        "label": "改装避坑实录",
+        "label": "⚠️ 改装避坑实录",
         "href": "zh/field-issues.html"
       },
       {
-        "label": "锁型库",
-        "href": "zh/locks/index.html"
-      },
-      {
-        "label": "标准",
-        "href": "zh/standards/index.html"
+        "label": "📊 全局索引与下载",
+        "href": "zh/indigenous-guides.html"
       }
     ]
   },
