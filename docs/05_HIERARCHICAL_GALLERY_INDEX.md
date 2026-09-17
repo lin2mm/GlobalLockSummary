@@ -59,3 +59,19 @@
 | `LA-02` | 拉美外装重型双钩死锁：ODIS / Yale 经典外装防盗锁 | `latam` | `/assets/img/gallery/au-13_real.jpg` | `/assets/img/gallery/au-13_real.jpg` | 🖼️ 场景图替代 | **93 分** |
 | `LA-03` | 巴西十字符机械防盗副锁：Stam 1003/1004 Chave Tetra | `latam` | `/assets/img/gallery/latam-stam-tetra_real.png` | `/assets/img/gallery/latam-stam-tetra_real.png` | 🖼️ 场景图替代 | **93 分** |
 | `LA-04` | 拉美轴心转门滚轮插芯锁：Stam Fechadura Rolete Pivotante | `latam` | `/assets/img/gallery/latam-rolete-pivotante_real.webp` | `/assets/img/gallery/latam-rolete-pivotante_real.webp` | 🖼️ 场景图替代 | **93 分** |
+| `US-33` | 美标一级高安全插销死锁：Medeco Maxum / Biaxial | `na` | `/assets/img/hero/hero-na-deadbolt.png` | `/assets/img/hero/hero-na-deadbolt.png` | 🖼️ 场景图替代 | **93 分** |
+| `US-34` | 加拿大主流单缸死锁：Weiser Elements / SmartKey | `na` | `/assets/img/gallery/us-28_real.webp` | `/assets/img/gallery/us-28_real.webp` | 🖼️ 场景图替代 | **93 分** |
+| `US-35` | 北美现代设计定制死锁：Emtek Contemporary Low Profile | `na` | `/assets/img/gallery/us-27_real.jpg` | `/assets/img/gallery/us-27_real.jpg` | 🖼️ 场景图替代 | **89 分** |
+| `US-36` | 重型实木门插销死锁：Baldwin Prestige / Estate | `na` | `/assets/img/hero/hero-na-deadbolt.png` | `/assets/img/hero/hero-na-deadbolt.png` | 🖼️ 场景图替代 | **93 分** |
+| `EU-37` | 德标高安全防技开槽型锁芯：ABUS Bravus 4000 MX | `europe5` | `/assets/img/hero/hero-europe-eurocylinder.jpg` | `/assets/img/hero/hero-europe-eurocylinder.jpg` | 🖼️ 场景图替代 | **93 分** |
+| `EU-38` | 奥地利模块化欧标双锁芯：EVVA ICS / 4KS 曲线槽 | `europe5` | `/assets/img/hero/hero-europe-eurocylinder.jpg` | `/assets/img/hero/hero-europe-eurocylinder.jpg` | 🖼️ 场景图替代 | **93 分** |
+| `EU-39` | 法国主流防盗插芯锁：Bricard Série 70 / Chifral | `europe5` | `/assets/img/hero/hero-europe-eurocylinder.jpg` | `/assets/img/hero/hero-europe-eurocylinder.jpg` | 🖼️ 场景图替代 | **93 分** |
+| `EU-40` | 南欧窄框门插芯锁：ISEO Electa 窄边 30/35mm | `europe5` | `/assets/img/tier2_product/din-18251-case.jpg` | `/assets/img/tier2_product/din-18251-case.jpg` | 🖼️ 场景图替代 | **89 分** |
+| `AU-41` | 澳式三合一防盗执手锁：Gainsborough Trilock Contemporary | `uk-anz` | `/assets/img/hero/hero-anz-lockwood001.jpg` | `/assets/img/hero/hero-anz-lockwood001.jpg` | 🖼️ 场景图替代 | **89 分** |
+| `UK-42` | 英标重型铸铁防盗插芯锁：Chubb / Union 3G110 BS 3621 | `uk-anz` | `/assets/img/tier3_install/mortise-pocket-chisel.jpg` | `/assets/img/tier3_install/mortise-pocket-chisel.jpg` | 🖼️ 场景图替代 | **86 分** |
+| `JP-43` | 日本住宅主流插芯锁：GOAL LX / LG 系列插芯锁体 | `sea` | `/assets/img/hero/hero-sea-hdb.jpg` | `/assets/img/hero/hero-sea-hdb.jpg` | 🖼️ 场景图替代 | **93 分** |
+| `SG-44` | 新加坡现代 HDB 激光切割铁门机械推拉锁 | `sea` | `/assets/img/hero/hero-sea-hdb.jpg` | `/assets/img/hero/hero-sea-hdb.jpg` | 🖼️ 场景图替代 | **93 分** |
+| `LA-45` | 巴西主流重型插芯锁：PADO Concept / Residence 55mm | `latam` | `/assets/img/hero/hero-latam-abnt.webp` | `/assets/img/hero/hero-latam-abnt.webp` | 🖼️ 场景图替代 | **93 分** |
+| `LA-46` | 拉美 ASSA ABLOY 旗下标杆：La Fonte Série 500 | `latam` | `/assets/img/hero/hero-latam-abnt.webp` | `/assets/img/hero/hero-latam-abnt.webp` | 🖼️ 场景图替代 | **93 分** |
+| `LA-47` | 巴西大众住宅超窄背距插芯锁：Silvana 40mm Econômica | `latam` | `/assets/img/hero/hero-latam-abnt.webp` | `/assets/img/hero/hero-latam-abnt.webp` | 🖼️ 场景图替代 | **93 分** |
+| `LA-48` | 智利与安第斯山脉重型双钩外装锁：Yale Chile Scanavini | `latam` | `/assets/img/hero/hero-latam-abnt.webp` | `/assets/img/hero/hero-latam-abnt.webp` | 🖼️ 场景图替代 | **89 分** |
