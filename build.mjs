@@ -1045,6 +1045,36 @@ function build() {
           <p class="gallery-block__subtitle">${escapeHtml(block.subtitle)}</p>
         </div>
         ${heroHtml}
+        ${block.code === 'europe5' ? `
+        <div class="category-native-box" style="margin: 20px 0; padding: 16px 20px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px;">
+          <h4 style="margin: 0 0 8px; color: #1e40af; font-size: 0.95rem;">🌍 ${isZh ? '德语区 (DE/AT/CH) 与 法语区 (FR/BE) 本地五金专著与母语速查' : 'DACH & French Region Native Hardware Guides'}</h4>
+          <p style="margin: 0 0 10px; font-size: 0.85rem; color: #3b82f6;">${isZh ? '欧陆板块深度细分：涵盖德国 Dornmaß/PZ/应急离合 与 法国 Axe/Entraxe/多点联动本地工程字典。' : 'Covers German Dornmaß/PZ/Emergency Clutch & French mortise standards.'}</p>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a class="block-hero__btn" style="font-size: 0.8rem; padding: 6px 14px; background: #2563eb; color: #fff;" href="${isZh ? '/zh/indigenous-guides.html#de-at-ch' : '/en/indigenous-guides.html#de-at-ch'}">
+              🇩🇪 ${isZh ? '直达德语区五金术语与避坑指南 →' : 'German Hardware Guide →'}
+            </a>
+            <a class="block-hero__btn" style="font-size: 0.8rem; padding: 6px 14px; background: #3b82f6; color: #fff;" href="${isZh ? '/zh/indigenous-guides.html#fr-be' : '/en/indigenous-guides.html#fr-be'}">
+              🇫🇷 ${isZh ? '直达法语区五金术语与避坑指南 →' : 'French Hardware Guide →'}
+            </a>
+          </div>
+        </div>
+        ` : ''}
+
+        ${block.code === 'sea' ? `
+        <div class="category-native-box" style="margin: 20px 0; padding: 16px 20px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px;">
+          <h4 style="margin: 0 0 8px; color: #991b1b; font-size: 0.95rem;">🇯🇵 ${isZh ? '日本区 (JP) 专属面板刻印反查字典与 JIS 机械锁体' : 'Japan Native JIS & Engraving Matrix'}</h4>
+          <p style="margin: 0 0 10px; font-size: 0.85rem; color: #b91c1c;">${isZh ? '亚太东亚板块深度细分：支持 MIWA 13LA / GOAL / SHOWA / ALPHA 刻印即型号反查与加装垫块 BOM。' : 'Includes MIWA/GOAL panel engraving decoder & SwitchBot/Qrio spacer BOM.'}</p>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a class="block-hero__btn" style="font-size: 0.8rem; padding: 6px 14px; background: #dc2626; color: #fff;" href="${isZh ? '/zh/japan-engravings.html' : '/en/japan-engravings.html'}">
+              🔍 ${isZh ? '进入日本面板刻印反查字典 (MIWA/GOAL) →' : 'Open Japan Engraving Matrix →'}
+            </a>
+            <a class="block-hero__btn" style="font-size: 0.8rem; padding: 6px 14px; background: #ef4444; color: #fff;" href="${isZh ? '/zh/indigenous-guides.html#jp' : '/en/indigenous-guides.html#jp'}">
+              🗾 ${isZh ? '日本本地五金安装与尺寸指引 →' : 'Japan Hardware Guide →'}
+            </a>
+          </div>
+        </div>
+        ` : ''}
+
         <h3 class="block-subheading">${isZh ? '该区域代表性型号与候选实物图谱：' : 'Representative Candidate Lock Models:'}</h3>
         <div class="gallery-grid">
           ${cardsHtml}
