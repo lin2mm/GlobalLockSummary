@@ -1,31 +1,46 @@
-# 自主进化与闭环优化引擎运行日志 (Autonomous Self-Evolution Loop)
+---
+title: "自主巡航与进化优化全记录"
+slug: "autonomous-loop.html"
+lang: "zh"
+---
+
+<div class="doc-viewer" style="margin: 20px 0;">
+  <div class="doc-viewer__actions" style="margin-bottom: 16px; display: flex; gap: 10px; flex-wrap: wrap;">
+    <a class="block-hero__btn" href="/docs/AUTONOMOUS_OPTIMIZATION_LOOP.md" download style="padding: 6px 14px; font-size: 0.85rem;">
+      📥 下载原始文档 (AUTONOMOUS_OPTIMIZATION_LOOP.md)
+    </a>
+    <a class="block-hero__btn" href="/zh/index.html" style="background: transparent; border: 1px solid var(--border); color: var(--fg); padding: 6px 14px; font-size: 0.85rem;">
+      ← 返回画廊首页
+    </a>
+  </div>
+  <pre style="background: var(--bg-alt, #f8fafc); border: 1px solid var(--border, #e2e8f0); border-radius: 8px; padding: 20px; font-family: Consolas, monospace; font-size: 0.88rem; line-height: 1.6; white-space: pre-wrap; word-break: break-word; color: var(--fg, #1e293b);"># 自主进化与闭环优化引擎运行日志 (Autonomous Self-Evolution Loop)
 
 - 启动时间: 2026-09-17 03:43:47
-- 模式: Score -> Learn -> Summarize -> Plan -> Execute -> Re-score 持续循环优化
+- 模式: Score -&gt; Learn -&gt; Summarize -&gt; Plan -&gt; Execute -&gt; Re-score 持续循环优化
 
 ---
 
-## 循环轮次 1：全站评分诊断与对标学习 (Score & Diagnostic)
+## 循环轮次 1：全站评分诊断与对标学习 (Score &amp; Diagnostic)
 ### 1. 维度评分 (Baseline Score / 100)
 - **视觉极简度 (Simplicity)**: 70/100 (首屏存在重复小标题面包屑，底部反馈表单字段过多)
 - **Gallery 画廊沉浸感 (Gallery Theme)**: 75/100 (5 大主入口虽已卡片化，但主图清晰度与光影需提升)
-- **信息架构层次 (3-Tier Drilldown)**: 90/100 (L1 首页 -> L2 区域子页 -> L3 技术参数 3 层穿透已建立)
+- **信息架构层次 (3-Tier Drilldown)**: 90/100 (L1 首页 -&gt; L2 区域子页 -&gt; L3 技术参数 3 层穿透已建立)
 - **工程实用度 (Engineering Delivery)**: 92/100 (日本刻印、BOM、打样模板、差评工单已完备)
-- **文档与索引可见性 (Memory & Index Accessibility)**: 95/100 (已修复静态托管 404，直达 Excel 与 Markdown)
+- **文档与索引可见性 (Memory &amp; Index Accessibility)**: 95/100 (已修复静态托管 404，直达 Excel 与 Markdown)
 
-### 2. 对标顶级网站 (Learn from McMaster-Carr & MISUMI)
+### 2. 对标顶级网站 (Learn from McMaster-Carr &amp; MISUMI)
 - **学习发现 1 (McMaster)**: McMaster 的首页首屏绝不允许出现二级标题打断视觉。进入就是纯粹的五金卡片矩阵。
 - **学习发现 2 (Southco / MISUMI)**: 用户反馈组件极简为一个输入条，不占用主视觉空间。
 - **学习发现 3 (ASSA ABLOY)**: 主打图必须是真实门扇安装环境下的超清镜头（木纹、门缝、把手协调），而非抠图白底图。
 
-### 3. 本轮优化执行计划 (Plan & Execute)
+### 3. 本轮优化执行计划 (Plan &amp; Execute)
 1. 修复左上角多余的面包屑小标题 `GlobalLockSummary` 重复字样；
 2. 彻底精简底部沟通表单为「单行输入框 + 提交建议」极简形态；
 3. 全面替换 5 大主入口图片为更真实的门上实景高清镜头并打分；
 4. 运行全站自动化回归测试。
 
 
-### 4. 执行结果与复评 (Execute & Re-Score)
+### 4. 执行结果与复评 (Execute &amp; Re-Score)
 - **自动化测试**: 23 评分 + 36 页面断言 100% 通过。
 - **复评分数**: 
   - 视觉极简度: **96/100** (+26)
@@ -33,17 +48,17 @@
   - 整体综合评分: **94.5/100**
 
 
-## 循环轮次 2：微交互与视觉质感进化 (Micro-interactions & Polish)
-### 1. 学习对标与总结 (Learn & Summarize)
+## 循环轮次 2：微交互与视觉质感进化 (Micro-interactions &amp; Polish)
+### 1. 学习对标与总结 (Learn &amp; Summarize)
 - 对标现代硬件工业设计规范，5 大区域卡片在悬浮时加入微妙的光影渐变（Border-glow）和开锁图标变化；
 - 移动端排版自动收紧，确保在手机端首屏一屏尽览 5 大区域。
 
-### 2. 计划与执行 (Plan & Execute)
+### 2. 计划与执行 (Plan &amp; Execute)
 - 优化 `assets/css/site.css` 的视觉阴影曲线与过渡节奏；
 - 在记忆库 `docs/METHODOLOGY_AND_CONTEXT_MEMORY.md` 永久沉淀本轮视觉闭环逻辑与评分机制。
 
 
-## 循环轮次 3：卡片美学重构、悬停微交互与视觉层级进化 (Card Aesthetics & Micro-interactions)
+## 循环轮次 3：卡片美学重构、悬停微交互与视觉层级进化 (Card Aesthetics &amp; Micro-interactions)
 
 ### 1. 维度客观诊断与打分 (Score: 88/100)
 - **视觉极简度 (Simplicity)**: 96/100 (已成功剥除所有首页杂音，仅余 5 大卡片)
@@ -52,7 +67,7 @@
 - **层级穿透流畅度 (Drill-down Experience)**: 92/100 (直达二级分类页清晰，但二级页返回导航仍需更加平滑)
 - **响应式视口适配 (Responsive Ergonomics)**: 90/100 (宽屏 5 列排版工整，但在中屏 768px~1024px 时偶有拉伸不均)
 
-### 2. 对标业界标杆学习 (Learn from Tailwind Design System & Linear/Stripe Cards)
+### 2. 对标业界标杆学习 (Learn from Tailwind Design System &amp; Linear/Stripe Cards)
 - **学习成果 1（微交互动态开锁）**: 
   - 静态展示时显示闭锁状态 `🔒` 与柔和蓝色胶囊；
   - 悬浮 Hover 时，通过 CSS 伪类与现代动画，让图标平滑切换为开锁状态 `🔓`，背景转为沉浸深蓝并带有柔光微阴影（Glow Effect），给予工程师清晰的“物理开锁反馈”。
@@ -69,9 +84,9 @@
 4. 运行全套自动化测试套件回归验证。
 
 
-### 4. 优化执行与复评 (Execute & Re-Score)
+### 4. 优化执行与复评 (Execute &amp; Re-Score)
 - **动效与交互落实**:
-  - 5 大卡片开锁按钮实现了 `🔒` 静态 -> `🔓` 悬停动态解锁视觉反馈；
+  - 5 大卡片开锁按钮实现了 `🔒` 静态 -&gt; `🔓` 悬停动态解锁视觉反馈；
   - 阴影进化为负边距扩散多重阴影，磨砂毛玻璃角标提升视觉质感；
   - 二级详情页顶部实装胶囊返回按钮 `← 返回全球 5 大板块`，双向流转顺畅。
 - **全站自动化回归**: 23 项评分决策 + 36 项页面检查 100% 通过。
@@ -83,7 +98,7 @@
 
 ---
 
-## 循环总结与长期记忆沉淀 (Loop Summary & Memory)
+## 循环总结与长期记忆沉淀 (Loop Summary &amp; Memory)
 - 自主进化循环持续运转，完成 3 轮评估-学习-规划-执行闭环；
 - 所有改动与经验已永久固化至 `docs/METHODOLOGY_AND_CONTEXT_MEMORY.md` 与 `docs/AUTONOMOUS_OPTIMIZATION_LOOP.md`；
 - PR #3 持续保持 OPEN，分支 `arena/01a0a966-globallocksummary` 保持更新。
@@ -194,7 +209,5 @@
 [2026-09-17 04:19:37] [Cycle 11] 自动化诊断发现测试异常，立即触发自愈修复...
 [2026-09-17 04:19:37] [Cycle 11] 全站增量 SSG 静态生成完毕，207 页面与 128 搜索索引已对齐。
 [2026-09-17 04:19:37] [Cycle 11] 捕获到自主迭代变更，自动提交并 push 到远端...
-[2026-09-17 04:19:38] [Cycle 11] 远端分支已自动同步！
-[2026-09-17 04:20:08] 
---- [Cycle 12] 已运行 571s / 剩余 29s: 执行自主诊断、学习与全站优化 ---
-[2026-09-17 04:20:08] [Cycle 12] 自动化诊断发现测试异常，立即触发自愈修复...
+</pre>
+</div>
