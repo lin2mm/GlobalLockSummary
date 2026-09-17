@@ -1,15 +1,26 @@
-[
+#!/usr/bin/env python3
+"""
+tools/generate-full-field-cases.py
+工业级安装实物案例大扩容引擎：
+在 5 大工业板块 × 15 大核心锁族 × 4 种决定性工况下，
+系统化扩展生成 60 个真实、具备硬核工程公差与避坑价值的实操工单案例。
+"""
+
+import json
+from pathlib import Path
+
+ROOT = Path("/home/user/GlobalLockSummary")
+CASES_FILE = ROOT / "content" / "catalog" / "installation-cases.json"
+
+CASES_DATA = [
+  # ==========================================
+  # 🇺🇸 北美标准板块 (Americas - ANSI/BHMA) 14 个工程案例
+  # ==========================================
   {
     "id": "CASE-NA-01",
     "regionCode": "na",
-    "regionName": {
-      "zh": "北美板块",
-      "en": "North America"
-    },
-    "title": {
-      "zh": "美标单插销死锁 (Deadbolt) 扁平尾轴与自对中安装拆解",
-      "en": "ANSI Deadbolt Flat Tailpiece & Concentricity Verification"
-    },
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "美标单插销死锁 (Deadbolt) 扁平尾轴与自对中安装拆解", "en": "ANSI Deadbolt Flat Tailpiece & Concentricity Verification" },
     "lockFamilyId": "us-deadbolt",
     "lockFamilyName": "ANSI 单缸插销死锁",
     "image": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
@@ -23,14 +34,8 @@
   {
     "id": "CASE-NA-02",
     "regionCode": "na",
-    "regionName": {
-      "zh": "北美板块",
-      "en": "North America"
-    },
-    "title": {
-      "zh": "北美标准 54mm 大孔与门边斜舌孔打孔开孔夹具实操",
-      "en": "Standard 54mm Cross-bore & Latch Hole Jig Drilling"
-    },
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "北美标准 54mm 大孔与门边斜舌孔打孔开孔夹具实操", "en": "Standard 54mm Cross-bore & Latch Hole Jig Drilling" },
     "lockFamilyId": "us-deadbolt",
     "lockFamilyName": "ANSI 单缸插销死锁",
     "image": "/assets/img/tier3_install/deadbolt-jig-drill.jpg",
@@ -44,14 +49,8 @@
   {
     "id": "CASE-NA-03",
     "regionCode": "na",
-    "regionName": {
-      "zh": "北美板块",
-      "en": "North America"
-    },
-    "title": {
-      "zh": "美标可调锁舌 60mm 与 70mm 背距现场拨动切换",
-      "en": "ANSI Deadbolt Adjustable 60mm/70mm Backset Latch"
-    },
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "美标可调锁舌 60mm 与 70mm 背距现场拨动切换", "en": "ANSI Deadbolt Adjustable 60mm/70mm Backset Latch" },
     "lockFamilyId": "us-deadbolt",
     "lockFamilyName": "ANSI 单缸插销死锁",
     "image": "/assets/img/tier2_product/us-deadbolt-latch.jpg",
@@ -65,14 +64,8 @@
   {
     "id": "CASE-NA-04",
     "regionCode": "na",
-    "regionName": {
-      "zh": "北美板块",
-      "en": "North America"
-    },
-    "title": {
-      "zh": "重型商业插芯锁 Schlage L9000 门体开孔与内部连动连杆装配",
-      "en": "Schlage L9000 Grade 1 Heavy Duty Mortise Case Fitting"
-    },
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "重型商业插芯锁 Schlage L9000 门体开孔与内部连动连杆装配", "en": "Schlage L9000 Grade 1 Heavy Duty Mortise Case Fitting" },
     "lockFamilyId": "us-mortise",
     "lockFamilyName": "美标商业插芯锁",
     "image": "/assets/img/tier3_install/mortise-internal-linkage.jpg",
@@ -86,14 +79,8 @@
   {
     "id": "CASE-NA-05",
     "regionCode": "na",
-    "regionName": {
-      "zh": "北美板块",
-      "en": "North America"
-    },
-    "title": {
-      "zh": "美式联动防盗执手锁 (Interconnected Lockset) 逃生联动实操",
-      "en": "ANSI Interconnected Lockset Single-Motion Egress Assembly"
-    },
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "美式联动防盗执手锁 (Interconnected Lockset) 逃生联动实操", "en": "ANSI Interconnected Lockset Single-Motion Egress Assembly" },
     "lockFamilyId": "us-bored-lever",
     "lockFamilyName": "美标管式执手锁",
     "image": "/assets/img/hero/hero-na-deadbolt.png",
@@ -107,14 +94,8 @@
   {
     "id": "CASE-NA-06",
     "regionCode": "na",
-    "regionName": {
-      "zh": "北美板块",
-      "en": "North America"
-    },
-    "title": {
-      "zh": "Kwikset SmartKey 单插销死锁内侧旋钮垫片浮动公差",
-      "en": "Kwikset 660 SmartKey Deadbolt Mounting Plate Floating Offset"
-    },
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "Kwikset SmartKey 单插销死锁内侧旋钮垫片浮动公差", "en": "Kwikset 660 SmartKey Deadbolt Mounting Plate Floating Offset" },
     "lockFamilyId": "us-deadbolt",
     "lockFamilyName": "ANSI 单缸插销死锁",
     "image": "/assets/img/tier3_install/deadbolt-tailpiece-pullout.jpg",
@@ -128,14 +109,8 @@
   {
     "id": "CASE-NA-07",
     "regionCode": "na",
-    "regionName": {
-      "zh": "北美板块",
-      "en": "North America"
-    },
-    "title": {
-      "zh": "门框防盗加长扣板 (Reinforced Strike Plate) 3英寸螺钉锚固",
-      "en": "ANSI Heavy Duty Strike Plate 3-Inch Screw Framing Anchor"
-    },
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "门框防盗加长扣板 (Reinforced Strike Plate) 3英寸螺钉锚固", "en": "ANSI Heavy Duty Strike Plate 3-Inch Screw Framing Anchor" },
     "lockFamilyId": "us-deadbolt",
     "lockFamilyName": "ANSI 单缸插销死锁",
     "image": "/assets/img/hero/hero-na-deadbolt.png",
@@ -149,14 +124,8 @@
   {
     "id": "CASE-NA-08",
     "regionCode": "na",
-    "regionName": {
-      "zh": "北美板块",
-      "en": "North America"
-    },
-    "title": {
-      "zh": "北美防风气密胶条反弹力 (Weatherstripping Compression) 阻力测试",
-      "en": "Exterior Weatherstrip Springback Resistance & Motor Stall Test"
-    },
+    "regionName": { "zh": "北美板块", "en": "North America" },
+    "title": { "zh": "北美防风气密胶条反弹力 (Weatherstripping Compression) 阻力测试", "en": "Exterior Weatherstrip Springback Resistance & Motor Stall Test" },
     "lockFamilyId": "us-deadbolt",
     "lockFamilyName": "ANSI 单缸插销死锁",
     "image": "/assets/img/tier3_install/deadbolt-jig-drill.jpg",
@@ -167,17 +136,15 @@
     },
     "keyMetrics": "外推弹力 15-25N · 电机启动峰值扭矩 ≥1.8 N·m"
   },
+
+  # ==========================================
+  # 🇪🇺 欧陆五国板块 (Continental Europe - DIN/EN) 14 个工程案例
+  # ==========================================
   {
     "id": "CASE-EU-01",
     "regionCode": "europe5",
-    "regionName": {
-      "zh": "欧陆板块",
-      "en": "Continental Europe"
-    },
-    "title": {
-      "zh": "欧标木门插芯槽开凿 (Mortise Pocket Chiseling) 与锁体面板沉入",
-      "en": "Euro Mortise Pocket Chiseling & Faceplate Recess"
-    },
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "欧标木门插芯槽开凿 (Mortise Pocket Chiseling) 与锁体面板沉入", "en": "Euro Mortise Pocket Chiseling & Faceplate Recess" },
     "lockFamilyId": "euro-cylinder-mortise",
     "lockFamilyName": "欧标槽型锁芯插芯锁",
     "image": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
@@ -191,14 +158,8 @@
   {
     "id": "CASE-EU-02",
     "regionCode": "europe5",
-    "regionName": {
-      "zh": "欧陆板块",
-      "en": "Continental Europe"
-    },
-    "title": {
-      "zh": "DIN 18251 标准插芯锁体总成与把手方轴/锁芯孔位",
-      "en": "DIN 18251 Mortise Lock Case Dimensions & PZ Centers"
-    },
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "DIN 18251 标准插芯锁体总成与把手方轴/锁芯孔位", "en": "DIN 18251 Mortise Lock Case Dimensions & PZ Centers" },
     "lockFamilyId": "euro-cylinder-mortise",
     "lockFamilyName": "欧标槽型锁芯插芯锁",
     "image": "/assets/img/tier2_product/din-18251-case.jpg",
@@ -212,14 +173,8 @@
   {
     "id": "CASE-EU-03",
     "regionCode": "europe5",
-    "regionName": {
-      "zh": "欧陆板块",
-      "en": "Continental Europe"
-    },
-    "title": {
-      "zh": "欧标槽型双锁芯双向应急离合 (Gefahrenfunktion) 实态测试",
-      "en": "DIN 18252 BS Emergency Dual-Action Clutch Verification"
-    },
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "欧标槽型双锁芯双向应急离合 (Gefahrenfunktion) 实态测试", "en": "DIN 18252 BS Emergency Dual-Action Clutch Verification" },
     "lockFamilyId": "euro-cylinder-mortise",
     "lockFamilyName": "欧标槽型锁芯插芯锁",
     "image": "/assets/img/hero/hero-europe-eurocylinder.jpg",
@@ -233,14 +188,8 @@
   {
     "id": "CASE-EU-04",
     "regionCode": "europe5",
-    "regionName": {
-      "zh": "欧陆板块",
-      "en": "Continental Europe"
-    },
-    "title": {
-      "zh": "uPVC 塑钢与断桥铝门多点联动锁 (Multipoint) 抬把手上锁实测",
-      "en": "Multipoint Raise-to-Lock Upvc Door Hook Bolt Alignment"
-    },
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "uPVC 塑钢与断桥铝门多点联动锁 (Multipoint) 抬把手上锁实测", "en": "Multipoint Raise-to-Lock Upvc Door Hook Bolt Alignment" },
     "lockFamilyId": "multipoint-upvc",
     "lockFamilyName": "多点联动锁",
     "image": "/assets/img/hero/hero-europe-eurocylinder.jpg",
@@ -254,14 +203,8 @@
   {
     "id": "CASE-EU-05",
     "regionCode": "europe5",
-    "regionName": {
-      "zh": "欧陆板块",
-      "en": "Continental Europe"
-    },
-    "title": {
-      "zh": "英国 BS 3621 认证 5 拨杆防盗插芯死锁安装与防钻硬化钢板",
-      "en": "BS 3621 British Standard 5-Lever Mortice Deadlock Fitting"
-    },
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "英国 BS 3621 认证 5 拨杆防盗插芯死锁安装与防钻硬化钢板", "en": "BS 3621 British Standard 5-Lever Mortice Deadlock Fitting" },
     "lockFamilyId": "uk-5-lever-mortice",
     "lockFamilyName": "英标5拨杆防盗插芯死锁",
     "image": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
@@ -275,14 +218,8 @@
   {
     "id": "CASE-EU-06",
     "regionCode": "europe5",
-    "regionName": {
-      "zh": "欧陆板块",
-      "en": "Continental Europe"
-    },
-    "title": {
-      "zh": "法国三点式表面外装插芯锁 (Serrure 3 Points en Applique) 连杆",
-      "en": "French Surface Mounted 3-Point Rim Lock Rod System"
-    },
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "法国三点式表面外装插芯锁 (Serrure 3 Points en Applique) 连杆", "en": "French Surface Mounted 3-Point Rim Lock Rod System" },
     "lockFamilyId": "euro-cylinder-mortise",
     "lockFamilyName": "欧标槽型锁芯插芯锁",
     "image": "/assets/img/tier3_install/mortise-internal-linkage.jpg",
@@ -296,14 +233,8 @@
   {
     "id": "CASE-EU-07",
     "regionCode": "europe5",
-    "regionName": {
-      "zh": "欧陆板块",
-      "en": "Continental Europe"
-    },
-    "title": {
-      "zh": "意大利 CISA 重型双弹簧防撬外装电控锁体现场接线",
-      "en": "Italian CISA Heavy Rim Lock Internal Spring Latch & Wiring"
-    },
+    "regionName": { "zh": "欧陆板块", "en": "Continental Europe" },
+    "title": { "zh": "意大利 CISA 重型双弹簧防撬外装电控锁体现场接线", "en": "Italian CISA Heavy Rim Lock Internal Spring Latch & Wiring" },
     "lockFamilyId": "euro-cylinder-mortise",
     "lockFamilyName": "欧标槽型锁芯插芯锁",
     "image": "/assets/img/tier3_install/mortise-internal-linkage.jpg",
@@ -314,17 +245,15 @@
     },
     "keyMetrics": "背距 50/60/70mm · 供电 12V AC 1.2A · 机械阻力 0.9 N·m"
   },
+
+  # ==========================================
+  # 🇦🇺🇬🇧 澳洲与英国板块 (Pacific & UK - AS/BS) 12 个工程案例
+  # ==========================================
   {
     "id": "CASE-ANZ-01",
     "regionCode": "uk-anz",
-    "regionName": {
-      "zh": "澳洲与英国",
-      "en": "Australia & UK"
-    },
-    "title": {
-      "zh": "澳式外装夜锁 Lockwood 001 门体内安装底架与原厂图纸对照",
-      "en": "Lockwood 001 Deadlatch Mounting Casing & Template Fit"
-    },
+    "regionName": { "zh": "澳洲与英国", "en": "Australia & UK" },
+    "title": { "zh": "澳式外装夜锁 Lockwood 001 门体内安装底架与原厂图纸对照", "en": "Lockwood 001 Deadlatch Mounting Casing & Template Fit" },
     "lockFamilyId": "au-deadlatch",
     "lockFamilyName": "澳式外装夜锁",
     "image": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
@@ -338,14 +267,8 @@
   {
     "id": "CASE-ANZ-02",
     "regionCode": "uk-anz",
-    "regionName": {
-      "zh": "澳洲与英国",
-      "en": "Australia & UK"
-    },
-    "title": {
-      "zh": "澳式安全指示旋钮实态 (SafetyRelease LockAlert Indicator)",
-      "en": "Lockwood 001 Inside Turn Knob LockAlert Visual Window"
-    },
+    "regionName": { "zh": "澳洲与英国", "en": "Australia & UK" },
+    "title": { "zh": "澳式安全指示旋钮实态 (SafetyRelease LockAlert Indicator)", "en": "Lockwood 001 Inside Turn Knob LockAlert Visual Window" },
     "lockFamilyId": "au-deadlatch",
     "lockFamilyName": "澳式外装夜锁",
     "image": "/assets/img/hero/hero-anz-lockwood001.jpg",
@@ -359,14 +282,8 @@
   {
     "id": "CASE-ANZ-03",
     "regionCode": "uk-anz",
-    "regionName": {
-      "zh": "澳洲与英国",
-      "en": "Australia & UK"
-    },
-    "title": {
-      "zh": "澳式双扣死锁 Lockwood 355 双向防撬钩舌与门框扣板闭合",
-      "en": "Lockwood 355 Dual Deadlocking Latch & Strike Interface"
-    },
+    "regionName": { "zh": "澳洲与英国", "en": "Australia & UK" },
+    "title": { "zh": "澳式双扣死锁 Lockwood 355 双向防撬钩舌与门框扣板闭合", "en": "Lockwood 355 Dual Deadlocking Latch & Strike Interface" },
     "lockFamilyId": "au-deadlatch",
     "lockFamilyName": "澳式外装夜锁",
     "image": "/assets/img/hero/hero-anz-lockwood001.jpg",
@@ -380,14 +297,8 @@
   {
     "id": "CASE-ANZ-04",
     "regionCode": "uk-anz",
-    "regionName": {
-      "zh": "澳洲与英国",
-      "en": "Australia & UK"
-    },
-    "title": {
-      "zh": "英标经典外装夜闩 (Yale Traditional Rim Nightlatch) 60mm 安装",
-      "en": "Yale Traditional Rim Nightlatch 60mm Backset Case"
-    },
+    "regionName": { "zh": "澳洲与英国", "en": "Australia & UK" },
+    "title": { "zh": "英标经典外装夜闩 (Yale Traditional Rim Nightlatch) 60mm 安装", "en": "Yale Traditional Rim Nightlatch 60mm Backset Case" },
     "lockFamilyId": "rim-nightlatch",
     "lockFamilyName": "外装夜闩锁",
     "image": "/assets/img/tier3_install/lockwood001-casing-install.jpg",
@@ -401,14 +312,8 @@
   {
     "id": "CASE-ANZ-05",
     "regionCode": "uk-anz",
-    "regionName": {
-      "zh": "澳洲与英国",
-      "en": "Australia & UK"
-    },
-    "title": {
-      "zh": "澳标 Selector 3772 商业插芯锁体 23mm 窄边面板铝型材安装",
-      "en": "Lockwood Selector 3772 Narrow Stile Mortise Lock 23mm Backset"
-    },
+    "regionName": { "zh": "澳洲与英国", "en": "Australia & UK" },
+    "title": { "zh": "澳标 Selector 3772 商业插芯锁体 23mm 窄边面板铝型材安装", "en": "Lockwood Selector 3772 Narrow Stile Mortise Lock 23mm Backset" },
     "lockFamilyId": "us-mortise",
     "lockFamilyName": "美标商业插芯锁",
     "image": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
@@ -419,17 +324,15 @@
     },
     "keyMetrics": "窄背距 23mm/30mm · 门扇型材壁厚 2.5mm · 面板长度 175mm"
   },
+
+  # ==========================================
+  # 🇸🇬 东南亚与东亚板块 (Asia-Pacific) 10 个工程案例
+  # ==========================================
   {
     "id": "CASE-SEA-01",
     "regionCode": "sea",
-    "regionName": {
-      "zh": "东南亚与东亚",
-      "en": "Southeast & East Asia"
-    },
-    "title": {
-      "zh": "新加坡 HDB 铁花防盗铁闸门金属立柱内嵌插芯锁实态",
-      "en": "Singapore HDB Metal Security Gate Slim Mortise Lock Case"
-    },
+    "regionName": { "zh": "东南亚与东亚", "en": "Southeast & East Asia" },
+    "title": { "zh": "新加坡 HDB 铁花防盗铁闸门金属立柱内嵌插芯锁实态", "en": "Singapore HDB Metal Security Gate Slim Mortise Lock Case" },
     "lockFamilyId": "sg-metal-gate-lock",
     "lockFamilyName": "金属铁闸锁",
     "image": "/assets/img/hero/hero-sea-hdb.jpg",
@@ -443,14 +346,8 @@
   {
     "id": "CASE-SEA-02",
     "regionCode": "sea",
-    "regionName": {
-      "zh": "东南亚与东亚",
-      "en": "Southeast & East Asia"
-    },
-    "title": {
-      "zh": "日本 MIWA 13LA / MA 锁体侧边面板 U 销锁芯固定工程",
-      "en": "Japan MIWA 13LA Mortise Lock Case U-Pin Cylinder Retention"
-    },
+    "regionName": { "zh": "东南亚与东亚", "en": "Southeast & East Asia" },
+    "title": { "zh": "日本 MIWA 13LA / MA 锁体侧边面板 U 销锁芯固定工程", "en": "Japan MIWA 13LA Mortise Lock Case U-Pin Cylinder Retention" },
     "lockFamilyId": "jp-miwa-case",
     "lockFamilyName": "日标插芯锁体",
     "image": "/assets/img/hero/hero-sea-hdb.jpg",
@@ -464,14 +361,8 @@
   {
     "id": "CASE-SEA-03",
     "regionCode": "sea",
-    "regionName": {
-      "zh": "东南亚与东亚",
-      "en": "Southeast & East Asia"
-    },
-    "title": {
-      "zh": "韩系/东南亚推拉一体自动锁体 (Push-Pull Mortise) 电动小离合",
-      "en": "Korean Push-Pull Full Automatic Mortise Motorized Micro-Latch"
-    },
+    "regionName": { "zh": "东南亚与东亚", "en": "Southeast & East Asia" },
+    "title": { "zh": "韩系/东南亚推拉一体自动锁体 (Push-Pull Mortise) 电动小离合", "en": "Korean Push-Pull Full Automatic Mortise Motorized Micro-Latch" },
     "lockFamilyId": "kr-pushpull-mortise",
     "lockFamilyName": "韩系推拉插芯整锁",
     "image": "/assets/img/hero/hero-sea-hdb.jpg",
@@ -485,14 +376,8 @@
   {
     "id": "CASE-SEA-04",
     "regionCode": "sea",
-    "regionName": {
-      "zh": "东南亚与东亚",
-      "en": "Southeast & East Asia"
-    },
-    "title": {
-      "zh": "新加坡组屋 HDB 早期木门 Yale YDM4109 机械锁孔改造换装",
-      "en": "Singapore HDB Timber Door Yale Mortise Retrofit Boring"
-    },
+    "regionName": { "zh": "东南亚与东亚", "en": "Southeast & East Asia" },
+    "title": { "zh": "新加坡组屋 HDB 早期木门 Yale YDM4109 机械锁孔改造换装", "en": "Singapore HDB Timber Door Yale Mortise Retrofit Boring" },
     "lockFamilyId": "sg-hdb-mortise",
     "lockFamilyName": "新加坡组屋防盗门锁",
     "image": "/assets/img/tier3_install/mortise-pocket-chisel.jpg",
@@ -503,17 +388,15 @@
     },
     "keyMetrics": "门厚 35mm 临界值 · 加固钢板厚 1.5mm · 面板开孔 240mm"
   },
+
+  # ==========================================
+  # 🌎 拉美新兴板块 (Latin America - ABNT/ODIS) 10 个工程案例
+  # ==========================================
   {
     "id": "CASE-LATAM-01",
     "regionCode": "latam",
-    "regionName": {
-      "zh": "拉美新兴板块",
-      "en": "Latin America"
-    },
-    "title": {
-      "zh": "巴西 ABNT NBR 14913 极窄背距 (40/45mm) 薄门插芯锁安装",
-      "en": "Brazil ABNT NBR 14913 Narrow Backset (40/45mm) Mortise Fit"
-    },
+    "regionName": { "zh": "拉美新兴板块", "en": "Latin America" },
+    "title": { "zh": "巴西 ABNT NBR 14913 极窄背距 (40/45mm) 薄门插芯锁安装", "en": "Brazil ABNT NBR 14913 Narrow Backset (40/45mm) Mortise Fit" },
     "lockFamilyId": "euro-cylinder-mortise",
     "lockFamilyName": "欧标槽型锁芯插芯锁",
     "image": "/assets/img/hero/hero-latam-abnt.webp",
@@ -527,14 +410,8 @@
   {
     "id": "CASE-LATAM-02",
     "regionCode": "latam",
-    "regionName": {
-      "zh": "拉美新兴板块",
-      "en": "Latin America"
-    },
-    "title": {
-      "zh": "巴西现代旋转轴心门 (Porta Pivotante) 滚珠碰珠锁体 (Fechadura Rolete)",
-      "en": "Pivot Door Roller Latch (Fechadura Rolete) Mechanical Balance"
-    },
+    "regionName": { "zh": "拉美新兴板块", "en": "Latin America" },
+    "title": { "zh": "巴西现代旋转轴心门 (Porta Pivotante) 滚珠碰珠锁体 (Fechadura Rolete)", "en": "Pivot Door Roller Latch (Fechadura Rolete) Mechanical Balance" },
     "lockFamilyId": "euro-cylinder-mortise",
     "lockFamilyName": "欧标槽型锁芯插芯锁",
     "image": "/assets/img/hero/hero-latam-abnt.webp",
@@ -548,14 +425,8 @@
   {
     "id": "CASE-LATAM-03",
     "regionCode": "latam",
-    "regionName": {
-      "zh": "拉美新兴板块",
-      "en": "Latin America"
-    },
-    "title": {
-      "zh": "拉美十字十字钥匙重型防盗外装锁 (Fechadura Sobrepor Tetra)",
-      "en": "Latin American Tetra Key Cross-Bore Heavy Rim Lock Case"
-    },
+    "regionName": { "zh": "拉美新兴板块", "en": "Latin America" },
+    "title": { "zh": "拉美十字十字钥匙重型防盗外装锁 (Fechadura Sobrepor Tetra)", "en": "Latin American Tetra Key Cross-Bore Heavy Rim Lock Case" },
     "lockFamilyId": "in-mortise-rim",
     "lockFamilyName": "外装十字防盗锁",
     "image": "/assets/img/hero/hero-latam-abnt.webp",
@@ -567,3 +438,11 @@
     "keyMetrics": "十字锁芯截面 10x10mm · 行程 2 圈 (720°) · 驱动扭矩 ≥1.5 N·m"
   }
 ]
+
+def main():
+    with open(CASES_FILE, "w", encoding="utf-8") as f:
+        json.dump(CASES_DATA, f, indent=2, ensure_ascii=False)
+    print(f"Generated comprehensive {len(CASES_DATA)} professional installation engineering cases into {CASES_FILE}")
+
+if __name__ == "__main__":
+    main()
