@@ -11,3 +11,4 @@ npm-debug.log*
 *.swp
 .idea/
 .vscode/
+raw_import/gallery_bundle_extracted/

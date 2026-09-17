@@ -1,0 +1,632 @@
+[
+  {
+    "id": "SG-01",
+    "candidateId": "digital_mortise_lock_yale_ydm4109rl_60mm",
+    "familyId": "sg-hdb-mortise",
+    "title": {
+      "zh": "数字Mortise锁：Yale YDM4109RL+ 60mm",
+      "en": "digital mortise lock — Yale YDM4109RL+ 60mm"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-01_real.jpg",
+    "features": "主要观察：门厚/背set/锁体深度/内侧机构；主要风险：把手与deadbolt联动不明；最低验证：内侧输入和完整锁状态。",
+    "photoType": "Exact model / installation-service product page",
+    "sourceUrl": "https://sharpi.in/product/yale-ydm4109a-rl-smart-digital-intelligent-bio-metric-door-lock-free-installation-by-yale-buy-online-india/",
+    "status": "R0",
+    "architectureNote": {
+      "A": "不假设兼容；需确认内部旋转输入",
+      "B": "仅限具体锁体和配套Cylinder"
+    },
+    "physicalTest": "内侧输入和完整锁状态"
+  },
+  {
+    "id": "SG-02",
+    "candidateId": "digital_mortise_lock_yale_ydm7116",
+    "familyId": "sg-hdb-mortise",
+    "title": {
+      "zh": "数字Mortise锁：Yale YDM7116",
+      "en": "digital mortise lock — Yale YDM7116"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-02_real.png",
+    "features": "主要观察：门厚/锁体尺寸/内侧空间；主要风险：锁体和安装板干涉；最低验证：内侧输入和把手序列。",
+    "photoType": "Exact model / door-mounted product reference",
+    "sourceUrl": "https://cloudswoodmall.com/yale-ydm7116",
+    "status": "R0",
+    "architectureNote": {
+      "A": "不假设兼容；需确认内部旋转输入",
+      "B": "仅限具体锁体和配套Cylinder"
+    },
+    "physicalTest": "内侧输入和把手序列"
+  },
+  {
+    "id": "SG-03",
+    "candidateId": "rim_yale_ydr3110a",
+    "familyId": "rim-nightlatch",
+    "title": {
+      "zh": "Rim数字锁：Yale YDR3110A",
+      "en": "Rim数字锁 — Yale YDR3110A"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-03_real.png",
+    "features": "主要观察：Rim case/旋钮/门面空间；主要风险：内部驱动不明、状态不同步；最低验证：Rim case和锁舌输出。",
+    "photoType": "Exact model / rim-lock product reference",
+    "sourceUrl": "https://l3homeation.com.sg/digital-lock-yale-ydr3110a.html",
+    "status": "R0",
+    "architectureNote": {
+      "A": "只有确认内侧旋钮直接驱动才可",
+      "B": "不是优先配套Cylinder架构"
+    },
+    "physicalTest": "Rim case和锁舌输出"
+  },
+  {
+    "id": "SG-04",
+    "candidateId": "push_pull_mortise_lock_samsung_shp_dp728",
+    "familyId": "kr-pushpull-mortise",
+    "title": {
+      "zh": "Push-pull Mortise锁：Samsung SHP-DP728",
+      "en": "push-pull mortise lock — Samsung SHP-DP728"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-04_real.webp",
+    "features": "主要观察：推拉把手/锁舌/门边空间；主要风险：把手和多连杆序列不完整；最低验证：把手和deadbolt完整循环。",
+    "photoType": "Exact model / installation-service listing",
+    "sourceUrl": "https://www.lazada.sg/products/free-installation-samsung-shp-dp728-smart-digital-lock-i263599294.html",
+    "status": "R0",
+    "architectureNote": {
+      "A": "不假设为直接旋转",
+      "B": "具体锁体替换为主"
+    },
+    "physicalTest": "把手和deadbolt完整循环"
+  },
+  {
+    "id": "SG-05",
+    "candidateId": "rim_add_on_lock_samsung_shp_h20",
+    "familyId": "rim-nightlatch",
+    "title": {
+      "zh": "Rim或加装数字锁：Samsung SHP-H20",
+      "en": "rim / add-on lock — Samsung SHP-H20"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-05_real.webp",
+    "features": "主要观察：内侧旋钮/外壳/门面固定；主要风险：旋钮联动不明、安装体干涉；最低验证：内侧控制和锁状态。",
+    "photoType": "Exact model / no-drill door-lock reference",
+    "sourceUrl": "https://picclick.com.au/Samsung-SHP-H20-Smart-Digital-Door-Lock-2-236224185444.html",
+    "status": "R0",
+    "architectureNote": {
+      "A": "需确认是否暴露可抓取旋转输入",
+      "B": "仅限型号特定"
+    },
+    "physicalTest": "内侧控制和锁状态"
+  },
+  {
+    "id": "SG-06",
+    "candidateId": "push_pull_rim_family_zigbang_shp_p52",
+    "familyId": "kr-pushpull-mortise",
+    "title": {
+      "zh": "Push-pull或Rim锁：Zigbang SHP-P52",
+      "en": "push-pull / rim family — Zigbang SHP-P52"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-06_real.jpg",
+    "features": "主要观察：把手/门框/门或闸门间隙；主要风险：推拉序列和门框间隙；最低验证：开门和关门完整序列。",
+    "photoType": "Exact model / door-lock product reference",
+    "sourceUrl": "https://andigitallock.com/products/zigbang-shp-p52-digital-door-lock-shp-a21-digital-gate-lock",
+    "status": "R0",
+    "architectureNote": {
+      "A": "不假设直接旋转",
+      "B": "具体锁体和门型特定"
+    },
+    "physicalTest": "开门和关门完整序列"
+  },
+  {
+    "id": "SG-07",
+    "candidateId": "digital_mortise_lock_aqara_a100_d200i",
+    "familyId": "sg-hdb-mortise",
+    "title": {
+      "zh": "数字Mortise锁：Aqara A100或D200i",
+      "en": "digital mortise lock — Aqara A100或D200i"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-07_real.png",
+    "features": "主要观察：门厚/backset/锁体和装饰面；主要风险：整锁内部结构不兼容；最低验证：完整锁体接口。",
+    "photoType": "Exact model / manufacturer product reference",
+    "sourceUrl": "https://www.aqara.com/en/news/aqara-introduces-smart-door-lock-a100-zigbee-with-apple-home-key-support/",
+    "status": "R0",
+    "architectureNote": {
+      "A": "不等同于Aqara U200 retrofit",
+      "B": "仅限具体锁体/Cylinder"
+    },
+    "physicalTest": "完整锁体接口"
+  },
+  {
+    "id": "SG-08",
+    "candidateId": "digital_mortise_lock_gateman_sp122_g_swipe",
+    "familyId": "sg-hdb-mortise",
+    "title": {
+      "zh": "数字Mortise锁：Gateman SP122或G-Swipe",
+      "en": "digital mortise lock — Gateman SP122或G-Swipe"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-08_real.jpg",
+    "features": "主要观察：安装板/锁体/门厚/内侧附件；主要风险：电机与原内机构冲突；最低验证：完整锁体接口。",
+    "photoType": "Exact model / Singapore product reference",
+    "sourceUrl": "https://interlock.com.sg/products/gateman-sp122",
+    "status": "R0",
+    "architectureNote": {
+      "A": "不假设直接兼容",
+      "B": "仅限具体型号"
+    },
+    "physicalTest": "完整锁体接口"
+  },
+  {
+    "id": "SG-09",
+    "candidateId": "digital_mortise_lock_kaadas_k9_5w",
+    "familyId": "kr-pushpull-mortise",
+    "title": {
+      "zh": "数字Mortise锁：Kaadas K9-5W",
+      "en": "digital mortise lock — Kaadas K9-5W"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-09_real.webp",
+    "features": "主要观察：钥匙旁路/锁体/门厚；主要风险：门体准备和锁体干涉；最低验证：完整锁体接口。",
+    "photoType": "Exact model / product reference",
+    "sourceUrl": "https://kaadassg.com/product/kaadas-k9-5w/",
+    "status": "R0",
+    "architectureNote": {
+      "A": "不假设直接兼容",
+      "B": "仅限具体型号"
+    },
+    "physicalTest": "完整锁体接口"
+  },
+  {
+    "id": "SG-10",
+    "candidateId": "digital_mortise_lock_philips_easykey_alpha",
+    "familyId": "kr-pushpull-mortise",
+    "title": {
+      "zh": "数字Mortise锁：Philips EasyKey Alpha",
+      "en": "digital mortise lock — Philips EasyKey Alpha"
+    },
+    "region": "Singapore / Southeast Asia",
+    "regionCode": "sg-sea",
+    "image": "/assets/img/gallery/sg-10_real.jpg",
+    "features": "主要观察：指纹/键盘外壳/锁体空间；主要风险：装饰和内部结构干涉；最低验证：完整锁体接口。",
+    "photoType": "Exact model / push-pull door-lock reference",
+    "sourceUrl": "https://sheildify.com/product/philips-easykey-alpha-door-lock-with-push-pull-black/",
+    "status": "R0",
+    "architectureNote": {
+      "A": "不假设直接兼容",
+      "B": "仅限具体型号"
+    },
+    "physicalTest": "完整锁体接口"
+  },
+  {
+    "id": "AU-11",
+    "candidateId": "australian_deadlatch_lockwood_001",
+    "familyId": "au-deadlatch",
+    "title": {
+      "zh": "Deadlatch：Lockwood 001",
+      "en": "Australian deadlatch — Lockwood 001"
+    },
+    "region": "Australia / New Zealand",
+    "regionCode": "anz",
+    "image": "/assets/img/gallery/au-11_real.jpg",
+    "features": "主要观察：内侧旋钮/安全释放/锁舌；主要风险：安全释放和锁状态混淆；最低验证：内旋钮加锁舌输出。",
+    "photoType": "Exact model / deadlatch product reference",
+    "sourceUrl": "https://saslocksmiths.com/products/lockwood-001-deadlatch-evb",
+    "status": "R1",
+    "architectureNote": {
+      "A": "可能驱动内侧旋钮；需证明锁状态",
+      "B": "通常不是配套Cylinder主样本"
+    },
+    "physicalTest": "内旋钮加锁舌输出"
+  },
+  {
+    "id": "AU-12",
+    "candidateId": "digital_deadlatch_lockwood_002",
+    "familyId": "au-deadlatch",
+    "title": {
+      "zh": "数字Deadlatch：Lockwood 002",
+      "en": "digital deadlatch — Lockwood 002"
+    },
+    "region": "Australia / New Zealand",
+    "regionCode": "anz",
+    "image": "/assets/img/gallery/au-12_real.jpg",
+    "features": "主要观察：数字机构/内侧输入/安装板；主要风险：专有内部接口冲突；最低验证：实际输入和输出。",
+    "photoType": "Exact model / installed-open-in reference",
+    "sourceUrl": "https://www.handles4homes.co.uk/lockwood-002-digital-combination-deadlatch-open-in-satin-chrome-p32346",
+    "status": "R0",
+    "architectureNote": {
+      "A": "内部接口未知",
+      "B": "仅限型号特定"
+    },
+    "physicalTest": "实际输入和输出"
+  },
+  {
+    "id": "AU-13",
+    "candidateId": "deadlock_lockwood_355",
+    "familyId": "au-deadlatch",
+    "title": {
+      "zh": "Deadlock：Lockwood 355",
+      "en": "deadlock — Lockwood 355"
+    },
+    "region": "Australia / New Zealand",
+    "regionCode": "anz",
+    "image": "/assets/img/gallery/au-13_real.jpg",
+    "features": "主要观察：钥匙/旋钮/方向/角度；主要风险：钥匙几何和端点不匹配；最低验证：开门和关门各3次。",
+    "photoType": "Exact model / product reference; door installation not fully visible",
+    "sourceUrl": "https://thedoorstore.com.au/product/lockwood-355-double-cylinder-deadlock-bright-chrome-double-cylinder/",
+    "status": "R1",
+    "architectureNote": {
+      "A": "钥匙或turnknob可能为直接旋转",
+      "B": "视Cylinder profile而定"
+    },
+    "physicalTest": "开门和关门各3次"
+  },
+  {
+    "id": "AU-14",
+    "candidateId": "mortise_lock_lockwood_selector_3770_3772",
+    "familyId": "us-mortise",
+    "title": {
+      "zh": "Mortise锁：Lockwood Selector 3770/3772",
+      "en": "mortise lock — Lockwood Selector 3770/3772"
+    },
+    "region": "Australia / New Zealand",
+    "regionCode": "anz",
+    "image": "/assets/img/gallery/au-14_real.jpg",
+    "features": "主要观察：60mm backset/锁体/把手联动；主要风险：高阻力和把手联动；最低验证：tailpiece/turn和把手输出。",
+    "photoType": "Selector family / mortice installation reference",
+    "sourceUrl": "https://thelockshop.com.au/products/lockwood-selector-3772-universal-mortice-lock",
+    "status": "R0",
+    "architectureNote": {
+      "A": "有直接旋转输入时才可测试",
+      "B": "具体锁体/Cylinder组合"
+    },
+    "physicalTest": "tailpiece/turn和把手输出"
+  },
+  {
+    "id": "AU-15",
+    "candidateId": "mortise_lock_lockwood_selector_4770_4772",
+    "familyId": "us-mortise",
+    "title": {
+      "zh": "加长Mortise锁：Lockwood Selector 4770/4772",
+      "en": "mortise lock — Lockwood Selector 4770/4772"
+    },
+    "region": "Australia / New Zealand",
+    "regionCode": "anz",
+    "image": "/assets/img/gallery/au-15_real.jpg",
+    "features": "主要观察：89mm backset/锁体深度/面板；主要风险：加长锁体和关门阻力；最低验证：完整关门序列。",
+    "photoType": "Exact extended-backset family / product reference",
+    "sourceUrl": "https://accesshardware.com.au/lockwood-selector-4772-primary-mortice-lock-89mm-extended-backset-satin-stainless-steel",
+    "status": "R0",
+    "architectureNote": {
+      "A": "可能但锁体深度风险更高",
+      "B": "具体锁体特定"
+    },
+    "physicalTest": "完整关门序列"
+  },
+  {
+    "id": "AU-16",
+    "candidateId": "deadbolt_whitco_double_cylinder_deadbolt",
+    "familyId": "us-deadbolt",
+    "title": {
+      "zh": "双Cylinder Deadbolt：Whitco Double-cylinder Deadbolt",
+      "en": "deadbolt — Whitco Double-cylinder Deadbolt"
+    },
+    "region": "Australia / New Zealand",
+    "regionCode": "anz",
+    "image": "/assets/img/gallery/au-16_real.jpg",
+    "features": "主要观察：两侧钥匙/手动override/门厚；主要风险：无安全旁路或内侧钥匙空间不足；最低验证：emergency/manual override。",
+    "photoType": "Exact family / double-cylinder deadbolt reference",
+    "sourceUrl": "https://www.primehardware.com.au/products/whitco-w7204055ka",
+    "status": "R1",
+    "architectureNote": {
+      "A": "内侧key可驱动但必须确认安全旁路",
+      "B": "配套Cylinder需另设profile"
+    },
+    "physicalTest": "emergency/manual override"
+  },
+  {
+    "id": "AU-17",
+    "candidateId": "deadlatch_whitco_double_cylinder_deadlatch",
+    "familyId": "au-deadlatch",
+    "title": {
+      "zh": "双Cylinder Deadlatch：Whitco Double-cylinder Deadlatch",
+      "en": "Deadlatch — Whitco Double-cylinder Deadlatch"
+    },
+    "region": "Australia / New Zealand",
+    "regionCode": "anz",
+    "image": "/assets/img/gallery/au-17_real.png",
+    "features": "主要观察：安全释放/锁舌/门框阻力；主要风险：锁舌状态与旋钮状态不同；最低验证：锁状态和安全释放。",
+    "photoType": "Exact family / deadlatch product reference",
+    "sourceUrl": "https://safeandsoundlocksmiths.com.au/products/whitco-w75-double-cylinder-deadlatch-with-safety-release-w750605",
+    "status": "R1",
+    "architectureNote": {
+      "A": "内侧钥匙或旋钮可能可驱动",
+      "B": "视Cylinder profile而定"
+    },
+    "physicalTest": "锁状态和安全释放"
+  },
+  {
+    "id": "AU-18",
+    "candidateId": "knob_lever_lock_whitco_tubular_entrance_knob_lever",
+    "familyId": "us-bored-lever",
+    "title": {
+      "zh": "管式Knob或Lever锁：Whitco tubular entrance knob/lever",
+      "en": "knob / lever lock — Whitco tubular entrance knob/lever"
+    },
+    "region": "Australia / New Zealand",
+    "regionCode": "anz",
+    "image": "/assets/img/gallery/au-18_real.png",
+    "features": "主要观察：spindle/回位弹簧/锁舌；主要风险：把手动作被误认为解锁；最低验证：分开证明latch和lock。",
+    "photoType": "Knob/lever family / door-hardware reference",
+    "sourceUrl": "https://doorcorner.com/blogs/articles-and-advice/door-knobs-and-door-lever-functions",
+    "status": "R0",
+    "architectureNote": {
+      "A": "可能只驱动latch而不是lock",
+      "B": "不是优先配套Cylinder样本"
+    },
+    "physicalTest": "分开证明latch和lock"
+  },
+  {
+    "id": "EU-19",
+    "candidateId": "euro_double_cylinder_euro_30_30",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "Euro双Cylinder：Euro 30/30",
+      "en": "Euro double cylinder — Euro 30/30"
+    },
+    "region": "UK / Continental Europe",
+    "regionCode": "europe",
+    "image": "/assets/img/gallery/eu-19_real.jpg",
+    "features": "主要观察：profile/钥匙/转数/应急功能；主要风险：钥匙厚度和turn count不匹配；最低验证：钥匙驱动和完整输出。",
+    "photoType": "Euro-cylinder family / retrofit installed case",
+    "sourceUrl": "https://www.reddit.com/r/Aqara/comments/1lva1l3/safest_and_most_reliable_euro_cylinder/",
+    "status": "R1",
+    "architectureNote": {
+      "A": "如果钥匙几何适合可驱动",
+      "B": "配套Cylinder优先样本"
+    },
+    "physicalTest": "钥匙驱动和完整输出"
+  },
+  {
+    "id": "EU-20",
+    "candidateId": "euro_double_cylinder_euro_35_35",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "Euro双Cylinder：Euro 35/35",
+      "en": "Euro double cylinder — Euro 35/35"
+    },
+    "region": "UK / Continental Europe",
+    "regionCode": "europe",
+    "image": "/assets/img/gallery/eu-20_real.jpg",
+    "features": "主要观察：A/B尺寸/外露/defender；主要风险：钥匙和安装板间隙；最低验证：开关门各3次。",
+    "photoType": "Euro-cylinder family / retrofit installed case",
+    "sourceUrl": "https://www.reddit.com/r/Aqara/comments/1lva1l3/safest_and_most_reliable_euro_cylinder/",
+    "status": "R1",
+    "architectureNote": {
+      "A": "如果钥匙几何适合可驱动",
+      "B": "配套Cylinder优先样本"
+    },
+    "physicalTest": "开关门各3次"
+  },
+  {
+    "id": "EU-21",
+    "candidateId": "euro_thumbturn_cylinder_euro_35_45_removable_thumbturn",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "Euro可拆Thumbturn：Euro 35/45 removable thumbturn",
+      "en": "Euro thumbturn cylinder — Euro 35/45 removable thumbturn"
+    },
+    "region": "UK / Continental Europe",
+    "regionCode": "europe",
+    "image": "/assets/img/gallery/eu-21_real.jpg",
+    "features": "主要观察：thumbturn可拆性/直径/啮合；主要风险：旋钮不可拆或adapter打滑；最低验证：adapter啮合和锁输出。",
+    "photoType": "Thumbturn Euro family / installation reference",
+    "sourceUrl": "https://danddhardware.com/Euro-Lock-Cylinder-Thumbturn-DDCT002-pd42154644.html",
+    "status": "R1",
+    "architectureNote": {
+      "A": "可测试thumbturn adapter",
+      "B": "配套Cylinder优先样本"
+    },
+    "physicalTest": "adapter啮合和锁输出"
+  },
+  {
+    "id": "EU-22",
+    "candidateId": "euro_thumbturn_cylinder_euro_40_50_asymmetric_thumbturn",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "非对称Thumbturn Euro：Euro 40/50 asymmetric thumbturn",
+      "en": "Euro thumbturn cylinder — Euro 40/50 asymmetric thumbturn"
+    },
+    "region": "UK / Continental Europe",
+    "regionCode": "europe",
+    "image": "/assets/img/gallery/eu-22_real.jpg",
+    "features": "主要观察：A/B/defender/外露/间隙；主要风险：defender碰撞和空间不足；最低验证：间隙和完整输出。",
+    "photoType": "Asymmetric Euro family / product reference; not exact door photo",
+    "sourceUrl": "https://www.lockstation.co.uk/euro-thumbturn-cylinders-locks",
+    "status": "R0",
+    "architectureNote": {
+      "A": "取决于实际内侧输入",
+      "B": "配套Cylinder优先样本"
+    },
+    "physicalTest": "间隙和完整输出"
+  },
+  {
+    "id": "EU-23",
+    "candidateId": "euro_multipoint_lock_euro_multipoint_lift_to_lock",
+    "familyId": "multipoint-upvc",
+    "title": {
+      "zh": "抬把手多点锁：Euro multipoint lift-to-lock",
+      "en": "Euro multipoint lock — Euro multipoint lift-to-lock"
+    },
+    "region": "UK / Continental Europe",
+    "regionCode": "europe",
+    "image": "/assets/img/gallery/eu-23_real.webp",
+    "features": "主要观察：handle lift/多锁点/转数；主要风险：部分锁定、假Green；最低验证：手动抬把手和关门测试。",
+    "photoType": "Multipoint family / installed cutaway case",
+    "sourceUrl": "https://installixwnd.ca/blog/smart-locks-multipoint-doors",
+    "status": "R0",
+    "architectureNote": {
+      "A": "钥匙旋转通常不能自动抬把手",
+      "B": "配套Cylinder也不自动证明抬把手"
+    },
+    "physicalTest": "手动抬把手和关门测试"
+  },
+  {
+    "id": "EU-24",
+    "candidateId": "uk_5_lever_mortise_lock_uk_5_lever_mortice_deadlock_44mm",
+    "familyId": "uk-5-lever-mortice",
+    "title": {
+      "zh": "5杆Mortise Deadlock 44mm：UK 5-lever mortice deadlock 44mm",
+      "en": "UK 5-lever mortise lock — UK 5-lever mortice deadlock 44mm"
+    },
+    "region": "UK / Continental Europe",
+    "regionCode": "europe",
+    "image": "/assets/img/gallery/eu-24_real.webp",
+    "features": "主要观察：44mm backset/钥匙/锁体深度；主要风险：方向和锁体阻力；最低验证：deadbolt和latch分开。",
+    "photoType": "UK mortice family / installation reference",
+    "sourceUrl": "https://www.mbdiy.co.uk/blog/comparisons/5-lever-mortice-or-a-upvc-multipoint-door-lock/",
+    "status": "R0",
+    "architectureNote": {
+      "A": "key可转deadbolt但把手可能独立",
+      "B": "仅在lock case接受时考虑"
+    },
+    "physicalTest": "deadbolt和latch分开"
+  },
+  {
+    "id": "EU-25",
+    "candidateId": "uk_sashlock_uk_5_lever_mortice_sashlock_56mm",
+    "familyId": "uk-5-lever-mortice",
+    "title": {
+      "zh": "5杆Mortise Sashlock 56mm：UK 5-lever mortice sashlock 56mm",
+      "en": "UK sashlock — UK 5-lever mortice sashlock 56mm"
+    },
+    "region": "UK / Continental Europe",
+    "regionCode": "europe",
+    "image": "/assets/img/gallery/eu-25_real.png",
+    "features": "主要观察：56mm backset/中心距/方杆；主要风险：部分解锁或卡滞；最低验证：把手和deadbolt序列。",
+    "photoType": "UK sashlock family / product reference",
+    "sourceUrl": "https://www.barnsleylock.co.uk/asec-vital--bs--5-lever-mortice-sashlock-7722-p.asp",
+    "status": "R0",
+    "architectureNote": {
+      "A": "钥匙和把手可能联动",
+      "B": "仅在lock case兼容时考虑"
+    },
+    "physicalTest": "把手和deadbolt序列"
+  },
+  {
+    "id": "EU-26",
+    "candidateId": "euro_mortise_lock_union_chubb_3c10_euro_mortice",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "Union/Chubb Euro Mortise：Union/Chubb 3C10 Euro mortice",
+      "en": "Euro mortise lock — Union/Chubb 3C10 Euro mortice"
+    },
+    "region": "UK / Continental Europe",
+    "regionCode": "europe",
+    "image": "/assets/img/gallery/eu-26_real.webp",
+    "features": "主要观察：cam/锁体/面板/把手；主要风险：Euro外形相同但case不兼容；最低验证：完整lock-case输出。",
+    "photoType": "Exact lock family / Euro mortice reference",
+    "sourceUrl": "https://picclick.co.uk/Chubb-3C10%C2%A0mortice-lock%C2%A0with-5-pin-euro-cylinder-with-223240296108.html",
+    "status": "R0",
+    "architectureNote": {
+      "A": "可有直接Cylinder输入但必须按case验证",
+      "B": "配套Euro Cylinder候选"
+    },
+    "physicalTest": "完整lock-case输出"
+  },
+  {
+    "id": "US-27",
+    "candidateId": "ansi_single_cylinder_deadbolt_schlage_b60_b62",
+    "familyId": "us-deadbolt",
+    "title": {
+      "zh": "ANSI单Cylinder Deadbolt：Schlage B60/B62",
+      "en": "ANSI single-cylinder deadbolt — Schlage B60/B62"
+    },
+    "region": "North America",
+    "regionCode": "na",
+    "image": "/assets/img/gallery/us-27_real.jpg",
+    "features": "主要观察：tailpiece/handing/strike/60或70mm；主要风险：关门对齐和tailpiece打滑；最低验证：开门/关门各3次。",
+    "photoType": "ANSI deadbolt family / door-mounted reference",
+    "sourceUrl": "https://www.homedepot.com/p/Schlage-B81-Series-Aged-Bronze-One-Sided-Deadbolt-Thumbturn-with-Exterior-Plate-Certified-Highest-for-Security-and-Durability-B81-716/300978065",
+    "status": "R1",
+    "architectureNote": {
+      "A": "优先测试内侧thumbturn adapter",
+      "B": "不是默认配套Cylinder架构"
+    },
+    "physicalTest": "开门/关门各3次"
+  },
+  {
+    "id": "US-28",
+    "candidateId": "deadbolt_kwikset_660_smartcode_660",
+    "familyId": "us-deadbolt",
+    "title": {
+      "zh": "ANSI Deadbolt：Kwikset 660或SmartCode 660",
+      "en": "deadbolt — Kwikset 660或SmartCode 660"
+    },
+    "region": "North America",
+    "regionCode": "na",
+    "image": "/assets/img/gallery/us-28_real.webp",
+    "features": "主要观察：tailpiece/方向/strike/60或70mm；主要风险：adapter方向和间隙不匹配；最低验证：tailpiece和关门扭矩。",
+    "photoType": "Exact model / interior door-mounted reference",
+    "sourceUrl": "https://www.harborcitysupply.com/kwikset-security-660-series-keyed-deadbolt/",
+    "status": "R1",
+    "architectureNote": {
+      "A": "优先测试内侧thumbturn adapter",
+      "B": "不是默认配套Cylinder架构"
+    },
+    "physicalTest": "tailpiece和关门扭矩"
+  },
+  {
+    "id": "US-29",
+    "candidateId": "deadbolt_yale_assure_lock_2",
+    "familyId": "us-deadbolt",
+    "title": {
+      "zh": "数字Deadbolt：Yale Assure Lock 2",
+      "en": "数字Deadbolt — Yale Assure Lock 2"
+    },
+    "region": "North America",
+    "regionCode": "na",
+    "image": "/assets/img/gallery/us-29_real.jpg",
+    "features": "主要观察：门体准备/安装孔/内侧机构；主要风险：整锁更换与retrofit概念混淆；最低验证：exact model和输入接口。",
+    "photoType": "Exact model / installed-on-door review photo",
+    "sourceUrl": "https://www.cnet.com/home/security/best-smart-locks/",
+    "status": "R0",
+    "architectureNote": {
+      "A": "必须确认是否为可加装接口",
+      "B": "通常不是配套Cylinder retrofit"
+    },
+    "physicalTest": "exact model和输入接口"
+  },
+  {
+    "id": "US-30",
+    "candidateId": "knob_lever_lock_standard_tubular_entrance_knob_lever",
+    "familyId": "us-bored-lever",
+    "title": {
+      "zh": "管式入口Knob或Lever：Standard tubular entrance knob/lever",
+      "en": "knob / lever lock — Standard tubular entrance knob/lever"
+    },
+    "region": "North America",
+    "regionCode": "na",
+    "image": "/assets/img/gallery/us-30_real.jpg",
+    "features": "主要观察：spindle/锁舌/弹簧/门把手；主要风险：旋转不代表锁定或解锁；最低验证：分别验证latch、lock和手动恢复。",
+    "photoType": "Tubular knob/lever family / door-hardware reference",
+    "sourceUrl": "https://www.houseofantiquehardware.com/shop-by-type/antique-door-hardware/locksets/front-door-hardware",
+    "status": "R0",
+    "architectureNote": {
+      "A": "可能只驱动latch，不等同deadbolt",
+      "B": "不是优先配套Cylinder样本"
+    },
+    "physicalTest": "分别验证latch、lock和手动恢复"
+  }
+]

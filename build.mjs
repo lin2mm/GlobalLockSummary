@@ -612,7 +612,88 @@ function searchFragment(lang) {
 <script src="/assets/js/search.js" defer></script>`;
 }
 
+
+/**
+ * Gallery Wall Fragment: renders the 30 representative lock photo cards on the landing page.
+ */
+function galleryFragment(lang) {
+  const isZh = lang === 'zh';
+  const galleryPath = join(CONTENT, 'catalog', 'gallery.json');
+  if (!existsSync(galleryPath)) return '';
+  const items = JSON.parse(readFileSync(galleryPath, 'utf8'));
+
+  const regions = [
+    { code: 'all', label: isZh ? '全部锁型' : 'All locks' },
+    { code: 'sg-sea', label: isZh ? '新加坡 / 东南亚' : 'Singapore & SE Asia' },
+    { code: 'anz', label: isZh ? '澳洲 / 新西兰' : 'Australia & NZ' },
+    { code: 'europe', label: isZh ? '英国 / 欧洲' : 'UK & Europe' },
+    { code: 'na', label: isZh ? '北美' : 'North America' },
+  ];
+
+  const filterBtns = regions.map((r, idx) => 
+    `<button class="gallery-filter__btn${idx === 0 ? ' is-active' : ''}" type="button" data-gallery-filter="${r.code}">${escapeHtml(r.label)}</button>`
+  ).join('');
+
+  const cardsHtml = items.map((item) => {
+    const title = (item.title && (item.title[lang] || item.title.en || item.title.zh)) || item.id;
+    const regionLabel = item.region || '';
+    const statusClass = item.status === 'R1' ? 'gallery-card__status--r1' : (item.status === 'R2' ? 'gallery-card__status--r2' : 'gallery-card__status--r0');
+    const statusText = item.status || 'R0';
+    const searchText = `${item.id} ${title} ${regionLabel} ${item.features || ''}`.toLowerCase();
+    
+    // Link to family page if mapped
+    const hasFamily = !!item.familyId;
+    const familyHref = hasFamily ? `/${urlFor(lang, `locks/${item.familyId}.html`)}` : `/${urlFor(lang, 'locks/index.html')}`;
+    const linkText = hasFamily 
+      ? (isZh ? '查看对应锁族参数 →' : 'View family spec →')
+      : (isZh ? '锁库详细索引 →' : 'Lock catalog index →');
+
+    const detailTag = hasFamily 
+      ? (isZh ? '已映射详情' : 'Mapped family')
+      : (isZh ? '候选样本' : 'Candidate sample');
+
+    return `<div class="gallery-card" data-gallery-card data-region="${escapeHtml(item.regionCode)}" data-search-text="${escapeHtml(searchText)}">
+      <div class="gallery-card__img-wrap">
+        <a href="${familyHref}">
+          <img class="gallery-card__img" src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy" width="320" height="210" />
+        </a>
+        <div class="gallery-card__badges">
+          <span class="gallery-card__id">${escapeHtml(item.id)}</span>
+          <span class="gallery-card__status ${statusClass}">${escapeHtml(statusText)}</span>
+        </div>
+      </div>
+      <div class="gallery-card__body">
+        <div class="gallery-card__region">${escapeHtml(regionLabel)}</div>
+        <h3 class="gallery-card__title"><a href="${familyHref}">${escapeHtml(title)}</a></h3>
+        <p class="gallery-card__features">${escapeHtml(item.features || '')}</p>
+        <div class="gallery-card__footer">
+          <span class="gallery-card__tag">${escapeHtml(detailTag)}</span>
+          <a class="gallery-card__link" href="${familyHref}">${escapeHtml(linkText)}</a>
+        </div>
+      </div>
+    </div>`;
+  }).join('\n');
+
+  return `<div class="gallery-wall" data-gallery-root>
+    <div class="gallery-wall__header">
+      <div class="gallery-wall__intro">${isZh 
+        ? '工程师实物安装图墙导航：点击实物图片或卡片链接，直接查看背距、方轴、锁体深度及改造适配参数。当前收录 <b><span data-gallery-count>' + items.length + '</span></b> 类代表性候选锁。' 
+        : 'Photo-driven navigation for engineers: visually identify locks and click through for backset, spindle, mortise depth, and retrofit details. Showing <b><span data-gallery-count>' + items.length + '</span></b> candidate locks.'}</div>
+      <div class="gallery-wall__controls">
+        <div class="gallery-filter">${filterBtns}</div>
+        <div class="gallery-search">
+          <input type="search" data-gallery-search placeholder="${isZh ? '按名称、地区、特征实时速查...' : 'Filter by name, region, feature...'}" aria-label="${isZh ? '筛选图墙锁型' : 'Filter gallery locks'}" />
+        </div>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      ${cardsHtml}
+    </div>
+  </div>`;
+}
+
 const FRAGMENTS = {
+  '{{gallery}}': galleryFragment,
   '{{wizard}}': wizardFragment,
   '{{photo}}': photoFragment,
   '{{search}}': searchFragment,

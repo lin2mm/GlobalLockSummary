@@ -201,4 +201,30 @@ if (failures.length) {
   process.exit(1);
 }
 console.log(`site output: ${defaultFiles.length} pages checked, all links and anchors resolve`);
+
+
+/* ---------- gallery wall & images test ---------- */
+const galleryJsonPath = join(ROOT, 'content/catalog/gallery.json');
+check('gallery.json exists', existsSync(galleryJsonPath));
+if (existsSync(galleryJsonPath)) {
+  const galleryItems = JSON.parse(read(galleryJsonPath));
+  check('gallery has 30 candidate items', galleryItems.length === 30, `count=${galleryItems.length}`);
+  
+  let missingImgs = 0;
+  for (const item of galleryItems) {
+    const relImg = item.image.replace(/^\//, '');
+    if (!existsSync(join(SITE, relImg))) {
+      missingImgs++;
+    }
+  }
+  check('all 30 gallery images exist in _site/', missingImgs === 0, `missing=${missingImgs}`);
+
+  const rootIndex = read(join(SITE, 'index.html'));
+  check('root index.html renders gallery wall', rootIndex.includes('data-gallery-root') && rootIndex.includes('gallery-card'));
+  check('root index.html includes in-site direct feedback button', rootIndex.includes('data-feedback-submit'));
+
+  const enIndex = read(join(SITE, 'en/index.html'));
+  check('en index.html renders gallery wall', enIndex.includes('data-gallery-root') && enIndex.includes('gallery-card'));
+}
+
 console.log(`OK  ${passed} checks passed`);

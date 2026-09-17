@@ -61,6 +61,14 @@ export function layout(opts) {
     category: feedbackTerms.category?.[lang] || feedbackTerms.category?.en || 'Feedback type',
     categories: Object.fromEntries(Object.entries(feedbackTerms.categories || {}).map(([key, value]) => [key, value[lang] || value.en || key])),
     message: feedbackTerms.message?.[lang] || feedbackTerms.message?.en || 'Message',
+    messagePlaceholder: feedbackTerms.messagePlaceholder?.[lang] || feedbackTerms.messagePlaceholder?.en || '',
+    contact: feedbackTerms.contact?.[lang] || feedbackTerms.contact?.en || 'Contact (optional)',
+    contactPlaceholder: feedbackTerms.contactPlaceholder?.[lang] || feedbackTerms.contactPlaceholder?.en || '',
+    submit: feedbackTerms.submit?.[lang] || feedbackTerms.submit?.en || 'Submit feedback',
+    submitting: feedbackTerms.submitting?.[lang] || feedbackTerms.submitting?.en || 'Submitting...',
+    submitted: feedbackTerms.submitted?.[lang] || feedbackTerms.submitted?.en || 'Submitted! ID: ',
+    submitFailed: feedbackTerms.submitFailed?.[lang] || feedbackTerms.submitFailed?.en || 'Submission failed. Please copy text.',
+    tooShort: feedbackTerms.tooShort?.[lang] || feedbackTerms.tooShort?.en || 'Please enter at least 3 characters',
     openIssue: feedbackTerms.openIssue?.[lang] || feedbackTerms.openIssue?.en || 'Open GitHub issue',
     copy: feedbackTerms.copy?.[lang] || feedbackTerms.copy?.en || 'Copy feedback',
     copied: feedbackTerms.copied?.[lang] || feedbackTerms.copied?.en || 'Copied',
@@ -70,16 +78,35 @@ export function layout(opts) {
   const feedback = `<section class="feedback" id="feedback" data-feedback
     data-page-title="${esc(title)}" data-page-path="${esc(path)}" data-issues-url="${esc(site.urls.issues)}"
     data-i18n='${feedbackData}'>
-    <h2>${esc(feedbackI18n.title)}</h2>
-    <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
-    <div class="feedback__fields">
-      <label>${esc(feedbackI18n.category)} <select data-feedback-category></select></label>
-      <label>${esc(feedbackI18n.message)} <textarea data-feedback-message rows="5"></textarea></label>
+    <div class="feedback__header">
+      <h2>${esc(feedbackI18n.title)}</h2>
+      <span class="feedback__badge">${lang === 'zh' ? '免登录 · 站内直达' : 'Direct Submit'}</span>
     </div>
-    <div class="feedback__actions">
-      <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
-      <button class="feedback__copy" data-feedback-copy type="button">${esc(feedbackI18n.copy)}</button>
-      <span class="feedback__status" data-feedback-status aria-live="polite"></span>
+    <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
+    <div class="feedback__form">
+      <div class="feedback__row">
+        <label class="feedback__label--cat">${esc(feedbackI18n.category)}
+          <select data-feedback-category></select>
+        </label>
+        <label class="feedback__label--contact">${esc(feedbackI18n.contact)}
+          <input type="text" data-feedback-contact placeholder="${esc(feedbackI18n.contactPlaceholder)}" />
+        </label>
+      </div>
+      <label class="feedback__label--msg">${esc(feedbackI18n.message)}
+        <input type="text" class="feedback__single-line" data-feedback-message placeholder="${esc(feedbackI18n.messagePlaceholder)}" />
+      </label>
+      <div class="feedback__actions">
+        <button class="feedback__submit" data-feedback-submit type="button">${esc(feedbackI18n.submit)}</button>
+        <button class="feedback__copy" data-feedback-copy type="button">${esc(feedbackI18n.copy)}</button>
+        <span class="feedback__status" data-feedback-status aria-live="polite"></span>
+      </div>
+      <details class="feedback__alt-methods">
+        <summary>${esc(feedbackI18n.openIssue)}</summary>
+        <div class="feedback__alt-content">
+          <p>${lang === 'zh' ? '如果您拥有 GitHub 账号并希望公开发起 Issue 讨论：' : 'If you have a GitHub account and prefer tracking public issues:'}</p>
+          <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
+        </div>
+      </details>
     </div>
     <p class="feedback__note">${esc(feedbackI18n.note)}</p>
   </section>`;
@@ -192,6 +219,7 @@ ${product ? `      <div>
   </footer>
   <script src="/assets/js/site.js" defer></script>
   <script src="/assets/js/feedback.js" defer></script>
+  <script src="/assets/js/gallery.js" defer></script>
 </body>
 </html>
 `;
