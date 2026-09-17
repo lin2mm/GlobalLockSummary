@@ -796,3 +796,120 @@ details p { margin: .6rem 0 .2rem; color: var(--fg-muted); }
   font-size: 1.05rem;
   color: #334155;
 }
+
+/* ------------------------------------------------------------------ *
+ * Pure Visual Gallery Theme: 5 Major Regional Portal Cards
+ * ------------------------------------------------------------------ */
+.gallery-portal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .gallery-portal-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+  }
+}
+
+.gallery-portal-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(16, 42, 67, 0.06);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gallery-portal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(16, 42, 67, 0.12);
+  border-color: var(--accent);
+}
+
+.gallery-portal-card__media {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background: #f1f5f9;
+  overflow: hidden;
+}
+
+.gallery-portal-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .35s ease;
+}
+
+.gallery-portal-card:hover .gallery-portal-card__img {
+  transform: scale(1.08);
+}
+
+.gallery-portal-card__badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(16, 42, 67, 0.85);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+}
+
+.gallery-portal-card__body {
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.gallery-portal-card__name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #102a43;
+  margin: 0 0 0.35rem;
+  line-height: 1.3;
+}
+
+.gallery-portal-card__baseline {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #0284c7;
+  margin-bottom: 0.6rem;
+  line-height: 1.35;
+}
+
+.gallery-portal-card__action {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.gallery-portal-card__action svg,
+.gallery-portal-card__action .portal-icon {
+  font-size: 1rem;
+}
+
+
+/* Smooth scroll for gallery anchor clicks */
+html {
+  scroll-behavior: smooth;
+}
+
+.gallery-block {
+  scroll-margin-top: 80px;
+}

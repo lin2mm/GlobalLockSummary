@@ -221,6 +221,7 @@ if (existsSync(galleryJsonPath)) {
 
   const rootIndex = read(join(SITE, 'index.html'));
   check('root index.html renders gallery wall', rootIndex.includes('data-gallery-root') && rootIndex.includes('gallery-card'));
+  check('root index.html features pure gallery portal grid with 5 major area images', rootIndex.includes('gallery-portal-grid') && rootIndex.includes('gallery-portal-card'));
   check('gallery renders 5 major regional blocks', rootIndex.includes('data-gallery-block="na"') && rootIndex.includes('data-gallery-block="latam"'));
   check('gallery features block-hero flagship showcases for retrofit baselines', rootIndex.includes('block-hero') && rootIndex.includes('hero-na-deadbolt.jpg') && rootIndex.includes('hero-europe-eurocylinder.jpg') && rootIndex.includes('hero-anz-lockwood001.jpg'));
   check('gallery hero features 1:1 drilling template link', rootIndex.includes('drilling-templates.html'));

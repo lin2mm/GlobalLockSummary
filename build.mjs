@@ -817,7 +817,7 @@ function galleryFragment(lang) {
       </div>
     </div>`;
 
-    return `<section class="gallery-block" data-gallery-block="${escapeHtml(b.code)}">
+    return `<section class="gallery-block" id="block-${escapeHtml(b.code)}" data-gallery-block="${escapeHtml(b.code)}">
       <div class="gallery-block__header">
         <div class="gallery-block__title-wrap">
           <h2 class="gallery-block__title">${escapeHtml(b.title)}</h2>
@@ -851,7 +851,31 @@ function galleryFragment(lang) {
     `<button class="gallery-filter__btn${idx === 0 ? ' is-active' : ''}" type="button" data-gallery-filter="${tab.code}">${escapeHtml(tab.label)}</button>`
   ).join('');
 
+  // 5 Major Area Gallery Theme Portal Cards
+  const portalCards = blocks.map((b) => {
+    return `<a class="gallery-portal-card" href="#block-${escapeHtml(b.code)}" data-portal-target="${escapeHtml(b.code)}">
+      <div class="gallery-portal-card__media">
+        <img class="gallery-portal-card__img" src="${escapeHtml(b.hero.image)}" alt="${escapeHtml(b.title)}" loading="lazy" width="300" height="180" />
+        <span class="gallery-portal-card__badge">${b.items.length} ${isZh ? '款实拍样本' : 'models'}</span>
+      </div>
+      <div class="gallery-portal-card__body">
+        <h3 class="gallery-portal-card__name">${escapeHtml(b.title)}</h3>
+        <div class="gallery-portal-card__baseline">🔑 ${escapeHtml(b.hero.title.replace(/^[^：:]*[：:]/, ''))}</div>
+        <div class="gallery-portal-card__action">
+          <span class="portal-icon">🔒</span>
+          <span>${isZh ? '开锁进入锁类图谱' : 'Unlock & Browse Categories'} →</span>
+        </div>
+      </div>
+    </a>`;
+  }).join('\n');
+
   return `<div class="gallery-wall" data-gallery-root>
+    <div class="gallery-portal-section">
+      <div class="gallery-portal-grid">
+        ${portalCards}
+      </div>
+    </div>
+
     <div class="gallery-wall__header">
       <div class="gallery-wall__controls">
         <div class="gallery-filter">${navTabs}</div>
