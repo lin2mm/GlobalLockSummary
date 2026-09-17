@@ -1347,8 +1347,18 @@ function fourOhFour() {
   const other = lang === 'en' ? 'zh' : 'en';
   const isZh = lang === 'zh';
   const body = isZh
-    ? `<h1>页面未找到</h1><p>这个地址不存在。可以试试<a href="/locks/index.html">锁型库</a>、<a href="/standards/index.html">标准索引</a>或<a href="/identify.html">识别向导</a>。</p><p class="muted">Page not found. Try the <a href="/en/locks/index.html">lock catalog</a>, the <a href="/en/standards/index.html">standards index</a> or the <a href="/en/identify.html">identification wizard</a>.</p>`
-    : `<h1>Page not found</h1><p>That page does not exist. Try the <a href="/locks/index.html">lock catalog</a>, the <a href="/standards/index.html">standards index</a> or the <a href="/identify.html">identification wizard</a>.</p><p class="muted">找不到页面。可以试试<a href="/zh/locks/index.html">锁型库</a>、<a href="/zh/standards/index.html">标准索引</a>或<a href="/zh/identify.html">识别向导</a>。</p>`;
+    ? `<h1>页面未找到 (404)</h1>
+       <div class="redirect-box" style="margin: 20px 0; padding: 18px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px;">
+         <p style="margin: 0; color: #1e40af; font-weight: 600;">⏱️ 正在自动返回主画廊首页（3 秒后自动跳转）...</p>
+         <p style="margin: 8px 0 0;"><a href="/zh/index.html" style="color: #2563eb; font-weight: 700;">点击此处立即返回首页 →</a></p>
+       </div>
+       <p class="muted">找不到页面。可以试试<a href="/zh/index.html">5大板块图库</a>、<a href="/zh/adapters.html">转接件与工具</a>或<a href="/zh/field-issues.html">避坑实录</a>。</p>`
+    : `<h1>Page not found (404)</h1>
+       <div class="redirect-box" style="margin: 20px 0; padding: 18px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px;">
+         <p style="margin: 0; color: #1e40af; font-weight: 600;">⏱️ Redirecting to visual gallery landing page in 3 seconds...</p>
+         <p style="margin: 8px 0 0;"><a href="/index.html" style="color: #2563eb; font-weight: 700;">Click here to return now →</a></p>
+       </div>
+       <p class="muted">That page does not exist. Try the <a href="/index.html">5 Divisions Gallery</a>, <a href="/adapters.html">Adapters & Tools</a> or <a href="/field-issues.html">Field Pitfalls</a>.</p>`;
   const html = layout({
     title: isZh ? '页面未找到' : 'Page not found',
     description: isZh ? '这个地址不存在。' : 'That page does not exist.',
@@ -1356,13 +1366,11 @@ function fourOhFour() {
     path: '404.html',
     baseUrl: BASE_URL,
     site: { ...site, navigation: { [lang]: rewriteNav(site.navigation[lang]) } },
+    extraHead: `<meta http-equiv="refresh" content="3;url=/${urlFor(lang, 'index.html')}" />`,
     body,
     breadcrumbs: [{ label: site.name, href: hrefFor(lang, 'index.html') }, { label: '404' }],
   });
   return rebaseLinks(html, '404.html');
-  // other is reserved for the future: a small page would benefit from having
-  // both languages available, but the single-language fallback above keeps the
-  // 404 page readable without inventing per-language paths.
   void other;
 }
 
