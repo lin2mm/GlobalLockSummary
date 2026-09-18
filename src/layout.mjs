@@ -74,7 +74,7 @@ export function layout(opts) {
     <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
     <div class="feedback__fields">
       <label>${esc(feedbackI18n.category)} <select data-feedback-category></select></label>
-      <label>${esc(feedbackI18n.message)} <textarea data-feedback-message rows="5"></textarea></label>
+      <label>${esc(feedbackI18n.message)} <input type="text" data-feedback-message placeholder="选填/简述：如需补充某种锁型或尺寸纠错..." style="width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.9rem;" /></label>
     </div>
     <div class="feedback__actions">
       <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
