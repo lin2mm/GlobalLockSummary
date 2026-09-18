@@ -1051,7 +1051,7 @@ function getGalleryBlocks(lang) {
       hero: {
         title: isZh ? '核心改装基准：日本 MIWA 13LA / B5 防犯斜坡旋钮锁' : 'Core Retrofit Baseline: Japan MIWA 13LA / B5 Thumbturn',
         desc: isZh ? '日本独栋与公寓第一基准。内旋钮自带双侧防盗下压弹簧片；改装必须搭配 ADP-03 双斜坡抓手，转动前自动解锁，杜绝卡死烧机。' : 'Japan benchmark. Features anti-theft pinch release thumbturn requiring ADP-03 adapter.',
-        image: '/assets/img/indigenous/jp-miwa-13la.jpg',
+        image: '/assets/img/hero/hero-jp-miwa-door.jpg',
         familyId: 'jp-miwa-case',
         tag: isZh ? '⭐ 极强相关 · 日韩改装基准' : '⭐ Japan & Korea Baseline'
       },
