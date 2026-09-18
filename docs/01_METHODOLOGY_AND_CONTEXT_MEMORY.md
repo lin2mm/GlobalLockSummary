@@ -298,3 +298,6 @@ GlobalLockSummary/
 | **11** | 一键直接下载工作区沉淀文件 | 部署 `/assets/downloads/` 静态服务并在 Data Hub 提供点击直接下载 | `content/pages/zh/data-hub.md`, `assets/downloads/` |
 | **12** | 增加 Nuki-Like 智能锁专利规避与出海 FTO 设计指南 | 建立专属导航菜单「专利规避 (Patent FTO)」与详尽规避技术路径 | `content/pages/zh/patent-avoidance.html`, `content/site.json` |
 | **13** | 方法论扩充海外合规清单（GDPR / CCPA / SASO / FTO） | 在方法论中增补《第六章：海外多国家合规与数据安全合规清单》 | `docs/10_SMART_LOCK_RETROFIT_METHODOLOGY.md` |
+
+| **14** | 内外部资产绝对物理隔离红线 | 严禁在面向访客的前端网站挂载内部开发文档下载链接；所有内部研发沉淀（docs/ 及 .xlsx）仅保留在 Git 仓库内部目录，与 _site/ 彻底隔离 | `docs/`, `build.mjs`, `content/pages/` |
+| **15** | 后装智能锁专利规避导航正式更名 | 导航菜单明确为「后装专利规避 (Retrofit FTO)」 | `content/site.json` |
