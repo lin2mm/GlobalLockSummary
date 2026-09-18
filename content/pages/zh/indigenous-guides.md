@@ -8,15 +8,9 @@ lang: "zh"
 
 面向智能锁研发工程师与海外工程商。深度拆解德奥瑞 (DIN)、法比区 (NF)、日本 (JIS/MIWA)、英澳 (AS/BS)、拉美 (ABNT) 与北美 (ANSI) 8 大工业五金体系（按工程复杂度降序排列）的独有尺寸公差、开槽逻辑与加装防呆规则。
 
-<!-- 核心排序依据显式声明横幅 -->
-<div style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: #f8fafc; border-left: 5px solid #38bdf8; padding: 14px 18px; border-radius: 8px; margin: 18px 0 24px; box-shadow: 0 4px 12px rgba(15,23,42,0.08);">
-  <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
-    <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">核心排序依据 · Engineering Architecture</span>
-    <span style="font-size: 0.95rem; font-weight: 700; color: #38bdf8;">出海加装复杂度与工程暗坑深度递减 (Engineering Complexity Decrescendo)</span>
-  </div>
-  <p style="margin: 0; font-size: 0.82rem; color: #94a3b8; line-height: 1.5;">
-    本索引并非按地理位置或经济体量随意排列，而是严格基于海外免换锁加装（Retrofit）的<b>机械适配壁垒、锁芯反锁困人风险、抬把手多点联动阻尼与开模离散度</b>自上而下递减排列。越靠顶部的板块（如德欧瑞 DIN、法比 NF、中东海湾 SASO），出海工程暗坑越深、售后退货率越高；越靠底部的板块（如北美 ANSI），标准化与免工具加装成熟度越高。
-  </p>
+<div style="margin: 14px 0 20px; padding: 10px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px;">
+  <span style="font-weight: 700; font-size: 0.82rem; color: #0f172a;">★ 排序依据：</span>
+  <span style="font-size: 0.82rem; color: #475569;">严格基于海外后装加装（Retrofit）的<b>机械适配壁垒、锁芯反锁风险与工程暗坑深度递减</b>排列（德奥瑞 DIN ➔ 法比 NF ➔ 北美 ANSI）。</span>
 </div>
 
 <!-- 顶部 8 大工业板块快速穿透锚点导航条（按工程暗坑与加装复杂度降序排列） -->

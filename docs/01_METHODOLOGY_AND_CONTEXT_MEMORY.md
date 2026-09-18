@@ -339,3 +339,5 @@ GlobalLockSummary/
 | **27** | 单一分类页内锁型排序依据定论 | **主流基准（Mainstream）绝对优先排在最前**，紧随其后为小众/特殊衍生锁；在同一层级内，严格按 **`selectionScore.overallScore`（出海大盘占有率与加装相关度得分）降序排列**，彻底消灭无序插花乱序。 | `build.mjs` |
 
 | **28** | 全站导航栏数字联动体系收敛 | 1. 「后装专利规避」正式增加动态数字计数 `(5)`（对应 5 大专题：锁芯夹持、钥匙抓取、脱开离合、美标尾轴、FTO自查）；<br>2. 「工业索引」统计数字由 6 正式同步为 `(8)`（对应 8 大工业五金体系）；<br>3. 「转接工具 (12)」页面彻底移除“Nuki-type”提法与多余绿色文本框，保持 ASSA ABLOY 极简工业质感。 | `build.mjs`, `content/pages/zh/adapters.md` |
+
+| **29** | 全量页面 ASSA ABLOY 去噪与 8 大板块收敛 | 1. `install-gallery.html`：筛选栏由历史 6 板块全面收敛升级为 **8 大工业板块**，采用 ASSA ABLOY 墨黑冷灰风格微胶囊；<br>2. `patent-avoidance.html`：消除标题与 H1 的重复括号文字（消除 `(Patent FTO Guide) (Patent FTO Guide)` 重复尾缀）；<br>3. `indigenous-guides.html`：拔除顶部深蓝色高饱和度大横幅，替换为 ASSA ABLOY 极简工业细线折叠微通知框。 | `build.mjs`, `content/pages/` |

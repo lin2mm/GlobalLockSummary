@@ -1,10 +1,10 @@
 ---
-title: "后装智能锁专利壁垒排查与海外规避设计指南 (Patent FTO) (Patent FTO & Workaround)"
+title: "后装智能锁专利壁垒与海外规避设计 (Patent FTO Guide)"
 slug: "patent-avoidance.html"
 lang: "zh"
 ---
 
-# 后装智能锁专利壁垒与海外规避设计 (Patent FTO Guide) (Patent FTO Guide)
+# 后装智能锁专利壁垒与海外规避设计 (Patent FTO Guide)
 
 面向出海智能硬件产品经理、机械结构工程师与 IP 法务。深度拆解以欧美主流后装为代表的**后装智能锁（免换锁 / 租客无损加装）**在欧美日重点市场的核心专利布局、权利要求（Claims）保护边界与实战规避设计路径（Design Around）。
 

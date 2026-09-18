@@ -1,10 +1,10 @@
 ---
-title: "Retrofit Smart Lock Patent Avoidance & FTO Guide & FTO Engineering Guide"
+title: "Retrofit Smart Lock Patent Avoidance & FTO Guide"
 slug: "patent-avoidance.html"
 lang: "en"
 ---
 
-# Retrofit Smart Lock Patent Avoidance & FTO Guide & FTO Engineering Guide
+# Retrofit Smart Lock Patent Avoidance & FTO Guide
 
 Designed for overseas smart hardware PMs, mechanical engineers, and IP legal counsel. Deconstructing core patent thickets, claims boundaries, and design-around pathways for **retrofit smart locks** (Nuki, August, SwitchBot, Tedee) across Europe, North America, and Japan.
 
