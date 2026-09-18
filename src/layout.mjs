@@ -98,7 +98,7 @@ export function layout(opts) {
     data-i18n='${feedbackData}'>
     <div class="feedback__ultra-form">
       <div class="feedback__input-cluster">
-        <input type="text" class="feedback__direct-input" data-feedback-message placeholder="${lang === 'zh' ? '输入您的锁型需求或改装建议（支持直接输入，站内直达）...' : 'Type your suggestion or missing lock model...'}" aria-label="Feedback" />
+        <input type="text" class="feedback__direct-input" data-feedback-message placeholder="${lang === 'zh' ? '输入你的锁型需求，或者对网站的调整建议（直通研发工程师）...' : 'Enter your lock model requirement, or website suggestions for our R&D engineers...'}" aria-label="Feedback" />
         <button class="feedback__direct-submit" data-feedback-submit type="button">${lang === 'zh' ? '提交建议' : 'Submit Suggestion'}</button>
       </div>
       <div class="feedback__status-row">

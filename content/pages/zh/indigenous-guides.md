@@ -128,11 +128,11 @@ lang: "zh"
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column;">
     <div style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; height: 180px; position: relative;">
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/indigenous/de-dornmass-pz.png" alt="德国 DIN 18251 Dornmaß 与 PZ 测量" style="width: 100%; height: 100%; object-fit: contain; padding: 6px; background: #fff;" />
+        <img src="/assets/img/indigenous/de-dornmass-pz.png" alt="德国 DIN 18251 Dornmaß 与 PZ 测量" style="width: 100%; height: 100%; object-fit: contain; padding: 6px; background: #fff;" />
         <span style="position: absolute; bottom: 6px; left: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">DIN 图解</span>
       </div>
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/indigenous/de-gefahrenfunktion.jpg" alt="Not- und Gefahrenfunktion 结构" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/indigenous/de-gefahrenfunktion.jpg" alt="Not- und Gefahrenfunktion 结构" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; right: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">双向离合实拍</span>
       </div>
       <div style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; pointer-events: none;">
@@ -157,11 +157,11 @@ lang: "zh"
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column;">
     <div style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; height: 180px; position: relative;">
       <div style="position: relative; overflow: hidden; background: #ffffff;">
-        <img src="../assets/img/indigenous/fr-entraxe-70.png" alt="法国 Axe 50 Entraxe 70 锁体" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
+        <img src="/assets/img/indigenous/fr-entraxe-70.png" alt="法国 Axe 50 Entraxe 70 锁体" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         <span style="position: absolute; bottom: 6px; left: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">Vachette 70mm</span>
       </div>
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/gallery/eu-19_real.jpg" alt="法国 Bricard Série 70 实景" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/gallery/eu-19_real.jpg" alt="法国 Bricard Série 70 实景" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; right: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">门上实态</span>
       </div>
       <div style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; pointer-events: none;">
@@ -186,11 +186,11 @@ lang: "zh"
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column;">
     <div style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; height: 180px; position: relative;">
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/indigenous/jp-miwa-13la.jpg" alt="MIWA 13LA フロント刻印" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/indigenous/jp-miwa-13la.jpg" alt="MIWA 13LA フロント刻印" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; left: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">刻印即型号</span>
       </div>
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/indigenous/jp-thumbturn.jpg" alt="MIWA 防犯サムターン" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/indigenous/jp-thumbturn.jpg" alt="MIWA 防犯サムターン" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; right: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">防犯旋钮实拍</span>
       </div>
       <div style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; pointer-events: none;">
@@ -215,11 +215,11 @@ lang: "zh"
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column;">
     <div style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; height: 180px; position: relative;">
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/indigenous/uk-nightlatch.jpg" alt="Yale Rim Nightlatch" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/indigenous/uk-nightlatch.jpg" alt="Yale Rim Nightlatch" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; left: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">英式 Nightlatch</span>
       </div>
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/indigenous/au-lockwood-001.jpg" alt="Lockwood 001 Deadlatch" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/indigenous/au-lockwood-001.jpg" alt="Lockwood 001 Deadlatch" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; right: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">澳洲 Lockwood 001</span>
       </div>
       <div style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; pointer-events: none;">
@@ -244,11 +244,11 @@ lang: "zh"
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column;">
     <div style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; height: 180px; position: relative;">
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/indigenous/latam-entrada-40.jpg" alt="拉美 40mm 背距锁体" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/indigenous/latam-entrada-40.jpg" alt="拉美 40mm 背距锁体" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; left: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">Entrada 40mm</span>
       </div>
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/gallery/latam-rolete-pivotante_real.webp" alt="巴西 PADO Concept 实态" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/gallery/latam-rolete-pivotante_real.webp" alt="巴西 PADO Concept 实态" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; right: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">PADO 实景</span>
       </div>
       <div style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; pointer-events: none;">
@@ -273,11 +273,11 @@ lang: "zh"
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column;">
     <div style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; height: 180px; position: relative;">
       <div style="position: relative; overflow: hidden; background: #1e293b;">
-        <img src="../assets/img/gallery/us-27_real.jpg" alt="北美 Schlage B60 单插销死锁" style="width: 100%; height: 100%; object-fit: cover;" />
+        <img src="/assets/img/gallery/us-27_real.jpg" alt="北美 Schlage B60 单插销死锁" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; left: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">美标 Deadbolt</span>
       </div>
       <div style="position: relative; overflow: hidden; background: #ffffff;">
-        <img src="../assets/img/diagrams/US-27_schematic.svg" alt="ANSI Deadbolt 结构" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
+        <img src="/assets/img/diagrams/US-27_schematic.svg" alt="ANSI Deadbolt 结构" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         <span style="position: absolute; bottom: 6px; right: 6px; background: rgba(15,23,42,0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px;">扁平尾轴 1:1</span>
       </div>
       <div style="position: absolute; top: 6px; left: 6px; right: 6px; display: flex; justify-content: space-between; pointer-events: none;">

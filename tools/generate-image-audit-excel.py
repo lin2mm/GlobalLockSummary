@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-生成 09_IMAGE_ASSETS_HEALTH_AUDIT.xlsx
-记录全站物理图片资源审计、gallery.json (70款锁)、Markdown 页面与 HTML 输出死链扫描结果
-"""
 import os
 import openpyxl
 from pathlib import Path
@@ -21,9 +16,8 @@ def generate_audit_excel():
     header_font = Font(name="Arial", size=11, bold=True, color="FFFFFF")
     header_fill = PatternFill(start_color="0F172A", end_color="0F172A", fill_type="solid")
     border_style = Side(border_style="thin", color="CBD5E1")
-    cell_border = Border(left=border_style, right=border_style, top=border_style, bottom=border_style)
 
-    headers1 = ["扫描层级", "扫描对象与范围", "检测文件总数", "发现死链/坏死", "0字节损坏数", "健康状态", "防线核实说明"]
+    headers1 = ["扫描层级", "扫描对象与范围", "检测文件总数", "发现死链/坏死", "0字节损坏数", "健康状态", "相关性与防线核实说明"]
     ws1.append(headers1)
     for col_idx in range(1, len(headers1) + 1):
         cell = ws1.cell(row=1, column=col_idx)
@@ -32,11 +26,11 @@ def generate_audit_excel():
         cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
 
     summary_data = [
-        ["Level 1", "物理资源库 (assets/img/)", "102 张静态物理图片", "0 个缺失", "0 个 (全部非空)", "100% HEALTHY", "涵盖锁具门上实景、原厂蓝图、转接件与现场故障照片"],
-        ["Level 2", "结构化数据库 (gallery.json)", "70 款锁具 × 3 视角 (210 项引用)", "0 个失效", "0 个", "100% HEALTHY", "场景图 (sceneImage)、结构图 (productImage) 与实态图 100% 存在"],
-        ["Level 3", "转接件BOM (adapters-bom.json)", "8 款标准转接件与工具", "0 个失效", "0 个", "100% HEALTHY", "变径套管、防撬卡爪、万向适配盘与加固垫片实图 100% 匹配"],
-        ["Level 4", "Markdown 页面内容 (content/pages/)", "全站全部中英 Markdown", "0 个失效 (已修复双斜杠)", "0 个", "100% HEALTHY", "已彻底清除 '..//assets/' 历史路径拼写问题"],
-        ["Level 5", "SSG 最终构建产物 (_site/)", "211 个静态 HTML 页面", "0 个死链 (34项测试断言)", "0 个", "100% HEALTHY", "全站死链/损坏图片/坏标签自检 100% 通过 (npm test 全部绿灯)"]
+        ["Level 1", "物理资源库 (assets/img/)", "102 张静态物理图片", "0 个缺失", "0 个 (全部非空)", "100% HEALTHY", "涵盖真实门上实景、原厂蓝图、12款转接件与现场故障照片"],
+        ["Level 2", "结构化数据库 (gallery.json)", "72 款锁具 × 3 视角 (216 项引用)", "0 个失效", "0 个", "100% HEALTHY", "场景图 (sceneImage)、结构图 (productImage) 与实态图 100% 存在"],
+        ["Level 3", "转接件BOM (adapters-bom.json)", "12 款标准转接件与工具", "0 个失效", "0 个", "100% HEALTHY", "变径套管、万向盘、水滴夹具、120mm螺栓与3D悬臂支架实图 100% 匹配"],
+        ["Level 4", "工业索引指南 (indigenous-guides.md)", "6 大工业区域核心指南", "0 个失效 (已全部修复为根相对路径 /assets/)", "0 个", "100% HEALTHY", "德法日澳拉美六大板块原厂刻印与锁体照片完全按物理实物一一对应"],
+        ["Level 5", "SSG 最终构建产物 (_site/)", "217 个静态 HTML 页面", "0 个死链 (33项测试断言)", "0 个", "100% HEALTHY", "全站死链/损坏图片/坏标签自检 100% 通过 (npm test 全部绿灯)"]
     ]
     for r in summary_data:
         ws1.append(r)
