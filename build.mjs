@@ -242,6 +242,14 @@ function rewriteNav(nav, lang = 'en') {
         { label: isZh ? 'FL-03 新加坡组屋门把手碰撞' : 'FL-03 HDB Gate Clash', href: isZh ? '/zh/field-issues.html#fl-03' : '/en/field-issues.html#fl-03' },
         { label: isZh ? 'FL-04 澳式副舌悬空假锁死' : 'FL-04 False Deadlock', href: isZh ? '/zh/field-issues.html#fl-04' : '/en/field-issues.html#fl-04' }
       ];
+    } else if (item.href.includes('patent-avoidance.html')) {
+      subItems = [
+        { label: isZh ? '1. 锁芯夹持与背板锁紧' : '1. Cylinder Clamping', href: isZh ? '/zh/patent-avoidance.html#nuki-clamping' : '/en/patent-avoidance.html#nuki-clamping' },
+        { label: isZh ? '2. 钥匙抓取与浮动耦合' : '2. Key Gripper & Oldham', href: isZh ? '/zh/patent-avoidance.html#key-coupling' : '/en/patent-avoidance.html#key-coupling' },
+        { label: isZh ? '3. 手动优先与脱开离合' : '3. Manual Clutch & BLDC', href: isZh ? '/zh/patent-avoidance.html#clutch-disconnect' : '/en/patent-avoidance.html#clutch-disconnect' },
+        { label: isZh ? '4. 尾轴卡扣与翼形卡爪' : '4. Tailpiece Wing Latches', href: isZh ? '/zh/patent-avoidance.html#august-tailpiece' : '/en/patent-avoidance.html#august-tailpiece' },
+        { label: isZh ? '5. 出海 FTO 自查清单' : '5. Global FTO Checklist', href: isZh ? '/zh/patent-avoidance.html#checklist' : '/en/patent-avoidance.html#checklist' }
+      ];
     } else if (item.href.includes('indigenous-guides.html')) {
       // 工业索引 (全动态 6)
       label = `${rawLabel} (${indexCount})`;

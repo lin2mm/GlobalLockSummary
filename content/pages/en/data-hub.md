@@ -6,6 +6,22 @@ lang: "en"
 
 # Global Mechanical Lock Engineering Data & B2B API Hub
 
+## 📦 Direct Engineering Assets & Methodology Download Hub
+
+The following files are hosted on the public static asset server. **Click any link below to immediately download the raw file**:
+
+| Filename | Asset Type | Description | One-Click Download |
+| :--- | :--- | :--- | :--- |
+| **`10_SMART_LOCK_RETROFIT_METHODOLOGY.md`** | Methodology | Comprehensive Overseas Smart Lock Retrofit Playbook | [📥 Download (Markdown)](/assets/downloads/10_SMART_LOCK_RETROFIT_METHODOLOGY.md) |
+| **`01_METHODOLOGY_AND_CONTEXT_MEMORY.md`** | Core Memory | Standing Instructions, Context Rules & Full History | [📥 Download (Markdown)](/assets/downloads/01_METHODOLOGY_AND_CONTEXT_MEMORY.md) |
+| **`00_AUTONOMOUS_OPTIMIZATION_LOOP.md`** | Daemon Log | Autonomous Dual-Loop Execution & Health Audit Log | [📥 Download (Markdown)](/assets/downloads/00_AUTONOMOUS_OPTIMIZATION_LOOP.md) |
+| **`02_PROJECT_PLAN_AND_CONVENTIONS.xlsx`** | Gantt Chart | Numbered Conventions & WBS Project Milestones | [📥 Download (Excel)](/assets/downloads/02_PROJECT_PLAN_AND_CONVENTIONS.xlsx) |
+| **`03_GLOBAL_LOCK_DATA_INDEX.xlsx`** | Master Index | 74 Mechanical Lock Tolerance & Sizing Sheets | [📥 Download (Excel)](/assets/downloads/03_GLOBAL_LOCK_DATA_INDEX.xlsx) |
+| **`07_VISUAL_COLOR_HIERARCHY_DESIGN.xlsx`** | Design System | 8 Industrial Division Colour Palette & Contrast | [📥 Download (Excel)](/assets/downloads/07_VISUAL_COLOR_HIERARCHY_DESIGN.xlsx) |
+| **`08_HARDWARE_ADAPTERS_AND_BOM.xlsx`** | Retrofit BOM | 12 Verified Retrofit Adapters & Mechanical Kits | [📥 Download (Excel)](/assets/downloads/08_HARDWARE_ADAPTERS_AND_BOM.xlsx) |
+| **`09_IMAGE_ASSETS_HEALTH_AUDIT.xlsx`** | Image Audit | 5-Tier Asset Audit & 102 Physical Images Register | [📥 Download (Excel)](/assets/downloads/09_IMAGE_ASSETS_HEALTH_AUDIT.xlsx) |
+
+
 Engineered for overseas smart lock developers, firmware architects, and B2B buyers. This data hub consolidates precision tolerances, motor stall thresholds, gearbox models, and 12 verified adapter BOMs across 6 major industrial divisions.
 
 <div style="margin: 20px 0 28px; padding: 16px 20px; background: #f8fafc; border: 1.5px solid #0284c7; border-left: 5px solid #0284c7; border-radius: 8px;">

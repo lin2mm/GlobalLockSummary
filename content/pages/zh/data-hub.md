@@ -6,6 +6,22 @@ lang: "zh"
 
 # 全球机械门锁工程数据中心与 B2B 资产枢纽
 
+## 📦 长期沉淀工程资产与方法论直接下载 (Direct Download Hub)
+
+以下文件已编译挂载至静态资源服务器，**点击即可通过浏览器直接下载原始文件**，无需任何命令行操作：
+
+| 规范文件名 | 资产类型 | 说明 | 快速直接下载链接 |
+| :--- | :--- | :--- | :--- |
+| **`10_SMART_LOCK_RETROFIT_METHODOLOGY.md`** | 顶层方法论 | 出海加装全生命周期建站与工程选型范本 | [📥 点击直接下载 (Markdown)](/assets/downloads/10_SMART_LOCK_RETROFIT_METHODOLOGY.md) |
+| **`01_METHODOLOGY_AND_CONTEXT_MEMORY.md`** | 长期核心记忆 | 包含全部用户历史指示、红线规矩与长效沉淀记录 | [📥 点击直接下载 (Markdown)](/assets/downloads/01_METHODOLOGY_AND_CONTEXT_MEMORY.md) |
+| **`00_AUTONOMOUS_OPTIMIZATION_LOOP.md`** | 动态守护日志 | 双引擎协同闭环调度与健康审计日志 | [📥 点击直接下载 (Markdown)](/assets/downloads/00_AUTONOMOUS_OPTIMIZATION_LOOP.md) |
+| **`02_PROJECT_PLAN_AND_CONVENTIONS.xlsx`** | 工程甘特图 | 包含带序号文件命名规范与 WBS 阶段里程碑 | [📥 点击直接下载 (Excel)](/assets/downloads/02_PROJECT_PLAN_AND_CONVENTIONS.xlsx) |
+| **`03_GLOBAL_LOCK_DATA_INDEX.xlsx`** | 全量公差主索引 | 74 款海外主流防盗锁工程公差全息表 | [📥 点击直接下载 (Excel)](/assets/downloads/03_GLOBAL_LOCK_DATA_INDEX.xlsx) |
+| **`07_VISUAL_COLOR_HIERARCHY_DESIGN.xlsx`** | 视觉规范表 | 8 大工业板块配色与光学对比度模型 | [📥 点击直接下载 (Excel)](/assets/downloads/07_VISUAL_COLOR_HIERARCHY_DESIGN.xlsx) |
+| **`08_HARDWARE_ADAPTERS_AND_BOM.xlsx`** | 改装转接 BOM | 12 款 100% 实物核实的加装五金套件 | [📥 点击直接下载 (Excel)](/assets/downloads/08_HARDWARE_ADAPTERS_AND_BOM.xlsx) |
+| **`09_IMAGE_ASSETS_HEALTH_AUDIT.xlsx`** | 图像资产审计 | 全站 5 级全息穿透与 102 张真实图片清单 | [📥 点击直接下载 (Excel)](/assets/downloads/09_IMAGE_ASSETS_HEALTH_AUDIT.xlsx) |
+
+
 面向出海智能硬件研发工程师、固件架构师与大宗采购商。本专区汇集全球 6 大工业板块、72 款主流与小众机械锁具的高精度公差、电机堵转参数、减速比模型与已实物核实的 12 款转接五金 BOM。
 
 <div style="margin: 20px 0 28px; padding: 20px 24px; background: #f0fdf4; border: 1.5px solid #16a34a; border-left: 6px solid #16a34a; border-radius: 8px; box-shadow: 0 4px 12px rgba(22,163,74,0.08);">
