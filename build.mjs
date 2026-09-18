@@ -429,7 +429,7 @@ function lockPage(fam, lang) {
           <h4>${escapeHtml(sTitle)}</h4>
           <span class="gallery-card__status ${s.status === 'R1' ? 'gallery-card__status--r1' : 'gallery-card__status--r0'}">${escapeHtml(s.status || 'R0')}</span>
         </div>
-        <div class="lock-detail-sample__tier3-header" style="background: #0b1120; color: #f8fafc; padding: 8px 14px; border-radius: 6px 6px 0 0; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; display: flex; justify-content: space-between; align-items: center; margin-bottom: -1px;">
+        <div class="lock-detail-sample__tier3-header" style="background: #0f172a; color: #f8fafc; padding: 8px 14px; border-radius: 6px 6px 0 0; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; display: flex; justify-content: space-between; align-items: center; margin-bottom: -1px;">
           <span>${lang === 'zh' ? '实操工程规范与安装案例' : 'Engineering Specifications & Installation'}</span>
           <span style="color: #94a3b8; font-weight: normal; font-size: 0.72rem;">${lang === 'zh' ? '门上实拍 · 原厂蓝图对照' : 'Field Photo · Blueprint'}</span>
         </div>
@@ -1135,7 +1135,7 @@ function renderGalleryCard(item, lang) {
     : 'border: 1px solid #e2e8f0; background: #f8fafc; opacity: 0.88; border-left: 3px solid #94a3b8; filter: saturate(0.9);';
 
   return `<div class="gallery-card gallery-card--${isMainstream ? 'mainstream' : 'niche'}" data-gallery-card data-tier="${escapeHtml(item.tierClass || "Mainstream")}" data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}" style="${cardStyle} border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;">
-    <div class="gallery-card__dual-img-container" style="display: grid; grid-template-columns: 1fr 1fr; background: #0b1120; gap: 1px; position: relative; border-radius: 6px 6px 0 0; overflow: hidden;">
+    <div class="gallery-card__dual-img-container" style="display: grid; grid-template-columns: 1fr 1fr; background: #e2e8f0; gap: 1px; position: relative; border-radius: 6px 6px 0 0; overflow: hidden;">
       <a class="gallery-card__img-link" href="${familyHref}" title="${isZh ? '实景图' : 'Scene'}" style="position: relative; display: block; overflow: hidden; height: 165px; background: #1e293b;">
         <img class="gallery-card__img" src="${escapeHtml(sceneImg)}" alt="${escapeHtml(title)}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" />
         <span style="position: absolute; bottom: 6px; left: 6px; background: rgba(15, 23, 42, 0.85); color: #94a3b8; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 2px; letter-spacing: 0.05em; text-transform: uppercase;">${isZh ? '实景' : 'SCENE'}</span>
@@ -1197,7 +1197,7 @@ function galleryFragment(lang) {
     const tierBadge = isCoreTier1 ? (isZh ? '<span class="portal-tier-pill portal-tier-pill--core">★ 核心加装基准</span>' : '<span class="portal-tier-pill portal-tier-pill--core">★ CORE BASELINE</span>') : '';
     return `<a class="${cardClass}" href="${categoryUrl}" data-portal-target="${escapeHtml(b.code)}">
       ${tierBadge}
-      <div class="gallery-portal-card__media" style="position: relative; overflow: hidden; background: #0b1120;">
+      <div class="gallery-portal-card__media" style="position: relative; overflow: hidden; background: #f8fafc;">
         <img class="gallery-portal-card__img" src="${escapeHtml(b.hero.image)}" alt="${escapeHtml(b.title)}" loading="lazy" width="360" height="230" />
         <span class="gallery-portal-card__keyhint" title="${isZh ? '按数字键直达' : 'Press key'}">[${idxBadge}]</span>
       </div>
@@ -1363,7 +1363,7 @@ function build() {
         .join(' ');
 
       return `<div class="install-case-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 1px 3px rgba(0,0,0,0.03);">
-        <div style="position: relative; height: 160px; background: #0b1120; overflow: hidden;">
+        <div style="position: relative; height: 160px; background: #f8fafc; overflow: hidden;">
           <img src="${escapeHtml(c.image)}" alt="${escapeHtml(cTitle)}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" />
           <span style="position: absolute; top: 6px; left: 6px; background: rgba(15,23,42,0.85); color: #ffffff; font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 3px; font-family: monospace;">
             ${escapeHtml(c.id)}
