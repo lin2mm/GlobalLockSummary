@@ -12,7 +12,7 @@ def generate_adapters_pages():
 
         card = f"""  <div class="gallery-card" id="{a['id'].lower()}" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="../{a['image']}" alt="{a['name']}" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="{a['image']}" alt="{a['name']}" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">{a['id']} · 核实件</span>
         {verified_badge}
@@ -42,10 +42,10 @@ lang: "zh"
 
 # 标准转接工具与五金配件库 (Hardware Adapters & BOM)
 
-面向出海智能硬件与五金研发工程师，所有转接件均经过**实物图纸对照、真实锁体尺寸试装与力矩剪切核实 (100% Verified)**。采用标准双列画廊流模式呈现，直观展示变径套管、防撬卡爪、万向适配盘与加固垫片。
+面向出海智能硬件与 Nuki-type 加装智能锁研发工程师，所有转接件均经过**实物图纸对照、真实锁体尺寸试装与力矩剪切核实 (100% Verified)**。采用标准双列画廊流模式呈现，直观展示变径套管、防撬卡爪、万向适配盘与加固垫片。
 
 <div style="margin: 16px 0 24px; padding: 12px 16px; background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 4px solid #16a34a; border-radius: 6px; font-size: 0.85rem; color: #166534; line-height: 1.5;">
-  <b>📋 转接件全量工程核实清单 (Total {len(adapters)} Items):</b> 涵盖法国 7转8、德国 8转9、日本 MIWA B5 捏合爪、北美万向盘、澳洲 Lockwood 水滴夹具、欧规钥匙紧定套、门框可调垫片组与薄门防压溃加强垫。严禁在受力方轴部件使用易脆锌合金。
+  <b>📋 转接件全量工程核实清单 (Total {len(adapters)} Items):</b> 涵盖法国 7转8、德国 8转9、日本 MIWA B5 捏合爪、北美万向盘、澳洲 Lockwood 水滴夹具、欧规钥匙紧定套、门框可调垫片组、薄门防压溃加强垫、多点门抬把手助力扭簧、旧孔修饰大饰板、超厚门 120mm 螺杆方轴包与 3D 悬臂门磁支架。严禁在受力方轴部件使用易脆锌合金。
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin: 28px 0;">
@@ -63,7 +63,7 @@ lang: "zh"
 
         card = f"""  <div class="gallery-card" id="{a['id'].lower()}" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
     <div style="height: 190px; background: #0b1120; overflow: hidden; position: relative;">
-      <img src="../{a['image']}" alt="{a['name']}" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
+      <img src="{a['image']}" alt="{a['name']}" style="width: 100%; height: 100%; object-fit: contain; padding: 12px; background: #0f172a;" />
       <div style="position: absolute; top: 8px; left: 8px; display: flex; gap: 5px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">{a['id']} · Verified</span>
         {verified_badge}
@@ -96,7 +96,7 @@ lang: "en"
 Engineered for overseas smart lock developers. All adapters have undergone **100% CAD verification, physical fitment tests, and shear torque stress validation**. Presented in standard 2-column image-dominant gallery style.
 
 <div style="margin: 16px 0 24px; padding: 12px 16px; background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 4px solid #16a34a; border-radius: 6px; font-size: 0.85rem; color: #166534; line-height: 1.5;">
-  <b>📋 Engineering Verification Summary (Total {len(adapters)} Items):</b> Covering French 7-to-8mm sleeves, German 8-to-9mm panic sleeves, MIWA B5 pinch grippers, ANSI tailpiece cams, Lockwood teardrop adapters, Euro key clamps, adjustable strike shims, and plywood door reinforcers.
+  <b>📋 Engineering Verification Summary (Total {len(adapters)} Items):</b> Covering French 7-to-8mm sleeves, German 8-to-9mm panic sleeves, MIWA B5 pinch grippers, ANSI tailpiece cams, Lockwood teardrop adapters, Euro key clamps, adjustable strike shims, plywood door reinforcers, multipoint pre-load levers, retrofit escutcheon cover plates, ultra-thick door long-spindle kits, and 3D cantilever sensor brackets.
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin: 28px 0;">
@@ -106,7 +106,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
     with open('content/pages/en/adapters.md', 'w', encoding='utf-8') as f:
         f.write(en_content)
 
-    print("Updated zh/adapters.md and en/adapters.md successfully!")
+    print("Updated zh/adapters.md and en/adapters.md with all 12 adapters!")
 
 if __name__ == '__main__':
     generate_adapters_pages()
