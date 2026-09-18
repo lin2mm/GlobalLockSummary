@@ -506,7 +506,7 @@ function lockPage(fam, lang) {
               <div><b>🔄 执手回弹弹簧阻力:</b> ${escapeHtml(s.engineeringMatrix.handleSpringResistance || 'N/A')}</div>
             </div>
           </div>
-          <div style="background: white; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #d97706; margin-bottom: 6px;">
+          <div style="background: white; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #475569; margin-bottom: 6px;">
             <div style="display: flex; flex-direction: column; gap: 4px; font-size: 0.73rem;">
               <div><b>🔨 ${lang === 'zh' ? '门侧木槽二次扩孔与防裂加固 (Chisel Mortise Rework)' : 'Chisel Mortise Rework & Reinforcement'}:</b> <span style="color: #475569;">${escapeHtml(s.engineeringMatrix.mortiseReworkGuide || 'N/A')}</span></div>
               <div><b>🔩 ${lang === 'zh' ? '贯穿螺栓剪切公差与防夹线套管 (Through-Bolt Wire Guide)' : 'Through-Bolt & Wire Clearance'}:</b> <span style="color: #475569;">${escapeHtml(s.engineeringMatrix.boltWireClearance || 'N/A')}</span></div>
@@ -527,7 +527,7 @@ function lockPage(fam, lang) {
             </div>
           </div>
           ${s.engineeringMatrix.nukiRetrofitProfile ? `
-          <div style="background: #fdf4ff; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #c026d3; margin-bottom: 6px;">
+          <div style="background: #f8fafc; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #0f172a; margin-bottom: 6px;">
             <div style="display: flex; flex-direction: column; gap: 4px; font-size: 0.73rem;">
               <div><b>🎯 ${lang === 'zh' ? 'Nuki 加装指数与核心 ICP 画像' : 'Nuki Retrofit & ICP Profile'}:</b> <span style="color: #86198f; font-weight: 700;">★ 指数: ${s.engineeringMatrix.nukiRetrofitProfile.nukiRetrofitScore}/100</span> · <span style="color: #701a75;">${escapeHtml(s.engineeringMatrix.nukiRetrofitProfile.primaryICP || 'N/A')}</span></div>
               <div><b>🔑 ${lang === 'zh' ? '租客退租无损复原评级' : 'Tenant Zero-Damage Grade'}:</b> <span style="color: #86198f;">${escapeHtml(s.engineeringMatrix.nukiRetrofitProfile.tenantFriendlyGrade || 'N/A')}</span> · 预计施工耗时: ${s.engineeringMatrix.nukiRetrofitProfile.installationTimeMin} 分钟</div>
@@ -535,14 +535,14 @@ function lockPage(fam, lang) {
             </div>
           </div>` : ''}
           ${s.engineeringMatrix.weatherproofingMatrix ? `
-          <div style="background: #fffbeb; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #d97706; margin-bottom: 6px;">
+          <div style="background: #f8fafc; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #475569; margin-bottom: 6px;">
             <div style="display: flex; flex-direction: column; gap: 4px; font-size: 0.73rem;">
               <div><b>☀️ ${lang === 'zh' ? '耐候防腐与盐雾测试标准 (Weatherproofing & Salt Spray)' : 'Salt Spray & Weatherproofing'}:</b> <span style="color: #92400e; font-weight: 600;">${escapeHtml(s.engineeringMatrix.weatherproofingMatrix.saltSprayClass)}</span> · ${escapeHtml(s.engineeringMatrix.weatherproofingMatrix.ipRating)}</div>
               <div><b>🌡️ ${lang === 'zh' ? '极限温度与密封胶条规范' : 'Thermal & Gasket'}:</b> <span style="color: #b45309;">${escapeHtml(s.engineeringMatrix.weatherproofingMatrix.solarThermalMax)}</span> · ${escapeHtml(s.engineeringMatrix.weatherproofingMatrix.epdmGasketSpec)}</div>
             </div>
           </div>` : ''}
           ${s.engineeringMatrix.multipointKinematics && s.engineeringMatrix.multipointKinematics.isMultipointCompatible ? `
-          <div style="background: #f0fdfa; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #0d9488; margin-bottom: 6px;">
+          <div style="background: #f8fafc; padding: 8px 10px; border-radius: 4px; border-left: 3px solid #0f172a; margin-bottom: 6px;">
             <div style="display: flex; flex-direction: column; gap: 4px; font-size: 0.73rem;">
               <div><b>🔄 ${lang === 'zh' ? '多点联动门抬把手行程与阻尼 (Multipoint Kinematics)' : 'Multipoint Kinematics & Torque'}:</b> <span style="color: #115e59; font-weight: 600;">抬把手角度: ${escapeHtml(s.engineeringMatrix.multipointKinematics.liftAngle)}</span> · 传动阻尼: ${escapeHtml(s.engineeringMatrix.multipointKinematics.camDriveTorque)}</div>
               <div><b>🔧 ${lang === 'zh' ? '主流五金厂与偏心调节指南' : 'Hardware Vendors & Tuning'}:</b> <span style="color: #134e4a;">${escapeHtml(s.engineeringMatrix.multipointKinematics.majorHardwareVendors)}</span> · ${escapeHtml(s.engineeringMatrix.multipointKinematics.fieldAdjustmentGuide)}</div>
@@ -1151,11 +1151,15 @@ function renderGalleryCard(item, lang) {
           ${escapeHtml(item.marketSharePercent || (isMainstream ? '≥25%' : '<10%'))}
         </span>
       </div>
-      <p class="gallery-card__desc" style="font-size: 0.82rem; color: #475569; line-height: 1.5; margin: 0 0 12px;">${escapeHtml(item.features || '')}</p>
-      <div class="gallery-card__footer" style="padding-top: 10px; border-top: 1px solid #f1f5f9;">
-        <a class="gallery-card__link" href="${familyHref}" style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-primary, #0f172a);">
-          <span>${isZh ? '查看工程规格与安装案例' : 'Specifications & Cases'}</span>
-          <span class="gallery-card__arrow">→</span>
+      <!-- 极简五金公差微标签替代冗长文字 -->
+      <div style="display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0 10px;">
+        <span style="font-size: 0.72rem; background: #f1f5f9; color: #334155; padding: 2px 7px; border-radius: 4px; font-weight: 600;">⌖ ${escapeHtml(item.engineeringMatrix?.shearLineClearance ? item.engineeringMatrix.shearLineClearance.split('/')[0] : '标准背距')}</span>
+        <span style="font-size: 0.72rem; background: #f1f5f9; color: #334155; padding: 2px 7px; border-radius: 4px; font-weight: 600;">⎔ ${escapeHtml(item.engineeringMatrix?.doorThicknessMatrix?.typicalDoorThickness || '标配门厚')}</span>
+        <span style="font-size: 0.72rem; background: #f1f5f9; color: #334155; padding: 2px 7px; border-radius: 4px; font-weight: 600;">⚡ ${escapeHtml(item.engineeringMatrix?.gearboxSpec ? item.engineeringMatrix.gearboxSpec.split('；')[0] : '直驱减速')}</span>
+      </div>
+      <div class="gallery-card__footer" style="padding-top: 8px; border-top: 1px solid #f1f5f9; display: flex; justify-content: flex-end;">
+        <a class="gallery-card__link" href="${familyHref}" style="font-size: 0.78rem; font-weight: 700; color: #0f172a; text-decoration: none;">
+          <span>${isZh ? '拆解图谱' : 'Blueprint'} →</span>
         </a>
       </div>
     </div>
@@ -1188,9 +1192,7 @@ function galleryFragment(lang) {
       <div class="gallery-portal-card__body">
         <h2 class="gallery-portal-card__name">${escapeHtml(b.title)}</h2>
         <div class="gallery-portal-card__baseline" style="color: var(--color-primary, #0f172a); font-weight: 500; font-size: 0.88rem;">${escapeHtml(b.hero.title.replace(/^[^：:]*[：:]/, ''))}</div>
-        <div class="gallery-portal-card__action" style="font-size: 0.82rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">
-          <span>${isZh ? '浏览分类图谱' : 'Explore Category'} →</span>
-        </div>
+
       </div>
     </a>`;
   }).join('\n');
