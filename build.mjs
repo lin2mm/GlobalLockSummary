@@ -1040,6 +1040,34 @@ function getGalleryBlocks(lang) {
         tag: isZh ? '⭐ 极强相关 · 中东海湾基准' : '⭐ Middle East GCC Baseline'
       },
       items: items.filter(i => i.block === 'gcc')
+    },
+    {
+      code: 'latam',
+      title: isZh ? '🌎 拉美新兴板块 (Latin America — ABNT / IRAM)' : '🌎 Latin America (ABNT / IRAM)',
+      shortTitle: isZh ? '拉美新兴板块' : 'Latin America',
+      subtitle: isZh ? '拉美大容量新兴五金体系 · 巴西 ABNT 窄背距插芯锁 (40/45mm)、薄门扇 (30mm) 与安第斯重型外装双钩锁' : 'Emerging market · Brazil ABNT narrow backsets (40/45mm), thin doors (30mm) & rim locks',
+      hero: {
+        title: isZh ? '核心改装基准：巴西 ABNT NBR 14913 极窄背距插芯锁 (PADO)' : 'Core Retrofit Baseline: Brazil ABNT Narrow-Backset Mortise (PADO)',
+        desc: isZh ? '拉美市场第一基准。门框立柱极窄，背距仅 40mm/45mm；传统智能锁体过宽无法开槽，改装必须采用 38mm 极窄面板并保留原厂扣板。' : 'LatAm benchmark. Narrow stiles with 40/45mm backset require 38mm slim bodies.',
+        image: '/assets/img/hero/hero-latam-abnt.webp',
+        familyId: 'us-mortise',
+        tag: isZh ? '⭐ 极强相关 · 拉美改装基准' : '⭐ Latin America Baseline'
+      },
+      items: items.filter(i => i.block === 'latam')
+    },
+    {
+      code: 'af-sa',
+      title: isZh ? '🇮🇳🇿🇦 非洲与南亚板块 (South Asia & Africa — BIS / SABS)' : '🇮🇳🇿🇦 South Asia & Africa (BIS / SABS)',
+      shortTitle: isZh ? '非洲南亚板块' : 'South Asia & Africa',
+      subtitle: isZh ? '印度 Godrej 表面夜闩死锁三插销体系、东非与南非 Union 杠杆防盗锁与高湿耐候工况' : 'Indian Godrej rim deadbolts, South African Union lever systems & tropical monsoon weatherproofing',
+      hero: {
+        title: isZh ? '核心改装基准：印度与南亚 Godrej 三插销外装防撬死锁' : 'Core Retrofit Baseline: Indian Godrej Tribolt Rim Deadbolt',
+        desc: isZh ? '印度与南亚民居第一基准。表面安装重型方形锁盒，三根高碳钢圆形死锁插销；内侧为机械大旋钮，改装需搭配专用外装夹爪。' : 'South Asian benchmark. Surface-mounted box with 3 heavy deadbolts requiring external pinch cams.',
+        image: '/assets/img/indigenous/uk-nightlatch.jpg',
+        familyId: 'in-mortise-rim',
+        tag: isZh ? '⭐ 极强相关 · 南亚非洲基准' : '⭐ South Asia Africa Baseline'
+      },
+      items: items.filter(i => i.block === 'af-sa')
     }
   ];}
 
@@ -1432,7 +1460,7 @@ function build() {
         </div>
         <div style="margin-top: 40px; text-align: center;">
           <a class="block-hero__btn" style="background: transparent; border: 1px solid var(--color-border, #cbd5e1); color: var(--color-text, #1e293b);" href="${isZh ? '/zh/index.html' : '/en/index.html'}">
-            ← ${isZh ? '返回全球 5 大板块主图库' : 'Back to 5 Major Area Gallery'}
+            ← ${isZh ? '返回全球 8 大工业板块主图库' : 'Back to 8 Major Industrial Divisions'}
           </a>
         </div>
       </div>`;
@@ -1786,13 +1814,13 @@ function fourOhFour() {
          <p style="margin: 0; color: #1e40af; font-weight: 600;">⏱️ 正在自动返回主画廊首页（3 秒后自动跳转）...</p>
          <p style="margin: 8px 0 0;"><a href="/zh/index.html" style="color: #2563eb; font-weight: 700;">点击此处立即返回首页 →</a></p>
        </div>
-       <p class="muted">找不到页面。可以试试<a href="/zh/index.html">5大板块图库</a>、<a href="/zh/adapters.html">转接件与工具</a>或<a href="/zh/field-issues.html">避坑实录</a>。</p>`
+       <p class="muted">找不到页面。可以试试<a href="/zh/index.html">8大工业板块图库</a>、<a href="/zh/adapters.html">转接件与工具</a>或<a href="/zh/field-issues.html">避坑实录</a>。</p>`
     : `<h1>Page not found (404)</h1>
        <div class="redirect-box" style="margin: 20px 0; padding: 18px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px;">
          <p style="margin: 0; color: #1e40af; font-weight: 600;">⏱️ Redirecting to visual gallery landing page in 3 seconds...</p>
          <p style="margin: 8px 0 0;"><a href="/index.html" style="color: #2563eb; font-weight: 700;">Click here to return now →</a></p>
        </div>
-       <p class="muted">That page does not exist. Try the <a href="/index.html">5 Divisions Gallery</a>, <a href="/adapters.html">Adapters & Tools</a> or <a href="/field-issues.html">Field Pitfalls</a>.</p>`;
+       <p class="muted">That page does not exist. Try the <a href="/index.html">8 Industrial Divisions Gallery</a>, <a href="/adapters.html">Adapters & Tools</a> or <a href="/field-issues.html">Field Pitfalls</a>.</p>`;
   const html = layout({
     title: isZh ? '页面未找到' : 'Page not found',
     description: isZh ? '这个地址不存在。' : 'That page does not exist.',
