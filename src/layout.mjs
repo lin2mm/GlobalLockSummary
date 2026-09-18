@@ -43,25 +43,7 @@ export function layout(opts) {
     const href = item.href.split('#')[0].replace(/^\/+/, '');
     const active = href === path || (path.endsWith('/') && `${href}index.html` === path)
       ? ' aria-current="page"' : '';
-    const icon = item.iconSvg ? `<span class="nav__icon-wrap" style="display: inline-flex; align-items: center; justify-content: center; margin-right: 6px; opacity: 0.85;">${item.iconSvg}</span>` : '';
-    
-    if (item.subItems && item.subItems.length > 0) {
-      const subMenuHtml = item.subItems.map(sub => 
-        `<a class="nav__sub-link" href="${esc(sub.href)}" style="display: block; padding: 7px 14px; font-size: 0.82rem; color: #334155; text-decoration: none; border-bottom: 1px solid #f1f5f9; white-space: nowrap; transition: background 0.15s;">${esc(sub.label)}</a>`
-      ).join('');
-
-      return `<div class="nav__dropdown" style="position: relative; display: inline-flex; align-items: center;">
-        <a class="nav__link" href="${esc(item.href)}"${active} style="display: inline-flex; align-items: center;">
-          ${icon}<span>${esc(item.label)}</span>
-          <span style="font-size: 0.65rem; margin-left: 4px; opacity: 0.6;">▼</span>
-        </a>
-        <div class="nav__dropdown-menu" style="position: absolute; top: 100%; left: 0; min-width: 220px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: none; z-index: 1000; padding: 4px 0;">
-          ${subMenuHtml}
-        </div>
-      </div>`;
-    }
-
-    return `<a class="nav__link" href="${esc(item.href)}"${active} style="display: inline-flex; align-items: center;">${icon}<span>${esc(item.label)}</span></a>`;
+    return `<a class="nav__link" href="${esc(item.href)}"${active}>${esc(item.label)}</a>`;
   }).join('\n          ');
 
   const product = site.product && site.product.url
@@ -79,37 +61,27 @@ export function layout(opts) {
     category: feedbackTerms.category?.[lang] || feedbackTerms.category?.en || 'Feedback type',
     categories: Object.fromEntries(Object.entries(feedbackTerms.categories || {}).map(([key, value]) => [key, value[lang] || value.en || key])),
     message: feedbackTerms.message?.[lang] || feedbackTerms.message?.en || 'Message',
-    messagePlaceholder: feedbackTerms.messagePlaceholder?.[lang] || feedbackTerms.messagePlaceholder?.en || '',
-    contact: feedbackTerms.contact?.[lang] || feedbackTerms.contact?.en || 'Contact (optional)',
-    contactPlaceholder: feedbackTerms.contactPlaceholder?.[lang] || feedbackTerms.contactPlaceholder?.en || '',
-    submit: feedbackTerms.submit?.[lang] || feedbackTerms.submit?.en || 'Submit feedback',
-    submitting: feedbackTerms.submitting?.[lang] || feedbackTerms.submitting?.en || 'Submitting...',
-    submitted: feedbackTerms.submitted?.[lang] || feedbackTerms.submitted?.en || 'Submitted! ID: ',
-    submitFailed: feedbackTerms.submitFailed?.[lang] || feedbackTerms.submitFailed?.en || 'Submission failed. Please copy text.',
-    tooShort: feedbackTerms.tooShort?.[lang] || feedbackTerms.tooShort?.en || 'Please enter at least 3 characters',
     openIssue: feedbackTerms.openIssue?.[lang] || feedbackTerms.openIssue?.en || 'Open GitHub issue',
     copy: feedbackTerms.copy?.[lang] || feedbackTerms.copy?.en || 'Copy feedback',
     copied: feedbackTerms.copied?.[lang] || feedbackTerms.copied?.en || 'Copied',
     note: feedbackTerms.note?.[lang] || feedbackTerms.note?.en || '',
   };
   const feedbackData = JSON.stringify(feedbackI18n).replace(/'/g, '&#39;');
-  const feedback = `<section class="feedback feedback--ultra-clean" id="feedback" data-feedback
+  const feedback = `<section class="feedback" id="feedback" data-feedback
     data-page-title="${esc(title)}" data-page-path="${esc(path)}" data-issues-url="${esc(site.urls.issues)}"
     data-i18n='${feedbackData}'>
-    <div class="feedback__ultra-form">
-      <div class="feedback__input-cluster">
-        <input type="text" class="feedback__direct-input" data-feedback-message placeholder="${lang === 'zh' ? '输入你的锁型需求，或者对网站的调整建议（直通研发工程师）...' : 'Enter your lock model requirement, or website suggestions for our R&D engineers...'}" aria-label="Feedback" />
-        <button class="feedback__direct-submit" data-feedback-submit type="button">${lang === 'zh' ? '提交建议' : 'Submit Suggestion'}</button>
-      </div>
-      <div class="feedback__status-row">
-        <span class="feedback__status-pill">⚡ ${lang === 'zh' ? '免登录 · 站内直达工程师' : 'Direct to Engineers'}</span>
-        <button class="feedback__copy" data-feedback-copy type="button" style="display:none;">${esc(feedbackI18n.copy)}</button>
-        <select data-feedback-category style="display:none;"></select>
-        <input type="text" data-feedback-contact style="display:none;" />
-        <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener" style="display:none;"></a>
-        <span class="feedback__status" data-feedback-status aria-live="polite"></span>
-      </div>
+    <h2>${esc(feedbackI18n.title)}</h2>
+    <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
+    <div class="feedback__fields">
+      <label>${esc(feedbackI18n.category)} <select data-feedback-category></select></label>
+      <label>${esc(feedbackI18n.message)} <textarea data-feedback-message rows="5"></textarea></label>
     </div>
+    <div class="feedback__actions">
+      <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
+      <button class="feedback__copy" data-feedback-copy type="button">${esc(feedbackI18n.copy)}</button>
+      <span class="feedback__status" data-feedback-status aria-live="polite"></span>
+    </div>
+    <p class="feedback__note">${esc(feedbackI18n.note)}</p>
   </section>`;
 
   const langLinks = alternates.map((alt) => {
@@ -168,30 +140,10 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
   <header class="site-header">
     <div class="wrap site-header__inner">
       <a class="brand" href="/${lang === 'en' ? '' : lang + '/'}">
-        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="width: 1.65rem; height: 1.65rem;">
-          <defs>
-            <linearGradient id="brandMarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#0284c7"/>
-              <stop offset="100%" stop-color="#0f172a"/>
-            </linearGradient>
-          </defs>
-          <!-- 硬化合金粗锁梁 (High-Contrast Bold Shackle) - 顶部负空间通透 -->
-          <path d="M7 10V6.5C7 3.74 9.24 1.5 12 1.5C14.76 1.5 17 3.74 17 6.5V10" fill="none" stroke="#0284c7" stroke-width="2.6" stroke-linecap="round"/>
-          <!-- 工业防撬切角锁身 (Precision Hex Chassis) -->
-          <path d="M4 10.5C4 9.67 4.67 9 5.5 9H18.5C19.33 9 20 9.67 20 10.5V19.5C20 20.88 18.88 22 17.5 22H6.5C5.12 22 4 20.88 4 19.5V10.5Z" fill="url(#brandMarkGrad)"/>
-          <!-- 极大光学负空间钥匙孔 (High-Visibility Classic Keyhole: Circle + Tapered Slot) 即使在12px下也清晰可辨 -->
-          <circle cx="12" cy="14" r="2.2" fill="#ffffff"/>
-          <path d="M10.9 14.5L10.2 19H13.8L13.1 14.5Z" fill="#ffffff"/>
-        </svg>
+        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a5 5 0 0 0-5 5v3H6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1h-1V7a5 5 0 0 0-5-5Zm0 2a3 3 0 0 1 3 3v3H9V7a3 3 0 0 1 3-3Zm0 10a1.7 1.7 0 0 1 .9 3.1V19h-1.8v-1.9A1.7 1.7 0 0 1 12 14Z" fill="currentColor"/></svg>
         <span class="brand__text">${esc(site.name)}</span>
       </a>
-            <div class="site-header__pulse-wrap" style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
-        <a href="/docs/AUTONOMOUS_OPTIMIZATION_LOOP.md" class="pulse-badge" title="${lang === 'zh' ? '自主巡航守护进程持续运行中 (点击查看实时运行日志)' : 'Autonomous Evolution Daemon Active (Click for live log)'}">
-          <span class="pulse-dot"></span>
-          <span class="pulse-text">${lang === 'zh' ? '自主进化守护中' : 'Daemon Active'}</span>
-        </a>
-      </div>
-    <nav class="nav" aria-label="Main">
+      <nav class="nav" aria-label="Main">
           ${nav}
       </nav>
       <div class="site-header__actions">
@@ -235,20 +187,11 @@ ${product ? `      <div>
       </div>` : ''}
     </div>
     <div class="wrap site-footer__meta">
-      <div class="footer__engineering-downloads" style="margin-bottom: 1.25rem; display: flex; gap: 10px; flex-wrap: wrap;">
-        <a class="footer__download-chip" href="/docs/GLOBAL_LOCK_DATA_INDEX.xlsx" download style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: rgba(37,99,235,0.08); border: 1px solid rgba(37,99,235,0.25); border-radius: 8px; color: #1d4ed8; font-size: 0.85rem; font-weight: 700; text-decoration: none;">
-          📥 ${lang === 'zh' ? '下载 6工作表离线工程索引 (.xlsx)' : 'Download Master Engineering Index (.xlsx)'}
-        </a>
-        <a class="footer__download-chip" href="/data/catalog.json" download style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.25); border-radius: 8px; color: #047857; font-size: 0.85rem; font-weight: 700; text-decoration: none;">
-          ⚙️ ${lang === 'zh' ? '全量机器可读 API (.json)' : 'Full Machine-Readable API (.json)'}
-        </a>
-      </div>
       <p>${esc(site.footer.disclaimer[lang] || site.footer.disclaimer.en)}</p>
     </div>
   </footer>
   <script src="/assets/js/site.js" defer></script>
   <script src="/assets/js/feedback.js" defer></script>
-  <script src="/assets/js/gallery.js" defer></script>
 </body>
 </html>
 `;

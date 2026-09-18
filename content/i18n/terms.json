@@ -1,130 +1,37 @@
 {
   "_comment": "Shared bilingual terminology. Catalog data references these keys instead of repeating prose in every language, which is what makes machine translation of the catalog tractable later. Add a key here once, use it everywhere.",
   "measurements": {
-    "backset": {
-      "en": "Backset (Dornmaß)",
-      "zh": "锁芯中心距 / 背距（Dornmaß）"
-    },
-    "centreDistance": {
-      "en": "Centre distance, spindle-to-cylinder (Entfernung / PZ)",
-      "zh": "中心距：方轴到锁芯（Entfernung / PZ）"
-    },
-    "faceplateSize": {
-      "en": "Faceplate width × length",
-      "zh": "面板（锁壳面板）宽 × 长"
-    },
-    "faceplateShape": {
-      "en": "Faceplate edge shape (square / rounded / U)",
-      "zh": "面板边缘形状（直角 / 圆角 / U 形）"
-    },
-    "caseSize": {
-      "en": "Lock case width × height × depth",
-      "zh": "锁体宽 × 高 × 深"
-    },
-    "doorThickness": {
-      "en": "Door thickness",
-      "zh": "门厚"
-    },
-    "cylinderLength": {
-      "en": "Cylinder total length and halves (e.g. 35/35)",
-      "zh": "锁芯总长与两段长度（例如 35/35）"
-    },
-    "cylinderProtrusion": {
-      "en": "Cylinder protrusion past the escutcheon",
-      "zh": "锁芯突出面板的量"
-    },
-    "spindleSize": {
-      "en": "Spindle (follower) size",
-      "zh": "方轴（把手轴）尺寸"
-    },
-    "spindleCentreHeight": {
-      "en": "Spindle centre height from floor",
-      "zh": "方轴中心离地高度"
-    },
-    "crossBore": {
-      "en": "Cross bore diameter",
-      "zh": "横孔直径"
-    },
-    "edgeBore": {
-      "en": "Edge bore diameter",
-      "zh": "边孔直径"
-    },
-    "boltThrow": {
-      "en": "Deadbolt throw",
-      "zh": "斜舌/方舌伸出行程"
-    },
-    "boltSize": {
-      "en": "Bolt face size",
-      "zh": "锁舌端面尺寸"
-    },
-    "leverCount": {
-      "en": "Lever count",
-      "zh": "拨叉（杠杆）片数"
-    },
-    "turnPieceSize": {
-      "en": "Interior thumb-turn / turn-piece size and profile",
-      "zh": "内侧旋钮尺寸与形状"
-    },
-    "gearboxSize": {
-      "en": "Gearbox / centre case size",
-      "zh": "齿轮箱（中央传动盒）尺寸"
-    },
-    "handleScrewSpacing": {
-      "en": "Handle fixing screw spacing",
-      "zh": "把手固定螺钉孔距"
-    },
-    "keyProfile": {
-      "en": "Key profile",
-      "zh": "钥匙槽型"
-    },
-    "handing": {
-      "en": "Handing (DIN left / right)",
-      "zh": "开向（DIN 左 / 右）"
-    },
-    "camType": {
-      "en": "Cam type and clock position",
-      "zh": "凸轮（拨叉片）型式与角度位置"
-    },
-    "holePattern": {
-      "en": "Fixing hole pattern / pitch",
-      "zh": "固定孔位 / 孔距"
-    },
-    "clearanceToGate": {
-      "en": "Clearance between door handle and gate handle",
-      "zh": "门把手与铁闸把手的净空"
-    },
-    "doorMaterial": {
-      "en": "Door material and construction",
-      "zh": "门材质与结构"
-    },
-    "fireRating": {
-      "en": "Fire rating of the door leaf",
-      "zh": "门扇耐火等级"
-    },
-    "escutcheonSize": {
-      "en": "Escutcheon / rose diameter",
-      "zh": "锁孔盖（圆盖）直径"
-    },
-    "strikePlate": {
-      "en": "Strike plate position and pocket depth",
-      "zh": "扣板位置与孔槽深度"
-    },
-    "stapleSize": {
-      "en": "Hasp staple diameter",
-      "zh": "搭扣环（锁鼻）直径"
-    },
-    "gateThickness": {
-      "en": "Gate leaf thickness",
-      "zh": "闸门扇厚度"
-    },
-    "barSpacing": {
-      "en": "Gate bar spacing",
-      "zh": "闸杆间距"
-    },
-    "gateToDoorGap": {
-      "en": "Gate-to-door depth clearance",
-      "zh": "闸门与主门的深度净空"
-    }
+    "backset": { "en": "Backset (Dornmaß)", "zh": "锁芯中心距 / 背距（Dornmaß）" },
+    "centreDistance": { "en": "Centre distance, spindle-to-cylinder (Entfernung / PZ)", "zh": "中心距：方轴到锁芯（Entfernung / PZ）" },
+    "faceplateSize": { "en": "Faceplate width × length", "zh": "面板（锁壳面板）宽 × 长" },
+    "faceplateShape": { "en": "Faceplate edge shape (square / rounded / U)", "zh": "面板边缘形状（直角 / 圆角 / U 形）" },
+    "caseSize": { "en": "Lock case width × height × depth", "zh": "锁体宽 × 高 × 深" },
+    "doorThickness": { "en": "Door thickness", "zh": "门厚" },
+    "cylinderLength": { "en": "Cylinder total length and halves (e.g. 35/35)", "zh": "锁芯总长与两段长度（例如 35/35）" },
+    "cylinderProtrusion": { "en": "Cylinder protrusion past the escutcheon", "zh": "锁芯突出面板的量" },
+    "spindleSize": { "en": "Spindle (follower) size", "zh": "方轴（把手轴）尺寸" },
+    "spindleCentreHeight": { "en": "Spindle centre height from floor", "zh": "方轴中心离地高度" },
+    "crossBore": { "en": "Cross bore diameter", "zh": "横孔直径" },
+    "edgeBore": { "en": "Edge bore diameter", "zh": "边孔直径" },
+    "boltThrow": { "en": "Deadbolt throw", "zh": "斜舌/方舌伸出行程" },
+    "boltSize": { "en": "Bolt face size", "zh": "锁舌端面尺寸" },
+    "leverCount": { "en": "Lever count", "zh": "拨叉（杠杆）片数" },
+    "turnPieceSize": { "en": "Interior thumb-turn / turn-piece size and profile", "zh": "内侧旋钮尺寸与形状" },
+    "gearboxSize": { "en": "Gearbox / centre case size", "zh": "齿轮箱（中央传动盒）尺寸" },
+    "handleScrewSpacing": { "en": "Handle fixing screw spacing", "zh": "把手固定螺钉孔距" },
+    "keyProfile": { "en": "Key profile", "zh": "钥匙槽型" },
+    "handing": { "en": "Handing (DIN left / right)", "zh": "开向（DIN 左 / 右）" },
+    "camType": { "en": "Cam type and clock position", "zh": "凸轮（拨叉片）型式与角度位置" },
+    "holePattern": { "en": "Fixing hole pattern / pitch", "zh": "固定孔位 / 孔距" },
+    "clearanceToGate": { "en": "Clearance between door handle and gate handle", "zh": "门把手与铁闸把手的净空" },
+    "doorMaterial": { "en": "Door material and construction", "zh": "门材质与结构" },
+    "fireRating": { "en": "Fire rating of the door leaf", "zh": "门扇耐火等级" },
+    "escutcheonSize": { "en": "Escutcheon / rose diameter", "zh": "锁孔盖（圆盖）直径" },
+    "strikePlate": { "en": "Strike plate position and pocket depth", "zh": "扣板位置与孔槽深度" },
+    "stapleSize": { "en": "Hasp staple diameter", "zh": "搭扣环（锁鼻）直径" },
+    "gateThickness": { "en": "Gate leaf thickness", "zh": "闸门扇厚度" },
+    "barSpacing": { "en": "Gate bar spacing", "zh": "闸杆间距" },
+    "gateToDoorGap": { "en": "Gate-to-door depth clearance", "zh": "闸门与主门的深度净空" }
   },
   "architecture": {
     "motor-on-thumbturn": {
@@ -157,285 +64,79 @@
     }
   },
   "labels": {
-    "status": {
-      "en": "Data status",
-      "zh": "数据状态"
-    },
-    "verified": {
-      "en": "Cross-checked against a published source",
-      "zh": "已对照公开资料交叉核对"
-    },
-    "needs-review": {
-      "en": "Needs review — contributed or remembered, not yet cross-checked",
-      "zh": "待核对：为贡献或记忆内容，尚未交叉核对"
-    },
-    "regions": {
-      "en": "Where you will meet this lock",
-      "zh": "常见地区"
-    },
-    "typical": {
-      "en": "Typical values",
-      "zh": "常见值"
-    },
-    "howToMeasure": {
-      "en": "How to measure",
-      "zh": "测量方法"
-    },
-    "tolerance": {
-      "en": "Tolerance that still fits",
-      "zh": "可用公差"
-    },
-    "standards": {
-      "en": "Related standards",
-      "zh": "相关标准"
-    },
-    "retrofitArchitectures": {
-      "en": "Retrofit architectures that work",
-      "zh": "适用的改造架构"
-    },
-    "blockers": {
-      "en": "Known blockers",
-      "zh": "已知阻碍"
-    },
-    "adapterInterfaces": {
-      "en": "Adapter interfaces to design",
-      "zh": "需要设计的适配接口"
-    },
-    "designChecklist": {
-      "en": "Design checklist",
-      "zh": "设计检查清单"
-    },
-    "sources": {
-      "en": "Sources",
-      "zh": "资料来源"
-    },
-    "faq": {
-      "en": "Questions",
-      "zh": "常见问题"
-    },
-    "aliases": {
-      "en": "Also called",
-      "zh": "别名"
-    },
-    "scope": {
-      "en": "Scope",
-      "zh": "适用范围"
-    },
-    "keyPoints": {
-      "en": "What it actually decides",
-      "zh": "该标准实际决定什么"
-    },
-    "appliesTo": {
-      "en": "Applies to these lock types",
-      "zh": "适用的锁型"
-    },
-    "measureInThisOrder": {
-      "en": "Measure in this order",
-      "zh": "按此顺序测量"
-    },
-    "anatomy": {
-      "en": "Anatomy",
-      "zh": "结构组成"
-    },
-    "fitNotes": {
-      "en": "Fit notes",
-      "zh": "适配说明"
-    },
-    "contributesData": {
-      "en": "Contribute data",
-      "zh": "贡献数据"
-    },
-    "backToIndex": {
-      "en": "Back to index",
-      "zh": "返回索引"
-    },
-    "openFile": {
-      "en": "Edit this record on GitHub",
-      "zh": "在 GitHub 上编辑此条目"
-    }
+    "status": { "en": "Data status", "zh": "数据状态" },
+    "verified": { "en": "Cross-checked against a published source", "zh": "已对照公开资料交叉核对" },
+    "needs-review": { "en": "Needs review — contributed or remembered, not yet cross-checked", "zh": "待核对：为贡献或记忆内容，尚未交叉核对" },
+    "regions": { "en": "Where you will meet this lock", "zh": "常见地区" },
+    "typical": { "en": "Typical values", "zh": "常见值" },
+    "howToMeasure": { "en": "How to measure", "zh": "测量方法" },
+    "tolerance": { "en": "Tolerance that still fits", "zh": "可用公差" },
+    "standards": { "en": "Related standards", "zh": "相关标准" },
+    "retrofitArchitectures": { "en": "Retrofit architectures that work", "zh": "适用的改造架构" },
+    "blockers": { "en": "Known blockers", "zh": "已知阻碍" },
+    "adapterInterfaces": { "en": "Adapter interfaces to design", "zh": "需要设计的适配接口" },
+    "designChecklist": { "en": "Design checklist", "zh": "设计检查清单" },
+    "sources": { "en": "Sources", "zh": "资料来源" },
+    "faq": { "en": "Questions", "zh": "常见问题" },
+    "aliases": { "en": "Also called", "zh": "别名" },
+    "scope": { "en": "Scope", "zh": "适用范围" },
+    "keyPoints": { "en": "What it actually decides", "zh": "该标准实际决定什么" },
+    "appliesTo": { "en": "Applies to these lock types", "zh": "适用的锁型" },
+    "measureInThisOrder": { "en": "Measure in this order", "zh": "按此顺序测量" },
+    "anatomy": { "en": "Anatomy", "zh": "结构组成" },
+    "fitNotes": { "en": "Fit notes", "zh": "适配说明" },
+    "contributesData": { "en": "Contribute data", "zh": "贡献数据" },
+    "backToIndex": { "en": "Back to index", "zh": "返回索引" },
+    "openFile": { "en": "Edit this record on GitHub", "zh": "在 GitHub 上编辑此条目" }
   },
   "wizard": {
-    "title": {
-      "en": "Identify your lock",
-      "zh": "识别你的锁"
-    },
-    "start": {
-      "en": "Start",
-      "zh": "开始"
-    },
-    "restart": {
-      "en": "Start over",
-      "zh": "重新开始"
-    },
-    "back": {
-      "en": "Back",
-      "zh": "上一步"
-    },
-    "next": {
-      "en": "Next",
-      "zh": "下一步"
-    },
-    "other": {
-      "en": "None of these / not sure",
-      "zh": "以上都不是 / 不确定"
-    },
-    "result": {
-      "en": "Most likely match",
-      "zh": "最可能的锁型"
-    },
-    "alternatives": {
-      "en": "Also possible",
-      "zh": "其他可能"
-    },
-    "measureNext": {
-      "en": "Measure these before buying anything",
-      "zh": "购买前请先测量这些"
-    },
-    "retrofitOptions": {
-      "en": "Retrofit architectures that fit",
-      "zh": "可用的改造架构"
-    },
-    "copyReport": {
-      "en": "Copy spec sheet",
-      "zh": "复制规格单"
-    },
-    "downloadReport": {
-      "en": "Download spec sheet",
-      "zh": "下载规格单"
-    },
-    "copied": {
-      "en": "Copied",
-      "zh": "已复制"
-    },
-    "progress": {
-      "en": "Question {n} of {total}",
-      "zh": "第 {n} 题，共 {total} 题"
-    },
+    "title": { "en": "Identify your lock", "zh": "识别你的锁" },
+    "start": { "en": "Start", "zh": "开始" },
+    "restart": { "en": "Start over", "zh": "重新开始" },
+    "back": { "en": "Back", "zh": "上一步" },
+    "next": { "en": "Next", "zh": "下一步" },
+    "other": { "en": "None of these / not sure", "zh": "以上都不是 / 不确定" },
+    "result": { "en": "Most likely match", "zh": "最可能的锁型" },
+    "alternatives": { "en": "Also possible", "zh": "其他可能" },
+    "measureNext": { "en": "Measure these before buying anything", "zh": "购买前请先测量这些" },
+    "retrofitOptions": { "en": "Retrofit architectures that fit", "zh": "可用的改造架构" },
+    "copyReport": { "en": "Copy spec sheet", "zh": "复制规格单" },
+    "downloadReport": { "en": "Download spec sheet", "zh": "下载规格单" },
+    "copied": { "en": "Copied", "zh": "已复制" },
+    "progress": { "en": "Question {n} of {total}", "zh": "第 {n} 题，共 {total} 题" },
     "unknown": {
       "en": "Not identified yet. Measure the backset and the centre distance — with those two numbers a locksmith or the catalog index can usually place it.",
       "zh": "暂时无法判定。请先测量锁芯中心距与中心距——有这两个数字，锁匠或本站索引通常就能定位。"
     }
   },
   "feedback": {
-    "title": {
-      "en": "Engineer feedback (No GitHub required)",
-      "zh": "工程师反馈（免登录，站内直接提交）"
-    },
-    "hint": {
-      "en": "Need more lock data or spotted an issue? Submit directly here. No GitHub account needed.",
-      "zh": "发现缺少锁型、需要特定尺寸或反馈纠错？直接在下方一行留言提交，无需 GitHub 账号。"
-    },
-    "category": {
-      "en": "Feedback type",
-      "zh": "反馈类型"
-    },
+    "title": { "en": "Engineer feedback", "zh": "工程师反馈" },
+    "hint": { "en": "Found a missing lock family, correction, or retrofit detail? This form stays in your browser and opens a pre-filled GitHub issue.", "zh": "发现缺少的锁型、错误或改造细节？表单内容只留在浏览器中，并打开预填的 GitHub Issue。" },
+    "category": { "en": "Feedback type", "zh": "反馈类型" },
     "categories": {
-      "new-family": {
-        "en": "New lock family / missing data",
-        "zh": "补充新锁型 / 缺资料"
-      },
-      "correction": {
-        "en": "Dimension correction",
-        "zh": "尺寸 / 参数纠错"
-      },
-      "retrofit": {
-        "en": "Retrofit architecture detail",
-        "zh": "改造方案与阻碍"
-      },
-      "other": {
-        "en": "Other suggestions",
-        "zh": "其他需求与建议"
-      }
+      "new-family": { "en": "New lock family", "zh": "新增锁型" },
+      "correction": { "en": "Correction", "zh": "纠错" },
+      "retrofit": { "en": "Retrofit detail", "zh": "改造细节" },
+      "other": { "en": "Other", "zh": "其他" }
     },
-    "message": {
-      "en": "Message (one line is fine)",
-      "zh": "反馈内容（输入一句话即可）"
-    },
-    "messagePlaceholder": {
-      "en": "e.g. Please add dimensions for Lockwood 001 deadlatch backset, or request sample...",
-      "zh": "例如：需要 Lockwood 001 的具体方轴尺寸，或申请增加某款防盗门锁数据..."
-    },
-    "contact": {
-      "en": "Contact info (optional)",
-      "zh": "联系方式（选填，邮箱/微信/手机，方便同步补充结果）"
-    },
-    "contactPlaceholder": {
-      "en": "Optional: email or phone",
-      "zh": "选填：邮箱或微信"
-    },
-    "submit": {
-      "en": "Submit feedback",
-      "zh": "立即提交反馈"
-    },
-    "submitting": {
-      "en": "Submitting...",
-      "zh": "正在提交..."
-    },
-    "submitted": {
-      "en": "Submitted! ID: ",
-      "zh": "提交成功！反馈编号："
-    },
-    "submitFailed": {
-      "en": "API offline. Please click Copy below to send via email/chat.",
-      "zh": "当前镜像未连接后端，可点击右侧“复制反馈”通过微信/邮件转发"
-    },
-    "tooShort": {
-      "en": "Please enter at least 3 characters",
-      "zh": "请至少输入3个字"
-    },
-    "openIssue": {
-      "en": "Open GitHub Issue (optional)",
-      "zh": "通过 GitHub Issue 提交（可选）"
-    },
-    "copy": {
-      "en": "Copy feedback to clipboard",
-      "zh": "复制反馈内容"
-    },
-    "copied": {
-      "en": "Copied to clipboard",
-      "zh": "已复制到剪贴板"
-    },
-    "note": {
-      "en": "Your input is securely received by the team. You can also copy to clipboard anytime.",
-      "zh": "反馈将直达维护工程师工作队列。中国国内工程师亦可一键复制内容，通过微信/工作群直接转发。"
-    }
+    "message": { "en": "Message", "zh": "留言" },
+    "openIssue": { "en": "Open GitHub issue", "zh": "打开 GitHub Issue" },
+    "copy": { "en": "Copy feedback", "zh": "复制反馈" },
+    "copied": { "en": "Copied", "zh": "已复制" },
+    "note": { "en": "Nothing is uploaded by this site. Review the text before opening GitHub.", "zh": "本站不会上传任何内容。打开 GitHub 前请先检查文字。" }
   },
   "photo": {
-    "title": {
-      "en": "Photo measure",
-      "zh": "拍照量尺寸"
-    },
-    "drop": {
-      "en": "Take or choose a photo of your lock",
-      "zh": "拍摄或选择一张锁的照片"
-    },
+    "title": { "en": "Photo measure", "zh": "拍照量尺寸" },
+    "drop": { "en": "Take or choose a photo of your lock", "zh": "拍摄或选择一张锁的照片" },
     "hint": {
       "en": "Put a bank card, a coin or a tape measure in the same photo as the lock. Your photo never leaves this page — the measurement runs in your browser.",
       "zh": "请把银行卡、硬币或卷尺和锁拍进同一张照片。照片不会离开本页——测量在浏览器本地完成。"
     },
-    "setReference": {
-      "en": "1. Mark the known object",
-      "zh": "1. 标定已知物体"
-    },
-    "measure": {
-      "en": "2. Click two points on the lock",
-      "zh": "2. 在锁上点两个点"
-    },
-    "referenceLength": {
-      "en": "Known length (mm)",
-      "zh": "已知长度（毫米）"
-    },
-    "result": {
-      "en": "Measured length",
-      "zh": "测量结果"
-    },
-    "reset": {
-      "en": "Reset",
-      "zh": "重置"
-    },
-    "noSupport": {
-      "en": "This browser cannot run the photo tool. Use the printed measuring guide instead.",
-      "zh": "当前浏览器无法运行拍照工具，请改用打印版测量指南。"
-    }
+    "setReference": { "en": "1. Mark the known object", "zh": "1. 标定已知物体" },
+    "measure": { "en": "2. Click two points on the lock", "zh": "2. 在锁上点两个点" },
+    "referenceLength": { "en": "Known length (mm)", "zh": "已知长度（毫米）" },
+    "result": { "en": "Measured length", "zh": "测量结果" },
+    "reset": { "en": "Reset", "zh": "重置" },
+    "noSupport": { "en": "This browser cannot run the photo tool. Use the printed measuring guide instead.", "zh": "当前浏览器无法运行拍照工具，请改用打印版测量指南。" }
   }
 }

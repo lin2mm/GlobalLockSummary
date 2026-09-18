@@ -1281,7 +1281,8 @@ function build() {
         : extractFaqFromMarkdown(body, lang);
 
       const isHomePage = slug === 'index.html';
-      const bodyHtmlContent = isHomePage ? html : `<h1>${escapeHtml(title)}</h1>\n${html}`;
+      const hasLeadingH1 = html.trim().startsWith('<h1') || html.includes('<h1');
+      const bodyHtmlContent = isHomePage ? html : (hasLeadingH1 ? html : `<h1>${escapeHtml(title)}</h1>\n${html}`);
 
       emitPage({
         lang,
