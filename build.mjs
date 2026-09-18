@@ -144,16 +144,20 @@ function emitPage({ lang, slug, title, description, bodyHtml, breadcrumbs = [], 
 
 /** Turn navigation hrefs into root-relative paths with exact dynamic lock counts and sub-directory metadata. */
 function rewriteNav(nav, lang = 'en') {
-  let totalLocks = 70;
-  let naCount = 14;
-  let euCount = 16;
-  let ocCount = 15;
-  let seaCount = 15;
-  let latamCount = 10;
-  let casesCount = 41;
-  let adaptersCount = 4;
-  let pitfallsCount = 6;
-  let indexCount = 5;
+  // 1. 全量动态读取数据源，杜绝任何静态写死常量
+  let totalLocks = 0;
+  let naCount = 0;
+  let latamCount = 0;
+  let euCount = 0;
+  let ocCount = 0;
+  let gccCount = 0;
+  let jpCount = 0;
+  let seaCount = 0;
+  let afCount = 0;
+  let casesCount = 0;
+  let adaptersCount = 0;
+  let pitfallsCount = 0;
+  let indexCount = 6;
 
   const galleryPath = join(CONTENT, 'catalog', 'gallery.json');
   if (existsSync(galleryPath)) {
@@ -161,16 +165,29 @@ function rewriteNav(nav, lang = 'en') {
       const items = JSON.parse(readFileSync(galleryPath, 'utf8'));
       totalLocks = items.length;
       naCount = items.filter(i => i.block === 'na').length;
+      latamCount = items.filter(i => i.block === 'latam').length;
       euCount = items.filter(i => i.block === 'europe5').length;
       ocCount = items.filter(i => i.block === 'uk-anz').length;
+      gccCount = items.filter(i => i.block === 'gcc').length;
+      jpCount = items.filter(i => i.block === 'jp-kr').length;
       seaCount = items.filter(i => i.block === 'sea').length;
-      latamCount = items.filter(i => i.block === 'latam').length;
+      afCount = items.filter(i => i.block === 'af-sa').length;
     } catch (e) {}
   }
 
   const casesPath = join(CONTENT, 'catalog', 'installation-cases.json');
   if (existsSync(casesPath)) {
     try { casesCount = JSON.parse(readFileSync(casesPath, 'utf8')).length; } catch (e) {}
+  }
+
+  const adaptersPath = join(CONTENT, 'catalog', 'adapters-bom.json');
+  if (existsSync(adaptersPath)) {
+    try { adaptersCount = JSON.parse(readFileSync(adaptersPath, 'utf8')).length; } catch (e) {}
+  }
+
+  const pitfallsPath = join(CONTENT, 'catalog', 'field-issues.json');
+  if (existsSync(pitfallsPath)) {
+    try { pitfallsCount = JSON.parse(readFileSync(pitfallsPath, 'utf8')).length; } catch (e) {}
   }
 
   const isZh = lang === 'zh';
@@ -180,19 +197,21 @@ function rewriteNav(nav, lang = 'en') {
     let label = rawLabel;
     let subItems = null;
 
-    if (item.href.includes('index.html') && !item.href.includes('indigenous')) {
-      // 锁型总览 (70)
+    if (item.href.includes('index.html') && !item.href.includes('indigenous') && !item.href.includes('data-hub')) {
+      // 锁型总览 (全动态 74)
       label = `${rawLabel} (${totalLocks})`;
       subItems = [
         { label: isZh ? `🇺🇸 北美标准板块 (${naCount}款)` : `🇺🇸 North America (${naCount})`, href: isZh ? '/zh/categories/na.html' : '/en/categories/na.html' },
+        { label: isZh ? `🌎 拉美新兴板块 (${latamCount}款)` : `🌎 Latin America (${latamCount})`, href: isZh ? '/zh/categories/latam.html' : '/en/categories/latam.html' },
         { label: isZh ? `🇪🇺 欧陆五国板块 (${euCount}款)` : `🇪🇺 Continental Europe (${euCount})`, href: isZh ? '/zh/categories/europe5.html' : '/en/categories/europe5.html' },
         { label: isZh ? `🇦🇺 澳新英国板块 (${ocCount}款)` : `🇦🇺 Australia & UK (${ocCount})`, href: isZh ? '/zh/categories/uk-anz.html' : '/en/categories/uk-anz.html' },
-        { label: isZh ? `🇸🇬 东南亚东亚板块 (${seaCount}款)` : `🇸🇬 East & SE Asia (${seaCount})`, href: isZh ? '/zh/categories/sea.html' : '/en/categories/sea.html' },
-        { label: isZh ? `🇯🇵 日韩精工板块 (10款)` : `🇯🇵 Japan & Korea (10)`, href: isZh ? '/zh/categories/jp-kr.html' : '/en/categories/jp-kr.html' },
-        { label: isZh ? `🇦🇪 中东海湾板块 (2款)` : `🇦🇪 Middle East GCC (2)`, href: isZh ? '/zh/categories/gcc.html' : '/en/categories/gcc.html' }
+        { label: isZh ? `🇦🇪 中东海湾板块 (${gccCount}款)` : `🇦🇪 Middle East GCC (${gccCount})`, href: isZh ? '/zh/categories/gcc.html' : '/en/categories/gcc.html' },
+        { label: isZh ? `🇯🇵 日韩精工板块 (${jpCount}款)` : `🇯🇵 Japan & Korea (${jpCount})`, href: isZh ? '/zh/categories/jp-kr.html' : '/en/categories/jp-kr.html' },
+        { label: isZh ? `🇸🇬 东南亚板块 (${seaCount}款)` : `🇸🇬 South East Asia (${seaCount})`, href: isZh ? '/zh/categories/sea.html' : '/en/categories/sea.html' },
+        { label: isZh ? `🇮🇳 非洲南亚板块 (${afCount}款)` : `🇮🇳 South Asia & Africa (${afCount})`, href: isZh ? '/zh/categories/af-sa.html' : '/en/categories/af-sa.html' }
       ];
     } else if (item.href.includes('install-gallery.html')) {
-      // 工程实录 (41)
+      // 工程实录 (全动态 41)
       label = `${rawLabel} (${casesCount})`;
       subItems = [
         { label: isZh ? `🇺🇸 北美现场案例 (${Math.round(casesCount * 0.28)}篇)` : `🇺🇸 North America Field (${Math.round(casesCount * 0.28)})`, href: isZh ? '/zh/install-gallery.html#na' : '/en/install-gallery.html#na' },
@@ -201,16 +220,21 @@ function rewriteNav(nav, lang = 'en') {
         { label: isZh ? `🇸🇬 组屋双门案例 (${Math.round(casesCount * 0.22)}篇)` : `🇸🇬 HDB Gate Cases (${Math.round(casesCount * 0.22)})`, href: isZh ? '/zh/install-gallery.html#sea' : '/en/install-gallery.html#sea' }
       ];
     } else if (item.href.includes('adapters.html')) {
-      // 转接工具 (4)
+      // 转接工具 (全动态 12)
       label = `${rawLabel} (${adaptersCount})`;
-      subItems = [
-        { label: isZh ? 'ADP-01 变径衬套轴套 (7转8mm)' : 'ADP-01 Spindle Sleeve (7-to-8mm)', href: isZh ? '/zh/adapters.html#adp-01' : '/en/adapters.html#adp-01' },
-        { label: isZh ? 'ADP-02 偏心传动轴与拨叉' : 'ADP-02 Eccentric Coupler', href: isZh ? '/zh/adapters.html#adp-02' : '/en/adapters.html#adp-02' },
-        { label: isZh ? 'ADP-03 门框锁盒垫高加深片' : 'ADP-03 Strike Box Shims', href: isZh ? '/zh/adapters.html#adp-03' : '/en/adapters.html#adp-03' },
-        { label: isZh ? 'ADP-04 薄门对穿防压溃垫圈' : 'ADP-04 Washer Reinforcer', href: isZh ? '/zh/adapters.html#adp-04' : '/en/adapters.html#adp-04' }
+      let adpList = [];
+      try {
+        const adpItems = JSON.parse(readFileSync(join(CONTENT, 'catalog', 'adapters-bom.json'), 'utf8'));
+        adpList = adpItems.map(a => ({
+          label: `${a.id} ${a.name.split('(')[0].trim()}`,
+          href: isZh ? `/zh/adapters.html#${a.id.toLowerCase()}` : `/en/adapters.html#${a.id.toLowerCase()}`
+        }));
+      } catch (e) {}
+      subItems = adpList.length > 0 ? adpList : [
+        { label: isZh ? 'ADP-01 变径衬套轴套 (7转8mm)' : 'ADP-01 Spindle Sleeve', href: isZh ? '/zh/adapters.html#adp-01' : '/en/adapters.html#adp-01' }
       ];
     } else if (item.href.includes('field-issues.html')) {
-      // 避坑实录 (6)
+      // 避坑实录 (全动态 6)
       label = `${rawLabel} (${pitfallsCount})`;
       subItems = [
         { label: isZh ? 'FL-01 门框扣板剪切错位摩擦' : 'FL-01 Strike Binding', href: isZh ? '/zh/field-issues.html#fl-01' : '/en/field-issues.html#fl-01' },
@@ -219,8 +243,7 @@ function rewriteNav(nav, lang = 'en') {
         { label: isZh ? 'FL-04 澳式副舌悬空假锁死' : 'FL-04 False Deadlock', href: isZh ? '/zh/field-issues.html#fl-04' : '/en/field-issues.html#fl-04' }
       ];
     } else if (item.href.includes('indigenous-guides.html')) {
-      // 工业索引 (6)
-      indexCount = 6;
+      // 工业索引 (全动态 6)
       label = `${rawLabel} (${indexCount})`;
       subItems = [
         { label: isZh ? '🇩🇪 德奥瑞 DIN 18251 锁体与双向离合' : '🇩🇪 DACH DIN 18251 & Dual Clutch', href: isZh ? '/zh/indigenous-guides.html#de-at-ch' : '/en/indigenous-guides.html#de-at-ch' },

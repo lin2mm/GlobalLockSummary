@@ -8,7 +8,7 @@
     "build": "node build.mjs",
     "dev": "node build.mjs --watch",
     "serve": "node build.mjs && node serve.mjs",
-    "test": "node build.mjs && node tests/scoring.test.mjs && node tests/site.test.mjs",
+    "test": "node build.mjs && node tests/scoring.test.mjs && node tests/site.test.mjs && node tests/dynamic-nav-counter.test.mjs",
     "check": "node --check build.mjs && node --check serve.mjs && node --check src/markdown.mjs && node --check src/layout.mjs && node --check assets/js/identify.js && node --check assets/js/photo.js && node --check assets/js/scoring.js && node --check assets/js/search.js && node --check assets/js/feedback.js && node tools/validate-data.mjs"
   },
   "engines": {
