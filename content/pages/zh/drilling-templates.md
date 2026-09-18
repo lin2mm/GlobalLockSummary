@@ -12,7 +12,7 @@ lang: "zh"
 
 ---
 
-## 1. 北美 ANSI A156.36 呆锁开孔打样规程 (Schlage B60 / Kwikset 660)
+<h2 id="tpl-us-ansi-deadbolt">1. 北美 ANSI A156.36 呆锁开孔打样规程</h2> (Schlage B60 / Kwikset 660)
 
 <div style="display: flex; gap: 20px; align-items: flex-start; margin: 24px 0; background: var(--color-bg-card, #f8fafc); padding: 18px; border-radius: 8px; border: 1px solid var(--color-border, #e2e8f0); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 260px;">
@@ -32,7 +32,7 @@ lang: "zh"
 
 ---
 
-## 2. 日本 JIS A5511 切欠打样规程 (MIWA LA / 13LA)
+<h2 id="tpl-jp-miwa-la">2. 日本 JIS A5511 切欠打样规程</h2> (MIWA LA / 13LA)
 
 <div style="display: flex; gap: 20px; align-items: flex-start; margin: 24px 0; background: var(--color-bg-card, #f8fafc); padding: 18px; border-radius: 8px; border: 1px solid var(--color-border, #e2e8f0); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 260px;">

@@ -38,7 +38,7 @@ lang: "zh"
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
     <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
-      <img src="../assets/img/pitfalls/singapore-gate-clash.jpg" alt="双门极限净距撞击" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="../assets/img/pitfalls/singapore-gate-clash.jpg" alt="双门极限净距撞击" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
       <span style="position: absolute; top: 8px; left: 8px; background: #ea580c; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-03 · 机械碰撞</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">新加坡 (HDB)</span>
     </div>

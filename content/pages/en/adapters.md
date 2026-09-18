@@ -19,7 +19,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">北美 (US/CA)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">北美 ANSI Deadbolt 十字/扁条万向阶梯适配盘 (Universal Tailpiece Cam)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/locks/us-deadbolt.html" style="color: inherit; text-decoration: none;">北美 ANSI Deadbolt 十字/扁条万向阶梯适配盘 (Universal Tailpiece Cam)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 扁槽宽度 2.2mm / 4.5mm 双阶梯设计，厚度 6.0mm</div>
@@ -39,7 +39,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">欧陆五国 (Continental Europe)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">欧标双向锁芯钥匙柄薄形夹持爪 (Nuki-Style Key Clamp)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/locks/euro-cylinder-mortise.html" style="color: inherit; text-decoration: none;">欧标双向锁芯钥匙柄薄形夹持爪 (Nuki-Style Key Clamp)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 钥匙插槽深度 18mm，容纳钥匙厚度最大 4.2mm</div>
@@ -59,7 +59,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">日本 (JP)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">日本 MIWA B5 防盗捏合旋钮双侧斜坡抓手 (Pinch Gripper)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/locks/jp-miwa-case.html" style="color: inherit; text-decoration: none;">日本 MIWA B5 防盗捏合旋钮双侧斜坡抓手 (Pinch Gripper)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 内腔宽度 24.2 ±0.1mm，捏合行程 2.5mm，斜坡导向角 35°</div>
@@ -79,7 +79,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">全球通用 (Global)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">门框扣盒可调不锈钢垫片组 (Strike Plate Shims & Spacers)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/locks/us-deadbolt.html" style="color: inherit; text-decoration: none;">门框扣盒可调不锈钢垫片组 (Strike Plate Shims & Spacers)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 孔距 41.5mm (ANSI) 与 72mm (DIN)，厚度 1.0mm / 1.5mm / 2.0mm</div>
@@ -99,7 +99,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">澳洲 / 新西兰 (AU/NZ)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">澳式 Lockwood 001/355 水滴形大旋钮转接夹具 (Teardrop Turn Adapter)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/locks/au-deadlatch.html" style="color: inherit; text-decoration: none;">澳式 Lockwood 001/355 水滴形大旋钮转接夹具 (Teardrop Turn Adapter)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 长径 48.5 ±0.2mm，短径 34.5 ±0.2mm，耐扭矩 ≥2.2 N·m</div>
@@ -119,7 +119,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">法国 / 比利时 (FR/BE)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">法国 7mm 转 8mm 方轴开槽变径套管 (Spindle Adapter Sleeve)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/categories/europe5.html" style="color: inherit; text-decoration: none;">法国 7mm 转 8mm 方轴开槽变径套管 (Spindle Adapter Sleeve)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 外径 8.00 -0.05mm，内孔 7.05 +0.05mm，开槽缝宽 1.0mm，长度 28mm</div>
@@ -139,7 +139,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">德国 / 奥地利 / 瑞士 (DE/AT/CH)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">德国 8mm 转 9mm 防火逃生方轴加粗套管 (DIN Panik Sleeve)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/categories/europe5.html" style="color: inherit; text-decoration: none;">德国 8mm 转 9mm 防火逃生方轴加粗套管 (DIN Panik Sleeve)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 外径 9.00 -0.05mm，内方 8.05 +0.05mm，长度 32mm</div>
@@ -159,7 +159,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">拉美 / 东南亚 (LatAm / SE Asia)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">拉美/亚太超薄夹板门贯穿防压溃加强圈 (Door Reinforcement Escutcheon)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/categories/latam.html" style="color: inherit; text-decoration: none;">拉美/亚太超薄夹板门贯穿防压溃加强圈 (Door Reinforcement Escutcheon)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 外径 32mm，内孔 5.5mm，冲压沉孔深度 1.8mm</div>
@@ -179,7 +179,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">中东海湾 / 欧洲实木排屋 (GCC 70~100mm / Europe Thick Timber)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">超厚门超长高碳钢预截槽方轴与螺栓包 (Ultra-Thick Door Long-Spindle Kit)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/categories/gcc.html" style="color: inherit; text-decoration: none;">超厚门超长高碳钢预截槽方轴与螺栓包 (Ultra-Thick Door Long-Spindle Kit)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 螺栓长度 120mm (M4/M5)，方轴 8×8×130mm 带每 5mm 预切防滑槽</div>
@@ -199,7 +199,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">全球通用 (Global Composite & Rebated Doors)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">门框高低差可调节 3D 悬臂门磁延伸支架 (Adjustable Door Sensor Extension Bracket)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/categories/sea.html" style="color: inherit; text-decoration: none;">门框高低差可调节 3D 悬臂门磁延伸支架 (Adjustable Door Sensor Extension Bracket)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 可调伸出量 10~35mm，内嵌 N52 强磁吸附槽，公差 ±0.2mm</div>
@@ -219,7 +219,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">澳洲 / 新西兰 / 英国 (AU/NZ/UK)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">澳洲旧锁改造成品金属遮盖修饰大背板 (Retrofit Escutcheon Cover Plate)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/locks/au-deadlatch.html" style="color: inherit; text-decoration: none;">澳洲旧锁改造成品金属遮盖修饰大背板 (Retrofit Escutcheon Cover Plate)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 规格 260 × 68 × 2.0mm，内嵌对穿定位孔距 38~54mm 兼容长孔</div>
@@ -239,7 +239,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">欧洲 / 英国 (Europe / UK PVC-U & Composite Doors)</span>
     </div>
     <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;">欧标多点联动门下沉抬把手助力扭簧机构 (Lift-to-Lock Pre-load Lever)</h3>
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem; color: #0f172a;"><a href="/en/categories/europe5.html" style="color: inherit; text-decoration: none;">欧标多点联动门下沉抬把手助力扭簧机构 (Lift-to-Lock Pre-load Lever)</a></h3>
       
       <div style="padding: 4px 0; font-size: 0.75rem; color: #475569; border-top: 1px solid #f1f5f9; margin-bottom: 6px;">
         <div><b>Tolerance & Dimensions:</b> 孔距 210mm/92mm PZ，扭力预紧值 1.2~1.5 N·m；双向对称安装</div>
