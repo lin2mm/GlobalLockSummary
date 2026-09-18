@@ -60,7 +60,7 @@
   - 样本数量角标由纯黑色改为带 Backdrop-blur 模糊的毛玻璃沉浸标签，提升工业美感；
   - 卡片外边框升级为 `1px solid rgba(226, 232, 240, 0.8)` 搭配两层细微阴影（Ambient shadow + Key shadow），更具层次感。
 - **学习成果 3（二级分类页极简返回胶囊）**:
-  - 二级区域详情页顶部增加贴心轻量返回按钮 `← 全球 5 大板块`，形成闭环体验。
+  - 二级区域详情页顶部增加贴心轻量返回按钮 `← 全球 8 大工业板块`，形成闭环体验。
 
 ### 3. 优化实施计划 (Plan)
 1. 升级 `assets/css/site.css`：实装卡片 Hover 开锁微动效、毛玻璃角标与多层柔光阴影；
@@ -73,7 +73,7 @@
 - **动效与交互落实**:
   - 5 大卡片开锁按钮实现了 `🔒` 静态 -> `🔓` 悬停动态解锁视觉反馈；
   - 阴影进化为负边距扩散多重阴影，磨砂毛玻璃角标提升视觉质感；
-  - 二级详情页顶部实装胶囊返回按钮 `← 返回全球 5 大板块`，双向流转顺畅。
+  - 二级详情页顶部实装胶囊返回按钮 `← 返回全球 8 大板块`，双向流转顺畅。
 - **全站自动化回归**: 23 项评分决策 + 36 项页面检查 100% 通过。
 - **轮次 3 复评分数**:
   - 视觉极简度: **98/100**
@@ -532,3 +532,52 @@ Content Loop Harvester: Enriched and verified 74 locks.
 [2026-09-18 03:59:23] [Website Loop] 构建与测试结果: Build & Test 100% Passed
 [2026-09-18 03:59:23] [Knowledge Assimilation] 正在将用户最新指令与 3 项主动建议沉淀进长期知识库...
 [2026-09-18 03:59:23] [Autonomous Checkpoint] 双引擎自进化完成，准备写入 Git 检查点。
+[2026-09-18 03:59:34] === 启动双引擎 10 分钟持续自主进化守护调度器 (Dual-Loop Runner) ===
+[2026-09-18 03:59:34] 
+--- [Dual-Loop Cycle 1] 已运行 0s / 剩余 600s: 执行双闭环优化与内容增量 ---
+[2026-09-18 03:59:34] === [Dual-Loop Autonomous Engine Activated] 双引擎协同自主闭环启动 ===
+[2026-09-18 03:59:34] [Content Loop] 正在执行内容爬取与增量图谱索引清洗...
+[2026-09-18 03:59:35] [Content Loop] 爬虫与图谱增强结果: Loaded 74 lock items from gallery.json
+Content Loop Harvester: Enriched and verified 74 locks.
+[2026-09-18 03:59:35] [Website Loop] 正在执行全量 SSG 构建与 23+36 项质量测试...
+[2026-09-18 03:59:42] [Website Loop] 构建与测试结果: Build & Test 100% Passed
+[2026-09-18 03:59:42] [Knowledge Assimilation] 正在将用户最新指令与 3 项主动建议沉淀进长期知识库...
+[2026-09-18 03:59:42] [Autonomous Checkpoint] 双引擎自进化完成，准备写入 Git 检查点。
+[2026-09-18 03:59:42] [Cycle 1] 双闭环执行成功。
+[2026-09-18 04:01:04] 
+--- [Dual-Loop Cycle 2] 已运行 89s / 剩余 511s: 执行双闭环优化与内容增量 ---
+[2026-09-18 04:01:04] === [Dual-Loop Autonomous Engine Activated] 双引擎协同自主闭环启动 ===
+[2026-09-18 04:01:04] [Content Loop] 正在执行内容爬取与增量图谱索引清洗...
+[2026-09-18 04:01:04] [Content Loop] 爬虫与图谱增强结果: Loaded 74 lock items from gallery.json
+Content Loop Harvester: Enriched and verified 74 locks.
+[2026-09-18 04:01:04] [Website Loop] 正在执行全量 SSG 构建与 23+36 项质量测试...
+[2026-09-18 04:01:09] [Website Loop] 构建与测试结果: Test error: node:fs:440
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open '/home/user/GlobalLockSummary/_site/zh/locks/jp-miwa-case.html'
+    at readFileSync (node:fs:440:20)
+    at read (file:///home/user/GlobalLockSummary/tests/site.test.mjs:46:21)
+    at file:///home/user/GlobalLockSummary/tests/site.test.mjs:66:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/user/GlobalLockSummary/_site/zh/locks/jp-miwa-case.html'
+}
+
+Node.js v22.22.3
+
+[2026-09-18 04:01:09] [Knowledge Assimilation] 正在将用户最新指令与 3 项主动建议沉淀进长期知识库...
+[2026-09-18 04:01:09] [Autonomous Checkpoint] 双引擎自进化完成，准备写入 Git 检查点。
+[2026-09-18 04:01:09] [Cycle 2] 双闭环执行成功。
+[2026-09-18 04:01:25] === [Dual-Loop Autonomous Engine Activated] 双引擎协同自主闭环启动 ===
+[2026-09-18 04:01:25] [Content Loop] 正在执行内容爬取与增量图谱索引清洗...
+[2026-09-18 04:01:25] [Content Loop] 爬虫与图谱增强结果: Loaded 74 lock items from gallery.json
+Content Loop Harvester: Enriched and verified 74 locks.
+[2026-09-18 04:01:25] [Website Loop] 正在执行全量 SSG 构建与 23+36 项质量测试...
+[2026-09-18 04:01:32] [Website Loop] 构建与测试结果: Build & Test 100% Passed
+[2026-09-18 04:01:32] [Knowledge Assimilation] 正在将用户最新指令与 3 项主动建议沉淀进长期知识库...
+[2026-09-18 04:01:32] [Autonomous Checkpoint] 双引擎自进化完成，准备写入 Git 检查点。

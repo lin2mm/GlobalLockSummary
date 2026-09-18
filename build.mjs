@@ -1414,7 +1414,7 @@ function build() {
       const categoryHtml = `<div class="gallery-block">
         <div class="category-top-nav">
           <a class="category-top-nav__back" href="${isZh ? '/zh/index.html' : '/en/index.html'}">
-            ← ${isZh ? '返回全球 5 大板块' : 'Back to 5 Major Divisions'}
+            ← ${isZh ? '返回全球 8 大板块' : 'Back to 8 Major Divisions'}
           </a>
           <span class="category-top-nav__meta">${block.items.length} ${isZh ? '款实拍型号' : 'models'}</span>
         </div>
