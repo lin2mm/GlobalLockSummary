@@ -1264,11 +1264,11 @@ function build() {
             ⚙️ <b>${isZh ? '工程关键指标:' : 'Key Metrics:'}</b> ${escapeHtml(c.keyMetrics)}
           </div>
           <div style="display: flex; gap: 8px;">
-            <a class="block-hero__btn" style="flex: 1; text-align: center; font-size: 0.8rem; padding: 6px 10px;" href="${lockLink}">
-              ${isZh ? '进入所属锁型详情 →' : 'View Lock Details →'}
+            <a class="block-hero__btn" style="flex: 1; text-align: center; font-size: 0.82rem; font-weight: 700; padding: 8px 12px; background: #0284c7 !important; color: #ffffff !important; border: 1px solid #0284c7; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 4px;" href="${lockLink}">
+              🔍 ${isZh ? '进入所属锁型详情 →' : 'View Lock Details →'}
             </a>
-            <a class="block-hero__btn" style="background: transparent; border: 1px solid #cbd5e1; color: #1e293b; font-size: 0.8rem; padding: 6px 10px;" href="${catLink}">
-              ${isZh ? '本区域图库' : 'Regional Gallery'}
+            <a class="block-hero__btn" style="background: #ffffff !important; border: 1.5px solid #0284c7; color: #0284c7 !important; font-size: 0.82rem; font-weight: 700; padding: 8px 12px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; justify-content: center;" href="${catLink}">
+              🖼️ ${isZh ? '本区域图库' : 'Regional Gallery'}
             </a>
           </div>
         </div>
