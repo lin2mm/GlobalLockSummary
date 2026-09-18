@@ -505,10 +505,10 @@
   },
   {
     "id": "CASE-LATAM-01",
-    "regionCode": "latam",
+    "regionCode": "gcc",
     "regionName": {
-      "zh": "拉美新兴板块",
-      "en": "Latin America"
+      "zh": "中东海湾",
+      "en": "Middle East GCC"
     },
     "title": {
       "zh": "巴西 ABNT NBR 14913 极窄背距 (40/45mm) 薄门插芯锁安装",
@@ -526,10 +526,10 @@
   },
   {
     "id": "CASE-LATAM-02",
-    "regionCode": "latam",
+    "regionCode": "gcc",
     "regionName": {
-      "zh": "拉美新兴板块",
-      "en": "Latin America"
+      "zh": "中东海湾",
+      "en": "Middle East GCC"
     },
     "title": {
       "zh": "巴西现代旋转轴心门 (Porta Pivotante) 滚珠碰珠锁体 (Fechadura Rolete)",
@@ -547,10 +547,10 @@
   },
   {
     "id": "CASE-LATAM-03",
-    "regionCode": "latam",
+    "regionCode": "gcc",
     "regionName": {
-      "zh": "拉美新兴板块",
-      "en": "Latin America"
+      "zh": "中东海湾",
+      "en": "Middle East GCC"
     },
     "title": {
       "zh": "拉美十字十字钥匙重型防盗外装锁 (Fechadura Sobrepor Tetra)",
@@ -820,10 +820,10 @@
   },
   {
     "id": "CASE-LATAM-04",
-    "regionCode": "latam",
+    "regionCode": "gcc",
     "regionName": {
-      "zh": "拉美新兴板块",
-      "en": "Latin America"
+      "zh": "中东海湾",
+      "en": "Middle East GCC"
     },
     "title": {
       "zh": "巴西 Stam 40mm 极窄插芯锁锌合金把手方轴同心度偏差",
@@ -841,10 +841,10 @@
   },
   {
     "id": "CASE-LATAM-05",
-    "regionCode": "latam",
+    "regionCode": "gcc",
     "regionName": {
-      "zh": "拉美新兴板块",
-      "en": "Latin America"
+      "zh": "中东海湾",
+      "en": "Middle East GCC"
     },
     "title": {
       "zh": "智利与安第斯山脉 ODIS 重型外装圆柱锁 (Cerrojo Sobreponer) 安装",

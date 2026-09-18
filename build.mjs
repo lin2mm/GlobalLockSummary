@@ -188,7 +188,8 @@ function rewriteNav(nav, lang = 'en') {
         { label: isZh ? `🇪🇺 欧陆五国板块 (${euCount}款)` : `🇪🇺 Continental Europe (${euCount})`, href: isZh ? '/zh/categories/europe5.html' : '/en/categories/europe5.html' },
         { label: isZh ? `🇦🇺 澳新英国板块 (${ocCount}款)` : `🇦🇺 Australia & UK (${ocCount})`, href: isZh ? '/zh/categories/uk-anz.html' : '/en/categories/uk-anz.html' },
         { label: isZh ? `🇸🇬 东南亚东亚板块 (${seaCount}款)` : `🇸🇬 East & SE Asia (${seaCount})`, href: isZh ? '/zh/categories/sea.html' : '/en/categories/sea.html' },
-        { label: isZh ? `🌎 拉美工业板块 (${latamCount}款)` : `🌎 Latin America (${latamCount})`, href: isZh ? '/zh/categories/latam.html' : '/en/categories/latam.html' }
+        { label: isZh ? `🇯🇵 日韩精工板块 (10款)` : `🇯🇵 Japan & Korea (10)`, href: isZh ? '/zh/categories/jp-kr.html' : '/en/categories/jp-kr.html' },
+        { label: isZh ? `🇦🇪 中东海湾板块 (2款)` : `🇦🇪 Middle East GCC (2)`, href: isZh ? '/zh/categories/gcc.html' : '/en/categories/gcc.html' }
       ];
     } else if (item.href.includes('install-gallery.html')) {
       // 工程实录 (41)
@@ -955,47 +956,60 @@ function getGalleryBlocks(lang) {
     {
       code: 'uk-anz',
       title: isZh ? '🇦🇺🇬🇧 澳洲与英国板块 (Pacific & UK — AS / BS)' : '🇦🇺🇬🇧 Australia, NZ & UK (Pacific & UK — AS / BS)',
-      shortTitle: isZh ? '澳洲与英国板块' : 'Australia, NZ & UK',
-      subtitle: isZh ? '英联邦经典五金体系 · 澳式外装夜锁 (Lockwood 001/002)、双扣死锁 (355)、英标 5 拨杆防盗锁 (BS 3621)' : 'Commonwealth hardware · Lockwood deadlatches, 355 deadlocks & UK 5-lever mortice sets',
+      shortTitle: isZh ? '澳新英国板块' : 'Australia & UK',
+      subtitle: isZh ? '高防盗高人工成本市场 · 澳洲 Lockwood 001 表面安装夜闩锁 (Rim Deadlatch)、大洋洲短进深锁体与英国 5 拨杆防盗插芯锁' : 'High-security & high-labor market · Lockwood 001 surface deadlatches, short-backset & BS 5-lever',
       hero: {
-        title: isZh ? '核心改装基准：澳式外装夜锁与双扣锁 (Lockwood 001 / 355)' : 'Core Retrofit Baseline: Australian Deadlatch & Deadlock (Lockwood 001 / 355)',
-        desc: isZh ? '大洋洲存量最大防盗锁。内侧带旋转大旋钮；死穴在于辅助锁舌（Auxiliary Latch）必须完全压入扣板，否则旋钮转动主舌并未死锁。' : 'Australia major lock. Large interior turn; auxiliary latch must fully compress for deadlatch.',
+        title: isZh ? '核心改装基准：澳式表面安装双扣死锁 (Lockwood 001 Deadlatch)' : 'Core Retrofit Baseline: Australian Lockwood 001 Deadlatch',
+        desc: isZh ? '澳洲独栋木门第一基准。特有水滴形大旋钮需专属 ADP-05 夹具；致命点在于辅舌必须完全压入方可死锁，门缝变异极易引发假锁死。' : 'AU wooden door benchmark. Teardrop turn requires ADP-05 adapter; auxiliary bolt must depress fully.',
         image: '/assets/img/hero/hero-anz-lockwood001.jpg',
         familyId: 'au-deadlatch',
-        tag: isZh ? '⭐ 强相关 · 澳标第一基准' : '⭐ Core ANZ Baseline'
+        tag: isZh ? '⭐ 极强相关 · 澳新第一基准' : '⭐ Pacific Baseline'
       },
       items: items.filter(i => i.block === 'uk-anz')
     },
     {
-      code: 'sea',
-      title: isZh ? '🇸🇬 东南亚与东亚板块 (Asia-Pacific — 铁闸与推拉锁)' : '🇸🇬 Southeast Asia & East Asia (Asia-Pacific)',
-      shortTitle: isZh ? '东南亚与东亚板块' : 'Southeast Asia & East Asia',
-      subtitle: isZh ? '极端净距与数字存量市场 · 新加坡 HDB 金属双门铁闸碰撞风险 (<80mm) 与早期推拉整锁边界样本' : 'Extreme clearances & digital stock · Singapore HDB gate clash (<80mm) & push-pull mortise',
+      code: 'jp-kr',
+      title: isZh ? '🇯🇵🇰🇷 日韩精工板块 (Japan & Korea — JIS / KS)' : '🇯🇵🇰🇷 Japan & Korea (JIS / KS)',
+      shortTitle: isZh ? '日韩精工板块' : 'Japan & Korea',
+      subtitle: isZh ? '极高精密装配工业体系 · 日本 MIWA / GOAL 超薄锁体、B5 防犯捏合旋钮与韩国无孔全自动锁' : 'Precision Asian standards · MIWA/GOAL slim mortise, B5 anti-theft thumbturn & Korean electronic push-pull',
       hero: {
-        title: isZh ? '核心改装基准：新加坡 HDB 金属防盗双门铁闸锁' : 'Core Retrofit Baseline: Singapore HDB Metal Security Gate Lock',
-        desc: isZh ? '东南亚代表性双门结构。外铁闸与内木门净距普遍小于 80mm，智能锁厚度超过 35mm 即发生把手致命撞击。' : 'Key SE Asia structure. Gap under 80mm; lock thickness >35mm causes severe gate handle collision.',
+        title: isZh ? '核心改装基准：日本 MIWA 13LA / B5 防犯斜坡旋钮锁' : 'Core Retrofit Baseline: Japan MIWA 13LA / B5 Thumbturn',
+        desc: isZh ? '日本独栋与公寓第一基准。内旋钮自带双侧防盗下压弹簧片；改装必须搭配 ADP-03 双斜坡抓手，转动前自动解锁，杜绝卡死烧机。' : 'Japan benchmark. Features anti-theft pinch release thumbturn requiring ADP-03 adapter.',
+        image: '/assets/img/indigenous/jp-thumbturn.jpg',
+        familyId: 'jp-miwa-case',
+        tag: isZh ? '⭐ 极强相关 · 日韩改装基准' : '⭐ Japan & Korea Baseline'
+      },
+      items: items.filter(i => i.block === 'jp-kr')
+    },
+    {
+      code: 'sea',
+      title: isZh ? '🇸🇬🇲🇾 东南亚板块 (ASEAN / SEA — SS / MS)' : '🇸🇬🇲🇾 South East Asia (ASEAN / SEA — SS / MS)',
+      shortTitle: isZh ? '东南亚板块' : 'South East Asia',
+      subtitle: isZh ? '东盟高密度热带五金体系 · 新加坡组屋 HDB 外铁闸与内木门极窄防撞空间、大马与泰国窄体铝门锁' : 'High-density tropical ASEAN systems · Singapore HDB gate clash, Malaysian & Thai narrow aluminum doors',
+      hero: {
+        title: isZh ? '核心改装基准：新加坡建屋局组屋 HDB 铁闸双门联动锁' : 'Core Retrofit Baseline: Singapore HDB Metal Gate Clash Mortise',
+        desc: isZh ? '新加坡组屋特色。外侧铁防盗网门与内侧木门间距极窄（通常 <80mm）；改装锁外壳极易与内门拉手碰撞（Clash），需极窄面板与超薄把手。' : 'Singapore HDB benchmark. Gate-to-door gap <80mm causes severe handle collision.',
         image: '/assets/img/hero/hero-sea-hdb.jpg',
-        familyId: 'sg-metal-gate-lock',
-        tag: isZh ? '⚠️ 极限净距边界基准' : '⚠️ Extreme Clearance'
+        familyId: 'sg-hdb-mortise',
+        tag: isZh ? '⭐ 极强相关 · 东南亚基准' : '⭐ South East Asia Baseline'
       },
       items: items.filter(i => i.block === 'sea')
     },
     {
-      code: 'latam',
-      title: isZh ? '🌎 拉美新兴板块 (Latin America — ABNT / ODIS)' : '🌎 Latin America & Emerging (ABNT / ODIS)',
-      shortTitle: isZh ? '拉美新兴板块' : 'Latin America',
-      subtitle: isZh ? '拉美大容量新兴五金体系 · 巴西 ABNT 窄背距插芯锁 (40/45mm)、薄门扇 (30mm) 与安第斯重型外装双钩锁' : 'Emerging market hardware · Brazil ABNT narrow backset (40/45mm) & heavy-duty rim locks',
+      code: 'gcc',
+      title: isZh ? '🇦🇪🇸🇦 中东海湾板块 (Middle East / GCC — SASO / BS / EN)' : '🇦🇪🇸🇦 Middle East / GCC (SASO / BS / EN)',
+      shortTitle: isZh ? '中东海湾板块' : 'Middle East / GCC',
+      subtitle: isZh ? '高客单重门耐候市场 · 沙特与阿联酋 60~90mm 超厚大门、英标 85mm 插芯、意标多点防盗与 75°C 太阳暴晒耐候工况' : 'High-AOV heavy door market · KSA/UAE 60-90mm doors, BS 85mm mortise & 75°C solar resistance',
       hero: {
-        title: isZh ? '核心改装基准：巴西 ABNT NBR 14913 极窄背距插芯锁' : 'Core Retrofit Baseline: Brazil ABNT Narrow Mortise (La Fonte / Silvana)',
-        desc: isZh ? '拉美大容量存量。背距仅 40/45mm，门扇厚仅 30mm，电机回转半径稍大即撞击门框防风条。' : 'Latin America high volume. Backset 40/45mm; thin 30mm door; motor radius must be strictly bounded.',
-        image: '/assets/img/hero/hero-latam-abnt.webp',
+        title: isZh ? '核心改装基准：海湾厚木门英标 85mm 重型插芯锁' : 'Core Retrofit Baseline: GCC BS 85mm Heavy-Duty Mortise',
+        desc: isZh ? '中东公寓与独栋大门最主流五金。大门厚重（55~85mm），标配必须提供 ADP-11 超长螺栓与方轴包；电子系统需耐受 75°C 暴晒与 IP65 沙尘。' : 'GCC benchmark. 55-85mm heavy doors require ADP-11 long-tailpiece bolts & 75°C solar thermal design.',
+        image: '/assets/img/gallery/eu-kfv-multipoint_real.jpg',
         familyId: 'euro-cylinder-mortise',
-        tag: isZh ? '⚠️ 窄背距与薄门基准' : '⚠️ Narrow Backset'
+        tag: isZh ? '⭐ 极强相关 · 中东海湾基准' : '⭐ Middle East GCC Baseline'
       },
-      items: items.filter(i => i.block === 'latam')
+      items: items.filter(i => i.block === 'gcc')
     }
-  ];
-}
+  ];}
 
 function renderGalleryCard(item, lang) {
   const isZh = lang === 'zh';
@@ -1155,7 +1169,7 @@ function build() {
     for (const s of standardsDoc.standards) register(lang, `standards/${s.id}.html`);
     for (const a of architecturesDoc.architectures) register(lang, `retrofit/${a.id}.html`);
     for (const d of devicesDoc.devices) register(lang, `devices/${d.id}.html`);
-    for (const b of ['na', 'europe5', 'uk-anz', 'sea', 'latam']) register(lang, `categories/${b}.html`);
+    for (const b of ['na', 'europe5', 'uk-anz', 'jp-kr', 'sea', 'gcc']) register(lang, `categories/${b}.html`);
     register(lang, 'install-gallery.html');
   }
 
@@ -1271,7 +1285,8 @@ function build() {
         <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/europe5.html' : '/en/categories/europe5.html'}">🇪🇺 ${isZh ? '欧陆五国 (8款)' : 'Continental Europe (8)'}</a>
         <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/uk-anz.html' : '/en/categories/uk-anz.html'}">🇦🇺🇬🇧 ${isZh ? '澳英板块 (10款)' : 'Australia & UK (10)'}</a>
         <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/sea.html' : '/en/categories/sea.html'}">🇸🇬 ${isZh ? '东南亚/东亚 (10款)' : 'Southeast Asia (10)'}</a>
-        <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/latam.html' : '/en/categories/latam.html'}">🌎 ${isZh ? '拉美新兴 (4款)' : 'Latin America (4)'}</a>
+          <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/jp-kr.html' : '/en/categories/jp-kr.html'}">🇯🇵 ${isZh ? '日韩精工 (10款)' : 'Japan & Korea (10)'}</a>
+          <a class="filter-chip" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;" href="${isZh ? '/zh/categories/gcc.html' : '/en/categories/gcc.html'}">🇦🇪 ${isZh ? '中东海湾 (2款)' : 'Middle East GCC (2)'}</a>
       </div>
 
       <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px;">

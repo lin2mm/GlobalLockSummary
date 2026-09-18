@@ -809,8 +809,14 @@ details p { margin: .6rem 0 .2rem; color: var(--fg-muted); }
 
 @media (min-width: 1024px) {
   .gallery-portal-grid {
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  .gallery-portal-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
   }
 }
 

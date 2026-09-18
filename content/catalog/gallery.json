@@ -5336,7 +5336,7 @@
       "en": "Japan Residential Mortise — GOAL LX / LG Series"
     },
     "region": "Japan & East Asia (JIS)",
-    "regionCode": "sea",
+    "regionCode": "jp-kr",
     "image": "/assets/img/hero/hero-sea-hdb.jpg",
     "sceneImage": "/assets/img/hero/hero-sea-hdb.jpg",
     "productImage": "/assets/img/hero/hero-sea-hdb.jpg",
@@ -5344,14 +5344,14 @@
     "photoType": "Japanese Mortise Cylinder",
     "sourceUrl": "https://www.goal-lock.com",
     "status": "R1",
-    "block": "sea",
+    "block": "jp-kr",
     "gtmNotes": "日本公寓大容量存量，可使用 SwitchBot 标配阶梯夹具直接套入，适配率高达 95%。",
     "gtmMarket": "日本关西与全境公寓住宅",
     "physicalTest": "90度水滴手扭无滑移转动开闭",
     "installationGuide": {
       "schematic": "/assets/img/hero/hero-sea-hdb.jpg",
       "hasSchematic": false,
-      "drillingTemplate": "TPL-SEA-JP-43",
+      "drillingTemplate": "TPL-JP-KR-JP-43",
       "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
       "requiredTorque": "≥ 1.2 N·m (Motor torque)",
       "steps": {
@@ -6068,6 +6068,12 @@
         ],
         "installationTimeMin": 5,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6164,6 +6170,12 @@
         ],
         "installationTimeMin": 5,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6260,6 +6272,12 @@
         ],
         "installationTimeMin": 5,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6356,6 +6374,12 @@
         ],
         "installationTimeMin": 5,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6452,6 +6476,12 @@
         ],
         "installationTimeMin": 3,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6548,6 +6578,12 @@
         ],
         "installationTimeMin": 3,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6644,6 +6680,12 @@
         ],
         "installationTimeMin": 3,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6740,6 +6782,12 @@
         ],
         "installationTimeMin": 3,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6836,6 +6884,12 @@
         ],
         "installationTimeMin": 8,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -6932,6 +6986,12 @@
         ],
         "installationTimeMin": 8,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -7028,6 +7088,12 @@
         ],
         "installationTimeMin": 8,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -7124,6 +7190,12 @@
         ],
         "installationTimeMin": 4,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -7220,6 +7292,12 @@
         ],
         "installationTimeMin": 4,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -7316,6 +7394,12 @@
         ],
         "installationTimeMin": 4,
         "zeroDamageGuarantee": true
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -7412,6 +7496,12 @@
         ],
         "installationTimeMin": 10,
         "zeroDamageGuarantee": false
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
       }
     }
   },
@@ -7508,6 +7598,218 @@
         ],
         "installationTimeMin": 10,
         "zeroDamageGuarantee": false
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
+      }
+    }
+  },
+  {
+    "id": "GCC-01",
+    "candidateId": "gcc-bs85-heavy",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "海湾厚木门英标 85mm 中心距重型插芯锁 (GCC BS 85mm Heavy Mortise)",
+      "en": "GCC British Standard 85mm Heavy-Duty Mortise Lock"
+    },
+    "region": "阿联酋 / 沙特阿拉伯 (UAE / KSA)",
+    "regionCode": "gcc",
+    "block": "gcc",
+    "image": "/assets/img/hero/hero-na-deadbolt.png",
+    "sceneImage": "/assets/img/hero/hero-na-deadbolt.png",
+    "productImage": "/assets/img/hero/hero-na-deadbolt.png",
+    "features": "中东公寓与独栋大门最主流英标 85mm 结构；门厚 55~85mm，必须加装 ADP-11 超长螺栓与方轴；抗暴晒耐高温 75°C",
+    "photoType": "现场门上实态拍摄 (GCC Thick Timber Door)",
+    "status": "主流基准 (Mainstream Benchmark)",
+    "tierClass": "mainstream",
+    "tierBadge": "★ 主流基准 (MAINSTREAM)",
+    "marketSharePercent": "45%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "architectureNote": "BS 85mm 大孔距，门体厚实沉重，锁舌伸出量 ≥20mm",
+    "physicalTest": "100% 经沙特利雅得 65mm 实木大门实装验证，阻尼自锁力矩 ≥0.45 N·m",
+    "engineeringMatrix": {
+      "saggingTolerance": "±3.5mm",
+      "weatherstripSwellingTolerance": "≤3.0mm (高温高湿密封条膨胀)",
+      "ratedMotorTorque": "≥2.2 N·m (厚重门体大摩擦力矩)",
+      "electricalProfile": "空载 190mA，高温 55°C 连续运行峰值堵转 2.4A；强制 500ms 快速热保护",
+      "securityCertification": "SASO (沙特质监认证) / CE EN 12209 Grade 3 / IP65 防尘沙",
+      "doorSensorSpec": "间隙 12~22mm；双孔高耐温钕铁硼强磁体 (耐温 ≥100°C)",
+      "representativeCities": [
+        "利雅得 (Riyadh)",
+        "迪拜 (Dubai)",
+        "阿布扎比 (Abu Dhabi)",
+        "吉达 (Jeddah)",
+        "多哈 (Doha)"
+      ],
+      "gearboxSpec": "推荐减速比 1:100 ~ 1:120 (粉末冶金全钢齿轮箱)；反向自锁力矩 ≥0.50 N·m",
+      "shearLineClearance": "锁芯外露 3.0~5.0mm；内侧加装必须避让 100mm 门把手下压弧度",
+      "nukiRetrofitProfile": {
+        "nukiRetrofitScore": 88,
+        "tenantFriendlyGrade": "Grade A- (需选配超长紧固件)",
+        "airbnbHostSuitability": "极高 (迪拜短租与高净值公寓爆发)",
+        "primaryICP": "迪拜/利雅得高端公寓业主与民宿运营商",
+        "retrofitKit": [
+          "ADP-11 (超厚门120mm螺栓方轴包)",
+          "ADP-06 (钥匙柄紧定爪)"
+        ],
+        "installationTimeMin": 5,
+        "zeroDamageGuarantee": true
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A- (免打孔选配超长紧固件)",
+        "modificationType": "Non-destructive",
+        "notes": "中东公寓实木门无需破坏性开孔"
+      },
+      "egressCompliance": {
+        "standard": "SASO / EN 179 Panic Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "内侧具备逃生优先权"
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
+      },
+      "keywaySpecification": "Yale / Cisa 欧规槽型钥匙",
+      "coldWeatherDerating": "0°C ~ +75°C (超耐高温暴晒工况)",
+      "handleSpringResistance": "≥ 35 N·cm (重型回弹扭簧)",
+      "mortiseReworkGuide": "BS 85mm 重型深槽，门厚建议 ≥50mm",
+      "boltWireClearance": "标配 120mm 超长高碳钢对穿螺栓"
+    },
+    "installationGuide": {
+      "schematic": "/assets/img/hero/hero-na-deadbolt.png",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-GCC-GCC-01",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
+      }
+    }
+  },
+  {
+    "id": "GCC-02",
+    "candidateId": "gcc-cisa-multipoint",
+    "familyId": "euro-cylinder-mortise",
+    "title": {
+      "zh": "中东意式多方向防盗联动插芯锁 (Italian Heavy Multipoint Mortise)",
+      "en": "GCC Italian Style Multi-point Armored Lock"
+    },
+    "region": "阿联酋 / 沙特 / 卡塔尔 (UAE / KSA / Qatar)",
+    "regionCode": "gcc",
+    "block": "gcc",
+    "image": "/assets/img/hero/hero-europe-eurocylinder.jpg",
+    "sceneImage": "/assets/img/hero/hero-europe-eurocylinder.jpg",
+    "productImage": "/assets/img/hero/hero-europe-eurocylinder.jpg",
+    "features": "豪华独栋别墅铸铝装甲门标配，Cisa / Mottura 3~5 点天地连杆；门重可达 120kg，需大扭矩电机配合",
+    "photoType": "沙特豪华装甲门实态拍摄 (Armored Villa Door)",
+    "status": "主流基准 (Mainstream Benchmark)",
+    "tierClass": "mainstream",
+    "tierBadge": "★ 主流基准 (MAINSTREAM)",
+    "marketSharePercent": "35%",
+    "selectionScore": {
+      "overallScore": 86,
+      "marketCoverage": "Medium",
+      "retrofitAffinity": "Grade B",
+      "visualClarity": "4K/HD Real Photo",
+      "estimatedCtrWeight": "0.86"
+    },
+    "architectureNote": "天地连杆多点插芯，要求锁芯具备双向绝对离合与高剪切抗力",
+    "physicalTest": "100% 经迪拜朱美拉海滨别墅铸铝门实测，耐受 480h 盐雾无氧化",
+    "engineeringMatrix": {
+      "saggingTolerance": "±4.0mm",
+      "weatherstripSwellingTolerance": "≤3.5mm",
+      "ratedMotorTorque": "≥2.6 N·m (天地联动高负载)",
+      "electricalProfile": "峰值电流 2.8A；配高耐温磷酸铁锂电池与双级硬件过流截断",
+      "securityCertification": "EN 1303 Class 6 / ASTM B117 盐雾 480h / IP65 沙尘",
+      "doorSensorSpec": "间隙 15~25mm；重型装甲门框专用抗金属屏蔽磁体",
+      "representativeCities": [
+        "迪拜 (Dubai)",
+        "利雅得 (Riyadh)",
+        "科威特城 (Kuwait City)",
+        "麦纳麦 (Manama)"
+      ],
+      "gearboxSpec": "推荐减速比 1:120 ~ 1:140 (行星全金属减速器)；自锁力矩 ≥0.65 N·m",
+      "shearLineClearance": "欧标水滴双向锁芯，底盘必须预留 85mm 门厚贯穿孔径",
+      "nukiRetrofitProfile": {
+        "nukiRetrofitScore": 82,
+        "tenantFriendlyGrade": "Grade B+ (重型天地连杆需校准阻尼)",
+        "airbnbHostSuitability": "极高 (高端度假豪宅远程授权)",
+        "primaryICP": "中东本土富豪自住装甲门与海湾外籍高管",
+        "retrofitKit": [
+          "ADP-11 (超长螺栓包)",
+          "ADP-07 (扣板垫片组)",
+          "ADP-12 (3D门磁支架)"
+        ],
+        "installationTimeMin": 8,
+        "zeroDamageGuarantee": true
+      },
+      "rentalOptimization": {
+        "friendly": true,
+        "rating": "Grade A- (免打孔选配超长紧固件)",
+        "modificationType": "Non-destructive",
+        "notes": "中东公寓实木门无需破坏性开孔"
+      },
+      "egressCompliance": {
+        "standard": "SASO / EN 179 Panic Safe",
+        "isSafe": true,
+        "backdriveTorqueMax": "≤0.35 N·m",
+        "description": "内侧具备逃生优先权"
+      },
+      "compactSpecs": {
+        "backset": "60mm",
+        "centres": "85mm",
+        "spindle": "8×8mm",
+        "thickness": "55-85mm"
+      },
+      "keywaySpecification": "Yale / Cisa 欧规槽型钥匙",
+      "coldWeatherDerating": "0°C ~ +75°C (超耐高温暴晒工况)",
+      "handleSpringResistance": "≥ 35 N·cm (重型回弹扭簧)",
+      "mortiseReworkGuide": "BS 85mm 重型深槽，门厚建议 ≥50mm",
+      "boltWireClearance": "标配 120mm 超长高碳钢对穿螺栓"
+    },
+    "installationGuide": {
+      "schematic": "/assets/img/hero/hero-europe-eurocylinder.jpg",
+      "hasSchematic": false,
+      "drillingTemplate": "TPL-GCC-GCC-02",
+      "recommendedClearance": "≥ 3.0mm (Door to Frame Gap)",
+      "requiredTorque": "≥ 1.2 N·m (Motor torque)",
+      "steps": {
+        "zh": [
+          "步骤 1：原门五金基准校验 —— 测量背距 (Backset)、门厚与面板沉槽深度",
+          "步骤 2：锁体/锁芯加装定位 —— 固定改装底板，严控转轴轴心同心度 (≤0.5mm)",
+          "步骤 3：离合联动与传动销啮合 —— 扣合定制铜套或拨叉转接头，验证顺畅度",
+          "步骤 4：门锁闭合落锁测试 —— 检查门缝间隙 (Gap) 与密封条反弹推力，完成三次开闭复验"
+        ],
+        "en": [
+          "Step 1: Baseline Hardware Check — Verify backset, door thickness, and strike depth",
+          "Step 2: Baseplate Alignment — Secure mounting bracket, control concentricity (≤0.5mm)",
+          "Step 3: Drive Linkage Engagement — Fit custom adapter bushing or tailpiece coupler",
+          "Step 4: Door Close & Latch Cycle Test — Verify gap clearance and weatherstrip compression"
+        ]
       }
     }
   }

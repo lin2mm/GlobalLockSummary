@@ -75,7 +75,7 @@ def build_master_excel():
             lk.get("title", {}).get("zh", ""),
             lk.get("title", {}).get("en", ""),
             lk.get("region"),
-            sel.get("marketCoverage", "High"),
+            sel.get("marketCoverage", "High") if isinstance(sel, dict) else "High",
             sel.get("retrofitAffinity", "Grade A"),
             lk.get("sceneImage", lk.get("image")),
             lk.get("productImage", lk.get("image")),
