@@ -1,10 +1,10 @@
 ---
-title: "Nuki-Like Smart Lock Patent Avoidance & FTO Engineering Guide"
+title: "Retrofit Smart Lock Patent Avoidance & FTO Guide & FTO Engineering Guide"
 slug: "patent-avoidance.html"
 lang: "en"
 ---
 
-# Nuki-Like Smart Lock Patent Avoidance & FTO Engineering Guide
+# Retrofit Smart Lock Patent Avoidance & FTO Guide & FTO Engineering Guide
 
 Designed for overseas smart hardware PMs, mechanical engineers, and IP legal counsel. Deconstructing core patent thickets, claims boundaries, and design-around pathways for **retrofit smart locks** (Nuki, August, SwitchBot, Tedee) across Europe, North America, and Japan.
 
@@ -37,6 +37,12 @@ Retrofit smart lock patents predominantly concentrate on **three-point mounting 
       <li><b>Rose Escutcheon Through-Bolt Mounting:</b> Mount directly to existing through-door bolt holes behind the decorative rose trim.</li>
     </ol>
   </div>
+
+  <!-- 1:1 专利权同等对比图 -->
+  <div style="margin: 16px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="/assets/img/patent/patent-clamping-comparison.svg" alt="锁芯夹持专利对比图" style="width: 100%; height: auto; display: block;" />
+  </div>
+
 </div>
 
 ### 2. Key Gripper & Floating Misalignment Coupling
@@ -49,6 +55,12 @@ Retrofit smart lock patents predominantly concentrate on **three-point mounting 
       <li><b>Modular Euro Cylinder Swap:</b> Bundle an EN 1303 universal modular cylinder (Nuki Ultra / Tedee approach) rather than gripping inserted keys.</li>
     </ol>
   </div>
+
+  <!-- 钥匙柄耦合与 Oldham 浮动拨叉对比图 -->
+  <div style="margin: 16px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="/assets/img/patent/patent-oldham-coupling-comparison.svg" alt="Oldham 十字滑块浮动规避专利对比图" style="width: 100%; height: auto; display: block;" />
+  </div>
+
 </div>
 
 ### 3. Manual Override Clutch Decoupling

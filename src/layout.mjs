@@ -67,21 +67,24 @@ export function layout(opts) {
     note: feedbackTerms.note?.[lang] || feedbackTerms.note?.en || '',
   };
   const feedbackData = JSON.stringify(feedbackI18n).replace(/'/g, '&#39;');
-  const feedback = `<section class="feedback" id="feedback" data-feedback
+  const isZh = lang === 'zh';
+  const feedback = `<section class="feedback feedback--ultra-compact" id="feedback" data-feedback
     data-page-title="${esc(title)}" data-page-path="${esc(path)}" data-issues-url="${esc(site.urls.issues)}"
     data-i18n='${feedbackData}'>
-    <h2>${esc(feedbackI18n.title)}</h2>
-    <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
-    <div class="feedback__fields">
-      <label>${esc(feedbackI18n.category)} <select data-feedback-category></select></label>
-      <label>${esc(feedbackI18n.message)} <input type="text" data-feedback-message placeholder="选填/简述：如需补充某种锁型或尺寸纠错..." style="width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.9rem;" /></label>
+    <div style="display: flex; gap: 10px; align-items: center; width: 100%; max-width: 960px; margin: 0 auto; flex-wrap: wrap;">
+      <span style="font-size: 0.82rem; font-weight: 700; color: #475569; white-space: nowrap; display: flex; align-items: center; gap: 4px;">
+        💬 ${isZh ? '反馈 / 缺数据' : 'Feedback / Missing Spec'}:
+      </span>
+      <input type="text" data-feedback-message placeholder="${isZh ? '一句话留言：如缺某种锁型、尺寸纠错或加装建议...' : 'One-line note: missing lock, sizing correction, or advice...'}" 
+        style="flex: 1; min-width: 220px; padding: 7px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.82rem; background: #fff;" />
+      <button class="feedback__copy" data-feedback-copy type="button" style="padding: 7px 14px; font-size: 0.8rem; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 6px; cursor: pointer; white-space: nowrap; font-weight: 600; color: #334155;">
+        ${esc(feedbackI18n.copy)}
+      </button>
+      <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener" style="padding: 7px 14px; font-size: 0.8rem; background: #2563eb; color: #fff; border-radius: 6px; text-decoration: none; white-space: nowrap; font-weight: 600;">
+        GitHub Issue
+      </a>
+      <span class="feedback__status" data-feedback-status aria-live="polite" style="font-size: 0.78rem;"></span>
     </div>
-    <div class="feedback__actions">
-      <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
-      <button class="feedback__copy" data-feedback-copy type="button">${esc(feedbackI18n.copy)}</button>
-      <span class="feedback__status" data-feedback-status aria-live="polite"></span>
-    </div>
-    <p class="feedback__note">${esc(feedbackI18n.note)}</p>
   </section>`;
 
   const langLinks = alternates.map((alt) => {

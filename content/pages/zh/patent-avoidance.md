@@ -1,12 +1,12 @@
 ---
-title: "Nuki-Like 智能锁专利壁垒排查与海外规避设计指南 (Patent FTO & Workaround)"
+title: "后装智能锁专利壁垒排查与海外规避设计指南 (Patent FTO) (Patent FTO & Workaround)"
 slug: "patent-avoidance.html"
 lang: "zh"
 ---
 
-# Nuki-Like 智能锁专利壁垒与海外规避设计 (Patent FTO Guide)
+# 后装智能锁专利壁垒与海外规避设计 (Patent FTO Guide) (Patent FTO Guide)
 
-面向出海智能硬件产品经理、机械结构工程师与 IP 法务。深度拆解以 Nuki、August、SwitchBot、Tedee 为代表的**免换锁加装（Retrofit）智能锁**在欧美日重点市场的核心专利布局、权利要求（Claims）保护边界与实战规避设计路径（Design Around）。
+面向出海智能硬件产品经理、机械结构工程师与 IP 法务。深度拆解以欧美主流后装为代表的**后装智能锁（免换锁 / 租客无损加装）**在欧美日重点市场的核心专利布局、权利要求（Claims）保护边界与实战规避设计路径（Design Around）。
 
 <!-- 顶部快速锚点 -->
 <div style="margin: 20px 0 28px; padding: 12px 16px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
@@ -40,6 +40,12 @@ lang: "zh"
       <li><b>门框面板螺丝共用锚定（Faceplate Rose Anchor）:</b> 卸下原门把手的装饰圆盖（Rose），直接利用门上原有的对穿螺栓固定底座，彻底无需抓取锁芯本身。</li>
     </ol>
   </div>
+
+  <!-- 1:1 专利权同等对比图 -->
+  <div style="margin: 16px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="/assets/img/patent/patent-clamping-comparison.svg" alt="锁芯夹持专利对比图" style="width: 100%; height: auto; display: block;" />
+  </div>
+
 </div>
 
 ---
@@ -58,6 +64,12 @@ lang: "zh"
       <li><b>模块化插芯替换（Modular Cylinder Head）:</b> 借鉴最新 Nuki Ultra / Tedee 路线，直接向用户提供符合 DIN EN 1303 的预制通用锁芯（Universal Cylinder），从源头规避“转动常插钥匙”的所有专利。</li>
     </ol>
   </div>
+
+  <!-- 钥匙柄耦合与 Oldham 浮动拨叉对比图 -->
+  <div style="margin: 16px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="/assets/img/patent/patent-oldham-coupling-comparison.svg" alt="Oldham 十字滑块浮动规避专利对比图" style="width: 100%; height: auto; display: block;" />
+  </div>
+
 </div>
 
 ---
