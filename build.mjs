@@ -607,7 +607,7 @@ function lockPage(fam, lang) {
           <div style="padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
             <h5 style="margin: 0 0 6px; font-size: 0.95rem; line-height: 1.4; color: #0f172a;">${escapeHtml(fcTitle)}</h5>
             <p style="margin: 0 0 10px; font-size: 0.8rem; color: #475569; line-height: 1.45; flex: 1;">${escapeHtml(fcDesc)}</p>
-            <div style="background: #f1f5f9; padding: 5px 8px; border-radius: 4px; font-size: 0.72rem; color: #334155; border-left: 3px solid #0284c7;">
+            <div style="background: #f1f5f9; padding: 5px 8px; border-radius: 4px; font-size: 0.72rem; color: #334155; border-left: 3px solid #0f172a;">
               ⚙️ <b>${lang === 'zh' ? '实操指标:' : 'Metrics:'}</b> ${escapeHtml(fc.keyMetrics)}
             </div>
           </div>
@@ -1370,15 +1370,15 @@ function build() {
           </div>
           <h3 style="margin: 0 0 8px; font-size: 1.05rem; line-height: 1.4;">${escapeHtml(cTitle)}</h3>
           <p style="font-size: 0.85rem; color: #475569; line-height: 1.5; margin: 0 0 12px; flex: 1;">${escapeHtml(cDesc)}</p>
-          <div style="background: #f8fafc; border-left: 3px solid #0284c7; padding: 6px 10px; font-size: 0.78rem; color: #334155; margin-bottom: 12px;">
-            ⚙️ <b>${isZh ? '工程关键指标:' : 'Key Metrics:'}</b> ${escapeHtml(c.keyMetrics)}
+          <div style="background: #f8fafc; border-left: 3px solid #0f172a; padding: 6px 10px; font-size: 0.78rem; color: #334155; margin-bottom: 12px;">
+            <b>${isZh ? '⌖ 关键指标:' : 'Key Metrics:'}</b> ${escapeHtml(c.keyMetrics)}
           </div>
           <div style="display: flex; gap: 8px;">
-            <a class="block-hero__btn" style="flex: 1; text-align: center; font-size: 0.82rem; font-weight: 700; padding: 8px 12px; background: #0284c7 !important; color: #ffffff !important; border: 1px solid #0284c7; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 4px;" href="${lockLink}">
-              🔍 ${isZh ? '进入所属锁型详情 →' : 'View Lock Details →'}
+            <a style="flex: 1; text-align: center; font-size: 0.8rem; font-weight: 600; padding: 7px 12px; background: #0f172a; color: #ffffff; border: 1px solid #0f172a; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 4px;" href="${lockLink}">
+              ${isZh ? '所属锁型详情 →' : 'Lock Details →'}
             </a>
-            <a class="block-hero__btn" style="background: #ffffff !important; border: 1.5px solid #0284c7; color: #0284c7 !important; font-size: 0.82rem; font-weight: 700; padding: 8px 12px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; justify-content: center;" href="${catLink}">
-              🖼️ ${isZh ? '本区域图库' : 'Regional Gallery'}
+            <a style="background: #f8fafc; border: 1px solid #cbd5e1; color: #334155; font-size: 0.8rem; font-weight: 600; padding: 7px 12px; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; justify-content: center;" href="${catLink}">
+              ${isZh ? '分类图谱' : 'Gallery'}
             </a>
           </div>
         </div>
