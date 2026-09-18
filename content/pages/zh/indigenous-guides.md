@@ -6,16 +6,18 @@ lang: "zh"
 
 # 全球机械门锁工业索引与本土辨锁指南
 
-面向智能锁研发工程师与海外工程商。深度拆解德奥瑞 (DIN)、法比区 (NF)、日本 (JIS/MIWA)、英澳 (AS/BS)、拉美 (ABNT) 与北美 (ANSI) 6 大工业五金体系的独有尺寸公差、开槽逻辑与加装防呆规则。
+面向智能锁研发工程师与海外工程商。深度拆解德奥瑞 (DIN)、法比区 (NF)、日本 (JIS/MIWA)、英澳 (AS/BS)、拉美 (ABNT) 与北美 (ANSI) 8 大工业五金体系（按工程复杂度降序排列）的独有尺寸公差、开槽逻辑与加装防呆规则。
 
-<!-- 顶部 6 大区域快速穿透锚点导航条 -->
+<!-- 顶部 8 大工业板块快速穿透锚点导航条（按工程暗坑与加装复杂度降序排列） -->
 <div style="margin: 20px 0 32px; padding: 12px 16px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
   <span style="font-weight: 700; font-size: 0.85rem; color: #334155;">📍 快速直达工业板块:</span>
   <a href="#de-at-ch" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇩🇪 德奥瑞 (DIN)</a>
   <a href="#fr-be" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇫🇷 法比区 (NF)</a>
+  <a href="#gcc" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇦🇪 中东海湾 (SASO/GCC)</a>
   <a href="#jp" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇯🇵 日本精工 (JIS/MIWA)</a>
   <a href="#uk-anz" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇦🇺 英澳体系 (AS/BS)</a>
   <a href="#latam" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🌎 西语与拉美 (ABNT)</a>
+  <a href="#in-sa" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇮🇳 南亚非洲 (BIS/SABS)</a>
   <a href="#na" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇺🇸 北美标准 (ANSI)</a>
 </div>
 
@@ -153,6 +155,29 @@ lang: "zh"
         </ul>
         <div style="margin-top: 12px; padding: 8px 12px; background: #eff6ff; border-radius: 4px; font-size: 0.78rem; color: #1e40af;">
           💡 <b>推荐转接件:</b> ADP-08 (薄夹板门防压溃加强圈)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 印度南亚与非洲 BIS/SABS -->
+  <div id="in-sa" style="background: #ffffff; border: 1.5px solid #059669; border-left: 6px solid #059669; border-radius: 8px; padding: 24px; box-shadow: 0 4px 14px rgba(5,150,105,0.06);">
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
+      <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇮🇳🇿🇦 南亚与非洲体系：三轨混杂市场、Godrej 外装双向舌与高盐雾</h2>
+      <span style="background: #059669; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">IS 2209 (BIS) / SABS 4 / EN 12209</span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+      <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
+        <img src="/assets/img/indigenous/in-godrej-rim.jpg" alt="印度 Godrej Ultra 外装死锁" style="width: 100%; height: 100%; object-fit: cover;" />
+      </div>
+      <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
+        <ul style="margin: 0; padding-left: 18px;">
+          <li><b>三轨并存生态:</b> 市场同时流通欧标插芯锁（50mm背距）、Godrej外装夜锁（69mm背距）与球形锁（60mm）。</li>
+          <li><b>外装表面锁主导:</b> 印度大都市公寓大量在门内表面加装 Godrej 旋钮外装锁，无法直接套用管状插销电机。</li>
+          <li><b>沿海高盐雾腐蚀:</b> 孟买、德班等沿海城市湿度常年 >85%，锌合金表面镀层极易起泡剥落。</li>
+        </ul>
+        <div style="margin-top: 12px; padding: 8px 12px; background: #ecfdf5; border-radius: 4px; font-size: 0.78rem; color: #065f46;">
+          <b>加装工程铁律:</b> 严禁仅提供单一插芯锁转接件；外装锁必须配备专属外跨转动盘，且整机耐盐雾防护必须达到 ASTM B117 96小时防腐测试。
         </div>
       </div>
     </div>

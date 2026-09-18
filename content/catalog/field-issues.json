@@ -53,5 +53,27 @@
     "rootCause": "Clearance between HDB outer metal gate and main timber door is only 75-95mm. Bulky push-pull handles exceed available gap.",
     "mechanicalFailureMode": "Shattered glass touchpad; simultaneous door-to-gate jam trapping occupants",
     "engineeringRecommendation": "Maximum interior depth must not exceed 35mm, or use diagonal offset bracket avoiding horizontal gate rail."
+  },
+  {
+    "source": "Mercosul Locksmith Group & LATAM Field Ops Log",
+    "date": "2026-08",
+    "brand": "Smart Retrofit Locks on Narrow Stile Doors",
+    "market": "Latin America (Brazil / Argentina / Chile)",
+    "lockType": "ABNT NBR 14913 Narrow Mortise (30-35mm Hollow Door)",
+    "symptom": "Door skin crushes inward during screw tightening; deadbolt binds against mortise side wall",
+    "rootCause": "LATAM timber doors commonly have hollow or semi-solid cores with skin thickness only 3mm. Tightening M5 mounting bolts beyond 2.0 N·m collapses door skin, distorting the lock pocket.",
+    "mechanicalFailureMode": "Door surface indentation, latch linkage misalignment, permanent exterior panel slant",
+    "engineeringRecommendation": "Enforce maximum 1.8 N·m fastener torque spec; provide oversized reinforcement load-spreading plates."
+  },
+  {
+    "source": "GCC Smart Home Warranty Claim #KSA-49102",
+    "date": "2026-07",
+    "brand": "Direct-Drive Deadbolt Motors",
+    "market": "Middle East Gulf (UAE / Saudi Arabia / Qatar)",
+    "lockType": "Heavy Steel Security Door / SASO 2063",
+    "symptom": "Smart lock operates smoothly at night but consistently errors out ('Motor Stalled') between 11:00 AM and 4:00 PM",
+    "rootCause": "Extreme solar radiation (>65°C surface temp) causes heavy steel door leaf and perimeter frame to undergo differential thermal expansion. Lock clearance collapses from 3.5mm to <0.8mm, binding the latch.",
+    "mechanicalFailureMode": "Thermal expansion deadbolt seizure; motor overcurrent cutoff under friction load >3.8 N·m",
+    "engineeringRecommendation": "Require 5.0mm minimum seasonal clearance buffer in Gulf installations; configure motor peak boost torque profile."
   }
 ]

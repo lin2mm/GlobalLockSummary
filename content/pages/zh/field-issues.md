@@ -68,6 +68,36 @@ lang: "zh"
         <b>避坑准则:</b> 严格调校门缝间隙 ≤3.0mm，加装门框扣板不锈钢垫片确保副舌完全压入门体。
       </div>
     </div>
+    <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+    <div style="height: 200px; background: #0b1120; overflow: hidden; position: relative;">
+      <img src="/assets/img/pitfalls/latam-hollow-door-crush.jpg" alt="拉美中空薄门压溃与锁体形变" style="width: 100%; height: 100%; object-fit: cover;" />
+      <span style="position: absolute; top: 8px; left: 8px; background: #ea580c; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-07 · 门皮压溃</span>
+      <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">拉美 (ABNT)</span>
+    </div>
+    <div style="padding: 16px;">
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem;">拉美 30mm 中空薄门拧紧螺栓导致门皮塌陷与锁舌卡滞</h3>
+      <p style="font-size: 0.85rem; color: #475569; line-height: 1.5; margin: 0 0 10px;">巴西/阿根廷大量 30-35mm 中空木门门皮仅 3mm。安装螺栓扭矩 >2.0 N·m 时门板向内凹陷，导致内部立柱锁盒严重扭曲偏心，锁舌卡死无法弹出。</p>
+      <div style="background: #fff7ed; padding: 8px 10px; border-radius: 4px; font-size: 0.75rem; color: #9a3412; border-left: 3px solid #ea580c;">
+        <b>避坑准则:</b> 严格限制螺钉拧紧扭力 ≤1.8 N·m，包装标配内外加固大分压板（Reinforcement Escutcheon Plate）。
+      </div>
+    </div>
   </div>
+
+  <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+    <div style="height: 200px; background: #0b1120; overflow: hidden; position: relative;">
+      <img src="/assets/img/pitfalls/gcc-thermal-expansion-jam.jpg" alt="中东极端高温门体热膨胀咬死" style="width: 100%; height: 100%; object-fit: cover;" />
+      <span style="position: absolute; top: 8px; left: 8px; background: #dc2626; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-08 · 热胀咬死</span>
+      <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">中东 (GCC/SASO)</span>
+    </div>
+    <div style="padding: 16px;">
+      <h3 style="margin: 0 0 8px; font-size: 1.05rem;">中东海湾地区极端烈日暴晒导致金属门热胀冷缩卡死</h3>
+      <p style="font-size: 0.85rem; color: #475569; line-height: 1.5; margin: 0 0 10px;">沙特/阿联酋室外地表在正午暴晒下超过 65°C。厚重装甲钢门热膨胀导致 3.5mm 门缝极限缩减至 <0.8mm，锁舌被门框锁孔死死夹住，电机过载堵转报错。</p>
+      <div style="background: #fef2f2; padding: 8px 10px; border-radius: 4px; font-size: 0.75rem; color: #991b1b; border-left: 3px solid #dc2626;">
+        <b>避坑准则:</b> 中东入户门安装强制要求预留 ≥5.0mm 门缝余量；电机固件引入正午大扭矩爬坡防堵转算法。
+      </div>
+    </div>
+  </div>
+
+</div>
 
 </div>
