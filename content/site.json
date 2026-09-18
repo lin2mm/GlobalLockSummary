@@ -1,21 +1,13 @@
 {
   "name": "GlobalLockSummary",
-  "defaultLang": "zh",
+  "defaultLang": "en",
   "languages": {
-    "en": {
-      "label": "English",
-      "code": "en",
-      "dir": ""
-    },
-    "zh": {
-      "label": "中文",
-      "code": "zh",
-      "dir": "zh"
-    }
+    "en": { "label": "English", "code": "en", "dir": "" },
+    "zh": { "label": "中文", "code": "zh", "dir": "zh" }
   },
   "description": {
     "en": "Open knowledge base of the world's mechanical door locks: identify the lock you have, record its dimensions, and design the smart-lock retrofit that fits it.",
-    "zh": "全球机械门锁开放知识库：识别现有门锁、记录尺寸公差，设计与之匹配的后装智能锁（免换锁 / 租客无损加装）。"
+    "zh": "全球机械门锁开放知识库：识别你现有的锁、记录它的尺寸参数，并设计与之匹配的智能锁改造方案。"
   },
   "license": "CC BY 4.0",
   "urls": {
@@ -25,10 +17,7 @@
   "product": {
     "_comment": "Set `url` to publish a link to the commercial retrofit product site in the header, the footer and the identification result. Leave it empty and nothing renders — no empty hrefs, no placeholder link. Can be overridden at build time with PRODUCT_URL=… for testing.",
     "url": "",
-    "label": {
-      "en": "Retrofit Smart Lock",
-      "zh": "后装智能锁"
-    },
+    "label": { "en": "Retrofit hardware", "zh": "智能改造产品" },
     "note": {
       "en": "This site is an independent public reference. Adapters and retrofit kits are made by the maintainers.",
       "zh": "本站是独立的公益参考资料。适配件与改造套件由维护者生产。"
@@ -36,105 +25,38 @@
   },
   "navigation": {
     "en": [
-      {
-        "label": "Lock Catalog (54)",
-        "href": "index.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path d=\"M9 3v18\"/><path d=\"M15 9h3\"/><path d=\"M15 15h3\"/></svg>"
-      },
-      {
-        "label": "Field Cases",
-        "href": "install-gallery.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 21V3a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v18\"/><path d=\"M12 11h.01\"/><path d=\"m15 15 4.5 4.5a1.5 1.5 0 0 0 2.12-2.12L17.12 13\"/><path d=\"m17 11 2-2\"/></svg>"
-      },
-      {
-        "label": "Adapters & BOM",
-        "href": "adapters.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1Z\"/></svg>"
-      },
-      {
-        "label": "Field Pitfalls",
-        "href": "field-issues.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"/><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"/><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"/></svg>"
-      },
-      {
-        "label": "Master Index",
-        "href": "indigenous-guides.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
-      },
-      {
-        "label": "Retrofit FTO",
-        "href": "patent-avoidance.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>"
-      }
+      { "label": "Home", "href": "index.html" },
+      { "label": "Identify", "href": "identify.html" },
+      { "label": "Measure", "href": "measure.html" },
+      { "label": "Retrofit", "href": "retrofit.html" },
+      { "label": "Locks", "href": "locks/index.html" },
+      { "label": "Standards", "href": "standards/index.html" },
+      { "label": "Contribute", "href": "contribute.html" }
     ],
     "zh": [
-      {
-        "label": "锁型总览 (54)",
-        "href": "zh/index.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path d=\"M9 3v18\"/><path d=\"M15 9h3\"/><path d=\"M15 15h3\"/></svg>"
-      },
-      {
-        "label": "工程实录",
-        "href": "zh/install-gallery.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 21V3a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v18\"/><path d=\"M12 11h.01\"/><path d=\"m15 15 4.5 4.5a1.5 1.5 0 0 0 2.12-2.12L17.12 13\"/><path d=\"m17 11 2-2\"/></svg>"
-      },
-      {
-        "label": "转接工具",
-        "href": "zh/adapters.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1Z\"/></svg>"
-      },
-      {
-        "label": "避坑实录",
-        "href": "zh/field-issues.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"/><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"/><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"/></svg>"
-      },
-      {
-        "label": "工业索引",
-        "href": "zh/indigenous-guides.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
-      },
-      {
-        "label": "后装专利规避",
-        "href": "zh/patent-avoidance.html",
-        "iconSvg": "<svg class=\"nav__icon\" viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>"
-      }
+      { "label": "首页", "href": "zh/index.html" },
+      { "label": "识别我的锁", "href": "zh/identify.html" },
+      { "label": "测量", "href": "zh/measure.html" },
+      { "label": "改造方案", "href": "zh/retrofit.html" },
+      { "label": "锁型库", "href": "zh/locks/index.html" },
+      { "label": "标准", "href": "zh/standards/index.html" },
+      { "label": "贡献", "href": "zh/contribute.html" }
     ]
   },
   "ui": {
-    "skipToContent": {
-      "en": "Skip to content",
-      "zh": "跳到正文"
-    },
-    "search": {
-      "en": "Search",
-      "zh": "搜索"
-    },
-    "onThisPage": {
-      "en": "On this page",
-      "zh": "本页目录"
-    },
-    "searchPlaceholder": {
-      "en": "Search locks, standards, dimensions…",
-      "zh": "搜索锁型、标准、尺寸…"
-    },
-    "noResults": {
-      "en": "No matches. Try a standard code (DIN 18251), a dimension (backset) or a brand.",
-      "zh": "没有匹配结果。可以试试标准号（DIN 18251）、尺寸名（backset 锁芯中心距）或品牌名。"
-    }
+    "skipToContent": { "en": "Skip to content", "zh": "跳到正文" },
+    "search": { "en": "Search", "zh": "搜索" },
+    "onThisPage": { "en": "On this page", "zh": "本页目录" },
+    "searchPlaceholder": { "en": "Search locks, standards, dimensions…", "zh": "搜索锁型、标准、尺寸…" },
+    "noResults": { "en": "No matches. Try a standard code (DIN 18251), a dimension (backset) or a brand.", "zh": "没有匹配结果。可以试试标准号（DIN 18251）、尺寸名（backset 锁芯中心距）或品牌名。" }
   },
   "footer": {
     "tagline": {
       "en": "A public-benefit reference for lock designers retrofitting the world's existing mechanical locks.",
       "zh": "面向锁具设计师的公益参考资料，用于改造全球现存的机械门锁。"
     },
-    "resourcesLabel": {
-      "en": "Machine-readable",
-      "zh": "机器可读"
-    },
-    "licenseLabel": {
-      "en": "License",
-      "zh": "许可"
-    },
+    "resourcesLabel": { "en": "Machine-readable", "zh": "机器可读" },
+    "licenseLabel": { "en": "License", "zh": "许可" },
     "licenseText": {
       "en": "Text and data are CC BY 4.0. Cite as “GlobalLockSummary” with a link. Brand names and standards codes belong to their owners.",
       "zh": "文字与数据采用 CC BY 4.0 许可，引用请注明 “GlobalLockSummary” 并附链接。品牌名与标准编号归各自权利人所有。"
@@ -143,93 +65,6 @@
       "en": "Reference data only. Verify against the original standard and a physical measurement before manufacturing, installing, or relying on any lock. Fire-rated and escape-route doors must keep a certified, mechanically operable egress path.",
       "zh": "本站内容仅供参考。在制造、安装或依赖任何锁具前，请对照原始标准并实测确认。防火门与疏散通道门必须保留经认证的、可机械开启的逃生通道。"
     },
-    "repository": {
-      "en": "Source on GitHub",
-      "zh": "GitHub 源码"
-    }
-  },
-  "feedback": {
-    "title": {
-      "en": "Engineer feedback (No GitHub required)",
-      "zh": "工程师反馈（免登录，站内直接提交）"
-    },
-    "hint": {
-      "en": "Need more lock data or spotted an issue? Submit directly here. No GitHub account needed.",
-      "zh": "发现缺少锁型、需要特定尺寸或反馈纠错？直接在下方一行留言提交，无需 GitHub 账号。"
-    },
-    "category": {
-      "en": "Feedback type",
-      "zh": "反馈类型"
-    },
-    "categories": {
-      "new-family": {
-        "en": "New lock family / missing data",
-        "zh": "补充新锁型 / 缺资料"
-      },
-      "correction": {
-        "en": "Dimension correction",
-        "zh": "尺寸 / 参数纠错"
-      },
-      "retrofit": {
-        "en": "Retrofit architecture detail",
-        "zh": "改造方案与阻碍"
-      },
-      "other": {
-        "en": "Other suggestions",
-        "zh": "其他需求与建议"
-      }
-    },
-    "message": {
-      "en": "Message (one line is fine)",
-      "zh": "反馈内容（输入一句话即可）"
-    },
-    "messagePlaceholder": {
-      "en": "e.g. Please add dimensions for Lockwood 001 deadlatch backset, or request sample...",
-      "zh": "例如：需要 Lockwood 001 的具体方轴尺寸，或申请增加某款防盗门锁数据..."
-    },
-    "contact": {
-      "en": "Contact info (optional)",
-      "zh": "联系方式（选填，邮箱/微信/手机，方便同步补充结果）"
-    },
-    "contactPlaceholder": {
-      "en": "Optional: email or phone",
-      "zh": "选填：邮箱或微信"
-    },
-    "submit": {
-      "en": "Submit feedback",
-      "zh": "立即提交反馈"
-    },
-    "submitting": {
-      "en": "Submitting...",
-      "zh": "正在提交..."
-    },
-    "submitted": {
-      "en": "Submitted! ID: ",
-      "zh": "提交成功！反馈编号："
-    },
-    "submitFailed": {
-      "en": "API offline. Please click Copy below to send via email/chat.",
-      "zh": "当前镜像未连接后端，可点击右侧“复制反馈”通过微信/邮件转发"
-    },
-    "tooShort": {
-      "en": "Please enter at least 3 characters",
-      "zh": "请至少输入3个字"
-    },
-    "openIssue": {
-      "en": "Open GitHub Issue (optional)",
-      "zh": "通过 GitHub Issue 提交（可选）"
-    },
-    "copy": {
-      "en": "Copy feedback to clipboard",
-      "zh": "复制反馈内容"
-    },
-    "copied": {
-      "en": "Copied to clipboard",
-      "zh": "已复制到剪贴板"
-    },
-    "note": {
-      "en": "Your input is securely received by the team. You can also copy to clipboard anytime.",
-      "zh": "反馈将直达维护工程师工作队列。中国国内工程师亦可一键复制内容，通过微信/工作群直接转发。"
-    }
+    "repository": { "en": "Source on GitHub", "zh": "GitHub 源码" }
   }
 }

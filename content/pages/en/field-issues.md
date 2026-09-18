@@ -8,12 +8,12 @@ lang: "en"
 
 Curated visual case studies from Reddit locksmith communities and overseas field failure reports. Focusing on **image-first visual diagnostics + mechanical root causes**.
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin: 28px 0;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 16px 0 24px;">
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="../assets/img/pitfalls/strike-plate-offset-binding.jpg" alt="Strike Plate Shear Offset Binding" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #dc2626; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-01 · Fatal Jam</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-01 · Fatal Jam</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">North America (ANSI)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -26,9 +26,9 @@ Curated visual case studies from Reddit locksmith communities and overseas field
   </div>
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="../assets/img/pitfalls/euro-lockout-clutch.jpg" alt="Euro Profile Emergency Function Failure" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #dc2626; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-02 · Total Lockout</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-02 · Total Lockout</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">Europe (DIN)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -41,9 +41,9 @@ Curated visual case studies from Reddit locksmith communities and overseas field
   </div>
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="../assets/img/pitfalls/singapore-gate-clash.jpg" alt="Singapore Double Door Clearance Clash" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #ea580c; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-03 · Hardware Clash</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-03 · Hardware Clash</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">Singapore (HDB)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -56,9 +56,9 @@ Curated visual case studies from Reddit locksmith communities and overseas field
   </div>
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="../assets/img/pitfalls/latch-rub-sagging-gap.jpg" alt="Lockwood 001 Auxiliary Latch Gap Bypass" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #ea580c; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-04 · False Deadlock</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-04 · False Deadlock</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">Australia (AS)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -69,9 +69,9 @@ Curated visual case studies from Reddit locksmith communities and overseas field
       </div>
     </div>
     <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="/assets/img/pitfalls/latam-hollow-door-crush.jpg" alt="Latin America Thin Door Indentation" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #ea580c; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-07 · Skin Collapse</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-07 · Skin Collapse</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">Latin America (ABNT)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -84,9 +84,9 @@ Curated visual case studies from Reddit locksmith communities and overseas field
   </div>
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="/assets/img/pitfalls/gcc-thermal-expansion-jam.jpg" alt="GCC Solar Thermal Expansion Jam" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #dc2626; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-08 · Thermal Seizure</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-08 · Thermal Seizure</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">Middle East (GCC/SASO)</span>
     </div>
     <div style="padding: 12px 14px;">

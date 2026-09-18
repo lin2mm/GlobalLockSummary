@@ -8,12 +8,12 @@ lang: "zh"
 
 汇总自 Reddit、锁匠实操、海外工程售后工单的真实失败案例。告别长篇纯文本，以**高清现场实态 + 机械根因直击**的画廊模式呈现。
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin: 28px 0;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 16px 0 24px;">
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="../assets/img/pitfalls/strike-plate-offset-binding.jpg" alt="门框扣板剪切错位摩擦" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #dc2626; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-01 · 致命卡阻</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-01 · 致命卡阻</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">北美 (ANSI)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -24,9 +24,9 @@ lang: "zh"
   </div>
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="../assets/img/pitfalls/euro-lockout-clutch.jpg" alt="欧标锁芯外部物理钥匙失效" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #dc2626; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-02 · 反锁困人</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-02 · 反锁困人</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">欧洲 (DIN)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -37,9 +37,9 @@ lang: "zh"
   </div>
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="../assets/img/pitfalls/singapore-gate-clash.jpg" alt="双门极限净距撞击" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #ea580c; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-03 · 机械碰撞</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-03 · 机械碰撞</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">新加坡 (HDB)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -50,9 +50,9 @@ lang: "zh"
   </div>
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="../assets/img/pitfalls/latch-rub-sagging-gap.jpg" alt="门缝过大导致辅助锁舌悬空" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #ea580c; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-04 · 假锁死隐患</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-04 · 假锁死隐患</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">澳洲 (AS)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -61,9 +61,9 @@ lang: "zh"
       <div style="padding: 6px 8px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; font-size: 0.74rem; color: #334155; line-height: 1.4;"><b>⌖ 避坑规则:</b> 严格调校门缝间隙 ≤3.0mm，加装门框扣板不锈钢垫片确保副舌完全压入门体。</div>
     </div>
     <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="/assets/img/pitfalls/latam-hollow-door-crush.jpg" alt="拉美中空薄门压溃与锁体形变" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #ea580c; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-07 · 门皮压溃</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-07 · 门皮压溃</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">拉美 (ABNT)</span>
     </div>
     <div style="padding: 12px 14px;">
@@ -74,9 +74,9 @@ lang: "zh"
   </div>
 
   <div class="gallery-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <div style="height: 155px; background: #f8fafc; overflow: hidden; position: relative;">
+    <div style="height: 140px; background: #f8fafc; overflow: hidden; position: relative;">
       <img src="/assets/img/pitfalls/gcc-thermal-expansion-jam.jpg" alt="中东极端高温门体热膨胀咬死" style="width: 100%; height: 100%; object-fit: cover;" />
-      <span style="position: absolute; top: 8px; left: 8px; background: #dc2626; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-08 · 热胀咬死</span>
+      <span style="position: absolute; top: 8px; left: 8px; background: #0f172a; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">FL-08 · 热胀咬死</span>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.7); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">中东 (GCC/SASO)</span>
     </div>
     <div style="padding: 12px 14px;">
