@@ -163,8 +163,8 @@ build({ PRODUCT_URL: PRODUCT });
 // The root /index.html and /identify.html serve the default language
 // (Chinese in this config), while /en/ serves English. The labels below must
 // track content/site.json#defaultLang — change them together.
-const DEFAULT_LABEL = '智能改造产品';
-const EN_LABEL = 'Retrofit hardware';
+const DEFAULT_LABEL = '后装智能锁';
+const EN_LABEL = 'Retrofit Smart Lock';
 
 for (const page of ['index.html', 'zh/index.html']) {
   const html = read(join(SITE, page));

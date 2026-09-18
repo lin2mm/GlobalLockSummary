@@ -15,7 +15,7 @@
   },
   "description": {
     "en": "Open knowledge base of the world's mechanical door locks: identify the lock you have, record its dimensions, and design the smart-lock retrofit that fits it.",
-    "zh": "全球机械门锁开放知识库：识别你现有的锁、记录它的尺寸参数，并设计与之匹配的智能锁改造方案。"
+    "zh": "全球机械门锁开放知识库：识别现有门锁、记录尺寸公差，设计与之匹配的后装智能锁（免换锁 / 租客无损加装）。"
   },
   "license": "CC BY 4.0",
   "urls": {
@@ -26,8 +26,8 @@
     "_comment": "Set `url` to publish a link to the commercial retrofit product site in the header, the footer and the identification result. Leave it empty and nothing renders — no empty hrefs, no placeholder link. Can be overridden at build time with PRODUCT_URL=… for testing.",
     "url": "",
     "label": {
-      "en": "Retrofit hardware",
-      "zh": "智能改造产品"
+      "en": "Retrofit Smart Lock",
+      "zh": "后装智能锁"
     },
     "note": {
       "en": "This site is an independent public reference. Adapters and retrofit kits are made by the maintainers.",

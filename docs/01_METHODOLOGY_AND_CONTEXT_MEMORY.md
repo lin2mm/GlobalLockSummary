@@ -301,3 +301,6 @@ GlobalLockSummary/
 
 | **14** | 内外部资产绝对物理隔离红线 | 严禁在面向访客的前端网站挂载内部开发文档下载链接；所有内部研发沉淀（docs/ 及 .xlsx）仅保留在 Git 仓库内部目录，与 _site/ 彻底隔离 | `docs/`, `build.mjs`, `content/pages/` |
 | **15** | 后装智能锁专利规避导航正式更名 | 导航菜单明确为「后装专利规避 (Retrofit FTO)」 | `content/site.json` |
+
+| **16** | 行业术语标准化与命名规范定论 | 1. 专业工程/研发/官网菜单场景：统一使用「后装智能锁」（英文 `Retrofit Smart Lock`），工整严谨符合工业体系；<br>2. C 端营销/租客宣传场景：统一采用副标题修饰「免换锁 / 租客无损加装」，直击用户痛点。 | 全站词汇表、导航与文档 |
+| **17** | GitHub 内部研发文档沉淀专区链接 | 内部工程文件、方法论与全部 Excel 沉淀于 GitHub 分支内部目录，与公开部署目录 _site/ 物理隔离。 | `https://github.com/lin2mm/GlobalLockSummary/tree/arena/01a0a966-globallocksummary/docs` |
