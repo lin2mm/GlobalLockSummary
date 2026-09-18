@@ -1174,7 +1174,12 @@ function galleryFragment(lang) {
   const portalCards = blocks.map((b, idx) => {
     const categoryUrl = `/${urlFor(lang, `categories/${b.code}.html`)}`;
     const idxBadge = idx + 1;
-    return `<a class="gallery-portal-card" href="${categoryUrl}" data-portal-target="${escapeHtml(b.code)}">
+    // 视觉注意力体系：Tier 1 核心基准高亮 vs 其它板块弱化
+    const isCoreTier1 = ['na', 'europe5', 'uk-anz'].includes(b.code);
+    const cardClass = isCoreTier1 ? 'gallery-portal-card gallery-portal-card--core' : 'gallery-portal-card gallery-portal-card--secondary';
+    const tierBadge = isCoreTier1 ? (isZh ? '<span class="portal-tier-pill portal-tier-pill--core">★ 核心加装基准</span>' : '<span class="portal-tier-pill portal-tier-pill--core">★ CORE BASELINE</span>') : '';
+    return `<a class="${cardClass}" href="${categoryUrl}" data-portal-target="${escapeHtml(b.code)}">
+      ${tierBadge}
       <div class="gallery-portal-card__media" style="position: relative; overflow: hidden; background: #0b1120;">
         <img class="gallery-portal-card__img" src="${escapeHtml(b.hero.image)}" alt="${escapeHtml(b.title)}" loading="lazy" width="360" height="230" />
         <span class="gallery-portal-card__badge" style="font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase;">${b.items.length} ${isZh ? '款实物样本' : 'MODELS'}</span>

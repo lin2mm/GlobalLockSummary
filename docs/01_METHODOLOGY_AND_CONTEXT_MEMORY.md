@@ -22,7 +22,7 @@
 
 ---
 
-## 二、全球锁 5 大标准工业板块（ASSA ABLOY 事业部 + 五金标准体系）
+## 二、全球锁 8 大工业板块（4列 × 2行 黄金对称阵列）（ASSA ABLOY 事业部 + 五金标准体系）
 
 | 板块代码 | 工业板块名称 | 核心标准与五金特征 | Retrofit 改造强相关基准锁（大主图） |
 | :---: | :--- | :--- | :--- |
@@ -53,7 +53,7 @@ GlobalLockSummary/
 │   │   │   └── {region}_{model}_real.{ext}  (如 us-27_real.jpg, au-11_real.jpg)
 │   │   ├── diagrams/                    # 传动与受力原理矢量图
 │   │   │   └── {region}_{model}_schematic.svg
-│   │   └── hero/                        # 5 大板块顶级入口超大展示主图
+│   │   └── hero/                        # 8 大工业板块顶级入口超大展示主图
 │   │       ├── hero-na-deadbolt.jpg
 │   │       ├── hero-europe-eurocylinder.jpg
 │   │       └── hero-anz-lockwood001.jpg
@@ -75,7 +75,7 @@ GlobalLockSummary/
 - **2026-09-17 (Raw Data Ingestion)**: 顺利从 GitHub 分支解压获取 30 类候选锁实物图与矢量原理图。
 - **2026-09-17 (Landing Page Gallery)**: 首页改造为纯实物图墙，支持地区筛选与搜索。
 - **2026-09-17 (In-Site Feedback)**: 实现 Cloudflare Pages Functions `/api/feedback` 免 GitHub 站内提交。
-- **2026-09-17 (Taxonomy Upgrade)**: 对标 ASSA ABLOY 分区与 GTM 市场容量，重构为 5 大工业板块，确立三大核心强相关 Retrofit 锁型并挂载超大主图。
+- **2026-09-17 (Taxonomy Upgrade)**: 对标 ASSA ABLOY 分区与 GTM 市场容量，重构为 8 大工业板块，确立三大核心强相关 Retrofit 锁型并挂载超大主图。
 - **2026-09-17 (Field Issues Repository)**: 抓取 Reddit / 锁匠社区真实痛点，建立《全球智能锁改装避坑实录》。
 
 ---
@@ -89,7 +89,7 @@ GlobalLockSummary/
 - **触发 2（数据供给唯一渠道）**：所有海外锁的参数、安装难点、竞品吐槽与真实故障，必须由我自主从**海外原生生态**（海外原厂手册、Reddit 锁匠与改装社区、海外工单差评）通过工具链自动化爬取并逆向清洗。
 - **触发 3（长效记忆与工程规范）**：所有用户发送的信息与指导，必须持续触发总结并沉淀至本记忆文件（`docs/METHODOLOGY_AND_CONTEXT_MEMORY.md`）及工程规划 Excel（`docs/PROJECT_PLAN_AND_CONVENTIONS.xlsx`）。
 - **触发 4（五大工业板块与三大核心大主图落地）**：
-  - 确立 ASSA ABLOY 事业部 + 五金标准的 5 大板块；
+  - 确立 ASSA ABLOY 事业部 + 五金标准的 8 大工业板块；
   - 确立北美单插销（US-27）、欧标槽型双锁芯（EU-19）、澳式外装夜锁（AU-11）为三大强相关改造基准锁，并在首页板块顶部设置专属的大主图入口；
   - 每个区域标签强制显示动态样本数量（全部 32，北美 4，澳洲与英国 10，欧洲五国 6，东南亚 10，拉美 2）。
 
@@ -97,7 +97,7 @@ GlobalLockSummary/
 已生成并维护 `docs/PROJECT_PLAN_AND_CONVENTIONS.xlsx`，包含：
 1. **工作包与里程碑执行总计划表 (WBS)**；
 2. **工程文件分类体系与强制命名规范表**；
-3. **5 大工业板块与 Retrofit 强相关基准锁对标矩阵**。
+3. **8 大工业板块与 Retrofit 强相关基准锁对标矩阵**。
 
 ---
 
@@ -151,7 +151,7 @@ GlobalLockSummary/
 ## 八、2026-09-17 最新触发：实物样本库打破 32 扩容至 38 款
 
 ### 1. 扩容背景与用户敏锐观察
-用户及时指出：“全球5大版本 32一直没变”，敏锐察觉到前期分类虽然丰富，但图墙底层样本库依然停留在原先的 32 类，尤其**北美商用、欧陆重型多点与拉美关键主流锁型**存在明显缺口。
+用户及时指出：“全球工业板块由前期 5 大扩充为标准 8 大工业板块”，敏锐察觉到前期分类虽然丰富，但图墙底层样本库依然停留在原先的 32 类，尤其**北美商用、欧陆重型多点与拉美关键主流锁型**存在明显缺口。
 
 ### 2. 本轮新增 6 款核心实物锁型与实拍图片
 通过海外专业锁匠与厂商渠道定向爬取 6 款关键锁型并落盘实拍图：
@@ -164,7 +164,7 @@ GlobalLockSummary/
 
 ### 3. 板块动态计数刷新
 全站动态计数自动递增更新：
-- **全部 5 大板块：38 款**（原 32 款）；
+- **全部 8 大工业板块：38 款**（原 32 款）；
 - **北美：6 款**（原 4 款）；
 - **澳洲与英国：10 款**；
 - **欧洲五国：8 款**（原 6 款）；
@@ -178,7 +178,7 @@ GlobalLockSummary/
 ### 1. 核心视觉与交互修复
 - **左上角重复文字消除**：消除了首页上方重复渲染的面包屑小标题 `GlobalLockSummary`，首屏仅保留统一的顶部 Header，消除视觉噪点。
 - **底部反馈彻底轻量化**：将原本多字段选择、复杂选项的表单，精简为纯粹的 **「单行输入框 + 提交建议」**，并保留免登录站内直接提交功能。
-- **5 大主入口图片质感重评与替换**：
+- **8 大工业板块主入口图片质感重评与替换**：
   - 对标 ASSA ABLOY 与顶级五金型录，全面剔除低辨识度图样，更换为真实门扇（实木门、金属防盗门、公寓铁闸）安装环境下的高保真真实实景图；
   - 评分由原先 75 分提升至 94 分。
 
@@ -197,9 +197,9 @@ GlobalLockSummary/
 
 ### 一、用户最新核心指导全部吸纳并沉淀为常态机制
 1. **建议持续加入 Loop**：每一轮提出的前瞻性建议不再停留于口头，必须立即结构化注入自主 Loop 计划，成为下一轮自动化检查与执行的标准。
-2. **5 大区域 Entry 主图筛选参数标准化**：
+2. **8 大工业板块 Entry 主图筛选参数标准化**：
    - 建立四维量化筛选模型：市场保有率 (30%) + 改装强契合度 (25%) + 真实门上高清场景 (25%) + 工程师检索与 CTR 权重 (20%)；
-   - 筛选产出 5 大工业板块唯一代表性 Hero 基准。
+   - 筛选产出 8 大工业板块唯一代表性 Hero 基准。
 3. **第 2 层门锁类别产品图 + 场景图 Gallery 模式**：
    - 每个门锁类别呈现【真实门上实景图】与【产品剖面/原理图】双重视角；
    - 标注综合筛选评分（⭐ 分值）与工程师检索权重。
@@ -219,10 +219,10 @@ GlobalLockSummary/
 
 | 沟通轮次 | 用户核心指令原文及要求 | 落地实施模块与文件位置 | 状态与验证方式 |
 |---|---|---|---|
-| **Round 1 (架构与五大板块)** | 1. 首页按 ASSA ABLOY 事业部 + 五金标准重构为 5 大工业板块<br>2. 核心 Retrofit 锁型作为 Hero 主图<br>3. 取消被动悬赏，改为爬虫主动抓取清洗<br>4. 深度追踪全球 Retrofit 锁型强相关关系与机械差评<br>5. 落地刻印反查、转接件 BOM、打孔模板、门缝深度、爆款兼容 5 项建议 | - `build.mjs`<br>- `content/catalog/gallery.json`<br>- `content/catalog/indigenous-lock-guides.json`<br>- `content/catalog/adapters-bom.json`<br>- `content/catalog/drilling-templates.json`<br>- `content/catalog/bestseller-locks.json` | ✅ 已实装上线<br>浏览器访问 5 大区域首页与对应 5 项专项工具 |
-| **Round 2 (视觉画廊与闭环规范)** | 1. 画廊模式视觉调研与三层穿透架构<br>2. 建立文件体系命名规范，输出 Excel 工程规划与数据主索引<br>3. 建立长期记忆与方法论文档<br>4. 首页仅保留 5 个区域入口，不能有多余内容<br>5. 左上角消除文字重复，底部表单极简化<br>6. 保持 PR OPEN，分支固定，绝不擅自合并或结束 | - `docs/04_GALLERY_STYLE_RESTRUCTURING_GUIDE.md`<br>- `docs/02_PROJECT_PLAN_AND_CONVENTIONS.xlsx`<br>- `docs/03_GLOBAL_LOCK_DATA_INDEX.xlsx`<br>- `docs/01_METHODOLOGY_AND_CONTEXT_MEMORY.md`<br>- `src/layout.mjs` (极简底栏 + 守护光环) | ✅ 已实装<br>首页呈现纯粹 5 大入口；消除面包屑重复；PR #3 保持 OPEN |
+| **Round 1 (架构与五大板块)** | 1. 首页按 ASSA ABLOY 事业部 + 五金标准重构为 8 大工业板块<br>2. 核心 Retrofit 锁型作为 Hero 主图<br>3. 取消被动悬赏，改为爬虫主动抓取清洗<br>4. 深度追踪全球 Retrofit 锁型强相关关系与机械差评<br>5. 落地刻印反查、转接件 BOM、打孔模板、门缝深度、爆款兼容 5 项建议 | - `build.mjs`<br>- `content/catalog/gallery.json`<br>- `content/catalog/indigenous-lock-guides.json`<br>- `content/catalog/adapters-bom.json`<br>- `content/catalog/drilling-templates.json`<br>- `content/catalog/bestseller-locks.json` | ✅ 已实装上线<br>浏览器访问 8 大工业板块首页与对应 5 项专项工具 |
+| **Round 2 (视觉画廊与闭环规范)** | 1. 画廊模式视觉调研与三层穿透架构<br>2. 建立文件体系命名规范，输出 Excel 工程规划与数据主索引<br>3. 建立长期记忆与方法论文档<br>4. 首页仅保留 8 个区域入口（4列 × 2行 黄金对称），不能有多余内容<br>5. 左上角消除文字重复，底部表单极简化<br>6. 保持 PR OPEN，分支固定，绝不擅自合并或结束 | - `docs/04_GALLERY_STYLE_RESTRUCTURING_GUIDE.md`<br>- `docs/02_PROJECT_PLAN_AND_CONVENTIONS.xlsx`<br>- `docs/03_GLOBAL_LOCK_DATA_INDEX.xlsx`<br>- `docs/01_METHODOLOGY_AND_CONTEXT_MEMORY.md`<br>- `src/layout.mjs` (极简底栏 + 守护光环) | ✅ 已实装<br>首页呈现纯粹 5 大入口；消除面包屑重复；PR #3 保持 OPEN |
 | **Round 3 (铁律保活与序列号)** | 1. 每次沟通前强制检查并激活 Loop<br>2. 彻底排查根治文档点击 404 问题<br>3. 文件夹与文件体系全部规范化序列号命名（00_, 01_, 02_...）<br>4. 每次回复必须附带深入专业建议，建议全入 Loop | - `tools/runner-10m.py` (常驻保活检查)<br>- `serve.mjs` (解决多语言相对路由 404)<br>- `docs/00_~05_` 全系列编号命名文件<br>- `docs/00_AUTONOMOUS_OPTIMIZATION_LOOP.md` (吸收建议) | ✅ 彻底根除 404<br>任何语言下点击文档均 200 OK；序列号全部就绪 |
-| **Round 4 (内容双闭环与3层图谱)** | 1. 建议全部加入 loop，自主持续循环<br>2. 5大区域 Entry 主图筛选标准建模（高清、主流、点击率最高）<br>3. 第 2 层为本区域类别门锁的产品图 + 场景图 Gallery 模式<br>4. 第 3 层为门锁类别下的安装图与打孔模板<br>5. 建立内容爬取与增加索引，网站 loop 与 content loop 并行执行 10 分钟 | - `tools/autonomous-loop.py` (双引擎协同驱动)<br>- `tools/content-harvester.py` (主动图谱与参数清洗)<br>- `docs/05_HIERARCHICAL_GALLERY_INDEX.md` (3层视觉总谱)<br>- `build.mjs` (双视图卡片 + 4步安装工序) | ✅ 正在常驻执行<br>PID 7853 每 30 秒巡航一次并持续推送 Git 检查点 |
+| **Round 4 (内容双闭环与3层图谱)** | 1. 建议全部加入 loop，自主持续循环<br>2. 8 大工业板块 Entry 主图筛选标准建模（高清、主流、点击率最高）<br>3. 第 2 层为本区域类别门锁的产品图 + 场景图 Gallery 模式<br>4. 第 3 层为门锁类别下的安装图与打孔模板<br>5. 建立内容爬取与增加索引，网站 loop 与 content loop 并行执行 10 分钟 | - `tools/autonomous-loop.py` (双引擎协同驱动)<br>- `tools/content-harvester.py` (主动图谱与参数清洗)<br>- `docs/05_HIERARCHICAL_GALLERY_INDEX.md` (3层视觉总谱)<br>- `build.mjs` (双视图卡片 + 4步安装工序) | ✅ 正在常驻执行<br>PID 7853 每 30 秒巡航一次并持续推送 Git 检查点 |
 
 ## 查看与查阅长期记忆的方法 (How to Access & Verify)
 1. **本地工程直接查看**：在工程根目录中，打开 `docs/01_METHODOLOGY_AND_CONTEXT_MEMORY.md` 即可看到最详尽的决策上下文、红线指令清单与历史方法论。
@@ -284,13 +284,13 @@ GlobalLockSummary/
 
 | 批次 | 用户指示与指导核心 | 沉淀结果与系统响应 | 对应规范/测试文件 |
 | :--- | :--- | :--- | :--- |
-| **01** | 全站 5 大板块架构确立，建立 10 分钟自主优化常驻循环 | 建立双引擎调度器与常驻轮询守护进程 | `tools/runner-10m.py`, `docs/00_AUTONOMOUS_OPTIMIZATION_LOOP.md` |
+| **01** | 全站 8 大工业板块架构确立，建立 10 分钟自主优化常驻循环 | 建立双引擎调度器与常驻轮询守护进程 | `tools/runner-10m.py`, `docs/00_AUTONOMOUS_OPTIMIZATION_LOOP.md` |
 | **02** | 明确 3 层 Gallery 结构（场景图、剖面图、安装图） | 建立 74 款锁型 3 层视觉穿透索引 | `docs/05_HIERARCHICAL_GALLERY_INDEX.md` |
 | **03** | 首页仅保留区域 Entry 大卡片，其他类别不可混入 | 首页重构为纯粹 Entry 视觉总控门户 | `content/pages/zh/index.md`, `src/layout.mjs` |
 | **04** | 南美锁（ABNT 40mm 极窄、薄门、防风滚轮）与北美锁物理隔离，扩充至 8 大工业板块 | 确立 4x2 黄金对称阵列（北美、拉美、欧陆、英澳、中东、日韩、东南亚、非南亚） | `assets/css/site.css`, `build.mjs` |
 | **05** | 菜单 Menu 后的统计数字必须随内部内容增加而完全动态联动 | 移除 build.mjs 全部静态回退常量，实现穿透 JSON 实时计算，挂载防回归测试 | `tests/dynamic-nav-counter.test.mjs` |
 | **06** | 离线工程数据与 B2B API 权限分层设计 | 设立数据中心 Lead Capture 下载机制，保护敏感公差数据 | `content/pages/zh/data-hub.md` |
-| **07** | 纠正二级分类页返回按钮残留文字从 5 大板块更新为 8 大板块 | 彻底修复 build.mjs 模版文案与全站同步 | `build.mjs` (L1417) |
+| **07** | 纠正二级分类页返回按钮残留文字从 8 大工业板块更新为 8 大板块 | 彻底修复 build.mjs 模版文案与全站同步 | `build.mjs` (L1417) |
 | **08** | 修复左上角标题文字重复（H1 重复） | 重构 markdownPage 生成逻辑，并新增全站 226 页面零重复 H1 强校验门禁 | `tests/no-duplicate-h1.test.mjs` |
 | **09** | 明确工业索引排序依据，增加显式声明横幅 | 显式增加「出海加装复杂度与工程暗坑深度递减律」深色横幅 | `content/pages/zh/indigenous-guides.md` |
 | **10** | 提炼全站全生命周期方法论，便于后续出海产品站点经验复用 | 沉淀完整出海智能锁 Retrofit 建站与工程实战方法论 | `docs/10_SMART_LOCK_RETROFIT_METHODOLOGY.md` |
@@ -322,3 +322,5 @@ GlobalLockSummary/
 
 | **18** | 专利图谱实装与命名红线坚守 | 专利规避页严禁出现 Nuki-Like 提法，统一使用「后装智能锁」；在各规避章节下方挂载 1:1 矢量 SVG 专利权利要求对比工程图（如 3 螺钉点压 vs 柔性夹头、弹性夹爪 vs Oldham 十字滑块）。 | `assets/img/patent/`, `content/pages/zh/patent-avoidance.md` |
 | **19** | 底部反馈单行条铁律固化 | 底部反馈必须且仅能以单行条（Single Line Strip）形式存在，严禁衍生出多行表单、标题或大段文本。 | `src/layout.mjs`, `assets/css/site.css` |
+
+| **20** | 网页注意力体系与色系调光模型落地 | 首页 8 大板块落实 Tier 1 核心基准聚焦（北美 US-27、欧陆 EU-19、英澳 AU-11 配置 1.5px 工业蓝边框、浮动加装基准徽章）与 Tier 2 次级板块低对比弱化（浅灰背景、18% 微灰阶调光、悬浮动态唤醒），实现 3 秒看懂重点。 | `assets/css/site.css`, `build.mjs`, `docs/10_SMART_LOCK_RETROFIT_METHODOLOGY.md` |

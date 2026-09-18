@@ -1297,3 +1297,60 @@ html {
   border-color: #cbd5e1 !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
 }
+
+/* ==========================================================================
+   Visual Attention & Optical Hierarchy System (注意力与色系层级体系)
+   ========================================================================== */
+
+/* Tier 1 Core Baselines: High Contrast, Vibrant & Focused */
+.gallery-portal-card--core {
+  border: 1.5px solid #2563eb !important;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.12) !important;
+  opacity: 1 !important;
+  transform: scale(1.01);
+}
+.gallery-portal-card--core:hover {
+  border-color: #1d4ed8 !important;
+  box-shadow: 0 16px 32px rgba(37, 99, 235, 0.22) !important;
+  transform: translateY(-6px) scale(1.02) !important;
+}
+
+/* Tier 2 Secondary Divisions: Subdued, De-emphasised, Muted Neutral Tone */
+.gallery-portal-card--secondary {
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04) !important;
+  opacity: 0.88;
+  background: #f8fafc !important;
+}
+.gallery-portal-card--secondary .gallery-portal-card__img {
+  filter: grayscale(18%) contrast(95%);
+  transition: filter .3s ease, transform .3s ease;
+}
+.gallery-portal-card--secondary:hover {
+  opacity: 1;
+  border-color: #94a3b8 !important;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08) !important;
+  transform: translateY(-4px) !important;
+}
+.gallery-portal-card--secondary:hover .gallery-portal-card__img {
+  filter: grayscale(0%) contrast(100%);
+}
+
+/* Core Baseline Floating Badge */
+.portal-tier-pill {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+}
+.portal-tier-pill--core {
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.3);
+}
