@@ -1,0 +1,47 @@
+[
+  {
+    "id": "gap-scandinavian-oval",
+    "region": "北欧（瑞典 / 挪威 / 芬兰）",
+    "name": { "zh": "斯堪的纳维亚椭圆锁芯 (ASSA Scandinavian Oval)", "en": "Scandinavian Oval Cylinder (ASSA / Ruko)" },
+    "typicalProfile": "双凸耳椭圆体，顶部带双固定螺栓通孔，非 DIN 葫芦槽",
+    "missingData": "内侧旋钮方轴截面公差、外露锁芯护盖外径（Defender Clearance）、面板螺钉孔距",
+    "retrofitChallenge": "无法使用 Euro 槽型转接环，需专用 ASSA 5601/1201 弧形锁芯咬合夹具",
+    "priority": "P1 高优先级"
+  },
+  {
+    "id": "gap-swiss-round-22mm",
+    "region": "瑞士 / 中欧受限市场",
+    "name": { "zh": "瑞士 22mm 圆形锁芯 (Swiss Round Profile / Kaba)", "en": "Swiss 22mm Round Profile Cylinder" },
+    "typicalProfile": "直径 22mm 正圆形，底部单固定拨叉，多用于高安防建筑",
+    "missingData": "中心距与拔叉（Cam）旋转角度死点公差、防拔套筒（Escutcheon）径向净空",
+    "retrofitChallenge": "圆形无外壳定位止动面，普通电机旋转时机身容易自偏转打滑",
+    "priority": "P1 高优先级"
+  },
+  {
+    "id": "gap-jp-narrow-miwa",
+    "region": "日本 / 亚太铝合金门",
+    "name": { "zh": "日式窄框门插芯锁 (MIWA 13LA / GOAL 窄框体)", "en": "Japanese Narrow-Stile Case (MIWA / GOAL)" },
+    "typicalProfile": "背距极窄（31mm/38mm），门框与五金缝隙极小，锁芯为螺纹旋入式",
+    "missingData": "内侧拇指旋钮（Thumbturn）防撬遮蔽罩尺寸、门框与把手最小法向净距",
+    "retrofitChallenge": "加装电机厚度若大于 40mm，关门时必撞击门套；且旋钮外圈通常带有活动防盗裙圈",
+    "priority": "P1 高优先级"
+  },
+  {
+    "id": "gap-latam-abnt-narrow",
+    "region": "巴西 / 拉美（ABNT NBR 14913）",
+    "name": { "zh": "拉美 ABNT 40mm 极窄背距门锁 (La Fonte / Silvana)", "en": "Latin America ABNT 40mm Narrow Mortise" },
+    "typicalProfile": "背距 40mm 或 45mm，门厚普遍仅 30~35mm，锁体薄但锁盒高",
+    "missingData": "30mm 薄门内侧沉头螺钉深度、内侧斜舌换向阻力实测（N）",
+    "retrofitChallenge": "市售大部分改装电机底座宽度达 50~60mm，直接突出门扇边缘与门框防风条严重干涉",
+    "priority": "P2 重点攻关"
+  },
+  {
+    "id": "gap-in-rim-godrej",
+    "region": "印度 / 南亚市场",
+    "name": { "zh": "印度表面安装夜锁与铁闸锁 (Godrej Nav-Tal / Rim)", "en": "Indian Surface Rim Latch (Godrej Style)" },
+    "typicalProfile": "表面重型铁壳，内侧黄铜垂直推拉销或半圆粗旋钮",
+    "missingData": "拉销垂直行程阻力（需几牛拉力）、旋钮外径及与门框死锁扣槽距离",
+    "retrofitChallenge": "传动行程长、非标准圆周旋转，需要定制杠杆或拉索执行器",
+    "priority": "P2 重点攻关"
+  }
+]
