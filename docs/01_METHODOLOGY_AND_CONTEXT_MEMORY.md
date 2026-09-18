@@ -365,3 +365,13 @@ GlobalLockSummary/
 | **40** | 全网卡片点击穿透闭环与平台速度波动机理定论 | 1. **全网卡片 100% 具备下层点击穿透**：彻底解决转接工具、避坑实录与工业索引“卡片是死物点不进去”的断头路问题；12 款标准转接件全部绑定对应真实锁型图谱（如 ADP-04 ➔ `us-deadbolt.html`，ADP-03 ➔ `jp-miwa-case.html`）；7 大避坑工单全部直达具体锁族工程方案；<br>2. **开孔模板锚点物理固化**：在 `drilling-templates.md` 中为北美、日本、欧洲三大体系固化 HTML 锚点 `id="tpl-..."`，确保日韩点击 100% 瞬时定位至日本 MIWA 切欠蓝图；<br>3. **平台时区算力与网络延迟定论**：系统分析了当地时间下午至晚间平台速度变慢的三大物理因素（欧美西海岸早高峰算力排队、Session 长期累积 Diff Patch 检索开销、网络丢包重传）。 | `content/pages/`, `src/layout.mjs` |
 
 | **41** | 避坑实录 3x2 黄金对称网格重构（彻底终结 4 行错落） | 1. **流式截断根因排查**：原先采用 `repeat(auto-fill, minmax(320px, 1fr))`，在标准笔记本视口（1080px 内容区）下，第 1 排挤入 3 张卡片，第 2 排放 1 张，第 3 排放 1 张，被浏览器强行折行拉伸为 4 行错落长条；<br>2. **固化为 3列 x 2行 黄金矩阵**：显式重载为 `grid-template-columns: repeat(3, 1fr)`，将 6 大核心典型工单工整收敛为 2 行，卡片图高调整为 140px，首屏 100% 完整露出；<br>3. **ASSA ABLOY 单色墨黑徽章**：刺眼大红大橙角标收敛为墨黑工单标牌 `[FL-01 · 致命卡阻]`，视觉秩序与空气感全面回归。 | `content/pages/zh/field-issues.md`, `content/pages/en/field-issues.md` |
+
+### 42. 【根因分析与绝对防御机制】Cloudflare Pages 分支映射与工作区 Staged 差量防丢失铁律
+- **事故回溯与真实根因（Post-Mortem）**：
+  1. *真实映射链路*：用户在 Cloudflare Pages 后台将 Production Branch（或活跃构建分支）直接指定绑定了长期工作分支 `arena/01a0a966-globallocksummary`。因此每次只要该分支成功 push 且构建通过，`https://globallocksummary.pages.dev/zh/` 就会全量实时更新。
+  2. *此前打不开/回退旧版的直接诱因*：在之前的某次提交中，`.github/workflows/pages.yml` 的触发分支被误设为单分支；更严重的是，沙箱在排查时产生了未提交的临时索引（Staged changes），覆盖了正在生效的 `build.mjs`。导致本地 build 降级，生成的 HTML 退化成了带占位符的旧骨架。
+  3. *Cloudflare 构建阻塞*：由于工作流与脚本状态异常，远端未能收到正确编译出的最新静态页面，Cloudflare 抓取不到最新构建，回滚降级展示了上一版本的 404 与占位符。
+- **永久防范三大防线（Triple Defense Mechanisms）**：
+  - **防线一（Git 状态三不原则）**：在任何检查、测试与推送动作前，必须先执行 `git status --porcelain`。若存在未追踪或意外修改，严禁覆盖，必须使用 `git stash` 或显式恢复，坚决杜绝在 dirty working tree 下执行 build。
+  - **防线二（构建产物完整性自检断言）**：在 `npm test` 中增加「核心模板与渲染标签自检」断言——严禁产出 HTML 包含未经解析的模板占位符（如 `{{gallery}}`）；一旦检测到，直接中断发布并警报。
+  - **防线三（双端推送绝对保持）**：`.github/workflows/pages.yml` 中永远必须保留 `arena/01a0a966-globallocksummary` 触发分支，确保用户无论访问 Cloudflare CDN、Gitee 还是 GitHub Pages，三端始终由当前分支全自动驱动。
