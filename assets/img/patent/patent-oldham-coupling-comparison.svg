@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="100%" height="100%">
+  <rect width="800" height="360" fill="#0f172a" rx="8"/>
+  <text x="20" y="32" fill="#94a3b8" font-size="14" font-weight="bold">PATENT COMPARISON: KEY DRIVE &amp; FLOATING MISALIGNMENT</text>
+  
+  <!-- Left: Prior Art -->
+  <g transform="translate(40, 50)">
+    <rect width="340" height="280" fill="#1e293b" rx="6" stroke="#ef4444" stroke-width="2"/>
+    <rect x="15" y="15" width="120" height="24" fill="#dc2626" rx="4"/>
+    <text x="25" y="32" fill="#fff" font-size="12" font-weight="bold">⚠️ 专利保护构型</text>
+    <text x="145" y="32" fill="#f87171" font-size="12">弹性弹片夹紧钥匙柄</text>
+    
+    <!-- Motor shaft slot -->
+    <rect x="120" y="80" width="100" height="110" rx="8" fill="#334155" stroke="#64748b" stroke-width="2"/>
+    <!-- Key Bow -->
+    <rect x="145" y="60" width="50" height="100" rx="4" fill="#cbd5e1"/>
+    <!-- Leaf springs clamping key -->
+    <path d="M 125 110 Q 140 120 144 130" stroke="#ef4444" stroke-width="4" fill="none"/>
+    <path d="M 215 110 Q 200 120 196 130" stroke="#ef4444" stroke-width="4" fill="none"/>
+    
+    <text x="35" y="235" fill="#fca5a5" font-size="12">缺陷：钥匙柄被刚性/弹性夹紧</text>
+    <text x="35" y="258" fill="#fca5a5" font-size="12">门轴同心度偏差直接卡死减速箱</text>
+  </g>
+  
+  <!-- Right: Oldham Workaround -->
+  <g transform="translate(420, 50)">
+    <rect width="340" height="280" fill="#1e293b" rx="6" stroke="#10b981" stroke-width="2"/>
+    <rect x="15" y="15" width="130" height="24" fill="#059669" rx="4"/>
+    <text x="25" y="32" fill="#fff" font-size="12" font-weight="bold">🛡️ 推荐规避方案</text>
+    <text x="155" y="32" fill="#34d399" font-size="12">Oldham 十字滑块浮动拨叉</text>
+    
+    <!-- Outer motor driving disk -->
+    <circle cx="170" cy="130" r="50" fill="#1e293b" stroke="#10b981" stroke-width="3"/>
+    <!-- Floating cross element -->
+    <rect x="155" y="95" width="30" height="70" rx="3" fill="#34d399" opacity="0.8"/>
+    <rect x="135" y="115" width="70" height="30" rx="3" fill="#10b981" opacity="0.8"/>
+    <!-- Key slot -->
+    <rect x="162" y="110" width="16" height="40" rx="2" fill="#0f172a"/>
+    
+    <text x="25" y="235" fill="#a7f3d0" font-size="12">1. 纯扭矩传递，吸收 ±2.0mm 径向跳动</text>
+    <text x="25" y="258" fill="#a7f3d0" font-size="12">2. 彻底脱钩“钥匙柄弹性夹持腔”权利要求</text>
+  </g>
+</svg>
