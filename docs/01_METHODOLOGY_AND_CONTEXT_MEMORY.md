@@ -324,3 +324,6 @@ GlobalLockSummary/
 | **19** | 底部反馈单行条铁律固化 | 底部反馈必须且仅能以单行条（Single Line Strip）形式存在，严禁衍生出多行表单、标题或大段文本。 | `src/layout.mjs`, `assets/css/site.css` |
 
 | **20** | 网页注意力体系与色系调光模型落地 | 首页 8 大板块落实 Tier 1 核心基准聚焦（北美 US-27、欧陆 EU-19、英澳 AU-11 配置 1.5px 工业蓝边框、浮动加装基准徽章）与 Tier 2 次级板块低对比弱化（浅灰背景、18% 微灰阶调光、悬浮动态唤醒），实现 3 秒看懂重点。 | `assets/css/site.css`, `build.mjs`, `docs/10_SMART_LOCK_RETROFIT_METHODOLOGY.md` |
+
+| **21** | ASSA ABLOY 极简工业克制风排版定论 | 摒弃过度渐变与大阴影，注意力体系全面收敛为 ASSA ABLOY 经典工业五金风（纯白底色、墨黑细线 #0f172a、低饱和度单色徽章、极度精简说明文本），实现少即是多。 | `assets/css/site.css`, `build.mjs` |
+| **22** | 彻底移除 GitHub 提交按钮，国内网络 100% 畅通闭环 | 底部反馈条彻底移除打不开的 GitHub Issue 链接，收敛为极简单行「一键复制反馈 (微信/邮件/群)」，国内工程师秒点秒发。 | `src/layout.mjs` |

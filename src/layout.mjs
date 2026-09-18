@@ -77,12 +77,10 @@ export function layout(opts) {
       </span>
       <input type="text" data-feedback-message placeholder="${isZh ? '一句话留言：如缺某种锁型、尺寸纠错或加装建议...' : 'One-line note: missing lock, sizing correction, or advice...'}" 
         style="flex: 1; min-width: 220px; padding: 7px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.82rem; background: #fff;" />
-      <button class="feedback__copy" data-feedback-copy type="button" style="padding: 7px 14px; font-size: 0.8rem; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 6px; cursor: pointer; white-space: nowrap; font-weight: 600; color: #334155;">
-        ${esc(feedbackI18n.copy)}
+      <button class="feedback__copy" data-feedback-copy type="button" style="padding: 7px 16px; font-size: 0.82rem; background: #2563eb; color: #fff; border: none; border-radius: 6px; cursor: pointer; white-space: nowrap; font-weight: 600; box-shadow: 0 1px 3px rgba(37,99,235,0.2);">
+        ${isZh ? '一键复制反馈 (微信/邮件)' : 'Copy Feedback'}
       </button>
-      <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener" style="padding: 7px 14px; font-size: 0.8rem; background: #2563eb; color: #fff; border-radius: 6px; text-decoration: none; white-space: nowrap; font-weight: 600;">
-        GitHub Issue
-      </a>
+
       <span class="feedback__status" data-feedback-status aria-live="polite" style="font-size: 0.78rem;"></span>
     </div>
   </section>`;
