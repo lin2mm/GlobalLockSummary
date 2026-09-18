@@ -1441,7 +1441,7 @@ function build() {
             <a class="block-hero__btn" style="background: #0f172a; color: #fff; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; border-radius: 4px; text-decoration: none;" href="${heroHref}">
               ${isZh ? '实物拆解与工程规范 →' : 'Specifications & Blueprint →'}
             </a>
-            <a class="block-hero__btn" style="background: #ffffff; border: 1px solid #cbd5e1; color: #334155; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; border-radius: 4px; text-decoration: none;" href="${isZh ? '/zh/drilling-templates.html' : '/en/drilling-templates.html'}">
+            <a class="block-hero__btn" style="background: #ffffff; border: 1px solid #cbd5e1; color: #334155; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; border-radius: 4px; text-decoration: none;" href="${isZh ? (block.code === 'jp-kr' ? '/zh/drilling-templates.html#tpl-jp-miwa-la' : (block.code === 'europe5' ? '/zh/drilling-templates.html#tpl-eu-din-18251' : '/zh/drilling-templates.html#tpl-us-ansi-deadbolt')) : (block.code === 'jp-kr' ? '/en/drilling-templates.html#tpl-jp-miwa-la' : (block.code === 'europe5' ? '/en/drilling-templates.html#tpl-eu-din-18251' : '/en/drilling-templates.html#tpl-us-ansi-deadbolt'))}">
               📐 ${isZh ? '1:1 开孔图谱' : '1:1 Template'}
             </a>
           </div>
