@@ -28,7 +28,7 @@ lang: "zh"
     <tbody>
       <tr style="border-bottom: 1px solid var(--color-border, #e2e8f0);">
         <td style="padding: 10px; font-weight: bold;">MIWA (美和)</td>
-        <td style="padding: 10px;"><strong style="color: #0284c7; font-size: 1.1em;">LA / 13LA / LA・MA</strong></td>
+        <td style="padding: 10px;"><strong style="color: #0B1D47; font-size: 1.1em;">LA / 13LA / LA・MA</strong></td>
         <td style="padding: 10px;">插芯呆舌把手锁（集合住宅主力）</td>
         <td style="padding: 10px;">51mm / 64mm</td>
         <td style="padding: 10px;">33 ~ 42mm</td>
@@ -37,7 +37,7 @@ lang: "zh"
       </tr>
       <tr style="border-bottom: 1px solid var(--color-border, #e2e8f0); background: var(--color-bg-card, #f8fafc);">
         <td style="padding: 10px; font-weight: bold;">MIWA (美和)</td>
-        <td style="padding: 10px;"><strong style="color: #0284c7; font-size: 1.1em;">BH / DZ / LD / LDSP</strong></td>
+        <td style="padding: 10px;"><strong style="color: #0B1D47; font-size: 1.1em;">BH / DZ / LD / LDSP</strong></td>
         <td style="padding: 10px;">独立插芯呆锁（常作辅助锁）</td>
         <td style="padding: 10px;">31 / 51 / 64mm</td>
         <td style="padding: 10px;">33 ~ 42mm</td>
@@ -46,7 +46,7 @@ lang: "zh"
       </tr>
       <tr style="border-bottom: 1px solid var(--color-border, #e2e8f0);">
         <td style="padding: 10px; font-weight: bold;">MIWA (美和)</td>
-        <td style="padding: 10px;"><strong style="color: #0284c7; font-size: 1.1em;">LSP / LE / SWLSP / TE</strong></td>
+        <td style="padding: 10px;"><strong style="color: #0B1D47; font-size: 1.1em;">LSP / LE / SWLSP / TE</strong></td>
         <td style="padding: 10px;">轻型插芯锁（公寓高频）</td>
         <td style="padding: 10px;">51mm / 64mm</td>
         <td style="padding: 10px;">28 ~ 40mm</td>

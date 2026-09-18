@@ -454,7 +454,7 @@ function lockPage(fam, lang) {
           </div>
         </div>
         ${s.installationGuide && s.installationGuide.steps ? `
-        <div class="lock-detail-sample__steps-box" style="margin: 16px 0; padding: 14px 18px; background: #f8fafc; border-left: 4px solid #0284c7; border-radius: 4px;">
+        <div class="lock-detail-sample__steps-box" style="margin: 16px 0; padding: 14px 18px; background: #f8fafc; border-left: 3px solid #0B1D47; border-radius: 4px;">
           <h5 style="margin: 0 0 10px; color: #0369a1; font-size: 0.95rem;">🛠️ ${lang === 'zh' ? '第三层：标准改装工程与安装工序流程' : 'Tier 3: Standard Retrofit Installation Workflow'}</h5>
           <ol style="margin: 0; padding-left: 20px; font-size: 0.85rem; color: #334155; line-height: 1.6;">
             ${(lang === 'zh' ? s.installationGuide.steps.zh : s.installationGuide.steps.en).map(st => `<li>${escapeHtml(st)}</li>`).join('')}
@@ -470,7 +470,7 @@ function lockPage(fam, lang) {
         <div class="lock-detail-sample__matrix-box" style="margin: 14px 0; padding: 12px 16px; background: #f1f5f9; border-radius: 6px; border: 1px solid #cbd5e1; font-size: 0.8rem;">
           <div style="font-weight: 700; color: #0f172a; margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between;">
             <span>🔬 ${lang === "zh" ? "安装公差矩阵与改装合规评级 (Engineering Matrix)" : "Engineering Tolerance & Compliance Matrix"}</span>
-            <span style="font-size: 0.72rem; padding: 2px 6px; background: #0284c7; color: white; border-radius: 3px;">
+            <span style="font-size: 0.72rem; padding: 2px 6px; background: #0B1D47; color: white; border-radius: 3px;">
               ${escapeHtml(s.engineeringMatrix.rentalOptimization.rating)}
             </span>
           </div>
@@ -623,7 +623,7 @@ function lockPage(fam, lang) {
             </h3>
             <p style="margin: 4px 0 0; font-size: 0.82rem; color: #64748b;">${lang === 'zh' ? '展示真实开孔夹具钻孔、木工凿槽、转轴拉出与防盗扣板对齐的真实施工实录，带来 1:1 一线现场感。' : 'Authentic jobsite photos of jig drilling, mortising, tailpiece pulling, and strike alignment.'}</p>
           </div>
-          <a class="block-hero__btn" style="font-size: 0.8rem; padding: 6px 12px; background: #0284c7; color: #fff;" href="${lang === 'zh' ? '/zh/install-gallery.html' : '/en/install-gallery.html'}">
+          <a class="block-hero__btn" style="font-size: 0.8rem; padding: 6px 12px; background: #0B1D47; color: #fff;" href="${lang === 'zh' ? '/zh/install-gallery.html' : '/en/install-gallery.html'}">
             ${lang === 'zh' ? '浏览全站 41 个工程实录图库 →' : 'View All 41 Field Cases →'}
           </a>
         </div>
@@ -1131,7 +1131,7 @@ function renderGalleryCard(item, lang) {
 
   const isMainstream = item.tierClass === 'Mainstream';
   const cardStyle = isMainstream 
-    ? 'border: 1.5px solid #0284c7; background: #ffffff; box-shadow: 0 4px 14px rgba(2, 132, 199, 0.08); border-left: 4px solid #0284c7;' 
+    ? 'border: 1px solid #cbd5e1; background: #ffffff; box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04); border-left: 3px solid #0B1D47;' 
     : 'border: 1px solid #e2e8f0; background: #f8fafc; opacity: 0.88; border-left: 3px solid #94a3b8; filter: saturate(0.9);';
 
   return `<div class="gallery-card gallery-card--${isMainstream ? 'mainstream' : 'niche'}" data-gallery-card data-tier="${escapeHtml(item.tierClass || "Mainstream")}" data-region="${escapeHtml(item.block)}" data-search-text="${escapeHtml(searchText)}" style="${cardStyle} border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;">
@@ -1148,7 +1148,7 @@ function renderGalleryCard(item, lang) {
         <div style="display: flex; gap: 4px; align-items: center;">
           <span class="gallery-card__id" style="font-family: var(--font-mono, monospace); font-weight: 700; font-size: 0.72rem;">${escapeHtml(item.id)}</span>
           ${isMainstream 
-            ? `<span style="background: #0284c7; color: #ffffff; font-size: 0.68rem; font-weight: 700; padding: 2px 7px; border-radius: 3px; letter-spacing: 0.03em; box-shadow: 0 1px 3px rgba(0,0,0,0.2);">★ ${isZh ? '主流基准' : 'MAINSTREAM'}</span>` 
+            ? `<span style="background: #0B1D47; color: #ffffff; font-size: 0.68rem; font-weight: 700; padding: 2px 7px; border-radius: 3px; letter-spacing: 0.03em; box-shadow: 0 1px 3px rgba(0,0,0,0.2);">★ ${isZh ? '主流基准' : 'MAINSTREAM'}</span>` 
             : `<span style="background: #e2e8f0; color: #64748b; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px; border: 1px solid #cbd5e1;">${isZh ? '非主流/小众' : 'NICHE'}</span>`}
         </div>
         <span class="gallery-card__status ${statusClass}">${escapeHtml(statusText)}</span>
@@ -1365,7 +1365,7 @@ function build() {
         </div>
         <div style="padding: 16px; flex: 1; display: flex; flex-direction: column;">
           <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #64748b; margin-bottom: 6px;">
-            <span>${isZh ? '所属锁族:' : 'Family:'} <a href="${lockLink}" style="font-weight: 700; color: #0284c7;">${escapeHtml(c.lockFamilyName)}</a></span>
+            <span>${isZh ? '所属锁族:' : 'Family:'} <a href="${lockLink}" style="font-weight: 700; color: #0B1D47;">${escapeHtml(c.lockFamilyName)}</a></span>
             <span><a href="${catLink}" style="color: #64748b;">${escapeHtml(cRegion)} ${isZh ? '图库' : 'Gallery'} →</a></span>
           </div>
           <h3 style="margin: 0 0 8px; font-size: 1.05rem; line-height: 1.4;">${escapeHtml(cTitle)}</h3>

@@ -22,10 +22,10 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
 <div style="display: flex; flex-direction: column; gap: 36px; margin: 28px 0;">
 
   <!-- 1. 德奥瑞 -->
-  <div id="de-at-ch" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 6px solid #0284c7; border-radius: 8px; padding: 24px; box-shadow: 0 4px 14px rgba(2,132,199,0.06);">
+  <div id="de-at-ch" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇩🇪 DACH Region: Dornmaß, PZ Dimensions & Dual-Action Clutch</h2>
-      <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">DIN 18251 / DIN 18252</span>
+      <span style="background: #0B1D47; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">DIN 18251 / DIN 18252</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
@@ -50,10 +50,10 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
   </div>
 
   <!-- 2. 法比区 -->
-  <div id="fr-be" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 6px solid #0284c7; border-radius: 8px; padding: 24px; box-shadow: 0 4px 14px rgba(2,132,199,0.06);">
+  <div id="fr-be" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇫🇷 France & Belgium: Axe 50, Entraxe 70 & 7mm Spindles</h2>
-      <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">NF / Vachette 70</span>
+      <span style="background: #0B1D47; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">NF / Vachette 70</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
@@ -78,10 +78,10 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
   </div>
 
   <!-- 3. 日本精工 -->
-  <div id="jp" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 6px solid #0284c7; border-radius: 8px; padding: 24px; box-shadow: 0 4px 14px rgba(2,132,199,0.06);">
+  <div id="jp" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇯🇵 Japan: Faceplate Engraving Decoding & Anti-Theft Thumbturn</h2>
-      <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">JIS A 1510 / MIWA / GOAL</span>
+      <span style="background: #0B1D47; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">JIS A 1510 / MIWA / GOAL</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
@@ -105,10 +105,10 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
   </div>
 
   <!-- 4. 英澳体系 -->
-  <div id="uk-anz" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 6px solid #0284c7; border-radius: 8px; padding: 24px; box-shadow: 0 4px 14px rgba(2,132,199,0.06);">
+  <div id="uk-anz" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇦🇺🇬🇧 UK & Australia: Rim Nightlatches & Lockwood 001 Deadlatches</h2>
-      <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">AS 4145 / BS 3621</span>
+      <span style="background: #0B1D47; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">AS 4145 / BS 3621</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
@@ -132,10 +132,10 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
   </div>
 
   <!-- 5. 西语与拉美 -->
-  <div id="latam" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 6px solid #0284c7; border-radius: 8px; padding: 24px; box-shadow: 0 4px 14px rgba(2,132,199,0.06);">
+  <div id="latam" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🌎 Latin America: 40mm Narrow Entrada & Pivot Roller Latches</h2>
-      <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">ABNT NBR 14913 / IRAM</span>
+      <span style="background: #0B1D47; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">ABNT NBR 14913 / IRAM</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
@@ -159,10 +159,10 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
   </div>
 
   <!-- 6. 北美标准 -->
-  <div id="na" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 6px solid #0284c7; border-radius: 8px; padding: 24px; box-shadow: 0 4px 14px rgba(2,132,199,0.06);">
+  <div id="na" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇺🇸 North America: 54mm Bore & Flat Tailpiece Deadbolts</h2>
-      <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">ANSI / BHMA A156.36</span>
+      <span style="background: #0B1D47; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">ANSI / BHMA A156.36</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">

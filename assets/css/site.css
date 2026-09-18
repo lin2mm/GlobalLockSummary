@@ -896,7 +896,7 @@ details p { margin: .6rem 0 .2rem; color: var(--fg-muted); }
 .gallery-portal-card__baseline {
   font-size: 0.82rem;
   font-weight: 600;
-  color: #0284c7;
+  color: #0B1D47;
   margin-bottom: 0.6rem;
   line-height: 1.35;
 }
@@ -1031,7 +1031,7 @@ html {
 .gallery-portal-card__baseline {
   font-size: 0.84rem;
   font-weight: 600;
-  color: #0284c7;
+  color: #0B1D47;
   margin-bottom: 0.9rem;
   line-height: 1.4;
 }
@@ -1267,14 +1267,14 @@ html {
 }
 .nav__sub-link:hover {
   background: #f1f5f9;
-  color: #0284c7 !important;
+  color: #0B1D47 !important;
 }
 
 /* Mainstream vs Niche Color Hierarchy */
 .gallery-card--mainstream {
-  border: 1.5px solid #0284c7 !important;
+  border: 1px solid #0B1D47 !important;
   background: #ffffff !important;
-  border-left: 4px solid #0284c7 !important;
+  border-left: 3px solid #0B1D47 !important;
   box-shadow: 0 4px 14px rgba(2, 132, 199, 0.08) !important;
 }
 

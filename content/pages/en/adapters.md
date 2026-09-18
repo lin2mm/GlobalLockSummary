@@ -61,7 +61,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
         <div style="margin-top: 4px;"><b>Material:</b> POM（赛钢） 或 增强型尼龙 PA12 (SLS 3D打印)</div>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #64748b; border-top: 1px solid #f1f5f9; padding-top: 8px;">
-        <span>Fabrication: <span style="background: #0284c7; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
+        <span>Fabrication: <span style="background: #0B1D47; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
         <span style="color: #475569; font-weight: 600;">Verified (Tested on MIWA 13LA / LA・MA thumbturns)</span>
       </div>
     </div>
@@ -79,7 +79,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
         <div style="margin-top: 4px;"><b>Material:</b> 铝合金 6061-T6 CNC 或 尼龙 PA66+30%GF</div>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #64748b; border-top: 1px solid #f1f5f9; padding-top: 8px;">
-        <span>Fabrication: <span style="background: #0284c7; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
+        <span>Fabrication: <span style="background: #0B1D47; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
         <span style="color: #475569; font-weight: 600;">Verified (Compatible with Schlage B60, Kwikset 660, Defiant)</span>
       </div>
     </div>
@@ -97,7 +97,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
         <div style="margin-top: 4px;"><b>Material:</b> 高抗冲聚碳酸酯 PC/ABS + 1.5mm 导电硅胶衬垫</div>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #64748b; border-top: 1px solid #f1f5f9; padding-top: 8px;">
-        <span>Fabrication: <span style="background: #0284c7; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
+        <span>Fabrication: <span style="background: #0B1D47; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
         <span style="color: #475569; font-weight: 600;">Verified (Tested on Lockwood 001 Double Cylinder)</span>
       </div>
     </div>
@@ -151,7 +151,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
         <div style="margin-top: 4px;"><b>Material:</b> 2.0mm 冷轧碳钢电镀</div>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #64748b; border-top: 1px solid #f1f5f9; padding-top: 8px;">
-        <span>Fabrication: <span style="background: #0284c7; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
+        <span>Fabrication: <span style="background: #0B1D47; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
         <span style="color: #475569; font-weight: 600;">Verified (Tested on 32mm Hollow Core Plywood Doors)</span>
       </div>
     </div>
@@ -187,7 +187,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
         <div style="margin-top: 4px;"><b>Material:</b> SUS304 砂光拉丝不锈钢 / 哑黑电泳</div>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #64748b; border-top: 1px solid #f1f5f9; padding-top: 8px;">
-        <span>Fabrication: <span style="background: #0284c7; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
+        <span>Fabrication: <span style="background: #0B1D47; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
         <span style="color: #475569; font-weight: 600;">✓ Verified (完美遮盖 Lockwood 001 旧孔)</span>
       </div>
     </div>
@@ -223,7 +223,7 @@ Engineered for overseas smart lock developers. All adapters have undergone **100
         <div style="margin-top: 4px;"><b>Material:</b> POM 自润滑赛钢 / 尼龙 PA12 (抗摔耐冲击)</div>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #64748b; border-top: 1px solid #f1f5f9; padding-top: 8px;">
-        <span>Fabrication: <span style="background: #0284c7; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
+        <span>Fabrication: <span style="background: #0B1D47; color: #fff; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 3px;">3D Print Ready</span></span>
         <span style="color: #475569; font-weight: 600;">✓ Verified (彻底解决带止口台阶门框门磁持续误报未关门隐患)</span>
       </div>
     </div>
