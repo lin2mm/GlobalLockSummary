@@ -1051,7 +1051,7 @@ function getGalleryBlocks(lang) {
       hero: {
         title: isZh ? '核心改装基准：日本 MIWA 13LA / B5 防犯斜坡旋钮锁' : 'Core Retrofit Baseline: Japan MIWA 13LA / B5 Thumbturn',
         desc: isZh ? '日本独栋与公寓第一基准。内旋钮自带双侧防盗下压弹簧片；改装必须搭配 ADP-03 双斜坡抓手，转动前自动解锁，杜绝卡死烧机。' : 'Japan benchmark. Features anti-theft pinch release thumbturn requiring ADP-03 adapter.',
-        image: '/assets/img/indigenous/jp-thumbturn.jpg',
+        image: '/assets/img/indigenous/jp-miwa-13la.jpg',
         familyId: 'jp-miwa-case',
         tag: isZh ? '⭐ 极强相关 · 日韩改装基准' : '⭐ Japan & Korea Baseline'
       },
@@ -1192,7 +1192,7 @@ function galleryFragment(lang) {
     const categoryUrl = `/${urlFor(lang, `categories/${b.code}.html`)}`;
     const idxBadge = idx + 1;
     // 视觉注意力体系：Tier 1 核心基准高亮 vs 其它板块弱化
-    const isCoreTier1 = ['na', 'europe5', 'uk-anz'].includes(b.code);
+    const isCoreTier1 = ['na', 'europe5', 'uk-anz', 'jp-kr'].includes(b.code);
     const cardClass = isCoreTier1 ? 'gallery-portal-card gallery-portal-card--core' : 'gallery-portal-card gallery-portal-card--secondary';
     const tierBadge = isCoreTier1 ? (isZh ? '<span class="portal-tier-pill portal-tier-pill--core">★ 核心加装基准</span>' : '<span class="portal-tier-pill portal-tier-pill--core">★ CORE BASELINE</span>') : '';
     return `<a class="${cardClass}" href="${categoryUrl}" data-portal-target="${escapeHtml(b.code)}">
