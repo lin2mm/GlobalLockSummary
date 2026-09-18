@@ -14,7 +14,7 @@ lang: "zh"
 </div>
 
 <!-- 顶部 8 大工业板块快速穿透锚点导航条（按工程暗坑与加装复杂度降序排列） -->
-<div style="margin: 20px 0 32px; padding: 12px 16px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
+<div style="margin: 20px 0 32px; padding: 12px 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; padding: 10px 14px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
   <span style="font-weight: 700; font-size: 0.85rem; color: #334155;">📍 快速直达工业板块:</span>
   <a href="#de-at-ch" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇩🇪 德奥瑞 (DIN)</a>
   <a href="#fr-be" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇫🇷 法比区 (NF)</a>
@@ -39,8 +39,8 @@ lang: "zh"
         <div style="height: 200px; background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
           <img src="/assets/img/indigenous/de-dornmass-pz.png" alt="DIN 18251 Dornmaß PZ" style="width: 100%; height: 100%; object-fit: contain; padding: 8px;" />
         </div>
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/indigenous/de-gefahrenfunktion.jpg" alt="Gefahrenfunktion Clutch" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/indigenous/de-gefahrenfunktion.jpg" alt="Gefahrenfunktion Clutch" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
       </div>
       <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
@@ -49,9 +49,7 @@ lang: "zh"
           <li><b>PZ (孔距):</b> 入户门标准 72mm，防火门强制 92mm。</li>
           <li><b>Gefahrenfunktion (应急功能):</b> 锁芯必须具备双向离合，否则内侧常插钥匙断电后室外无法用物理钥匙开门。</li>
         </ul>
-        <div style="margin-top: 12px; padding: 8px 12px; background: #eff6ff; border-radius: 4px; font-size: 0.78rem; color: #1e40af;">
-          💡 <b>推荐转接件:</b> ADP-02 (8转9mm 防火套管) + ADP-06 (钥匙紧定爪)
-        </div>
+        <div style="margin-top: 10px; padding: 6px 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; font-size: 0.76rem; color: #334155;"><b>推荐转接件:</b> ADP-02 (8转9mm 防火套管) + ADP-06 (钥匙紧定爪)</div>
       </div>
     </div>
   </div>
@@ -67,8 +65,8 @@ lang: "zh"
         <div style="height: 200px; background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
           <img src="/assets/img/indigenous/fr-entraxe-70.png" alt="France Entraxe 70" style="width: 100%; height: 100%; object-fit: contain; padding: 8px;" />
         </div>
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/gallery/eu-19_real.jpg" alt="Bricard Serie 70" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/gallery/eu-19_real.jpg" alt="Bricard Serie 70" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
       </div>
       <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
@@ -77,9 +75,7 @@ lang: "zh"
           <li><b>Axe (背距):</b> 主流为 50mm，老房存在 40mm 浅槽。</li>
           <li><b>Fouillot (方轴孔):</b> 7×7mm 方轴孔，智能锁标配 8mm 方轴无法插入，强插会损坏锁体。</li>
         </ul>
-        <div style="margin-top: 12px; padding: 8px 12px; background: #eff6ff; border-radius: 4px; font-size: 0.78rem; color: #1e40af;">
-          💡 <b>推荐转接件:</b> ADP-01 (法国 7转8mm 变径套管)
-        </div>
+        <div style="margin-top: 10px; padding: 6px 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; font-size: 0.76rem; color: #334155;"><b>推荐转接件:</b> ADP-01 (法国 7转8mm 变径套管)</div>
       </div>
     </div>
   </div>
@@ -91,8 +87,8 @@ lang: "zh"
       <span style="background: #d97706; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">SASO 2063 / GSO EN 12209</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
-      <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-        <img src="/assets/img/indigenous/gcc-saso-mortise.jpg" alt="中东 SASO 重型铜锁与装甲门" style="width: 100%; height: 100%; object-fit: cover;" />
+      <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+        <img src="/assets/img/indigenous/gcc-saso-mortise.jpg" alt="中东 SASO 重型铜锁与装甲门" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
       </div>
       <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
         <ul style="margin: 0; padding-left: 18px;">
@@ -115,11 +111,11 @@ lang: "zh"
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/indigenous/jp-miwa-13la.jpg" alt="MIWA 13LA Engraving" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/indigenous/jp-miwa-13la.jpg" alt="MIWA 13LA Engraving" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/indigenous/jp-thumbturn.jpg" alt="MIWA Thumbturn" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/indigenous/jp-thumbturn.jpg" alt="MIWA Thumbturn" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
       </div>
       <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
@@ -127,9 +123,7 @@ lang: "zh"
           <li><b>フロント刻印 (面板钢印):</b> 侧边刻印「MIWA 13LA / LA・MA」即唯一确定 64mm/51mm 背距与切欠图纸。</li>
           <li><b>防犯サムターン (防盗旋钮):</b> 内侧旋钮自带双侧按压弹簧片，转动前必须先捏合解锁，直接加装会卡死电机。</li>
         </ul>
-        <div style="margin-top: 12px; padding: 8px 12px; background: #eff6ff; border-radius: 4px; font-size: 0.78rem; color: #1e40af;">
-          💡 <b>推荐转接件:</b> ADP-03 (MIWA B5 斜坡双侧捏合抓手)
-        </div>
+        <div style="margin-top: 10px; padding: 6px 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; font-size: 0.76rem; color: #334155;"><b>推荐转接件:</b> ADP-03 (MIWA B5 斜坡双侧捏合抓手)</div>
       </div>
     </div>
   </div>
@@ -142,11 +136,11 @@ lang: "zh"
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/indigenous/uk-nightlatch.jpg" alt="UK Nightlatch" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/indigenous/uk-nightlatch.jpg" alt="UK Nightlatch" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/indigenous/au-lockwood-001.jpg" alt="Lockwood 001" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/indigenous/au-lockwood-001.jpg" alt="Lockwood 001" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
       </div>
       <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
@@ -154,9 +148,7 @@ lang: "zh"
           <li><b>Lockwood 001 (澳标表面夜闩):</b> 水滴大旋钮（48×34mm），关门时辅助小舌必须完全压入扣盒方可死锁。</li>
           <li><b>门缝变异假锁死风险:</b> 门缝超过 3.5mm 会导致辅舌悬空虚假上锁；改装必须搭配可调垫片。</li>
         </ul>
-        <div style="margin-top: 12px; padding: 8px 12px; background: #eff6ff; border-radius: 4px; font-size: 0.78rem; color: #1e40af;">
-          💡 <b>推荐转接件:</b> ADP-05 (水滴大旋钮夹具) + ADP-07 (扣板垫片) + ADP-10 (修饰大背板)
-        </div>
+        <div style="margin-top: 10px; padding: 6px 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; font-size: 0.76rem; color: #334155;"><b>推荐转接件:</b> ADP-05 (水滴大旋钮夹具) + ADP-07 (扣板垫片) + ADP-10 (修饰大背板)</div>
       </div>
     </div>
   </div>
@@ -169,11 +161,11 @@ lang: "zh"
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/indigenous/latam-entrada-40.jpg" alt="ABNT 40mm Entrada" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/indigenous/latam-entrada-40.jpg" alt="ABNT 40mm Entrada" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/gallery/latam-rolete-pivotante_real.webp" alt="PADO Pivotante" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/gallery/latam-rolete-pivotante_real.webp" alt="PADO Pivotante" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
       </div>
       <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
@@ -181,9 +173,7 @@ lang: "zh"
           <li><b>Entrada 40mm (极窄背距):</b> 巴西最主流 40mm/45mm 背距，立柱极窄，传统大面板智能锁横向必超宽干涉。</li>
           <li><b>Porta Pivotante (轴心门):</b> 豪宅流行轴心门配碰珠锁 (Rolete)，关门靠阻尼弹簧，智能锁需支持独立碰锁。</li>
         </ul>
-        <div style="margin-top: 12px; padding: 8px 12px; background: #eff6ff; border-radius: 4px; font-size: 0.78rem; color: #1e40af;">
-          💡 <b>推荐转接件:</b> ADP-08 (薄夹板门防压溃加强圈)
-        </div>
+        <div style="margin-top: 10px; padding: 6px 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; font-size: 0.76rem; color: #334155;"><b>推荐转接件:</b> ADP-08 (薄夹板门防压溃加强圈)</div>
       </div>
     </div>
   </div>
@@ -195,8 +185,8 @@ lang: "zh"
       <span style="background: #059669; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px;">IS 2209 (BIS) / SABS 4 / EN 12209</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
-      <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-        <img src="/assets/img/indigenous/in-godrej-rim.jpg" alt="印度 Godrej Ultra 外装死锁" style="width: 100%; height: 100%; object-fit: cover;" />
+      <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+        <img src="/assets/img/indigenous/in-godrej-rim.jpg" alt="印度 Godrej Ultra 外装死锁" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
       </div>
       <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
         <ul style="margin: 0; padding-left: 18px;">
@@ -219,8 +209,8 @@ lang: "zh"
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-        <div style="height: 200px; background: #0f172a; border-radius: 6px; overflow: hidden;">
-          <img src="/assets/img/gallery/us-27_real.jpg" alt="Schlage B60 Real" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div style="height: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+          <img src="/assets/img/gallery/us-27_real.jpg" alt="Schlage B60 Real" style="width: 100%; height: 100%; object-fit: contain; padding: 6px;" />
         </div>
         <div style="height: 200px; background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
           <img src="/assets/img/diagrams/US-27_schematic.svg" alt="ANSI Deadbolt Schematic" style="width: 100%; height: 100%; object-fit: contain; padding: 8px;" />
@@ -231,9 +221,7 @@ lang: "zh"
           <li><b>Cross Bore 2-1/8" (54mm 贯穿大孔):</b> 全美民居通用标准大圆孔，厚度 35~45mm (1-3/8" ~ 1-3/4")。</li>
           <li><b>Tailpiece (扁平尾轴):</b> Schlage (4.5mm 厚) 与 Kwikset (2.2mm 薄) 尾轴截面差异大，需万向阶梯盘。</li>
         </ul>
-        <div style="margin-top: 12px; padding: 8px 12px; background: #eff6ff; border-radius: 4px; font-size: 0.78rem; color: #1e40af;">
-          💡 <b>推荐转接件:</b> ADP-04 (万向阶梯适配盘) + ADP-07 (防卡阻垫片)
-        </div>
+        <div style="margin-top: 10px; padding: 6px 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; font-size: 0.76rem; color: #334155;"><b>推荐转接件:</b> ADP-04 (万向阶梯适配盘) + ADP-07 (防卡阻垫片)</div>
       </div>
     </div>
   </div>
