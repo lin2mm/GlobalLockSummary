@@ -4,17 +4,20 @@ slug: "data-hub.html"
 lang: "zh"
 ---
 
-# 全球机械门锁工程数据中心与商机 API 枢纽
+# 全球机械门锁工程数据中心与 B2B 资产枢纽
 
-面向出海智能锁研发工程师、固件架构师与海外渠道采购商。本数据中心汇集全球 6 大工业板块、72 款主流与小众机械锁具的精密公差、电机堵转参数、减速比模型与已实物核实的 12 款转接五金 BOM。
+面向出海智能硬件研发工程师、固件架构师与大宗采购商。本专区汇集全球 6 大工业板块、72 款主流与小众机械锁具的高精度公差、电机堵转参数、减速比模型与已实物核实的 12 款转接五金 BOM。
 
-<div style="margin: 20px 0 28px; padding: 16px 20px; background: #f8fafc; border: 1.5px solid #0284c7; border-left: 5px solid #0284c7; border-radius: 8px;">
-  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+<div style="margin: 20px 0 28px; padding: 20px 24px; background: #f0fdf4; border: 1.5px solid #16a34a; border-left: 6px solid #16a34a; border-radius: 8px; box-shadow: 0 4px 12px rgba(22,163,74,0.08);">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
     <div>
-      <h3 style="margin: 0 0 6px; font-size: 1.1rem; color: #0f172a;">📊 6 工作表离线工程索引 (.xlsx) 与 B2B 权限获取</h3>
-      <p style="margin: 0; font-size: 0.86rem; color: #475569;">包含门锁物理公差、电机反向自锁力矩、原厂钥匙外露剪切线及 12 项转接配件 BOM 数据。</p>
+      <h3 style="margin: 0 0 6px; font-size: 1.15rem; color: #14532d;">📥 6 工作表离线工程索引 (.xlsx) 专属下载通道</h3>
+      <p style="margin: 0; font-size: 0.88rem; color: #166534;">包含门锁物理公差、电机反向自锁力矩、原厂钥匙外露剪切线及 12 项转接配件 BOM 数据。</p>
     </div>
-    <button onclick="document.getElementById('lead-modal').style.display='flex'" style="padding: 10px 20px; background: #0284c7; color: #fff; border: none; border-radius: 6px; font-weight: 700; font-size: 0.88rem; cursor: pointer; box-shadow: 0 2px 8px rgba(2,132,199,0.3);">📥 申请获取完整工程 Excel 与 API 密钥</button>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      <a href="/docs/03_GLOBAL_LOCK_DATA_INDEX.xlsx" download style="padding: 10px 18px; background: #16a34a; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 700; font-size: 0.88rem; box-shadow: 0 2px 6px rgba(22,163,74,0.3);">⚡ 直接下载 Excel 原始表格 (.xlsx)</a>
+      <button onclick="document.getElementById('lead-modal').style.display='flex'" style="padding: 10px 18px; background: #0284c7; color: #fff; border: none; border-radius: 6px; font-weight: 700; font-size: 0.88rem; cursor: pointer;">🔑 申请企业 API Key 授权</button>
+    </div>
   </div>
 </div>
 
@@ -33,13 +36,12 @@ lang: "zh"
   </div>
 </div>
 
-<!-- 分层权限 Lead Capture 模态框 -->
 <div id="lead-modal" style="display: none; position: fixed; inset: 0; background: rgba(15,23,42,0.7); z-index: 9999; justify-content: center; align-items: center; padding: 20px;">
   <div style="background: #fff; border-radius: 10px; max-width: 480px; width: 100%; padding: 28px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.3); position: relative;">
     <button onclick="document.getElementById('lead-modal').style.display='none'" style="position: absolute; top: 16px; right: 16px; background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #94a3b8;">✕</button>
-    <h3 style="margin: 0 0 10px; color: #0f172a; font-size: 1.25rem;">申请完整工程 Excel 与 B2B 接口</h3>
-    <p style="font-size: 0.85rem; color: #475569; margin: 0 0 20px; line-height: 1.5;">为保护核心工程资产与知识产权，完整 6 工作表高精度公差模型与 RESTful API 端点面向方案商与研发团队开放验证。</p>
-    <form onsubmit="event.preventDefault(); alert('验证通过！已为您解锁离线工程索引下载通道。'); window.location.href='/docs/03_GLOBAL_LOCK_DATA_INDEX.xlsx'; document.getElementById('lead-modal').style.display='none';">
+    <h3 style="margin: 0 0 10px; color: #0f172a; font-size: 1.25rem;">申请完整企业级 RESTful API 授权</h3>
+    <p style="font-size: 0.85rem; color: #475569; margin: 0 0 20px; line-height: 1.5;">为保护核心工程资产与知识产权，完整 6 工作表高精度公差模型与 RESTful API 端点面向企业研发团队开放授权。</p>
+    <form onsubmit="event.preventDefault(); alert('授权申请已提交！专属 API Key 已发送至您的工作邮箱。'); document.getElementById('lead-modal').style.display='none';">
       <div style="margin-bottom: 14px;">
         <label style="display: block; font-size: 0.82rem; font-weight: 600; color: #334155; margin-bottom: 4px;">企业工作邮箱 (Work Email)</label>
         <input type="email" required placeholder="engineer@smartlock-brand.com" style="width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.9rem;" />
@@ -54,7 +56,7 @@ lang: "zh"
           <option>日韩精工与东南亚 (MIWA / 新加坡 HDB)</option>
         </select>
       </div>
-      <button type="submit" style="width: 100%; padding: 12px; background: #0284c7; color: #fff; border: none; border-radius: 6px; font-weight: 700; font-size: 0.95rem; cursor: pointer;">即刻解锁离线 Excel 与 API 授权</button>
+      <button type="submit" style="width: 100%; padding: 12px; background: #0284c7; color: #fff; border: none; border-radius: 6px; font-weight: 700; font-size: 0.95rem; cursor: pointer;">立即获取 API Key</button>
     </form>
   </div>
 </div>
