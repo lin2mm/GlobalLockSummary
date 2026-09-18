@@ -8,9 +8,7 @@ lang: "en"
 
 Engineered for overseas smart lock developers. All adapters have undergone **100% CAD verification, physical fitment tests, and shear torque stress validation**. Presented in standard 2-column image-dominant gallery style.
 
-<div style="margin: 16px 0 24px; padding: 12px 16px; background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 4px solid #16a34a; border-radius: 6px; font-size: 0.85rem; color: #166534; line-height: 1.5;">
-  <b>📋 Engineering Verification Summary (Total 12 Items):</b> Covering French 7-to-8mm sleeves, German 8-to-9mm panic sleeves, MIWA B5 pinch grippers, ANSI tailpiece cams, Lockwood teardrop adapters, Euro key clamps, adjustable strike shims, plywood door reinforcers, multipoint pre-load levers, retrofit escutcheon cover plates, ultra-thick door long-spindle kits, and 3D cantilever sensor brackets.
-</div>
+
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin: 28px 0;">
   <div class="gallery-card" id="adp-01" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">

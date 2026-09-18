@@ -157,7 +157,8 @@ function rewriteNav(nav, lang = 'en') {
   let casesCount = 0;
   let adaptersCount = 0;
   let pitfallsCount = 0;
-  let indexCount = 6;
+  let indexCount = 8;
+  let patentCount = 5; // 5 大核心规避专题路径
 
   const galleryPath = join(CONTENT, 'catalog', 'gallery.json');
   if (existsSync(galleryPath)) {
@@ -243,6 +244,8 @@ function rewriteNav(nav, lang = 'en') {
         { label: isZh ? 'FL-04 澳式副舌悬空假锁死' : 'FL-04 False Deadlock', href: isZh ? '/zh/field-issues.html#fl-04' : '/en/field-issues.html#fl-04' }
       ];
     } else if (item.href.includes('patent-avoidance.html')) {
+      // 后装专利规避 (全动态 5 大专题)
+      label = `${rawLabel} (${patentCount})`;
       subItems = [
         { label: isZh ? '1. 锁芯夹持与背板锁紧' : '1. Cylinder Clamping', href: isZh ? '/zh/patent-avoidance.html#nuki-clamping' : '/en/patent-avoidance.html#nuki-clamping' },
         { label: isZh ? '2. 钥匙抓取与浮动耦合' : '2. Key Gripper & Oldham', href: isZh ? '/zh/patent-avoidance.html#key-coupling' : '/en/patent-avoidance.html#key-coupling' },
@@ -251,7 +254,7 @@ function rewriteNav(nav, lang = 'en') {
         { label: isZh ? '5. 出海 FTO 自查清单' : '5. Global FTO Checklist', href: isZh ? '/zh/patent-avoidance.html#checklist' : '/en/patent-avoidance.html#checklist' }
       ];
     } else if (item.href.includes('indigenous-guides.html')) {
-      // 工业索引 (全动态 6)
+      // 工业索引 (全动态 8 大工业体系)
       label = `${rawLabel} (${indexCount})`;
       subItems = [
         { label: isZh ? '🇩🇪 德奥瑞 DIN 18251 锁体与双向离合' : '🇩🇪 DACH DIN 18251 & Dual Clutch', href: isZh ? '/zh/indigenous-guides.html#de-at-ch' : '/en/indigenous-guides.html#de-at-ch' },

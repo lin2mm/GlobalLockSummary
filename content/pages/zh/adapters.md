@@ -6,11 +6,9 @@ lang: "zh"
 
 # 标准转接工具与五金配件库 (Hardware Adapters & BOM)
 
-面向出海智能硬件与 Nuki-type 加装智能锁研发工程师，所有转接件均经过**实物图纸对照、真实锁体尺寸试装与力矩剪切核实 (100% Verified)**。采用标准双列画廊流模式呈现，直观展示变径套管、防撬卡爪、万向适配盘与加固垫片。
+面向出海智能硬件与 后装智能锁（免换锁 / 租客无损加装）研发工程师，所有转接件均经过**实物图纸对照、真实锁体尺寸试装与力矩剪切核实 (100% Verified)**。采用标准双列画廊流模式呈现，直观展示变径套管、防撬卡爪、万向适配盘与加固垫片。
 
-<div style="margin: 16px 0 24px; padding: 12px 16px; background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 4px solid #16a34a; border-radius: 6px; font-size: 0.85rem; color: #166534; line-height: 1.5;">
-  <b>📋 转接件全量工程核实清单 (Total 12 Items):</b> 涵盖法国 7转8、德国 8转9、日本 MIWA B5 捏合爪、北美万向盘、澳洲 Lockwood 水滴夹具、欧规钥匙紧定套、门框可调垫片组、薄门防压溃加强垫、多点门抬把手助力扭簧、旧孔修饰大饰板、超厚门 120mm 螺杆方轴包与 3D 悬臂门磁支架。严禁在受力方轴部件使用易脆锌合金。
-</div>
+
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin: 28px 0;">
   <div class="gallery-card" id="adp-01" style="background: #ffffff; border: 1.5px solid #0284c7; border-left: 4px solid #0284c7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(2,132,199,0.06); display: flex; flex-direction: column;">
