@@ -392,6 +392,39 @@ ${families.map((f) => `<tr>
   return { html: `${intro}<h2 id="all">${lang === 'zh' ? '全部锁族' : 'All lock families'}</h2>${table}${regionBlocks}`, headings };
 }
 
+
+function getSampleCluster(sample, lang) {
+  const isZh = lang === 'zh';
+  const t = ((sample.title && (sample.title[lang] || sample.title.en || sample.title.zh)) || sample.id).toLowerCase();
+  
+  if (t.includes('thumbturn') || t.includes('手扭') || t.includes('旋钮')) {
+    return {
+      id: 'cluster-thumbturn',
+      name: isZh ? '内侧旋转手扭 (Thumbturn)' : 'Thumbturn Cylinders',
+      tag: 'Thumbturn'
+    };
+  }
+  if (t.includes('双锁芯') || t.includes('double cylinder') || t.includes('30/30') || t.includes('35/35') || t.includes('abus') || t.includes('evva') || t.includes('diamant') || t.includes('bluechip')) {
+    return {
+      id: 'cluster-double-cyl',
+      name: isZh ? '双面槽型锁芯 (Double Cylinder)' : 'Double Keyed Cylinders',
+      tag: isZh ? '双锁芯' : 'Double Cyl'
+    };
+  }
+  if (t.includes('插芯锁体') || t.includes('mortice') || t.includes('mortise') || t.includes('onefit') || t.includes('bricard') || t.includes('electa') || t.includes('pado') || t.includes('la fonte') || t.includes('silvana') || t.includes('stam') || t.includes('gcc') || t.includes('union') || t.includes('chubb')) {
+    return {
+      id: 'cluster-mortise-case',
+      name: isZh ? '欧标/窄体插芯锁体 (Mortise Case)' : 'Mortise Lock Cases',
+      tag: isZh ? '插芯锁体' : 'Mortise Case'
+    };
+  }
+  return {
+    id: 'cluster-specialty',
+    name: isZh ? '特种防盗与异形锁 (Specialty / High-Security)' : 'Specialty & High-Security',
+    tag: isZh ? '特种锁' : 'Specialty'
+  };
+}
+
 function lockPage(fam, lang) {
   const order = (fam.measureOrder || []).map((k) => t(terms.measurements, k, lang));
   const rows = measurementRows(fam.measurements, lang);
@@ -416,14 +449,57 @@ function lockPage(fam, lang) {
   }
 
   let gallerySectionHtml = '';
+  let clusterHeadings = [];
   if (matchedSamples.length > 0) {
-    const sampleCards = matchedSamples.map((s) => {
-      const sTitle = (s.title && (s.title[lang] || s.title.en || s.title.zh)) || s.id;
-      const schematicPath = `/assets/img/diagrams/${s.id}_schematic.svg`;
-      const hasSchematic = existsSync(join(ROOT, 'assets/img/diagrams', `${s.id}_schematic.svg`));
+    // 按类别组织样本
+    const clustersMap = new Map();
+    for (const s of matchedSamples) {
+      const c = getSampleCluster(s, lang);
+      if (!clustersMap.has(c.id)) {
+        clustersMap.set(c.id, { id: c.id, name: c.name, tag: c.tag, items: [] });
+      }
+      clustersMap.get(c.id).items.push(s);
+    }
 
-      return `
-      <div class="lock-detail-sample">
+    const clustersList = [...clustersMap.values()];
+    const isMultiCluster = clustersList.length > 1;
+
+    // 生成顶部快速分类跳链工规胶囊导航条
+    let topClusterNavHtml = '';
+    if (isMultiCluster) {
+      const pills = clustersList.map(c => `
+        <a href="#${c.id}" class="spec-cluster-pill" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; font-weight: 700; color: #0f172a; text-decoration: none; transition: all 0.2s ease;">
+          <span style="font-size: 0.72rem; color: #64748b;">⌖</span>
+          <span>${escapeHtml(c.name)}</span>
+          <span style="font-size: 0.68rem; background: #f1f5f9; color: #475569; padding: 1px 5px; border-radius: 3px; border: 1px solid #e2e8f0;">${c.items.length}</span>
+        </a>
+      `).join('');
+
+      topClusterNavHtml = `
+      <div class="spec-cluster-bar" style="margin: 14px 0 24px; padding: 10px 14px; background: #f8fafc; border: 1px solid #cbd5e1; border-left: 3px solid #0B1D47; border-radius: 4px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+        <span style="font-size: 0.78rem; font-weight: 800; color: #0B1D47; text-transform: uppercase; letter-spacing: 0.04em;">
+          📍 ${lang === 'zh' ? '实物型号直达分类' : 'Jump to Category'}:
+        </span>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+          ${pills}
+        </div>
+      </div>`;
+    }
+
+    // 渲染分类型卡片区
+    let clusterSectionsHtml = '';
+    for (const c of clustersList) {
+      if (isMultiCluster) {
+        clusterHeadings.push({ level: 3, id: c.id, text: c.name });
+      }
+
+      const cardsForCluster = c.items.map((s) => {
+        const sTitle = (s.title && (s.title[lang] || s.title.en || s.title.zh)) || s.id;
+        const schematicPath = `/assets/img/diagrams/${s.id}_schematic.svg`;
+        const hasSchematic = existsSync(join(ROOT, 'assets/img/diagrams', `${s.id}_schematic.svg`));
+
+        return `
+        <div class="lock-detail-sample" id="${escapeHtml(s.id.toLowerCase())}">
         <div class="lock-detail-sample__header">
           <span class="lock-detail-sample__id">${escapeHtml(s.id)}</span>
           <h3 style="margin: 0; font-size: 1.12rem; font-weight: 700; color: #0f172a; display: inline-flex; align-items: center; gap: 8px;">
@@ -579,7 +655,26 @@ function lockPage(fam, lang) {
         </div>
         ` : ''}
       </div>`;
-    }).join('\n');
+      }).join('\n');
+
+      if (isMultiCluster) {
+        clusterSectionsHtml += `
+        <div class="lock-cluster-group" id="${c.id}" style="margin-top: 24px; padding-top: 12px; border-top: 1px dashed #cbd5e1;">
+          <h3 style="margin: 0 0 14px; font-size: 1.05rem; font-weight: 800; color: #0B1D47; display: flex; align-items: center; justify-content: space-between;">
+            <span>⌖ ${escapeHtml(c.name)}</span>
+            <span style="font-size: 0.72rem; font-weight: 600; color: #64748b; background: #f1f5f9; padding: 2px 8px; border-radius: 4px; border: 1px solid #e2e8f0;">${c.items.length} ${lang === 'zh' ? '款典型型号' : 'models'}</span>
+          </h3>
+          <div class="lock-detail-samples">
+            ${cardsForCluster}
+          </div>
+        </div>`;
+      } else {
+        clusterSectionsHtml += `
+        <div class="lock-detail-samples">
+          ${cardsForCluster}
+        </div>`;
+      }
+    }
 
     // Ingest all matching field cases from installation-cases.json for high-immersion jobsite experience
     const casesPath = join(CONTENT, 'catalog', 'installation-cases.json');
@@ -638,9 +733,8 @@ function lockPage(fam, lang) {
     gallerySectionHtml = `
 <h2 id="installation-samples">${lang === 'zh' ? '实物安装与改造图谱' : 'Installation Photos & Retrofit Diagrams'}</h2>
 <p class="lede">${lang === 'zh' ? '以下为该锁族在实际门上的实物安装案例、传动原理示意图与智能化改造常见问题分析：' : 'Field installation examples, drive schematics, and common retrofit failure modes for this lock family:'}</p>
-<div class="lock-detail-samples">
-  ${sampleCards}
-</div>
+${topClusterNavHtml}
+${clusterSectionsHtml}
 ${fieldCasesHtml}
 `;
   }
@@ -677,6 +771,7 @@ ${sourceList(fam.sources, lang)}
 
   const headings = [
     ...(matchedSamples.length ? [{ level: 2, id: 'installation-samples', text: lang === 'zh' ? '实物安装与改造图谱' : 'Installation Photos & Retrofit Diagrams' }] : []),
+    ...clusterHeadings,
     { level: 2, id: 'anatomy', text: t(terms.labels, 'anatomy', lang) },
     { level: 2, id: 'measurements', text: lang === 'zh' ? '必须测量的参数' : 'Parameters to measure' },
     { level: 2, id: 'retrofit', text: t(terms.labels, 'retrofitArchitectures', lang) },
