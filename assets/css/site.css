@@ -978,6 +978,12 @@ html {
 }
 
 .gallery-portal-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+  border-color: #0B1D47;
+}
+
+.gallery-portal-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 16px 32px rgba(16, 42, 67, 0.15);
   border-color: #2563eb;
@@ -1016,7 +1022,7 @@ html {
 }
 
 .gallery-portal-card__body {
-  padding: 10px 12px;
+  padding: 12px 14px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
