@@ -204,7 +204,14 @@ export function buildToc(headings, { minLevel = 2, maxLevel = 3 } = {}) {
   const items = headings.filter((h) => h.level >= minLevel && h.level <= maxLevel);
   if (items.length < 3) return '';
   return `<ul class="toc__list">${items
-    .map((h) => `<li class="toc__item toc__item--h${h.level}"><a href="#${h.id}">${esc(h.text)}</a></li>`)
+    .map((h) => {
+      const match = /^(.*?)\s*[\(（]([A-Za-z0-9\s/&,.:+_-]+)[\)）]\s*$/.exec(h.text);
+      let label = esc(h.text);
+      if (match && /[\u4e00-\u9fa5]/.test(match[1]) && /[a-zA-Z]/.test(match[2])) {
+        label = `<span class="bilingual-title"><span class="bilingual-title__zh">${esc(match[1].trim())}</span><span class="bilingual-title__en">${esc(match[2].trim())}</span></span>`;
+      }
+      return `<li class="toc__item toc__item--h${h.level}"><a href="#${h.id}">${label}</a></li>`;
+    })
     .join('\n')}</ul>`;
 }
 

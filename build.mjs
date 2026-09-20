@@ -14,7 +14,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync, readdirSync, watch } from 'node:fs';
 import { join, dirname, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { renderMarkdown, splitFrontMatter, slugify, escapeHtml } from './src/markdown.mjs';
+import { renderMarkdown, splitFrontMatter, slugify, escapeHtml, formatBilingualHeading } from './src/markdown.mjs';
 import { layout, buildToc, faqJsonLd, techArticleJsonLd } from './src/layout.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)));
@@ -1419,7 +1419,7 @@ function build() {
 
       const isHomePage = slug === 'index.html';
       const hasLeadingH1 = html.trim().startsWith('<h1') || html.includes('<h1');
-      const bodyHtmlContent = isHomePage ? html : (hasLeadingH1 ? html : `<h1>${escapeHtml(title)}</h1>\n${html}`);
+      const bodyHtmlContent = isHomePage ? html : (hasLeadingH1 ? html : `<h1>${formatBilingualHeading(title)}</h1>\n${html}`);
 
       emitPage({
         lang,
