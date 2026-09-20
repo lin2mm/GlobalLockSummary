@@ -14,7 +14,7 @@ lang: "zh"
 
   <div class="gallery-card" id="adp-04" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
     <div style="height: 150px; background: #f8fafc; overflow: hidden; position: relative;">
-      <img src="/assets/img/tier2_product/us-deadbolt-latch.jpg" alt="北美 ANSI Deadbolt 十字/扁条万向阶梯适配盘 (Universal Tailpiece Cam)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" />
+      <a href="/zh/locks/us-deadbolt.html" style="display: block; width: 100%; height: 100%; cursor: pointer;" title="点击查看对应锁型图谱与五金工程详情"><img src="/assets/img/tier2_product/us-deadbolt-latch.jpg" alt="北美 ANSI Deadbolt 十字/扁条万向阶梯适配盘 (Universal Tailpiece Cam)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" /></a>
       <div style="position: absolute; top: 8px; left: 8px; background: rgba(15,23,42,0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-04 · 100% Verified</div>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">北美 (US/CA)</span>
     </div>
@@ -31,7 +31,7 @@ lang: "zh"
 
   <div class="gallery-card" id="adp-06" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
     <div style="height: 150px; background: #f8fafc; overflow: hidden; position: relative;">
-      <img src="/assets/img/indigenous/de-gefahrenfunktion.jpg" alt="欧标双向锁芯钥匙柄薄形夹持爪 (Nuki-Style Key Clamp)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" />
+      <a href="/zh/locks/euro-cylinder-mortise.html" style="display: block; width: 100%; height: 100%; cursor: pointer;" title="点击查看对应锁型图谱与五金工程详情"><img src="/assets/img/indigenous/de-gefahrenfunktion.jpg" alt="欧标双向锁芯钥匙柄薄形夹持爪 (Nuki-Style Key Clamp)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" /></a>
       <div style="position: absolute; top: 8px; left: 8px; background: rgba(15,23,42,0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-06 · 100% Verified</div>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">欧陆五国 (Continental Europe)</span>
     </div>
@@ -48,7 +48,7 @@ lang: "zh"
 
   <div class="gallery-card" id="adp-03" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
     <div style="height: 150px; background: #f8fafc; overflow: hidden; position: relative;">
-      <img src="/assets/img/indigenous/jp-thumbturn.jpg" alt="日本 MIWA B5 防盗捏合旋钮双侧斜坡抓手 (Pinch Gripper)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" />
+      <a href="/zh/locks/jp-miwa-case.html" style="display: block; width: 100%; height: 100%; cursor: pointer;" title="点击查看对应锁型图谱与五金工程详情"><img src="/assets/img/indigenous/jp-thumbturn.jpg" alt="日本 MIWA B5 防盗捏合旋钮双侧斜坡抓手 (Pinch Gripper)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" /></a>
       <div style="position: absolute; top: 8px; left: 8px; background: rgba(15,23,42,0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-03 · 100% Verified</div>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">日本 (JP)</span>
     </div>
@@ -65,7 +65,7 @@ lang: "zh"
 
   <div class="gallery-card" id="adp-07" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
     <div style="height: 150px; background: #f8fafc; overflow: hidden; position: relative;">
-      <img src="/assets/img/pitfalls/strike-plate-offset-binding.jpg" alt="门框扣盒可调不锈钢垫片组 (Strike Plate Shims & Spacers)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" />
+      <a href="/zh/locks/us-deadbolt.html" style="display: block; width: 100%; height: 100%; cursor: pointer;" title="点击查看对应锁型图谱与五金工程详情"><img src="/assets/img/pitfalls/strike-plate-offset-binding.jpg" alt="门框扣盒可调不锈钢垫片组 (Strike Plate Shims & Spacers)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" /></a>
       <div style="position: absolute; top: 8px; left: 8px; background: rgba(15,23,42,0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-07 · 100% Verified</div>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">全球通用 (Global)</span>
     </div>
@@ -82,7 +82,7 @@ lang: "zh"
 
   <div class="gallery-card" id="adp-05" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
     <div style="height: 150px; background: #f8fafc; overflow: hidden; position: relative;">
-      <img src="/assets/img/hero/hero-anz-lockwood001.jpg" alt="澳式 Lockwood 001/355 水滴形大旋钮转接夹具 (Teardrop Turn Adapter)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" />
+      <a href="/zh/locks/au-deadlatch.html" style="display: block; width: 100%; height: 100%; cursor: pointer;" title="点击查看对应锁型图谱与五金工程详情"><img src="/assets/img/hero/hero-anz-lockwood001.jpg" alt="澳式 Lockwood 001/355 水滴形大旋钮转接夹具 (Teardrop Turn Adapter)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" /></a>
       <div style="position: absolute; top: 8px; left: 8px; background: rgba(15,23,42,0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-05 · 100% Verified</div>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">澳洲 / 新西兰 (AU/NZ)</span>
     </div>
@@ -184,7 +184,7 @@ lang: "zh"
 
   <div class="gallery-card" id="adp-10" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
     <div style="height: 150px; background: #f8fafc; overflow: hidden; position: relative;">
-      <img src="/assets/img/hero/hero-anz-lockwood001.jpg" alt="澳洲旧锁改造成品金属遮盖修饰大背板 (Retrofit Escutcheon Cover Plate)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" />
+      <a href="/zh/locks/au-deadlatch.html" style="display: block; width: 100%; height: 100%; cursor: pointer;" title="点击查看对应锁型图谱与五金工程详情"><img src="/assets/img/hero/hero-anz-lockwood001.jpg" alt="澳洲旧锁改造成品金属遮盖修饰大背板 (Retrofit Escutcheon Cover Plate)" style="width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #f8fafc;" /></a>
       <div style="position: absolute; top: 8px; left: 8px; background: rgba(15,23,42,0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 3px;">ADP-10 · 100% Verified</div>
       <span style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #cbd5e1; font-size: 0.68rem; padding: 2px 6px; border-radius: 2px;">澳洲 / 新西兰 / 英国 (AU/NZ/UK)</span>
     </div>

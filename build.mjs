@@ -426,7 +426,9 @@ function lockPage(fam, lang) {
       <div class="lock-detail-sample">
         <div class="lock-detail-sample__header">
           <span class="lock-detail-sample__id">${escapeHtml(s.id)}</span>
-          <h4>${escapeHtml(sTitle)}</h4>
+          <h3 style="margin: 0; font-size: 1.12rem; font-weight: 700; color: #0f172a; display: inline-flex; align-items: center; gap: 8px;">
+            ${escapeHtml(sTitle)}
+          </h3>
           <span class="gallery-card__status ${s.status === 'R1' ? 'gallery-card__status--r1' : 'gallery-card__status--r0'}">${escapeHtml(s.status || 'R0')}</span>
         </div>
         <div class="lock-detail-sample__tier3-header" style="background: #0f172a; color: #f8fafc; padding: 8px 14px; border-radius: 6px 6px 0 0; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; display: flex; justify-content: space-between; align-items: center; margin-bottom: -1px;">
