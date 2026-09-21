@@ -189,6 +189,18 @@ ${product ? `      <div>
         <p class="site-footer__text"><a class="product-link product-link--footer" href="${esc(product.url)}" rel="external noopener">${esc(product.url.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</a></p>
       </div>` : ''}
     </div>
+        <div class="wrap site-footer__analytics" style="margin-top: 10px; font-size: 0.72rem; color: #94a3b8; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+      <span id="busuanzi_container_site_pv" style="display: none;">
+        📈 ${lang === 'zh' ? '全站总浏览量' : 'Total Views'}: <span id="busuanzi_value_site_pv" style="font-weight: 700; color: #cbd5e1;"></span>
+      </span>
+      <span id="busuanzi_container_site_uv" style="display: none;">
+        👤 ${lang === 'zh' ? '独立访客数' : 'Total Visitors'}: <span id="busuanzi_value_site_uv" style="font-weight: 700; color: #cbd5e1;"></span>
+      </span>
+      <span id="busuanzi_container_page_pv" style="display: none;">
+        📄 ${lang === 'zh' ? '本页阅读量' : 'Page Views'}: <span id="busuanzi_value_page_pv" style="font-weight: 700; color: #cbd5e1;"></span>
+      </span>
+    </div>
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <div class="wrap site-footer__meta">
       <p>${esc(site.footer.disclaimer[lang] || site.footer.disclaimer.en)}</p>
     </div>
