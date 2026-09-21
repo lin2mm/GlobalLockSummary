@@ -1,0 +1,62 @@
+[
+  {
+    "brand": "MIWA (美和ロック)",
+    "engraving": "LA / 13LA / LA・MA",
+    "lockType": "插芯呆锁与把手联动锁 (Mortise Latch & Deadbolt)",
+    "backset": "51mm / 64mm",
+    "doorThickness": "33 ~ 42mm",
+    "retrofitDifficulty": "极易 (Very Easy)",
+    "compatibleSmartAdapters": ["SwitchBot Lock Ultra (Adapter C)", "Sada-Elinx M-Kit", "Qrio Lock Q-SL2"],
+    "thumbturnStyle": "标准水滴形或 B5 防盗捏合型",
+    "cadImage": "assets/img/tools/template-miwa-la.jpg",
+    "notes": "日本保有量最大的主力门锁。Retrofit 适配器极为成熟，需注意若为 B5 防盗旋钮，必须选择带侧按捏合爪的套件。"
+  },
+  {
+    "brand": "MIWA (美和ロック)",
+    "engraving": "BH / DZ / LD / LDSP",
+    "lockType": "插芯呆锁 (Mortise Deadbolt Only)",
+    "backset": "31mm / 51mm / 64mm",
+    "doorThickness": "33 ~ 42mm",
+    "retrofitDifficulty": "易 (Easy)",
+    "compatibleSmartAdapters": ["SwitchBot Lock Pro", "Qrio Lock"],
+    "thumbturnStyle": "小型椭圆旋钮",
+    "cadImage": "assets/img/indigenous/jp-thumbturn.jpg",
+    "notes": "常用于副锁或窄边框木门/铝合金门，旋钮间距与把手无关，直接吸附即可。"
+  },
+  {
+    "brand": "MIWA (美和ロック)",
+    "engraving": "LSP / LE / SWLSP / TE",
+    "lockType": "轻型插芯锁 (Small Backset Mortise)",
+    "backset": "51mm / 64mm",
+    "doorThickness": "28 ~ 40mm",
+    "retrofitDifficulty": "易 (Easy)",
+    "compatibleSmartAdapters": ["SwitchBot", "Qrio", "Sada"],
+    "thumbturnStyle": "LE24-B5 防盗旋钮",
+    "cadImage": "assets/img/indigenous/jp-thumbturn.jpg",
+    "notes": "集合住宅（公寓）极高频出现，锁芯通过螺纹或 U 销与锁体紧固。"
+  },
+  {
+    "brand": "GOAL (ゴール)",
+    "engraving": "LX / AS・LX / LG",
+    "lockType": "高安全插芯把手锁",
+    "backset": "38mm / 51mm / 64mm",
+    "doorThickness": "33 ~ 43mm",
+    "retrofitDifficulty": "易 (Easy)",
+    "compatibleSmartAdapters": ["SwitchBot Lock Pro (Adapter G)", "Aqara U200"],
+    "thumbturnStyle": "圆柱直条形旋钮",
+    "cadImage": "assets/img/indigenous/jp-miwa-13la.jpg",
+    "notes": "日本市场占有率仅次于 MIWA，旋钮行程一般为 90 度整，旋转阻尼适中。"
+  },
+  {
+    "brand": "SHOWA (昭和)",
+    "engraving": "CL / 516 / 397",
+    "lockType": "插芯逃生锁",
+    "backset": "50mm / 60mm",
+    "doorThickness": "30 ~ 42mm",
+    "retrofitDifficulty": "中等 (Moderate)",
+    "compatibleSmartAdapters": ["通用可调式机械抓爪"],
+    "thumbturnStyle": "宽扁叶片式",
+    "cadImage": "assets/img/indigenous/jp-miwa-13la.jpg",
+    "notes": "老式公团住宅多见，旋钮行程较长（约 105 度），需确保智能锁电机行程自学习充分。"
+  }
+]

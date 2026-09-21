@@ -9,6 +9,9 @@ Nothing you answer is uploaded anywhere — it runs in your browser.
 
 {{wizard}}
 
+> [!TIP] 🇯🇵 Japan Faceplate Engravings Shortcut (Zero Measurement Needed)
+> If your door edge faceplate is stamped with letter codes (such as **MIWA LA**, **MIWA 13LA**, or **GOAL LX**), skip this questionnaire and directly access the [👉 Japan Faceplate Engravings Lookup Directory](japan-engravings.html) to instantly fetch exact CAD specs and retrofit clamp models!
+
 ## If you would rather do it by hand
 
 The order below is the one a locksmith uses, because each answer makes the next one faster.

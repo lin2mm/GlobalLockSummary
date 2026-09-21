@@ -1,3 +1,14 @@
+
+export function formatBilingualHeading(text) {
+  const match = /^(.*?)\s*[\(（]([A-Za-z0-9\s/&,.:+_-]+)[\)）]\s*$/.exec(text);
+  if (match && /[\u4e00-\u9fa5]/.test(match[1]) && /[a-zA-Z]/.test(match[2])) {
+    const zh = match[1].trim();
+    const en = match[2].trim();
+    return `<span class="bilingual-title"><span class="bilingual-title__zh">${inline(zh)}</span><span class="bilingual-title__en">${escapeHtml(en)}</span></span>`;
+  }
+  return inline(text);
+}
+
 /**
  * Minimal, dependency-free Markdown renderer.
  *
@@ -149,7 +160,7 @@ export function renderMarkdown(markdown) {
       const text = heading[2].trim();
       const id = uniqueId(slugify(text));
       headings.push({ level, id, text });
-      out.push(`<h${level} id="${id}">${inline(text)}</h${level}>`);
+      out.push(`<h${level} id="${id}">${formatBilingualHeading(text)}</h${level}>`);
       i++;
       continue;
     }

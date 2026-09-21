@@ -67,21 +67,24 @@ export function layout(opts) {
     note: feedbackTerms.note?.[lang] || feedbackTerms.note?.en || '',
   };
   const feedbackData = JSON.stringify(feedbackI18n).replace(/'/g, '&#39;');
-  const feedback = `<section class="feedback" id="feedback" data-feedback
-    data-page-title="${esc(title)}" data-page-path="${esc(path)}" data-issues-url="${esc(site.urls.issues)}"
-    data-i18n='${feedbackData}'>
-    <h2>${esc(feedbackI18n.title)}</h2>
-    <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
-    <div class="feedback__fields">
-      <label>${esc(feedbackI18n.category)} <select data-feedback-category></select></label>
-      <label>${esc(feedbackI18n.message)} <textarea data-feedback-message rows="5"></textarea></label>
-    </div>
-    <div class="feedback__actions">
-      <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
-      <button class="feedback__copy" data-feedback-copy type="button">${esc(feedbackI18n.copy)}</button>
-      <span class="feedback__status" data-feedback-status aria-live="polite"></span>
-    </div>
-    <p class="feedback__note">${esc(feedbackI18n.note)}</p>
+  const isZh = lang === 'zh';
+  const feedback = `<section class="feedback feedback--ultra-compact" id="feedback">
+    <form class="feedback__one-click-form" action="https://formsubmit.co/438068235@qq.com" method="POST" style="display: flex; gap: 8px; align-items: center; width: 100%; max-width: 960px; margin: 0 auto; flex-wrap: wrap;">
+      <input type="hidden" name="_subject" value="【GlobalLockSummary 工程师直接反馈】${esc(title)}" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <!-- 包含公网 1 键直达链接，邮件中点击直接跳入具体子页面第几层 -->
+      <input type="hidden" name="来源子页面直达链接 (Clickable URL)" value="https://globallocksummary.pages.dev/${esc(path.replace(/^\//, ''))}" />
+      <input type="hidden" name="页面标题与层级" value="${esc(title)} [${esc(path)}]" />
+      <span style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; white-space: nowrap; display: flex; align-items: center; gap: 4px;">
+        💬 ${isZh ? '工程师直通反馈' : 'Feedback'}:
+      </span>
+      <input type="text" name="反馈建议与纠错内容" required placeholder="${isZh ? '写下锁型补充、尺寸纠错或建议（回车直达邮箱，自动附带本页直达链接）...' : 'Type note or missing spec (hit Enter to send, page URL auto-attached)...'}" 
+        style="flex: 1; min-width: 220px; padding: 7px 12px; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.82rem; background: #fff;" />
+      <button type="submit" style="padding: 7px 18px; font-size: 0.82rem; background: #0B1D47; color: #fff; border: 1px solid #0B1D47; border-radius: 4px; cursor: pointer; white-space: nowrap; font-weight: 600;">
+        ${isZh ? '直接提交' : 'Submit'}
+      </button>
+    </form>
   </section>`;
 
   const langLinks = alternates.map((alt) => {
@@ -201,7 +204,14 @@ export function buildToc(headings, { minLevel = 2, maxLevel = 3 } = {}) {
   const items = headings.filter((h) => h.level >= minLevel && h.level <= maxLevel);
   if (items.length < 3) return '';
   return `<ul class="toc__list">${items
-    .map((h) => `<li class="toc__item toc__item--h${h.level}"><a href="#${h.id}">${esc(h.text)}</a></li>`)
+    .map((h) => {
+      const match = /^(.*?)\s*[\(（]([A-Za-z0-9\s/&,.:+_-]+)[\)）]\s*$/.exec(h.text);
+      let label = esc(h.text);
+      if (match && /[\u4e00-\u9fa5]/.test(match[1]) && /[a-zA-Z]/.test(match[2])) {
+        label = `<span class="bilingual-title"><span class="bilingual-title__zh">${esc(match[1].trim())}</span><span class="bilingual-title__en">${esc(match[2].trim())}</span></span>`;
+      }
+      return `<li class="toc__item toc__item--h${h.level}"><a href="#${h.id}">${label}</a></li>`;
+    })
     .join('\n')}</ul>`;
 }
 
