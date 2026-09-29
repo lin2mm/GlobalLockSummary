@@ -20,6 +20,7 @@ import { layout, buildToc, faqJsonLd, techArticleJsonLd } from './src/layout.mjs
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)));
 const CONTENT = join(ROOT, 'content');
 const OUT = join(ROOT, '_site');
+const PRIVATE_PUBLISH_PATHS = ['docs', join('assets', 'downloads')];
 const BASE_URL = process.env.SITE_URL || 'https://lin2mm.github.io/GlobalLockSummary';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
 
@@ -1843,6 +1844,17 @@ Sitemap: ${BASE_URL}/sitemap.xml
     cpSync(join(ROOT, 'docs'), join(OUT, 'docs'), { recursive: true });
   }
   if (existsSync(join(ROOT, 'public'))) cpSync(join(ROOT, 'public'), OUT, { recursive: true });
+
+  // Privacy guard: Ensure internal docs and downloadable raw specifications are never published
+  for (const relPath of PRIVATE_PUBLISH_PATHS) {
+    const target = join(OUT, relPath);
+    if (existsSync(target)) {
+      rmSync(target, { recursive: true, force: true });
+    }
+    if (existsSync(target)) {
+      throw new Error(`[Privacy Guard] Failed to remove private path from build output: ${relPath}`);
+    }
+  }
 
   const ms = Date.now() - started;
   console.log(`built ${pagesWritten.length} pages, ${searchIndex.length} search entries, ${families.length} lock families, ${standardsDoc.standards.length} standards in ${ms}ms -> ${relative(ROOT, OUT)}/`);
