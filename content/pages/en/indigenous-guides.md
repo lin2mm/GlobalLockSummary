@@ -174,3 +174,68 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
   </div>
 
 </div>
+
+
+---
+
+## 📖 Global Locksmith & Hardware Specification Jargon Cheat Sheet
+
+When communicating with overseas locksmiths, architectural hardware consultants (AHC), and cross-border B2B distributors, the following industry acronyms are standard:
+
+<div style="overflow-x: auto; margin: 18px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.86rem; text-align: left;">
+    <thead>
+      <tr style="background: #0f172a; color: #ffffff;">
+        <th style="padding: 9px 12px; border: 1px solid #334155; width: 14%;">Acronym</th>
+        <th style="padding: 9px 12px; border: 1px solid #334155; width: 26%;">Full Industry Term</th>
+        <th style="padding: 9px 12px; border: 1px solid #334155; width: 30%;">Engineering Definition</th>
+        <th style="padding: 9px 12px; border: 1px solid #334155; width: 30%;">Smart Retrofit Impact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #ffffff;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">KA</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Keyed Alike</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Multiple cylinders operable by a single identical key pattern</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Common in residential front/back doors. Retain existing core or offer rekey kit.</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">KD</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Keyed Different</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Each cylinder has an independent, unique keyway pattern</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Standard out-of-box cylinder; 100% ideal for key-gripper retrofit adapters.</td>
+      </tr>
+      <tr style="background: #ffffff;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">MK</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Master Keyed</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Hierarchy where individual tenant keys open one door, master opens all</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Strictly prohibited to replace cylinder in multi-tenant lease. No-drill retrofit is mandatory.</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">BS</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Backset (Dornmaß)</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Distance from edge of door to center of keyhole/spindle bore</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">NA: 60/70mm; DE: 55/65mm; FR: 50mm; JP: 51/64mm; LatAm: 40mm narrow stile.</td>
+      </tr>
+      <tr style="background: #ffffff;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">PZ</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Profilzylinder Distance</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Center of handle spindle to center of euro cylinder round profile</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Euro dividing line: 72mm (interior timber) vs 92mm (entrance / multipoint / fire door).</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">US26D</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Satin Chrome / Brushed Chrome</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">ANSI BHMA 626 Satin Chromium Plating</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Benchmark architectural finish for commercial & apartment retrofit hardware.</td>
+      </tr>
+      <tr style="background: #ffffff;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">US19</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Flat Black / Matte Black</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">ANSI BHMA 622 Electrostatic Matte Black</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Fastest growing residential modern smart home finish, now exceeding 45% volume.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

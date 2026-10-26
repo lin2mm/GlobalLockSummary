@@ -135,3 +135,40 @@ Real-world installation pitfalls and mechanical root-cause gallery.
     </div>
   </div>
 </div>
+
+
+---
+
+## 🛠 Strike Plate Chamfering Engineering Spec (Eliminating 65% of Motor Stalls)
+
+<div style="margin: 20px 0; background: #ffffff; border: 1.5px solid #0B1D47; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(11,29,71,0.06);">
+  <div style="background: #0B1D47; color: #ffffff; padding: 12px 18px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+    <div style="font-weight: 700; font-size: 1.02rem;">
+      ⌖ The 3-Step Strike Plate Protocol: C2 Chamfer, 3-Inch Anchor, and Box Clearance
+    </div>
+    <span style="font-size: 0.76rem; background: rgba(255,255,255,0.15); padding: 3px 8px; border-radius: 4px;">
+      ASSA ABLOY Jobsite Standard
+    </span>
+  </div>
+  <div style="padding: 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; background: #f8fafc;">
+    <div style="border-left: 3px solid #0B1D47; padding-left: 12px;">
+      <h4 style="margin: 0 0 6px; font-size: 0.92rem; color: #0f172a;">1. Internal Edge C2 Chamfer (2.0mm Radius)</h4>
+      <p style="margin: 0; font-size: 0.82rem; color: #475569; line-height: 1.5;">
+        Factory stamped strike plates have sharp 90° burred edges. Weatherstrip spring-back pushes the bolt against this knife-edge, causing motor stall. File a <b>2.0mm lead-in chamfer</b> on the strike lip to guide bolt engagement smoothly.
+      </p>
+    </div>
+    <div style="border-left: 3px solid #0B1D47; padding-left: 12px;">
+      <h4 style="margin: 0 0 6px; font-size: 0.92rem; color: #0f172a;">2. Top Frame Hinge 3-Inch Anchor Screws</h4>
+      <p style="margin: 0; font-size: 0.82rem; color: #475569; line-height: 1.5;">
+        Door sag is the #1 cause of deadbolt binding. Replace the two inner 3/4-inch screws on the top hinge with <b>76mm (3-inch) hardened wood screws</b>. This pulls the door jamb tightly into the wall stud framing, restoring latch alignment.
+      </p>
+    </div>
+    <div style="border-left: 3px solid #0B1D47; padding-left: 12px;">
+      <h4 style="margin: 0 0 6px; font-size: 0.92rem; color: #0f172a;">3. Strike Pocket Depth Verification (≥25.4mm / 1")</h4>
+      <p style="margin: 0; font-size: 0.82rem; color: #475569; line-height: 1.5;">
+        Deploy <a href="/en/adapters.html#adp-07">ADP-07 stainless shims</a> if the gap exceeds 4mm. Chisel out the timber behind the strike box to a depth of <b>≥25.4mm (1 inch)</b> so the deadbolt never bottoms out before reaching full travel.
+      </p>
+    </div>
+  </div>
+</div>
+

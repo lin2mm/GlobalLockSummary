@@ -227,3 +227,68 @@ lang: "zh"
   </div>
 
 </div>
+
+
+---
+
+## 📖 全球锁匠与出海五金常用缩略语速查表 (Locksmith Jargon Cheat Sheet)
+
+在与海外客户、锁匠及采购商沟通技术需求或外贸规格单时，常见如下专业行话缩写：
+
+<div style="overflow-x: auto; margin: 18px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.86rem; text-align: left;">
+    <thead>
+      <tr style="background: #0f172a; color: #ffffff;">
+        <th style="padding: 9px 12px; border: 1px solid #334155; width: 14%;">行业缩写</th>
+        <th style="padding: 9px 12px; border: 1px solid #334155; width: 26%;">英文全称 (Full Term)</th>
+        <th style="padding: 9px 12px; border: 1px solid #334155; width: 30%;">中文专业含义</th>
+        <th style="padding: 9px 12px; border: 1px solid #334155; width: 30%;">智能锁研发与改造关键注意事项</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #ffffff;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">KA</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Keyed Alike</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">同匙系统（通开锁芯）</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">一户多门一把机械钥匙通开，换装智能锁时需保留原锁芯或同步重牙花</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">KD</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Keyed Different</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">异匙系统（单开独立锁芯）</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">最普通标准锁芯，无牙花继承约束，后装智能锁夹持爪 100% 适用</td>
+      </tr>
+      <tr style="background: #ffffff;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">MK</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Master Keyed</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">母匙管理系统（总钥匙）</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">公寓/酒店核心体系，严禁擅自更换或钻破锁芯，必须采用免换锁无损后装方案</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">BS</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Backset (Dornmaß)</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">锁芯/把手中心距 (背距)</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">北美常见 60/70mm；德标常见 55/65mm；法标 50mm；日标 51/64mm；拉美 40mm</td>
+      </tr>
+      <tr style="background: #ffffff;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">PZ</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Profilzylinder Distance</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">方轴孔与葫芦锁芯中心距</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">欧标分水岭：德系室内 72mm，外门/防火门/多点锁 92mm；法系 70mm</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">US26D</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Satin Chrome / Brushed Chrome</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">缎面拉丝铬表面处理</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">北美商用与公寓工程市场最广泛标配表面颜色，智能锁外壳选色第一标配</td>
+      </tr>
+      <tr style="background: #ffffff;">
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 700;">US19</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">Flat Black / Matte Black</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">哑光哑黑表面处理</td>
+        <td style="padding: 8px 12px; border: 1px solid #e2e8f0;">欧美年轻家庭与现代智能家居首选配色，占比已突破 45%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

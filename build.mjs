@@ -427,6 +427,23 @@ function getSampleCluster(sample, lang) {
 }
 
 
+
+function getTorqueProfile(famId, lang = 'en') {
+  const isZh = lang === 'zh';
+  if (famId === 'us-deadbolt' || famId === 'us-bored-lever') {
+    return isZh ? '0.18 ~ 0.35 N·m (正常顺滑) / >0.85 N·m 需排查扣盒' : '0.18 – 0.35 N·m (Nominal) / >0.85 N·m indicates strike binding';
+  } else if (famId === 'euro-cylinder-mortise') {
+    return isZh ? '0.22 ~ 0.45 N·m (双向离合顺畅)' : '0.22 – 0.45 N·m (Standard Dual-Clutch)';
+  } else if (famId === 'multipoint-upvc') {
+    return isZh ? '0.35 ~ 0.60 N·m (把手抬起到位后) / 2.5 ~ 4.2 N·m (把手预紧力矩)' : '0.35 – 0.60 N·m (post-lift) / 2.5 – 4.2 N·m (handle pre-load)';
+  } else if (famId === 'jp-miwa-case') {
+    return isZh ? '0.15 ~ 0.30 N·m (日规精密低阻力)' : '0.15 – 0.30 N·m (Ultra-low friction JIS standard)';
+  } else if (famId === 'au-deadlatch') {
+    return isZh ? '0.45 ~ 0.85 N·m (水滴旋钮强弹簧复位)' : '0.45 – 0.85 N·m (High-spring return torque)';
+  }
+  return isZh ? '0.20 ~ 0.50 N·m (标称五金扭矩)' : '0.20 – 0.50 N·m (Nominal)';
+}
+
 function renderFitCheckWidget(famId, lang = 'en') {
   const isZh = lang === 'zh';
   let t1, t2, t3, cNote, aTip;
@@ -487,6 +504,9 @@ function renderFitCheckWidget(famId, lang = 'en') {
   <div style="padding: 10px 18px; background: #ffffff; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; font-size: 0.82rem;">
     <div style="color: #166534; font-weight: 700; display: flex; align-items: center; gap: 6px;">
       <span>✓</span> ${cNote}
+    </div>
+    <div style="color: #0f172a; font-size: 0.78rem; background: #f1f5f9; padding: 3px 8px; border-radius: 4px; border: 1px solid #e2e8f0;">
+      ⚙️ <b>${isZh ? '典型旋转扭矩' : 'Operating Torque'}:</b> ${getTorqueProfile(famId, lang)}
     </div>
     <div style="color: #475569; font-size: 0.78rem;">
       <b>${aTip}</b>

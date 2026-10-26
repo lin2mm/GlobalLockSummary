@@ -135,3 +135,40 @@ lang: "zh"
     </div>
   </div>
 </div>
+
+
+---
+
+## 🛠 门框扣板 2mm 倒角工规规程 (Strike Plate Chamfering Engineering Spec)
+
+<div style="margin: 20px 0; background: #ffffff; border: 1.5px solid #0B1D47; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(11,29,71,0.06);">
+  <div style="background: #0B1D47; color: #ffffff; padding: 12px 18px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+    <div style="font-weight: 700; font-size: 1.02rem;">
+      ⌖ 消除 65% 电机堵转的黄金工法：扣板内壁倒角与门框固结三部曲
+    </div>
+    <span style="font-size: 0.76rem; background: rgba(255,255,255,0.15); padding: 3px 8px; border-radius: 4px;">
+      ASSA ABLOY 工业现场标准
+    </span>
+  </div>
+  <div style="padding: 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; background: #f8fafc;">
+    <div style="border-left: 3px solid #0B1D47; padding-left: 12px;">
+      <h4 style="margin: 0 0 6px; font-size: 0.92rem; color: #0f172a;">1. 扣板内侧死角倒角 2.0mm (C2 Chamfer)</h4>
+      <p style="margin: 0; font-size: 0.82rem; color: #475569; line-height: 1.5;">
+        原厂冲压扣板边缘为 90° 锋利直角，当门扇热胀冷缩或门胶条反弹时，锁舌斜面会被锋利边卡死导致电机堵转。必须使用金刚石圆锉对扣盒内迎风面打磨出 <b>R1.5~R2.0mm 导向倒角</b>。
+      </p>
+    </div>
+    <div style="border-left: 3px solid #0B1D47; padding-left: 12px;">
+      <h4 style="margin: 0 0 6px; font-size: 0.92rem; color: #0f172a;">2. 顶部门框铰链换装 3 英寸长螺丝 (76mm Anchor)</h4>
+      <p style="margin: 0; font-size: 0.82rem; color: #475569; line-height: 1.5;">
+        门扇下垂（Door Sag）是锁舌错位的最大元凶。必须卸下最上方铰链靠门框内侧的 2 颗 19mm 短木螺丝，换装 <b>76mm (3-inch) 沉头淬火木螺丝</b>，直接贯穿门套吃进后方木方柱拉紧门扇。
+      </p>
+    </div>
+    <div style="border-left: 3px solid #0B1D47; padding-left: 12px;">
+      <h4 style="margin: 0 0 6px; font-size: 0.92rem; color: #0f172a;">3. 垫片微调与扣盒深度核验 (≥25.4mm Depth)</h4>
+      <p style="margin: 0; font-size: 0.82rem; color: #475569; line-height: 1.5;">
+        使用 <a href="/zh/adapters.html#adp-07">ADP-07 可调不锈钢垫片组</a> 调整扣盒进深。核验木框凿孔深度必须 <b>≥ 25.4mm (1 英寸)</b>，严禁锁舌完全伸出时前端顶到木料受阻。
+      </p>
+    </div>
+  </div>
+</div>
+
