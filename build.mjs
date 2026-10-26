@@ -120,7 +120,7 @@ function emitPage({ lang, slug, title, description, bodyHtml, breadcrumbs = [], 
   for (const diskPath of diskPaths) {
     const alternates = LANGS
       .filter((l) => existsFor(l, slug))
-      .map((l) => ({ lang: l, href: `${BASE_URL}/${dirUrl(l, slug)}`, path: dirUrl(l, slug) }));
+      .map((l) => ({ lang: l, href: `/${dirUrl(l, slug)}`, path: dirUrl(l, slug) }));
 
     const html = layout({
       title: title.includes(site.name) ? title : `${title} · ${site.name}`,

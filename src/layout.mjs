@@ -126,7 +126,7 @@ export function layout(opts) {
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
   <link rel="canonical" href="${esc(url)}">
-${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href="${esc(a.href.startsWith('http') ? a.href : baseUrl + '/' + a.href)}">`).join('\n')}
+${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href="${esc(a.href.startsWith('http') ? a.href : baseUrl + (a.href.startsWith('/') ? a.href : '/' + a.href))}">`).join('\n')}
   <meta property="og:type" content="website">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
