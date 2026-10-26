@@ -48,3 +48,23 @@ lang: "zh"
     </ul>
   </div>
 </div>
+
+---
+
+<h2 id="tpl-eu-din-18251">3. 欧洲 DIN 18251 / EN 12209 欧标锁芯打孔与开槽规程</h2> (Euro Profile PZ 72/92mm)
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin: 24px 0; background: var(--color-bg-card, #f8fafc); padding: 18px; border-radius: 8px; border: 1px solid var(--color-border, #e2e8f0); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 260px;">
+    <img src="../assets/img/indigenous/de-gefahrenfunktion.jpg" alt="DIN 18251 欧标插芯锁开孔打样图" style="width: 100%; border-radius: 6px;" />
+    <p style="font-size: 0.85em; color: var(--color-text-muted, #64748b); margin-top: 6px;">图 3：DIN 18251 欧标葫芦孔与 72/92mm 中心距打样参数</p>
+  </div>
+  <div style="flex: 1.4; min-width: 300px;">
+    <h3>标准开槽与打孔参数</h3>
+    <ul>
+      <li><strong>PZ 轴心间距</strong>：室内木门固定为 <strong>72mm</strong>，外部门与防盗多点门固定为 <strong>92mm</strong>。</li>
+      <li><strong>欧标葫芦孔 (Euro Profile Hole)</strong>：顶部圆孔直径 17mm，底部水滴收腰宽度 10mm，垂直总高 33mm。</li>
+      <li><strong>锁体侧板 (Stulp)</strong>：面板宽 20mm 或 24mm，厚度 3mm，必须完全平齐门扇立挺。</li>
+      <li><strong>锁芯外露要求</strong>：锁芯高出装饰护盖需 <strong>≥ 3mm</strong>，方可支持机械底盘无损夹持加装。</li>
+    </ul>
+  </div>
+</div>

@@ -146,7 +146,7 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
   <a class="skip-link" href="#main">${esc(site.ui.skipToContent[lang] || 'Skip to content')}</a>
   <header class="site-header">
     <div class="wrap site-header__inner">
-      <a class="brand" href="/${lang === 'en' ? '' : lang + '/'}">
+      <a class="brand" href="/${lang === 'en' ? 'en/' : 'zh/'}">
         <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a5 5 0 0 0-5 5v3H6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1h-1V7a5 5 0 0 0-5-5Zm0 2a3 3 0 0 1 3 3v3H9V7a3 3 0 0 1 3-3Zm0 10a1.7 1.7 0 0 1 .9 3.1V19h-1.8v-1.9A1.7 1.7 0 0 1 12 14Z" fill="currentColor"/></svg>
         <span class="brand__text">${esc(site.name)}</span>
       </a>

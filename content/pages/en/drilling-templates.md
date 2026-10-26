@@ -10,6 +10,8 @@ Professional locksmiths, architectural hardware specifiers, and smart lock retro
 
 ---
 
+<div id="tpl-us-ansi-deadbolt"></div>
+
 ## 1. North American ANSI A156.36 Deadbolt Drilling Protocol (Schlage B60 / Kwikset 660)
 
 <div style="display: flex; gap: 20px; align-items: flex-start; margin: 24px 0; background: var(--color-bg-card, #f8fafc); padding: 18px; border-radius: 8px; border: 1px solid var(--color-border, #e2e8f0); flex-wrap: wrap;">
@@ -36,6 +38,8 @@ Professional locksmiths, architectural hardware specifiers, and smart lock retro
 
 ---
 
+<div id="tpl-eu-din-18251"></div>
+
 ## 2. European DIN 18251 Mortise Pocket & Cylinder Specs (Euro Profile PZ 72/92mm)
 
 <div style="display: flex; gap: 20px; align-items: flex-start; margin: 24px 0; background: var(--color-bg-card, #f8fafc); padding: 18px; border-radius: 8px; border: 1px solid var(--color-border, #e2e8f0); flex-wrap: wrap;">
@@ -59,3 +63,5 @@ Professional locksmiths, architectural hardware specifiers, and smart lock retro
     </div>
   </div>
 </div>
+
+<div id="tpl-jp-miwa-la"></div>
