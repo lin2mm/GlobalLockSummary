@@ -68,18 +68,22 @@ export function layout(opts) {
   };
   const feedbackData = JSON.stringify(feedbackI18n).replace(/'/g, '&#39;');
   const isZh = lang === 'zh';
+  const emailSubject = isZh ? `【GlobalLockSummary 工程师直接反馈】${esc(title)}` : `[GlobalLockSummary Engineering Feedback] ${esc(title)}`;
+  const inputFieldName = isZh ? '反馈建议与纠错内容' : 'feedback_message';
+  const urlFieldName = isZh ? '来源子页面直达链接 (Clickable URL)' : 'source_page_url';
+  const titleFieldName = isZh ? '页面标题与层级' : 'page_title_and_path';
+
   const feedback = `<section class="feedback feedback--ultra-compact" id="feedback">
     <form class="feedback__one-click-form" action="https://formsubmit.co/438068235@qq.com" method="POST" style="display: flex; gap: 8px; align-items: center; width: 100%; max-width: 960px; margin: 0 auto; flex-wrap: wrap;">
-      <input type="hidden" name="_subject" value="【GlobalLockSummary 工程师直接反馈】${esc(title)}" />
+      <input type="hidden" name="_subject" value="${emailSubject}" />
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_template" value="table" />
-      <!-- 包含公网 1 键直达链接，邮件中点击直接跳入具体子页面第几层 -->
-      <input type="hidden" name="来源子页面直达链接 (Clickable URL)" value="https://globallocksummary.pages.dev/${esc(path.replace(/^\//, ''))}" />
-      <input type="hidden" name="页面标题与层级" value="${esc(title)} [${esc(path)}]" />
+      <input type="hidden" name="${urlFieldName}" value="https://globallocksummary.pages.dev/${esc(path.replace(/^\//, ''))}" />
+      <input type="hidden" name="${titleFieldName}" value="${esc(title)} [${esc(path)}]" />
       <span style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; white-space: nowrap; display: flex; align-items: center; gap: 4px;">
         💬 ${isZh ? '工程师直通反馈' : 'Feedback'}:
       </span>
-      <input type="text" name="反馈建议与纠错内容" required placeholder="${isZh ? '写下锁型补充、尺寸纠错或建议（回车直达邮箱，自动附带本页直达链接）...' : 'Type note or missing spec (hit Enter to send, page URL auto-attached)...'}" 
+      <input type="text" name="${inputFieldName}" required placeholder="${isZh ? '写下锁型补充、尺寸纠错或建议（回车直达邮箱，自动附带本页直达链接）...' : 'Type note or missing spec (hit Enter to send, page URL auto-attached)...'}" 
         style="flex: 1; min-width: 220px; padding: 7px 12px; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.82rem; background: #fff;" />
       <button type="submit" style="padding: 7px 18px; font-size: 0.82rem; background: #0B1D47; color: #fff; border: 1px solid #0B1D47; border-radius: 4px; cursor: pointer; white-space: nowrap; font-weight: 600;">
         ${isZh ? '直接提交' : 'Submit'}

@@ -8,7 +8,7 @@ lang: "en"
 
 Engineered for overseas smart lock developers. Consolidating indigenous mechanical tolerances, mortise cutting logic, and error-proofing guidelines across DACH (DIN), France (NF), Japan (JIS), UK/ANZ (AS/BS), LatAm (ABNT), and North America (ANSI).
 
-<!-- 顶部 6 大区域快速穿透锚点导航条 -->
+<!-- Top Regional Anchor Navigation Bar -->
 <div style="margin: 20px 0 32px; padding: 12px 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; padding: 10px 14px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
   <span style="font-weight: 700; font-size: 0.85rem; color: #334155;">📍 Quick Navigation:</span>
   <a href="#de-at-ch" style="padding: 4px 10px; background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.8rem; text-decoration: none; color: #1e293b;">🇩🇪 DACH (DIN)</a>
@@ -21,7 +21,7 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
 
 <div style="display: flex; flex-direction: column; gap: 36px; margin: 28px 0;">
 
-  <!-- 1. 德奥瑞 -->
+  <!-- 1. DACH Region (DE / AT / CH) -->
   <div id="de-at-ch" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇩🇪 DACH Region: Dornmaß, PZ Dimensions & Dual-Action Clutch</h2>
@@ -47,7 +47,7 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
     </div>
   </div>
 
-  <!-- 2. 法比区 -->
+  <!-- 2. France & Belgium (FR / BE) -->
   <div id="fr-be" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇫🇷 France & Belgium: Axe 50, Entraxe 70 & 7mm Spindles</h2>
@@ -73,7 +73,7 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
     </div>
   </div>
 
-  <!-- 3. 日本精工 -->
+  <!-- 3. Japan Precision (MIWA / GOAL) -->
   <div id="jp" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇯🇵 Japan: Faceplate Engraving Decoding & Anti-Theft Thumbturn</h2>
@@ -98,7 +98,7 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
     </div>
   </div>
 
-  <!-- 4. 英澳体系 -->
+  <!-- 4. UK & Australia (Chubb / Lockwood) -->
   <div id="uk-anz" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇦🇺🇬🇧 UK & Australia: Rim Nightlatches & Lockwood 001 Deadlatches</h2>
@@ -116,14 +116,14 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
       <div style="font-size: 0.86rem; color: #475569; line-height: 1.6; display: flex; flex-direction: column; justify-content: space-between;">
         <ul style="margin: 0; padding-left: 18px;">
           <li><b>Lockwood 001 (Australian Deadlatch):</b> Teardrop knob (48x34mm); auxiliary bolt must depress fully into strike box.</li>
-          <li><b>门缝变异假锁死风险:</b> Gap >3.5mm causes false lock where door can be carded open.</li>
+          <li><b>Door Gap False Lock Risk:</b> Gap >3.5mm causes false lock where door can be carded open.</li>
         </ul>
         <div style="margin-top: 10px; padding: 6px 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #0f172a; border-radius: 4px; font-size: 0.76rem; color: #334155;"><b>Recommended Adapter:</b> ADP-05 (Teardrop turn adapter) + ADP-07 (Strike shims) + ADP-10 (Cover plate)</div>
       </div>
     </div>
   </div>
 
-  <!-- 5. 西语与拉美 -->
+  <!-- 5. Latin America & Spain -->
   <div id="latam" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🌎 Latin America: 40mm Narrow Entrada & Pivot Roller Latches</h2>
@@ -148,7 +148,7 @@ Engineered for overseas smart lock developers. Consolidating indigenous mechanic
     </div>
   </div>
 
-  <!-- 6. 北美标准 -->
+  <!-- 6. North America (ANSI / BHMA) -->
   <div id="na" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 16px;">
       <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">🇺🇸 North America: 54mm Bore & Flat Tailpiece Deadbolts</h2>

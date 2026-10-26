@@ -56,3 +56,61 @@ In physical retrofits, mechanical misalignment, door warping, and unlatched stat
 5. **[Full lock replacement on the same footprint](retrofit/full-lock-replacement.html)** —— Replacing entire lock case and escutcheons without door prep modification.
 6. **[Motor on a rim (surface-mounted) lock](retrofit/rim-lock-motor.html)** —— Surface-mounted motors on Australian Lockwood 001/355 and British rim nightlatches.
 7. **[Gate actuator](retrofit/gate-actuator.html)** —— Solenoid / lever actuators for metal security gates in Asian apartments.
+
+---
+
+## 🛠 Pre-Launch Hardware Readiness & Cross-Border Crowdfunding Audit Checklist
+
+For smart lock hardware teams launching on **Kickstarter, Indiegogo, or cross-border Amazon**, high post-delivery return rates (RMA) are almost always caused by mechanical fitment failures rather than firmware bugs. Verify your hardware against this 6-point pre-flight checklist:
+
+<div style="overflow-x: auto; margin: 20px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.88rem; text-align: left;">
+    <thead>
+      <tr style="background: #0f172a; color: #ffffff;">
+        <th style="padding: 10px 12px; border: 1px solid #334155; width: 18%;">Audit Checkpoint</th>
+        <th style="padding: 10px 12px; border: 1px solid #334155; width: 28%;">Mechanical Failure Mode</th>
+        <th style="padding: 10px 12px; border: 1px solid #334155; width: 28%;">Engineering Root Cause</th>
+        <th style="padding: 10px 12px; border: 1px solid #334155; width: 26%;">Design Solution & Adapter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #ffffff;">
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; font-weight: 700;">1. ANSI Deadbolt Binding</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; color: #991b1b; font-weight: 600;">Motor stalls during deadbolt extension; battery drains in <2 weeks.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Seasonal weather-stripping expansion or door sag offsets strike plate >1.5mm.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Bundle <a href="/en/adapters.html#adp-07">ADP-07 stainless shims</a>; instruct replacing top hinge screw with 3-inch anchor screw.</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; font-weight: 700;">2. Euro Non-Clutch Lockout</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; color: #991b1b; font-weight: 600;">Customer locked out when indoor motor key is inserted; outside key cannot turn.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Euro cylinder lacks DIN EN 1303 Class 2 dual-clutch emergency function (*Gefahrenfunktion*).</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Mandate in-app wizard verification: customer must test outside key with inside key inserted before installation.</td>
+      </tr>
+      <tr style="background: #ffffff;">
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; font-weight: 700;">3. Tailpiece Thickness Variance</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; color: #991b1b; font-weight: 600;">Adapter wobbles or strips under high torque; backlash angle exceeds 15°.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">North American deadbolts use two distinct flat blade thicknesses: 4.5mm (Schlage) vs 2.2mm (Kwikset).</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Adopt stepped dual-thickness cam design (<a href="/en/adapters.html#adp-04">ADP-04 universal stepped cam</a>).</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; font-weight: 700;">4. Multipoint Pre-load Stall</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; color: #991b1b; font-weight: 600;">Retrofit motor fails to throw multipoint hooks/shootbolts on UK/German PVC doors.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Multipoint kinematics require 2.5–4.5 N·m pre-load lift on door handle before deadbolt engages.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Provide explicit "Lift-to-Lock" guidance or deploy torque assist lever mechanism (<a href="/en/adapters.html#adp-09">ADP-09</a>).</td>
+      </tr>
+      <tr style="background: #ffffff;">
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; font-weight: 700;">5. Fire Egress Compliance</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; color: #991b1b; font-weight: 600;">Import shipment seized by customs or rejected by multi-family building insurance.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Violation of Single-Motion Egress rules (UL 10C in US, DIN EN 179 in Germany/EU).</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Ensure thumbturn manual mechanical override remains functional with dead battery (Zero Motor Drag).</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; font-weight: 700;">6. Japanese Anti-Pinch Stalling</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0; color: #991b1b; font-weight: 600;">Motor stalls instantly on MIWA thumbturns; plastic gripper snaps under load.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Japanese high-security thumbturns (*防犯サムターン*) require squeezing side buttons before turning.</td>
+        <td style="padding: 9px 12px; border: 1px solid #e2e8f0;">Deploy specialized sloped squeeze chuck with POM material (<a href="/en/adapters.html#adp-03">ADP-03 pinch adapter</a>).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
