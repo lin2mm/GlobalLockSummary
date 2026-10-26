@@ -67,21 +67,28 @@ export function layout(opts) {
     note: feedbackTerms.note?.[lang] || feedbackTerms.note?.en || '',
   };
   const feedbackData = JSON.stringify(feedbackI18n).replace(/'/g, '&#39;');
-  const feedback = `<section class="feedback" id="feedback" data-feedback
-    data-page-title="${esc(title)}" data-page-path="${esc(path)}" data-issues-url="${esc(site.urls.issues)}"
-    data-i18n='${feedbackData}'>
-    <h2>${esc(feedbackI18n.title)}</h2>
-    <p class="feedback__hint">${esc(feedbackI18n.hint)}</p>
-    <div class="feedback__fields">
-      <label>${esc(feedbackI18n.category)} <select data-feedback-category></select></label>
-      <label>${esc(feedbackI18n.message)} <textarea data-feedback-message rows="5"></textarea></label>
-    </div>
-    <div class="feedback__actions">
-      <a class="feedback__issue" data-feedback-issue href="${esc(site.urls.issues)}/new" target="_blank" rel="noopener">${esc(feedbackI18n.openIssue)}</a>
-      <button class="feedback__copy" data-feedback-copy type="button">${esc(feedbackI18n.copy)}</button>
-      <span class="feedback__status" data-feedback-status aria-live="polite"></span>
-    </div>
-    <p class="feedback__note">${esc(feedbackI18n.note)}</p>
+  const isZh = lang === 'zh';
+  const emailSubject = isZh ? `【GlobalLockSummary 工程师直接反馈】${esc(title)}` : `[GlobalLockSummary Engineering Feedback] ${esc(title)}`;
+  const inputFieldName = isZh ? '反馈建议与纠错内容' : 'feedback_message';
+  const urlFieldName = isZh ? '来源子页面直达链接 (Clickable URL)' : 'source_page_url';
+  const titleFieldName = isZh ? '页面标题与层级' : 'page_title_and_path';
+
+  const feedback = `<section class="feedback feedback--ultra-compact" id="feedback">
+    <form class="feedback__one-click-form" action="https://formsubmit.co/438068235@qq.com" method="POST" style="display: flex; gap: 8px; align-items: center; width: 100%; max-width: 960px; margin: 0 auto; flex-wrap: wrap;">
+      <input type="hidden" name="_subject" value="${emailSubject}" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="${urlFieldName}" value="https://globallocksummary.pages.dev/${esc(path.replace(/^\//, ''))}" />
+      <input type="hidden" name="${titleFieldName}" value="${esc(title)} [${esc(path)}]" />
+      <span style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; white-space: nowrap; display: flex; align-items: center; gap: 4px;">
+        💬 ${isZh ? '工程师直通反馈' : 'Feedback'}:
+      </span>
+      <input type="text" name="${inputFieldName}" required placeholder="${isZh ? '写下锁型补充、尺寸纠错或建议（回车直达邮箱，自动附带本页直达链接）...' : 'Type note or missing spec (hit Enter to send, page URL auto-attached)...'}" 
+        style="flex: 1; min-width: 220px; padding: 7px 12px; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 0.82rem; background: #fff;" />
+      <button type="submit" style="padding: 7px 18px; font-size: 0.82rem; background: #0B1D47; color: #fff; border: 1px solid #0B1D47; border-radius: 4px; cursor: pointer; white-space: nowrap; font-weight: 600;">
+        ${isZh ? '直接提交' : 'Submit'}
+      </button>
+    </form>
   </section>`;
 
   const langLinks = alternates.map((alt) => {
@@ -119,7 +126,7 @@ export function layout(opts) {
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
   <link rel="canonical" href="${esc(url)}">
-${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href="${esc(a.href.startsWith('http') ? a.href : baseUrl + '/' + a.href)}">`).join('\n')}
+${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href="${esc(a.href.startsWith('http') ? a.href : baseUrl + (a.href.startsWith('/') ? a.href : '/' + a.href))}">`).join('\n')}
   <meta property="og:type" content="website">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
@@ -139,7 +146,7 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
   <a class="skip-link" href="#main">${esc(site.ui.skipToContent[lang] || 'Skip to content')}</a>
   <header class="site-header">
     <div class="wrap site-header__inner">
-      <a class="brand" href="/${lang === 'en' ? '' : lang + '/'}">
+      <a class="brand" href="/${lang === 'en' ? 'en/' : 'zh/'}">
         <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a5 5 0 0 0-5 5v3H6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1h-1V7a5 5 0 0 0-5-5Zm0 2a3 3 0 0 1 3 3v3H9V7a3 3 0 0 1 3-3Zm0 10a1.7 1.7 0 0 1 .9 3.1V19h-1.8v-1.9A1.7 1.7 0 0 1 12 14Z" fill="currentColor"/></svg>
         <span class="brand__text">${esc(site.name)}</span>
       </a>
@@ -173,7 +180,7 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
           <li><a href="/data/catalog.json">catalog.json</a></li>
           <li><a href="/llms.txt">llms.txt</a></li>
           <li><a href="/sitemap.xml">sitemap.xml</a></li>
-          <li><a href="${esc(site.urls.repository)}">${esc(site.footer.repository[lang] || 'Source on GitHub')}</a></li>
+          
         </ul>
       </nav>
       <div>
@@ -201,7 +208,14 @@ export function buildToc(headings, { minLevel = 2, maxLevel = 3 } = {}) {
   const items = headings.filter((h) => h.level >= minLevel && h.level <= maxLevel);
   if (items.length < 3) return '';
   return `<ul class="toc__list">${items
-    .map((h) => `<li class="toc__item toc__item--h${h.level}"><a href="#${h.id}">${esc(h.text)}</a></li>`)
+    .map((h) => {
+      const match = /^(.*?)\s*[\(（]([A-Za-z0-9\s/&,.:+_-]+)[\)）]\s*$/.exec(h.text);
+      let label = esc(h.text);
+      if (match && /[\u4e00-\u9fa5]/.test(match[1]) && /[a-zA-Z]/.test(match[2])) {
+        label = `<span class="bilingual-title"><span class="bilingual-title__zh">${esc(match[1].trim())}</span><span class="bilingual-title__en">${esc(match[2].trim())}</span></span>`;
+      }
+      return `<li class="toc__item toc__item--h${h.level}"><a href="#${h.id}">${label}</a></li>`;
+    })
     .join('\n')}</ul>`;
 }
 

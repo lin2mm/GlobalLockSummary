@@ -2,7 +2,7 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, arena/01a0a966-globallocksummary]
   workflow_dispatch:
 
 permissions:
@@ -33,6 +33,19 @@ jobs:
         run: node build.mjs
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+
+      - name: Mirror built site to Gitee Pages
+        if: github.event_name == 'push'
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_USER: lin2mm
+          GITEE_REPO: GlobalLockSummary
+        run: |
+          [ -z "$GITEE_TOKEN" ] && { echo skip; exit 0; }
+          cd _site; touch .nojekyll; git init -q; git checkout -q -b gitee-pages; git add -A
+          git -c user.name=gitee-mirror -c user.email=mirror@local commit -q -m "Mirror site"
+          git remote add origin "https://${GITEE_USER}:${GITEE_TOKEN}@gitee.com/${GITEE_USER}/${GITEE_REPO}.git"
+          git push -qf origin gitee-pages
 
       - name: Test identification logic against the built catalog
         run: node tests/scoring.test.mjs

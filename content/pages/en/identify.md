@@ -7,7 +7,41 @@ Answer five questions about the door in front of you. The wizard narrows down th
 
 Nothing you answer is uploaded anywhere — it runs in your browser.
 
+
+<!-- 10-Second Regional Quick Navigator for Global Technicians -->
+<div style="margin: 20px 0 28px; background: #f8fafc; border: 1px solid #cbd5e1; border-left: 4px solid #0B1D47; border-radius: 6px; padding: 16px 20px; box-shadow: 0 2px 6px rgba(15,23,42,0.03);">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
+    <h3 style="margin: 0; font-size: 1.02rem; color: #0f172a; display: flex; align-items: center; gap: 6px;">
+      🌍 <b>10-Second Regional Quick Jumper: Select Your Door's Market</b>
+    </h3>
+    <span style="font-size: 0.76rem; color: #64748b; font-weight: 600;">Direct Jump to Localized Engineering Guides & Lock Families</span>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+    <a href="/en/locks/us-deadbolt.html" style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; background: #ffffff; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      🇺🇸 United States / Canada (ANSI Deadbolt) →
+    </a>
+    <a href="/en/locks/euro-cylinder-mortise.html" style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; background: #ffffff; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      🇩🇪 Germany / Europe (Euro Profile DIN 18251) →
+    </a>
+    <a href="/en/locks/uk-5-lever-mortice.html" style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; background: #ffffff; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      🇬🇧 United Kingdom (BS 3621 / Rim Nightlatch) →
+    </a>
+    <a href="/en/locks/jp-miwa-case.html" style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; background: #ffffff; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      🇯🇵 Japan (MIWA 13LA / 75PM Engraving) →
+    </a>
+    <a href="/en/locks/au-deadlatch.html" style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; background: #ffffff; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      🇦🇺 Australia / NZ (Lockwood 001 Deadlatch) →
+    </a>
+    <a href="/en/locks/sg-metal-gate-lock.html" style="font-size: 0.82rem; font-weight: 700; color: #0B1D47; background: #ffffff; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      🇸🇬 Singapore / SEA (HDB Metal Gate Lock) →
+    </a>
+  </div>
+</div>
+
 {{wizard}}
+
+> [!TIP] 🇯🇵 Japan Faceplate Engravings Shortcut (Zero Measurement Needed)
+> If your door edge faceplate is stamped with letter codes (such as **MIWA LA**, **MIWA 13LA**, or **GOAL LX**), skip this questionnaire and directly access the [👉 Japan Faceplate Engravings Lookup Directory](japan-engravings.html) to instantly fetch exact CAD specs and retrofit clamp models!
 
 ## If you would rather do it by hand
 
@@ -28,7 +62,7 @@ Then take the measurements on the [measuring guide](measure.html) in the order l
 
 It cannot see your door. It works from the answers you give it, so if two options both seem true, pick the one you are more sure of and check the measurement table on the resulting page — the numbers will confirm or rule it out.
 
-If the wizard gets it wrong, that is a bug in the decision data, not in your door. [Tell us which answer led you astray](https://github.com/lin2mm/GlobalLockSummary/issues) and the tree gets fixed for everyone.
+If the wizard gets it wrong, that is a bug in the decision data, not in your door. [Tell us which answer led you astray](#feedback) and the tree gets fixed for everyone.
 
 ## Questions
 

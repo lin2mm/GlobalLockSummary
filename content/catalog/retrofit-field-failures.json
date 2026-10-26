@@ -1,0 +1,47 @@
+[
+  {
+    "id": "multipoint-lift-to-lock",
+    "title": { "zh": "欧洲与英国：抬把手多点联动锁（Multipoint Lift-to-lock）电机卡死", "en": "Europe & UK: Multipoint Lift-to-lock Motor Stalling" },
+    "frequency": "极高（欧洲改装头号投诉）",
+    "complaintSource": "Nuki / Yale Linus 欧洲 Reddit 用户群及锁匠论坛",
+    "mechanism": "欧洲大量 uPVC 与复合门配备 3 点或 5 点联动锁。只有当门把手向上抬起（Handle lift）时，上下方锁舌才会伸入扣板。普通加装电机仅能旋转锁芯钥匙，无法输出抬把手所需的数十公斤垂直联动拉力。",
+    "userPainPoint": "用户离家关门后 App 显示已锁定，但因无人抬把手，上下联动点未咬合，用力推门即开；或电机在钥匙旋转中因多点偏心摩擦过大，反复报警 Motor Blocked 并迅速耗尽电池。",
+    "engineeringTarget": "改造方案必须明确要求双动作配合（手动抬把手确认），或仅选型集成把手电机的整体换锁架构，不可盲目宣称纯旋钮电机兼容。"
+  },
+  {
+    "id": "deadbolt-door-sag-binding",
+    "title": { "zh": "北美：门扇下沉与密封条弹性阻力导致插销卡阻（Deadbolt Binding）", "en": "North America: Door Sagging & Weatherstrip Resistance Causing Deadbolt Jam" },
+    "frequency": "极高（北美加装锁退货主因）",
+    "complaintSource": "August / SwitchBot / Eufy / Lockly 社区真实案例",
+    "mechanism": "美标单缸插销锁（ANSI A156.36）虽然安装孔位高度标准化（54mm），但木门随季节温湿度形变、铰链螺丝松动下沉，或加厚防风密封条反弹力，导致插销锁舌与门框扣板（Strike Plate）严重上下/内外错位摩擦。",
+    "userPainPoint": "手动用钥匙能感觉明显吃力但能硬拧过去，而小电机扭矩通常在 0.8~1.5 N·m 之间，一旦插销在行程中碰到扣板金属边缘立即卡滞死锁，导致半夜误报警或直接将人反锁在门外。",
+    "engineeringTarget": "必须在开门与关门两种工况分别做 3 次阻力测试；扣板开口必须扩大打磨或重新校准门框铰链，留出至少 2mm 自由浮动余量。"
+  },
+  {
+    "id": "safety-release-asymmetric-state",
+    "title": { "zh": "澳洲：Lockwood 001/002 锁扣安全释放（Safety Release）状态异步", "en": "Australia: Lockwood 001/002 Safety Release & State Asymmetry" },
+    "frequency": "高（澳洲工程师改装常见误区）",
+    "complaintSource": "Lockwood 官方技术手册与澳洲锁匠现场改装反馈",
+    "mechanism": "Lockwood 001 采用专利的安全释放扣舌机构（Safety Release）。关门瞬间辅舌压入门框，主锁舌才 deadlatched（死锁）；如果门缝过大或扣板深度不够，锁舌处于未死锁状态，内侧旋钮仍能旋转但外部依然可用塑料卡片拨开。",
+    "userPainPoint": "改装电机以为旋转了旋钮就完成了上锁，其实机械锁体并未进入真正物理 Deadlock 状态，形成“假安全（False Green）”。",
+    "engineeringTarget": "传感器逻辑不可仅检测内旋钮绝对角度，必须物理探测辅助锁舌与门框的压入行程。"
+  },
+  {
+    "id": "hdb-gate-door-clearance-clash",
+    "title": { "zh": "新加坡：HDB 双门铁闸与木门狭窄净距（<80mm）把手撞击", "en": "Singapore: HDB Metal Gate & Wooden Door Narrow Clearance Clash" },
+    "frequency": "极高（新加坡 HDB 住户普遍痛点）",
+    "complaintSource": "新加坡本地智能锁服务商现场安装工单",
+    "mechanism": "新加坡组屋（HDB）标准外侧金属防盗铁闸与内侧木门之间的净空间隙普遍仅有 75~95mm。大量市售改装智能锁、加装电机或推拉大把手厚度普遍超过 55~70mm。",
+    "userPainPoint": "关门时外侧铁闸把手或铁栏杆直接撞击内门加装的智能锁机身，造成面板碎裂、划伤，甚至导致两道门互相卡死无法关严。",
+    "engineeringTarget": "机身厚度必须严格控制在 35mm 以内，或偏心设计，必须实测门闸双向对角线闭合轨迹。"
+  },
+  {
+    "id": "double-cylinder-emergency-lockout",
+    "title": { "zh": "双面钥匙锁芯改装后“外部钥匙失效”造成紧急反锁事故", "en": "Double-Cylinder Retrofits: External Key Override Blocked" },
+    "frequency": "中高（致命安全隐患）",
+    "complaintSource": "欧洲 Nuki 紧急破门求助帖子（Locksmith Break-in）",
+    "mechanism": "许多用户在内侧常插一把钥匙并套上旋转电机。但欧洲普通锁芯若无“双向应急离合功能（Emergency / BS Function）”，内侧插有钥匙时，外侧钥匙孔无法完全插入或无法转动拨叉。",
+    "userPainPoint": "一旦智能锁电池耗尽或内部机械传动齿轮咬死，屋主在门外即便持有原装机械钥匙也无法开锁，最终被迫花费数百欧元暴力破门换锁。",
+    "engineeringTarget": "改造方案必须强制要求锁芯具备双面独立离合认证（BS 认证或 DIN 18252 应急槽），否则必须更换专用锁芯。"
+  }
+]
