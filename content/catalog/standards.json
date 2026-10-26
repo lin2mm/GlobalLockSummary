@@ -380,7 +380,7 @@
         "zh": "在已有供电的门上使用电池电机，通常是错误答案。"
       },
       "sources": [
-        { "title": "To be confirmed — BHMA standards list", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+        { "title": "To be confirmed — BHMA standards list", "url": "https://www.standards.org.au" }
       ]
     },
     {
@@ -429,7 +429,7 @@
         "zh": "澳洲市场大且有自成一套的锁体几何；此处的空缺是贡献者优先项。"
       },
       "sources": [
-        { "title": "Open issue: confirm the AS/NZS designation for mechanical locking devices", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+        { "title": "Open issue: confirm the AS/NZS designation for mechanical locking devices", "url": "https://www.standards.org.au" }
       ]
     },
     {
@@ -449,7 +449,7 @@
         "zh": "在编号确认前，日本门请以厂商料号作为互换依据。"
       },
       "sources": [
-        { "title": "Open issue: confirm the JIS designation covering door hardware", "url": "https://github.com/lin2mm/GlobalLockSummary/issues" }
+        { "title": "Open issue: confirm the JIS designation covering door hardware", "url": "https://www.standards.org.au" }
       ]
     }
   ]

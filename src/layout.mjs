@@ -180,7 +180,7 @@ ${alternates.map((a) => `  <link rel="alternate" hreflang="${esc(a.lang)}" href=
           <li><a href="/data/catalog.json">catalog.json</a></li>
           <li><a href="/llms.txt">llms.txt</a></li>
           <li><a href="/sitemap.xml">sitemap.xml</a></li>
-          <li><a href="${esc(site.urls.repository)}">${esc(site.footer.repository[lang] || 'Source on GitHub')}</a></li>
+          
         </ul>
       </nav>
       <div>

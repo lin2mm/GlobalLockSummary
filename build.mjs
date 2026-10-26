@@ -21,7 +21,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)));
 const CONTENT = join(ROOT, 'content');
 const OUT = join(ROOT, '_site');
 const PRIVATE_PUBLISH_PATHS = ['docs', join('assets', 'downloads')];
-const BASE_URL = process.env.SITE_URL || 'https://lin2mm.github.io/GlobalLockSummary';
+const BASE_URL = process.env.SITE_URL || 'https://globallocksummary.pages.dev';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
 
 const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'));
@@ -767,7 +767,7 @@ ${deviceHtml}
 ${faqBlock(fam.faq?.[lang] || fam.faq?.en, lang)}
 ${sourceList(fam.sources, lang)}
 
-<p class="record-link"><a href="${escapeHtml(site.urls.repository)}/blob/main/content/catalog/lock-families/${escapeHtml(fam.id)}.json">${escapeHtml(t(terms.labels, 'openFile', lang))}</a></p>
+
 `;
 
   const headings = [
@@ -836,7 +836,7 @@ ${bilingualList(std.decides, lang)}
 <h2 id="retrofit">${escapeHtml(lang === 'zh' ? '为什么改造设计者要关心' : 'Why a retrofit designer cares')}</h2>
 <p>${escapeHtml(std.whyItMattersForRetrofit[lang] || std.whyItMattersForRetrofit.en)}</p>
 ${sourceList(std.sources, lang)}
-<p class="record-link"><a href="${escapeHtml(site.urls.repository)}/issues">${escapeHtml(lang === 'zh' ? '指出错误或补充资料' : 'Report an error or add a source')}</a></p>`;
+<p class="record-link"><a href="#feedback">${escapeHtml(lang === 'zh' ? '💬 向工程师反馈纠错或补充资料 →' : '💬 Report an error or add data →')}</a></p>`;
 
   return {
     html,
@@ -923,7 +923,7 @@ ${arch.examples.length ? `<h2 id="examples">${lang === 'zh' ? '市售示例' : '
   }).join('')}</ul>` : ''}
 
 ${sourceList(architecturesDoc.sources, lang)}
-<p class="record-link"><a href="${escapeHtml(site.urls.repository)}/blob/main/content/catalog/retrofit-architectures.json">${escapeHtml(t(terms.labels, 'openFile', lang))}</a></p>`;
+`;
 
   return {
     html,
@@ -1782,7 +1782,7 @@ function build() {
   write('data/catalog.json', JSON.stringify({
     generated: BUILD_DATE,
     license: site.license,
-    source: site.urls.repository,
+    source: BASE_URL,
     terms,
     lockFamilies: families,
     retrofitArchitectures: architecturesDoc.architectures,
@@ -1923,7 +1923,7 @@ function buildLlmsTxt() {
   L.push('- [sitemap.xml](/sitemap.xml): 全部 URL，含 hreflang 互链');
   L.push('');
   L.push(lang === 'zh' ? '## 可选' : '## Optional');
-  L.push(`- [源码仓库](${site.urls.repository}): 数据文件每个锁族一个 JSON`);
+  L.push(`- [锁型数据索引](/data/catalog.json): 数据文件每个锁族一个 JSON`);
   L.push('');
   L.push(lang === 'zh'
     ? `其他语言: [English](/en/index.html) — the same content, in English.`

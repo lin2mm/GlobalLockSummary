@@ -62,7 +62,7 @@ Then take the measurements on the [measuring guide](measure.html) in the order l
 
 It cannot see your door. It works from the answers you give it, so if two options both seem true, pick the one you are more sure of and check the measurement table on the resulting page — the numbers will confirm or rule it out.
 
-If the wizard gets it wrong, that is a bug in the decision data, not in your door. [Tell us which answer led you astray](https://github.com/lin2mm/GlobalLockSummary/issues) and the tree gets fixed for everyone.
+If the wizard gets it wrong, that is a bug in the decision data, not in your door. [Tell us which answer led you astray](#feedback) and the tree gets fixed for everyone.
 
 ## Questions
 
