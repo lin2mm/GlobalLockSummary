@@ -426,6 +426,76 @@ function getSampleCluster(sample, lang) {
   };
 }
 
+
+function renderFitCheckWidget(famId, lang = 'en') {
+  const isZh = lang === 'zh';
+  let t1, t2, t3, cNote, aTip;
+
+  if (famId === 'us-deadbolt' || famId === 'us-bored-lever') {
+    t1 = isZh ? '门扇厚度是否在 35 ~ 45mm 之间 (1-3/8" 至 1-3/4")？' : 'Is door thickness 35–45mm (1-3/8" to 1-3/4")?';
+    t2 = isZh ? '锁孔中心距 (Backset) 是否为 60mm 或 70mm？' : 'Is backset 60mm (2-3/8") or 70mm (2-3/4")?';
+    t3 = isZh ? '手动转动锁舌是否顺畅、关门无侧向死卡？' : 'Does deadbolt throw smoothly without frame strike binding?';
+    cNote = isZh ? '100% 契合主流后装智能锁 (August / Aqara / SwitchBot)' : '100% Native Fit for Retrofit Smart Locks (August / Aqara / SwitchBot)';
+    aTip = isZh ? '建议五金: ADP-04 (万向阶梯转盘) + ADP-07 (扣板垫片)' : 'Recommended: ADP-04 (Universal Tailpiece Cam) + ADP-07 (Strike Shims)';
+  } else if (famId === 'euro-cylinder-mortise' || famId === 'multipoint-upvc') {
+    t1 = isZh ? '锁芯内侧高出装饰圈高度是否 ≥ 3mm？' : 'Does Euro cylinder protrude ≥3mm from door escutcheon?';
+    t2 = isZh ? '锁芯是否具备双向应急离合 (外插钥匙内侧钥匙可同转)？' : 'Does cylinder have dual-clutch emergency function (operable outside)?';
+    t3 = isZh ? '多点联动门抬起把手落锁时阻力是否适中？' : 'Can multipoint handle lift smoothly to throw shootbolts?';
+    cNote = isZh ? '100% 契合欧标后装智能锁 (Nuki / Tedee / Linus)' : '100% Compatible with Euro Retrofit Locks (Nuki / Tedee / Linus)';
+    aTip = isZh ? '建议五金: ADP-06 (钥匙柄夹持爪) + ADP-09 (助力扭簧)' : 'Recommended: ADP-06 (Key Clamp) + ADP-09 (Assist Spring)';
+  } else if (famId === 'jp-miwa-case') {
+    t1 = isZh ? '门锁侧面板刻印是否为 MIWA 13LA / LA·MA / 75PM？' : 'Is faceplate stamped MIWA 13LA / LA·MA / 75PM?';
+    t2 = isZh ? '室内旋钮旋转阻力是否顺滑、无下坠卡顿？' : 'Does indoor thumbturn turn smoothly without dragging?';
+    t3 = isZh ? '如为防犯旋钮 (两侧有捏合按钮)，是否预备专用捏合爪？' : 'If equipped with anti-pinch thumbturn, is pinch chuck prepared?';
+    cNote = isZh ? '96% 契合日规智能加装设备 (SwitchBot / SADIOT / Qrio)' : '96% Compatible with Japan Retrofit Devices (SwitchBot / SADIOT / Qrio)';
+    aTip = isZh ? '建议五金: ADP-03 (MIWA B5 斜坡捏合抓手)' : 'Recommended: ADP-03 (Sloped Anti-Pinch Gripper)';
+  } else {
+    t1 = isZh ? '门厚与锁芯孔位是否符合当地国家机械标准？' : 'Does door thickness and bore match standard mechanical specs?';
+    t2 = isZh ? '原装物理机械钥匙在室外能否顺畅全行程开启？' : 'Can original physical key operate smoothly from outside?';
+    t3 = isZh ? '室内操作侧是否有足够的旋转与外壳安装净空？' : 'Is there sufficient indoor clearance for retrofit enclosure?';
+    cNote = isZh ? '符合标准后装智能锁加装工程规范' : 'Compliant with Global Retrofit Smart Lock Engineering Standards';
+    aTip = isZh ? '详情请查阅下方实物安装与改造图谱' : 'See installation diagrams and adapter specs below';
+  }
+
+  const headerTitle = isZh ? '⚡ 30 秒无损加装兼容性自检' : '⚡ 30-Second Retrofit Fit Check';
+  const subTitle = isZh ? '购前/研发前 3 步快速核实，避免 90% 的现场卡死' : '3-Step Pre-Flight Verification to Prevent 90% of Stalls';
+
+  return `
+<div class="fit-check-widget" style="margin: 20px 0 28px; background: #ffffff; border: 1.5px solid #0B1D47; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(11,29,71,0.06);">
+  <div style="background: #0B1D47; color: #ffffff; padding: 10px 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+    <div style="font-weight: 700; font-size: 0.95rem; display: flex; align-items: center; gap: 6px;">
+      ${headerTitle}
+    </div>
+    <span style="font-size: 0.74rem; background: rgba(255,255,255,0.15); padding: 2px 8px; border-radius: 4px; letter-spacing: 0.02em;">
+      ${subTitle}
+    </span>
+  </div>
+  <div style="padding: 14px 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; background: #f8fafc; border-bottom: 1px solid #e2e8f0;">
+    <div style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.84rem; color: #1e293b; line-height: 1.45;">
+      <span style="color: #166534; font-weight: 800; font-size: 1rem;">1.</span>
+      <span>${t1}</span>
+    </div>
+    <div style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.84rem; color: #1e293b; line-height: 1.45;">
+      <span style="color: #166534; font-weight: 800; font-size: 1rem;">2.</span>
+      <span>${t2}</span>
+    </div>
+    <div style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.84rem; color: #1e293b; line-height: 1.45;">
+      <span style="color: #166534; font-weight: 800; font-size: 1rem;">3.</span>
+      <span>${t3}</span>
+    </div>
+  </div>
+  <div style="padding: 10px 18px; background: #ffffff; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; font-size: 0.82rem;">
+    <div style="color: #166534; font-weight: 700; display: flex; align-items: center; gap: 6px;">
+      <span>✓</span> ${cNote}
+    </div>
+    <div style="color: #475569; font-size: 0.78rem;">
+      <b>${aTip}</b>
+    </div>
+  </div>
+</div>
+`;
+}
+
 function lockPage(fam, lang) {
   const order = (fam.measureOrder || []).map((k) => t(terms.measurements, k, lang));
   const rows = measurementRows(fam.measurements, lang);
@@ -744,6 +814,8 @@ ${fieldCasesHtml}
 <p class="lede">${escapeHtml(fam.summary[lang] || fam.summary.en)}</p>
 <p class="meta">${statusBadge(fam.status, lang)} <span class="meta__sep">·</span> <strong>${escapeHtml(t(terms.labels, 'regions', lang))}:</strong> ${escapeHtml(fam.regions.join(', '))}</p>
 ${fam.aliases ? `<p><strong>${escapeHtml(t(terms.labels, 'aliases', lang))}:</strong> ${escapeHtml((fam.aliases[lang] || fam.aliases.en || []).join(' · '))}</p>` : ''}
+
+${renderFitCheckWidget(fam.id, lang)}
 
 ${gallerySectionHtml}
 
@@ -1661,7 +1733,7 @@ function build() {
         title: fam.title[lang] || fam.title.en,
         description: (fam.summary[lang] || fam.summary.en).slice(0, 200),
         bodyHtml: `<h1>${escapeHtml(fam.title[lang] || fam.title.en)}</h1>\n${p.html}`,
-        breadcrumbs: [...homeCrumb, { label: lang === 'zh' ? '锁型库' : 'Lock families', href: hrefFor(lang, 'locks/index.html') }, { label: fam.title[lang] || fam.title.en }],
+        breadcrumbs: [...homeCrumb, { label: lang === 'zh' ? '8大板块图谱' : 'Lock Catalog', href: hrefFor(lang, 'index.html') }, { label: fam.title[lang] || fam.title.en }],
         headings: p.headings,
         jsonLd: p.ld,
       });
@@ -2000,7 +2072,17 @@ function fourOhFour() {
     path: '404.html',
     baseUrl: BASE_URL,
     site: { ...site, navigation: { [lang]: rewriteNav(site.navigation[lang], lang) } },
-    extraHead: `<meta http-equiv="refresh" content="3;url=/${urlFor(lang, 'index.html')}" />`,
+    extraHead: `<meta http-equiv="refresh" content="5;url=/${urlFor(lang, 'index.html')}" />
+    <script>
+      // 客户端智能 404 纠偏：若用户漏输入 .html，自动静默补全跳转
+      (function() {
+        var path = window.location.pathname;
+        if (path && !path.endsWith('.html') && !path.endsWith('/')) {
+          window.location.replace(path + '.html' + window.location.search + window.location.hash);
+        }
+      })();
+    </script>`,
+
     body,
     breadcrumbs: [{ label: site.name, href: hrefFor(lang, 'index.html') }, { label: '404' }],
   });
